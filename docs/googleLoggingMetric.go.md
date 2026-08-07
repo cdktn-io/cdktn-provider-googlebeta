@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.NewGoogleLoggingMetric(scope Construct, id *string, config GoogleLoggingMetricConfig) GoogleLoggingMetric
 ```
@@ -516,7 +516,7 @@ func ResetValueExtractor()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetric.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.GoogleLoggingMetric_IsConstruct(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetric.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.GoogleLoggingMetric_IsTerraformElement(x interface{}) *bool
 ```
@@ -562,7 +562,7 @@ googleloggingmetric.GoogleLoggingMetric_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetric.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.GoogleLoggingMetric_IsTerraformResource(x interface{}) *bool
 ```
@@ -576,7 +576,7 @@ googleloggingmetric.GoogleLoggingMetric_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetric.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.GoogleLoggingMetric_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1091,12 +1091,12 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricBucketOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 &googleloggingmetric.GoogleLoggingMetricBucketOptions {
-	ExplicitBuckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleLoggingMetric.GoogleLoggingMetricBucketOptionsExplicitBuckets,
-	ExponentialBuckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleLoggingMetric.GoogleLoggingMetricBucketOptionsExponentialBuckets,
-	LinearBuckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleLoggingMetric.GoogleLoggingMetricBucketOptionsLinearBuckets,
+	ExplicitBuckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleLoggingMetric.GoogleLoggingMetricBucketOptionsExplicitBuckets,
+	ExponentialBuckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleLoggingMetric.GoogleLoggingMetricBucketOptionsExponentialBuckets,
+	LinearBuckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleLoggingMetric.GoogleLoggingMetricBucketOptionsLinearBuckets,
 }
 ```
 
@@ -1157,7 +1157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricBucketOptionsExplicitBuckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 &googleloggingmetric.GoogleLoggingMetricBucketOptionsExplicitBuckets {
 	Bounds: *[]*f64,
@@ -1191,7 +1191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricBucketOptionsExponentialBuckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 &googleloggingmetric.GoogleLoggingMetricBucketOptionsExponentialBuckets {
 	GrowthFactor: *f64,
@@ -1257,7 +1257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricBucketOptionsLinearBuckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 &googleloggingmetric.GoogleLoggingMetricBucketOptionsLinearBuckets {
 	NumFiniteBuckets: *f64,
@@ -1323,7 +1323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 &googleloggingmetric.GoogleLoggingMetricConfig {
 	Connection: interface{},
@@ -1336,15 +1336,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelo
 	Filter: *string,
 	Name: *string,
 	BucketName: *string,
-	BucketOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleLoggingMetric.GoogleLoggingMetricBucketOptions,
+	BucketOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleLoggingMetric.GoogleLoggingMetricBucketOptions,
 	DeletionPolicy: *string,
 	Description: *string,
 	Disabled: interface{},
 	Id: *string,
 	LabelExtractors: *map[string]*string,
-	MetricDescriptor: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleLoggingMetric.GoogleLoggingMetricMetricDescriptor,
+	MetricDescriptor: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleLoggingMetric.GoogleLoggingMetricMetricDescriptor,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleLoggingMetric.GoogleLoggingMetricTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleLoggingMetric.GoogleLoggingMetricTimeouts,
 	ValueExtractor: *string,
 }
 ```
@@ -1659,7 +1659,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricMetricDescriptor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 &googleloggingmetric.GoogleLoggingMetricMetricDescriptor {
 	MetricKind: *string,
@@ -1771,7 +1771,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricMetricDescriptorLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 &googleloggingmetric.GoogleLoggingMetricMetricDescriptorLabels {
 	Key: *string,
@@ -1837,7 +1837,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 &googleloggingmetric.GoogleLoggingMetricTimeouts {
 	Create: *string,
@@ -1899,7 +1899,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricBucketOptionsExplicitBucketsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.NewGoogleLoggingMetricBucketOptionsExplicitBucketsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleLoggingMetricBucketOptionsExplicitBucketsOutputReference
 ```
@@ -2170,7 +2170,7 @@ func InternalValue() GoogleLoggingMetricBucketOptionsExplicitBuckets
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricBucketOptionsExponentialBucketsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.NewGoogleLoggingMetricBucketOptionsExponentialBucketsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleLoggingMetricBucketOptionsExponentialBucketsOutputReference
 ```
@@ -2485,7 +2485,7 @@ func InternalValue() GoogleLoggingMetricBucketOptionsExponentialBuckets
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricBucketOptionsLinearBucketsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.NewGoogleLoggingMetricBucketOptionsLinearBucketsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleLoggingMetricBucketOptionsLinearBucketsOutputReference
 ```
@@ -2800,7 +2800,7 @@ func InternalValue() GoogleLoggingMetricBucketOptionsLinearBuckets
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricBucketOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.NewGoogleLoggingMetricBucketOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleLoggingMetricBucketOptionsOutputReference
 ```
@@ -3175,7 +3175,7 @@ func InternalValue() GoogleLoggingMetricBucketOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricMetricDescriptorLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.NewGoogleLoggingMetricMetricDescriptorLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleLoggingMetricMetricDescriptorLabelsList
 ```
@@ -3335,7 +3335,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricMetricDescriptorLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.NewGoogleLoggingMetricMetricDescriptorLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleLoggingMetricMetricDescriptorLabelsOutputReference
 ```
@@ -3682,7 +3682,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricMetricDescriptorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.NewGoogleLoggingMetricMetricDescriptorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleLoggingMetricMetricDescriptorOutputReference
 ```
@@ -4075,7 +4075,7 @@ func InternalValue() GoogleLoggingMetricMetricDescriptor
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingmetric"
 
 googleloggingmetric.NewGoogleLoggingMetricTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleLoggingMetricTimeoutsOutputReference
 ```

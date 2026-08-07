@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.NewGoogleSecureSourceManagerHook(scope Construct, id *string, config GoogleSecureSourceManagerHookConfig) GoogleSecureSourceManagerHook
 ```
@@ -482,7 +482,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHook.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_IsConstruct(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHook.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_IsTerraformElement(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHook.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_IsTerraformResource(x interface{}) *bool
 ```
@@ -542,7 +542,7 @@ googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHook.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1079,7 +1079,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerhook"
 
 &googlesecuresourcemanagerhook.GoogleSecureSourceManagerHookConfig {
 	Connection: interface{},
@@ -1098,9 +1098,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlese
 	Events: *[]*string,
 	Id: *string,
 	Project: *string,
-	PushOption: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookPushOption,
+	PushOption: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookPushOption,
 	SensitiveQueryString: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts,
 }
 ```
 
@@ -1379,7 +1379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookPushOption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerhook"
 
 &googlesecuresourcemanagerhook.GoogleSecureSourceManagerHookPushOption {
 	BranchFilter: *string,
@@ -1417,7 +1417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerhook"
 
 &googlesecuresourcemanagerhook.GoogleSecureSourceManagerHookTimeouts {
 	Create: *string,
@@ -1479,7 +1479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookPushOptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.NewGoogleSecureSourceManagerHookPushOptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSecureSourceManagerHookPushOptionOutputReference
 ```
@@ -1757,7 +1757,7 @@ func InternalValue() GoogleSecureSourceManagerHookPushOption
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.NewGoogleSecureSourceManagerHookTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSecureSourceManagerHookTimeoutsOutputReference
 ```

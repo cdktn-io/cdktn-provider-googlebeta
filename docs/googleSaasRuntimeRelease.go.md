@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeRelease.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.NewGoogleSaasRuntimeRelease(scope Construct, id *string, config GoogleSaasRuntimeReleaseConfig) GoogleSaasRuntimeRelease
 ```
@@ -515,7 +515,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeRelease.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.GoogleSaasRuntimeRelease_IsConstruct(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeRelease.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.GoogleSaasRuntimeRelease_IsTerraformElement(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ googlesaasruntimerelease.GoogleSaasRuntimeRelease_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeRelease.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.GoogleSaasRuntimeRelease_IsTerraformResource(x interface{}) *bool
 ```
@@ -575,7 +575,7 @@ googlesaasruntimerelease.GoogleSaasRuntimeRelease_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeRelease.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.GoogleSaasRuntimeRelease_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1178,7 +1178,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseBlueprint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 &googlesaasruntimerelease.GoogleSaasRuntimeReleaseBlueprint {
 	Package: *string,
@@ -1212,7 +1212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 &googlesaasruntimerelease.GoogleSaasRuntimeReleaseConfig {
 	Connection: interface{},
@@ -1226,14 +1226,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesa
 	ReleaseId: *string,
 	UnitKind: *string,
 	Annotations: *map[string]*string,
-	Blueprint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseBlueprint,
+	Blueprint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseBlueprint,
 	DeletionPolicy: *string,
 	Id: *string,
 	InputVariableDefaults: interface{},
 	Labels: *map[string]*string,
 	Project: *string,
-	ReleaseRequirements: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseReleaseRequirements,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseTimeouts,
+	ReleaseRequirements: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseReleaseRequirements,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseTimeouts,
 }
 ```
 
@@ -1522,7 +1522,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseInputVariableDefaults.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 &googlesaasruntimerelease.GoogleSaasRuntimeReleaseInputVariableDefaults {
 	Variable: *string,
@@ -1588,7 +1588,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseInputVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 &googlesaasruntimerelease.GoogleSaasRuntimeReleaseInputVariables {
 
@@ -1601,7 +1601,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesa
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseOutputVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 &googlesaasruntimerelease.GoogleSaasRuntimeReleaseOutputVariables {
 
@@ -1614,7 +1614,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesa
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseReleaseRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 &googlesaasruntimerelease.GoogleSaasRuntimeReleaseReleaseRequirements {
 	UpgradeableFromReleases: *[]*string,
@@ -1652,7 +1652,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 &googlesaasruntimerelease.GoogleSaasRuntimeReleaseTimeouts {
 	Create: *string,
@@ -1714,7 +1714,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseBlueprintOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.NewGoogleSaasRuntimeReleaseBlueprintOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSaasRuntimeReleaseBlueprintOutputReference
 ```
@@ -2014,7 +2014,7 @@ func InternalValue() GoogleSaasRuntimeReleaseBlueprint
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseInputVariableDefaultsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.NewGoogleSaasRuntimeReleaseInputVariableDefaultsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleSaasRuntimeReleaseInputVariableDefaultsList
 ```
@@ -2174,7 +2174,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseInputVariableDefaultsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.NewGoogleSaasRuntimeReleaseInputVariableDefaultsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleSaasRuntimeReleaseInputVariableDefaultsOutputReference
 ```
@@ -2521,7 +2521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseInputVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.NewGoogleSaasRuntimeReleaseInputVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleSaasRuntimeReleaseInputVariablesList
 ```
@@ -2670,7 +2670,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseInputVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.NewGoogleSaasRuntimeReleaseInputVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleSaasRuntimeReleaseInputVariablesOutputReference
 ```
@@ -2970,7 +2970,7 @@ func InternalValue() GoogleSaasRuntimeReleaseInputVariables
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseOutputVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.NewGoogleSaasRuntimeReleaseOutputVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleSaasRuntimeReleaseOutputVariablesList
 ```
@@ -3119,7 +3119,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseOutputVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.NewGoogleSaasRuntimeReleaseOutputVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleSaasRuntimeReleaseOutputVariablesOutputReference
 ```
@@ -3419,7 +3419,7 @@ func InternalValue() GoogleSaasRuntimeReleaseOutputVariables
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseReleaseRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.NewGoogleSaasRuntimeReleaseReleaseRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSaasRuntimeReleaseReleaseRequirementsOutputReference
 ```
@@ -3697,7 +3697,7 @@ func InternalValue() GoogleSaasRuntimeReleaseReleaseRequirements
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRelease.GoogleSaasRuntimeReleaseTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerelease"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease"
 
 googlesaasruntimerelease.NewGoogleSaasRuntimeReleaseTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSaasRuntimeReleaseTimeoutsOutputReference
 ```

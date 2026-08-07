@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.ephemeralGoogleServiceAccountKey.EphemeralGoogleServiceAccountKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/ephemeralgoogleserviceaccountkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/ephemeralgoogleserviceaccountkey"
 
 ephemeralgoogleserviceaccountkey.NewEphemeralGoogleServiceAccountKey(scope Construct, id *string, config EphemeralGoogleServiceAccountKeyConfig) EphemeralGoogleServiceAccountKey
 ```
@@ -351,7 +351,7 @@ func ResetServiceAccountId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.ephemeralGoogleServiceAccountKey.EphemeralGoogleServiceAccountKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/ephemeralgoogleserviceaccountkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/ephemeralgoogleserviceaccountkey"
 
 ephemeralgoogleserviceaccountkey.EphemeralGoogleServiceAccountKey_IsConstruct(x interface{}) *bool
 ```
@@ -383,7 +383,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.ephemeralGoogleServiceAccountKey.EphemeralGoogleServiceAccountKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/ephemeralgoogleserviceaccountkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/ephemeralgoogleserviceaccountkey"
 
 ephemeralgoogleserviceaccountkey.EphemeralGoogleServiceAccountKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -397,7 +397,7 @@ ephemeralgoogleserviceaccountkey.EphemeralGoogleServiceAccountKey_IsTerraformEle
 ##### `IsTerraformEphemeralResource` <a name="IsTerraformEphemeralResource" id="@cdktn/provider-google-beta.ephemeralGoogleServiceAccountKey.EphemeralGoogleServiceAccountKey.isTerraformEphemeralResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/ephemeralgoogleserviceaccountkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/ephemeralgoogleserviceaccountkey"
 
 ephemeralgoogleserviceaccountkey.EphemeralGoogleServiceAccountKey_IsTerraformEphemeralResource(x interface{}) *bool
 ```
@@ -750,7 +750,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.ephemeralGoogleServiceAccountKey.EphemeralGoogleServiceAccountKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/ephemeralgoogleserviceaccountkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/ephemeralgoogleserviceaccountkey"
 
 &ephemeralgoogleserviceaccountkey.EphemeralGoogleServiceAccountKeyConfig {
 	Count: interface{},

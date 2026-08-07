@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiTensorboardExperiment.GoogleVertexAiTensorboardExperiment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaitensorboardexperiment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaitensorboardexperiment"
 
 googlevertexaitensorboardexperiment.NewGoogleVertexAiTensorboardExperiment(scope Construct, id *string, config GoogleVertexAiTensorboardExperimentConfig) GoogleVertexAiTensorboardExperiment
 ```
@@ -469,7 +469,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiTensorboardExperiment.GoogleVertexAiTensorboardExperiment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaitensorboardexperiment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaitensorboardexperiment"
 
 googlevertexaitensorboardexperiment.GoogleVertexAiTensorboardExperiment_IsConstruct(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiTensorboardExperiment.GoogleVertexAiTensorboardExperiment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaitensorboardexperiment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaitensorboardexperiment"
 
 googlevertexaitensorboardexperiment.GoogleVertexAiTensorboardExperiment_IsTerraformElement(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlevertexaitensorboardexperiment.GoogleVertexAiTensorboardExperiment_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiTensorboardExperiment.GoogleVertexAiTensorboardExperiment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaitensorboardexperiment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaitensorboardexperiment"
 
 googlevertexaitensorboardexperiment.GoogleVertexAiTensorboardExperiment_IsTerraformResource(x interface{}) *bool
 ```
@@ -529,7 +529,7 @@ googlevertexaitensorboardexperiment.GoogleVertexAiTensorboardExperiment_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiTensorboardExperiment.GoogleVertexAiTensorboardExperiment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaitensorboardexperiment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaitensorboardexperiment"
 
 googlevertexaitensorboardexperiment.GoogleVertexAiTensorboardExperiment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1055,7 +1055,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiTensorboardExperiment.GoogleVertexAiTensorboardExperimentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaitensorboardexperiment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaitensorboardexperiment"
 
 &googlevertexaitensorboardexperiment.GoogleVertexAiTensorboardExperimentConfig {
 	Connection: interface{},
@@ -1075,7 +1075,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleve
 	Labels: *map[string]*string,
 	Project: *string,
 	Source: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiTensorboardExperiment.GoogleVertexAiTensorboardExperimentTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiTensorboardExperiment.GoogleVertexAiTensorboardExperimentTimeouts,
 }
 ```
 
@@ -1358,7 +1358,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiTensorboardExperiment.GoogleVertexAiTensorboardExperimentTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaitensorboardexperiment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaitensorboardexperiment"
 
 &googlevertexaitensorboardexperiment.GoogleVertexAiTensorboardExperimentTimeouts {
 	Create: *string,
@@ -1420,7 +1420,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiTensorboardExperiment.GoogleVertexAiTensorboardExperimentTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaitensorboardexperiment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaitensorboardexperiment"
 
 googlevertexaitensorboardexperiment.NewGoogleVertexAiTensorboardExperimentTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiTensorboardExperimentTimeoutsOutputReference
 ```

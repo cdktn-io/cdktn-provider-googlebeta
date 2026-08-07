@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesTool(scope Construct, id *string, config GoogleCesToolConfig) GoogleCesTool
 ```
@@ -615,7 +615,7 @@ func ResetWidgetTool()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.GoogleCesTool_IsConstruct(x interface{}) *bool
 ```
@@ -647,7 +647,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.GoogleCesTool_IsTerraformElement(x interface{}) *bool
 ```
@@ -661,7 +661,7 @@ googlecestool.GoogleCesTool_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.GoogleCesTool_IsTerraformResource(x interface{}) *bool
 ```
@@ -675,7 +675,7 @@ googlecestool.GoogleCesTool_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.GoogleCesTool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1399,7 +1399,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolAgentTool {
 	Name: *string,
@@ -1465,13 +1465,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolClientFunction {
 	Name: *string,
 	Description: *string,
-	Parameters: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolClientFunctionParameters,
-	Response: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolClientFunctionResponse,
+	Parameters: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolClientFunctionParameters,
+	Response: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolClientFunctionResponse,
 }
 ```
 
@@ -1547,7 +1547,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunctionParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolClientFunctionParameters {
 	Type: *string,
@@ -1903,7 +1903,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunctionResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolClientFunctionResponse {
 	Type: *string,
@@ -2259,7 +2259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolConfig {
 	Connection: interface{},
@@ -2272,20 +2272,20 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 	App: *string,
 	Location: *string,
 	ToolId: *string,
-	AgentTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolAgentTool,
-	ClientFunction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolClientFunction,
-	DataStoreTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolDataStoreTool,
+	AgentTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolAgentTool,
+	ClientFunction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolClientFunction,
+	DataStoreTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolDataStoreTool,
 	DeletionPolicy: *string,
 	ExecutionType: *string,
-	FileSearchTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolFileSearchTool,
-	GoogleSearchTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolGoogleSearchTool,
+	FileSearchTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolFileSearchTool,
+	GoogleSearchTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolGoogleSearchTool,
 	Id: *string,
 	Project: *string,
-	PythonFunction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolPythonFunction,
+	PythonFunction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolPythonFunction,
 	Timeout: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolTimeouts,
-	ToolFakeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolToolFakeConfig,
-	WidgetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolWidgetTool,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolTimeouts,
+	ToolFakeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolToolFakeConfig,
+	WidgetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolWidgetTool,
 }
 ```
 
@@ -2645,7 +2645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolConnectorTool {
 
@@ -2658,7 +2658,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolConnectorToolAction {
 
@@ -2671,7 +2671,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolConnectorToolActionEntityOperation {
 
@@ -2684,14 +2684,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreTool {
 	Name: *string,
 	BoostSpecs: interface{},
-	DataStoreSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource,
+	DataStoreSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource,
 	Description: *string,
-	EngineSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolDataStoreToolEngineSource,
+	EngineSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolDataStoreToolEngineSource,
 	FilterParameterBehavior: *string,
 	MaxResults: *f64,
 	ModalityConfigs: interface{},
@@ -2830,7 +2830,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolBoostSpecs {
 	DataStores: *[]*string,
@@ -2880,7 +2880,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolBoostSpecsSpec {
 	ConditionBoostSpecs: interface{},
@@ -2914,12 +2914,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecs {
 	Condition: *string,
 	Boost: *f64,
-	BoostControlSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec,
+	BoostControlSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec,
 }
 ```
 
@@ -2995,7 +2995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec {
 	AttributeType: *string,
@@ -3086,7 +3086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPoints {
 	AttributeValue: *string,
@@ -3142,10 +3142,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolDataStoreSource {
-	DataStore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore,
+	DataStore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore,
 	Filter: *string,
 }
 ```
@@ -3192,7 +3192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolDataStoreSourceDataStore {
 	Name: *string,
@@ -3226,7 +3226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig {
 
@@ -3239,7 +3239,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolEngineSource {
 	Engine: *string,
@@ -3305,10 +3305,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSourceDataStoreSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolEngineSourceDataStoreSources {
-	DataStore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStore,
+	DataStore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStore,
 	Filter: *string,
 }
 ```
@@ -3355,7 +3355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStore {
 	Name: *string,
@@ -3389,7 +3389,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfig {
 
@@ -3402,13 +3402,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolModalityConfigs {
 	ModalityType: *string,
-	GroundingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsGroundingConfig,
-	RewriterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsRewriterConfig,
-	SummarizationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig,
+	GroundingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsGroundingConfig,
+	RewriterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsRewriterConfig,
+	SummarizationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig,
 }
 ```
 
@@ -3484,7 +3484,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsGroundingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolModalityConfigsGroundingConfig {
 	Disabled: interface{},
@@ -3541,10 +3541,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsRewriterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolModalityConfigsRewriterConfig {
-	ModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettings,
+	ModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettings,
 	Disabled: interface{},
 	Prompt: *string,
 }
@@ -3607,7 +3607,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettings {
 	Model: *string,
@@ -3664,11 +3664,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig {
 	Disabled: interface{},
-	ModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettings,
+	ModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettings,
 	Prompt: *string,
 }
 ```
@@ -3730,7 +3730,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettings {
 	Model: *string,
@@ -3787,7 +3787,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolFileSearchTool {
 	Name: *string,
@@ -3869,7 +3869,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolGoogleSearchTool {
 	Name: *string,
@@ -3877,7 +3877,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 	Description: *string,
 	ExcludeDomains: *[]*string,
 	PreferredDomains: *[]*string,
-	PromptConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig,
+	PromptConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig,
 }
 ```
 
@@ -3993,7 +3993,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolGoogleSearchToolPromptConfig {
 	TextPrompt: *string,
@@ -4049,7 +4049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolMcpTool {
 
@@ -4062,7 +4062,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolMcpToolApiAuthentication {
 
@@ -4075,7 +4075,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfig {
 
@@ -4088,7 +4088,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig {
 
@@ -4101,7 +4101,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolMcpToolApiAuthenticationOauthConfig {
 
@@ -4114,7 +4114,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig {
 
@@ -4127,7 +4127,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig {
 
@@ -4140,7 +4140,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolMcpToolServiceDirectoryConfig {
 
@@ -4153,7 +4153,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolMcpToolTlsConfig {
 
@@ -4166,7 +4166,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCerts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolMcpToolTlsConfigCaCerts {
 
@@ -4179,7 +4179,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolOpenApiTool {
 
@@ -4192,7 +4192,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolOpenApiToolApiAuthentication {
 
@@ -4205,7 +4205,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolOpenApiToolApiAuthenticationApiKeyConfig {
 
@@ -4218,7 +4218,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfig {
 
@@ -4231,7 +4231,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationOauthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolOpenApiToolApiAuthenticationOauthConfig {
 
@@ -4244,7 +4244,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfig {
 
@@ -4257,7 +4257,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfig {
 
@@ -4270,7 +4270,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolOpenApiToolServiceDirectoryConfig {
 
@@ -4283,7 +4283,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolOpenApiToolTlsConfig {
 
@@ -4296,7 +4296,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolTlsConfigCaCerts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolOpenApiToolTlsConfigCaCerts {
 
@@ -4309,7 +4309,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolPythonFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolPythonFunction {
 	Name: *string,
@@ -4363,7 +4363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolRemoteAgentTool {
 
@@ -4376,7 +4376,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolRemoteAgentToolAgentCard {
 
@@ -4389,7 +4389,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkills.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolRemoteAgentToolAgentCardSkills {
 
@@ -4402,7 +4402,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces {
 
@@ -4415,7 +4415,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolSystemTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolSystemTool {
 
@@ -4428,7 +4428,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolTimeouts {
 	Create: *string,
@@ -4488,10 +4488,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolToolFakeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolToolFakeConfig {
-	CodeBlock: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolToolFakeConfigCodeBlock,
+	CodeBlock: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolToolFakeConfigCodeBlock,
 	EnableFakeMode: interface{},
 }
 ```
@@ -4538,7 +4538,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolToolFakeConfigCodeBlock.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolToolFakeConfigCodeBlock {
 	PythonCode: *string,
@@ -4572,14 +4572,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolWidgetTool {
 	Name: *string,
-	DataMapping: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolWidgetToolDataMapping,
+	DataMapping: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolWidgetToolDataMapping,
 	Description: *string,
-	Parameters: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolWidgetToolParameters,
-	TextResponseConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig,
+	Parameters: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolWidgetToolParameters,
+	TextResponseConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig,
 	UiConfig: *string,
 	WidgetType: *string,
 }
@@ -4718,12 +4718,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolWidgetToolDataMapping {
 	FieldMappings: *map[string]*string,
 	Mode: *string,
-	PythonFunction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction,
+	PythonFunction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction,
 	SourceToolName: *string,
 }
 ```
@@ -4806,7 +4806,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolWidgetToolDataMappingPythonFunction {
 	Name: *string,
@@ -4860,7 +4860,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolWidgetToolParameters {
 	Type: *string,
@@ -5216,7 +5216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 &googlecestool.GoogleCesToolWidgetToolTextResponseConfig {
 	StaticText: *string,
@@ -5287,7 +5287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolAgentToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolAgentToolOutputReference
 ```
@@ -5616,7 +5616,7 @@ func InternalValue() GoogleCesToolAgentTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunctionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolClientFunctionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolClientFunctionOutputReference
 ```
@@ -6000,7 +6000,7 @@ func InternalValue() GoogleCesToolClientFunction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunctionParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolClientFunctionParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolClientFunctionParametersOutputReference
 ```
@@ -6793,7 +6793,7 @@ func InternalValue() GoogleCesToolClientFunctionParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunctionResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolClientFunctionResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolClientFunctionResponseOutputReference
 ```
@@ -7586,7 +7586,7 @@ func InternalValue() GoogleCesToolClientFunctionResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolConnectorToolActionEntityOperationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolConnectorToolActionEntityOperationList
 ```
@@ -7735,7 +7735,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolConnectorToolActionEntityOperationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolConnectorToolActionEntityOperationOutputReference
 ```
@@ -8024,7 +8024,7 @@ func InternalValue() GoogleCesToolConnectorToolActionEntityOperation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolConnectorToolActionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolConnectorToolActionList
 ```
@@ -8173,7 +8173,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolConnectorToolActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolConnectorToolActionOutputReference
 ```
@@ -8484,7 +8484,7 @@ func InternalValue() GoogleCesToolConnectorToolAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolConnectorToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolConnectorToolList
 ```
@@ -8633,7 +8633,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolConnectorToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolConnectorToolOutputReference
 ```
@@ -8955,7 +8955,7 @@ func InternalValue() GoogleCesToolConnectorTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolBoostSpecsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolDataStoreToolBoostSpecsList
 ```
@@ -9115,7 +9115,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolBoostSpecsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolDataStoreToolBoostSpecsOutputReference
 ```
@@ -9439,7 +9439,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsList
 ```
@@ -9599,7 +9599,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsOutputReference
 ```
@@ -9924,7 +9924,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecOutputReference
 ```
@@ -10302,7 +10302,7 @@ func InternalValue() GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsList
 ```
@@ -10462,7 +10462,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsOutputReference
 ```
@@ -10822,7 +10822,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolBoostSpecsSpecList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolDataStoreToolBoostSpecsSpecList
 ```
@@ -10982,7 +10982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolBoostSpecsSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolDataStoreToolBoostSpecsSpecOutputReference
 ```
@@ -11284,7 +11284,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList
 ```
@@ -11433,7 +11433,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference
 ```
@@ -11733,7 +11733,7 @@ func InternalValue() GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnector
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference
 ```
@@ -12059,7 +12059,7 @@ func InternalValue() GoogleCesToolDataStoreToolDataStoreSourceDataStore
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolDataStoreSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolDataStoreToolDataStoreSourceOutputReference
 ```
@@ -12379,7 +12379,7 @@ func InternalValue() GoogleCesToolDataStoreToolDataStoreSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigList
 ```
@@ -12528,7 +12528,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigOutputReference
 ```
@@ -12828,7 +12828,7 @@ func InternalValue() GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreOutputReference
 ```
@@ -13154,7 +13154,7 @@ func InternalValue() GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolEngineSourceDataStoreSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesList
 ```
@@ -13314,7 +13314,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolEngineSourceDataStoreSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesOutputReference
 ```
@@ -13652,7 +13652,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolEngineSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolDataStoreToolEngineSourceOutputReference
 ```
@@ -13994,7 +13994,7 @@ func InternalValue() GoogleCesToolDataStoreToolEngineSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsGroundingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolModalityConfigsGroundingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolDataStoreToolModalityConfigsGroundingConfigOutputReference
 ```
@@ -14301,7 +14301,7 @@ func InternalValue() GoogleCesToolDataStoreToolModalityConfigsGroundingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolModalityConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolDataStoreToolModalityConfigsList
 ```
@@ -14461,7 +14461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolModalityConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolDataStoreToolModalityConfigsOutputReference
 ```
@@ -14876,7 +14876,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettingsOutputReference
 ```
@@ -15183,7 +15183,7 @@ func InternalValue() GoogleCesToolDataStoreToolModalityConfigsRewriterConfigMode
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsRewriterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolModalityConfigsRewriterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolDataStoreToolModalityConfigsRewriterConfigOutputReference
 ```
@@ -15525,7 +15525,7 @@ func InternalValue() GoogleCesToolDataStoreToolModalityConfigsRewriterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference
 ```
@@ -15832,7 +15832,7 @@ func InternalValue() GoogleCesToolDataStoreToolModalityConfigsSummarizationConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolModalityConfigsSummarizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigOutputReference
 ```
@@ -16181,7 +16181,7 @@ func InternalValue() GoogleCesToolDataStoreToolModalityConfigsSummarizationConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolDataStoreToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolDataStoreToolOutputReference
 ```
@@ -16707,7 +16707,7 @@ func InternalValue() GoogleCesToolDataStoreTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolFileSearchToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolFileSearchToolOutputReference
 ```
@@ -17065,7 +17065,7 @@ func InternalValue() GoogleCesToolFileSearchTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolGoogleSearchToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolGoogleSearchToolOutputReference
 ```
@@ -17494,7 +17494,7 @@ func InternalValue() GoogleCesToolGoogleSearchTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolGoogleSearchToolPromptConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolGoogleSearchToolPromptConfigOutputReference
 ```
@@ -17801,7 +17801,7 @@ func InternalValue() GoogleCesToolGoogleSearchToolPromptConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationApiKeyConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList
 ```
@@ -17950,7 +17950,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference
 ```
@@ -18250,7 +18250,7 @@ func InternalValue() GoogleCesToolMcpToolApiAuthenticationApiKeyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList
 ```
@@ -18399,7 +18399,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference
 ```
@@ -18677,7 +18677,7 @@ func InternalValue() GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolMcpToolApiAuthenticationList
 ```
@@ -18826,7 +18826,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationOauthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolMcpToolApiAuthenticationOauthConfigList
 ```
@@ -18975,7 +18975,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference
 ```
@@ -19297,7 +19297,7 @@ func InternalValue() GoogleCesToolMcpToolApiAuthenticationOauthConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolMcpToolApiAuthenticationOutputReference
 ```
@@ -19619,7 +19619,7 @@ func InternalValue() GoogleCesToolMcpToolApiAuthentication
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList
 ```
@@ -19768,7 +19768,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference
 ```
@@ -20046,7 +20046,7 @@ func InternalValue() GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList
 ```
@@ -20195,7 +20195,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference
 ```
@@ -20462,7 +20462,7 @@ func InternalValue() GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAut
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolMcpToolList
 ```
@@ -20611,7 +20611,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolMcpToolOutputReference
 ```
@@ -20999,7 +20999,7 @@ func InternalValue() GoogleCesToolMcpTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolServiceDirectoryConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolMcpToolServiceDirectoryConfigList
 ```
@@ -21148,7 +21148,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolMcpToolServiceDirectoryConfigOutputReference
 ```
@@ -21426,7 +21426,7 @@ func InternalValue() GoogleCesToolMcpToolServiceDirectoryConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolTlsConfigCaCertsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolMcpToolTlsConfigCaCertsList
 ```
@@ -21575,7 +21575,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolTlsConfigCaCertsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolMcpToolTlsConfigCaCertsOutputReference
 ```
@@ -21864,7 +21864,7 @@ func InternalValue() GoogleCesToolMcpToolTlsConfigCaCerts
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolTlsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolMcpToolTlsConfigList
 ```
@@ -22013,7 +22013,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolMcpToolTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolMcpToolTlsConfigOutputReference
 ```
@@ -22291,7 +22291,7 @@ func InternalValue() GoogleCesToolMcpToolTlsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationApiKeyConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationApiKeyConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolOpenApiToolApiAuthenticationApiKeyConfigList
 ```
@@ -22440,7 +22440,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationApiKeyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationApiKeyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolOpenApiToolApiAuthenticationApiKeyConfigOutputReference
 ```
@@ -22740,7 +22740,7 @@ func InternalValue() GoogleCesToolOpenApiToolApiAuthenticationApiKeyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfigList
 ```
@@ -22889,7 +22889,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfigOutputReference
 ```
@@ -23167,7 +23167,7 @@ func InternalValue() GoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolOpenApiToolApiAuthenticationList
 ```
@@ -23316,7 +23316,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationOauthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationOauthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolOpenApiToolApiAuthenticationOauthConfigList
 ```
@@ -23465,7 +23465,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationOauthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationOauthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolOpenApiToolApiAuthenticationOauthConfigOutputReference
 ```
@@ -23787,7 +23787,7 @@ func InternalValue() GoogleCesToolOpenApiToolApiAuthenticationOauthConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolOpenApiToolApiAuthenticationOutputReference
 ```
@@ -24109,7 +24109,7 @@ func InternalValue() GoogleCesToolOpenApiToolApiAuthentication
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfigList
 ```
@@ -24258,7 +24258,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfigOutputReference
 ```
@@ -24536,7 +24536,7 @@ func InternalValue() GoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuth
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigList
 ```
@@ -24685,7 +24685,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference
 ```
@@ -24952,7 +24952,7 @@ func InternalValue() GoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdToke
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolOpenApiToolList
 ```
@@ -25101,7 +25101,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolOpenApiToolOutputReference
 ```
@@ -25456,7 +25456,7 @@ func InternalValue() GoogleCesToolOpenApiTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolServiceDirectoryConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolServiceDirectoryConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolOpenApiToolServiceDirectoryConfigList
 ```
@@ -25605,7 +25605,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolOpenApiToolServiceDirectoryConfigOutputReference
 ```
@@ -25883,7 +25883,7 @@ func InternalValue() GoogleCesToolOpenApiToolServiceDirectoryConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolTlsConfigCaCertsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolTlsConfigCaCertsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolOpenApiToolTlsConfigCaCertsList
 ```
@@ -26032,7 +26032,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolTlsConfigCaCertsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolTlsConfigCaCertsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolOpenApiToolTlsConfigCaCertsOutputReference
 ```
@@ -26321,7 +26321,7 @@ func InternalValue() GoogleCesToolOpenApiToolTlsConfigCaCerts
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolTlsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolTlsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolOpenApiToolTlsConfigList
 ```
@@ -26470,7 +26470,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolOpenApiToolTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolOpenApiToolTlsConfigOutputReference
 ```
@@ -26748,7 +26748,7 @@ func InternalValue() GoogleCesToolOpenApiToolTlsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolPythonFunctionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolPythonFunctionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolPythonFunctionOutputReference
 ```
@@ -27066,7 +27066,7 @@ func InternalValue() GoogleCesToolPythonFunction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolRemoteAgentToolAgentCardList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolRemoteAgentToolAgentCardList
 ```
@@ -27215,7 +27215,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolRemoteAgentToolAgentCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolRemoteAgentToolAgentCardOutputReference
 ```
@@ -27537,7 +27537,7 @@ func InternalValue() GoogleCesToolRemoteAgentToolAgentCard
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolRemoteAgentToolAgentCardSkillsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolRemoteAgentToolAgentCardSkillsList
 ```
@@ -27686,7 +27686,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference
 ```
@@ -28030,7 +28030,7 @@ func InternalValue() GoogleCesToolRemoteAgentToolAgentCardSkills
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList
 ```
@@ -28179,7 +28179,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference
 ```
@@ -28490,7 +28490,7 @@ func InternalValue() GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolRemoteAgentToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolRemoteAgentToolList
 ```
@@ -28639,7 +28639,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolRemoteAgentToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolRemoteAgentToolOutputReference
 ```
@@ -28939,7 +28939,7 @@ func InternalValue() GoogleCesToolRemoteAgentTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolSystemToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolSystemToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolSystemToolList
 ```
@@ -29088,7 +29088,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolSystemToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolSystemToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolSystemToolOutputReference
 ```
@@ -29377,7 +29377,7 @@ func InternalValue() GoogleCesToolSystemTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolTimeoutsOutputReference
 ```
@@ -29713,7 +29713,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolToolFakeConfigCodeBlockOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolToolFakeConfigCodeBlockOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolToolFakeConfigCodeBlockOutputReference
 ```
@@ -29984,7 +29984,7 @@ func InternalValue() GoogleCesToolToolFakeConfigCodeBlock
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolToolFakeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolToolFakeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolToolFakeConfigOutputReference
 ```
@@ -30304,7 +30304,7 @@ func InternalValue() GoogleCesToolToolFakeConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolWidgetToolDataMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolWidgetToolDataMappingOutputReference
 ```
@@ -30682,7 +30682,7 @@ func InternalValue() GoogleCesToolWidgetToolDataMapping
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference
 ```
@@ -31000,7 +31000,7 @@ func InternalValue() GoogleCesToolWidgetToolDataMappingPythonFunction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolWidgetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolWidgetToolOutputReference
 ```
@@ -31484,7 +31484,7 @@ func InternalValue() GoogleCesToolWidgetTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolWidgetToolParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolWidgetToolParametersOutputReference
 ```
@@ -32277,7 +32277,7 @@ func InternalValue() GoogleCesToolWidgetToolParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool"
 
 googlecestool.NewGoogleCesToolWidgetToolTextResponseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolWidgetToolTextResponseConfigOutputReference
 ```

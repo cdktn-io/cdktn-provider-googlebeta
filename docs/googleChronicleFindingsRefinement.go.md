@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclefindingsrefinement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement"
 
 googlechroniclefindingsrefinement.NewGoogleChronicleFindingsRefinement(scope Construct, id *string, config GoogleChronicleFindingsRefinementConfig) GoogleChronicleFindingsRefinement
 ```
@@ -475,7 +475,7 @@ func ResetType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinement.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclefindingsrefinement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement"
 
 googlechroniclefindingsrefinement.GoogleChronicleFindingsRefinement_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinement.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclefindingsrefinement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement"
 
 googlechroniclefindingsrefinement.GoogleChronicleFindingsRefinement_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googlechroniclefindingsrefinement.GoogleChronicleFindingsRefinement_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinement.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclefindingsrefinement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement"
 
 googlechroniclefindingsrefinement.GoogleChronicleFindingsRefinement_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googlechroniclefindingsrefinement.GoogleChronicleFindingsRefinement_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinement.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclefindingsrefinement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement"
 
 googlechroniclefindingsrefinement.GoogleChronicleFindingsRefinement_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -995,7 +995,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclefindingsrefinement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement"
 
 &googlechroniclefindingsrefinement.GoogleChronicleFindingsRefinementConfig {
 	Connection: interface{},
@@ -1012,7 +1012,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlech
 	OutcomeFilters: interface{},
 	Project: *string,
 	Query: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementTimeouts,
 	Type: *string,
 }
 ```
@@ -1246,7 +1246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementOutcomeFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclefindingsrefinement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement"
 
 &googlechroniclefindingsrefinement.GoogleChronicleFindingsRefinementOutcomeFilters {
 	OutcomeFilterOperator: *string,
@@ -1312,7 +1312,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclefindingsrefinement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement"
 
 &googlechroniclefindingsrefinement.GoogleChronicleFindingsRefinementTimeouts {
 	Create: *string,
@@ -1374,7 +1374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementOutcomeFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclefindingsrefinement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement"
 
 googlechroniclefindingsrefinement.NewGoogleChronicleFindingsRefinementOutcomeFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleFindingsRefinementOutcomeFiltersList
 ```
@@ -1534,7 +1534,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementOutcomeFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclefindingsrefinement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement"
 
 googlechroniclefindingsrefinement.NewGoogleChronicleFindingsRefinementOutcomeFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleFindingsRefinementOutcomeFiltersOutputReference
 ```
@@ -1867,7 +1867,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclefindingsrefinement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement"
 
 googlechroniclefindingsrefinement.NewGoogleChronicleFindingsRefinementTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleFindingsRefinementTimeoutsOutputReference
 ```

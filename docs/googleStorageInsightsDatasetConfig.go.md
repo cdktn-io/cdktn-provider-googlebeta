@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfig(scope Construct, id *string, config GoogleStorageInsightsDatasetConfigConfig) GoogleStorageInsightsDatasetConfig
 ```
@@ -616,7 +616,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfig_IsConstruct(x interface{}) *bool
 ```
@@ -648,7 +648,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -662,7 +662,7 @@ googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfig_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -676,7 +676,7 @@ googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfig_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1411,7 +1411,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigConfig {
 	Connection: interface{},
@@ -1422,25 +1422,25 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlest
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	DatasetConfigId: *string,
-	Identity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIdentity,
+	Identity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIdentity,
 	Location: *string,
 	RetentionPeriodDays: *f64,
 	ActivityDataRetentionPeriodDays: *f64,
 	DeletionPolicy: *string,
 	Description: *string,
-	ExcludeCloudStorageBuckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageBuckets,
-	ExcludeCloudStorageLocations: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocations,
+	ExcludeCloudStorageBuckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageBuckets,
+	ExcludeCloudStorageLocations: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocations,
 	Id: *string,
-	IncludeCloudStorageBuckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageBuckets,
-	IncludeCloudStorageLocations: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocations,
+	IncludeCloudStorageBuckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageBuckets,
+	IncludeCloudStorageLocations: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocations,
 	IncludeNewlyCreatedBuckets: interface{},
 	LinkDataset: interface{},
 	OrganizationNumber: *string,
 	OrganizationScope: interface{},
 	Project: *string,
-	SourceFolders: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigSourceFolders,
-	SourceProjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigSourceProjects,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigTimeouts,
+	SourceFolders: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigSourceFolders,
+	SourceProjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigSourceProjects,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigTimeouts,
 }
 ```
 
@@ -1847,7 +1847,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageBuckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageBuckets {
 	CloudStorageBuckets: interface{},
@@ -1881,7 +1881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets {
 	BucketName: *string,
@@ -1936,7 +1936,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocations {
 	Locations: *[]*string,
@@ -1970,7 +1970,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigIdentity {
 	Type: *string,
@@ -2004,7 +2004,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageBuckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageBuckets {
 	CloudStorageBuckets: interface{},
@@ -2038,7 +2038,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets {
 	BucketName: *string,
@@ -2093,7 +2093,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocations {
 	Locations: *[]*string,
@@ -2127,7 +2127,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigLink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigLink {
 
@@ -2140,7 +2140,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlest
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigSourceFolders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigSourceFolders {
 	FolderNumbers: *[]*string,
@@ -2174,7 +2174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigSourceProjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigSourceProjects {
 	ProjectNumbers: *[]*string,
@@ -2208,7 +2208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 &googlestorageinsightsdatasetconfig.GoogleStorageInsightsDatasetConfigTimeouts {
 	Create: *string,
@@ -2270,7 +2270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsList
 ```
@@ -2430,7 +2430,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsOutputReference
 ```
@@ -2755,7 +2755,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsOutputReference
 ```
@@ -3039,7 +3039,7 @@ func InternalValue() GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucket
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigExcludeCloudStorageLocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocationsOutputReference
 ```
@@ -3310,7 +3310,7 @@ func InternalValue() GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocati
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsDatasetConfigIdentityOutputReference
 ```
@@ -3592,7 +3592,7 @@ func InternalValue() GoogleStorageInsightsDatasetConfigIdentity
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsList
 ```
@@ -3752,7 +3752,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsOutputReference
 ```
@@ -4077,7 +4077,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsOutputReference
 ```
@@ -4361,7 +4361,7 @@ func InternalValue() GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucket
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigIncludeCloudStorageLocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocationsOutputReference
 ```
@@ -4632,7 +4632,7 @@ func InternalValue() GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocati
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigLinkList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigLinkList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleStorageInsightsDatasetConfigLinkList
 ```
@@ -4781,7 +4781,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigLinkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigLinkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleStorageInsightsDatasetConfigLinkOutputReference
 ```
@@ -5070,7 +5070,7 @@ func InternalValue() GoogleStorageInsightsDatasetConfigLink
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigSourceFoldersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigSourceFoldersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsDatasetConfigSourceFoldersOutputReference
 ```
@@ -5348,7 +5348,7 @@ func InternalValue() GoogleStorageInsightsDatasetConfigSourceFolders
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigSourceProjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigSourceProjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsDatasetConfigSourceProjectsOutputReference
 ```
@@ -5626,7 +5626,7 @@ func InternalValue() GoogleStorageInsightsDatasetConfigSourceProjects
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsdatasetconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig"
 
 googlestorageinsightsdatasetconfig.NewGoogleStorageInsightsDatasetConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsDatasetConfigTimeoutsOutputReference
 ```

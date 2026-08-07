@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeForwardingRule.GoogleComputeForwardingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeforwardingrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeforwardingrule"
 
 googlecomputeforwardingrule.NewGoogleComputeForwardingRule(scope Construct, id *string, config GoogleComputeForwardingRuleConfig) GoogleComputeForwardingRule
 ```
@@ -622,7 +622,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeForwardingRule.GoogleComputeForwardingRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeforwardingrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeforwardingrule"
 
 googlecomputeforwardingrule.GoogleComputeForwardingRule_IsConstruct(x interface{}) *bool
 ```
@@ -654,7 +654,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeForwardingRule.GoogleComputeForwardingRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeforwardingrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeforwardingrule"
 
 googlecomputeforwardingrule.GoogleComputeForwardingRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -668,7 +668,7 @@ googlecomputeforwardingrule.GoogleComputeForwardingRule_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeForwardingRule.GoogleComputeForwardingRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeforwardingrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeforwardingrule"
 
 googlecomputeforwardingrule.GoogleComputeForwardingRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -682,7 +682,7 @@ googlecomputeforwardingrule.GoogleComputeForwardingRule_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeForwardingRule.GoogleComputeForwardingRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeforwardingrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeforwardingrule"
 
 googlecomputeforwardingrule.GoogleComputeForwardingRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1659,7 +1659,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeForwardingRule.GoogleComputeForwardingRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeforwardingrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeforwardingrule"
 
 &googlecomputeforwardingrule.GoogleComputeForwardingRuleConfig {
 	Connection: interface{},
@@ -1692,12 +1692,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Project: *string,
 	RecreateClosedPsc: interface{},
 	Region: *string,
-	ServiceDirectoryRegistrations: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeForwardingRule.GoogleComputeForwardingRuleServiceDirectoryRegistrations,
+	ServiceDirectoryRegistrations: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeForwardingRule.GoogleComputeForwardingRuleServiceDirectoryRegistrations,
 	ServiceLabel: *string,
 	SourceIpRanges: *[]*string,
 	Subnetwork: *string,
 	Target: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeForwardingRule.GoogleComputeForwardingRuleTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeForwardingRule.GoogleComputeForwardingRuleTimeouts,
 }
 ```
 
@@ -2443,7 +2443,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeForwardingRule.GoogleComputeForwardingRuleServiceDirectoryRegistrations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeforwardingrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeforwardingrule"
 
 &googlecomputeforwardingrule.GoogleComputeForwardingRuleServiceDirectoryRegistrations {
 	Namespace: *string,
@@ -2493,7 +2493,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeForwardingRule.GoogleComputeForwardingRuleTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeforwardingrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeforwardingrule"
 
 &googlecomputeforwardingrule.GoogleComputeForwardingRuleTimeouts {
 	Create: *string,
@@ -2555,7 +2555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeForwardingRule.GoogleComputeForwardingRuleServiceDirectoryRegistrationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeforwardingrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeforwardingrule"
 
 googlecomputeforwardingrule.NewGoogleComputeForwardingRuleServiceDirectoryRegistrationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeForwardingRuleServiceDirectoryRegistrationsOutputReference
 ```
@@ -2862,7 +2862,7 @@ func InternalValue() GoogleComputeForwardingRuleServiceDirectoryRegistrations
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeForwardingRule.GoogleComputeForwardingRuleTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeforwardingrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeforwardingrule"
 
 googlecomputeforwardingrule.NewGoogleComputeForwardingRuleTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeForwardingRuleTimeoutsOutputReference
 ```

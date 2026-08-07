@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignment(scope Construct, id *string, config GoogleOsConfigOsPolicyAssignmentConfig) GoogleOsConfigOsPolicyAssignment
 ```
@@ -494,7 +494,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignment_IsConstruct(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignment_IsTerraformElement(x interface{}) *bool
 ```
@@ -540,7 +540,7 @@ googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignment_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignment_IsTerraformResource(x interface{}) *bool
 ```
@@ -554,7 +554,7 @@ googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignment_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1113,7 +1113,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentConfig {
 	Connection: interface{},
@@ -1123,17 +1123,17 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleos
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	InstanceFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilter,
+	InstanceFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilter,
 	Location: *string,
 	Name: *string,
 	OsPolicies: interface{},
-	Rollout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentRollout,
+	Rollout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentRollout,
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Project: *string,
 	SkipAwaitRollout: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentTimeouts,
 }
 ```
 
@@ -1399,7 +1399,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentInstanceFilter {
 	All: interface{},
@@ -1481,7 +1481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabels {
 	Labels: *map[string]*string,
@@ -1517,7 +1517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabels {
 	Labels: *map[string]*string,
@@ -1553,7 +1553,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterInventories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterInventories {
 	OsShortName: *string,
@@ -1605,7 +1605,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPolicies {
 	Id: *string,
@@ -1713,7 +1713,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroups {
 	Resources: interface{},
@@ -1763,7 +1763,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFilters {
 	OsShortName: *string,
@@ -1816,14 +1816,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResources {
 	Id: *string,
-	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExec,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFile,
-	Pkg: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkg,
-	Repository: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepository,
+	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExec,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFile,
+	Pkg: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkg,
+	Repository: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepository,
 }
 ```
 
@@ -1922,11 +1922,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExec {
-	Validate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidate,
-	Enforce: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforce,
+	Validate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidate,
+	Enforce: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforce,
 }
 ```
 
@@ -1972,12 +1972,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforce.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforce {
 	Interpreter: *string,
 	Args: *[]*string,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFile,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFile,
 	OutputFilePath: *string,
 	Script: *string,
 }
@@ -2072,13 +2072,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFile {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemote,
 }
 ```
 
@@ -2156,7 +2156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcs {
 	Bucket: *string,
@@ -2222,7 +2222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemote {
 	Uri: *string,
@@ -2272,12 +2272,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidate {
 	Interpreter: *string,
 	Args: *[]*string,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFile,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFile,
 	OutputFilePath: *string,
 	Script: *string,
 }
@@ -2372,13 +2372,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFile {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemote,
 }
 ```
 
@@ -2457,7 +2457,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcs {
 	Bucket: *string,
@@ -2523,7 +2523,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemote {
 	Uri: *string,
@@ -2573,13 +2573,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFile {
 	Path: *string,
 	State: *string,
 	Content: *string,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFile,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFile,
 }
 ```
 
@@ -2655,13 +2655,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFile {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemote,
 }
 ```
 
@@ -2739,7 +2739,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcs {
 	Bucket: *string,
@@ -2805,7 +2805,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemote {
 	Uri: *string,
@@ -2855,17 +2855,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkg.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkg {
 	DesiredState: *string,
-	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgApt,
-	Deb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDeb,
-	Googet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGooget,
-	Msi: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsi,
-	Rpm: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpm,
-	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYum,
-	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypper,
+	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgApt,
+	Deb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDeb,
+	Googet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGooget,
+	Msi: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsi,
+	Rpm: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpm,
+	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYum,
+	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypper,
 }
 ```
 
@@ -3001,7 +3001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgApt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgApt {
 	Name: *string,
@@ -3035,10 +3035,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDeb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDeb {
-	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSource,
+	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSource,
 	PullDeps: interface{},
 }
 ```
@@ -3087,13 +3087,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSource {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemote,
 }
 ```
 
@@ -3172,7 +3172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcs {
 	Bucket: *string,
@@ -3238,7 +3238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemote {
 	Uri: *string,
@@ -3288,7 +3288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGooget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGooget {
 	Name: *string,
@@ -3322,10 +3322,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsi.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsi {
-	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSource,
+	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSource,
 	Properties: *[]*string,
 }
 ```
@@ -3374,13 +3374,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSource {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote,
 }
 ```
 
@@ -3459,7 +3459,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs {
 	Bucket: *string,
@@ -3525,7 +3525,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote {
 	Uri: *string,
@@ -3575,10 +3575,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpm.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpm {
-	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSource,
+	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSource,
 	PullDeps: interface{},
 }
 ```
@@ -3627,13 +3627,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSource {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote,
 }
 ```
 
@@ -3712,7 +3712,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs {
 	Bucket: *string,
@@ -3778,7 +3778,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote {
 	Uri: *string,
@@ -3828,7 +3828,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYum.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYum {
 	Name: *string,
@@ -3862,7 +3862,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypper.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypper {
 	Name: *string,
@@ -3896,13 +3896,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepository {
-	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryApt,
-	Goo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGoo,
-	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYum,
-	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypper,
+	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryApt,
+	Goo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGoo,
+	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYum,
+	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypper,
 }
 ```
 
@@ -3978,7 +3978,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryApt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryApt {
 	ArchiveType: *string,
@@ -4076,7 +4076,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGoo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGoo {
 	Name: *string,
@@ -4126,7 +4126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYum.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYum {
 	BaseUrl: *string,
@@ -4213,7 +4213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypper.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypper {
 	BaseUrl: *string,
@@ -4300,10 +4300,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentRollout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentRollout {
-	DisruptionBudget: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudget,
+	DisruptionBudget: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudget,
 	MinWaitDuration: *string,
 }
 ```
@@ -4352,7 +4352,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudget {
 	Fixed: *f64,
@@ -4402,7 +4402,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 &googleosconfigospolicyassignment.GoogleOsConfigOsPolicyAssignmentTimeouts {
 	Create: *string,
@@ -4464,7 +4464,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabelsList
 ```
@@ -4624,7 +4624,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabelsOutputReference
 ```
@@ -4920,7 +4920,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabelsList
 ```
@@ -5080,7 +5080,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabelsOutputReference
 ```
@@ -5376,7 +5376,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterInventoriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentInstanceFilterInventoriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigOsPolicyAssignmentInstanceFilterInventoriesList
 ```
@@ -5536,7 +5536,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterInventoriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentInstanceFilterInventoriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigOsPolicyAssignmentInstanceFilterInventoriesOutputReference
 ```
@@ -5854,7 +5854,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentInstanceFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentInstanceFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentInstanceFilterOutputReference
 ```
@@ -6258,7 +6258,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentInstanceFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigOsPolicyAssignmentOsPoliciesList
 ```
@@ -6418,7 +6418,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigOsPolicyAssignmentOsPoliciesOutputReference
 ```
@@ -6822,7 +6822,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFiltersList
 ```
@@ -6982,7 +6982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFiltersOutputReference
 ```
@@ -7300,7 +7300,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsList
 ```
@@ -7460,7 +7460,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsOutputReference
 ```
@@ -7804,7 +7804,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference
 ```
@@ -8126,7 +8126,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference
 ```
@@ -8517,7 +8517,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference
 ```
@@ -8817,7 +8817,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceOutputReference
 ```
@@ -9217,7 +9217,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecOutputReference
 ```
@@ -9543,7 +9543,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference
 ```
@@ -9865,7 +9865,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference
 ```
@@ -10256,7 +10256,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference
 ```
@@ -10556,7 +10556,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateOutputReference
 ```
@@ -10956,7 +10956,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference
 ```
@@ -11278,7 +11278,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileOutputReference
 ```
@@ -11669,7 +11669,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference
 ```
@@ -11969,7 +11969,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileOutputReference
 ```
@@ -12344,7 +12344,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesList
 ```
@@ -12504,7 +12504,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesOutputReference
 ```
@@ -12961,7 +12961,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgAptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgAptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgAptOutputReference
 ```
@@ -13232,7 +13232,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebOutputReference
 ```
@@ -13545,7 +13545,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference
 ```
@@ -13867,7 +13867,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference
 ```
@@ -14258,7 +14258,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference
 ```
@@ -14558,7 +14558,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference
 ```
@@ -14829,7 +14829,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiOutputReference
 ```
@@ -15142,7 +15142,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference
 ```
@@ -15464,7 +15464,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference
 ```
@@ -15855,7 +15855,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference
 ```
@@ -16155,7 +16155,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgOutputReference
 ```
@@ -16720,7 +16720,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmOutputReference
 ```
@@ -17033,7 +17033,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference
 ```
@@ -17355,7 +17355,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference
 ```
@@ -17746,7 +17746,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference
 ```
@@ -18046,7 +18046,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYumOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYumOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYumOutputReference
 ```
@@ -18317,7 +18317,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypperOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypperOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypperOutputReference
 ```
@@ -18588,7 +18588,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference
 ```
@@ -18954,7 +18954,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference
 ```
@@ -19247,7 +19247,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryOutputReference
 ```
@@ -19664,7 +19664,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference
 ```
@@ -20015,7 +20015,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference
 ```
@@ -20366,7 +20366,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsRes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputReference
 ```
@@ -20673,7 +20673,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudget
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentRolloutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentRolloutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentRolloutOutputReference
 ```
@@ -20979,7 +20979,7 @@ func InternalValue() GoogleOsConfigOsPolicyAssignmentRollout
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigOsPolicyAssignment.GoogleOsConfigOsPolicyAssignmentTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigospolicyassignment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigospolicyassignment"
 
 googleosconfigospolicyassignment.NewGoogleOsConfigOsPolicyAssignmentTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigOsPolicyAssignmentTimeoutsOutputReference
 ```

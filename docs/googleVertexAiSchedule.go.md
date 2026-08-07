@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiSchedule(scope Construct, id *string, config GoogleVertexAiScheduleConfig) GoogleVertexAiSchedule
 ```
@@ -523,7 +523,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiSchedule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.GoogleVertexAiSchedule_IsConstruct(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiSchedule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.GoogleVertexAiSchedule_IsTerraformElement(x interface{}) *bool
 ```
@@ -569,7 +569,7 @@ googlevertexaischedule.GoogleVertexAiSchedule_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiSchedule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.GoogleVertexAiSchedule_IsTerraformResource(x interface{}) *bool
 ```
@@ -583,7 +583,7 @@ googlevertexaischedule.GoogleVertexAiSchedule_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiSchedule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.GoogleVertexAiSchedule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1252,7 +1252,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleConfig {
 	Connection: interface{},
@@ -1266,8 +1266,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleve
 	Location: *string,
 	MaxConcurrentRunCount: *string,
 	AllowQueueing: interface{},
-	CreateNotebookExecutionJobRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequest,
-	CreatePipelineJobRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequest,
+	CreateNotebookExecutionJobRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequest,
+	CreatePipelineJobRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequest,
 	Cron: *string,
 	DeletionPolicy: *string,
 	EndTime: *string,
@@ -1276,7 +1276,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleve
 	MaxRunCount: *string,
 	Project: *string,
 	StartTime: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleTimeouts,
 }
 ```
 
@@ -1612,10 +1612,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequest {
-	NotebookExecutionJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob,
+	NotebookExecutionJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob,
 	Parent: *string,
 	NotebookExecutionJobId: *string,
 }
@@ -1678,24 +1678,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob {
-	CustomEnvironmentSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec,
-	DataformRepositorySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource,
-	DirectNotebookSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDirectNotebookSource,
+	CustomEnvironmentSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec,
+	DataformRepositorySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource,
+	DirectNotebookSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDirectNotebookSource,
 	DisplayName: *string,
-	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec,
+	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec,
 	ExecutionTimeout: *string,
 	ExecutionUser: *string,
-	GcsNotebookSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource,
+	GcsNotebookSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource,
 	GcsOutputUri: *string,
 	KernelName: *string,
 	Labels: *map[string]*string,
 	NotebookRuntimeTemplateResourceName: *string,
 	Parameters: *map[string]*string,
 	ServiceAccount: *string,
-	WorkbenchRuntime: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime,
+	WorkbenchRuntime: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime,
 }
 ```
 
@@ -1940,12 +1940,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec {
-	MachineSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpec,
-	NetworkSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpec,
-	PersistentDiskSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpec,
+	MachineSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpec,
+	NetworkSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpec,
+	PersistentDiskSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpec,
 }
 ```
 
@@ -2006,14 +2006,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpec {
 	AcceleratorCount: *f64,
 	AcceleratorType: *string,
 	GpuPartitionSize: *string,
 	MachineType: *string,
-	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinity,
+	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinity,
 	TpuTopology: *string,
 }
 ```
@@ -2126,7 +2126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinity {
 	ReservationAffinityType: *string,
@@ -2212,7 +2212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpec {
 	EnableInternetAccess: interface{},
@@ -2278,7 +2278,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpec {
 	DiskSizeGb: *string,
@@ -2330,7 +2330,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource {
 	CommitSha: *string,
@@ -2380,7 +2380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDirectNotebookSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDirectNotebookSource {
 	Content: *string,
@@ -2414,7 +2414,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec {
 	KmsKeyName: *string,
@@ -2450,7 +2450,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource {
 	Generation: *string,
@@ -2502,7 +2502,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime {
 
@@ -2515,11 +2515,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleve
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreatePipelineJobRequest {
 	Parent: *string,
-	PipelineJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJob,
+	PipelineJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJob,
 	PipelineJobId: *string,
 }
 ```
@@ -2583,18 +2583,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJob {
 	DisplayName: *string,
-	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobEncryptionSpec,
+	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobEncryptionSpec,
 	Labels: *map[string]*string,
 	Network: *string,
 	PipelineSpec: *string,
 	PreflightValidations: interface{},
-	PscInterfaceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfig,
+	PscInterfaceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfig,
 	ReservedIpRanges: *[]*string,
-	RuntimeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobRuntimeConfig,
+	RuntimeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobRuntimeConfig,
 	ServiceAccount: *string,
 	TemplateUri: *string,
 }
@@ -2789,7 +2789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobEncryptionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobEncryptionSpec {
 	KmsKeyName: *string,
@@ -2825,7 +2825,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfig {
 	DnsPeeringConfigs: interface{},
@@ -2875,7 +2875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigs {
 	Domain: *string,
@@ -2943,7 +2943,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobRuntimeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobRuntimeConfig {
 	GcsOutputDirectory: *string,
@@ -3031,7 +3031,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobTemplateMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobTemplateMetadata {
 
@@ -3044,7 +3044,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleve
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleLastScheduledRunResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleLastScheduledRunResponse {
 
@@ -3057,7 +3057,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleve
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 &googlevertexaischedule.GoogleVertexAiScheduleTimeouts {
 	Create: *string,
@@ -3119,7 +3119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecOutputReference
 ```
@@ -3555,7 +3555,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNote
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinityOutputReference
 ```
@@ -3913,7 +3913,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNote
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpecOutputReference
 ```
@@ -4249,7 +4249,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNote
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference
 ```
@@ -4624,7 +4624,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNote
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpecOutputReference
 ```
@@ -4931,7 +4931,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNote
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceOutputReference
 ```
@@ -5238,7 +5238,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNote
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDirectNotebookSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDirectNotebookSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDirectNotebookSourceOutputReference
 ```
@@ -5516,7 +5516,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNote
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference
 ```
@@ -5787,7 +5787,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNote
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSourceOutputReference
 ```
@@ -6094,7 +6094,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNote
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference
 ```
@@ -6911,7 +6911,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNote
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference
 ```
@@ -7160,7 +7160,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequestNote
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreateNotebookExecutionJobRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreateNotebookExecutionJobRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreateNotebookExecutionJobRequestOutputReference
 ```
@@ -7495,7 +7495,7 @@ func InternalValue() GoogleVertexAiScheduleCreateNotebookExecutionJobRequest
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreatePipelineJobRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreatePipelineJobRequestOutputReference
 ```
@@ -7830,7 +7830,7 @@ func InternalValue() GoogleVertexAiScheduleCreatePipelineJobRequest
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobEncryptionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobEncryptionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobEncryptionSpecOutputReference
 ```
@@ -8101,7 +8101,7 @@ func InternalValue() GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobEn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobOutputReference
 ```
@@ -8796,7 +8796,7 @@ func InternalValue() GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsList
 ```
@@ -8956,7 +8956,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsOutputReference
 ```
@@ -9289,7 +9289,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigOutputReference
 ```
@@ -9609,7 +9609,7 @@ func InternalValue() GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobPs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobRuntimeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobRuntimeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobRuntimeConfigOutputReference
 ```
@@ -9967,7 +9967,7 @@ func InternalValue() GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataList
 ```
@@ -10116,7 +10116,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataOutputReference
 ```
@@ -10394,7 +10394,7 @@ func InternalValue() GoogleVertexAiScheduleCreatePipelineJobRequestPipelineJobTe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleLastScheduledRunResponseList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleLastScheduledRunResponseList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleVertexAiScheduleLastScheduledRunResponseList
 ```
@@ -10543,7 +10543,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleLastScheduledRunResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleLastScheduledRunResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleVertexAiScheduleLastScheduledRunResponseOutputReference
 ```
@@ -10832,7 +10832,7 @@ func InternalValue() GoogleVertexAiScheduleLastScheduledRunResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSchedule.GoogleVertexAiScheduleTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaischedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaischedule"
 
 googlevertexaischedule.NewGoogleVertexAiScheduleTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiScheduleTimeoutsOutputReference
 ```

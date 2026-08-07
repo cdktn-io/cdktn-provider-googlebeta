@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersion(scope Construct, id *string, config GoogleCesAppVersionConfig) GoogleCesAppVersion
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.GoogleCesAppVersion_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.GoogleCesAppVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlecesappversion.GoogleCesAppVersion_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.GoogleCesAppVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlecesappversion.GoogleCesAppVersion_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.GoogleCesAppVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -997,7 +997,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionConfig {
 	Connection: interface{},
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesAppVersion.GoogleCesAppVersionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesAppVersion.GoogleCesAppVersionTimeouts,
 }
 ```
 
@@ -1252,7 +1252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshot {
 
@@ -1265,7 +1265,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgents {
 
@@ -1278,7 +1278,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacks {
 
@@ -1291,7 +1291,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacks {
 
@@ -1304,7 +1304,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacks {
 
@@ -1317,7 +1317,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacks {
 
@@ -1330,7 +1330,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacks {
 
@@ -1343,7 +1343,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacks {
 
@@ -1356,7 +1356,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsLlmAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsLlmAgent {
 
@@ -1369,7 +1369,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsModelSettings {
 
@@ -1382,7 +1382,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgent {
 
@@ -1395,7 +1395,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsToolsets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsToolsets {
 
@@ -1408,7 +1408,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotApp {
 
@@ -1421,7 +1421,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppAudioProcessingConfig {
 
@@ -1434,7 +1434,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfig {
 
@@ -1447,7 +1447,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfig {
 
@@ -1460,7 +1460,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigs {
 
@@ -1473,7 +1473,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppClientCertificateSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppClientCertificateSettings {
 
@@ -1486,7 +1486,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppDataStoreSettings {
 
@@ -1499,7 +1499,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettingsEngines.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppDataStoreSettingsEngines {
 
@@ -1512,7 +1512,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppDefaultChannelProfile {
 
@@ -1525,7 +1525,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaProperty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaProperty {
 
@@ -1538,7 +1538,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfig {
 
@@ -1551,7 +1551,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds {
 
@@ -1564,7 +1564,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds {
 
@@ -1577,7 +1577,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds {
 
@@ -1590,7 +1590,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds {
 
@@ -1603,7 +1603,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLanguageSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLanguageSettings {
 
@@ -1616,7 +1616,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettings {
 
@@ -1629,7 +1629,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfig {
 
@@ -1642,7 +1642,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettings {
 
@@ -1655,7 +1655,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettings {
 
@@ -1668,7 +1668,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettings {
 
@@ -1681,7 +1681,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfig {
 
@@ -1694,7 +1694,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppModelSettings {
 
@@ -1707,7 +1707,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppTimeZoneSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppTimeZoneSettings {
 
@@ -1720,7 +1720,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppVariableDeclarations {
 
@@ -1733,7 +1733,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarationsSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppVariableDeclarationsSchema {
 
@@ -1746,7 +1746,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamples.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamples {
 
@@ -1759,7 +1759,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessages {
 
@@ -1772,7 +1772,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunks {
 
@@ -1785,7 +1785,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransfer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransfer {
 
@@ -1798,7 +1798,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksImage {
 
@@ -1811,7 +1811,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCall {
 
@@ -1824,7 +1824,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetTool {
 
@@ -1837,7 +1837,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponse {
 
@@ -1850,7 +1850,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetTool {
 
@@ -1863,7 +1863,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrails {
 
@@ -1876,7 +1876,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsAction {
 
@@ -1889,7 +1889,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswer {
 
@@ -1902,7 +1902,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediately.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediately {
 
@@ -1915,7 +1915,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponses {
 
@@ -1928,7 +1928,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionTransferAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsActionTransferAgent {
 
@@ -1941,7 +1941,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallback.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsCodeCallback {
 
@@ -1954,7 +1954,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallback.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallback {
 
@@ -1967,7 +1967,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallback.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallback {
 
@@ -1980,7 +1980,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallback.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallback {
 
@@ -1993,7 +1993,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallback.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallback {
 
@@ -2006,7 +2006,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsContentFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsContentFilter {
 
@@ -2019,7 +2019,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicy {
 
@@ -2032,7 +2032,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettings {
 
@@ -2045,7 +2045,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurity {
 
@@ -2058,7 +2058,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicy {
 
@@ -2071,7 +2071,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettings {
 
@@ -2084,7 +2084,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettings {
 
@@ -2097,7 +2097,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafety.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsModelSafety {
 
@@ -2110,7 +2110,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettings {
 
@@ -2123,7 +2123,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotTools.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotTools {
 
@@ -2136,7 +2136,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsClientFunction {
 
@@ -2149,7 +2149,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsClientFunctionParameters {
 
@@ -2162,7 +2162,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsClientFunctionResponse {
 
@@ -2175,7 +2175,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreTool {
 
@@ -2188,7 +2188,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecs {
 
@@ -2201,7 +2201,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec {
 
@@ -2214,7 +2214,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecs {
 
@@ -2227,7 +2227,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec {
 
@@ -2240,7 +2240,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPoints {
 
@@ -2253,7 +2253,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSource {
 
@@ -2266,7 +2266,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSources {
 
@@ -2279,7 +2279,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStore {
 
@@ -2292,7 +2292,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfig {
 
@@ -2305,7 +2305,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigs {
 
@@ -2318,7 +2318,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfig {
 
@@ -2331,7 +2331,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfig {
 
@@ -2344,7 +2344,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettings {
 
@@ -2357,7 +2357,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfig {
 
@@ -2370,7 +2370,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettings {
 
@@ -2383,7 +2383,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsets {
 
@@ -2396,7 +2396,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolset {
 
@@ -2409,7 +2409,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthentication {
 
@@ -2422,7 +2422,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfig {
 
@@ -2435,7 +2435,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfig {
 
@@ -2448,7 +2448,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfig {
 
@@ -2461,7 +2461,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfig {
 
@@ -2474,7 +2474,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfig {
 
@@ -2487,7 +2487,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfig {
 
@@ -2500,7 +2500,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfig {
 
@@ -2513,7 +2513,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCerts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCerts {
 
@@ -2526,7 +2526,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsGoogleSearchTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsGoogleSearchTool {
 
@@ -2539,7 +2539,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiTool {
 
@@ -2552,7 +2552,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthentication {
 
@@ -2565,7 +2565,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfig {
 
@@ -2578,7 +2578,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfig {
 
@@ -2591,7 +2591,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfig {
 
@@ -2604,7 +2604,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfig {
 
@@ -2617,7 +2617,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfig {
 
@@ -2630,7 +2630,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfig {
 
@@ -2643,7 +2643,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCerts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCerts {
 
@@ -2656,7 +2656,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsPythonFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsPythonFunction {
 
@@ -2669,7 +2669,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsSystemTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsSystemTool {
 
@@ -2682,7 +2682,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionTimeouts {
 	Create: *string,
@@ -2730,7 +2730,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksList
 ```
@@ -2879,7 +2879,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference
 ```
@@ -3179,7 +3179,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterModelCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksList
 ```
@@ -3328,7 +3328,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference
 ```
@@ -3628,7 +3628,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsAfterModelCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterToolCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksList
 ```
@@ -3777,7 +3777,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference
 ```
@@ -4077,7 +4077,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsAfterToolCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksList
 ```
@@ -4226,7 +4226,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference
 ```
@@ -4526,7 +4526,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksList
 ```
@@ -4675,7 +4675,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference
 ```
@@ -4975,7 +4975,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksList
 ```
@@ -5124,7 +5124,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference
 ```
@@ -5424,7 +5424,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsList
 ```
@@ -5573,7 +5573,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsLlmAgentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsLlmAgentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsLlmAgentList
 ```
@@ -5722,7 +5722,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsLlmAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsLlmAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsLlmAgentOutputReference
 ```
@@ -5989,7 +5989,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsLlmAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsModelSettingsList
 ```
@@ -6138,7 +6138,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsModelSettingsOutputReference
 ```
@@ -6427,7 +6427,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsModelSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsOutputReference
 ```
@@ -6925,7 +6925,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgents
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentList
 ```
@@ -7074,7 +7074,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference
 ```
@@ -7396,7 +7396,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsToolsetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsToolsetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsToolsetsList
 ```
@@ -7545,7 +7545,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsToolsetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsToolsetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsToolsetsOutputReference
 ```
@@ -7834,7 +7834,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsToolsets
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigList
 ```
@@ -7983,7 +7983,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigOutputReference
 ```
@@ -8283,7 +8283,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigList
 ```
@@ -8432,7 +8432,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigOutputReference
 ```
@@ -8710,7 +8710,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigList
 ```
@@ -8859,7 +8859,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigOutputReference
 ```
@@ -9170,7 +9170,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppAudioProcessingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsList
 ```
@@ -9319,7 +9319,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference
 ```
@@ -9619,7 +9619,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppClientCertificateSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppClientCertificateSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppClientCertificateSettingsList
 ```
@@ -9768,7 +9768,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppClientCertificateSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppClientCertificateSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppClientCertificateSettingsOutputReference
 ```
@@ -10068,7 +10068,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppClientCertificateSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesList
 ```
@@ -10217,7 +10217,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesOutputReference
 ```
@@ -10506,7 +10506,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppDataStoreSettingsEngines
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDataStoreSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppDataStoreSettingsList
 ```
@@ -10655,7 +10655,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDataStoreSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppDataStoreSettingsOutputReference
 ```
@@ -10933,7 +10933,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppDataStoreSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfileList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfileList
 ```
@@ -11082,7 +11082,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference
 ```
@@ -11415,7 +11415,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppDefaultChannelProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyList
 ```
@@ -11564,7 +11564,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyOutputReference
 ```
@@ -11842,7 +11842,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaP
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigList
 ```
@@ -11991,7 +11991,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigOutputReference
 ```
@@ -12291,7 +12291,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidge
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsList
 ```
@@ -12440,7 +12440,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference
 ```
@@ -12718,7 +12718,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsList
 ```
@@ -12867,7 +12867,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference
 ```
@@ -13156,7 +13156,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList
 ```
@@ -13305,7 +13305,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference
 ```
@@ -13594,7 +13594,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsList
 ```
@@ -13743,7 +13743,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference
 ```
@@ -14021,7 +14021,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLanguageSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLanguageSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLanguageSettingsList
 ```
@@ -14170,7 +14170,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLanguageSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLanguageSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLanguageSettingsOutputReference
 ```
@@ -14481,7 +14481,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLanguageSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppList
 ```
@@ -14630,7 +14630,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigList
 ```
@@ -14779,7 +14779,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigOutputReference
 ```
@@ -15068,7 +15068,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecording
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsList
 ```
@@ -15217,7 +15217,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsOutputReference
 ```
@@ -15517,7 +15517,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExport
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsList
 ```
@@ -15666,7 +15666,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsOutputReference
 ```
@@ -15944,7 +15944,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsList
 ```
@@ -16093,7 +16093,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference
 ```
@@ -16371,7 +16371,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsList
 ```
@@ -16520,7 +16520,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference
 ```
@@ -16842,7 +16842,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigList
 ```
@@ -16991,7 +16991,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigOutputReference
 ```
@@ -17291,7 +17291,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppModelSettingsList
 ```
@@ -17440,7 +17440,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppModelSettingsOutputReference
 ```
@@ -17729,7 +17729,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppModelSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppOutputReference
 ```
@@ -18227,7 +18227,7 @@ func InternalValue() GoogleCesAppVersionSnapshotApp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppTimeZoneSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppTimeZoneSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppTimeZoneSettingsList
 ```
@@ -18376,7 +18376,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppTimeZoneSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppTimeZoneSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppTimeZoneSettingsOutputReference
 ```
@@ -18654,7 +18654,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppTimeZoneSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppVariableDeclarationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppVariableDeclarationsList
 ```
@@ -18803,7 +18803,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppVariableDeclarationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppVariableDeclarationsOutputReference
 ```
@@ -19103,7 +19103,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppVariableDeclarations
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaList
 ```
@@ -19252,7 +19252,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaOutputReference
 ```
@@ -19673,7 +19673,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppVariableDeclarationsSchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesList
 ```
@@ -19822,7 +19822,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferList
 ```
@@ -19971,7 +19971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferOutputReference
 ```
@@ -20260,7 +20260,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTrans
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksImageList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksImageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksImageList
 ```
@@ -20409,7 +20409,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksImageOutputReference
 ```
@@ -20698,7 +20698,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksImage
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksList
 ```
@@ -20847,7 +20847,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksOutputReference
 ```
@@ -21180,7 +21180,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallList
 ```
@@ -21329,7 +21329,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallOutputReference
 ```
@@ -21651,7 +21651,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCall
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolList
 ```
@@ -21800,7 +21800,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolOutputReference
 ```
@@ -22089,7 +22089,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallTo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseList
 ```
@@ -22238,7 +22238,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseOutputReference
 ```
@@ -22560,7 +22560,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksToolRespon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolList
 ```
@@ -22709,7 +22709,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolOutputReference
 ```
@@ -22998,7 +22998,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksToolRespon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesList
 ```
@@ -23147,7 +23147,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesOutputReference
 ```
@@ -23436,7 +23436,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessages
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesOutputReference
 ```
@@ -23802,7 +23802,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamples
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerList
 ```
@@ -23951,7 +23951,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerOutputReference
 ```
@@ -24229,7 +24229,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionList
 ```
@@ -24378,7 +24378,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionOutputReference
 ```
@@ -24678,7 +24678,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyList
 ```
@@ -24827,7 +24827,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyOutputReference
 ```
@@ -25105,7 +25105,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesList
 ```
@@ -25254,7 +25254,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesOutputReference
 ```
@@ -25543,7 +25543,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionTransferAgentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionTransferAgentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionTransferAgentList
 ```
@@ -25692,7 +25692,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionTransferAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionTransferAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionTransferAgentOutputReference
 ```
@@ -25970,7 +25970,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsActionTransferAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackList
 ```
@@ -26119,7 +26119,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference
 ```
@@ -26419,7 +26419,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackList
 ```
@@ -26568,7 +26568,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference
 ```
@@ -26868,7 +26868,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModel
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackList
 ```
@@ -27017,7 +27017,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference
 ```
@@ -27317,7 +27317,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgen
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackList
 ```
@@ -27466,7 +27466,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference
 ```
@@ -27766,7 +27766,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeMode
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackList
 ```
@@ -27915,7 +27915,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackOutputReference
 ```
@@ -28226,7 +28226,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsCodeCallback
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsContentFilterList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsContentFilterList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsContentFilterList
 ```
@@ -28375,7 +28375,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsContentFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsContentFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsContentFilterOutputReference
 ```
@@ -28697,7 +28697,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsContentFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsList
 ```
@@ -28846,7 +28846,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPolicyList
 ```
@@ -28995,7 +28995,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsList
 ```
@@ -29144,7 +29144,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsOutputReference
 ```
@@ -29433,7 +29433,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPolicyOutputReference
 ```
@@ -29755,7 +29755,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyList
 ```
@@ -29904,7 +29904,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsList
 ```
@@ -30053,7 +30053,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsOutputReference
 ```
@@ -30342,7 +30342,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCusto
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyOutputReference
 ```
@@ -30664,7 +30664,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCusto
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsList
 ```
@@ -30813,7 +30813,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsOutputReference
 ```
@@ -31091,7 +31091,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefau
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityList
 ```
@@ -31240,7 +31240,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityOutputReference
 ```
@@ -31540,7 +31540,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurity
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafetyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsModelSafetyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsModelSafetyList
 ```
@@ -31689,7 +31689,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafetyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsModelSafetyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsModelSafetyOutputReference
 ```
@@ -31967,7 +31967,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsModelSafety
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsList
 ```
@@ -32116,7 +32116,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsOutputReference
 ```
@@ -32405,7 +32405,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsOutputReference
 ```
@@ -32815,7 +32815,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrails
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotList
 ```
@@ -32964,7 +32964,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotOutputReference
 ```
@@ -33297,7 +33297,7 @@ func InternalValue() GoogleCesAppVersionSnapshot
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionList
 ```
@@ -33446,7 +33446,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionOutputReference
 ```
@@ -33757,7 +33757,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsClientFunction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionParametersList
 ```
@@ -33906,7 +33906,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionParametersOutputReference
 ```
@@ -34327,7 +34327,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsClientFunctionParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionResponseList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionResponseList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionResponseList
 ```
@@ -34476,7 +34476,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionResponseOutputReference
 ```
@@ -34897,7 +34897,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsClientFunctionResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsList
 ```
@@ -35046,7 +35046,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsOutputReference
 ```
@@ -35335,7 +35335,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsList
 ```
@@ -35484,7 +35484,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsOutputReference
 ```
@@ -35773,7 +35773,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecList
 ```
@@ -35922,7 +35922,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecOutputReference
 ```
@@ -36233,7 +36233,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsList
 ```
@@ -36382,7 +36382,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsOutputReference
 ```
@@ -36682,7 +36682,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecList
 ```
@@ -36831,7 +36831,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecOutputReference
 ```
@@ -37109,7 +37109,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigList
 ```
@@ -37258,7 +37258,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigOutputReference
 ```
@@ -37558,7 +37558,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreList
 ```
@@ -37707,7 +37707,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreOutputReference
 ```
@@ -38040,7 +38040,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesList
 ```
@@ -38189,7 +38189,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesOutputReference
 ```
@@ -38478,7 +38478,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceList
 ```
@@ -38627,7 +38627,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceOutputReference
 ```
@@ -38927,7 +38927,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolList
 ```
@@ -39076,7 +39076,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigList
 ```
@@ -39225,7 +39225,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigOutputReference
 ```
@@ -39514,7 +39514,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsList
 ```
@@ -39663,7 +39663,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsOutputReference
 ```
@@ -39974,7 +39974,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigList
 ```
@@ -40123,7 +40123,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsList
 ```
@@ -40272,7 +40272,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsOutputReference
 ```
@@ -40561,7 +40561,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigOutputReference
 ```
@@ -40861,7 +40861,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigList
 ```
@@ -41010,7 +41010,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsList
 ```
@@ -41159,7 +41159,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference
 ```
@@ -41448,7 +41448,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigOutputReference
 ```
@@ -41748,7 +41748,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolOutputReference
 ```
@@ -42081,7 +42081,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsList
 ```
@@ -42230,7 +42230,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigList
 ```
@@ -42379,7 +42379,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigOutputReference
 ```
@@ -42679,7 +42679,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigList
 ```
@@ -42828,7 +42828,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigOutputReference
 ```
@@ -43106,7 +43106,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationList
 ```
@@ -43255,7 +43255,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigList
 ```
@@ -43404,7 +43404,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigOutputReference
 ```
@@ -43726,7 +43726,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOutputReference
 ```
@@ -44048,7 +44048,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigList
 ```
@@ -44197,7 +44197,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference
 ```
@@ -44475,7 +44475,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigList
 ```
@@ -44624,7 +44624,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference
 ```
@@ -44891,7 +44891,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetList
 ```
@@ -45040,7 +45040,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetOutputReference
 ```
@@ -45373,7 +45373,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolset
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigList
 ```
@@ -45522,7 +45522,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigOutputReference
 ```
@@ -45800,7 +45800,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDir
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsList
 ```
@@ -45949,7 +45949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsOutputReference
 ```
@@ -46238,7 +46238,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigList
 ```
@@ -46387,7 +46387,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigOutputReference
 ```
@@ -46665,7 +46665,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOutputReference
 ```
@@ -47020,7 +47020,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsets
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsGoogleSearchToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsGoogleSearchToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsGoogleSearchToolList
 ```
@@ -47169,7 +47169,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsGoogleSearchToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsGoogleSearchToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsGoogleSearchToolOutputReference
 ```
@@ -47469,7 +47469,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsGoogleSearchTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsList
 ```
@@ -47618,7 +47618,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigList
 ```
@@ -47767,7 +47767,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigOutputReference
 ```
@@ -48067,7 +48067,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationList
 ```
@@ -48216,7 +48216,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigList
 ```
@@ -48365,7 +48365,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigOutputReference
 ```
@@ -48687,7 +48687,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOutputReference
 ```
@@ -48998,7 +48998,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigList
 ```
@@ -49147,7 +49147,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigOutputReference
 ```
@@ -49425,7 +49425,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigList
 ```
@@ -49574,7 +49574,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference
 ```
@@ -49841,7 +49841,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolList
 ```
@@ -49990,7 +49990,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolOutputReference
 ```
@@ -50345,7 +50345,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigList
 ```
@@ -50494,7 +50494,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigOutputReference
 ```
@@ -50772,7 +50772,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectory
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsList
 ```
@@ -50921,7 +50921,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsOutputReference
 ```
@@ -51210,7 +51210,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCerts
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigList
 ```
@@ -51359,7 +51359,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigOutputReference
 ```
@@ -51637,7 +51637,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOutputReference
 ```
@@ -52047,7 +52047,7 @@ func InternalValue() GoogleCesAppVersionSnapshotTools
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsPythonFunctionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsPythonFunctionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsPythonFunctionList
 ```
@@ -52196,7 +52196,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsPythonFunctionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsPythonFunctionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsPythonFunctionOutputReference
 ```
@@ -52496,7 +52496,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsPythonFunction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsSystemToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsSystemToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsSystemToolList
 ```
@@ -52645,7 +52645,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsSystemToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsSystemToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsSystemToolOutputReference
 ```
@@ -52934,7 +52934,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsSystemTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppVersionTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleLoggingLogView.DataGoogleLoggingLogView.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglelogginglogview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglelogginglogview"
 
 datagooglelogginglogview.NewDataGoogleLoggingLogView(scope Construct, id *string, config DataGoogleLoggingLogViewConfig) DataGoogleLoggingLogView
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleLoggingLogView.DataGoogleLoggingLogView.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglelogginglogview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglelogginglogview"
 
 datagooglelogginglogview.DataGoogleLoggingLogView_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleLoggingLogView.DataGoogleLoggingLogView.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglelogginglogview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglelogginglogview"
 
 datagooglelogginglogview.DataGoogleLoggingLogView_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagooglelogginglogview.DataGoogleLoggingLogView_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleLoggingLogView.DataGoogleLoggingLogView.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglelogginglogview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglelogginglogview"
 
 datagooglelogginglogview.DataGoogleLoggingLogView_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagooglelogginglogview.DataGoogleLoggingLogView_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleLoggingLogView.DataGoogleLoggingLogView.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglelogginglogview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglelogginglogview"
 
 datagooglelogginglogview.DataGoogleLoggingLogView_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -737,7 +737,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleLoggingLogView.DataGoogleLoggingLogViewConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglelogginglogview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglelogginglogview"
 
 &datagooglelogginglogview.DataGoogleLoggingLogViewConfig {
 	Connection: interface{},

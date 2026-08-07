@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 googlechroniclebigqueryexport.NewGoogleChronicleBigQueryExport(scope Construct, id *string, config GoogleChronicleBigQueryExportConfig) GoogleChronicleBigQueryExport
 ```
@@ -541,7 +541,7 @@ func ResetUdmEventsSettings()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExport.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 googlechroniclebigqueryexport.GoogleChronicleBigQueryExport_IsConstruct(x interface{}) *bool
 ```
@@ -573,7 +573,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExport.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 googlechroniclebigqueryexport.GoogleChronicleBigQueryExport_IsTerraformElement(x interface{}) *bool
 ```
@@ -587,7 +587,7 @@ googlechroniclebigqueryexport.GoogleChronicleBigQueryExport_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExport.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 googlechroniclebigqueryexport.GoogleChronicleBigQueryExport_IsTerraformResource(x interface{}) *bool
 ```
@@ -601,7 +601,7 @@ googlechroniclebigqueryexport.GoogleChronicleBigQueryExport_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExport.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 googlechroniclebigqueryexport.GoogleChronicleBigQueryExport_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1094,7 +1094,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 &googlechroniclebigqueryexport.GoogleChronicleBigQueryExportConfig {
 	Connection: interface{},
@@ -1107,14 +1107,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlech
 	Instance: *string,
 	Location: *string,
 	BigQueryExportPackage: *string,
-	EntityGraphSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportEntityGraphSettings,
+	EntityGraphSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportEntityGraphSettings,
 	Id: *string,
-	IocMatchesSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportIocMatchesSettings,
+	IocMatchesSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportIocMatchesSettings,
 	Project: *string,
-	RuleDetectionsSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportRuleDetectionsSettings,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportTimeouts,
-	UdmEventsAggregatesSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportUdmEventsAggregatesSettings,
-	UdmEventsSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportUdmEventsSettings,
+	RuleDetectionsSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportRuleDetectionsSettings,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportTimeouts,
+	UdmEventsAggregatesSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportUdmEventsAggregatesSettings,
+	UdmEventsSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportUdmEventsSettings,
 }
 ```
 
@@ -1371,7 +1371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportEntityGraphSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 &googlechroniclebigqueryexport.GoogleChronicleBigQueryExportEntityGraphSettings {
 	Enabled: interface{},
@@ -1421,7 +1421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportIocMatchesSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 &googlechroniclebigqueryexport.GoogleChronicleBigQueryExportIocMatchesSettings {
 	Enabled: interface{},
@@ -1471,7 +1471,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportRuleDetectionsSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 &googlechroniclebigqueryexport.GoogleChronicleBigQueryExportRuleDetectionsSettings {
 	Enabled: interface{},
@@ -1521,7 +1521,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 &googlechroniclebigqueryexport.GoogleChronicleBigQueryExportTimeouts {
 	Create: *string,
@@ -1581,7 +1581,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportUdmEventsAggregatesSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 &googlechroniclebigqueryexport.GoogleChronicleBigQueryExportUdmEventsAggregatesSettings {
 	Enabled: interface{},
@@ -1631,7 +1631,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportUdmEventsSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 &googlechroniclebigqueryexport.GoogleChronicleBigQueryExportUdmEventsSettings {
 	Enabled: interface{},
@@ -1683,7 +1683,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportEntityGraphSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 googlechroniclebigqueryexport.NewGoogleChronicleBigQueryExportEntityGraphSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleBigQueryExportEntityGraphSettingsOutputReference
 ```
@@ -2009,7 +2009,7 @@ func InternalValue() GoogleChronicleBigQueryExportEntityGraphSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportIocMatchesSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 googlechroniclebigqueryexport.NewGoogleChronicleBigQueryExportIocMatchesSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleBigQueryExportIocMatchesSettingsOutputReference
 ```
@@ -2335,7 +2335,7 @@ func InternalValue() GoogleChronicleBigQueryExportIocMatchesSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportRuleDetectionsSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 googlechroniclebigqueryexport.NewGoogleChronicleBigQueryExportRuleDetectionsSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleBigQueryExportRuleDetectionsSettingsOutputReference
 ```
@@ -2661,7 +2661,7 @@ func InternalValue() GoogleChronicleBigQueryExportRuleDetectionsSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 googlechroniclebigqueryexport.NewGoogleChronicleBigQueryExportTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleBigQueryExportTimeoutsOutputReference
 ```
@@ -2997,7 +2997,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportUdmEventsAggregatesSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 googlechroniclebigqueryexport.NewGoogleChronicleBigQueryExportUdmEventsAggregatesSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleBigQueryExportUdmEventsAggregatesSettingsOutputReference
 ```
@@ -3323,7 +3323,7 @@ func InternalValue() GoogleChronicleBigQueryExportUdmEventsAggregatesSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleBigQueryExport.GoogleChronicleBigQueryExportUdmEventsSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclebigqueryexport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclebigqueryexport"
 
 googlechroniclebigqueryexport.NewGoogleChronicleBigQueryExportUdmEventsSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleBigQueryExportUdmEventsSettingsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeTenant.GoogleSaasRuntimeTenant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimetenant"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimetenant"
 
 googlesaasruntimetenant.NewGoogleSaasRuntimeTenant(scope Construct, id *string, config GoogleSaasRuntimeTenantConfig) GoogleSaasRuntimeTenant
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSaasRuntimeTenant.GoogleSaasRuntimeTenant.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimetenant"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimetenant"
 
 googlesaasruntimetenant.GoogleSaasRuntimeTenant_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSaasRuntimeTenant.GoogleSaasRuntimeTenant.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimetenant"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimetenant"
 
 googlesaasruntimetenant.GoogleSaasRuntimeTenant_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlesaasruntimetenant.GoogleSaasRuntimeTenant_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSaasRuntimeTenant.GoogleSaasRuntimeTenant.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimetenant"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimetenant"
 
 googlesaasruntimetenant.GoogleSaasRuntimeTenant_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googlesaasruntimetenant.GoogleSaasRuntimeTenant_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSaasRuntimeTenant.GoogleSaasRuntimeTenant.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimetenant"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimetenant"
 
 googlesaasruntimetenant.GoogleSaasRuntimeTenant_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1048,7 +1048,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeTenant.GoogleSaasRuntimeTenantConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimetenant"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimetenant"
 
 &googlesaasruntimetenant.GoogleSaasRuntimeTenantConfig {
 	Connection: interface{},
@@ -1067,7 +1067,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesa
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSaasRuntimeTenant.GoogleSaasRuntimeTenantTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSaasRuntimeTenant.GoogleSaasRuntimeTenantTimeouts,
 }
 ```
 
@@ -1333,7 +1333,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeTenant.GoogleSaasRuntimeTenantTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimetenant"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimetenant"
 
 &googlesaasruntimetenant.GoogleSaasRuntimeTenantTimeouts {
 	Create: *string,
@@ -1395,7 +1395,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeTenant.GoogleSaasRuntimeTenantTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimetenant"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimetenant"
 
 googlesaasruntimetenant.NewGoogleSaasRuntimeTenantTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSaasRuntimeTenantTimeoutsOutputReference
 ```

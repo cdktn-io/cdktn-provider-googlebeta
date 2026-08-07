@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 googlecontaineranalysisnote.NewGoogleContainerAnalysisNote(scope Construct, id *string, config GoogleContainerAnalysisNoteConfig) GoogleContainerAnalysisNote
 ```
@@ -502,7 +502,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 googlecontaineranalysisnote.GoogleContainerAnalysisNote_IsConstruct(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 googlecontaineranalysisnote.GoogleContainerAnalysisNote_IsTerraformElement(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googlecontaineranalysisnote.GoogleContainerAnalysisNote_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 googlecontaineranalysisnote.GoogleContainerAnalysisNote_IsTerraformResource(x interface{}) *bool
 ```
@@ -562,7 +562,7 @@ googlecontaineranalysisnote.GoogleContainerAnalysisNote_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 googlecontaineranalysisnote.GoogleContainerAnalysisNote_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1066,10 +1066,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteAttestationAuthority.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 &googlecontaineranalysisnote.GoogleContainerAnalysisNoteAttestationAuthority {
-	Hint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContainerAnalysisNote.GoogleContainerAnalysisNoteAttestationAuthorityHint,
+	Hint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleContainerAnalysisNote.GoogleContainerAnalysisNoteAttestationAuthorityHint,
 }
 ```
 
@@ -1100,7 +1100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteAttestationAuthorityHint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 &googlecontaineranalysisnote.GoogleContainerAnalysisNoteAttestationAuthorityHint {
 	HumanReadableName: *string,
@@ -1134,7 +1134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 &googlecontaineranalysisnote.GoogleContainerAnalysisNoteConfig {
 	Connection: interface{},
@@ -1144,7 +1144,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	AttestationAuthority: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContainerAnalysisNote.GoogleContainerAnalysisNoteAttestationAuthority,
+	AttestationAuthority: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleContainerAnalysisNote.GoogleContainerAnalysisNoteAttestationAuthority,
 	Name: *string,
 	DeletionPolicy: *string,
 	ExpirationTime: *string,
@@ -1154,7 +1154,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	RelatedNoteNames: *[]*string,
 	RelatedUrl: interface{},
 	ShortDescription: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeouts,
 }
 ```
 
@@ -1418,7 +1418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteRelatedUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 &googlecontaineranalysisnote.GoogleContainerAnalysisNoteRelatedUrl {
 	Url: *string,
@@ -1468,7 +1468,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 &googlecontaineranalysisnote.GoogleContainerAnalysisNoteTimeouts {
 	Create: *string,
@@ -1530,7 +1530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteAttestationAuthorityHintOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 googlecontaineranalysisnote.NewGoogleContainerAnalysisNoteAttestationAuthorityHintOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContainerAnalysisNoteAttestationAuthorityHintOutputReference
 ```
@@ -1801,7 +1801,7 @@ func InternalValue() GoogleContainerAnalysisNoteAttestationAuthorityHint
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteAttestationAuthorityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 googlecontaineranalysisnote.NewGoogleContainerAnalysisNoteAttestationAuthorityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContainerAnalysisNoteAttestationAuthorityOutputReference
 ```
@@ -2085,7 +2085,7 @@ func InternalValue() GoogleContainerAnalysisNoteAttestationAuthority
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteRelatedUrlList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 googlecontaineranalysisnote.NewGoogleContainerAnalysisNoteRelatedUrlList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleContainerAnalysisNoteRelatedUrlList
 ```
@@ -2245,7 +2245,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteRelatedUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 googlecontaineranalysisnote.NewGoogleContainerAnalysisNoteRelatedUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleContainerAnalysisNoteRelatedUrlOutputReference
 ```
@@ -2563,7 +2563,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontaineranalysisnote"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnote"
 
 googlecontaineranalysisnote.NewGoogleContainerAnalysisNoteTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContainerAnalysisNoteTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.NewGooglePrivilegedAccessManagerSettings(scope Construct, id *string, config GooglePrivilegedAccessManagerSettingsConfig) GooglePrivilegedAccessManagerSettings
 ```
@@ -467,7 +467,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettings_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettings_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettings_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettings_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -932,7 +932,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 &googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettingsConfig {
 	Connection: interface{},
@@ -944,10 +944,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepr
 	Provisioners: *[]interface{},
 	Location: *string,
 	Parent: *string,
-	EmailNotificationSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettings,
+	EmailNotificationSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettings,
 	Id: *string,
-	ServiceAccountApproverSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsServiceAccountApproverSettings,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsTimeouts,
+	ServiceAccountApproverSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsServiceAccountApproverSettings,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsTimeouts,
 }
 ```
 
@@ -1131,11 +1131,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 &googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettings {
-	CustomNotificationBehavior: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehavior,
-	DisableAllNotifications: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsDisableAllNotifications,
+	CustomNotificationBehavior: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehavior,
+	DisableAllNotifications: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsDisableAllNotifications,
 }
 ```
 
@@ -1181,12 +1181,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehavior.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 &googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehavior {
-	AdminNotifications: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorAdminNotifications,
-	ApproverNotifications: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorApproverNotifications,
-	RequesterNotifications: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorRequesterNotifications,
+	AdminNotifications: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorAdminNotifications,
+	ApproverNotifications: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorApproverNotifications,
+	RequesterNotifications: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorRequesterNotifications,
 }
 ```
 
@@ -1247,7 +1247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorAdminNotifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 &googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorAdminNotifications {
 	GrantActivated: *string,
@@ -1329,7 +1329,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorApproverNotifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 &googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorApproverNotifications {
 	PendingApproval: *string,
@@ -1363,7 +1363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorRequesterNotifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 &googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorRequesterNotifications {
 	EntitlementAssigned: *string,
@@ -1509,7 +1509,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsDisableAllNotifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 &googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsDisableAllNotifications {
 
@@ -1522,7 +1522,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepr
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsServiceAccountApproverSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 &googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettingsServiceAccountApproverSettings {
 	Enabled: interface{},
@@ -1556,7 +1556,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 &googleprivilegedaccessmanagersettings.GooglePrivilegedAccessManagerSettingsTimeouts {
 	Create: *string,
@@ -1618,7 +1618,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorAdminNotificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.NewGooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorAdminNotificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorAdminNotificationsOutputReference
 ```
@@ -1983,7 +1983,7 @@ func InternalValue() GooglePrivilegedAccessManagerSettingsEmailNotificationSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorApproverNotificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.NewGooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorApproverNotificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorApproverNotificationsOutputReference
 ```
@@ -2261,7 +2261,7 @@ func InternalValue() GooglePrivilegedAccessManagerSettingsEmailNotificationSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.NewGooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorOutputReference
 ```
@@ -2636,7 +2636,7 @@ func InternalValue() GooglePrivilegedAccessManagerSettingsEmailNotificationSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorRequesterNotificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.NewGooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorRequesterNotificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsCustomNotificationBehaviorRequesterNotificationsOutputReference
 ```
@@ -3117,7 +3117,7 @@ func InternalValue() GooglePrivilegedAccessManagerSettingsEmailNotificationSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsDisableAllNotificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.NewGooglePrivilegedAccessManagerSettingsEmailNotificationSettingsDisableAllNotificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsDisableAllNotificationsOutputReference
 ```
@@ -3366,7 +3366,7 @@ func InternalValue() GooglePrivilegedAccessManagerSettingsEmailNotificationSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.NewGooglePrivilegedAccessManagerSettingsEmailNotificationSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePrivilegedAccessManagerSettingsEmailNotificationSettingsOutputReference
 ```
@@ -3699,7 +3699,7 @@ func InternalValue() GooglePrivilegedAccessManagerSettingsEmailNotificationSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsServiceAccountApproverSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.NewGooglePrivilegedAccessManagerSettingsServiceAccountApproverSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePrivilegedAccessManagerSettingsServiceAccountApproverSettingsOutputReference
 ```
@@ -3977,7 +3977,7 @@ func InternalValue() GooglePrivilegedAccessManagerSettingsServiceAccountApprover
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePrivilegedAccessManagerSettings.GooglePrivilegedAccessManagerSettingsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagersettings"
 
 googleprivilegedaccessmanagersettings.NewGooglePrivilegedAccessManagerSettingsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePrivilegedAccessManagerSettingsTimeoutsOutputReference
 ```

@@ -11,7 +11,7 @@ Provider-defined functions of the google-beta provider.
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.providerFunctions.GoogleBetaProviderFunctions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/providerfunctions"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/providerfunctions"
 
 providerfunctions.NewGoogleBetaProviderFunctions(providerLocalName *string) GoogleBetaProviderFunctions
 ```

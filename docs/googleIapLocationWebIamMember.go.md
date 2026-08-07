@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiaplocationwebiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiaplocationwebiammember"
 
 googleiaplocationwebiammember.NewGoogleIapLocationWebIamMember(scope Construct, id *string, config GoogleIapLocationWebIamMemberConfig) GoogleIapLocationWebIamMember
 ```
@@ -434,7 +434,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiaplocationwebiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiaplocationwebiammember"
 
 googleiaplocationwebiammember.GoogleIapLocationWebIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiaplocationwebiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiaplocationwebiammember"
 
 googleiaplocationwebiammember.GoogleIapLocationWebIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googleiaplocationwebiammember.GoogleIapLocationWebIamMember_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiaplocationwebiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiaplocationwebiammember"
 
 googleiaplocationwebiammember.GoogleIapLocationWebIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googleiaplocationwebiammember.GoogleIapLocationWebIamMember_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiaplocationwebiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiaplocationwebiammember"
 
 googleiaplocationwebiammember.GoogleIapLocationWebIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -866,7 +866,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiaplocationwebiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiaplocationwebiammember"
 
 &googleiaplocationwebiammember.GoogleIapLocationWebIamMemberCondition {
 	Expression: *string,
@@ -926,7 +926,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiaplocationwebiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiaplocationwebiammember"
 
 &googleiaplocationwebiammember.GoogleIapLocationWebIamMemberConfig {
 	Connection: interface{},
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleia
 	Location: *string,
 	Member: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberCondition,
 	Id: *string,
 	Project: *string,
 }
@@ -1119,7 +1119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiaplocationwebiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiaplocationwebiammember"
 
 googleiaplocationwebiammember.NewGoogleIapLocationWebIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapLocationWebIamMemberConditionOutputReference
 ```

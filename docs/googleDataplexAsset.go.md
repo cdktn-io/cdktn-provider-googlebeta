@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAsset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAsset(scope Construct, id *string, config GoogleDataplexAssetConfig) GoogleDataplexAsset
 ```
@@ -488,7 +488,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAsset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.GoogleDataplexAsset_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAsset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.GoogleDataplexAsset_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googledataplexasset.GoogleDataplexAsset_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAsset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.GoogleDataplexAsset_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googledataplexasset.GoogleDataplexAsset_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAsset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.GoogleDataplexAsset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1162,7 +1162,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 &googledataplexasset.GoogleDataplexAssetConfig {
 	Connection: interface{},
@@ -1173,18 +1173,18 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleda
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	DataplexZone: *string,
-	DiscoverySpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexAsset.GoogleDataplexAssetDiscoverySpec,
+	DiscoverySpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataplexAsset.GoogleDataplexAssetDiscoverySpec,
 	Lake: *string,
 	Location: *string,
 	Name: *string,
-	ResourceSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexAsset.GoogleDataplexAssetResourceSpec,
+	ResourceSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataplexAsset.GoogleDataplexAssetResourceSpec,
 	DeletionPolicy: *string,
 	Description: *string,
 	DisplayName: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexAsset.GoogleDataplexAssetTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataplexAsset.GoogleDataplexAssetTimeouts,
 }
 ```
 
@@ -1483,14 +1483,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoverySpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 &googledataplexasset.GoogleDataplexAssetDiscoverySpec {
 	Enabled: interface{},
-	CsvOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexAsset.GoogleDataplexAssetDiscoverySpecCsvOptions,
+	CsvOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataplexAsset.GoogleDataplexAssetDiscoverySpecCsvOptions,
 	ExcludePatterns: *[]*string,
 	IncludePatterns: *[]*string,
-	JsonOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexAsset.GoogleDataplexAssetDiscoverySpecJsonOptions,
+	JsonOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataplexAsset.GoogleDataplexAssetDiscoverySpecJsonOptions,
 	Schedule: *string,
 }
 ```
@@ -1603,7 +1603,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoverySpecCsvOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 &googledataplexasset.GoogleDataplexAssetDiscoverySpecCsvOptions {
 	Delimiter: *string,
@@ -1687,7 +1687,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoverySpecJsonOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 &googledataplexasset.GoogleDataplexAssetDiscoverySpecJsonOptions {
 	DisableTypeInference: interface{},
@@ -1739,7 +1739,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoveryStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 &googledataplexasset.GoogleDataplexAssetDiscoveryStatus {
 
@@ -1752,7 +1752,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoveryStatusStats.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 &googledataplexasset.GoogleDataplexAssetDiscoveryStatusStats {
 
@@ -1765,7 +1765,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetResourceSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 &googledataplexasset.GoogleDataplexAssetResourceSpec {
 	Type: *string,
@@ -1835,7 +1835,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetResourceStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 &googledataplexasset.GoogleDataplexAssetResourceStatus {
 
@@ -1848,7 +1848,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetSecurityStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 &googledataplexasset.GoogleDataplexAssetSecurityStatus {
 
@@ -1861,7 +1861,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 &googledataplexasset.GoogleDataplexAssetTimeouts {
 	Create: *string,
@@ -1923,7 +1923,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoverySpecCsvOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetDiscoverySpecCsvOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexAssetDiscoverySpecCsvOptionsOutputReference
 ```
@@ -2288,7 +2288,7 @@ func InternalValue() GoogleDataplexAssetDiscoverySpecCsvOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoverySpecJsonOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetDiscoverySpecJsonOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexAssetDiscoverySpecJsonOptionsOutputReference
 ```
@@ -2595,7 +2595,7 @@ func InternalValue() GoogleDataplexAssetDiscoverySpecJsonOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoverySpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetDiscoverySpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexAssetDiscoverySpecOutputReference
 ```
@@ -3037,7 +3037,7 @@ func InternalValue() GoogleDataplexAssetDiscoverySpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoveryStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetDiscoveryStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataplexAssetDiscoveryStatusList
 ```
@@ -3186,7 +3186,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoveryStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetDiscoveryStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataplexAssetDiscoveryStatusOutputReference
 ```
@@ -3519,7 +3519,7 @@ func InternalValue() GoogleDataplexAssetDiscoveryStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoveryStatusStatsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetDiscoveryStatusStatsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataplexAssetDiscoveryStatusStatsList
 ```
@@ -3668,7 +3668,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetDiscoveryStatusStatsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetDiscoveryStatusStatsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataplexAssetDiscoveryStatusStatsOutputReference
 ```
@@ -3979,7 +3979,7 @@ func InternalValue() GoogleDataplexAssetDiscoveryStatusStats
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetResourceSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetResourceSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexAssetResourceSpecOutputReference
 ```
@@ -4308,7 +4308,7 @@ func InternalValue() GoogleDataplexAssetResourceSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetResourceStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetResourceStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataplexAssetResourceStatusList
 ```
@@ -4457,7 +4457,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetResourceStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetResourceStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataplexAssetResourceStatusOutputReference
 ```
@@ -4757,7 +4757,7 @@ func InternalValue() GoogleDataplexAssetResourceStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetSecurityStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetSecurityStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataplexAssetSecurityStatusList
 ```
@@ -4906,7 +4906,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetSecurityStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetSecurityStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataplexAssetSecurityStatusOutputReference
 ```
@@ -5206,7 +5206,7 @@ func InternalValue() GoogleDataplexAssetSecurityStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAsset.GoogleDataplexAssetTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexasset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexasset"
 
 googledataplexasset.NewGoogleDataplexAssetTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexAssetTimeoutsOutputReference
 ```

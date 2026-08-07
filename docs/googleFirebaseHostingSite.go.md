@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingSite.GoogleFirebaseHostingSite.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingsite"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebasehostingsite"
 
 googlefirebasehostingsite.NewGoogleFirebaseHostingSite(scope Construct, id *string, config GoogleFirebaseHostingSiteConfig) GoogleFirebaseHostingSite
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseHostingSite.GoogleFirebaseHostingSite.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingsite"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebasehostingsite"
 
 googlefirebasehostingsite.GoogleFirebaseHostingSite_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseHostingSite.GoogleFirebaseHostingSite.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingsite"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebasehostingsite"
 
 googlefirebasehostingsite.GoogleFirebaseHostingSite_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlefirebasehostingsite.GoogleFirebaseHostingSite_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseHostingSite.GoogleFirebaseHostingSite.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingsite"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebasehostingsite"
 
 googlefirebasehostingsite.GoogleFirebaseHostingSite_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlefirebasehostingsite.GoogleFirebaseHostingSite_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseHostingSite.GoogleFirebaseHostingSite.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingsite"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebasehostingsite"
 
 googlefirebasehostingsite.GoogleFirebaseHostingSite_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -909,7 +909,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseHostingSite.GoogleFirebaseHostingSiteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingsite"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebasehostingsite"
 
 &googlefirebasehostingsite.GoogleFirebaseHostingSiteConfig {
 	Connection: interface{},
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefi
 	Id: *string,
 	Project: *string,
 	SiteId: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleFirebaseHostingSite.GoogleFirebaseHostingSiteTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseHostingSite.GoogleFirebaseHostingSiteTimeouts,
 }
 ```
 
@@ -1117,7 +1117,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseHostingSite.GoogleFirebaseHostingSiteTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingsite"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebasehostingsite"
 
 &googlefirebasehostingsite.GoogleFirebaseHostingSiteTimeouts {
 	Create: *string,
@@ -1179,7 +1179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingSite.GoogleFirebaseHostingSiteTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasehostingsite"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebasehostingsite"
 
 googlefirebasehostingsite.NewGoogleFirebaseHostingSiteTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseHostingSiteTimeoutsOutputReference
 ```
