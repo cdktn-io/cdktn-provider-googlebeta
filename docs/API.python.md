@@ -500,6 +500,12 @@ The following submodules are available:
 - [dataGoogleWorkbenchInstanceIamPolicy](./dataGoogleWorkbenchInstanceIamPolicy.python.md)
 - [dataGoogleWorkstationsWorkstationConfigIamPolicy](./dataGoogleWorkstationsWorkstationConfigIamPolicy.python.md)
 - [dataGoogleWorkstationsWorkstationIamPolicy](./dataGoogleWorkstationsWorkstationIamPolicy.python.md)
+- [ephemeralGoogleClientConfig](./ephemeralGoogleClientConfig.python.md)
+- [ephemeralGoogleSecretManagerSecretVersion](./ephemeralGoogleSecretManagerSecretVersion.python.md)
+- [ephemeralGoogleServiceAccountAccessToken](./ephemeralGoogleServiceAccountAccessToken.python.md)
+- [ephemeralGoogleServiceAccountIdToken](./ephemeralGoogleServiceAccountIdToken.python.md)
+- [ephemeralGoogleServiceAccountJwt](./ephemeralGoogleServiceAccountJwt.python.md)
+- [ephemeralGoogleServiceAccountKey](./ephemeralGoogleServiceAccountKey.python.md)
 - [googleAccessContextManagerAccessLevel](./googleAccessContextManagerAccessLevel.python.md)
 - [googleAccessContextManagerAccessLevelCondition](./googleAccessContextManagerAccessLevelCondition.python.md)
 - [googleAccessContextManagerAccessLevels](./googleAccessContextManagerAccessLevels.python.md)
@@ -1970,6 +1976,7 @@ The following submodules are available:
 - [googleWorkstationsWorkstationIamMember](./googleWorkstationsWorkstationIamMember.python.md)
 - [googleWorkstationsWorkstationIamPolicy](./googleWorkstationsWorkstationIamPolicy.python.md)
 - [provider](./provider.python.md)
+- [providerFunctions](./providerFunctions.python.md)
 
 
 

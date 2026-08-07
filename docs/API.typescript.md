@@ -500,6 +500,12 @@ The following submodules are available:
 - [dataGoogleWorkbenchInstanceIamPolicy](./dataGoogleWorkbenchInstanceIamPolicy.typescript.md)
 - [dataGoogleWorkstationsWorkstationConfigIamPolicy](./dataGoogleWorkstationsWorkstationConfigIamPolicy.typescript.md)
 - [dataGoogleWorkstationsWorkstationIamPolicy](./dataGoogleWorkstationsWorkstationIamPolicy.typescript.md)
+- [ephemeralGoogleClientConfig](./ephemeralGoogleClientConfig.typescript.md)
+- [ephemeralGoogleSecretManagerSecretVersion](./ephemeralGoogleSecretManagerSecretVersion.typescript.md)
+- [ephemeralGoogleServiceAccountAccessToken](./ephemeralGoogleServiceAccountAccessToken.typescript.md)
+- [ephemeralGoogleServiceAccountIdToken](./ephemeralGoogleServiceAccountIdToken.typescript.md)
+- [ephemeralGoogleServiceAccountJwt](./ephemeralGoogleServiceAccountJwt.typescript.md)
+- [ephemeralGoogleServiceAccountKey](./ephemeralGoogleServiceAccountKey.typescript.md)
 - [googleAccessContextManagerAccessLevel](./googleAccessContextManagerAccessLevel.typescript.md)
 - [googleAccessContextManagerAccessLevelCondition](./googleAccessContextManagerAccessLevelCondition.typescript.md)
 - [googleAccessContextManagerAccessLevels](./googleAccessContextManagerAccessLevels.typescript.md)
@@ -1970,6 +1976,7 @@ The following submodules are available:
 - [googleWorkstationsWorkstationIamMember](./googleWorkstationsWorkstationIamMember.typescript.md)
 - [googleWorkstationsWorkstationIamPolicy](./googleWorkstationsWorkstationIamPolicy.typescript.md)
 - [provider](./provider.typescript.md)
+- [providerFunctions](./providerFunctions.typescript.md)
 
 
 
