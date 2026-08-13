@@ -1912,6 +1912,7 @@ The following submodules are available:
 - [googleVertexAiEndpointIamMember](./googleVertexAiEndpointIamMember.go.md)
 - [googleVertexAiEndpointIamPolicy](./googleVertexAiEndpointIamPolicy.go.md)
 - [googleVertexAiEndpointWithModelGardenDeployment](./googleVertexAiEndpointWithModelGardenDeployment.go.md)
+- [googleVertexAiEvaluationMetric](./googleVertexAiEvaluationMetric.go.md)
 - [googleVertexAiFeatureGroup](./googleVertexAiFeatureGroup.go.md)
 - [googleVertexAiFeatureGroupFeature](./googleVertexAiFeatureGroupFeature.go.md)
 - [googleVertexAiFeatureGroupIamBinding](./googleVertexAiFeatureGroupIamBinding.go.md)

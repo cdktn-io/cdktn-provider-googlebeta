@@ -1410,6 +1410,7 @@ Object.defineProperty(exports, 'googleVertexAiEndpointIamBinding', { get: functi
 Object.defineProperty(exports, 'googleVertexAiEndpointIamMember', { get: function () { return require('./google-vertex-ai-endpoint-iam-member'); } });
 Object.defineProperty(exports, 'googleVertexAiEndpointIamPolicy', { get: function () { return require('./google-vertex-ai-endpoint-iam-policy'); } });
 Object.defineProperty(exports, 'googleVertexAiEndpointWithModelGardenDeployment', { get: function () { return require('./google-vertex-ai-endpoint-with-model-garden-deployment'); } });
+Object.defineProperty(exports, 'googleVertexAiEvaluationMetric', { get: function () { return require('./google-vertex-ai-evaluation-metric'); } });
 Object.defineProperty(exports, 'googleVertexAiFeatureGroup', { get: function () { return require('./google-vertex-ai-feature-group'); } });
 Object.defineProperty(exports, 'googleVertexAiFeatureGroupFeature', { get: function () { return require('./google-vertex-ai-feature-group-feature'); } });
 Object.defineProperty(exports, 'googleVertexAiFeatureGroupIamBinding', { get: function () { return require('./google-vertex-ai-feature-group-iam-binding'); } });

@@ -4,7 +4,7 @@
 
 ### GoogleSqlProvisionScript <a name="GoogleSqlProvisionScript" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script google_sql_provision_script}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script google_sql_provision_script}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.Initializer"></a>
 
@@ -78,7 +78,9 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.resetPasswordSecretVersion">resetPasswordSecretVersion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.resetUser">resetUser</a></code> | *No description.* |
 
 ---
 
@@ -415,10 +417,22 @@ public resetDescription(): void
 public resetId(): void
 ```
 
+##### `resetPasswordSecretVersion` <a name="resetPasswordSecretVersion" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.resetPasswordSecretVersion"></a>
+
+```typescript
+public resetPasswordSecretVersion(): void
+```
+
 ##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.resetProject"></a>
 
 ```typescript
 public resetProject(): void
+```
+
+##### `resetUser` <a name="resetUser" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.resetUser"></a>
+
+```typescript
+public resetUser(): void
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -524,7 +538,7 @@ The construct id used in the generated config for the GoogleSqlProvisionScript t
 
 The id of the existing GoogleSqlProvisionScript that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -559,15 +573,19 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.instanceInput">instanceInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.passwordSecretVersionInput">passwordSecretVersionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.scriptInput">scriptInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.userInput">userInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.database">database</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.instance">instance</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.passwordSecretVersion">passwordSecretVersion</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.project">project</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.script">script</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.user">user</a></code> | <code>string</code> | *No description.* |
 
 ---
 
@@ -763,6 +781,16 @@ public readonly instanceInput: string;
 
 ---
 
+##### `passwordSecretVersionInput`<sup>Optional</sup> <a name="passwordSecretVersionInput" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.passwordSecretVersionInput"></a>
+
+```typescript
+public readonly passwordSecretVersionInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.projectInput"></a>
 
 ```typescript
@@ -777,6 +805,16 @@ public readonly projectInput: string;
 
 ```typescript
 public readonly scriptInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `userInput`<sup>Optional</sup> <a name="userInput" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.userInput"></a>
+
+```typescript
+public readonly userInput: string;
 ```
 
 - *Type:* string
@@ -833,6 +871,16 @@ public readonly instance: string;
 
 ---
 
+##### `passwordSecretVersion`<sup>Required</sup> <a name="passwordSecretVersion" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.passwordSecretVersion"></a>
+
+```typescript
+public readonly passwordSecretVersion: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.project"></a>
 
 ```typescript
@@ -847,6 +895,16 @@ public readonly project: string;
 
 ```typescript
 public readonly script: string;
+```
+
+- *Type:* string
+
+---
+
+##### `user`<sup>Required</sup> <a name="user" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScript.property.user"></a>
+
+```typescript
+public readonly user: string;
 ```
 
 - *Type:* string
@@ -899,8 +957,10 @@ const googleSqlProvisionScriptConfig: googleSqlProvisionScript.GoogleSqlProvisio
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScriptConfig.property.database">database</a></code> | <code>string</code> | The name of the database to which Terraform connects. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScriptConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | The deletion policy for the resources created by the script. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScriptConfig.property.description">description</a></code> | <code>string</code> | The description of the provision script. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScriptConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script#id GoogleSqlProvisionScript#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScriptConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script#id GoogleSqlProvisionScript#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScriptConfig.property.passwordSecretVersion">passwordSecretVersion</a></code> | <code>string</code> | The resource name of the Secret Manager secret storing the password. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScriptConfig.property.project">project</a></code> | <code>string</code> | The ID of the project in which the resource belongs. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScriptConfig.property.user">user</a></code> | <code>string</code> | The name of the built-in database user to authenticate as. |
 
 ---
 
@@ -984,7 +1044,7 @@ public readonly instance: string;
 
 The name of the Cloud SQL instance. Changing this forces the script to be run on the new instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script#instance GoogleSqlProvisionScript#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script#instance GoogleSqlProvisionScript#instance}
 
 ---
 
@@ -1004,7 +1064,7 @@ Its execution time limit is 30 s.
 				"if not exists (select …) then … end if" to prevent existence-related errors. If it's not
 				possible to make a statement idempotent, you can run it once and then remove it from this script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script#script GoogleSqlProvisionScript#script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script#script GoogleSqlProvisionScript#script}
 
 ---
 
@@ -1024,7 +1084,7 @@ Changing
 				a database. You can create and use a database in the script or explicitly reference a
 				google_sql_database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script#database GoogleSqlProvisionScript#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script#database GoogleSqlProvisionScript#database}
 
 ---
 
@@ -1042,7 +1102,7 @@ The default is "ABANDON".
 				It must be "ABANDON" to allow Terraform to abandon the resources. If you want to delete resources, add statements
 				in the script such as "drop … if exists".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script#deletion_policy GoogleSqlProvisionScript#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script#deletion_policy GoogleSqlProvisionScript#deletion_policy}
 
 ---
 
@@ -1056,7 +1116,7 @@ public readonly description: string;
 
 The description of the provision script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script#description GoogleSqlProvisionScript#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script#description GoogleSqlProvisionScript#description}
 
 ---
 
@@ -1068,10 +1128,31 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script#id GoogleSqlProvisionScript#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script#id GoogleSqlProvisionScript#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `passwordSecretVersion`<sup>Optional</sup> <a name="passwordSecretVersion" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScriptConfig.property.passwordSecretVersion"></a>
+
+```typescript
+public readonly passwordSecretVersion: string;
+```
+
+- *Type:* string
+
+The resource name of the Secret Manager secret storing the password.
+
+The secret
+				should be a regional secret and stored in the exact same region as the Cloud SQL instance.
+				Follow https://docs.cloud.google.com/secret-manager/regional-secrets/create-regional-secret.
+				When user and password_secret_version are provided, the script is run using this user.
+				Otherwise, the script is run using the identity account used to apply your Terraform config.
+				Changing this field forces the script to be run again.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script#password_secret_version GoogleSqlProvisionScript#password_secret_version}
 
 ---
 
@@ -1087,7 +1168,27 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script#project GoogleSqlProvisionScript#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script#project GoogleSqlProvisionScript#project}
+
+---
+
+##### `user`<sup>Optional</sup> <a name="user" id="@cdktn/provider-google-beta.googleSqlProvisionScript.GoogleSqlProvisionScriptConfig.property.user"></a>
+
+```typescript
+public readonly user: string;
+```
+
+- *Type:* string
+
+The name of the built-in database user to authenticate as.
+
+For MySQL user,
+				omit '@' and the hostname. The user should exist as a built-in user in the database.
+				When user and password_secret_version are provided, the script is run using this user. Otherwise,
+				the script is run using the identity account used to apply your Terraform config.
+				Changing this forces the script to be run using the new user.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script#user GoogleSqlProvisionScript#user}
 
 ---
 
