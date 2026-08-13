@@ -4,7 +4,7 @@
 
 ### GoogleChronicleEnvironmentGroup <a name="GoogleChronicleEnvironmentGroup" id="@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group google_chronicle_environment_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group google_chronicle_environment_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroup.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleChronicleEnvironment
 
 The id of the existing GoogleChronicleEnvironmentGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -989,8 +989,8 @@ new GoogleChronicleEnvironmentGroupConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupConfig.property.instance">Instance</a></code> | <code>string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupConfig.property.location">Location</a></code> | <code>string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#id GoogleChronicleEnvironmentGroup#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#project GoogleChronicleEnvironmentGroup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#id GoogleChronicleEnvironmentGroup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#project GoogleChronicleEnvironmentGroup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupTimeouts">GoogleChronicleEnvironmentGroupTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1075,7 +1075,7 @@ public string Description { get; set; }
 
 The EnvironmentGroup description. This value is optional. This value should be up to 250 characters, and valid characters are /a-z-/.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#description GoogleChronicleEnvironmentGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#description GoogleChronicleEnvironmentGroup#description}
 
 ---
 
@@ -1089,7 +1089,7 @@ public string DisplayName { get; set; }
 
 The group name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#display_name GoogleChronicleEnvironmentGroup#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#display_name GoogleChronicleEnvironmentGroup#display_name}
 
 ---
 
@@ -1103,7 +1103,7 @@ public string[] EnvironmentsIds { get; set; }
 
 The environment IDs for the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#environments_ids GoogleChronicleEnvironmentGroup#environments_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#environments_ids GoogleChronicleEnvironmentGroup#environments_ids}
 
 ---
 
@@ -1117,7 +1117,7 @@ public string Instance { get; set; }
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#instance GoogleChronicleEnvironmentGroup#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#instance GoogleChronicleEnvironmentGroup#instance}
 
 ---
 
@@ -1131,7 +1131,7 @@ public string Location { get; set; }
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#location GoogleChronicleEnvironmentGroup#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#location GoogleChronicleEnvironmentGroup#location}
 
 ---
 
@@ -1152,7 +1152,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#deletion_policy GoogleChronicleEnvironmentGroup#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#deletion_policy GoogleChronicleEnvironmentGroup#deletion_policy}
 
 ---
 
@@ -1164,7 +1164,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#id GoogleChronicleEnvironmentGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#id GoogleChronicleEnvironmentGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1179,7 +1179,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#project GoogleChronicleEnvironmentGroup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#project GoogleChronicleEnvironmentGroup#project}.
 
 ---
 
@@ -1193,7 +1193,7 @@ public GoogleChronicleEnvironmentGroupTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#timeouts GoogleChronicleEnvironmentGroup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#timeouts GoogleChronicleEnvironmentGroup#timeouts}
 
 ---
 
@@ -1215,9 +1215,9 @@ new GoogleChronicleEnvironmentGroupTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#create GoogleChronicleEnvironmentGroup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#delete GoogleChronicleEnvironmentGroup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#update GoogleChronicleEnvironmentGroup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#create GoogleChronicleEnvironmentGroup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#delete GoogleChronicleEnvironmentGroup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleEnvironmentGroup.GoogleChronicleEnvironmentGroupTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#update GoogleChronicleEnvironmentGroup#update}. |
 
 ---
 
@@ -1229,7 +1229,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#create GoogleChronicleEnvironmentGroup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#create GoogleChronicleEnvironmentGroup#create}.
 
 ---
 
@@ -1241,7 +1241,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#delete GoogleChronicleEnvironmentGroup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#delete GoogleChronicleEnvironmentGroup#delete}.
 
 ---
 
@@ -1253,7 +1253,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group#update GoogleChronicleEnvironmentGroup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#update GoogleChronicleEnvironmentGroup#update}.
 
 ---
 

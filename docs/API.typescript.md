@@ -1912,6 +1912,7 @@ The following submodules are available:
 - [googleVertexAiEndpointIamMember](./googleVertexAiEndpointIamMember.typescript.md)
 - [googleVertexAiEndpointIamPolicy](./googleVertexAiEndpointIamPolicy.typescript.md)
 - [googleVertexAiEndpointWithModelGardenDeployment](./googleVertexAiEndpointWithModelGardenDeployment.typescript.md)
+- [googleVertexAiEvaluationMetric](./googleVertexAiEvaluationMetric.typescript.md)
 - [googleVertexAiFeatureGroup](./googleVertexAiFeatureGroup.typescript.md)
 - [googleVertexAiFeatureGroupFeature](./googleVertexAiFeatureGroupFeature.typescript.md)
 - [googleVertexAiFeatureGroupIamBinding](./googleVertexAiFeatureGroupIamBinding.typescript.md)

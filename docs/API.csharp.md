@@ -1912,6 +1912,7 @@ The following submodules are available:
 - [googleVertexAiEndpointIamMember](./googleVertexAiEndpointIamMember.csharp.md)
 - [googleVertexAiEndpointIamPolicy](./googleVertexAiEndpointIamPolicy.csharp.md)
 - [googleVertexAiEndpointWithModelGardenDeployment](./googleVertexAiEndpointWithModelGardenDeployment.csharp.md)
+- [googleVertexAiEvaluationMetric](./googleVertexAiEvaluationMetric.csharp.md)
 - [googleVertexAiFeatureGroup](./googleVertexAiFeatureGroup.csharp.md)
 - [googleVertexAiFeatureGroupFeature](./googleVertexAiFeatureGroupFeature.csharp.md)
 - [googleVertexAiFeatureGroupIamBinding](./googleVertexAiFeatureGroupIamBinding.csharp.md)
