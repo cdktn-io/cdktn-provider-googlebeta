@@ -26,11 +26,85 @@ DataGoogleContainerClusterNodePoolNodeConfigSecondaryBootDisksList,
 DataGoogleContainerClusterNodePoolNodeConfigShieldedInstanceConfigList,
 DataGoogleContainerClusterNodePoolNodeConfigSoleTenantConfigList,
 DataGoogleContainerClusterNodePoolNodeConfigTaintList,
-DataGoogleContainerClusterNodePoolNodeConfigTaintConfigList,
 DataGoogleContainerClusterNodePoolAutoscalingList,
 DataGoogleContainerClusterNodePoolMaintenancePolicyList,
 DataGoogleContainerClusterNodePoolManagementList,
 DataGoogleContainerClusterNodePoolNetworkConfigList } from './structs400';
+export interface DataGoogleContainerClusterNodePoolNodeConfigTaintConfig {
+}
+
+export function dataGoogleContainerClusterNodePoolNodeConfigTaintConfigToTerraform(struct?: DataGoogleContainerClusterNodePoolNodeConfigTaintConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataGoogleContainerClusterNodePoolNodeConfigTaintConfigToHclTerraform(struct?: DataGoogleContainerClusterNodePoolNodeConfigTaintConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataGoogleContainerClusterNodePoolNodeConfigTaintConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataGoogleContainerClusterNodePoolNodeConfigTaintConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataGoogleContainerClusterNodePoolNodeConfigTaintConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // architecture_taint_behavior - computed: true, optional: false, required: false
+  public get architectureTaintBehavior() {
+    return this.getStringAttribute('architecture_taint_behavior');
+  }
+}
+
+export class DataGoogleContainerClusterNodePoolNodeConfigTaintConfigList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataGoogleContainerClusterNodePoolNodeConfigTaintConfigOutputReference {
+    return new DataGoogleContainerClusterNodePoolNodeConfigTaintConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataGoogleContainerClusterNodePoolNodeConfigWindowsNodeConfig {
 }
 

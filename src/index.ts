@@ -1410,6 +1410,7 @@ export * as googleVertexAiEndpointIamBinding from './google-vertex-ai-endpoint-i
 export * as googleVertexAiEndpointIamMember from './google-vertex-ai-endpoint-iam-member/index';
 export * as googleVertexAiEndpointIamPolicy from './google-vertex-ai-endpoint-iam-policy/index';
 export * as googleVertexAiEndpointWithModelGardenDeployment from './google-vertex-ai-endpoint-with-model-garden-deployment/index';
+export * as googleVertexAiEvaluationMetric from './google-vertex-ai-evaluation-metric/index';
 export * as googleVertexAiFeatureGroup from './google-vertex-ai-feature-group/index';
 export * as googleVertexAiFeatureGroupFeature from './google-vertex-ai-feature-group-feature/index';
 export * as googleVertexAiFeatureGroupIamBinding from './google-vertex-ai-feature-group-iam-binding/index';
