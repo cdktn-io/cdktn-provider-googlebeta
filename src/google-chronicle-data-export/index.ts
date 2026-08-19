@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,17 +15,17 @@ export interface GoogleChronicleDataExportConfig extends cdktn.TerraformMetaArgu
   /**
   * Last, exclusive time from the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#end_time GoogleChronicleDataExport#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#end_time GoogleChronicleDataExport#end_time}
   */
   readonly endTime: string;
   /**
   * Link to the destination Cloud Storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#gcs_bucket GoogleChronicleDataExport#gcs_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#gcs_bucket GoogleChronicleDataExport#gcs_bucket}
   */
   readonly gcsBucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#id GoogleChronicleDataExport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#id GoogleChronicleDataExport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,47 +34,47 @@ export interface GoogleChronicleDataExportConfig extends cdktn.TerraformMetaArgu
   /**
   * The specific log types to include in the Data Export request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#include_log_types GoogleChronicleDataExport#include_log_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#include_log_types GoogleChronicleDataExport#include_log_types}
   */
   readonly includeLogTypes?: string[];
   /**
   * The unique identifier for the Chronicle instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#instance GoogleChronicleDataExport#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#instance GoogleChronicleDataExport#instance}
   */
   readonly instance: string;
   /**
   * The location of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#location GoogleChronicleDataExport#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#location GoogleChronicleDataExport#location}
   */
   readonly location: string;
   /**
   * The namespaces used to filter the export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#namespaces GoogleChronicleDataExport#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#namespaces GoogleChronicleDataExport#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#project GoogleChronicleDataExport#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#project GoogleChronicleDataExport#project}
   */
   readonly project?: string;
   /**
   * Start, inclusive time from the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#start_time GoogleChronicleDataExport#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#start_time GoogleChronicleDataExport#start_time}
   */
   readonly startTime: string;
   /**
   * ingestion_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#ingestion_labels GoogleChronicleDataExport#ingestion_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#ingestion_labels GoogleChronicleDataExport#ingestion_labels}
   */
   readonly ingestionLabels?: GoogleChronicleDataExportIngestionLabels[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#timeouts GoogleChronicleDataExport#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#timeouts GoogleChronicleDataExport#timeouts}
   */
   readonly timeouts?: GoogleChronicleDataExportTimeouts;
 }
@@ -172,13 +172,13 @@ export interface GoogleChronicleDataExportIngestionLabels {
   /**
   * The key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#key GoogleChronicleDataExport#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#key GoogleChronicleDataExport#key}
   */
   readonly key: string;
   /**
   * The value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#value GoogleChronicleDataExport#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#value GoogleChronicleDataExport#value}
   */
   readonly value: string;
 }
@@ -317,11 +317,11 @@ export class GoogleChronicleDataExportIngestionLabelsList extends cdktn.ComplexL
 }
 export interface GoogleChronicleDataExportTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#create GoogleChronicleDataExport#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#create GoogleChronicleDataExport#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#delete GoogleChronicleDataExport#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#delete GoogleChronicleDataExport#delete}
   */
   readonly delete?: string;
 }
@@ -444,7 +444,7 @@ export class GoogleChronicleDataExportTimeoutsOutputReference extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export google_chronicle_data_export}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export google_chronicle_data_export}
 */
 export class GoogleChronicleDataExport extends cdktn.TerraformResource {
 
@@ -460,7 +460,7 @@ export class GoogleChronicleDataExport extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleChronicleDataExport resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleChronicleDataExport to import
-  * @param importFromId The id of the existing GoogleChronicleDataExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleChronicleDataExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleChronicleDataExport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -472,7 +472,7 @@ export class GoogleChronicleDataExport extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_data_export google_chronicle_data_export} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_data_export google_chronicle_data_export} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,7 +483,7 @@ export class GoogleChronicleDataExport extends cdktn.TerraformResource {
       terraformResourceType: 'google_chronicle_data_export',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.44.0',
+        providerVersion: '7.45.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -29,6 +29,7 @@ Object.defineProperty(exports, 'googleActiveDirectoryPeering', { get: function (
 Object.defineProperty(exports, 'googleAgentIdentityAuthProvider', { get: function () { return require('./google-agent-identity-auth-provider'); } });
 Object.defineProperty(exports, 'googleAgentRegistryBinding', { get: function () { return require('./google-agent-registry-binding'); } });
 Object.defineProperty(exports, 'googleAgentRegistryService', { get: function () { return require('./google-agent-registry-service'); } });
+Object.defineProperty(exports, 'googleAgenticApplicationsAnalystAgentPersona', { get: function () { return require('./google-agentic-applications-analyst-agent-persona'); } });
 Object.defineProperty(exports, 'googleAlloydbBackup', { get: function () { return require('./google-alloydb-backup'); } });
 Object.defineProperty(exports, 'googleAlloydbCluster', { get: function () { return require('./google-alloydb-cluster'); } });
 Object.defineProperty(exports, 'googleAlloydbInstance', { get: function () { return require('./google-alloydb-instance'); } });
@@ -807,6 +808,7 @@ Object.defineProperty(exports, 'googleFirebaseWebApp', { get: function () { retu
 Object.defineProperty(exports, 'googleFirebaserulesRelease', { get: function () { return require('./google-firebaserules-release'); } });
 Object.defineProperty(exports, 'googleFirebaserulesRuleset', { get: function () { return require('./google-firebaserules-ruleset'); } });
 Object.defineProperty(exports, 'googleFirestoreBackupSchedule', { get: function () { return require('./google-firestore-backup-schedule'); } });
+Object.defineProperty(exports, 'googleFirestoreChangeStream', { get: function () { return require('./google-firestore-change-stream'); } });
 Object.defineProperty(exports, 'googleFirestoreDatabase', { get: function () { return require('./google-firestore-database'); } });
 Object.defineProperty(exports, 'googleFirestoreDocument', { get: function () { return require('./google-firestore-document'); } });
 Object.defineProperty(exports, 'googleFirestoreField', { get: function () { return require('./google-firestore-field'); } });
@@ -1761,6 +1763,7 @@ Object.defineProperty(exports, 'dataGoogleIamTestablePermissions', { get: functi
 Object.defineProperty(exports, 'dataGoogleIamWorkforcePoolIamPolicy', { get: function () { return require('./data-google-iam-workforce-pool-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleIamWorkloadIdentityPool', { get: function () { return require('./data-google-iam-workload-identity-pool'); } });
 Object.defineProperty(exports, 'dataGoogleIamWorkloadIdentityPoolIamPolicy', { get: function () { return require('./data-google-iam-workload-identity-pool-iam-policy'); } });
+Object.defineProperty(exports, 'dataGoogleIamWorkloadIdentityPoolOpenidConfig', { get: function () { return require('./data-google-iam-workload-identity-pool-openid-config'); } });
 Object.defineProperty(exports, 'dataGoogleIamWorkloadIdentityPoolProvider', { get: function () { return require('./data-google-iam-workload-identity-pool-provider'); } });
 Object.defineProperty(exports, 'dataGoogleIapAgentRegistryAgentIamPolicy', { get: function () { return require('./data-google-iap-agent-registry-agent-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleIapAgentRegistryEndpointIamPolicy', { get: function () { return require('./data-google-iap-agent-registry-endpoint-iam-policy'); } });

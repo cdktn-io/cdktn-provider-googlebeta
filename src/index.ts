@@ -29,6 +29,7 @@ export * as googleActiveDirectoryPeering from './google-active-directory-peering
 export * as googleAgentIdentityAuthProvider from './google-agent-identity-auth-provider/index';
 export * as googleAgentRegistryBinding from './google-agent-registry-binding/index';
 export * as googleAgentRegistryService from './google-agent-registry-service/index';
+export * as googleAgenticApplicationsAnalystAgentPersona from './google-agentic-applications-analyst-agent-persona/index';
 export * as googleAlloydbBackup from './google-alloydb-backup/index';
 export * as googleAlloydbCluster from './google-alloydb-cluster/index';
 export * as googleAlloydbInstance from './google-alloydb-instance/index';
@@ -807,6 +808,7 @@ export * as googleFirebaseWebApp from './google-firebase-web-app/index';
 export * as googleFirebaserulesRelease from './google-firebaserules-release/index';
 export * as googleFirebaserulesRuleset from './google-firebaserules-ruleset/index';
 export * as googleFirestoreBackupSchedule from './google-firestore-backup-schedule/index';
+export * as googleFirestoreChangeStream from './google-firestore-change-stream/index';
 export * as googleFirestoreDatabase from './google-firestore-database/index';
 export * as googleFirestoreDocument from './google-firestore-document/index';
 export * as googleFirestoreField from './google-firestore-field/index';
@@ -1761,6 +1763,7 @@ export * as dataGoogleIamTestablePermissions from './data-google-iam-testable-pe
 export * as dataGoogleIamWorkforcePoolIamPolicy from './data-google-iam-workforce-pool-iam-policy/index';
 export * as dataGoogleIamWorkloadIdentityPool from './data-google-iam-workload-identity-pool/index';
 export * as dataGoogleIamWorkloadIdentityPoolIamPolicy from './data-google-iam-workload-identity-pool-iam-policy/index';
+export * as dataGoogleIamWorkloadIdentityPoolOpenidConfig from './data-google-iam-workload-identity-pool-openid-config/index';
 export * as dataGoogleIamWorkloadIdentityPoolProvider from './data-google-iam-workload-identity-pool-provider/index';
 export * as dataGoogleIapAgentRegistryAgentIamPolicy from './data-google-iap-agent-registry-agent-iam-policy/index';
 export * as dataGoogleIapAgentRegistryEndpointIamPolicy from './data-google-iap-agent-registry-endpoint-iam-policy/index';
