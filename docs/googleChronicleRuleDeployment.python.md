@@ -4,7 +4,7 @@
 
 ### GoogleChronicleRuleDeployment <a name="GoogleChronicleRuleDeployment" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer"></a>
 
@@ -30,6 +30,7 @@ googleChronicleRuleDeployment.GoogleChronicleRuleDeployment(
   id: str = None,
   project: str = None,
   run_frequency: str = None,
+  schedule_customizations: GoogleChronicleRuleDeploymentScheduleCustomizations = None,
   timeouts: GoogleChronicleRuleDeploymentTimeouts = None
 )
 ```
@@ -51,9 +52,10 @@ googleChronicleRuleDeployment.GoogleChronicleRuleDeployment(
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.alerting">alerting</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether detections resulting from this deployment should be considered alerts. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.archived">archived</a></code> | <code>bool \| cdktn.IResolvable</code> | The archive state of the rule deployment. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the rule is currently deployed continuously against incoming data. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#id GoogleChronicleRuleDeployment#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#project GoogleChronicleRuleDeployment#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.runFrequency">run_frequency</a></code> | <code>str</code> | The run frequency of the rule deployment. Possible values: LIVE HOURLY DAILY. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#id GoogleChronicleRuleDeployment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#project GoogleChronicleRuleDeployment#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.runFrequency">run_frequency</a></code> | <code>str</code> | The run frequency of the rule deployment. Possible values: LIVE HOURLY DAILY LIVE_CUSTOMIZABLE HOURLY_CUSTOMIZABLE. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.scheduleCustomizations">schedule_customizations</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations">GoogleChronicleRuleDeploymentScheduleCustomizations</a></code> | schedule_customizations block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeouts">GoogleChronicleRuleDeploymentTimeouts</a></code> | timeouts block. |
 
 ---
@@ -124,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 The unique identifier for the Chronicle instance, which is the same as the customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#instance GoogleChronicleRuleDeployment#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#instance GoogleChronicleRuleDeployment#instance}
 
 ---
 
@@ -136,7 +138,7 @@ The location of the resource.
 
 This is the geographical region where the Chronicle instance resides, such as "us" or "europe-west2".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#location GoogleChronicleRuleDeployment#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#location GoogleChronicleRuleDeployment#location}
 
 ---
 
@@ -146,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Rule ID of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#rule GoogleChronicleRuleDeployment#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#rule GoogleChronicleRuleDeployment#rule}
 
 ---
 
@@ -156,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether detections resulting from this deployment should be considered alerts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#alerting GoogleChronicleRuleDeployment#alerting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#alerting GoogleChronicleRuleDeployment#alerting}
 
 ---
 
@@ -173,7 +175,7 @@ If set to true, alerting will automatically be set to false.
 If currently set to true, enabled, alerting, and run_frequency cannot be
 updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#archived GoogleChronicleRuleDeployment#archived}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#archived GoogleChronicleRuleDeployment#archived}
 
 ---
 
@@ -183,7 +185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether the rule is currently deployed continuously against incoming data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#enabled GoogleChronicleRuleDeployment#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#enabled GoogleChronicleRuleDeployment#enabled}
 
 ---
 
@@ -191,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#id GoogleChronicleRuleDeployment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#id GoogleChronicleRuleDeployment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -202,7 +204,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#project GoogleChronicleRuleDeployment#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#project GoogleChronicleRuleDeployment#project}.
 
 ---
 
@@ -210,9 +212,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-The run frequency of the rule deployment. Possible values: LIVE HOURLY DAILY.
+The run frequency of the rule deployment. Possible values: LIVE HOURLY DAILY LIVE_CUSTOMIZABLE HOURLY_CUSTOMIZABLE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#run_frequency GoogleChronicleRuleDeployment#run_frequency}
+Note: Certain legacy run frequencies are deprecated. For multi-event rules, use LIVE_CUSTOMIZABLE or HOURLY_CUSTOMIZABLE (for match windows <=2d), or DAILY (for match windows >2d).
+Legacy values LIVE and HOURLY are mapped to their customizable counterparts on the backend. DAILY for <=2d match window multi-event rules will be happed to HOURLY_CUSTOMIZABLE.
+For single-event rules, HOURLY and DAILY are deprecated and mapped to LIVE. If you continue to use deprecated values in your Terraform configuration, Terraform will silently
+suppress the diff and ignore the changes to prevent infinite update loops.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#run_frequency GoogleChronicleRuleDeployment#run_frequency}
+
+---
+
+##### `schedule_customizations`<sup>Optional</sup> <a name="schedule_customizations" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.Initializer.parameter.scheduleCustomizations"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations">GoogleChronicleRuleDeploymentScheduleCustomizations</a>
+
+schedule_customizations block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#schedule_customizations GoogleChronicleRuleDeployment#schedule_customizations}
 
 ---
 
@@ -222,7 +239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#timeouts GoogleChronicleRuleDeployment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#timeouts GoogleChronicleRuleDeployment#timeouts}
 
 ---
 
@@ -254,6 +271,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.putScheduleCustomizations">put_schedule_customizations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.resetAlerting">reset_alerting</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.resetArchived">reset_archived</a></code> | *No description.* |
@@ -261,6 +279,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.resetProject">reset_project</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.resetRunFrequency">reset_run_frequency</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.resetScheduleCustomizations">reset_schedule_customizations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.resetTimeouts">reset_timeouts</a></code> | *No description.* |
 
 ---
@@ -613,6 +632,35 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_schedule_customizations` <a name="put_schedule_customizations" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.putScheduleCustomizations"></a>
+
+```python
+def put_schedule_customizations(
+  ensure_enrichment_completeness: bool | IResolvable = None,
+  late_arriving_data_adjustment: str = None
+) -> None
+```
+
+###### `ensure_enrichment_completeness`<sup>Optional</sup> <a name="ensure_enrichment_completeness" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.putScheduleCustomizations.parameter.ensureEnrichmentCompleteness"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Indicates whether to add additional delays and runs to rules to ensure enrichment completeness, with the trade-off of more late-arriving detections.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#ensure_enrichment_completeness GoogleChronicleRuleDeployment#ensure_enrichment_completeness}
+
+---
+
+###### `late_arriving_data_adjustment`<sup>Optional</sup> <a name="late_arriving_data_adjustment" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.putScheduleCustomizations.parameter.lateArrivingDataAdjustment"></a>
+
+- *Type:* str
+
+Delay the first rule execution run to account for late-arriving data.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#late_arriving_data_adjustment GoogleChronicleRuleDeployment#late_arriving_data_adjustment}
+
+---
+
 ##### `put_timeouts` <a name="put_timeouts" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.putTimeouts"></a>
 
 ```python
@@ -627,7 +675,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#create GoogleChronicleRuleDeployment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#create GoogleChronicleRuleDeployment#create}.
 
 ---
 
@@ -635,7 +683,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#delete GoogleChronicleRuleDeployment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#delete GoogleChronicleRuleDeployment#delete}.
 
 ---
 
@@ -643,7 +691,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#update GoogleChronicleRuleDeployment#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#update GoogleChronicleRuleDeployment#update}.
 
 ---
 
@@ -681,6 +729,12 @@ def reset_project() -> None
 
 ```python
 def reset_run_frequency() -> None
+```
+
+##### `reset_schedule_customizations` <a name="reset_schedule_customizations" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.resetScheduleCustomizations"></a>
+
+```python
+def reset_schedule_customizations() -> None
 ```
 
 ##### `reset_timeouts` <a name="reset_timeouts" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.resetTimeouts"></a>
@@ -803,7 +857,7 @@ The construct id used in the generated config for the GoogleChronicleRuleDeploym
 
 The id of the existing GoogleChronicleRuleDeployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -839,6 +893,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.lastAlertStatusChangeTime">last_alert_status_change_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.producerRules">producer_rules</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.scheduleCustomizations">schedule_customizations</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference">GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeoutsOutputReference">GoogleChronicleRuleDeploymentTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.alertingInput">alerting_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.archivedInput">archived_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -849,6 +904,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.ruleInput">rule_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.runFrequencyInput">run_frequency_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.scheduleCustomizationsInput">schedule_customizations_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations">GoogleChronicleRuleDeploymentScheduleCustomizations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeouts">GoogleChronicleRuleDeploymentTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.alerting">alerting</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.archived">archived</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -1064,6 +1120,16 @@ producer_rules: typing.List[str]
 
 ---
 
+##### `schedule_customizations`<sup>Required</sup> <a name="schedule_customizations" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.scheduleCustomizations"></a>
+
+```python
+schedule_customizations: GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference">GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference</a>
+
+---
+
 ##### `timeouts`<sup>Required</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.timeouts"></a>
 
 ```python
@@ -1161,6 +1227,16 @@ run_frequency_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `schedule_customizations_input`<sup>Optional</sup> <a name="schedule_customizations_input" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeployment.property.scheduleCustomizationsInput"></a>
+
+```python
+schedule_customizations_input: GoogleChronicleRuleDeploymentScheduleCustomizations
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations">GoogleChronicleRuleDeploymentScheduleCustomizations</a>
 
 ---
 
@@ -1308,6 +1384,7 @@ googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig(
   id: str = None,
   project: str = None,
   run_frequency: str = None,
+  schedule_customizations: GoogleChronicleRuleDeploymentScheduleCustomizations = None,
   timeouts: GoogleChronicleRuleDeploymentTimeouts = None
 )
 ```
@@ -1329,9 +1406,10 @@ googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.alerting">alerting</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether detections resulting from this deployment should be considered alerts. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.archived">archived</a></code> | <code>bool \| cdktn.IResolvable</code> | The archive state of the rule deployment. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the rule is currently deployed continuously against incoming data. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#id GoogleChronicleRuleDeployment#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#project GoogleChronicleRuleDeployment#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.runFrequency">run_frequency</a></code> | <code>str</code> | The run frequency of the rule deployment. Possible values: LIVE HOURLY DAILY. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#id GoogleChronicleRuleDeployment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#project GoogleChronicleRuleDeployment#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.runFrequency">run_frequency</a></code> | <code>str</code> | The run frequency of the rule deployment. Possible values: LIVE HOURLY DAILY LIVE_CUSTOMIZABLE HOURLY_CUSTOMIZABLE. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.scheduleCustomizations">schedule_customizations</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations">GoogleChronicleRuleDeploymentScheduleCustomizations</a></code> | schedule_customizations block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeouts">GoogleChronicleRuleDeploymentTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1416,7 +1494,7 @@ instance: str
 
 The unique identifier for the Chronicle instance, which is the same as the customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#instance GoogleChronicleRuleDeployment#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#instance GoogleChronicleRuleDeployment#instance}
 
 ---
 
@@ -1432,7 +1510,7 @@ The location of the resource.
 
 This is the geographical region where the Chronicle instance resides, such as "us" or "europe-west2".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#location GoogleChronicleRuleDeployment#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#location GoogleChronicleRuleDeployment#location}
 
 ---
 
@@ -1446,7 +1524,7 @@ rule: str
 
 The Rule ID of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#rule GoogleChronicleRuleDeployment#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#rule GoogleChronicleRuleDeployment#rule}
 
 ---
 
@@ -1460,7 +1538,7 @@ alerting: bool | IResolvable
 
 Whether detections resulting from this deployment should be considered alerts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#alerting GoogleChronicleRuleDeployment#alerting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#alerting GoogleChronicleRuleDeployment#alerting}
 
 ---
 
@@ -1481,7 +1559,7 @@ If set to true, alerting will automatically be set to false.
 If currently set to true, enabled, alerting, and run_frequency cannot be
 updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#archived GoogleChronicleRuleDeployment#archived}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#archived GoogleChronicleRuleDeployment#archived}
 
 ---
 
@@ -1495,7 +1573,7 @@ enabled: bool | IResolvable
 
 Whether the rule is currently deployed continuously against incoming data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#enabled GoogleChronicleRuleDeployment#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#enabled GoogleChronicleRuleDeployment#enabled}
 
 ---
 
@@ -1507,7 +1585,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#id GoogleChronicleRuleDeployment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#id GoogleChronicleRuleDeployment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1522,7 +1600,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#project GoogleChronicleRuleDeployment#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#project GoogleChronicleRuleDeployment#project}.
 
 ---
 
@@ -1534,9 +1612,28 @@ run_frequency: str
 
 - *Type:* str
 
-The run frequency of the rule deployment. Possible values: LIVE HOURLY DAILY.
+The run frequency of the rule deployment. Possible values: LIVE HOURLY DAILY LIVE_CUSTOMIZABLE HOURLY_CUSTOMIZABLE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#run_frequency GoogleChronicleRuleDeployment#run_frequency}
+Note: Certain legacy run frequencies are deprecated. For multi-event rules, use LIVE_CUSTOMIZABLE or HOURLY_CUSTOMIZABLE (for match windows <=2d), or DAILY (for match windows >2d).
+Legacy values LIVE and HOURLY are mapped to their customizable counterparts on the backend. DAILY for <=2d match window multi-event rules will be happed to HOURLY_CUSTOMIZABLE.
+For single-event rules, HOURLY and DAILY are deprecated and mapped to LIVE. If you continue to use deprecated values in your Terraform configuration, Terraform will silently
+suppress the diff and ignore the changes to prevent infinite update loops.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#run_frequency GoogleChronicleRuleDeployment#run_frequency}
+
+---
+
+##### `schedule_customizations`<sup>Optional</sup> <a name="schedule_customizations" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentConfig.property.scheduleCustomizations"></a>
+
+```python
+schedule_customizations: GoogleChronicleRuleDeploymentScheduleCustomizations
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations">GoogleChronicleRuleDeploymentScheduleCustomizations</a>
+
+schedule_customizations block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#schedule_customizations GoogleChronicleRuleDeployment#schedule_customizations}
 
 ---
 
@@ -1550,7 +1647,57 @@ timeouts: GoogleChronicleRuleDeploymentTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#timeouts GoogleChronicleRuleDeployment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#timeouts GoogleChronicleRuleDeployment#timeouts}
+
+---
+
+### GoogleChronicleRuleDeploymentScheduleCustomizations <a name="GoogleChronicleRuleDeploymentScheduleCustomizations" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_chronicle_rule_deployment
+
+googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations(
+  ensure_enrichment_completeness: bool | IResolvable = None,
+  late_arriving_data_adjustment: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations.property.ensureEnrichmentCompleteness">ensure_enrichment_completeness</a></code> | <code>bool \| cdktn.IResolvable</code> | Indicates whether to add additional delays and runs to rules to ensure enrichment completeness, with the trade-off of more late-arriving detections. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations.property.lateArrivingDataAdjustment">late_arriving_data_adjustment</a></code> | <code>str</code> | Delay the first rule execution run to account for late-arriving data. |
+
+---
+
+##### `ensure_enrichment_completeness`<sup>Optional</sup> <a name="ensure_enrichment_completeness" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations.property.ensureEnrichmentCompleteness"></a>
+
+```python
+ensure_enrichment_completeness: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Indicates whether to add additional delays and runs to rules to ensure enrichment completeness, with the trade-off of more late-arriving detections.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#ensure_enrichment_completeness GoogleChronicleRuleDeployment#ensure_enrichment_completeness}
+
+---
+
+##### `late_arriving_data_adjustment`<sup>Optional</sup> <a name="late_arriving_data_adjustment" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations.property.lateArrivingDataAdjustment"></a>
+
+```python
+late_arriving_data_adjustment: str
+```
+
+- *Type:* str
+
+Delay the first rule execution run to account for late-arriving data.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#late_arriving_data_adjustment GoogleChronicleRuleDeployment#late_arriving_data_adjustment}
 
 ---
 
@@ -1572,9 +1719,9 @@ googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#create GoogleChronicleRuleDeployment#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#delete GoogleChronicleRuleDeployment#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#update GoogleChronicleRuleDeployment#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#create GoogleChronicleRuleDeployment#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#delete GoogleChronicleRuleDeployment#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#update GoogleChronicleRuleDeployment#update}. |
 
 ---
 
@@ -1586,7 +1733,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#create GoogleChronicleRuleDeployment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#create GoogleChronicleRuleDeployment#create}.
 
 ---
 
@@ -1598,7 +1745,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#delete GoogleChronicleRuleDeployment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#delete GoogleChronicleRuleDeployment#delete}.
 
 ---
 
@@ -1610,11 +1757,343 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment#update GoogleChronicleRuleDeployment#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment#update GoogleChronicleRuleDeployment#update}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference <a name="GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_chronicle_rule_deployment
+
+googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.resetEnsureEnrichmentCompleteness">reset_ensure_enrichment_completeness</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.resetLateArrivingDataAdjustment">reset_late_arriving_data_adjustment</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_ensure_enrichment_completeness` <a name="reset_ensure_enrichment_completeness" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.resetEnsureEnrichmentCompleteness"></a>
+
+```python
+def reset_ensure_enrichment_completeness() -> None
+```
+
+##### `reset_late_arriving_data_adjustment` <a name="reset_late_arriving_data_adjustment" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.resetLateArrivingDataAdjustment"></a>
+
+```python
+def reset_late_arriving_data_adjustment() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.ensureEnrichmentCompletenessInput">ensure_enrichment_completeness_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.lateArrivingDataAdjustmentInput">late_arriving_data_adjustment_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.ensureEnrichmentCompleteness">ensure_enrichment_completeness</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.lateArrivingDataAdjustment">late_arriving_data_adjustment</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations">GoogleChronicleRuleDeploymentScheduleCustomizations</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `ensure_enrichment_completeness_input`<sup>Optional</sup> <a name="ensure_enrichment_completeness_input" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.ensureEnrichmentCompletenessInput"></a>
+
+```python
+ensure_enrichment_completeness_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `late_arriving_data_adjustment_input`<sup>Optional</sup> <a name="late_arriving_data_adjustment_input" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.lateArrivingDataAdjustmentInput"></a>
+
+```python
+late_arriving_data_adjustment_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `ensure_enrichment_completeness`<sup>Required</sup> <a name="ensure_enrichment_completeness" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.ensureEnrichmentCompleteness"></a>
+
+```python
+ensure_enrichment_completeness: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `late_arriving_data_adjustment`<sup>Required</sup> <a name="late_arriving_data_adjustment" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.lateArrivingDataAdjustment"></a>
+
+```python
+late_arriving_data_adjustment: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleChronicleRuleDeploymentScheduleCustomizations
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentScheduleCustomizations">GoogleChronicleRuleDeploymentScheduleCustomizations</a>
+
+---
+
 
 ### GoogleChronicleRuleDeploymentTimeoutsOutputReference <a name="GoogleChronicleRuleDeploymentTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleChronicleRuleDeployment.GoogleChronicleRuleDeploymentTimeoutsOutputReference"></a>
 

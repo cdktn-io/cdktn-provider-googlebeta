@@ -4,7 +4,7 @@
 
 ### GoogleBiglakeHiveTableIamMember <a name="GoogleBiglakeHiveTableIamMember" id="@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member google_biglake_hive_table_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member google_biglake_hive_table_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer"></a>
 
@@ -43,14 +43,14 @@ googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember(
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.catalog">catalog</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#catalog GoogleBiglakeHiveTableIamMember#catalog}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.database">database</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#database GoogleBiglakeHiveTableIamMember#database}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#member GoogleBiglakeHiveTableIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#name GoogleBiglakeHiveTableIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#role GoogleBiglakeHiveTableIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.catalog">catalog</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#catalog GoogleBiglakeHiveTableIamMember#catalog}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.database">database</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#database GoogleBiglakeHiveTableIamMember#database}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#member GoogleBiglakeHiveTableIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#name GoogleBiglakeHiveTableIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#role GoogleBiglakeHiveTableIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberCondition">GoogleBiglakeHiveTableIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#id GoogleBiglakeHiveTableIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#project GoogleBiglakeHiveTableIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#id GoogleBiglakeHiveTableIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMember.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#project GoogleBiglakeHiveTableIamMember#project}. |
 
 ---
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#catalog GoogleBiglakeHiveTableIamMember#catalog}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#catalog GoogleBiglakeHiveTableIamMember#catalog}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#database GoogleBiglakeHiveTableIamMember#database}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#database GoogleBiglakeHiveTableIamMember#database}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#member GoogleBiglakeHiveTableIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#member GoogleBiglakeHiveTableIamMember#member}.
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#name GoogleBiglakeHiveTableIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#name GoogleBiglakeHiveTableIamMember#name}.
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#role GoogleBiglakeHiveTableIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#role GoogleBiglakeHiveTableIamMember#role}.
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#condition GoogleBiglakeHiveTableIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#condition GoogleBiglakeHiveTableIamMember#condition}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#id GoogleBiglakeHiveTableIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#id GoogleBiglakeHiveTableIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -179,7 +179,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#project GoogleBiglakeHiveTableIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#project GoogleBiglakeHiveTableIamMember#project}.
 
 ---
 
@@ -580,7 +580,7 @@ def put_condition(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#expression GoogleBiglakeHiveTableIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#expression GoogleBiglakeHiveTableIamMember#expression}.
 
 ---
 
@@ -588,7 +588,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#title GoogleBiglakeHiveTableIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#title GoogleBiglakeHiveTableIamMember#title}.
 
 ---
 
@@ -596,7 +596,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#description GoogleBiglakeHiveTableIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#description GoogleBiglakeHiveTableIamMember#description}.
 
 ---
 
@@ -732,7 +732,7 @@ The construct id used in the generated config for the GoogleBiglakeHiveTableIamM
 
 The id of the existing GoogleBiglakeHiveTableIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1132,9 +1132,9 @@ googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberCondition(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberCondition.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#expression GoogleBiglakeHiveTableIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberCondition.property.title">title</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#title GoogleBiglakeHiveTableIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberCondition.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#description GoogleBiglakeHiveTableIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberCondition.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#expression GoogleBiglakeHiveTableIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberCondition.property.title">title</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#title GoogleBiglakeHiveTableIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberCondition.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#description GoogleBiglakeHiveTableIamMember#description}. |
 
 ---
 
@@ -1146,7 +1146,7 @@ expression: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#expression GoogleBiglakeHiveTableIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#expression GoogleBiglakeHiveTableIamMember#expression}.
 
 ---
 
@@ -1158,7 +1158,7 @@ title: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#title GoogleBiglakeHiveTableIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#title GoogleBiglakeHiveTableIamMember#title}.
 
 ---
 
@@ -1170,7 +1170,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#description GoogleBiglakeHiveTableIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#description GoogleBiglakeHiveTableIamMember#description}.
 
 ---
 
@@ -1211,14 +1211,14 @@ googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.catalog">catalog</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#catalog GoogleBiglakeHiveTableIamMember#catalog}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.database">database</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#database GoogleBiglakeHiveTableIamMember#database}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#member GoogleBiglakeHiveTableIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#name GoogleBiglakeHiveTableIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#role GoogleBiglakeHiveTableIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.catalog">catalog</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#catalog GoogleBiglakeHiveTableIamMember#catalog}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.database">database</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#database GoogleBiglakeHiveTableIamMember#database}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#member GoogleBiglakeHiveTableIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#name GoogleBiglakeHiveTableIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#role GoogleBiglakeHiveTableIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberCondition">GoogleBiglakeHiveTableIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#id GoogleBiglakeHiveTableIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#project GoogleBiglakeHiveTableIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#id GoogleBiglakeHiveTableIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamMember.GoogleBiglakeHiveTableIamMemberConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#project GoogleBiglakeHiveTableIamMember#project}. |
 
 ---
 
@@ -1300,7 +1300,7 @@ catalog: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#catalog GoogleBiglakeHiveTableIamMember#catalog}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#catalog GoogleBiglakeHiveTableIamMember#catalog}.
 
 ---
 
@@ -1312,7 +1312,7 @@ database: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#database GoogleBiglakeHiveTableIamMember#database}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#database GoogleBiglakeHiveTableIamMember#database}.
 
 ---
 
@@ -1324,7 +1324,7 @@ member: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#member GoogleBiglakeHiveTableIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#member GoogleBiglakeHiveTableIamMember#member}.
 
 ---
 
@@ -1336,7 +1336,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#name GoogleBiglakeHiveTableIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#name GoogleBiglakeHiveTableIamMember#name}.
 
 ---
 
@@ -1348,7 +1348,7 @@ role: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#role GoogleBiglakeHiveTableIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#role GoogleBiglakeHiveTableIamMember#role}.
 
 ---
 
@@ -1362,7 +1362,7 @@ condition: GoogleBiglakeHiveTableIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#condition GoogleBiglakeHiveTableIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#condition GoogleBiglakeHiveTableIamMember#condition}
 
 ---
 
@@ -1374,7 +1374,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#id GoogleBiglakeHiveTableIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#id GoogleBiglakeHiveTableIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1389,7 +1389,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#project GoogleBiglakeHiveTableIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#project GoogleBiglakeHiveTableIamMember#project}.
 
 ---
 
