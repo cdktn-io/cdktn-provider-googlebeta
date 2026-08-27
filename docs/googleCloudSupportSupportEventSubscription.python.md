@@ -4,7 +4,7 @@
 
 ### GoogleCloudSupportSupportEventSubscription <a name="GoogleCloudSupportSupportEventSubscription" id="@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription google_cloud_support_support_event_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription google_cloud_support_support_event_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscription.Initializer"></a>
 
@@ -43,7 +43,7 @@ googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscri
 | <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscription.Initializer.parameter.organization">organization</a></code> | <code>str</code> | The organization ID for the support event subscription. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscription.Initializer.parameter.pubSubTopic">pub_sub_topic</a></code> | <code>str</code> | The name of the Pub/Sub topic to publish notifications to. Format: projects/{project}/topics/{topic}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscription.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscription.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#id GoogleCloudSupportSupportEventSubscription#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscription.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#id GoogleCloudSupportSupportEventSubscription#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscription.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionTimeouts">GoogleCloudSupportSupportEventSubscriptionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The organization ID for the support event subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#organization GoogleCloudSupportSupportEventSubscription#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#organization GoogleCloudSupportSupportEventSubscription#organization}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the Pub/Sub topic to publish notifications to. Format: projects/{project}/topics/{topic}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#pub_sub_topic GoogleCloudSupportSupportEventSubscription#pub_sub_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#pub_sub_topic GoogleCloudSupportSupportEventSubscription#pub_sub_topic}
 
 ---
 
@@ -141,7 +141,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#deletion_policy GoogleCloudSupportSupportEventSubscription#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#deletion_policy GoogleCloudSupportSupportEventSubscription#deletion_policy}
 
 ---
 
@@ -149,7 +149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#id GoogleCloudSupportSupportEventSubscription#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#id GoogleCloudSupportSupportEventSubscription#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -162,7 +162,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#timeouts GoogleCloudSupportSupportEventSubscription#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#timeouts GoogleCloudSupportSupportEventSubscription#timeouts}
 
 ---
 
@@ -563,7 +563,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#create GoogleCloudSupportSupportEventSubscription#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#create GoogleCloudSupportSupportEventSubscription#create}.
 
 ---
 
@@ -571,7 +571,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#delete GoogleCloudSupportSupportEventSubscription#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#delete GoogleCloudSupportSupportEventSubscription#delete}.
 
 ---
 
@@ -579,7 +579,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#update GoogleCloudSupportSupportEventSubscription#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#update GoogleCloudSupportSupportEventSubscription#update}.
 
 ---
 
@@ -715,7 +715,7 @@ The construct id used in the generated config for the GoogleCloudSupportSupportE
 
 The id of the existing GoogleCloudSupportSupportEventSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1134,7 +1134,7 @@ googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscri
 | <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionConfig.property.organization">organization</a></code> | <code>str</code> | The organization ID for the support event subscription. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionConfig.property.pubSubTopic">pub_sub_topic</a></code> | <code>str</code> | The name of the Pub/Sub topic to publish notifications to. Format: projects/{project}/topics/{topic}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#id GoogleCloudSupportSupportEventSubscription#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#id GoogleCloudSupportSupportEventSubscription#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionTimeouts">GoogleCloudSupportSupportEventSubscriptionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1219,7 +1219,7 @@ organization: str
 
 The organization ID for the support event subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#organization GoogleCloudSupportSupportEventSubscription#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#organization GoogleCloudSupportSupportEventSubscription#organization}
 
 ---
 
@@ -1233,7 +1233,7 @@ pub_sub_topic: str
 
 The name of the Pub/Sub topic to publish notifications to. Format: projects/{project}/topics/{topic}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#pub_sub_topic GoogleCloudSupportSupportEventSubscription#pub_sub_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#pub_sub_topic GoogleCloudSupportSupportEventSubscription#pub_sub_topic}
 
 ---
 
@@ -1254,7 +1254,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#deletion_policy GoogleCloudSupportSupportEventSubscription#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#deletion_policy GoogleCloudSupportSupportEventSubscription#deletion_policy}
 
 ---
 
@@ -1266,7 +1266,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#id GoogleCloudSupportSupportEventSubscription#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#id GoogleCloudSupportSupportEventSubscription#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1283,7 +1283,7 @@ timeouts: GoogleCloudSupportSupportEventSubscriptionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#timeouts GoogleCloudSupportSupportEventSubscription#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#timeouts GoogleCloudSupportSupportEventSubscription#timeouts}
 
 ---
 
@@ -1305,9 +1305,9 @@ googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscri
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#create GoogleCloudSupportSupportEventSubscription#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#delete GoogleCloudSupportSupportEventSubscription#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#update GoogleCloudSupportSupportEventSubscription#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#create GoogleCloudSupportSupportEventSubscription#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#delete GoogleCloudSupportSupportEventSubscription#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudSupportSupportEventSubscription.GoogleCloudSupportSupportEventSubscriptionTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#update GoogleCloudSupportSupportEventSubscription#update}. |
 
 ---
 
@@ -1319,7 +1319,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#create GoogleCloudSupportSupportEventSubscription#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#create GoogleCloudSupportSupportEventSubscription#create}.
 
 ---
 
@@ -1331,7 +1331,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#delete GoogleCloudSupportSupportEventSubscription#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#delete GoogleCloudSupportSupportEventSubscription#delete}.
 
 ---
 
@@ -1343,7 +1343,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription#update GoogleCloudSupportSupportEventSubscription#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription#update GoogleCloudSupportSupportEventSubscription#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleComputeNetworkFirewallPolicyIamMember <a name="GoogleComputeNetworkFirewallPolicyIamMember" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member google_compute_network_firewall_policy_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member google_compute_network_firewall_policy_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMember.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleComputeNetworkFirewa
 
 The id of the existing GoogleComputeNetworkFirewallPolicyIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -879,9 +879,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#expression GoogleComputeNetworkFirewallPolicyIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#title GoogleComputeNetworkFirewallPolicyIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#description GoogleComputeNetworkFirewallPolicyIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#expression GoogleComputeNetworkFirewallPolicyIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#title GoogleComputeNetworkFirewallPolicyIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#description GoogleComputeNetworkFirewallPolicyIamMember#description}. |
 
 ---
 
@@ -893,7 +893,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#expression GoogleComputeNetworkFirewallPolicyIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#expression GoogleComputeNetworkFirewallPolicyIamMember#expression}.
 
 ---
 
@@ -905,7 +905,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#title GoogleComputeNetworkFirewallPolicyIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#title GoogleComputeNetworkFirewallPolicyIamMember#title}.
 
 ---
 
@@ -917,7 +917,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#description GoogleComputeNetworkFirewallPolicyIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#description GoogleComputeNetworkFirewallPolicyIamMember#description}.
 
 ---
 
@@ -956,12 +956,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#member GoogleComputeNetworkFirewallPolicyIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#name GoogleComputeNetworkFirewallPolicyIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#role GoogleComputeNetworkFirewallPolicyIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#member GoogleComputeNetworkFirewallPolicyIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#name GoogleComputeNetworkFirewallPolicyIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#role GoogleComputeNetworkFirewallPolicyIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberCondition">GoogleComputeNetworkFirewallPolicyIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#id GoogleComputeNetworkFirewallPolicyIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#project GoogleComputeNetworkFirewallPolicyIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#id GoogleComputeNetworkFirewallPolicyIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamMember.GoogleComputeNetworkFirewallPolicyIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#project GoogleComputeNetworkFirewallPolicyIamMember#project}. |
 
 ---
 
@@ -1043,7 +1043,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#member GoogleComputeNetworkFirewallPolicyIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#member GoogleComputeNetworkFirewallPolicyIamMember#member}.
 
 ---
 
@@ -1055,7 +1055,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#name GoogleComputeNetworkFirewallPolicyIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#name GoogleComputeNetworkFirewallPolicyIamMember#name}.
 
 ---
 
@@ -1067,7 +1067,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#role GoogleComputeNetworkFirewallPolicyIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#role GoogleComputeNetworkFirewallPolicyIamMember#role}.
 
 ---
 
@@ -1081,7 +1081,7 @@ Condition GoogleComputeNetworkFirewallPolicyIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#condition GoogleComputeNetworkFirewallPolicyIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#condition GoogleComputeNetworkFirewallPolicyIamMember#condition}
 
 ---
 
@@ -1093,7 +1093,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#id GoogleComputeNetworkFirewallPolicyIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#id GoogleComputeNetworkFirewallPolicyIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1108,7 +1108,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_member#project GoogleComputeNetworkFirewallPolicyIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_member#project GoogleComputeNetworkFirewallPolicyIamMember#project}.
 
 ---
 

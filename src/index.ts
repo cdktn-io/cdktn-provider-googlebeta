@@ -1044,6 +1044,7 @@ export * as googleManagedKafkaConnectCluster from './google-managed-kafka-connec
 export * as googleManagedKafkaConnector from './google-managed-kafka-connector/index';
 export * as googleManagedKafkaTopic from './google-managed-kafka-topic/index';
 export * as googleMemcacheInstance from './google-memcache-instance/index';
+export * as googleMemorystoreAclPolicy from './google-memorystore-acl-policy/index';
 export * as googleMemorystoreInstance from './google-memorystore-instance/index';
 export * as googleMemorystoreInstanceDesiredUserCreatedEndpoints from './google-memorystore-instance-desired-user-created-endpoints/index';
 export * as googleMigrationCenterAssetsExportJob from './google-migration-center-assets-export-job/index';
@@ -1246,6 +1247,7 @@ export * as googlePubsubTopicIamMember from './google-pubsub-topic-iam-member/in
 export * as googlePubsubTopicIamPolicy from './google-pubsub-topic-iam-policy/index';
 export * as googleRecaptchaEnterpriseKey from './google-recaptcha-enterprise-key/index';
 export * as googleRedisCluster from './google-redis-cluster/index';
+export * as googleRedisClusterAclPolicy from './google-redis-cluster-acl-policy/index';
 export * as googleRedisClusterUserCreatedConnections from './google-redis-cluster-user-created-connections/index';
 export * as googleRedisInstance from './google-redis-instance/index';
 export * as googleResourceManagerCapability from './google-resource-manager-capability/index';
@@ -1404,6 +1406,7 @@ export * as googleTranscoderJobTemplate from './google-transcoder-job-template/i
 export * as googleVectorSearchCollection from './google-vector-search-collection/index';
 export * as googleVectorSearchDataObject from './google-vector-search-data-object/index';
 export * as googleVectorSearchIndex from './google-vector-search-index/index';
+export * as googleVertexAiAgentAnomalyDetectionScope from './google-vertex-ai-agent-anomaly-detection-scope/index';
 export * as googleVertexAiCacheConfig from './google-vertex-ai-cache-config/index';
 export * as googleVertexAiDataset from './google-vertex-ai-dataset/index';
 export * as googleVertexAiDeploymentResourcePool from './google-vertex-ai-deployment-resource-pool/index';
@@ -1809,6 +1812,7 @@ export * as dataGoogleLoggingProjectSettings from './data-google-logging-project
 export * as dataGoogleLoggingSink from './data-google-logging-sink/index';
 export * as dataGoogleLustreInstance from './data-google-lustre-instance/index';
 export * as dataGoogleMemcacheInstance from './data-google-memcache-instance/index';
+export * as dataGoogleMemorystoreAclPolicy from './data-google-memorystore-acl-policy/index';
 export * as dataGoogleMemorystoreInstance from './data-google-memorystore-instance/index';
 export * as dataGoogleMonitoringAppEngineService from './data-google-monitoring-app-engine-service/index';
 export * as dataGoogleMonitoringClusterIstioService from './data-google-monitoring-cluster-istio-service/index';
@@ -1874,6 +1878,7 @@ export * as dataGooglePubsubSubscriptionIamPolicy from './data-google-pubsub-sub
 export * as dataGooglePubsubTopic from './data-google-pubsub-topic/index';
 export * as dataGooglePubsubTopicIamPolicy from './data-google-pubsub-topic-iam-policy/index';
 export * as dataGoogleRedisCluster from './data-google-redis-cluster/index';
+export * as dataGoogleRedisClusterAclPolicy from './data-google-redis-cluster-acl-policy/index';
 export * as dataGoogleRedisInstance from './data-google-redis-instance/index';
 export * as dataGoogleRuntimeconfigConfig from './data-google-runtimeconfig-config/index';
 export * as dataGoogleRuntimeconfigConfigIamPolicy from './data-google-runtimeconfig-config-iam-policy/index';
