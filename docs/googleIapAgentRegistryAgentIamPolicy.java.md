@@ -4,7 +4,7 @@
 
 ### GoogleIapAgentRegistryAgentIamPolicy <a name="GoogleIapAgentRegistryAgentIamPolicy" id="@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy google_iap_agent_registry_agent_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy google_iap_agent_registry_agent_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer"></a>
 
@@ -38,11 +38,11 @@ GoogleIapAgentRegistryAgentIamPolicy.Builder.create(Construct scope, java.lang.S
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.agentId">agentId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#agent_id GoogleIapAgentRegistryAgentIamPolicy#agent_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#policy_data GoogleIapAgentRegistryAgentIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#id GoogleIapAgentRegistryAgentIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#location GoogleIapAgentRegistryAgentIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#project GoogleIapAgentRegistryAgentIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.agentId">agentId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#agent_id GoogleIapAgentRegistryAgentIamPolicy#agent_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#policy_data GoogleIapAgentRegistryAgentIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#id GoogleIapAgentRegistryAgentIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#location GoogleIapAgentRegistryAgentIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicy.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#project GoogleIapAgentRegistryAgentIamPolicy#project}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#agent_id GoogleIapAgentRegistryAgentIamPolicy#agent_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#agent_id GoogleIapAgentRegistryAgentIamPolicy#agent_id}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#policy_data GoogleIapAgentRegistryAgentIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#policy_data GoogleIapAgentRegistryAgentIamPolicy#policy_data}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#id GoogleIapAgentRegistryAgentIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#id GoogleIapAgentRegistryAgentIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#location GoogleIapAgentRegistryAgentIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#location GoogleIapAgentRegistryAgentIamPolicy#location}.
 
 ---
 
@@ -145,7 +145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#project GoogleIapAgentRegistryAgentIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#project GoogleIapAgentRegistryAgentIamPolicy#project}.
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the GoogleIapAgentRegistryAgen
 
 The id of the existing GoogleIapAgentRegistryAgentIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,11 +965,11 @@ GoogleIapAgentRegistryAgentIamPolicyConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.agentId">agentId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#agent_id GoogleIapAgentRegistryAgentIamPolicy#agent_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#policy_data GoogleIapAgentRegistryAgentIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#id GoogleIapAgentRegistryAgentIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#location GoogleIapAgentRegistryAgentIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#project GoogleIapAgentRegistryAgentIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.agentId">agentId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#agent_id GoogleIapAgentRegistryAgentIamPolicy#agent_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#policy_data GoogleIapAgentRegistryAgentIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#id GoogleIapAgentRegistryAgentIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#location GoogleIapAgentRegistryAgentIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamPolicy.GoogleIapAgentRegistryAgentIamPolicyConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#project GoogleIapAgentRegistryAgentIamPolicy#project}. |
 
 ---
 
@@ -1051,7 +1051,7 @@ public java.lang.String getAgentId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#agent_id GoogleIapAgentRegistryAgentIamPolicy#agent_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#agent_id GoogleIapAgentRegistryAgentIamPolicy#agent_id}.
 
 ---
 
@@ -1063,7 +1063,7 @@ public java.lang.String getPolicyData();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#policy_data GoogleIapAgentRegistryAgentIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#policy_data GoogleIapAgentRegistryAgentIamPolicy#policy_data}.
 
 ---
 
@@ -1075,7 +1075,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#id GoogleIapAgentRegistryAgentIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#id GoogleIapAgentRegistryAgentIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1090,7 +1090,7 @@ public java.lang.String getLocation();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#location GoogleIapAgentRegistryAgentIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#location GoogleIapAgentRegistryAgentIamPolicy#location}.
 
 ---
 
@@ -1102,7 +1102,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_agent_iam_policy#project GoogleIapAgentRegistryAgentIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_policy#project GoogleIapAgentRegistryAgentIamPolicy#project}.
 
 ---
 

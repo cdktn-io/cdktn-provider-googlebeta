@@ -4,7 +4,7 @@
 
 ### GoogleVertexAiEvaluationMetric <a name="GoogleVertexAiEvaluationMetric" id="@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetric"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric google_vertex_ai_evaluation_metric}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric google_vertex_ai_evaluation_metric}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetric.Initializer"></a>
 
@@ -585,7 +585,7 @@ The construct id used in the generated config for the GoogleVertexAiEvaluationMe
 
 The id of the existing GoogleVertexAiEvaluationMetric that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1147,10 +1147,10 @@ new GoogleVertexAiEvaluationMetricConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricConfig.property.encryptionSpec">EncryptionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricEncryptionSpec">GoogleVertexAiEvaluationMetricEncryptionSpec</a></code> | encryption_spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricConfig.property.evaluationMetricId">EvaluationMetricId</a></code> | <code>string</code> | The ID to use for the EvaluationMetric, which will become the final component of the resource name. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricConfig.property.gcsUri">GcsUri</a></code> | <code>string</code> | The Google Cloud Storage URI that stores the metric specification. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#id GoogleVertexAiEvaluationMetric#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#id GoogleVertexAiEvaluationMetric#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Labels for the EvaluationMetric. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricConfig.property.metric">Metric</a></code> | <code>string</code> | The metric configuration as a JSON string. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#project GoogleVertexAiEvaluationMetric#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#project GoogleVertexAiEvaluationMetric#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricTimeouts">GoogleVertexAiEvaluationMetricTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1235,7 +1235,7 @@ public string DisplayName { get; set; }
 
 The user-friendly display name for the EvaluationMetric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#display_name GoogleVertexAiEvaluationMetric#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#display_name GoogleVertexAiEvaluationMetric#display_name}
 
 ---
 
@@ -1249,7 +1249,7 @@ public string Region { get; set; }
 
 The region of the EvaluationMetric. eg us-central1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#region GoogleVertexAiEvaluationMetric#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#region GoogleVertexAiEvaluationMetric#region}
 
 ---
 
@@ -1270,7 +1270,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#deletion_policy GoogleVertexAiEvaluationMetric#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#deletion_policy GoogleVertexAiEvaluationMetric#deletion_policy}
 
 ---
 
@@ -1284,7 +1284,7 @@ public string Description { get; set; }
 
 A description of the EvaluationMetric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#description GoogleVertexAiEvaluationMetric#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#description GoogleVertexAiEvaluationMetric#description}
 
 ---
 
@@ -1298,7 +1298,7 @@ public GoogleVertexAiEvaluationMetricEncryptionSpec EncryptionSpec { get; set; }
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#encryption_spec GoogleVertexAiEvaluationMetric#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#encryption_spec GoogleVertexAiEvaluationMetric#encryption_spec}
 
 ---
 
@@ -1317,7 +1317,7 @@ and valid characters are /[a-z][0-9]-/. The first character must be
 a lowercase letter, and the last character must be a lowercase letter
 or number. If not provided, the server will generate a unique ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#evaluation_metric_id GoogleVertexAiEvaluationMetric#evaluation_metric_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#evaluation_metric_id GoogleVertexAiEvaluationMetric#evaluation_metric_id}
 
 ---
 
@@ -1331,7 +1331,7 @@ public string GcsUri { get; set; }
 
 The Google Cloud Storage URI that stores the metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#gcs_uri GoogleVertexAiEvaluationMetric#gcs_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#gcs_uri GoogleVertexAiEvaluationMetric#gcs_uri}
 
 ---
 
@@ -1343,7 +1343,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#id GoogleVertexAiEvaluationMetric#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#id GoogleVertexAiEvaluationMetric#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1363,7 +1363,7 @@ Labels for the EvaluationMetric.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#labels GoogleVertexAiEvaluationMetric#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#labels GoogleVertexAiEvaluationMetric#labels}
 
 ---
 
@@ -1383,7 +1383,7 @@ execution metrics.
 See the [API documentation](https://cloud.google.com/vertex-ai/docs/reference/rest/v1/Metric)
 for the full schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#metric GoogleVertexAiEvaluationMetric#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#metric GoogleVertexAiEvaluationMetric#metric}
 
 ---
 
@@ -1395,7 +1395,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#project GoogleVertexAiEvaluationMetric#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#project GoogleVertexAiEvaluationMetric#project}.
 
 ---
 
@@ -1409,7 +1409,7 @@ public GoogleVertexAiEvaluationMetricTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#timeouts GoogleVertexAiEvaluationMetric#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#timeouts GoogleVertexAiEvaluationMetric#timeouts}
 
 ---
 
@@ -1448,7 +1448,7 @@ used to protect a resource. Has the form:
 'projects/my-project/locations/my-region/keyRings/my-kr/cryptoKeys/my-key'.
 The key needs to be in the same region as where the resource is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#kms_key_name GoogleVertexAiEvaluationMetric#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#kms_key_name GoogleVertexAiEvaluationMetric#kms_key_name}
 
 ---
 
@@ -1470,9 +1470,9 @@ new GoogleVertexAiEvaluationMetricTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#create GoogleVertexAiEvaluationMetric#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#delete GoogleVertexAiEvaluationMetric#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#update GoogleVertexAiEvaluationMetric#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#create GoogleVertexAiEvaluationMetric#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#delete GoogleVertexAiEvaluationMetric#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEvaluationMetric.GoogleVertexAiEvaluationMetricTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#update GoogleVertexAiEvaluationMetric#update}. |
 
 ---
 
@@ -1484,7 +1484,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#create GoogleVertexAiEvaluationMetric#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#create GoogleVertexAiEvaluationMetric#create}.
 
 ---
 
@@ -1496,7 +1496,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#delete GoogleVertexAiEvaluationMetric#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#delete GoogleVertexAiEvaluationMetric#delete}.
 
 ---
 
@@ -1508,7 +1508,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_evaluation_metric#update GoogleVertexAiEvaluationMetric#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_evaluation_metric#update GoogleVertexAiEvaluationMetric#update}.
 
 ---
 

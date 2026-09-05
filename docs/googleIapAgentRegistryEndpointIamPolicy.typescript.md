@@ -4,7 +4,7 @@
 
 ### GoogleIapAgentRegistryEndpointIamPolicy <a name="GoogleIapAgentRegistryEndpointIamPolicy" id="@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy google_iap_agent_registry_endpoint_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy google_iap_agent_registry_endpoint_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicy.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the GoogleIapAgentRegistryEndp
 
 The id of the existing GoogleIapAgentRegistryEndpointIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -847,11 +847,11 @@ const googleIapAgentRegistryEndpointIamPolicyConfig: googleIapAgentRegistryEndpo
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.endpointId">endpointId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#endpoint_id GoogleIapAgentRegistryEndpointIamPolicy#endpoint_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.policyData">policyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#policy_data GoogleIapAgentRegistryEndpointIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#id GoogleIapAgentRegistryEndpointIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#location GoogleIapAgentRegistryEndpointIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#project GoogleIapAgentRegistryEndpointIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.endpointId">endpointId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy#endpoint_id GoogleIapAgentRegistryEndpointIamPolicy#endpoint_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.policyData">policyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy#policy_data GoogleIapAgentRegistryEndpointIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy#id GoogleIapAgentRegistryEndpointIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy#location GoogleIapAgentRegistryEndpointIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamPolicy.GoogleIapAgentRegistryEndpointIamPolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy#project GoogleIapAgentRegistryEndpointIamPolicy#project}. |
 
 ---
 
@@ -933,7 +933,7 @@ public readonly endpointId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#endpoint_id GoogleIapAgentRegistryEndpointIamPolicy#endpoint_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy#endpoint_id GoogleIapAgentRegistryEndpointIamPolicy#endpoint_id}.
 
 ---
 
@@ -945,7 +945,7 @@ public readonly policyData: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#policy_data GoogleIapAgentRegistryEndpointIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy#policy_data GoogleIapAgentRegistryEndpointIamPolicy#policy_data}.
 
 ---
 
@@ -957,7 +957,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#id GoogleIapAgentRegistryEndpointIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy#id GoogleIapAgentRegistryEndpointIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -972,7 +972,7 @@ public readonly location: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#location GoogleIapAgentRegistryEndpointIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy#location GoogleIapAgentRegistryEndpointIamPolicy#location}.
 
 ---
 
@@ -984,7 +984,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#project GoogleIapAgentRegistryEndpointIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_endpoint_iam_policy#project GoogleIapAgentRegistryEndpointIamPolicy#project}.
 
 ---
 
