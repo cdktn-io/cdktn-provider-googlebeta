@@ -4,7 +4,7 @@
 
 ### GoogleDataplexMetadataFeed <a name="GoogleDataplexMetadataFeed" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeed"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed google_dataplex_metadata_feed}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed google_dataplex_metadata_feed}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeed.Initializer"></a>
 
@@ -577,7 +577,7 @@ The construct id used in the generated config for the GoogleDataplexMetadataFeed
 
 The id of the existing GoogleDataplexMetadataFeed that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1102,9 +1102,9 @@ new GoogleDataplexMetadataFeedConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedConfig.property.scope">Scope</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedScope">GoogleDataplexMetadataFeedScope</a></code> | scope block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedConfig.property.filters">Filters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedFilters">GoogleDataplexMetadataFeedFilters</a></code> | filters block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#id GoogleDataplexMetadataFeed#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#id GoogleDataplexMetadataFeed#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | User-defined labels. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#project GoogleDataplexMetadataFeed#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#project GoogleDataplexMetadataFeed#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedConfig.property.pubsubTopic">PubsubTopic</a></code> | <code>string</code> | The pubsub topic that you want the metadata feed messages to publish to. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedTimeouts">GoogleDataplexMetadataFeedTimeouts</a></code> | timeouts block. |
 
@@ -1190,7 +1190,7 @@ public string Location { get; set; }
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#location GoogleDataplexMetadataFeed#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#location GoogleDataplexMetadataFeed#location}
 
 ---
 
@@ -1204,7 +1204,7 @@ public string MetadataFeedId { get; set; }
 
 The metadata job ID. If not provided, a unique ID is generated with the prefix metadata-job-.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#metadata_feed_id GoogleDataplexMetadataFeed#metadata_feed_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#metadata_feed_id GoogleDataplexMetadataFeed#metadata_feed_id}
 
 ---
 
@@ -1218,7 +1218,7 @@ public GoogleDataplexMetadataFeedScope Scope { get; set; }
 
 scope block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#scope GoogleDataplexMetadataFeed#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#scope GoogleDataplexMetadataFeed#scope}
 
 ---
 
@@ -1239,7 +1239,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#deletion_policy GoogleDataplexMetadataFeed#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#deletion_policy GoogleDataplexMetadataFeed#deletion_policy}
 
 ---
 
@@ -1253,7 +1253,7 @@ public GoogleDataplexMetadataFeedFilters Filters { get; set; }
 
 filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#filters GoogleDataplexMetadataFeed#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#filters GoogleDataplexMetadataFeed#filters}
 
 ---
 
@@ -1265,7 +1265,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#id GoogleDataplexMetadataFeed#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#id GoogleDataplexMetadataFeed#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1285,7 +1285,7 @@ User-defined labels.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#labels GoogleDataplexMetadataFeed#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#labels GoogleDataplexMetadataFeed#labels}
 
 ---
 
@@ -1297,7 +1297,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#project GoogleDataplexMetadataFeed#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#project GoogleDataplexMetadataFeed#project}.
 
 ---
 
@@ -1313,7 +1313,7 @@ The pubsub topic that you want the metadata feed messages to publish to.
 
 Please grant Dataplex service account the permission to publish messages to the topic. The service account is: service-{PROJECT_NUMBER}@gcp-sa-dataplex.iam.gserviceaccount.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#pubsub_topic GoogleDataplexMetadataFeed#pubsub_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#pubsub_topic GoogleDataplexMetadataFeed#pubsub_topic}
 
 ---
 
@@ -1327,7 +1327,7 @@ public GoogleDataplexMetadataFeedTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#timeouts GoogleDataplexMetadataFeed#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#timeouts GoogleDataplexMetadataFeed#timeouts}
 
 ---
 
@@ -1367,7 +1367,7 @@ The aspect types that you want to listen to.
 
 Depending on how the aspect is attached to the entry, in the format: projects/{project_id_or_number}/locations/{location}/aspectTypes/{aspect_type_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#aspect_types GoogleDataplexMetadataFeed#aspect_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#aspect_types GoogleDataplexMetadataFeed#aspect_types}
 
 ---
 
@@ -1381,7 +1381,7 @@ public string[] ChangeTypes { get; set; }
 
 The type of change that you want to listen to. If not specified, all changes are published.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#change_types GoogleDataplexMetadataFeed#change_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#change_types GoogleDataplexMetadataFeed#change_types}
 
 ---
 
@@ -1397,7 +1397,7 @@ The entry types that you want to listen to, specified as relative resource names
 
 Only entries that belong to the specified entry types are published.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#entry_types GoogleDataplexMetadataFeed#entry_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#entry_types GoogleDataplexMetadataFeed#entry_types}
 
 ---
 
@@ -1435,7 +1435,7 @@ public string[] EntryGroups { get; set; }
 
 The entry groups whose entries you want to listen to. Must be in the format: projects/{project_id_or_number}/locations/{location_id}/entryGroups/{entry_group_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#entry_groups GoogleDataplexMetadataFeed#entry_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#entry_groups GoogleDataplexMetadataFeed#entry_groups}
 
 ---
 
@@ -1452,7 +1452,7 @@ Whether the metadata feed is at the organization-level.
 If true, all changes happened to the entries in the same organization as the feed are published.
 If false, you must specify a list of projects or a list of entry groups whose entries you want to listen to.The default is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#organization_level GoogleDataplexMetadataFeed#organization_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#organization_level GoogleDataplexMetadataFeed#organization_level}
 
 ---
 
@@ -1468,7 +1468,7 @@ The projects whose entries you want to listen to.
 
 Must be in the same organization as the feed. Must be in the format: projects/{project_id_or_number}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#projects GoogleDataplexMetadataFeed#projects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#projects GoogleDataplexMetadataFeed#projects}
 
 ---
 
@@ -1490,9 +1490,9 @@ new GoogleDataplexMetadataFeedTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#create GoogleDataplexMetadataFeed#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#delete GoogleDataplexMetadataFeed#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#update GoogleDataplexMetadataFeed#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#create GoogleDataplexMetadataFeed#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#delete GoogleDataplexMetadataFeed#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#update GoogleDataplexMetadataFeed#update}. |
 
 ---
 
@@ -1504,7 +1504,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#create GoogleDataplexMetadataFeed#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#create GoogleDataplexMetadataFeed#create}.
 
 ---
 
@@ -1516,7 +1516,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#delete GoogleDataplexMetadataFeed#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#delete GoogleDataplexMetadataFeed#delete}.
 
 ---
 
@@ -1528,7 +1528,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_metadata_feed#update GoogleDataplexMetadataFeed#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_metadata_feed#update GoogleDataplexMetadataFeed#update}.
 
 ---
 
