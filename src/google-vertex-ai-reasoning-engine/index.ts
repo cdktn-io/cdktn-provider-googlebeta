@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,23 +15,23 @@ export interface GoogleVertexAiReasoningEngineConfig extends cdktn.TerraformMeta
   /**
   * This field uses a custom implementation please refer to documentation under /hashicorp/terraform-provider-google-beta/website/docs/r/vertex_ai_reasoning_engine.html.markdown for specifics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#deletion_policy GoogleVertexAiReasoningEngine#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#deletion_policy GoogleVertexAiReasoningEngine#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The description of the ReasoningEngine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#description GoogleVertexAiReasoningEngine#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#description GoogleVertexAiReasoningEngine#description}
   */
   readonly description?: string;
   /**
   * The display name of the ReasoningEngine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#display_name GoogleVertexAiReasoningEngine#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#display_name GoogleVertexAiReasoningEngine#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,47 +45,47 @@ export interface GoogleVertexAiReasoningEngineConfig extends cdktn.TerraformMeta
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#labels GoogleVertexAiReasoningEngine#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#labels GoogleVertexAiReasoningEngine#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#project GoogleVertexAiReasoningEngine#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#project GoogleVertexAiReasoningEngine#project}
   */
   readonly project?: string;
   /**
   * The region of the reasoning engine. eg us-central1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#region GoogleVertexAiReasoningEngine#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#region GoogleVertexAiReasoningEngine#region}
   */
   readonly region?: string;
   /**
   * context_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#context_spec GoogleVertexAiReasoningEngine#context_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#context_spec GoogleVertexAiReasoningEngine#context_spec}
   */
   readonly contextSpec?: GoogleVertexAiReasoningEngineContextSpec;
   /**
   * encryption_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#encryption_spec GoogleVertexAiReasoningEngine#encryption_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#encryption_spec GoogleVertexAiReasoningEngine#encryption_spec}
   */
   readonly encryptionSpec?: GoogleVertexAiReasoningEngineEncryptionSpec;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#spec GoogleVertexAiReasoningEngine#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#spec GoogleVertexAiReasoningEngine#spec}
   */
   readonly spec?: GoogleVertexAiReasoningEngineSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#timeouts GoogleVertexAiReasoningEngine#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#timeouts GoogleVertexAiReasoningEngine#timeouts}
   */
   readonly timeouts?: GoogleVertexAiReasoningEngineTimeouts;
   /**
   * traffic_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#traffic_config GoogleVertexAiReasoningEngine#traffic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#traffic_config GoogleVertexAiReasoningEngine#traffic_config}
   */
   readonly trafficConfig?: GoogleVertexAiReasoningEngineTrafficConfig;
 }
@@ -93,7 +93,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimil
   /**
   * Required. The Gemini model used to generate embeddings to lookup similar examples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#embedding_model GoogleVertexAiReasoningEngine#embedding_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#embedding_model GoogleVertexAiReasoningEngine#embedding_model}
   */
   readonly embeddingModel: string;
 }
@@ -176,7 +176,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig {
   /**
   * similarity_search_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#similarity_search_config GoogleVertexAiReasoningEngine#similarity_search_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#similarity_search_config GoogleVertexAiReasoningEngine#similarity_search_config}
   */
   readonly similaritySearchConfig?: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfig;
 }
@@ -262,7 +262,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * Number of revisions to consider per candidate count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#revisions_per_candidate_count GoogleVertexAiReasoningEngine#revisions_per_candidate_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#revisions_per_candidate_count GoogleVertexAiReasoningEngine#revisions_per_candidate_count}
   */
   readonly revisionsPerCandidateCount?: number;
 }
@@ -344,11 +344,349 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizati
     return this._revisionsPerCandidateCount;
   }
 }
+export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWords {
+  /**
+  * End offset in time of the word relative to the start of the audio.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#end_offset GoogleVertexAiReasoningEngine#end_offset}
+  */
+  readonly endOffset?: string;
+  /**
+  * Start offset in time of the word relative to the start of the audio.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#start_offset GoogleVertexAiReasoningEngine#start_offset}
+  */
+  readonly startOffset?: string;
+  /**
+  * Transcript of the word.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#word GoogleVertexAiReasoningEngine#word}
+  */
+  readonly word: string;
+}
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWordsToTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWords | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    end_offset: cdktn.stringToTerraform(struct!.endOffset),
+    start_offset: cdktn.stringToTerraform(struct!.startOffset),
+    word: cdktn.stringToTerraform(struct!.word),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWordsToHclTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWords | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    end_offset: {
+      value: cdktn.stringToHclTerraform(struct!.endOffset),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_offset: {
+      value: cdktn.stringToHclTerraform(struct!.startOffset),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    word: {
+      value: cdktn.stringToHclTerraform(struct!.word),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWordsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWords | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._endOffset !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endOffset = this._endOffset;
+    }
+    if (this._startOffset !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startOffset = this._startOffset;
+    }
+    if (this._word !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.word = this._word;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWords | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._endOffset = undefined;
+      this._startOffset = undefined;
+      this._word = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._endOffset = value.endOffset;
+      this._startOffset = value.startOffset;
+      this._word = value.word;
+    }
+  }
+
+  // end_offset - computed: false, optional: true, required: false
+  private _endOffset?: string; 
+  public get endOffset() {
+    return this.getStringAttribute('end_offset');
+  }
+  public set endOffset(value: string) {
+    this._endOffset = value;
+  }
+  public resetEndOffset() {
+    this._endOffset = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endOffsetInput() {
+    return this._endOffset;
+  }
+
+  // start_offset - computed: false, optional: true, required: false
+  private _startOffset?: string; 
+  public get startOffset() {
+    return this.getStringAttribute('start_offset');
+  }
+  public set startOffset(value: string) {
+    this._startOffset = value;
+  }
+  public resetStartOffset() {
+    this._startOffset = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startOffsetInput() {
+    return this._startOffset;
+  }
+
+  // word - computed: false, optional: false, required: true
+  private _word?: string; 
+  public get word() {
+    return this.getStringAttribute('word');
+  }
+  public set word(value: string) {
+    this._word = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wordInput() {
+    return this._word;
+  }
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWordsList extends cdktn.ComplexList {
+  public internalValue? : GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWords[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWordsOutputReference {
+    return new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWordsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscription {
+  /**
+  * A label identifying the speaker of this audio segment (e.g. spk_1, spk_2). Present when diarization is set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#speaker_label GoogleVertexAiReasoningEngine#speaker_label}
+  */
+  readonly speakerLabel?: string;
+  /**
+  * The transcription text of this audio segment.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#text GoogleVertexAiReasoningEngine#text}
+  */
+  readonly text: string;
+  /**
+  * words block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#words GoogleVertexAiReasoningEngine#words}
+  */
+  readonly words?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWords[] | cdktn.IResolvable;
+}
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionToTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionOutputReference | GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscription): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    speaker_label: cdktn.stringToTerraform(struct!.speakerLabel),
+    text: cdktn.stringToTerraform(struct!.text),
+    words: cdktn.listMapper(googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWordsToTerraform, true)(struct!.words),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionToHclTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionOutputReference | GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscription): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    speaker_label: {
+      value: cdktn.stringToHclTerraform(struct!.speakerLabel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    text: {
+      value: cdktn.stringToHclTerraform(struct!.text),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    words: {
+      value: cdktn.listMapperHcl(googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWordsToHclTerraform, true)(struct!.words),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWordsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscription | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._speakerLabel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.speakerLabel = this._speakerLabel;
+    }
+    if (this._text !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.text = this._text;
+    }
+    if (this._words?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.words = this._words?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscription | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._speakerLabel = undefined;
+      this._text = undefined;
+      this._words.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._speakerLabel = value.speakerLabel;
+      this._text = value.text;
+      this._words.internalValue = value.words;
+    }
+  }
+
+  // speaker_label - computed: false, optional: true, required: false
+  private _speakerLabel?: string; 
+  public get speakerLabel() {
+    return this.getStringAttribute('speaker_label');
+  }
+  public set speakerLabel(value: string) {
+    this._speakerLabel = value;
+  }
+  public resetSpeakerLabel() {
+    this._speakerLabel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get speakerLabelInput() {
+    return this._speakerLabel;
+  }
+
+  // text - computed: false, optional: false, required: true
+  private _text?: string; 
+  public get text() {
+    return this.getStringAttribute('text');
+  }
+  public set text(value: string) {
+    this._text = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textInput() {
+    return this._text;
+  }
+
+  // words - computed: false, optional: true, required: false
+  private _words = new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWordsList(this, "words", false);
+  public get words() {
+    return this._words;
+  }
+  public putWords(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionWords[] | cdktn.IResolvable) {
+    this._words.internalValue = value;
+  }
+  public resetWords() {
+    this._words.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wordsInput() {
+    return this._words.internalValue;
+  }
+}
 export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsCodeExecutionResult {
   /**
   * The identifier of the ExecutableCode part this result is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -357,13 +695,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * Outcome of the code execution. Possible values: ["OUTCOME_UNSPECIFIED", "OUTCOME_OK", "OUTCOME_FAILED", "OUTCOME_DEADLINE_EXCEEDED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#outcome GoogleVertexAiReasoningEngine#outcome}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#outcome GoogleVertexAiReasoningEngine#outcome}
   */
   readonly outcome: string;
   /**
   * Contains stdout when code execution is successful, stderr or other description otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#output GoogleVertexAiReasoningEngine#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#output GoogleVertexAiReasoningEngine#output}
   */
   readonly output?: string;
 }
@@ -504,13 +842,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * The code to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#code GoogleVertexAiReasoningEngine#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#code GoogleVertexAiReasoningEngine#code}
   */
   readonly code: string;
   /**
   * Unique identifier of the ExecutableCode part.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -519,7 +857,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * Supported programming languages for the generated code. Possible values: ["LANGUAGE_UNSPECIFIED", "PYTHON", "BASH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#language GoogleVertexAiReasoningEngine#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#language GoogleVertexAiReasoningEngine#language}
   */
   readonly language: string;
 }
@@ -657,13 +995,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * The URI of the file in Google Cloud Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#file_uri GoogleVertexAiReasoningEngine#file_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#file_uri GoogleVertexAiReasoningEngine#file_uri}
   */
   readonly fileUri: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#mime_type GoogleVertexAiReasoningEngine#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#mime_type GoogleVertexAiReasoningEngine#mime_type}
   */
   readonly mimeType: string;
 }
@@ -772,13 +1110,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * The function parameters and values in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#args GoogleVertexAiReasoningEngine#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#args GoogleVertexAiReasoningEngine#args}
   */
   readonly args?: string;
   /**
   * The unique id of the function call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -787,7 +1125,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * The name of the function to call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
   */
   readonly name?: string;
 }
@@ -931,7 +1269,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * The id of the function call this response is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -940,13 +1278,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * The name of the function to call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
   */
   readonly name: string;
   /**
   * The function response in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#response GoogleVertexAiReasoningEngine#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#response GoogleVertexAiReasoningEngine#response}
   */
   readonly response?: string;
 }
@@ -1087,13 +1425,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * Raw bytes, which should be base64-encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#data GoogleVertexAiReasoningEngine#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#data GoogleVertexAiReasoningEngine#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#mime_type GoogleVertexAiReasoningEngine#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#mime_type GoogleVertexAiReasoningEngine#mime_type}
   */
   readonly mimeType: string;
 }
@@ -1202,13 +1540,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * The end offset of the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#end_offset GoogleVertexAiReasoningEngine#end_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#end_offset GoogleVertexAiReasoningEngine#end_offset}
   */
   readonly endOffset?: string;
   /**
   * The start offset of the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#start_offset GoogleVertexAiReasoningEngine#start_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#start_offset GoogleVertexAiReasoningEngine#start_offset}
   */
   readonly startOffset?: string;
 }
@@ -1323,55 +1661,61 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * The text content of the part.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#text GoogleVertexAiReasoningEngine#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#text GoogleVertexAiReasoningEngine#text}
   */
   readonly text?: string;
   /**
   * Indicates whether the part represents the model's thought process or reasoning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#thought GoogleVertexAiReasoningEngine#thought}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#thought GoogleVertexAiReasoningEngine#thought}
   */
   readonly thought?: boolean | cdktn.IResolvable;
   /**
+  * audio_transcription block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#audio_transcription GoogleVertexAiReasoningEngine#audio_transcription}
+  */
+  readonly audioTranscription?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscription;
+  /**
   * code_execution_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#code_execution_result GoogleVertexAiReasoningEngine#code_execution_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#code_execution_result GoogleVertexAiReasoningEngine#code_execution_result}
   */
   readonly codeExecutionResult?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsCodeExecutionResult;
   /**
   * executable_code block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#executable_code GoogleVertexAiReasoningEngine#executable_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#executable_code GoogleVertexAiReasoningEngine#executable_code}
   */
   readonly executableCode?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsExecutableCode;
   /**
   * file_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#file_data GoogleVertexAiReasoningEngine#file_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#file_data GoogleVertexAiReasoningEngine#file_data}
   */
   readonly fileData?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsFileData;
   /**
   * function_call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#function_call GoogleVertexAiReasoningEngine#function_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#function_call GoogleVertexAiReasoningEngine#function_call}
   */
   readonly functionCall?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsFunctionCall;
   /**
   * function_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#function_response GoogleVertexAiReasoningEngine#function_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#function_response GoogleVertexAiReasoningEngine#function_response}
   */
   readonly functionResponse?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsFunctionResponse;
   /**
   * inline_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#inline_data GoogleVertexAiReasoningEngine#inline_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#inline_data GoogleVertexAiReasoningEngine#inline_data}
   */
   readonly inlineData?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsInlineData;
   /**
   * video_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#video_metadata GoogleVertexAiReasoningEngine#video_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#video_metadata GoogleVertexAiReasoningEngine#video_metadata}
   */
   readonly videoMetadata?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsVideoMetadata;
 }
@@ -1384,6 +1728,7 @@ export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomiz
   return {
     text: cdktn.stringToTerraform(struct!.text),
     thought: cdktn.booleanToTerraform(struct!.thought),
+    audio_transcription: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionToTerraform(struct!.audioTranscription),
     code_execution_result: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsCodeExecutionResultToTerraform(struct!.codeExecutionResult),
     executable_code: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsExecutableCodeToTerraform(struct!.executableCode),
     file_data: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsFileDataToTerraform(struct!.fileData),
@@ -1412,6 +1757,12 @@ export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomiz
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    audio_transcription: {
+      value: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionToHclTerraform(struct!.audioTranscription),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionList",
     },
     code_execution_result: {
       value: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsCodeExecutionResultToHclTerraform(struct!.codeExecutionResult),
@@ -1489,6 +1840,10 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizati
       hasAnyValues = true;
       internalValueResult.thought = this._thought;
     }
+    if (this._audioTranscription?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.audioTranscription = this._audioTranscription?.internalValue;
+    }
     if (this._codeExecutionResult?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.codeExecutionResult = this._codeExecutionResult?.internalValue;
@@ -1526,6 +1881,7 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizati
       this.resolvableValue = undefined;
       this._text = undefined;
       this._thought = undefined;
+      this._audioTranscription.internalValue = undefined;
       this._codeExecutionResult.internalValue = undefined;
       this._executableCode.internalValue = undefined;
       this._fileData.internalValue = undefined;
@@ -1543,6 +1899,7 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizati
       this.resolvableValue = undefined;
       this._text = value.text;
       this._thought = value.thought;
+      this._audioTranscription.internalValue = value.audioTranscription;
       this._codeExecutionResult.internalValue = value.codeExecutionResult;
       this._executableCode.internalValue = value.executableCode;
       this._fileData.internalValue = value.fileData;
@@ -1583,6 +1940,22 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizati
   // Temporarily expose input value. Use with caution.
   public get thoughtInput() {
     return this._thought;
+  }
+
+  // audio_transcription - computed: false, optional: true, required: false
+  private _audioTranscription = new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscriptionOutputReference(this, "audio_transcription");
+  public get audioTranscription() {
+    return this._audioTranscription;
+  }
+  public putAudioTranscription(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsAudioTranscription) {
+    this._audioTranscription.internalValue = value;
+  }
+  public resetAudioTranscription() {
+    this._audioTranscription.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get audioTranscriptionInput() {
+    return this._audioTranscription.internalValue;
   }
 
   // code_execution_result - computed: false, optional: true, required: false
@@ -1721,13 +2094,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * The producer of the content. Must be either 'user' or 'model'. If not set, the service will default to 'user'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#role GoogleVertexAiReasoningEngine#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#role GoogleVertexAiReasoningEngine#role}
   */
   readonly role?: string;
   /**
   * parts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#parts GoogleVertexAiReasoningEngine#parts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#parts GoogleVertexAiReasoningEngine#parts}
   */
   readonly parts: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentParts[] | cdktn.IResolvable;
 }
@@ -1839,7 +2212,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#content GoogleVertexAiReasoningEngine#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#content GoogleVertexAiReasoningEngine#content}
   */
   readonly content: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContent;
 }
@@ -1954,7 +2327,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#events GoogleVertexAiReasoningEngine#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#events GoogleVertexAiReasoningEngine#events}
   */
   readonly events?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEvents[] | cdktn.IResolvable;
 }
@@ -2040,13 +2413,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * Represents the custom memory topic label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#custom_memory_topic_label GoogleVertexAiReasoningEngine#custom_memory_topic_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#custom_memory_topic_label GoogleVertexAiReasoningEngine#custom_memory_topic_label}
   */
   readonly customMemoryTopicLabel?: string;
   /**
   * Represents the managed memory topic. Possible values: ["USER_PERSONAL_INFO", "USER_PREFERENCES", "KEY_CONVERSATION_DETAILS", "EXPLICIT_INSTRUCTIONS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#managed_memory_topic GoogleVertexAiReasoningEngine#managed_memory_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#managed_memory_topic GoogleVertexAiReasoningEngine#managed_memory_topic}
   */
   readonly managedMemoryTopic?: string;
 }
@@ -2193,13 +2566,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * Represents the fact to generate a memory from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#fact GoogleVertexAiReasoningEngine#fact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#fact GoogleVertexAiReasoningEngine#fact}
   */
   readonly fact: string;
   /**
   * topics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#topics GoogleVertexAiReasoningEngine#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#topics GoogleVertexAiReasoningEngine#topics}
   */
   readonly topics?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesGeneratedMemoriesTopics[] | cdktn.IResolvable;
 }
@@ -2343,13 +2716,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * conversation_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#conversation_source GoogleVertexAiReasoningEngine#conversation_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#conversation_source GoogleVertexAiReasoningEngine#conversation_source}
   */
   readonly conversationSource?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSource;
   /**
   * generated_memories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#generated_memories GoogleVertexAiReasoningEngine#generated_memories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#generated_memories GoogleVertexAiReasoningEngine#generated_memories}
   */
   readonly generatedMemories?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesGeneratedMemories[] | cdktn.IResolvable;
 }
@@ -2496,13 +2869,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * Description of custom memory topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#description GoogleVertexAiReasoningEngine#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#description GoogleVertexAiReasoningEngine#description}
   */
   readonly description?: string;
   /**
   * Label of custom memory topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#label GoogleVertexAiReasoningEngine#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#label GoogleVertexAiReasoningEngine#label}
   */
   readonly label?: string;
 }
@@ -2617,7 +2990,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * Managed topic enum (e.g. USER_PREFERENCES, EXPLICIT_INSTRUCTIONS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#managed_topic_enum GoogleVertexAiReasoningEngine#managed_topic_enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#managed_topic_enum GoogleVertexAiReasoningEngine#managed_topic_enum}
   */
   readonly managedTopicEnum?: string;
 }
@@ -2703,13 +3076,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * custom_memory_topic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#custom_memory_topic GoogleVertexAiReasoningEngine#custom_memory_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#custom_memory_topic GoogleVertexAiReasoningEngine#custom_memory_topic}
   */
   readonly customMemoryTopic?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopic;
   /**
   * managed_memory_topic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#managed_memory_topic GoogleVertexAiReasoningEngine#managed_memory_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#managed_memory_topic GoogleVertexAiReasoningEngine#managed_memory_topic}
   */
   readonly managedMemoryTopic?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopic;
 }
@@ -2856,37 +3229,37 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomi
   /**
   * Indicates whether natural language memory generation should be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#disable_natural_language_memories GoogleVertexAiReasoningEngine#disable_natural_language_memories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#disable_natural_language_memories GoogleVertexAiReasoningEngine#disable_natural_language_memories}
   */
   readonly disableNaturalLanguageMemories?: boolean | cdktn.IResolvable;
   /**
   * Optional. Generate memories in the third person if set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#enable_third_person_memories GoogleVertexAiReasoningEngine#enable_third_person_memories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#enable_third_person_memories GoogleVertexAiReasoningEngine#enable_third_person_memories}
   */
   readonly enableThirdPersonMemories?: boolean | cdktn.IResolvable;
   /**
   * Optional. List of scope keys that this customization config applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#scope_keys GoogleVertexAiReasoningEngine#scope_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#scope_keys GoogleVertexAiReasoningEngine#scope_keys}
   */
   readonly scopeKeys?: string[];
   /**
   * consolidation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#consolidation_config GoogleVertexAiReasoningEngine#consolidation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#consolidation_config GoogleVertexAiReasoningEngine#consolidation_config}
   */
   readonly consolidationConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfig;
   /**
   * generate_memories_examples block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#generate_memories_examples GoogleVertexAiReasoningEngine#generate_memories_examples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#generate_memories_examples GoogleVertexAiReasoningEngine#generate_memories_examples}
   */
   readonly generateMemoriesExamples?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamples[] | cdktn.IResolvable;
   /**
   * memory_topics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#memory_topics GoogleVertexAiReasoningEngine#memory_topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#memory_topics GoogleVertexAiReasoningEngine#memory_topics}
   */
   readonly memoryTopics?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopics[] | cdktn.IResolvable;
 }
@@ -3149,14 +3522,14 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerat
   /**
   * Optional. Specifies to trigger generation when the event count reaches this limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#event_count GoogleVertexAiReasoningEngine#event_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#event_count GoogleVertexAiReasoningEngine#event_count}
   */
   readonly eventCount?: number;
   /**
   * Optional. Specifies to trigger generation at a fixed interval. The duration
   * must have a minute-level granularity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#fixed_interval GoogleVertexAiReasoningEngine#fixed_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#fixed_interval GoogleVertexAiReasoningEngine#fixed_interval}
   */
   readonly fixedInterval?: string;
   /**
@@ -3164,13 +3537,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerat
   * specified duration after the most recent event. The duration must have a
   * minute-level granularity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#idle_duration GoogleVertexAiReasoningEngine#idle_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#idle_duration GoogleVertexAiReasoningEngine#idle_duration}
   */
   readonly idleDuration?: string;
   /**
   * Optional. Re-include the last N already-processed events in the next window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#overlap_event_count GoogleVertexAiReasoningEngine#overlap_event_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#overlap_event_count GoogleVertexAiReasoningEngine#overlap_event_count}
   */
   readonly overlapEventCount?: number;
 }
@@ -3343,7 +3716,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerat
   /**
   * generation_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#generation_rule GoogleVertexAiReasoningEngine#generation_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#generation_rule GoogleVertexAiReasoningEngine#generation_rule}
   */
   readonly generationRule?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfigGenerationRule;
 }
@@ -3429,13 +3802,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerat
   /**
   * The model used to generate memories. Format: projects/{project}/locations/{location}/publishers/google/models/{model}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#model GoogleVertexAiReasoningEngine#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#model GoogleVertexAiReasoningEngine#model}
   */
   readonly model: string;
   /**
   * generation_trigger_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#generation_trigger_config GoogleVertexAiReasoningEngine#generation_trigger_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#generation_trigger_config GoogleVertexAiReasoningEngine#generation_trigger_config}
   */
   readonly generationTriggerConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfig;
 }
@@ -3547,7 +3920,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigSimilar
   /**
   * The model used to generate embeddings to lookup similar memories. Format: projects/{project}/locations/{location}/publishers/google/models/{model}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#embedding_model GoogleVertexAiReasoningEngine#embedding_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#embedding_model GoogleVertexAiReasoningEngine#embedding_model}
   */
   readonly embeddingModel: string;
 }
@@ -3630,7 +4003,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructu
   /**
   * Required. Unique ID identifying the memory schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3639,7 +4012,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructu
   /**
   * Optional. The memory schema defined as an OpenAPI Schema Object JSON string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#memory_schema GoogleVertexAiReasoningEngine#memory_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#memory_schema GoogleVertexAiReasoningEngine#memory_schema}
   */
   readonly memorySchema?: string;
 }
@@ -3783,13 +4156,13 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructu
   /**
   * Optional. List of scope keys that this structured memory config applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#scope_keys GoogleVertexAiReasoningEngine#scope_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#scope_keys GoogleVertexAiReasoningEngine#scope_keys}
   */
   readonly scopeKeys?: string[];
   /**
   * schema_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#schema_configs GoogleVertexAiReasoningEngine#schema_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#schema_configs GoogleVertexAiReasoningEngine#schema_configs}
   */
   readonly schemaConfigs?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigs[] | cdktn.IResolvable;
 }
@@ -3936,19 +4309,19 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConf
   /**
   * The TTL duration for memories uploaded via CreateMemory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#create_ttl GoogleVertexAiReasoningEngine#create_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#create_ttl GoogleVertexAiReasoningEngine#create_ttl}
   */
   readonly createTtl?: string;
   /**
   * The TTL duration for memories newly generated via GenerateMemories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#generate_created_ttl GoogleVertexAiReasoningEngine#generate_created_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#generate_created_ttl GoogleVertexAiReasoningEngine#generate_created_ttl}
   */
   readonly generateCreatedTtl?: string;
   /**
   * The TTL duration for memories updated via GenerateMemories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#generate_updated_ttl GoogleVertexAiReasoningEngine#generate_updated_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#generate_updated_ttl GoogleVertexAiReasoningEngine#generate_updated_ttl}
   */
   readonly generateUpdatedTtl?: string;
 }
@@ -4092,19 +4465,19 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConf
   /**
   * The default TTL duration of the memories in the Memory Bank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#default_ttl GoogleVertexAiReasoningEngine#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#default_ttl GoogleVertexAiReasoningEngine#default_ttl}
   */
   readonly defaultTtl?: string;
   /**
   * The default TTL duration of the memory revisions in the Memory Bank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#memory_revision_default_ttl GoogleVertexAiReasoningEngine#memory_revision_default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#memory_revision_default_ttl GoogleVertexAiReasoningEngine#memory_revision_default_ttl}
   */
   readonly memoryRevisionDefaultTtl?: string;
   /**
   * granular_ttl_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#granular_ttl_config GoogleVertexAiReasoningEngine#granular_ttl_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#granular_ttl_config GoogleVertexAiReasoningEngine#granular_ttl_config}
   */
   readonly granularTtlConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConfigGranularTtlConfig;
 }
@@ -4248,37 +4621,37 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfig {
   /**
   * If true, no memory revisions will be created for any requests to the Memory Bank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#disable_memory_revisions GoogleVertexAiReasoningEngine#disable_memory_revisions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#disable_memory_revisions GoogleVertexAiReasoningEngine#disable_memory_revisions}
   */
   readonly disableMemoryRevisions?: boolean | cdktn.IResolvable;
   /**
   * customization_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#customization_configs GoogleVertexAiReasoningEngine#customization_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#customization_configs GoogleVertexAiReasoningEngine#customization_configs}
   */
   readonly customizationConfigs?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigs[] | cdktn.IResolvable;
   /**
   * generation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#generation_config GoogleVertexAiReasoningEngine#generation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#generation_config GoogleVertexAiReasoningEngine#generation_config}
   */
   readonly generationConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfig;
   /**
   * similarity_search_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#similarity_search_config GoogleVertexAiReasoningEngine#similarity_search_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#similarity_search_config GoogleVertexAiReasoningEngine#similarity_search_config}
   */
   readonly similaritySearchConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigSimilaritySearchConfig;
   /**
   * structured_memory_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#structured_memory_configs GoogleVertexAiReasoningEngine#structured_memory_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#structured_memory_configs GoogleVertexAiReasoningEngine#structured_memory_configs}
   */
   readonly structuredMemoryConfigs?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigs[] | cdktn.IResolvable;
   /**
   * ttl_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#ttl_config GoogleVertexAiReasoningEngine#ttl_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#ttl_config GoogleVertexAiReasoningEngine#ttl_config}
   */
   readonly ttlConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConfig;
 }
@@ -4509,13 +4882,13 @@ export interface GoogleVertexAiReasoningEngineContextSpec {
   /**
   * example_store_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#example_store_config GoogleVertexAiReasoningEngine#example_store_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#example_store_config GoogleVertexAiReasoningEngine#example_store_config}
   */
   readonly exampleStoreConfig?: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig;
   /**
   * memory_bank_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#memory_bank_config GoogleVertexAiReasoningEngine#memory_bank_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#memory_bank_config GoogleVertexAiReasoningEngine#memory_bank_config}
   */
   readonly memoryBankConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfig;
 }
@@ -4634,7 +5007,7 @@ export interface GoogleVertexAiReasoningEngineEncryptionSpec {
   * The key needs to be in the same region as where the compute resource
   * is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#kms_key_name GoogleVertexAiReasoningEngine#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#kms_key_name GoogleVertexAiReasoningEngine#kms_key_name}
   */
   readonly kmsKeyName: string;
 }
@@ -4715,9 +5088,15 @@ export class GoogleVertexAiReasoningEngineEncryptionSpecOutputReference extends 
 }
 export interface GoogleVertexAiReasoningEngineSpecBuildSpec {
   /**
+  * Optional. The service account that the Cloud Build builder runs as.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#service_account GoogleVertexAiReasoningEngine#service_account}
+  */
+  readonly serviceAccount?: string;
+  /**
   * Optional. The resource name of the Cloud Build WorkerPool to use for the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#worker_pool GoogleVertexAiReasoningEngine#worker_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#worker_pool GoogleVertexAiReasoningEngine#worker_pool}
   */
   readonly workerPool?: string;
 }
@@ -4728,6 +5107,7 @@ export function googleVertexAiReasoningEngineSpecBuildSpecToTerraform(struct?: G
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    service_account: cdktn.stringToTerraform(struct!.serviceAccount),
     worker_pool: cdktn.stringToTerraform(struct!.workerPool),
   }
 }
@@ -4739,6 +5119,12 @@ export function googleVertexAiReasoningEngineSpecBuildSpecToHclTerraform(struct?
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    service_account: {
+      value: cdktn.stringToHclTerraform(struct!.serviceAccount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     worker_pool: {
       value: cdktn.stringToHclTerraform(struct!.workerPool),
       isBlock: false,
@@ -4765,6 +5151,10 @@ export class GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference extends c
   public get internalValue(): GoogleVertexAiReasoningEngineSpecBuildSpec | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._serviceAccount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceAccount = this._serviceAccount;
+    }
     if (this._workerPool !== undefined) {
       hasAnyValues = true;
       internalValueResult.workerPool = this._workerPool;
@@ -4775,12 +5165,30 @@ export class GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference extends c
   public set internalValue(value: GoogleVertexAiReasoningEngineSpecBuildSpec | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._serviceAccount = undefined;
       this._workerPool = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._serviceAccount = value.serviceAccount;
       this._workerPool = value.workerPool;
     }
+  }
+
+  // service_account - computed: false, optional: true, required: false
+  private _serviceAccount?: string; 
+  public get serviceAccount() {
+    return this.getStringAttribute('service_account');
+  }
+  public set serviceAccount(value: string) {
+    this._serviceAccount = value;
+  }
+  public resetServiceAccount() {
+    this._serviceAccount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAccountInput() {
+    return this._serviceAccount;
   }
 
   // worker_pool - computed: false, optional: true, required: false
@@ -4805,13 +5213,13 @@ export interface GoogleVertexAiReasoningEngineSpecContainerSpec {
   * 'us-central1-docker.pkg.dev/my-project/my-repo/my-image:tag') of the
   * container image that is to be run on each worker replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#image_uri GoogleVertexAiReasoningEngine#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#image_uri GoogleVertexAiReasoningEngine#image_uri}
   */
   readonly imageUri: string;
   /**
   * Optional. The port that the container listens on for incoming requests. If not specified, defaults to 8080.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#port GoogleVertexAiReasoningEngine#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#port GoogleVertexAiReasoningEngine#port}
   */
   readonly port?: number;
 }
@@ -4923,7 +5331,7 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConf
   /**
   * Required. The resource name of the Agent Gateway for outbound traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#agent_gateway GoogleVertexAiReasoningEngine#agent_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#agent_gateway GoogleVertexAiReasoningEngine#agent_gateway}
   */
   readonly agentGateway: string;
 }
@@ -5006,7 +5414,7 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConf
   /**
   * Required. The resource name of the Agent Gateway to use for inbound traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#agent_gateway GoogleVertexAiReasoningEngine#agent_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#agent_gateway GoogleVertexAiReasoningEngine#agent_gateway}
   */
   readonly agentGateway: string;
 }
@@ -5089,13 +5497,13 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConf
   /**
   * agent_to_anywhere_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#agent_to_anywhere_config GoogleVertexAiReasoningEngine#agent_to_anywhere_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#agent_to_anywhere_config GoogleVertexAiReasoningEngine#agent_to_anywhere_config}
   */
   readonly agentToAnywhereConfig?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfig;
   /**
   * client_to_agent_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#client_to_agent_config GoogleVertexAiReasoningEngine#client_to_agent_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#client_to_agent_config GoogleVertexAiReasoningEngine#client_to_agent_config}
   */
   readonly clientToAgentConfig?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfig;
 }
@@ -5211,7 +5619,7 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecEnv {
   * The name of the environment variable. Must be a valid
   * C identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
   */
   readonly name: string;
   /**
@@ -5224,7 +5632,7 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecEnv {
   * be expanded, regardless of whether the variable exists
   * or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#value GoogleVertexAiReasoningEngine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#value GoogleVertexAiReasoningEngine#value}
   */
   readonly value: string;
 }
@@ -5365,13 +5773,13 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHt
   /**
   * Required. Specifies the path of the HTTP GET request (e.g., '"/is_busy"').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#path GoogleVertexAiReasoningEngine#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#path GoogleVertexAiReasoningEngine#path}
   */
   readonly path: string;
   /**
   * Optional. Specifies the port number on the container to which the request is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#port GoogleVertexAiReasoningEngine#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#port GoogleVertexAiReasoningEngine#port}
   */
   readonly port?: number;
 }
@@ -5483,13 +5891,13 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe {
   /**
   * Optional. Specifies the maximum duration (in seconds) to keep the instance alive via this probe. Can be a maximum of 3600 seconds (1 hour).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#max_seconds GoogleVertexAiReasoningEngine#max_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#max_seconds GoogleVertexAiReasoningEngine#max_seconds}
   */
   readonly maxSeconds?: number;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#http_get GoogleVertexAiReasoningEngine#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#http_get GoogleVertexAiReasoningEngine#http_get}
   */
   readonly httpGet?: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGet;
 }
@@ -5606,14 +6014,14 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConf
   * to, e.g., "my-internal-domain.corp.".
   * Must end with a dot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#domain GoogleVertexAiReasoningEngine#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#domain GoogleVertexAiReasoningEngine#domain}
   */
   readonly domain: string;
   /**
   * Required. The VPC network name in the targetProject
   * where the DNS zone specified by 'domain' is visible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#target_network GoogleVertexAiReasoningEngine#target_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#target_network GoogleVertexAiReasoningEngine#target_network}
   */
   readonly targetNetwork: string;
   /**
@@ -5622,7 +6030,7 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConf
   * The Vertex AI service Agent requires the dns.peer role
   * on this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#target_project GoogleVertexAiReasoningEngine#target_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#target_project GoogleVertexAiReasoningEngine#target_project}
   */
   readonly targetProject: string;
 }
@@ -5792,13 +6200,13 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConf
   * To specify this field, you must have already created a network attachment.
   * This field is only used for resources using PSC-Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#network_attachment GoogleVertexAiReasoningEngine#network_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#network_attachment GoogleVertexAiReasoningEngine#network_attachment}
   */
   readonly networkAttachment?: string;
   /**
   * dns_peering_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#dns_peering_configs GoogleVertexAiReasoningEngine#dns_peering_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#dns_peering_configs GoogleVertexAiReasoningEngine#dns_peering_configs}
   */
   readonly dnsPeeringConfigs?: GoogleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConfigDnsPeeringConfigs[] | cdktn.IResolvable;
 }
@@ -5914,7 +6322,7 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretR
   * The name of the secret in Cloud Secret Manager.
   * Format: {secret_name}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#secret GoogleVertexAiReasoningEngine#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#secret GoogleVertexAiReasoningEngine#secret}
   */
   readonly secret: string;
   /**
@@ -5922,7 +6330,7 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretR
   * for the latest version, an integer for a specific
   * version, or a version alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#version GoogleVertexAiReasoningEngine#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#version GoogleVertexAiReasoningEngine#version}
   */
   readonly version?: string;
 }
@@ -6035,13 +6443,13 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnv {
   * The name of the environment variable. Must be a valid C
   * identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
   */
   readonly name: string;
   /**
   * secret_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#secret_ref GoogleVertexAiReasoningEngine#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#secret_ref GoogleVertexAiReasoningEngine#secret_ref}
   */
   readonly secretRef: GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRef;
 }
@@ -6185,20 +6593,20 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpec {
   * * 'STABLE': Stable agent server mode.
   * * 'EXPERIMENTAL': Experimental agent server mode. Possible values: ["STABLE", "EXPERIMENTAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#agent_server_mode GoogleVertexAiReasoningEngine#agent_server_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#agent_server_mode GoogleVertexAiReasoningEngine#agent_server_mode}
   */
   readonly agentServerMode?: string;
   /**
   * Optional. Concurrency for each container and agent server.
   * Recommended value: 2 * cpu + 1. Defaults to 9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#container_concurrency GoogleVertexAiReasoningEngine#container_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#container_concurrency GoogleVertexAiReasoningEngine#container_concurrency}
   */
   readonly containerConcurrency?: number;
   /**
   * Optional. Whether to enable dedicated ingress endpoint for the deployment. If true, the deployment will be accessible via a dedicated endpoint. This is required to enable GKE V2 runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#dedicated_ingress_endpoint_enabled GoogleVertexAiReasoningEngine#dedicated_ingress_endpoint_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#dedicated_ingress_endpoint_enabled GoogleVertexAiReasoningEngine#dedicated_ingress_endpoint_enabled}
   */
   readonly dedicatedIngressEndpointEnabled?: boolean | cdktn.IResolvable;
   /**
@@ -6207,14 +6615,14 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpec {
   * Range: [1, 1000]. If VPC-SC or PSC-I is enabled, the acceptable
   * range is [1, 100].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#max_instances GoogleVertexAiReasoningEngine#max_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#max_instances GoogleVertexAiReasoningEngine#max_instances}
   */
   readonly maxInstances?: number;
   /**
   * Optional. The minimum number of application instances that will be
   * kept running at all times. Defaults to 1. Range: [0, 10].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#min_instances GoogleVertexAiReasoningEngine#min_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#min_instances GoogleVertexAiReasoningEngine#min_instances}
   */
   readonly minInstances?: number;
   /**
@@ -6231,37 +6639,37 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpec {
   * For more information, go to
   * https://cloud.google.com/run/docs/configuring/memory-limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#resource_limits GoogleVertexAiReasoningEngine#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#resource_limits GoogleVertexAiReasoningEngine#resource_limits}
   */
   readonly resourceLimits?: { [key: string]: string };
   /**
   * agent_gateway_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#agent_gateway_config GoogleVertexAiReasoningEngine#agent_gateway_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#agent_gateway_config GoogleVertexAiReasoningEngine#agent_gateway_config}
   */
   readonly agentGatewayConfig?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#env GoogleVertexAiReasoningEngine#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#env GoogleVertexAiReasoningEngine#env}
   */
   readonly env?: GoogleVertexAiReasoningEngineSpecDeploymentSpecEnv[] | cdktn.IResolvable;
   /**
   * keep_alive_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#keep_alive_probe GoogleVertexAiReasoningEngine#keep_alive_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#keep_alive_probe GoogleVertexAiReasoningEngine#keep_alive_probe}
   */
   readonly keepAliveProbe?: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe;
   /**
   * psc_interface_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#psc_interface_config GoogleVertexAiReasoningEngine#psc_interface_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#psc_interface_config GoogleVertexAiReasoningEngine#psc_interface_config}
   */
   readonly pscInterfaceConfig?: GoogleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConfig;
   /**
   * secret_env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#secret_env GoogleVertexAiReasoningEngine#secret_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#secret_env GoogleVertexAiReasoningEngine#secret_env}
   */
   readonly secretEnv?: GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnv[] | cdktn.IResolvable;
 }
@@ -6638,26 +7046,26 @@ export interface GoogleVertexAiReasoningEngineSpecPackageSpec {
   * Optional. The Cloud Storage URI of the dependency files in tar.gz
   * format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#dependency_files_gcs_uri GoogleVertexAiReasoningEngine#dependency_files_gcs_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#dependency_files_gcs_uri GoogleVertexAiReasoningEngine#dependency_files_gcs_uri}
   */
   readonly dependencyFilesGcsUri?: string;
   /**
   * Optional. The Cloud Storage URI of the pickled python object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#pickle_object_gcs_uri GoogleVertexAiReasoningEngine#pickle_object_gcs_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#pickle_object_gcs_uri GoogleVertexAiReasoningEngine#pickle_object_gcs_uri}
   */
   readonly pickleObjectGcsUri?: string;
   /**
   * Optional. The Python version. Currently support 3.8, 3.9, 3.10,
   * 3.11, 3.12, 3.13. If not specified, default value is 3.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#python_version GoogleVertexAiReasoningEngine#python_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#python_version GoogleVertexAiReasoningEngine#python_version}
   */
   readonly pythonVersion?: string;
   /**
   * Optional. The Cloud Storage URI of the requirements.txtfile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#requirements_gcs_uri GoogleVertexAiReasoningEngine#requirements_gcs_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#requirements_gcs_uri GoogleVertexAiReasoningEngine#requirements_gcs_uri}
   */
   readonly requirementsGcsUri?: string;
 }
@@ -6830,7 +7238,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourc
   /**
   * Required. The value of the ADK config in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#json_config GoogleVertexAiReasoningEngine#json_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#json_config GoogleVertexAiReasoningEngine#json_config}
   */
   readonly jsonConfig: string;
 }
@@ -6913,7 +7321,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourc
   /**
   * Required. Input only. The application source code archive, provided as a compressed tarball (.tar.gz) file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#source_archive GoogleVertexAiReasoningEngine#source_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#source_archive GoogleVertexAiReasoningEngine#source_archive}
   */
   readonly sourceArchive: string;
 }
@@ -6996,13 +7404,13 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourc
   /**
   * adk_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#adk_config GoogleVertexAiReasoningEngine#adk_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#adk_config GoogleVertexAiReasoningEngine#adk_config}
   */
   readonly adkConfig?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfig;
   /**
   * inline_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#inline_source GoogleVertexAiReasoningEngine#inline_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#inline_source GoogleVertexAiReasoningEngine#inline_source}
   */
   readonly inlineSource?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSource;
 }
@@ -7117,13 +7525,13 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnect
   /**
   * Directory, relative to the source root, in which to run the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#dir GoogleVertexAiReasoningEngine#dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#dir GoogleVertexAiReasoningEngine#dir}
   */
   readonly dir: string;
   /**
   * The Developer Connect Git repository link, formatted as projects/* /locations/* /connections/* /gitRepositoryLink/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#git_repository_link GoogleVertexAiReasoningEngine#git_repository_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#git_repository_link GoogleVertexAiReasoningEngine#git_repository_link}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -7131,7 +7539,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnect
   /**
   * The revision to fetch from the Git repository such as a branch, a tag, a commit SHA, or any Git ref.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#revision GoogleVertexAiReasoningEngine#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#revision GoogleVertexAiReasoningEngine#revision}
   */
   readonly revision: string;
 }
@@ -7266,7 +7674,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnect
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#config GoogleVertexAiReasoningEngine#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#config GoogleVertexAiReasoningEngine#config}
   */
   readonly config: GoogleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnectSourceConfig;
 }
@@ -7349,7 +7757,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecImageSpec {
   /**
   * Build arguments to be used. They will be passed through --build-arg flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#build_args GoogleVertexAiReasoningEngine#build_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#build_args GoogleVertexAiReasoningEngine#build_args}
   */
   readonly buildArgs?: { [key: string]: string };
 }
@@ -7437,7 +7845,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecInlineSource {
   * The application source code archive, provided as a compressed
   * tarball (.tar.gz) file. A base64-encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#source_archive GoogleVertexAiReasoningEngine#source_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#source_archive GoogleVertexAiReasoningEngine#source_archive}
   */
   readonly sourceArchive?: string;
 }
@@ -7527,7 +7935,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecPythonSpec {
   * The project root will be added to Python sys.path, allowing
   * imports to be specified relative to the root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#entrypoint_module GoogleVertexAiReasoningEngine#entrypoint_module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#entrypoint_module GoogleVertexAiReasoningEngine#entrypoint_module}
   */
   readonly entrypointModule?: string;
   /**
@@ -7535,14 +7943,14 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecPythonSpec {
   * entrypointModule to use as the application If not specified,
   * defaults to "root_agent".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#entrypoint_object GoogleVertexAiReasoningEngine#entrypoint_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#entrypoint_object GoogleVertexAiReasoningEngine#entrypoint_object}
   */
   readonly entrypointObject?: string;
   /**
   * Optional. The path to the requirements file, relative to the
   * source root. If not specified, defaults to "requirements.txt".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#requirements_file GoogleVertexAiReasoningEngine#requirements_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#requirements_file GoogleVertexAiReasoningEngine#requirements_file}
   */
   readonly requirementsFile?: string;
   /**
@@ -7550,7 +7958,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecPythonSpec {
   * includes 3.9, 3.10, 3.11, 3.12, 3.13. If not specified,
   * default value is 3.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#version GoogleVertexAiReasoningEngine#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#version GoogleVertexAiReasoningEngine#version}
   */
   readonly version?: string;
 }
@@ -7723,31 +8131,31 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpec {
   /**
   * agent_config_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#agent_config_source GoogleVertexAiReasoningEngine#agent_config_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#agent_config_source GoogleVertexAiReasoningEngine#agent_config_source}
   */
   readonly agentConfigSource?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource;
   /**
   * developer_connect_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#developer_connect_source GoogleVertexAiReasoningEngine#developer_connect_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#developer_connect_source GoogleVertexAiReasoningEngine#developer_connect_source}
   */
   readonly developerConnectSource?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnectSource;
   /**
   * image_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#image_spec GoogleVertexAiReasoningEngine#image_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#image_spec GoogleVertexAiReasoningEngine#image_spec}
   */
   readonly imageSpec?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecImageSpec;
   /**
   * inline_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#inline_source GoogleVertexAiReasoningEngine#inline_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#inline_source GoogleVertexAiReasoningEngine#inline_source}
   */
   readonly inlineSource?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecInlineSource;
   /**
   * python_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#python_spec GoogleVertexAiReasoningEngine#python_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#python_spec GoogleVertexAiReasoningEngine#python_spec}
   */
   readonly pythonSpec?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecPythonSpec;
 }
@@ -7949,13 +8357,13 @@ export interface GoogleVertexAiReasoningEngineSpec {
   /**
   * Optional. The A2A Agent Card for the agent (if available).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#agent_card GoogleVertexAiReasoningEngine#agent_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#agent_card GoogleVertexAiReasoningEngine#agent_card}
   */
   readonly agentCard?: string;
   /**
   * Optional. The OSS agent framework used to develop the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#agent_framework GoogleVertexAiReasoningEngine#agent_framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#agent_framework GoogleVertexAiReasoningEngine#agent_framework}
   */
   readonly agentFramework?: string;
   /**
@@ -8208,13 +8616,13 @@ export interface GoogleVertexAiReasoningEngineSpec {
   * ])
   * ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#class_methods GoogleVertexAiReasoningEngine#class_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#class_methods GoogleVertexAiReasoningEngine#class_methods}
   */
   readonly classMethods?: string;
   /**
   * Optional. The resource name of the linked ExampleStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#example_store GoogleVertexAiReasoningEngine#example_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#example_store GoogleVertexAiReasoningEngine#example_store}
   */
   readonly exampleStore?: string;
   /**
@@ -8225,7 +8633,7 @@ export interface GoogleVertexAiReasoningEngineSpec {
   * * 'SERVICE_ACCOUNT': Use a custom service account if the 'service_account' field is set, otherwise use the default Vertex AI Reasoning Engine Service Agent in the project.
   * * 'AGENT_IDENTITY': Use Agent Identity. The 'service_account' field must not be set. Possible values: ["SERVICE_ACCOUNT", "AGENT_IDENTITY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#identity_type GoogleVertexAiReasoningEngine#identity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#identity_type GoogleVertexAiReasoningEngine#identity_type}
   */
   readonly identityType?: string;
   /**
@@ -8235,37 +8643,37 @@ export interface GoogleVertexAiReasoningEngineSpec {
   * extensions. If not specified, the Vertex AI Reasoning Engine service
   * Agent in the project will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#service_account GoogleVertexAiReasoningEngine#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#service_account GoogleVertexAiReasoningEngine#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * build_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#build_spec GoogleVertexAiReasoningEngine#build_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#build_spec GoogleVertexAiReasoningEngine#build_spec}
   */
   readonly buildSpec?: GoogleVertexAiReasoningEngineSpecBuildSpec;
   /**
   * container_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#container_spec GoogleVertexAiReasoningEngine#container_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#container_spec GoogleVertexAiReasoningEngine#container_spec}
   */
   readonly containerSpec?: GoogleVertexAiReasoningEngineSpecContainerSpec;
   /**
   * deployment_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#deployment_spec GoogleVertexAiReasoningEngine#deployment_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#deployment_spec GoogleVertexAiReasoningEngine#deployment_spec}
   */
   readonly deploymentSpec?: GoogleVertexAiReasoningEngineSpecDeploymentSpec;
   /**
   * package_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#package_spec GoogleVertexAiReasoningEngine#package_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#package_spec GoogleVertexAiReasoningEngine#package_spec}
   */
   readonly packageSpec?: GoogleVertexAiReasoningEngineSpecPackageSpec;
   /**
   * source_code_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#source_code_spec GoogleVertexAiReasoningEngine#source_code_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#source_code_spec GoogleVertexAiReasoningEngine#source_code_spec}
   */
   readonly sourceCodeSpec?: GoogleVertexAiReasoningEngineSpecSourceCodeSpec;
 }
@@ -8644,15 +9052,15 @@ export class GoogleVertexAiReasoningEngineSpecOutputReference extends cdktn.Comp
 }
 export interface GoogleVertexAiReasoningEngineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#create GoogleVertexAiReasoningEngine#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#create GoogleVertexAiReasoningEngine#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#delete GoogleVertexAiReasoningEngine#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#delete GoogleVertexAiReasoningEngine#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#update GoogleVertexAiReasoningEngine#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#update GoogleVertexAiReasoningEngine#update}
   */
   readonly update?: string;
 }
@@ -8855,13 +9263,13 @@ export interface GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTar
   /**
   * Required. Specifies percent of the traffic to this Runtime Revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#percent GoogleVertexAiReasoningEngine#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#percent GoogleVertexAiReasoningEngine#percent}
   */
   readonly percent: number;
   /**
   * Required. The Runtime Revision name to which to send this portion of traffic. Accepts revision IDs, short names (e.g. 'rev-1'), or keywords such as 'LATEST' and 'PREVIOUS'. Note: Keywords like 'LATEST' and 'PREVIOUS' resolve at apply time to the concrete underlying revision ID and remain pinned until 'traffic_config' is updated in Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#runtime_revision_name GoogleVertexAiReasoningEngine#runtime_revision_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#runtime_revision_name GoogleVertexAiReasoningEngine#runtime_revision_name}
   */
   readonly runtimeRevisionName: string;
 }
@@ -9002,7 +9410,7 @@ export interface GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManual {
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#targets GoogleVertexAiReasoningEngine#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#targets GoogleVertexAiReasoningEngine#targets}
   */
   readonly targets?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargets[] | cdktn.IResolvable;
 }
@@ -9088,13 +9496,13 @@ export interface GoogleVertexAiReasoningEngineTrafficConfig {
   /**
   * traffic_split_always_latest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#traffic_split_always_latest GoogleVertexAiReasoningEngine#traffic_split_always_latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#traffic_split_always_latest GoogleVertexAiReasoningEngine#traffic_split_always_latest}
   */
   readonly trafficSplitAlwaysLatest?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatest;
   /**
   * traffic_split_manual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#traffic_split_manual GoogleVertexAiReasoningEngine#traffic_split_manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#traffic_split_manual GoogleVertexAiReasoningEngine#traffic_split_manual}
   */
   readonly trafficSplitManual?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManual;
 }
@@ -9207,7 +9615,7 @@ export class GoogleVertexAiReasoningEngineTrafficConfigOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}
 */
 export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
 
@@ -9223,7 +9631,7 @@ export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleVertexAiReasoningEngine resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiReasoningEngine to import
-  * @param importFromId The id of the existing GoogleVertexAiReasoningEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVertexAiReasoningEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiReasoningEngine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -9235,7 +9643,7 @@ export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9246,8 +9654,8 @@ export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
       terraformResourceType: 'google_vertex_ai_reasoning_engine',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.46.1',
-        providerVersionConstraint: '~> 7.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

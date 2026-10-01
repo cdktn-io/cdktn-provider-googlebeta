@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,29 +21,29 @@ export interface GoogleGeminiGeminiGcpEnablementSettingConfig extends cdktn.Terr
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#deletion_policy GoogleGeminiGeminiGcpEnablementSetting#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#deletion_policy GoogleGeminiGeminiGcpEnablementSetting#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Whether web grounding should be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#disable_web_grounding GoogleGeminiGeminiGcpEnablementSetting#disable_web_grounding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#disable_web_grounding GoogleGeminiGeminiGcpEnablementSetting#disable_web_grounding}
   */
   readonly disableWebGrounding?: boolean | cdktn.IResolvable;
   /**
   * Whether customer data sharing should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#enable_customer_data_sharing GoogleGeminiGeminiGcpEnablementSetting#enable_customer_data_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#enable_customer_data_sharing GoogleGeminiGeminiGcpEnablementSetting#enable_customer_data_sharing}
   */
   readonly enableCustomerDataSharing?: boolean | cdktn.IResolvable;
   /**
   * Id of the Gemini Gcp Enablement setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#gemini_gcp_enablement_setting_id GoogleGeminiGeminiGcpEnablementSetting#gemini_gcp_enablement_setting_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#gemini_gcp_enablement_setting_id GoogleGeminiGeminiGcpEnablementSetting#gemini_gcp_enablement_setting_id}
   */
   readonly geminiGcpEnablementSettingId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#id GoogleGeminiGeminiGcpEnablementSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#id GoogleGeminiGeminiGcpEnablementSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,17 +55,23 @@ export interface GoogleGeminiGeminiGcpEnablementSettingConfig extends cdktn.Terr
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#labels GoogleGeminiGeminiGcpEnablementSetting#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#labels GoogleGeminiGeminiGcpEnablementSetting#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#location GoogleGeminiGeminiGcpEnablementSetting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#location GoogleGeminiGeminiGcpEnablementSetting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#project GoogleGeminiGeminiGcpEnablementSetting#project}
+  * Whether resource mutations should be enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#mutations_enabled GoogleGeminiGeminiGcpEnablementSetting#mutations_enabled}
+  */
+  readonly mutationsEnabled?: boolean | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#project GoogleGeminiGeminiGcpEnablementSetting#project}
   */
   readonly project?: string;
   /**
@@ -74,27 +80,27 @@ export interface GoogleGeminiGeminiGcpEnablementSettingConfig extends cdktn.Terr
   * GROUNDING_WITH_GOOGLE_SEARCH
   * WEB_GROUNDING_FOR_ENTERPRISE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#web_grounding_type GoogleGeminiGeminiGcpEnablementSetting#web_grounding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#web_grounding_type GoogleGeminiGeminiGcpEnablementSetting#web_grounding_type}
   */
   readonly webGroundingType?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#timeouts GoogleGeminiGeminiGcpEnablementSetting#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#timeouts GoogleGeminiGeminiGcpEnablementSetting#timeouts}
   */
   readonly timeouts?: GoogleGeminiGeminiGcpEnablementSettingTimeouts;
 }
 export interface GoogleGeminiGeminiGcpEnablementSettingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#create GoogleGeminiGeminiGcpEnablementSetting#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#create GoogleGeminiGeminiGcpEnablementSetting#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#delete GoogleGeminiGeminiGcpEnablementSetting#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#delete GoogleGeminiGeminiGcpEnablementSetting#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#update GoogleGeminiGeminiGcpEnablementSetting#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#update GoogleGeminiGeminiGcpEnablementSetting#update}
   */
   readonly update?: string;
 }
@@ -246,7 +252,7 @@ export class GoogleGeminiGeminiGcpEnablementSettingTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting}
 */
 export class GoogleGeminiGeminiGcpEnablementSetting extends cdktn.TerraformResource {
 
@@ -262,7 +268,7 @@ export class GoogleGeminiGeminiGcpEnablementSetting extends cdktn.TerraformResou
   * Generates CDKTN code for importing a GoogleGeminiGeminiGcpEnablementSetting resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleGeminiGeminiGcpEnablementSetting to import
-  * @param importFromId The id of the existing GoogleGeminiGeminiGcpEnablementSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleGeminiGeminiGcpEnablementSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleGeminiGeminiGcpEnablementSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -274,7 +280,7 @@ export class GoogleGeminiGeminiGcpEnablementSetting extends cdktn.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,8 +291,8 @@ export class GoogleGeminiGeminiGcpEnablementSetting extends cdktn.TerraformResou
       terraformResourceType: 'google_gemini_gemini_gcp_enablement_setting',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.46.1',
-        providerVersionConstraint: '~> 7.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -303,6 +309,7 @@ export class GoogleGeminiGeminiGcpEnablementSetting extends cdktn.TerraformResou
     this._id = config.id;
     this._labels = config.labels;
     this._location = config.location;
+    this._mutationsEnabled = config.mutationsEnabled;
     this._project = config.project;
     this._webGroundingType = config.webGroundingType;
     this._timeouts.internalValue = config.timeouts;
@@ -429,6 +436,22 @@ export class GoogleGeminiGeminiGcpEnablementSetting extends cdktn.TerraformResou
     return this._location;
   }
 
+  // mutations_enabled - computed: false, optional: true, required: false
+  private _mutationsEnabled?: boolean | cdktn.IResolvable; 
+  public get mutationsEnabled() {
+    return this.getBooleanAttribute('mutations_enabled');
+  }
+  public set mutationsEnabled(value: boolean | cdktn.IResolvable) {
+    this._mutationsEnabled = value;
+  }
+  public resetMutationsEnabled() {
+    this._mutationsEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mutationsEnabledInput() {
+    return this._mutationsEnabled;
+  }
+
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
@@ -506,6 +529,7 @@ export class GoogleGeminiGeminiGcpEnablementSetting extends cdktn.TerraformResou
       id: cdktn.stringToTerraform(this._id),
       labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
       location: cdktn.stringToTerraform(this._location),
+      mutations_enabled: cdktn.booleanToTerraform(this._mutationsEnabled),
       project: cdktn.stringToTerraform(this._project),
       web_grounding_type: cdktn.stringToTerraform(this._webGroundingType),
       timeouts: googleGeminiGeminiGcpEnablementSettingTimeoutsToTerraform(this._timeouts.internalValue),
@@ -555,6 +579,12 @@ export class GoogleGeminiGeminiGcpEnablementSetting extends cdktn.TerraformResou
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      mutations_enabled: {
+        value: cdktn.booleanToHclTerraform(this._mutationsEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       project: {
         value: cdktn.stringToHclTerraform(this._project),

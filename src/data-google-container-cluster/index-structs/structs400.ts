@@ -4063,6 +4063,11 @@ export class DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetwor
     return this.getStringAttribute('network');
   }
 
+  // stack_type - computed: true, optional: false, required: false
+  public get stackType() {
+    return this.getStringAttribute('stack_type');
+  }
+
   // subnetwork - computed: true, optional: false, required: false
   public get subnetwork() {
     return this.getStringAttribute('subnetwork');

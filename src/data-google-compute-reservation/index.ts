@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/data-sources/google_compute_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface DataGoogleComputeReservationConfig extends cdktn.TerraformMetaA
   * characters must be a dash, lowercase letter, or digit, except the last
   * character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#name DataGoogleComputeReservation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/data-sources/google_compute_reservation#name DataGoogleComputeReservation#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}
   */
   readonly project?: string;
   /**
   * The zone where the reservation is made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#zone DataGoogleComputeReservation#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/data-sources/google_compute_reservation#zone DataGoogleComputeReservation#zone}
   */
   readonly zone: string;
 }
@@ -1272,7 +1272,7 @@ export class DataGoogleComputeReservationSpecificReservationList extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation google_compute_reservation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/data-sources/google_compute_reservation google_compute_reservation}
 */
 export class DataGoogleComputeReservation extends cdktn.TerraformDataSource {
 
@@ -1288,7 +1288,7 @@ export class DataGoogleComputeReservation extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataGoogleComputeReservation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGoogleComputeReservation to import
-  * @param importFromId The id of the existing DataGoogleComputeReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGoogleComputeReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/data-sources/google_compute_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGoogleComputeReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1300,7 +1300,7 @@ export class DataGoogleComputeReservation extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation google_compute_reservation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/data-sources/google_compute_reservation google_compute_reservation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1311,8 +1311,8 @@ export class DataGoogleComputeReservation extends cdktn.TerraformDataSource {
       terraformResourceType: 'google_compute_reservation',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.46.1',
-        providerVersionConstraint: '~> 7.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1420,11 +1420,6 @@ export class DataGoogleComputeReservation extends cdktn.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get projectInput() {
     return this._project;
-  }
-
-  // reservation_block_count - computed: true, optional: false, required: false
-  public get reservationBlockCount() {
-    return this.getNumberAttribute('reservation_block_count');
   }
 
   // reservation_sharing_policy - computed: true, optional: false, required: false

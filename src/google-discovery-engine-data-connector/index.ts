@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleDiscoveryEngineDataConnectorConfig extends cdktn.Terrafor
   /**
   * Indicates whether full syncs are paused for this connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#auto_run_disabled GoogleDiscoveryEngineDataConnector#auto_run_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#auto_run_disabled GoogleDiscoveryEngineDataConnector#auto_run_disabled}
   */
   readonly autoRunDisabled?: boolean | cdktn.IResolvable;
   /**
@@ -23,7 +23,7 @@ export interface GoogleDiscoveryEngineDataConnectorConfig extends cdktn.Terrafor
   * Should be human readable, used to display collections in the Console
   * Dashboard. UTF-8 encoded string with limit of 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#collection_display_name GoogleDiscoveryEngineDataConnector#collection_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#collection_display_name GoogleDiscoveryEngineDataConnector#collection_display_name}
   */
   readonly collectionDisplayName: string;
   /**
@@ -35,7 +35,7 @@ export interface GoogleDiscoveryEngineDataConnectorConfig extends cdktn.Terrafor
   * standard with a length limit of 63 characters. Otherwise, an
   * INVALID_ARGUMENT error is returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#collection_id GoogleDiscoveryEngineDataConnector#collection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#collection_id GoogleDiscoveryEngineDataConnector#collection_id}
   */
   readonly collectionId: string;
   /**
@@ -43,7 +43,7 @@ export interface GoogleDiscoveryEngineDataConnectorConfig extends cdktn.Terrafor
   * 'DATA_INGESTION', 'ACTIONS', 'FEDERATED'
   * 'EUA', 'FEDERATED_AND_EUA'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#connector_modes GoogleDiscoveryEngineDataConnector#connector_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#connector_modes GoogleDiscoveryEngineDataConnector#connector_modes}
   */
   readonly connectorModes?: string[];
   /**
@@ -101,13 +101,13 @@ export interface GoogleDiscoveryEngineDataConnectorConfig extends cdktn.Terrafor
   * *   'workday'
   * *   'zendesk'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#data_source GoogleDiscoveryEngineDataConnector#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#data_source GoogleDiscoveryEngineDataConnector#data_source}
   */
   readonly dataSource: string;
   /**
   * The version of the data source. For example, '3' for Jira v3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#data_source_version GoogleDiscoveryEngineDataConnector#data_source_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#data_source_version GoogleDiscoveryEngineDataConnector#data_source_version}
   */
   readonly dataSourceVersion?: number;
   /**
@@ -119,11 +119,11 @@ export interface GoogleDiscoveryEngineDataConnectorConfig extends cdktn.Terrafor
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#deletion_policy GoogleDiscoveryEngineDataConnector#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#deletion_policy GoogleDiscoveryEngineDataConnector#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#id GoogleDiscoveryEngineDataConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#id GoogleDiscoveryEngineDataConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,19 +137,19 @@ export interface GoogleDiscoveryEngineDataConnectorConfig extends cdktn.Terrafor
   * set to the same value as the incremental refresh interval, incremental
   * sync will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#incremental_refresh_interval GoogleDiscoveryEngineDataConnector#incremental_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#incremental_refresh_interval GoogleDiscoveryEngineDataConnector#incremental_refresh_interval}
   */
   readonly incrementalRefreshInterval?: string;
   /**
   * Indicates whether incremental syncs are paused for this connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#incremental_sync_disabled GoogleDiscoveryEngineDataConnector#incremental_sync_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#incremental_sync_disabled GoogleDiscoveryEngineDataConnector#incremental_sync_disabled}
   */
   readonly incrementalSyncDisabled?: boolean | cdktn.IResolvable;
   /**
   * Params needed to access the source in the format of json string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#json_params GoogleDiscoveryEngineDataConnector#json_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#json_params GoogleDiscoveryEngineDataConnector#json_params}
   */
   readonly jsonParams?: string;
   /**
@@ -159,24 +159,24 @@ export interface GoogleDiscoveryEngineDataConnectorConfig extends cdktn.Terrafor
   * If this field is set and processed successfully, the DataStores created by
   * this connector will be protected by the KMS key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#kms_key_name GoogleDiscoveryEngineDataConnector#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#kms_key_name GoogleDiscoveryEngineDataConnector#kms_key_name}
   */
   readonly kmsKeyName?: string;
   /**
   * The geographic location where the data store should reside. The value can
   * only be one of "global", "us" and "eu".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#location GoogleDiscoveryEngineDataConnector#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#location GoogleDiscoveryEngineDataConnector#location}
   */
   readonly location: string;
   /**
   * Params needed to access the source in the format of String-to-String (Key, Value) pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#params GoogleDiscoveryEngineDataConnector#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#params GoogleDiscoveryEngineDataConnector#params}
   */
   readonly params?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#project GoogleDiscoveryEngineDataConnector#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#project GoogleDiscoveryEngineDataConnector#project}
   */
   readonly project?: string;
   /**
@@ -186,50 +186,62 @@ export interface GoogleDiscoveryEngineDataConnectorConfig extends cdktn.Terrafor
   * set to the same value as the incremental refresh interval, incremental
   * sync will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#refresh_interval GoogleDiscoveryEngineDataConnector#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#refresh_interval GoogleDiscoveryEngineDataConnector#refresh_interval}
   */
   readonly refreshInterval: string;
   /**
   * Whether customer has enabled static IP addresses for this connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#static_ip_enabled GoogleDiscoveryEngineDataConnector#static_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#static_ip_enabled GoogleDiscoveryEngineDataConnector#static_ip_enabled}
   */
   readonly staticIpEnabled?: boolean | cdktn.IResolvable;
   /**
   * The data synchronization mode supported by the data connector. The possible value can be:
   * 'PERIODIC', 'STREAMING'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#sync_mode GoogleDiscoveryEngineDataConnector#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#sync_mode GoogleDiscoveryEngineDataConnector#sync_mode}
   */
   readonly syncMode?: string;
   /**
+  * User-facing, version-independent label for this connector.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#tag GoogleDiscoveryEngineDataConnector#tag}
+  */
+  readonly tag?: string;
+  /**
   * action_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#action_config GoogleDiscoveryEngineDataConnector#action_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#action_config GoogleDiscoveryEngineDataConnector#action_config}
   */
   readonly actionConfig?: GoogleDiscoveryEngineDataConnectorActionConfig;
   /**
   * bap_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#bap_config GoogleDiscoveryEngineDataConnector#bap_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#bap_config GoogleDiscoveryEngineDataConnector#bap_config}
   */
   readonly bapConfig?: GoogleDiscoveryEngineDataConnectorBapConfig;
   /**
   * destination_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#destination_configs GoogleDiscoveryEngineDataConnector#destination_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#destination_configs GoogleDiscoveryEngineDataConnector#destination_configs}
   */
   readonly destinationConfigs?: GoogleDiscoveryEngineDataConnectorDestinationConfigs[] | cdktn.IResolvable;
   /**
   * entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#entities GoogleDiscoveryEngineDataConnector#entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#entities GoogleDiscoveryEngineDataConnector#entities}
   */
   readonly entities?: GoogleDiscoveryEngineDataConnectorEntities[] | cdktn.IResolvable;
   /**
+  * metadata block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#metadata GoogleDiscoveryEngineDataConnector#metadata}
+  */
+  readonly metadata?: GoogleDiscoveryEngineDataConnectorMetadata;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#timeouts GoogleDiscoveryEngineDataConnector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#timeouts GoogleDiscoveryEngineDataConnector#timeouts}
   */
   readonly timeouts?: GoogleDiscoveryEngineDataConnectorTimeouts;
 }
@@ -319,14 +331,14 @@ export interface GoogleDiscoveryEngineDataConnectorActionConfig {
   * String-to-String (Key, Value) pairs. Contains connection
   * credentials and configuration for the action connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#action_params GoogleDiscoveryEngineDataConnector#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#action_params GoogleDiscoveryEngineDataConnector#action_params}
   */
   readonly actionParams?: { [key: string]: string };
   /**
   * Whether to create a BAP (Business Application Platform) connection
   * for this action connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#create_bap_connection GoogleDiscoveryEngineDataConnector#create_bap_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#create_bap_connection GoogleDiscoveryEngineDataConnector#create_bap_connection}
   */
   readonly createBapConnection?: boolean | cdktn.IResolvable;
 }
@@ -449,14 +461,14 @@ export interface GoogleDiscoveryEngineDataConnectorBapConfig {
   * 'change_issue_status', 'create_comment', 'update_comment',
   * 'upload_attachment'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#enabled_actions GoogleDiscoveryEngineDataConnector#enabled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#enabled_actions GoogleDiscoveryEngineDataConnector#enabled_actions}
   */
   readonly enabledActions?: string[];
   /**
   * The connector modes supported by the BAP configuration.
   * The possible values include: 'ACTIONS'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#supported_connector_modes GoogleDiscoveryEngineDataConnector#supported_connector_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#supported_connector_modes GoogleDiscoveryEngineDataConnector#supported_connector_modes}
   */
   readonly supportedConnectorModes?: string[];
 }
@@ -572,13 +584,13 @@ export interface GoogleDiscoveryEngineDataConnectorDestinationConfigsDestination
   * The host of the destination, for example
   * 'https://example.atlassian.net'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#host GoogleDiscoveryEngineDataConnector#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#host GoogleDiscoveryEngineDataConnector#host}
   */
   readonly host?: string;
   /**
   * Target port number accepted by the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#port GoogleDiscoveryEngineDataConnector#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#port GoogleDiscoveryEngineDataConnector#port}
   */
   readonly port?: number;
 }
@@ -725,19 +737,19 @@ export interface GoogleDiscoveryEngineDataConnectorDestinationConfigs {
   /**
   * The key of the destination configuration, for example 'url'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#key GoogleDiscoveryEngineDataConnector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#key GoogleDiscoveryEngineDataConnector#key}
   */
   readonly key?: string;
   /**
   * Additional parameters for this destination config in structured json format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#params GoogleDiscoveryEngineDataConnector#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#params GoogleDiscoveryEngineDataConnector#params}
   */
   readonly params?: string;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#destinations GoogleDiscoveryEngineDataConnector#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#destinations GoogleDiscoveryEngineDataConnector#destinations}
   */
   readonly destinations?: GoogleDiscoveryEngineDataConnectorDestinationConfigsDestinations[] | cdktn.IResolvable;
 }
@@ -916,7 +928,7 @@ export interface GoogleDiscoveryEngineDataConnectorEntities {
   * * Jira: project, issue, attachment, comment, worklog
   * * Confluence: 'Content', 'Space'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#entity_name GoogleDiscoveryEngineDataConnector#entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#entity_name GoogleDiscoveryEngineDataConnector#entity_name}
   */
   readonly entityName?: string;
   /**
@@ -929,13 +941,13 @@ export interface GoogleDiscoveryEngineDataConnectorEntities {
   * * 'description': The description for data record. This would be displayed
   *   on search results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#key_property_mappings GoogleDiscoveryEngineDataConnector#key_property_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#key_property_mappings GoogleDiscoveryEngineDataConnector#key_property_mappings}
   */
   readonly keyPropertyMappings?: { [key: string]: string };
   /**
   * The parameters for the entity to facilitate data ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#params GoogleDiscoveryEngineDataConnector#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#params GoogleDiscoveryEngineDataConnector#params}
   */
   readonly params?: string;
 }
@@ -1112,17 +1124,243 @@ export class GoogleDiscoveryEngineDataConnectorEntitiesList extends cdktn.Comple
     return new GoogleDiscoveryEngineDataConnectorEntitiesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleDiscoveryEngineDataConnectorMetadata {
+  /**
+  * The party that authored the connector, e.g. "Google" or a third-party provider name.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#author GoogleDiscoveryEngineDataConnector#author}
+  */
+  readonly author?: string;
+  /**
+  * Human-readable description of the connector.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#description GoogleDiscoveryEngineDataConnector#description}
+  */
+  readonly description?: string;
+  /**
+  * Free-form, multi-line note about the connector's capabilities.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#note GoogleDiscoveryEngineDataConnector#note}
+  */
+  readonly note?: string;
+  /**
+  * Short, subtitle-length description of the connector.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#short_description GoogleDiscoveryEngineDataConnector#short_description}
+  */
+  readonly shortDescription?: string;
+  /**
+  * Display title of the connector.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#title GoogleDiscoveryEngineDataConnector#title}
+  */
+  readonly title?: string;
+}
+
+export function googleDiscoveryEngineDataConnectorMetadataToTerraform(struct?: GoogleDiscoveryEngineDataConnectorMetadataOutputReference | GoogleDiscoveryEngineDataConnectorMetadata): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    author: cdktn.stringToTerraform(struct!.author),
+    description: cdktn.stringToTerraform(struct!.description),
+    note: cdktn.stringToTerraform(struct!.note),
+    short_description: cdktn.stringToTerraform(struct!.shortDescription),
+    title: cdktn.stringToTerraform(struct!.title),
+  }
+}
+
+
+export function googleDiscoveryEngineDataConnectorMetadataToHclTerraform(struct?: GoogleDiscoveryEngineDataConnectorMetadataOutputReference | GoogleDiscoveryEngineDataConnectorMetadata): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    author: {
+      value: cdktn.stringToHclTerraform(struct!.author),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktn.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    note: {
+      value: cdktn.stringToHclTerraform(struct!.note),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    short_description: {
+      value: cdktn.stringToHclTerraform(struct!.shortDescription),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    title: {
+      value: cdktn.stringToHclTerraform(struct!.title),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDiscoveryEngineDataConnectorMetadataOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDiscoveryEngineDataConnectorMetadata | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._author !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.author = this._author;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._note !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.note = this._note;
+    }
+    if (this._shortDescription !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shortDescription = this._shortDescription;
+    }
+    if (this._title !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.title = this._title;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDiscoveryEngineDataConnectorMetadata | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._author = undefined;
+      this._description = undefined;
+      this._note = undefined;
+      this._shortDescription = undefined;
+      this._title = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._author = value.author;
+      this._description = value.description;
+      this._note = value.note;
+      this._shortDescription = value.shortDescription;
+      this._title = value.title;
+    }
+  }
+
+  // author - computed: true, optional: true, required: false
+  private _author?: string; 
+  public get author() {
+    return this.getStringAttribute('author');
+  }
+  public set author(value: string) {
+    this._author = value;
+  }
+  public resetAuthor() {
+    this._author = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authorInput() {
+    return this._author;
+  }
+
+  // description - computed: true, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // note - computed: true, optional: true, required: false
+  private _note?: string; 
+  public get note() {
+    return this.getStringAttribute('note');
+  }
+  public set note(value: string) {
+    this._note = value;
+  }
+  public resetNote() {
+    this._note = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noteInput() {
+    return this._note;
+  }
+
+  // short_description - computed: true, optional: true, required: false
+  private _shortDescription?: string; 
+  public get shortDescription() {
+    return this.getStringAttribute('short_description');
+  }
+  public set shortDescription(value: string) {
+    this._shortDescription = value;
+  }
+  public resetShortDescription() {
+    this._shortDescription = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shortDescriptionInput() {
+    return this._shortDescription;
+  }
+
+  // title - computed: true, optional: true, required: false
+  private _title?: string; 
+  public get title() {
+    return this.getStringAttribute('title');
+  }
+  public set title(value: string) {
+    this._title = value;
+  }
+  public resetTitle() {
+    this._title = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get titleInput() {
+    return this._title;
+  }
+}
 export interface GoogleDiscoveryEngineDataConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#create GoogleDiscoveryEngineDataConnector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#create GoogleDiscoveryEngineDataConnector#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#delete GoogleDiscoveryEngineDataConnector#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#delete GoogleDiscoveryEngineDataConnector#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#update GoogleDiscoveryEngineDataConnector#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#update GoogleDiscoveryEngineDataConnector#update}
   */
   readonly update?: string;
 }
@@ -1274,7 +1512,7 @@ export class GoogleDiscoveryEngineDataConnectorTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector}
 */
 export class GoogleDiscoveryEngineDataConnector extends cdktn.TerraformResource {
 
@@ -1290,7 +1528,7 @@ export class GoogleDiscoveryEngineDataConnector extends cdktn.TerraformResource 
   * Generates CDKTN code for importing a GoogleDiscoveryEngineDataConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDiscoveryEngineDataConnector to import
-  * @param importFromId The id of the existing GoogleDiscoveryEngineDataConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDiscoveryEngineDataConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDiscoveryEngineDataConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1302,7 +1540,7 @@ export class GoogleDiscoveryEngineDataConnector extends cdktn.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1313,8 +1551,8 @@ export class GoogleDiscoveryEngineDataConnector extends cdktn.TerraformResource 
       terraformResourceType: 'google_discovery_engine_data_connector',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.46.1',
-        providerVersionConstraint: '~> 7.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1342,10 +1580,12 @@ export class GoogleDiscoveryEngineDataConnector extends cdktn.TerraformResource 
     this._refreshInterval = config.refreshInterval;
     this._staticIpEnabled = config.staticIpEnabled;
     this._syncMode = config.syncMode;
+    this._tag = config.tag;
     this._actionConfig.internalValue = config.actionConfig;
     this._bapConfig.internalValue = config.bapConfig;
     this._destinationConfigs.internalValue = config.destinationConfigs;
     this._entities.internalValue = config.entities;
+    this._metadata.internalValue = config.metadata;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -1687,6 +1927,22 @@ export class GoogleDiscoveryEngineDataConnector extends cdktn.TerraformResource 
     return this._syncMode;
   }
 
+  // tag - computed: false, optional: true, required: false
+  private _tag?: string; 
+  public get tag() {
+    return this.getStringAttribute('tag');
+  }
+  public set tag(value: string) {
+    this._tag = value;
+  }
+  public resetTag() {
+    this._tag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagInput() {
+    return this._tag;
+  }
+
   // update_time - computed: true, optional: false, required: false
   public get updateTime() {
     return this.getStringAttribute('update_time');
@@ -1756,6 +2012,22 @@ export class GoogleDiscoveryEngineDataConnector extends cdktn.TerraformResource 
     return this._entities.internalValue;
   }
 
+  // metadata - computed: false, optional: true, required: false
+  private _metadata = new GoogleDiscoveryEngineDataConnectorMetadataOutputReference(this, "metadata");
+  public get metadata() {
+    return this._metadata;
+  }
+  public putMetadata(value: GoogleDiscoveryEngineDataConnectorMetadata) {
+    this._metadata.internalValue = value;
+  }
+  public resetMetadata() {
+    this._metadata.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataInput() {
+    return this._metadata.internalValue;
+  }
+
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new GoogleDiscoveryEngineDataConnectorTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -1796,10 +2068,12 @@ export class GoogleDiscoveryEngineDataConnector extends cdktn.TerraformResource 
       refresh_interval: cdktn.stringToTerraform(this._refreshInterval),
       static_ip_enabled: cdktn.booleanToTerraform(this._staticIpEnabled),
       sync_mode: cdktn.stringToTerraform(this._syncMode),
+      tag: cdktn.stringToTerraform(this._tag),
       action_config: googleDiscoveryEngineDataConnectorActionConfigToTerraform(this._actionConfig.internalValue),
       bap_config: googleDiscoveryEngineDataConnectorBapConfigToTerraform(this._bapConfig.internalValue),
       destination_configs: cdktn.listMapper(googleDiscoveryEngineDataConnectorDestinationConfigsToTerraform, true)(this._destinationConfigs.internalValue),
       entities: cdktn.listMapper(googleDiscoveryEngineDataConnectorEntitiesToTerraform, true)(this._entities.internalValue),
+      metadata: googleDiscoveryEngineDataConnectorMetadataToTerraform(this._metadata.internalValue),
       timeouts: googleDiscoveryEngineDataConnectorTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -1914,6 +2188,12 @@ export class GoogleDiscoveryEngineDataConnector extends cdktn.TerraformResource 
         type: "simple",
         storageClassType: "string",
       },
+      tag: {
+        value: cdktn.stringToHclTerraform(this._tag),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       action_config: {
         value: googleDiscoveryEngineDataConnectorActionConfigToHclTerraform(this._actionConfig.internalValue),
         isBlock: true,
@@ -1937,6 +2217,12 @@ export class GoogleDiscoveryEngineDataConnector extends cdktn.TerraformResource 
         isBlock: true,
         type: "list",
         storageClassType: "GoogleDiscoveryEngineDataConnectorEntitiesList",
+      },
+      metadata: {
+        value: googleDiscoveryEngineDataConnectorMetadataToHclTerraform(this._metadata.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleDiscoveryEngineDataConnectorMetadataList",
       },
       timeouts: {
         value: googleDiscoveryEngineDataConnectorTimeoutsToHclTerraform(this._timeouts.internalValue),

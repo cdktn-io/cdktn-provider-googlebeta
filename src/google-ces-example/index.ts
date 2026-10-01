@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleCesExampleConfig extends cdktn.TerraformMetaArguments {
   /**
   * Resource ID segment making up resource 'name', defining the app the example belongs to. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#app GoogleCesExample#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#app GoogleCesExample#app}
   */
   readonly app: string;
   /**
@@ -27,19 +27,19 @@ export interface GoogleCesExampleConfig extends cdktn.TerraformMetaArguments {
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#deletion_policy GoogleCesExample#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#deletion_policy GoogleCesExample#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Human-readable description of the example.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#description GoogleCesExample#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#description GoogleCesExample#description}
   */
   readonly description?: string;
   /**
   * Display name of the example.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#display_name GoogleCesExample#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#display_name GoogleCesExample#display_name}
   */
   readonly displayName: string;
   /**
@@ -47,18 +47,18 @@ export interface GoogleCesExampleConfig extends cdktn.TerraformMetaArguments {
   * example represents a conversation that is handled by the root agent.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#entry_agent GoogleCesExample#entry_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#entry_agent GoogleCesExample#entry_agent}
   */
   readonly entryAgent?: string;
   /**
   * The ID to use for the example, which will become the final component of
   * the example's resource name. In Terraform, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#example_id GoogleCesExample#example_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#example_id GoogleCesExample#example_id}
   */
   readonly exampleId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#id GoogleCesExample#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#id GoogleCesExample#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,23 +67,23 @@ export interface GoogleCesExampleConfig extends cdktn.TerraformMetaArguments {
   /**
   * Resource ID segment making up resource 'name', defining what region the parent app is in. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#location GoogleCesExample#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#location GoogleCesExample#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#project GoogleCesExample#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#project GoogleCesExample#project}
   */
   readonly project?: string;
   /**
   * messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#messages GoogleCesExample#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#messages GoogleCesExample#messages}
   */
   readonly messages?: GoogleCesExampleMessages[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#timeouts GoogleCesExample#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#timeouts GoogleCesExample#timeouts}
   */
   readonly timeouts?: GoogleCesExampleTimeouts;
 }
@@ -93,7 +93,7 @@ export interface GoogleCesExampleMessagesChunksAgentTransfer {
   * handle the conversation from this point forward.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#target_agent GoogleCesExample#target_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#target_agent GoogleCesExample#target_agent}
   */
   readonly targetAgent: string;
 }
@@ -177,26 +177,22 @@ export class GoogleCesExampleMessagesChunksAgentTransferOutputReference extends 
     return this._targetAgent;
   }
 }
-export interface GoogleCesExampleMessagesChunksImage {
+export interface GoogleCesExampleMessagesChunksBlob {
   /**
-  * Raw bytes of the image.
+  * Raw bytes of the blob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#data GoogleCesExample#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#data GoogleCesExample#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
-  * Supported image types includes:
-  * * image/png
-  * * image/jpeg
-  * * image/webp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#mime_type GoogleCesExample#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#mime_type GoogleCesExample#mime_type}
   */
   readonly mimeType: string;
 }
 
-export function googleCesExampleMessagesChunksImageToTerraform(struct?: GoogleCesExampleMessagesChunksImageOutputReference | GoogleCesExampleMessagesChunksImage): any {
+export function googleCesExampleMessagesChunksBlobToTerraform(struct?: GoogleCesExampleMessagesChunksBlobOutputReference | GoogleCesExampleMessagesChunksBlob): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
@@ -208,7 +204,7 @@ export function googleCesExampleMessagesChunksImageToTerraform(struct?: GoogleCe
 }
 
 
-export function googleCesExampleMessagesChunksImageToHclTerraform(struct?: GoogleCesExampleMessagesChunksImageOutputReference | GoogleCesExampleMessagesChunksImage): any {
+export function googleCesExampleMessagesChunksBlobToHclTerraform(struct?: GoogleCesExampleMessagesChunksBlobOutputReference | GoogleCesExampleMessagesChunksBlob): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
@@ -232,7 +228,7 @@ export function googleCesExampleMessagesChunksImageToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCesExampleMessagesChunksImageOutputReference extends cdktn.ComplexObject {
+export class GoogleCesExampleMessagesChunksBlobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -243,7 +239,7 @@ export class GoogleCesExampleMessagesChunksImageOutputReference extends cdktn.Co
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): GoogleCesExampleMessagesChunksImage | undefined {
+  public get internalValue(): GoogleCesExampleMessagesChunksBlob | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._data !== undefined) {
@@ -257,7 +253,7 @@ export class GoogleCesExampleMessagesChunksImageOutputReference extends cdktn.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCesExampleMessagesChunksImage | undefined) {
+  public set internalValue(value: GoogleCesExampleMessagesChunksBlob | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._data = undefined;
@@ -296,11 +292,165 @@ export class GoogleCesExampleMessagesChunksImageOutputReference extends cdktn.Co
     return this._mimeType;
   }
 }
+export interface GoogleCesExampleMessagesChunksImage {
+  /**
+  * The alternative text for the image.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#alt_text GoogleCesExample#alt_text}
+  */
+  readonly altText?: string;
+  /**
+  * Raw bytes of the image.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#data GoogleCesExample#data}
+  */
+  readonly data: string;
+  /**
+  * The IANA standard MIME type of the source data.
+  * Supported image types includes:
+  * * image/png
+  * * image/jpeg
+  * * image/webp
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#mime_type GoogleCesExample#mime_type}
+  */
+  readonly mimeType: string;
+}
+
+export function googleCesExampleMessagesChunksImageToTerraform(struct?: GoogleCesExampleMessagesChunksImageOutputReference | GoogleCesExampleMessagesChunksImage): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    alt_text: cdktn.stringToTerraform(struct!.altText),
+    data: cdktn.stringToTerraform(struct!.data),
+    mime_type: cdktn.stringToTerraform(struct!.mimeType),
+  }
+}
+
+
+export function googleCesExampleMessagesChunksImageToHclTerraform(struct?: GoogleCesExampleMessagesChunksImageOutputReference | GoogleCesExampleMessagesChunksImage): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    alt_text: {
+      value: cdktn.stringToHclTerraform(struct!.altText),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    data: {
+      value: cdktn.stringToHclTerraform(struct!.data),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mime_type: {
+      value: cdktn.stringToHclTerraform(struct!.mimeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesExampleMessagesChunksImageOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesExampleMessagesChunksImage | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._altText !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.altText = this._altText;
+    }
+    if (this._data !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.data = this._data;
+    }
+    if (this._mimeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mimeType = this._mimeType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesExampleMessagesChunksImage | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._altText = undefined;
+      this._data = undefined;
+      this._mimeType = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._altText = value.altText;
+      this._data = value.data;
+      this._mimeType = value.mimeType;
+    }
+  }
+
+  // alt_text - computed: false, optional: true, required: false
+  private _altText?: string; 
+  public get altText() {
+    return this.getStringAttribute('alt_text');
+  }
+  public set altText(value: string) {
+    this._altText = value;
+  }
+  public resetAltText() {
+    this._altText = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get altTextInput() {
+    return this._altText;
+  }
+
+  // data - computed: false, optional: false, required: true
+  private _data?: string; 
+  public get data() {
+    return this.getStringAttribute('data');
+  }
+  public set data(value: string) {
+    this._data = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataInput() {
+    return this._data;
+  }
+
+  // mime_type - computed: false, optional: false, required: true
+  private _mimeType?: string; 
+  public get mimeType() {
+    return this.getStringAttribute('mime_type');
+  }
+  public set mimeType(value: string) {
+    this._mimeType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mimeTypeInput() {
+    return this._mimeType;
+  }
+}
 export interface GoogleCesExampleMessagesChunksToolCallToolsetTool {
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#tool_id GoogleCesExample#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#tool_id GoogleCesExample#tool_id}
   */
   readonly toolId?: string;
   /**
@@ -308,7 +458,7 @@ export interface GoogleCesExampleMessagesChunksToolCallToolsetTool {
   * Format:
   * 'projects/{project}/locations/{location}/apps/{app}/toolsets/{toolset}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#toolset GoogleCesExample#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#toolset GoogleCesExample#toolset}
   */
   readonly toolset: string;
 }
@@ -420,7 +570,7 @@ export interface GoogleCesExampleMessagesChunksToolCall {
   /**
   * The input parameters and values for the tool in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#args GoogleCesExample#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#args GoogleCesExample#args}
   */
   readonly args?: string;
   /**
@@ -428,7 +578,7 @@ export interface GoogleCesExampleMessagesChunksToolCall {
   * return the execution result with the matching ID in
   * ToolResponse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#id GoogleCesExample#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#id GoogleCesExample#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -438,13 +588,13 @@ export interface GoogleCesExampleMessagesChunksToolCall {
   * The name of the tool to execute.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/tools/{tool}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#tool GoogleCesExample#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#tool GoogleCesExample#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#toolset_tool GoogleCesExample#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#toolset_tool GoogleCesExample#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesExampleMessagesChunksToolCallToolsetTool;
 }
@@ -622,7 +772,7 @@ export interface GoogleCesExampleMessagesChunksToolResponseToolsetTool {
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#tool_id GoogleCesExample#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#tool_id GoogleCesExample#tool_id}
   */
   readonly toolId?: string;
   /**
@@ -630,7 +780,7 @@ export interface GoogleCesExampleMessagesChunksToolResponseToolsetTool {
   * Format:
   * 'projects/{project}/locations/{location}/apps/{app}/toolsets/{toolset}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#toolset GoogleCesExample#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#toolset GoogleCesExample#toolset}
   */
   readonly toolset: string;
 }
@@ -742,7 +892,7 @@ export interface GoogleCesExampleMessagesChunksToolResponse {
   /**
   * The matching ID of the tool call the response is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#id GoogleCesExample#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#id GoogleCesExample#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -754,20 +904,20 @@ export interface GoogleCesExampleMessagesChunksToolResponse {
   * error details (if any). If "output" and "error" keys are not specified,
   * then whole "response" is treated as tool execution result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#response GoogleCesExample#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#response GoogleCesExample#response}
   */
   readonly response: string;
   /**
   * The name of the tool to execute.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/tools/{tool}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#tool GoogleCesExample#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#tool GoogleCesExample#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#toolset_tool GoogleCesExample#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#toolset_tool GoogleCesExample#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesExampleMessagesChunksToolResponseToolsetTool;
 }
@@ -942,38 +1092,44 @@ export interface GoogleCesExampleMessagesChunks {
   /**
   * Text data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#text GoogleCesExample#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#text GoogleCesExample#text}
   */
   readonly text?: string;
   /**
   * A struct represents variables that were updated in the conversation,
   * keyed by variable names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#updated_variables GoogleCesExample#updated_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#updated_variables GoogleCesExample#updated_variables}
   */
   readonly updatedVariables?: string;
   /**
   * agent_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#agent_transfer GoogleCesExample#agent_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#agent_transfer GoogleCesExample#agent_transfer}
   */
   readonly agentTransfer?: GoogleCesExampleMessagesChunksAgentTransfer;
   /**
+  * blob block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#blob GoogleCesExample#blob}
+  */
+  readonly blob?: GoogleCesExampleMessagesChunksBlob;
+  /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#image GoogleCesExample#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#image GoogleCesExample#image}
   */
   readonly image?: GoogleCesExampleMessagesChunksImage;
   /**
   * tool_call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#tool_call GoogleCesExample#tool_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#tool_call GoogleCesExample#tool_call}
   */
   readonly toolCall?: GoogleCesExampleMessagesChunksToolCall;
   /**
   * tool_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#tool_response GoogleCesExample#tool_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#tool_response GoogleCesExample#tool_response}
   */
   readonly toolResponse?: GoogleCesExampleMessagesChunksToolResponse;
 }
@@ -987,6 +1143,7 @@ export function googleCesExampleMessagesChunksToTerraform(struct?: GoogleCesExam
     text: cdktn.stringToTerraform(struct!.text),
     updated_variables: cdktn.stringToTerraform(struct!.updatedVariables),
     agent_transfer: googleCesExampleMessagesChunksAgentTransferToTerraform(struct!.agentTransfer),
+    blob: googleCesExampleMessagesChunksBlobToTerraform(struct!.blob),
     image: googleCesExampleMessagesChunksImageToTerraform(struct!.image),
     tool_call: googleCesExampleMessagesChunksToolCallToTerraform(struct!.toolCall),
     tool_response: googleCesExampleMessagesChunksToolResponseToTerraform(struct!.toolResponse),
@@ -1017,6 +1174,12 @@ export function googleCesExampleMessagesChunksToHclTerraform(struct?: GoogleCesE
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCesExampleMessagesChunksAgentTransferList",
+    },
+    blob: {
+      value: googleCesExampleMessagesChunksBlobToHclTerraform(struct!.blob),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesExampleMessagesChunksBlobList",
     },
     image: {
       value: googleCesExampleMessagesChunksImageToHclTerraform(struct!.image),
@@ -1074,6 +1237,10 @@ export class GoogleCesExampleMessagesChunksOutputReference extends cdktn.Complex
       hasAnyValues = true;
       internalValueResult.agentTransfer = this._agentTransfer?.internalValue;
     }
+    if (this._blob?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blob = this._blob?.internalValue;
+    }
     if (this._image?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.image = this._image?.internalValue;
@@ -1096,6 +1263,7 @@ export class GoogleCesExampleMessagesChunksOutputReference extends cdktn.Complex
       this._text = undefined;
       this._updatedVariables = undefined;
       this._agentTransfer.internalValue = undefined;
+      this._blob.internalValue = undefined;
       this._image.internalValue = undefined;
       this._toolCall.internalValue = undefined;
       this._toolResponse.internalValue = undefined;
@@ -1110,6 +1278,7 @@ export class GoogleCesExampleMessagesChunksOutputReference extends cdktn.Complex
       this._text = value.text;
       this._updatedVariables = value.updatedVariables;
       this._agentTransfer.internalValue = value.agentTransfer;
+      this._blob.internalValue = value.blob;
       this._image.internalValue = value.image;
       this._toolCall.internalValue = value.toolCall;
       this._toolResponse.internalValue = value.toolResponse;
@@ -1162,6 +1331,22 @@ export class GoogleCesExampleMessagesChunksOutputReference extends cdktn.Complex
   // Temporarily expose input value. Use with caution.
   public get agentTransferInput() {
     return this._agentTransfer.internalValue;
+  }
+
+  // blob - computed: false, optional: true, required: false
+  private _blob = new GoogleCesExampleMessagesChunksBlobOutputReference(this, "blob");
+  public get blob() {
+    return this._blob;
+  }
+  public putBlob(value: GoogleCesExampleMessagesChunksBlob) {
+    this._blob.internalValue = value;
+  }
+  public resetBlob() {
+    this._blob.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blobInput() {
+    return this._blob.internalValue;
   }
 
   // image - computed: false, optional: true, required: false
@@ -1236,13 +1421,13 @@ export interface GoogleCesExampleMessages {
   /**
   * The role within the conversation, e.g., user, agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#role GoogleCesExample#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#role GoogleCesExample#role}
   */
   readonly role?: string;
   /**
   * chunks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#chunks GoogleCesExample#chunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#chunks GoogleCesExample#chunks}
   */
   readonly chunks?: GoogleCesExampleMessagesChunks[] | cdktn.IResolvable;
 }
@@ -1387,15 +1572,15 @@ export class GoogleCesExampleMessagesList extends cdktn.ComplexList {
 }
 export interface GoogleCesExampleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#create GoogleCesExample#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#create GoogleCesExample#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#delete GoogleCesExample#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#delete GoogleCesExample#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#update GoogleCesExample#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#update GoogleCesExample#update}
   */
   readonly update?: string;
 }
@@ -1547,7 +1732,7 @@ export class GoogleCesExampleTimeoutsOutputReference extends cdktn.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example google_ces_example}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example google_ces_example}
 */
 export class GoogleCesExample extends cdktn.TerraformResource {
 
@@ -1563,7 +1748,7 @@ export class GoogleCesExample extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCesExample resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCesExample to import
-  * @param importFromId The id of the existing GoogleCesExample that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCesExample that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCesExample to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1575,7 +1760,7 @@ export class GoogleCesExample extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_example google_ces_example} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.5.0/docs/resources/google_ces_example google_ces_example} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1586,8 +1771,8 @@ export class GoogleCesExample extends cdktn.TerraformResource {
       terraformResourceType: 'google_ces_example',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.46.1',
-        providerVersionConstraint: '~> 7.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
