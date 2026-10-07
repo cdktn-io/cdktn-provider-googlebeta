@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -32,7 +32,7 @@ export interface GoogleSecretManagerRegionalSecretConfig extends cdktn.Terraform
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#annotations GoogleSecretManagerRegionalSecret#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#annotations GoogleSecretManagerRegionalSecret#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
@@ -44,7 +44,7 @@ export interface GoogleSecretManagerRegionalSecretConfig extends cdktn.Terraform
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#deletion_policy GoogleSecretManagerRegionalSecret#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#deletion_policy GoogleSecretManagerRegionalSecret#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
@@ -52,7 +52,7 @@ export interface GoogleSecretManagerRegionalSecretConfig extends cdktn.Terraform
   * When the field is set to true in Terraform state, a 'terraform apply'
   * or 'terraform destroy' that would delete the federation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#deletion_protection GoogleSecretManagerRegionalSecret#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#deletion_protection GoogleSecretManagerRegionalSecret#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
@@ -61,11 +61,11 @@ export interface GoogleSecretManagerRegionalSecretConfig extends cdktn.Terraform
   * nanosecond resolution and up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and
   * "2014-10-02T15:01:23.045123456Z". Only one of 'expire_time' or 'ttl' can be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#expire_time GoogleSecretManagerRegionalSecret#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#expire_time GoogleSecretManagerRegionalSecret#expire_time}
   */
   readonly expireTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#id GoogleSecretManagerRegionalSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#id GoogleSecretManagerRegionalSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,38 +89,45 @@ export interface GoogleSecretManagerRegionalSecretConfig extends cdktn.Terraform
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#labels GoogleSecretManagerRegionalSecret#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#labels GoogleSecretManagerRegionalSecret#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location of the regional secret. eg us-central1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#location GoogleSecretManagerRegionalSecret#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#location GoogleSecretManagerRegionalSecret#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#project GoogleSecretManagerRegionalSecret#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#project GoogleSecretManagerRegionalSecret#project}
   */
   readonly project?: string;
   /**
   * This must be unique within the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#secret_id GoogleSecretManagerRegionalSecret#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#secret_id GoogleSecretManagerRegionalSecret#secret_id}
   */
   readonly secretId: string;
+  /**
+  * This defines the type of the secret. Enforces certain structural requirements on the SecretVersions.
+  * For secret of type UNSPECIFIED, the SecretVersions can be of any type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#secret_type GoogleSecretManagerRegionalSecret#secret_type}
+  */
+  readonly secretType?: string;
   /**
   * A map of resource manager tags.
   * Resource manager tag keys and values have the same definition as resource manager tags.
   * Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/{tag_value_id}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#tags GoogleSecretManagerRegionalSecret#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#tags GoogleSecretManagerRegionalSecret#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The TTL for the regional secret. A duration in seconds with up to nine fractional digits,
   * terminated by 's'. Example: "3.5s". Only one of 'ttl' or 'expire_time' can be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#ttl GoogleSecretManagerRegionalSecret#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#ttl GoogleSecretManagerRegionalSecret#ttl}
   */
   readonly ttl?: string;
   /**
@@ -134,7 +141,7 @@ export interface GoogleSecretManagerRegionalSecretConfig extends cdktn.Terraform
   * An object containing a list of "key": value pairs. Example:
   * { "name": "wrench", "mass": "1.3kg", "count": "3" }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#version_aliases GoogleSecretManagerRegionalSecret#version_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#version_aliases GoogleSecretManagerRegionalSecret#version_aliases}
   */
   readonly versionAliases?: { [key: string]: string };
   /**
@@ -144,31 +151,31 @@ export interface GoogleSecretManagerRegionalSecretConfig extends cdktn.Terraform
   * on calling destroy instead the version goes to a disabled state and
   * the actual destruction happens after this TTL expires. It must be atleast 24h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#version_destroy_ttl GoogleSecretManagerRegionalSecret#version_destroy_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#version_destroy_ttl GoogleSecretManagerRegionalSecret#version_destroy_ttl}
   */
   readonly versionDestroyTtl?: string;
   /**
   * customer_managed_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#customer_managed_encryption GoogleSecretManagerRegionalSecret#customer_managed_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#customer_managed_encryption GoogleSecretManagerRegionalSecret#customer_managed_encryption}
   */
   readonly customerManagedEncryption?: GoogleSecretManagerRegionalSecretCustomerManagedEncryption;
   /**
   * rotation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#rotation GoogleSecretManagerRegionalSecret#rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#rotation GoogleSecretManagerRegionalSecret#rotation}
   */
   readonly rotation?: GoogleSecretManagerRegionalSecretRotation;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#timeouts GoogleSecretManagerRegionalSecret#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#timeouts GoogleSecretManagerRegionalSecret#timeouts}
   */
   readonly timeouts?: GoogleSecretManagerRegionalSecretTimeouts;
   /**
   * topics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#topics GoogleSecretManagerRegionalSecret#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#topics GoogleSecretManagerRegionalSecret#topics}
   */
   readonly topics?: GoogleSecretManagerRegionalSecretTopics[] | cdktn.IResolvable;
 }
@@ -176,7 +183,7 @@ export interface GoogleSecretManagerRegionalSecretCustomerManagedEncryption {
   /**
   * The resource name of the Cloud KMS CryptoKey used to encrypt secret payloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#kms_key_name GoogleSecretManagerRegionalSecret#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#kms_key_name GoogleSecretManagerRegionalSecret#kms_key_name}
   */
   readonly kmsKeyName: string;
 }
@@ -261,7 +268,7 @@ export interface GoogleSecretManagerRegionalSecretRotation {
   * A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and up to nine
   * fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#next_rotation_time GoogleSecretManagerRegionalSecret#next_rotation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#next_rotation_time GoogleSecretManagerRegionalSecret#next_rotation_time}
   */
   readonly nextRotationTime?: string;
   /**
@@ -270,7 +277,7 @@ export interface GoogleSecretManagerRegionalSecretRotation {
   * be set. 'next_rotation_time' will be advanced by this period when the service
   * automatically sends rotation notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#rotation_period GoogleSecretManagerRegionalSecret#rotation_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#rotation_period GoogleSecretManagerRegionalSecret#rotation_period}
   */
   readonly rotationPeriod?: string;
 }
@@ -383,15 +390,15 @@ export class GoogleSecretManagerRegionalSecretRotationOutputReference extends cd
 }
 export interface GoogleSecretManagerRegionalSecretTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#create GoogleSecretManagerRegionalSecret#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#create GoogleSecretManagerRegionalSecret#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#delete GoogleSecretManagerRegionalSecret#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#delete GoogleSecretManagerRegionalSecret#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#update GoogleSecretManagerRegionalSecret#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#update GoogleSecretManagerRegionalSecret#update}
   */
   readonly update?: string;
 }
@@ -547,7 +554,7 @@ export interface GoogleSecretManagerRegionalSecretTopics {
   * projects/* /topics/*. For publication to succeed, the Secret Manager Service
   * Agent service account must have pubsub.publisher permissions on the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#name GoogleSecretManagerRegionalSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#name GoogleSecretManagerRegionalSecret#name}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -662,7 +669,7 @@ export class GoogleSecretManagerRegionalSecretTopicsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret google_secret_manager_regional_secret}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret google_secret_manager_regional_secret}
 */
 export class GoogleSecretManagerRegionalSecret extends cdktn.TerraformResource {
 
@@ -678,7 +685,7 @@ export class GoogleSecretManagerRegionalSecret extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleSecretManagerRegionalSecret resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSecretManagerRegionalSecret to import
-  * @param importFromId The id of the existing GoogleSecretManagerRegionalSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleSecretManagerRegionalSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSecretManagerRegionalSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -690,7 +697,7 @@ export class GoogleSecretManagerRegionalSecret extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret google_secret_manager_regional_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret google_secret_manager_regional_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -701,8 +708,8 @@ export class GoogleSecretManagerRegionalSecret extends cdktn.TerraformResource {
       terraformResourceType: 'google_secret_manager_regional_secret',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.46.1',
-        providerVersionConstraint: '~> 7.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -721,6 +728,7 @@ export class GoogleSecretManagerRegionalSecret extends cdktn.TerraformResource {
     this._location = config.location;
     this._project = config.project;
     this._secretId = config.secretId;
+    this._secretType = config.secretType;
     this._tags = config.tags;
     this._ttl = config.ttl;
     this._versionAliases = config.versionAliases;
@@ -895,6 +903,22 @@ export class GoogleSecretManagerRegionalSecret extends cdktn.TerraformResource {
     return this._secretId;
   }
 
+  // secret_type - computed: false, optional: true, required: false
+  private _secretType?: string; 
+  public get secretType() {
+    return this.getStringAttribute('secret_type');
+  }
+  public set secretType(value: string) {
+    this._secretType = value;
+  }
+  public resetSecretType() {
+    this._secretType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretTypeInput() {
+    return this._secretType;
+  }
+
   // tags - computed: false, optional: true, required: false
   private _tags?: { [key: string]: string }; 
   public get tags() {
@@ -1044,6 +1068,7 @@ export class GoogleSecretManagerRegionalSecret extends cdktn.TerraformResource {
       location: cdktn.stringToTerraform(this._location),
       project: cdktn.stringToTerraform(this._project),
       secret_id: cdktn.stringToTerraform(this._secretId),
+      secret_type: cdktn.stringToTerraform(this._secretType),
       tags: cdktn.hashMapper(cdktn.stringToTerraform)(this._tags),
       ttl: cdktn.stringToTerraform(this._ttl),
       version_aliases: cdktn.hashMapper(cdktn.stringToTerraform)(this._versionAliases),
@@ -1107,6 +1132,12 @@ export class GoogleSecretManagerRegionalSecret extends cdktn.TerraformResource {
       },
       secret_id: {
         value: cdktn.stringToHclTerraform(this._secretId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      secret_type: {
+        value: cdktn.stringToHclTerraform(this._secretType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
