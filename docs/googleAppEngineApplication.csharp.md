@@ -4,7 +4,7 @@
 
 ### GoogleAppEngineApplication <a name="GoogleAppEngineApplication" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application google_app_engine_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application google_app_engine_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer"></a>
 
@@ -591,7 +591,7 @@ The construct id used in the generated config for the GoogleAppEngineApplication
 
 The id of the existing GoogleAppEngineApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1124,10 +1124,10 @@ new GoogleAppEngineApplicationConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.locationId">LocationId</a></code> | <code>string</code> | The location to serve the app from. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.authDomain">AuthDomain</a></code> | <code>string</code> | The domain to authenticate users with when using App Engine's User API. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.databaseType">DatabaseType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.databaseType">DatabaseType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.featureSettings">FeatureSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationFeatureSettings">GoogleAppEngineApplicationFeatureSettings</a></code> | feature_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.iap">Iap</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap">GoogleAppEngineApplicationIap</a></code> | iap block. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.project">Project</a></code> | <code>string</code> | The project ID to create the application under. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.servingStatus">ServingStatus</a></code> | <code>string</code> | The serving status of the app. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.sslPolicy">SslPolicy</a></code> | <code>string</code> | The SSL policy that will be applied to the application. |
@@ -1215,7 +1215,7 @@ public string LocationId { get; set; }
 
 The location to serve the app from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#location_id GoogleAppEngineApplication#location_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#location_id GoogleAppEngineApplication#location_id}
 
 ---
 
@@ -1229,7 +1229,7 @@ public string AuthDomain { get; set; }
 
 The domain to authenticate users with when using App Engine's User API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#auth_domain GoogleAppEngineApplication#auth_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#auth_domain GoogleAppEngineApplication#auth_domain}
 
 ---
 
@@ -1241,7 +1241,7 @@ public string DatabaseType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}.
 
 ---
 
@@ -1255,7 +1255,7 @@ public GoogleAppEngineApplicationFeatureSettings FeatureSettings { get; set; }
 
 feature_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#feature_settings GoogleAppEngineApplication#feature_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#feature_settings GoogleAppEngineApplication#feature_settings}
 
 ---
 
@@ -1269,7 +1269,7 @@ public GoogleAppEngineApplicationIap Iap { get; set; }
 
 iap block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#iap GoogleAppEngineApplication#iap}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#iap GoogleAppEngineApplication#iap}
 
 ---
 
@@ -1281,7 +1281,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1298,7 +1298,7 @@ public string Project { get; set; }
 
 The project ID to create the application under.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#project GoogleAppEngineApplication#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#project GoogleAppEngineApplication#project}
 
 ---
 
@@ -1312,7 +1312,7 @@ public string ServingStatus { get; set; }
 
 The serving status of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#serving_status GoogleAppEngineApplication#serving_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#serving_status GoogleAppEngineApplication#serving_status}
 
 ---
 
@@ -1328,7 +1328,7 @@ The SSL policy that will be applied to the application.
 
 If set to Modern it will restrict traffic with TLS \u003c 1.2 and allow only Modern Ciphers suite
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#ssl_policy GoogleAppEngineApplication#ssl_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#ssl_policy GoogleAppEngineApplication#ssl_policy}
 
 ---
 
@@ -1342,7 +1342,7 @@ public GoogleAppEngineApplicationTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#timeouts GoogleAppEngineApplication#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#timeouts GoogleAppEngineApplication#timeouts}
 
 ---
 
@@ -1362,7 +1362,7 @@ new GoogleAppEngineApplicationFeatureSettings {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationFeatureSettings.property.splitHealthChecks">SplitHealthChecks</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#split_health_checks GoogleAppEngineApplication#split_health_checks}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationFeatureSettings.property.splitHealthChecks">SplitHealthChecks</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#split_health_checks GoogleAppEngineApplication#split_health_checks}. |
 
 ---
 
@@ -1374,7 +1374,7 @@ public bool|IResolvable SplitHealthChecks { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#split_health_checks GoogleAppEngineApplication#split_health_checks}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#split_health_checks GoogleAppEngineApplication#split_health_checks}.
 
 ---
 
@@ -1387,8 +1387,10 @@ using Io.Cdktn.Providers.GoogleBeta;
 
 new GoogleAppEngineApplicationIap {
     string Oauth2ClientId,
-    string Oauth2ClientSecret,
-    bool|IResolvable Enabled = null
+    bool|IResolvable Enabled = null,
+    string Oauth2ClientSecret = null,
+    string Oauth2ClientSecretWo = null,
+    string Oauth2ClientSecretWoVersion = null
 };
 ```
 
@@ -1397,8 +1399,10 @@ new GoogleAppEngineApplicationIap {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap.property.oauth2ClientId">Oauth2ClientId</a></code> | <code>string</code> | OAuth2 client ID to use for the authentication flow. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap.property.oauth2ClientSecret">Oauth2ClientSecret</a></code> | <code>string</code> | OAuth2 client secret to use for the authentication flow. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Adapted for use with the app. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap.property.oauth2ClientSecret">Oauth2ClientSecret</a></code> | <code>string</code> | OAuth2 client secret to use for the authentication flow. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap.property.oauth2ClientSecretWo">Oauth2ClientSecretWo</a></code> | <code>string</code> | OAuth2 client secret to use for the authentication flow. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap.property.oauth2ClientSecretWoVersion">Oauth2ClientSecretWoVersion</a></code> | <code>string</code> | Triggers update of `oauth2_client_secret_wo` write-only. |
 
 ---
 
@@ -1412,23 +1416,7 @@ public string Oauth2ClientId { get; set; }
 
 OAuth2 client ID to use for the authentication flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#oauth2_client_id GoogleAppEngineApplication#oauth2_client_id}
-
----
-
-##### `Oauth2ClientSecret`<sup>Required</sup> <a name="Oauth2ClientSecret" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap.property.oauth2ClientSecret"></a>
-
-```csharp
-public string Oauth2ClientSecret { get; set; }
-```
-
-- *Type:* string
-
-OAuth2 client secret to use for the authentication flow.
-
-The SHA-256 hash of the value is returned in the oauth2ClientSecretSha256 field.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#oauth2_client_secret GoogleAppEngineApplication#oauth2_client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#oauth2_client_id GoogleAppEngineApplication#oauth2_client_id}
 
 ---
 
@@ -1442,7 +1430,55 @@ public bool|IResolvable Enabled { get; set; }
 
 Adapted for use with the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#enabled GoogleAppEngineApplication#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#enabled GoogleAppEngineApplication#enabled}
+
+---
+
+##### `Oauth2ClientSecret`<sup>Optional</sup> <a name="Oauth2ClientSecret" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap.property.oauth2ClientSecret"></a>
+
+```csharp
+public string Oauth2ClientSecret { get; set; }
+```
+
+- *Type:* string
+
+OAuth2 client secret to use for the authentication flow.
+
+The SHA-256 hash of the value is returned in the oauth2ClientSecretSha256 field.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#oauth2_client_secret GoogleAppEngineApplication#oauth2_client_secret}
+
+---
+
+##### `Oauth2ClientSecretWo`<sup>Optional</sup> <a name="Oauth2ClientSecretWo" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap.property.oauth2ClientSecretWo"></a>
+
+```csharp
+public string Oauth2ClientSecretWo { get; set; }
+```
+
+- *Type:* string
+
+OAuth2 client secret to use for the authentication flow.
+
+The SHA-256 hash of the value is returned in the oauth2ClientSecretSha256 field.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#oauth2_client_secret_wo GoogleAppEngineApplication#oauth2_client_secret_wo}
+
+---
+
+##### `Oauth2ClientSecretWoVersion`<sup>Optional</sup> <a name="Oauth2ClientSecretWoVersion" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap.property.oauth2ClientSecretWoVersion"></a>
+
+```csharp
+public string Oauth2ClientSecretWoVersion { get; set; }
+```
+
+- *Type:* string
+
+Triggers update of `oauth2_client_secret_wo` write-only.
+
+Increment this value when an update to `oauth2_client_secret_wo` is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#oauth2_client_secret_wo_version GoogleAppEngineApplication#oauth2_client_secret_wo_version}
 
 ---
 
@@ -1463,8 +1499,8 @@ new GoogleAppEngineApplicationTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#create GoogleAppEngineApplication#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#update GoogleAppEngineApplication#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#create GoogleAppEngineApplication#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#update GoogleAppEngineApplication#update}. |
 
 ---
 
@@ -1476,7 +1512,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#create GoogleAppEngineApplication#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#create GoogleAppEngineApplication#create}.
 
 ---
 
@@ -1488,7 +1524,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application#update GoogleAppEngineApplication#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application#update GoogleAppEngineApplication#update}.
 
 ---
 
@@ -1829,6 +1865,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.resetEnabled">ResetEnabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.resetOauth2ClientSecret">ResetOauth2ClientSecret</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.resetOauth2ClientSecretWo">ResetOauth2ClientSecretWo</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.resetOauth2ClientSecretWoVersion">ResetOauth2ClientSecretWoVersion</a></code> | *No description.* |
 
 ---
 
@@ -1988,6 +2027,24 @@ Returns a reversible string representation.
 private void ResetEnabled()
 ```
 
+##### `ResetOauth2ClientSecret` <a name="ResetOauth2ClientSecret" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.resetOauth2ClientSecret"></a>
+
+```csharp
+private void ResetOauth2ClientSecret()
+```
+
+##### `ResetOauth2ClientSecretWo` <a name="ResetOauth2ClientSecretWo" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.resetOauth2ClientSecretWo"></a>
+
+```csharp
+private void ResetOauth2ClientSecretWo()
+```
+
+##### `ResetOauth2ClientSecretWoVersion` <a name="ResetOauth2ClientSecretWoVersion" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.resetOauth2ClientSecretWoVersion"></a>
+
+```csharp
+private void ResetOauth2ClientSecretWoVersion()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -1999,9 +2056,13 @@ private void ResetEnabled()
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.enabledInput">EnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientIdInput">Oauth2ClientIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientSecretInput">Oauth2ClientSecretInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientSecretWoInput">Oauth2ClientSecretWoInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientSecretWoVersionInput">Oauth2ClientSecretWoVersionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientId">Oauth2ClientId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientSecret">Oauth2ClientSecret</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientSecretWo">Oauth2ClientSecretWo</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientSecretWoVersion">Oauth2ClientSecretWoVersion</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap">GoogleAppEngineApplicationIap</a></code> | *No description.* |
 
 ---
@@ -2070,6 +2131,26 @@ public string Oauth2ClientSecretInput { get; }
 
 ---
 
+##### `Oauth2ClientSecretWoInput`<sup>Optional</sup> <a name="Oauth2ClientSecretWoInput" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientSecretWoInput"></a>
+
+```csharp
+public string Oauth2ClientSecretWoInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Oauth2ClientSecretWoVersionInput`<sup>Optional</sup> <a name="Oauth2ClientSecretWoVersionInput" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientSecretWoVersionInput"></a>
+
+```csharp
+public string Oauth2ClientSecretWoVersionInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `Enabled`<sup>Required</sup> <a name="Enabled" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.enabled"></a>
 
 ```csharp
@@ -2094,6 +2175,28 @@ public string Oauth2ClientId { get; }
 
 ```csharp
 public string Oauth2ClientSecret { get; }
+```
+
+- *Type:* string
+
+---
+
+##### ~~`Oauth2ClientSecretWo`~~<sup>Required</sup> <a name="Oauth2ClientSecretWo" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientSecretWo"></a>
+
+- *Deprecated:* Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+
+```csharp
+public string Oauth2ClientSecretWo { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Oauth2ClientSecretWoVersion`<sup>Required</sup> <a name="Oauth2ClientSecretWoVersion" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference.property.oauth2ClientSecretWoVersion"></a>
+
+```csharp
+public string Oauth2ClientSecretWoVersion { get; }
 ```
 
 - *Type:* string

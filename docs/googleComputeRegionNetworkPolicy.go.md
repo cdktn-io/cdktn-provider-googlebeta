@@ -4,12 +4,12 @@
 
 ### GoogleComputeRegionNetworkPolicy <a name="GoogleComputeRegionNetworkPolicy" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy google_compute_region_network_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy google_compute_region_network_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicy"
 
 googlecomputeregionnetworkpolicy.NewGoogleComputeRegionNetworkPolicy(scope Construct, id *string, config GoogleComputeRegionNetworkPolicyConfig) GoogleComputeRegionNetworkPolicy
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicy"
 
 googlecomputeregionnetworkpolicy.GoogleComputeRegionNetworkPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicy"
 
 googlecomputeregionnetworkpolicy.GoogleComputeRegionNetworkPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlecomputeregionnetworkpolicy.GoogleComputeRegionNetworkPolicy_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicy"
 
 googlecomputeregionnetworkpolicy.GoogleComputeRegionNetworkPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlecomputeregionnetworkpolicy.GoogleComputeRegionNetworkPolicy_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicy"
 
 googlecomputeregionnetworkpolicy.GoogleComputeRegionNetworkPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleComputeRegionNetwork
 
 The id of the existing GoogleComputeRegionNetworkPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -964,7 +964,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicy"
 
 &googlecomputeregionnetworkpolicy.GoogleComputeRegionNetworkPolicyAssociations {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicy"
 
 &googlecomputeregionnetworkpolicy.GoogleComputeRegionNetworkPolicyConfig {
 	Connection: interface{},
@@ -993,7 +993,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 	Id: *string,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyTimeouts,
 }
 ```
 
@@ -1011,8 +1011,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyConfig.property.name">Name</a></code> | <code>*string</code> | User-provided name of the Network policy. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of this resource. Provide this property when you create the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#id GoogleComputeRegionNetworkPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#project GoogleComputeRegionNetworkPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#id GoogleComputeRegionNetworkPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#project GoogleComputeRegionNetworkPolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyConfig.property.region">Region</a></code> | <code>*string</code> | The region of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyTimeouts">GoogleComputeRegionNetworkPolicyTimeouts</a></code> | timeouts block. |
 
@@ -1100,7 +1100,7 @@ User-provided name of the Network policy.
 
 The name should be unique in the project in which the policy is created. The name must be 1-63 characters long, and comply with RFC1035. Specifically, the name must be 1-63 characters long and match the regular expression [a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)? which means the first character must be a lowercase letter, and all following characters must be a dash, lowercase letter, or digit, except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#name GoogleComputeRegionNetworkPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#name GoogleComputeRegionNetworkPolicy#name}
 
 ---
 
@@ -1121,7 +1121,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#deletion_policy GoogleComputeRegionNetworkPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#deletion_policy GoogleComputeRegionNetworkPolicy#deletion_policy}
 
 ---
 
@@ -1135,7 +1135,7 @@ Description *string
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#description GoogleComputeRegionNetworkPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#description GoogleComputeRegionNetworkPolicy#description}
 
 ---
 
@@ -1147,7 +1147,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#id GoogleComputeRegionNetworkPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#id GoogleComputeRegionNetworkPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1162,7 +1162,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#project GoogleComputeRegionNetworkPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#project GoogleComputeRegionNetworkPolicy#project}.
 
 ---
 
@@ -1176,7 +1176,7 @@ Region *string
 
 The region of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#region GoogleComputeRegionNetworkPolicy#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#region GoogleComputeRegionNetworkPolicy#region}
 
 ---
 
@@ -1190,7 +1190,7 @@ Timeouts GoogleComputeRegionNetworkPolicyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#timeouts GoogleComputeRegionNetworkPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#timeouts GoogleComputeRegionNetworkPolicy#timeouts}
 
 ---
 
@@ -1199,7 +1199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicy"
 
 &googlecomputeregionnetworkpolicy.GoogleComputeRegionNetworkPolicyTimeouts {
 	Create: *string,
@@ -1212,9 +1212,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#create GoogleComputeRegionNetworkPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#delete GoogleComputeRegionNetworkPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#update GoogleComputeRegionNetworkPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#create GoogleComputeRegionNetworkPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#delete GoogleComputeRegionNetworkPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#update GoogleComputeRegionNetworkPolicy#update}. |
 
 ---
 
@@ -1226,7 +1226,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#create GoogleComputeRegionNetworkPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#create GoogleComputeRegionNetworkPolicy#create}.
 
 ---
 
@@ -1238,7 +1238,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#delete GoogleComputeRegionNetworkPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#delete GoogleComputeRegionNetworkPolicy#delete}.
 
 ---
 
@@ -1250,7 +1250,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy#update GoogleComputeRegionNetworkPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy#update GoogleComputeRegionNetworkPolicy#update}.
 
 ---
 
@@ -1261,7 +1261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyAssociationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicy"
 
 googlecomputeregionnetworkpolicy.NewGoogleComputeRegionNetworkPolicyAssociationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionNetworkPolicyAssociationsList
 ```
@@ -1410,7 +1410,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyAssociationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicy"
 
 googlecomputeregionnetworkpolicy.NewGoogleComputeRegionNetworkPolicyAssociationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionNetworkPolicyAssociationsOutputReference
 ```
@@ -1699,7 +1699,7 @@ func InternalValue() GoogleComputeRegionNetworkPolicyAssociations
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionNetworkPolicy.GoogleComputeRegionNetworkPolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicy"
 
 googlecomputeregionnetworkpolicy.NewGoogleComputeRegionNetworkPolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionNetworkPolicyTimeoutsOutputReference
 ```

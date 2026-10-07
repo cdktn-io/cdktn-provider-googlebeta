@@ -4,12 +4,12 @@
 
 ### GoogleIapWebRegionForwardingRuleServiceIamMember <a name="GoogleIapWebRegionForwardingRuleServiceIamMember" id="@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapwebregionforwardingruleserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapwebregionforwardingruleserviceiammember"
 
 googleiapwebregionforwardingruleserviceiammember.NewGoogleIapWebRegionForwardingRuleServiceIamMember(scope Construct, id *string, config GoogleIapWebRegionForwardingRuleServiceIamMemberConfig) GoogleIapWebRegionForwardingRuleServiceIamMember
 ```
@@ -441,7 +441,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapwebregionforwardingruleserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapwebregionforwardingruleserviceiammember"
 
 googleiapwebregionforwardingruleserviceiammember.GoogleIapWebRegionForwardingRuleServiceIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapwebregionforwardingruleserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapwebregionforwardingruleserviceiammember"
 
 googleiapwebregionforwardingruleserviceiammember.GoogleIapWebRegionForwardingRuleServiceIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleiapwebregionforwardingruleserviceiammember.GoogleIapWebRegionForwardingRul
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapwebregionforwardingruleserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapwebregionforwardingruleserviceiammember"
 
 googleiapwebregionforwardingruleserviceiammember.GoogleIapWebRegionForwardingRuleServiceIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleiapwebregionforwardingruleserviceiammember.GoogleIapWebRegionForwardingRul
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapwebregionforwardingruleserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapwebregionforwardingruleserviceiammember"
 
 googleiapwebregionforwardingruleserviceiammember.GoogleIapWebRegionForwardingRuleServiceIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleIapWebRegionForwardi
 
 The id of the existing GoogleIapWebRegionForwardingRuleServiceIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapwebregionforwardingruleserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapwebregionforwardingruleserviceiammember"
 
 &googleiapwebregionforwardingruleserviceiammember.GoogleIapWebRegionForwardingRuleServiceIamMemberCondition {
 	Expression: *string,
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#expression GoogleIapWebRegionForwardingRuleServiceIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#title GoogleIapWebRegionForwardingRuleServiceIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#description GoogleIapWebRegionForwardingRuleServiceIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#expression GoogleIapWebRegionForwardingRuleServiceIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#title GoogleIapWebRegionForwardingRuleServiceIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#description GoogleIapWebRegionForwardingRuleServiceIamMember#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#expression GoogleIapWebRegionForwardingRuleServiceIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#expression GoogleIapWebRegionForwardingRuleServiceIamMember#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#title GoogleIapWebRegionForwardingRuleServiceIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#title GoogleIapWebRegionForwardingRuleServiceIamMember#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#description GoogleIapWebRegionForwardingRuleServiceIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#description GoogleIapWebRegionForwardingRuleServiceIamMember#description}.
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapwebregionforwardingruleserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapwebregionforwardingruleserviceiammember"
 
 &googleiapwebregionforwardingruleserviceiammember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 	ForwardingRuleRegionServiceName: *string,
 	Member: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberCondition,
 	Id: *string,
 	Project: *string,
 	Region: *string,
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 | <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.forwardingRuleRegionServiceName">ForwardingRuleRegionServiceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#forwarding_rule_region_service_name GoogleIapWebRegionForwardingRuleServiceIamMember#forwarding_rule_region_service_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#member GoogleIapWebRegionForwardingRuleServiceIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#role GoogleIapWebRegionForwardingRuleServiceIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.forwardingRuleRegionServiceName">ForwardingRuleRegionServiceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#forwarding_rule_region_service_name GoogleIapWebRegionForwardingRuleServiceIamMember#forwarding_rule_region_service_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#member GoogleIapWebRegionForwardingRuleServiceIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#role GoogleIapWebRegionForwardingRuleServiceIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberCondition">GoogleIapWebRegionForwardingRuleServiceIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#id GoogleIapWebRegionForwardingRuleServiceIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#project GoogleIapWebRegionForwardingRuleServiceIamMember#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#region GoogleIapWebRegionForwardingRuleServiceIamMember#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#id GoogleIapWebRegionForwardingRuleServiceIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#project GoogleIapWebRegionForwardingRuleServiceIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#region GoogleIapWebRegionForwardingRuleServiceIamMember#region}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ ForwardingRuleRegionServiceName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#forwarding_rule_region_service_name GoogleIapWebRegionForwardingRuleServiceIamMember#forwarding_rule_region_service_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#forwarding_rule_region_service_name GoogleIapWebRegionForwardingRuleServiceIamMember#forwarding_rule_region_service_name}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#member GoogleIapWebRegionForwardingRuleServiceIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#member GoogleIapWebRegionForwardingRuleServiceIamMember#member}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#role GoogleIapWebRegionForwardingRuleServiceIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#role GoogleIapWebRegionForwardingRuleServiceIamMember#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleIapWebRegionForwardingRuleServiceIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#condition GoogleIapWebRegionForwardingRuleServiceIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#condition GoogleIapWebRegionForwardingRuleServiceIamMember#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#id GoogleIapWebRegionForwardingRuleServiceIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#id GoogleIapWebRegionForwardingRuleServiceIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#project GoogleIapWebRegionForwardingRuleServiceIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#project GoogleIapWebRegionForwardingRuleServiceIamMember#project}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#region GoogleIapWebRegionForwardingRuleServiceIamMember#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member#region GoogleIapWebRegionForwardingRuleServiceIamMember#region}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapWebRegionForwardingRuleServiceIamMember.GoogleIapWebRegionForwardingRuleServiceIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapwebregionforwardingruleserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapwebregionforwardingruleserviceiammember"
 
 googleiapwebregionforwardingruleserviceiammember.NewGoogleIapWebRegionForwardingRuleServiceIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapWebRegionForwardingRuleServiceIamMemberConditionOutputReference
 ```

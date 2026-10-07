@@ -4,7 +4,7 @@
 
 ### DataGoogleContainerCluster <a name="DataGoogleContainerCluster" id="@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_container_cluster google_container_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_container_cluster google_container_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.Initializer"></a>
 
@@ -71,6 +71,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.resetLocation">ResetLocation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.resetProject">ResetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.resetSkipNodePoolRefresh">ResetSkipNodePoolRefresh</a></code> | *No description.* |
 
 ---
 
@@ -305,6 +306,12 @@ private void ResetLocation()
 private void ResetProject()
 ```
 
+##### `ResetSkipNodePoolRefresh` <a name="ResetSkipNodePoolRefresh" id="@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.resetSkipNodePoolRefresh"></a>
+
+```csharp
+private void ResetSkipNodePoolRefresh()
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -408,7 +415,7 @@ The construct id used in the generated config for the DataGoogleContainerCluster
 
 The id of the existing DataGoogleContainerCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_container_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_container_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -526,7 +533,6 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.selfLink">SelfLink</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.serviceExternalIpsConfig">ServiceExternalIpsConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterServiceExternalIpsConfigList">DataGoogleContainerClusterServiceExternalIpsConfigList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.servicesIpv4Cidr">ServicesIpv4Cidr</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.skipNodePoolRefresh">SkipNodePoolRefresh</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.subnetwork">Subnetwork</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.terraformLabels">TerraformLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.tpuConfig">TpuConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterTpuConfigList">DataGoogleContainerClusterTpuConfigList</a></code> | *No description.* |
@@ -539,10 +545,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.locationInput">LocationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.skipNodePoolRefreshInput">SkipNodePoolRefreshInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.location">Location</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.name">Name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.project">Project</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.skipNodePoolRefresh">SkipNodePoolRefresh</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 
 ---
 
@@ -1568,16 +1576,6 @@ public string ServicesIpv4Cidr { get; }
 
 ---
 
-##### `SkipNodePoolRefresh`<sup>Required</sup> <a name="SkipNodePoolRefresh" id="@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.skipNodePoolRefresh"></a>
-
-```csharp
-public IResolvable SkipNodePoolRefresh { get; }
-```
-
-- *Type:* Io.Cdktn.IResolvable
-
----
-
 ##### `Subnetwork`<sup>Required</sup> <a name="Subnetwork" id="@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.subnetwork"></a>
 
 ```csharp
@@ -1698,6 +1696,16 @@ public string ProjectInput { get; }
 
 ---
 
+##### `SkipNodePoolRefreshInput`<sup>Optional</sup> <a name="SkipNodePoolRefreshInput" id="@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.skipNodePoolRefreshInput"></a>
+
+```csharp
+public bool|IResolvable SkipNodePoolRefreshInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
 ##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.id"></a>
 
 ```csharp
@@ -1735,6 +1743,16 @@ public string Project { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `SkipNodePoolRefresh`<sup>Required</sup> <a name="SkipNodePoolRefresh" id="@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster.property.skipNodePoolRefresh"></a>
+
+```csharp
+public bool|IResolvable SkipNodePoolRefresh { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
 
 ---
 
@@ -2296,7 +2314,8 @@ new DataGoogleContainerClusterConfig {
     string Name,
     string Id = null,
     string Location = null,
-    string Project = null
+    string Project = null,
+    bool|IResolvable SkipNodePoolRefresh = null
 };
 ```
 
@@ -2312,9 +2331,10 @@ new DataGoogleContainerClusterConfig {
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterConfig.property.name">Name</a></code> | <code>string</code> | The name of the cluster, unique within the project and location. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_container_cluster#id DataGoogleContainerCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_container_cluster#id DataGoogleContainerCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterConfig.property.location">Location</a></code> | <code>string</code> | The location (region or zone) in which the cluster master will be created, as well as the default node location. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterConfig.property.project">Project</a></code> | <code>string</code> | The ID of the project in which the resource belongs. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterConfig.property.skipNodePoolRefresh">SkipNodePoolRefresh</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If true, the provider will not refresh the inline node_pool state from the API during cluster reads. |
 
 ---
 
@@ -2398,7 +2418,7 @@ public string Name { get; set; }
 
 The name of the cluster, unique within the project and location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_container_cluster#name DataGoogleContainerCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_container_cluster#name DataGoogleContainerCluster#name}
 
 ---
 
@@ -2410,7 +2430,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_container_cluster#id DataGoogleContainerCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_container_cluster#id DataGoogleContainerCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2429,7 +2449,7 @@ The location (region or zone) in which the cluster master will be created, as we
 
 If you specify a zone (such as us-central1-a), the cluster will be a zonal cluster with a single cluster master. If you specify a region (such as us-west1), the cluster will be a regional cluster with multiple masters spread across zones in the region, and with default node locations in those zones as well.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_container_cluster#location DataGoogleContainerCluster#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_container_cluster#location DataGoogleContainerCluster#location}
 
 ---
 
@@ -2445,7 +2465,23 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_container_cluster#project DataGoogleContainerCluster#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_container_cluster#project DataGoogleContainerCluster#project}
+
+---
+
+##### `SkipNodePoolRefresh`<sup>Optional</sup> <a name="SkipNodePoolRefresh" id="@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterConfig.property.skipNodePoolRefresh"></a>
+
+```csharp
+public bool|IResolvable SkipNodePoolRefresh { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+If true, the provider will not refresh the inline node_pool state from the API during cluster reads.
+
+Set this to true only when all node pools are managed via separate google_container_node_pool resources; it substantially improves plan/apply performance on clusters with a high node pool count. Must not be set to true when inline node_pool blocks are defined on this resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_container_cluster#skip_node_pool_refresh DataGoogleContainerCluster#skip_node_pool_refresh}
 
 ---
 
@@ -78999,6 +79035,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference.property.network">Network</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference.property.stackType">StackType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference.property.subnetwork">Subnetwork</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs">DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs</a></code> | *No description.* |
 
@@ -79032,6 +79069,16 @@ public string Fqn { get; }
 
 ```csharp
 public string Network { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `StackType`<sup>Required</sup> <a name="StackType" id="@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference.property.stackType"></a>
+
+```csharp
+public string StackType { get; }
 ```
 
 - *Type:* string

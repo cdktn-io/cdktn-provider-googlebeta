@@ -4,7 +4,7 @@
 
 ### GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig <a name="GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer"></a>
 
@@ -26,6 +26,7 @@ GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Builder.create(Cons
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts)
+//  .totalVmStorageSizeGb(java.lang.Number)
     .build();
 ```
 
@@ -41,12 +42,13 @@ GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Builder.create(Cons
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.cloudExadataInfrastructure">cloudExadataInfrastructure</a></code> | <code>java.lang.String</code> | A reference to CloudExadataInfrastructure resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#location GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#location GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#location}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.totalStorageSizeGb">totalStorageSizeGb</a></code> | <code>java.lang.Number</code> | The total storage to be allocated to Exascale in GBs. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#id GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#project GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#id GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#project GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts">GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.totalVmStorageSizeGb">totalVmStorageSizeGb</a></code> | <code>java.lang.Number</code> | Storage size needed for VM storage on Exascale in GBs. |
 
 ---
 
@@ -116,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 A reference to CloudExadataInfrastructure resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#cloud_exadata_infrastructure GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#cloud_exadata_infrastructure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#cloud_exadata_infrastructure GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#cloud_exadata_infrastructure}
 
 ---
 
@@ -124,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#location GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#location GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#location}.
 
 ---
 
@@ -134,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The total storage to be allocated to Exascale in GBs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#total_storage_size_gb GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#total_storage_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#total_storage_size_gb GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#total_storage_size_gb}
 
 ---
 
@@ -151,7 +153,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#deletion_policy GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#deletion_policy GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#deletion_policy}
 
 ---
 
@@ -159,7 +161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#id GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#id GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +172,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#project GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#project GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#project}.
 
 ---
 
@@ -180,7 +182,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#timeouts GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#timeouts GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#timeouts}
+
+---
+
+##### `totalVmStorageSizeGb`<sup>Optional</sup> <a name="totalVmStorageSizeGb" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer.parameter.totalVmStorageSizeGb"></a>
+
+- *Type:* java.lang.Number
+
+Storage size needed for VM storage on Exascale in GBs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#total_vm_storage_size_gb GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#total_vm_storage_size_gb}
 
 ---
 
@@ -217,6 +229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.resetTimeouts">resetTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.resetTotalVmStorageSizeGb">resetTotalVmStorageSizeGb</a></code> | *No description.* |
 
 ---
 
@@ -567,6 +580,12 @@ public void resetProject()
 public void resetTimeouts()
 ```
 
+##### `resetTotalVmStorageSizeGb` <a name="resetTotalVmStorageSizeGb" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.resetTotalVmStorageSizeGb"></a>
+
+```java
+public void resetTotalVmStorageSizeGb()
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -670,7 +689,7 @@ The construct id used in the generated config for the GoogleOracleDatabaseCloudE
 
 The id of the existing GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,12 +727,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts">GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.totalStorageSizeGbInput">totalStorageSizeGbInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.totalVmStorageSizeGbInput">totalVmStorageSizeGbInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.cloudExadataInfrastructure">cloudExadataInfrastructure</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.location">location</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.totalStorageSizeGb">totalStorageSizeGb</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.totalVmStorageSizeGb">totalVmStorageSizeGb</a></code> | <code>java.lang.Number</code> | *No description.* |
 
 ---
 
@@ -939,6 +960,16 @@ public java.lang.Number getTotalStorageSizeGbInput();
 
 ---
 
+##### `totalVmStorageSizeGbInput`<sup>Optional</sup> <a name="totalVmStorageSizeGbInput" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.totalVmStorageSizeGbInput"></a>
+
+```java
+public java.lang.Number getTotalVmStorageSizeGbInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
 ##### `cloudExadataInfrastructure`<sup>Required</sup> <a name="cloudExadataInfrastructure" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.cloudExadataInfrastructure"></a>
 
 ```java
@@ -999,6 +1030,16 @@ public java.lang.Number getTotalStorageSizeGb();
 
 ---
 
+##### `totalVmStorageSizeGb`<sup>Required</sup> <a name="totalVmStorageSizeGb" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.property.totalVmStorageSizeGb"></a>
+
+```java
+public java.lang.Number getTotalVmStorageSizeGb();
+```
+
+- *Type:* java.lang.Number
+
+---
+
 #### Constants <a name="Constants" id="Constants"></a>
 
 | **Name** | **Type** | **Description** |
@@ -1041,6 +1082,7 @@ GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.builder()
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts)
+//  .totalVmStorageSizeGb(java.lang.Number)
     .build();
 ```
 
@@ -1056,12 +1098,13 @@ GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.cloudExadataInfrastructure">cloudExadataInfrastructure</a></code> | <code>java.lang.String</code> | A reference to CloudExadataInfrastructure resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#location GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#location GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#location}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.totalStorageSizeGb">totalStorageSizeGb</a></code> | <code>java.lang.Number</code> | The total storage to be allocated to Exascale in GBs. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#id GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#project GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#id GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#project GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts">GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.totalVmStorageSizeGb">totalVmStorageSizeGb</a></code> | <code>java.lang.Number</code> | Storage size needed for VM storage on Exascale in GBs. |
 
 ---
 
@@ -1145,7 +1188,7 @@ public java.lang.String getCloudExadataInfrastructure();
 
 A reference to CloudExadataInfrastructure resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#cloud_exadata_infrastructure GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#cloud_exadata_infrastructure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#cloud_exadata_infrastructure GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#cloud_exadata_infrastructure}
 
 ---
 
@@ -1157,7 +1200,7 @@ public java.lang.String getLocation();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#location GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#location GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#location}.
 
 ---
 
@@ -1171,7 +1214,7 @@ public java.lang.Number getTotalStorageSizeGb();
 
 The total storage to be allocated to Exascale in GBs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#total_storage_size_gb GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#total_storage_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#total_storage_size_gb GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#total_storage_size_gb}
 
 ---
 
@@ -1192,7 +1235,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#deletion_policy GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#deletion_policy GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#deletion_policy}
 
 ---
 
@@ -1204,7 +1247,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#id GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#id GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1219,7 +1262,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#project GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#project GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#project}.
 
 ---
 
@@ -1233,7 +1276,21 @@ public GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts getT
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#timeouts GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#timeouts GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#timeouts}
+
+---
+
+##### `totalVmStorageSizeGb`<sup>Optional</sup> <a name="totalVmStorageSizeGb" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.property.totalVmStorageSizeGb"></a>
+
+```java
+public java.lang.Number getTotalVmStorageSizeGb();
+```
+
+- *Type:* java.lang.Number
+
+Storage size needed for VM storage on Exascale in GBs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#total_vm_storage_size_gb GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#total_vm_storage_size_gb}
 
 ---
 
@@ -1254,8 +1311,8 @@ GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#create GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#delete GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#create GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#delete GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#delete}. |
 
 ---
 
@@ -1267,7 +1324,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#create GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#create GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#create}.
 
 ---
 
@@ -1279,7 +1336,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#delete GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#delete GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#delete}.
 
 ---
 

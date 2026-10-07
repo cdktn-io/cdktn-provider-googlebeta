@@ -4,12 +4,12 @@
 
 ### GoogleApigeeEnvironmentDebugmask <a name="GoogleApigeeEnvironmentDebugmask" id="@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmask"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask google_apigee_environment_debugmask}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask google_apigee_environment_debugmask}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmask.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvironmentdebugmask"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvironmentdebugmask"
 
 googleapigeeenvironmentdebugmask.NewGoogleApigeeEnvironmentDebugmask(scope Construct, id *string, config GoogleApigeeEnvironmentDebugmaskConfig) GoogleApigeeEnvironmentDebugmask
 ```
@@ -476,7 +476,7 @@ func ResetVariables()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmask.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvironmentdebugmask"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvironmentdebugmask"
 
 googleapigeeenvironmentdebugmask.GoogleApigeeEnvironmentDebugmask_IsConstruct(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmask.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvironmentdebugmask"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvironmentdebugmask"
 
 googleapigeeenvironmentdebugmask.GoogleApigeeEnvironmentDebugmask_IsTerraformElement(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googleapigeeenvironmentdebugmask.GoogleApigeeEnvironmentDebugmask_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmask.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvironmentdebugmask"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvironmentdebugmask"
 
 googleapigeeenvironmentdebugmask.GoogleApigeeEnvironmentDebugmask_IsTerraformResource(x interface{}) *bool
 ```
@@ -536,7 +536,7 @@ googleapigeeenvironmentdebugmask.GoogleApigeeEnvironmentDebugmask_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmask.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvironmentdebugmask"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvironmentdebugmask"
 
 googleapigeeenvironmentdebugmask.GoogleApigeeEnvironmentDebugmask_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -565,7 +565,7 @@ The construct id used in the generated config for the GoogleApigeeEnvironmentDeb
 
 The id of the existing GoogleApigeeEnvironmentDebugmask that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -996,7 +996,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvironmentdebugmask"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvironmentdebugmask"
 
 &googleapigeeenvironmentdebugmask.GoogleApigeeEnvironmentDebugmaskConfig {
 	Connection: interface{},
@@ -1014,7 +1014,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 	RequestXPaths: *[]*string,
 	ResponseJsonPaths: *[]*string,
 	ResponseXPaths: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskTimeouts,
 	Variables: *[]*string,
 }
 ```
@@ -1032,7 +1032,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskConfig.property.envId">EnvId</a></code> | <code>*string</code> | The Apigee environment group associated with the Apigee environment, in the format organizations/{{org_name}}/environments/{{env_name}}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskConfig.property.faultXPaths">FaultXPaths</a></code> | <code>*[]*string</code> | List of XPath expressions that specify the XML elements or attributes that the debug mask applies to for fault messages. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#id GoogleApigeeEnvironmentDebugmask#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#id GoogleApigeeEnvironmentDebugmask#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskConfig.property.namespaces">Namespaces</a></code> | <code>*map[string]*string</code> | Map of namespaces to URIs. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskConfig.property.requestJsonPaths">RequestJsonPaths</a></code> | <code>*[]*string</code> | List of JSONPath expressions that specify the JSON elements or attributes that the debug mask applies to for request messages. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskConfig.property.requestXPaths">RequestXPaths</a></code> | <code>*[]*string</code> | List of XPath expressions that specify the XML elements or attributes that the debug mask applies to for request messages. |
@@ -1123,7 +1123,7 @@ EnvId *string
 
 The Apigee environment group associated with the Apigee environment, in the format organizations/{{org_name}}/environments/{{env_name}}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#env_id GoogleApigeeEnvironmentDebugmask#env_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#env_id GoogleApigeeEnvironmentDebugmask#env_id}
 
 ---
 
@@ -1137,7 +1137,7 @@ FaultXPaths *[]*string
 
 List of XPath expressions that specify the XML elements or attributes that the debug mask applies to for fault messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#fault_x_paths GoogleApigeeEnvironmentDebugmask#fault_x_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#fault_x_paths GoogleApigeeEnvironmentDebugmask#fault_x_paths}
 
 ---
 
@@ -1149,7 +1149,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#id GoogleApigeeEnvironmentDebugmask#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#id GoogleApigeeEnvironmentDebugmask#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1166,7 +1166,7 @@ Namespaces *map[string]*string
 
 Map of namespaces to URIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#namespaces GoogleApigeeEnvironmentDebugmask#namespaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#namespaces GoogleApigeeEnvironmentDebugmask#namespaces}
 
 ---
 
@@ -1180,7 +1180,7 @@ RequestJsonPaths *[]*string
 
 List of JSONPath expressions that specify the JSON elements or attributes that the debug mask applies to for request messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#request_json_paths GoogleApigeeEnvironmentDebugmask#request_json_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#request_json_paths GoogleApigeeEnvironmentDebugmask#request_json_paths}
 
 ---
 
@@ -1194,7 +1194,7 @@ RequestXPaths *[]*string
 
 List of XPath expressions that specify the XML elements or attributes that the debug mask applies to for request messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#request_x_paths GoogleApigeeEnvironmentDebugmask#request_x_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#request_x_paths GoogleApigeeEnvironmentDebugmask#request_x_paths}
 
 ---
 
@@ -1208,7 +1208,7 @@ ResponseJsonPaths *[]*string
 
 List of JSONPath expressions that specify the JSON elements or attributes that the debug mask applies to for response messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#response_json_paths GoogleApigeeEnvironmentDebugmask#response_json_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#response_json_paths GoogleApigeeEnvironmentDebugmask#response_json_paths}
 
 ---
 
@@ -1222,7 +1222,7 @@ ResponseXPaths *[]*string
 
 List of XPath expressions that specify the XML elements or attributes that the debug mask applies to for response messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#response_x_paths GoogleApigeeEnvironmentDebugmask#response_x_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#response_x_paths GoogleApigeeEnvironmentDebugmask#response_x_paths}
 
 ---
 
@@ -1236,7 +1236,7 @@ Timeouts GoogleApigeeEnvironmentDebugmaskTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#timeouts GoogleApigeeEnvironmentDebugmask#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#timeouts GoogleApigeeEnvironmentDebugmask#timeouts}
 
 ---
 
@@ -1250,7 +1250,7 @@ Variables *[]*string
 
 List of variables that the debug mask applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#variables GoogleApigeeEnvironmentDebugmask#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#variables GoogleApigeeEnvironmentDebugmask#variables}
 
 ---
 
@@ -1259,7 +1259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvironmentdebugmask"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvironmentdebugmask"
 
 &googleapigeeenvironmentdebugmask.GoogleApigeeEnvironmentDebugmaskTimeouts {
 	Create: *string,
@@ -1272,9 +1272,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#create GoogleApigeeEnvironmentDebugmask#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#delete GoogleApigeeEnvironmentDebugmask#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#update GoogleApigeeEnvironmentDebugmask#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#create GoogleApigeeEnvironmentDebugmask#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#delete GoogleApigeeEnvironmentDebugmask#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#update GoogleApigeeEnvironmentDebugmask#update}. |
 
 ---
 
@@ -1286,7 +1286,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#create GoogleApigeeEnvironmentDebugmask#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#create GoogleApigeeEnvironmentDebugmask#create}.
 
 ---
 
@@ -1298,7 +1298,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#delete GoogleApigeeEnvironmentDebugmask#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#delete GoogleApigeeEnvironmentDebugmask#delete}.
 
 ---
 
@@ -1310,7 +1310,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_debugmask#update GoogleApigeeEnvironmentDebugmask#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_debugmask#update GoogleApigeeEnvironmentDebugmask#update}.
 
 ---
 
@@ -1321,7 +1321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeEnvironmentDebugmask.GoogleApigeeEnvironmentDebugmaskTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvironmentdebugmask"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvironmentdebugmask"
 
 googleapigeeenvironmentdebugmask.NewGoogleApigeeEnvironmentDebugmaskTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeEnvironmentDebugmaskTimeoutsOutputReference
 ```

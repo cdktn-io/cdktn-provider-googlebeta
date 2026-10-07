@@ -4,12 +4,12 @@
 
 ### GoogleNetworkServicesMulticastGroupConsumerActivation <a name="GoogleNetworkServicesMulticastGroupConsumerActivation" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.NewGoogleNetworkServicesMulticastGroupConsumerActivation(scope Construct, id *string, config GoogleNetworkServicesMulticastGroupConsumerActivationConfig) GoogleNetworkServicesMulticastGroupConsumerActivation
 ```
@@ -475,7 +475,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivation_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivation_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulti
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivation_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulti
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -564,7 +564,7 @@ The construct id used in the generated config for the GoogleNetworkServicesMulti
 
 The id of the existing GoogleNetworkServicesMulticastGroupConsumerActivation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1083,7 +1083,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 &googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig {
 	Connection: interface{},
@@ -1101,9 +1101,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
-	LogConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationLogConfig,
+	LogConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationLogConfig,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts,
 }
 ```
 
@@ -1124,10 +1124,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.property.multicastGroupRangeActivation">MulticastGroupRangeActivation</a></code> | <code>*string</code> | The resource name of the multicast group range activation created by the admin in the same zone as this multicast group consumer activation. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.property.description">Description</a></code> | <code>*string</code> | An optional text description of the multicast group consumer activation. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#id GoogleNetworkServicesMulticastGroupConsumerActivation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#id GoogleNetworkServicesMulticastGroupConsumerActivation#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Labels as key-value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.property.logConfig">LogConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationLogConfig">GoogleNetworkServicesMulticastGroupConsumerActivationLogConfig</a></code> | log_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#project GoogleNetworkServicesMulticastGroupConsumerActivation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#project GoogleNetworkServicesMulticastGroupConsumerActivation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts">GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1212,7 +1212,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#location GoogleNetworkServicesMulticastGroupConsumerActivation#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#location GoogleNetworkServicesMulticastGroupConsumerActivation#location}
 
 ---
 
@@ -1229,7 +1229,7 @@ The resource name of the multicast consumer association that is in the same zone
 Use the following format:
 'projects/* /locations/* /multicastConsumerAssociations/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#multicast_consumer_association GoogleNetworkServicesMulticastGroupConsumerActivation#multicast_consumer_association}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#multicast_consumer_association GoogleNetworkServicesMulticastGroupConsumerActivation#multicast_consumer_association}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1249,7 +1249,7 @@ The name is restricted to letters, numbers, and hyphen, with the first
 character a letter, and the last a letter or a number. The name must not
 exceed 48 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#multicast_group_consumer_activation_id GoogleNetworkServicesMulticastGroupConsumerActivation#multicast_group_consumer_activation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#multicast_group_consumer_activation_id GoogleNetworkServicesMulticastGroupConsumerActivation#multicast_group_consumer_activation_id}
 
 ---
 
@@ -1267,7 +1267,7 @@ Use the
 following format:
 // 'projects/* /locations/* /multicastGroupRangeActivations/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#multicast_group_range_activation GoogleNetworkServicesMulticastGroupConsumerActivation#multicast_group_range_activation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#multicast_group_range_activation GoogleNetworkServicesMulticastGroupConsumerActivation#multicast_group_range_activation}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1290,7 +1290,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#deletion_policy GoogleNetworkServicesMulticastGroupConsumerActivation#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#deletion_policy GoogleNetworkServicesMulticastGroupConsumerActivation#deletion_policy}
 
 ---
 
@@ -1304,7 +1304,7 @@ Description *string
 
 An optional text description of the multicast group consumer activation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#description GoogleNetworkServicesMulticastGroupConsumerActivation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#description GoogleNetworkServicesMulticastGroupConsumerActivation#description}
 
 ---
 
@@ -1316,7 +1316,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#id GoogleNetworkServicesMulticastGroupConsumerActivation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#id GoogleNetworkServicesMulticastGroupConsumerActivation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1336,7 +1336,7 @@ Labels as key-value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#labels GoogleNetworkServicesMulticastGroupConsumerActivation#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#labels GoogleNetworkServicesMulticastGroupConsumerActivation#labels}
 
 ---
 
@@ -1350,7 +1350,7 @@ LogConfig GoogleNetworkServicesMulticastGroupConsumerActivationLogConfig
 
 log_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#log_config GoogleNetworkServicesMulticastGroupConsumerActivation#log_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#log_config GoogleNetworkServicesMulticastGroupConsumerActivation#log_config}
 
 ---
 
@@ -1362,7 +1362,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#project GoogleNetworkServicesMulticastGroupConsumerActivation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#project GoogleNetworkServicesMulticastGroupConsumerActivation#project}.
 
 ---
 
@@ -1376,7 +1376,7 @@ Timeouts GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#timeouts GoogleNetworkServicesMulticastGroupConsumerActivation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#timeouts GoogleNetworkServicesMulticastGroupConsumerActivation#timeouts}
 
 ---
 
@@ -1385,7 +1385,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationLogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 &googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivationLogConfig {
 	Enabled: interface{},
@@ -1410,7 +1410,7 @@ Enabled interface{}
 
 Whether to enable logging or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#enabled GoogleNetworkServicesMulticastGroupConsumerActivation#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#enabled GoogleNetworkServicesMulticastGroupConsumerActivation#enabled}
 
 ---
 
@@ -1419,7 +1419,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 &googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivationState {
 
@@ -1432,7 +1432,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 &googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts {
 	Create: *string,
@@ -1445,9 +1445,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#create GoogleNetworkServicesMulticastGroupConsumerActivation#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#delete GoogleNetworkServicesMulticastGroupConsumerActivation#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#update GoogleNetworkServicesMulticastGroupConsumerActivation#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#create GoogleNetworkServicesMulticastGroupConsumerActivation#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#delete GoogleNetworkServicesMulticastGroupConsumerActivation#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#update GoogleNetworkServicesMulticastGroupConsumerActivation#update}. |
 
 ---
 
@@ -1459,7 +1459,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#create GoogleNetworkServicesMulticastGroupConsumerActivation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#create GoogleNetworkServicesMulticastGroupConsumerActivation#create}.
 
 ---
 
@@ -1471,7 +1471,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#delete GoogleNetworkServicesMulticastGroupConsumerActivation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#delete GoogleNetworkServicesMulticastGroupConsumerActivation#delete}.
 
 ---
 
@@ -1483,7 +1483,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_consumer_activation#update GoogleNetworkServicesMulticastGroupConsumerActivation#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_consumer_activation#update GoogleNetworkServicesMulticastGroupConsumerActivation#update}.
 
 ---
 
@@ -1494,7 +1494,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationLogConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.NewGoogleNetworkServicesMulticastGroupConsumerActivationLogConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkServicesMulticastGroupConsumerActivationLogConfigOutputReference
 ```
@@ -1772,7 +1772,7 @@ func InternalValue() GoogleNetworkServicesMulticastGroupConsumerActivationLogCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.NewGoogleNetworkServicesMulticastGroupConsumerActivationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkServicesMulticastGroupConsumerActivationStateList
 ```
@@ -1921,7 +1921,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.NewGoogleNetworkServicesMulticastGroupConsumerActivationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkServicesMulticastGroupConsumerActivationStateOutputReference
 ```
@@ -2199,7 +2199,7 @@ func InternalValue() GoogleNetworkServicesMulticastGroupConsumerActivationState
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.NewGoogleNetworkServicesMulticastGroupConsumerActivationTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkServicesMulticastGroupConsumerActivationTimeoutsOutputReference
 ```

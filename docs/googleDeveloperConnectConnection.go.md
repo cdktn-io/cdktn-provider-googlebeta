@@ -4,12 +4,12 @@
 
 ### GoogleDeveloperConnectConnection <a name="GoogleDeveloperConnectConnection" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection google_developer_connect_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection google_developer_connect_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnection(scope Construct, id *string, config GoogleDeveloperConnectConnectionConfig) GoogleDeveloperConnectConnection
 ```
@@ -629,7 +629,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.GoogleDeveloperConnectConnection_IsConstruct(x interface{}) *bool
 ```
@@ -661,7 +661,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.GoogleDeveloperConnectConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -675,7 +675,7 @@ googledeveloperconnectconnection.GoogleDeveloperConnectConnection_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.GoogleDeveloperConnectConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -689,7 +689,7 @@ googledeveloperconnectconnection.GoogleDeveloperConnectConnection_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.GoogleDeveloperConnectConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -718,7 +718,7 @@ The construct id used in the generated config for the GoogleDeveloperConnectConn
 
 The id of the existing GoogleDeveloperConnectConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1424,11 +1424,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionBitbucketCloudConfig {
-	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredential,
-	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredential,
+	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredential,
+	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredential,
 	WebhookSecretSecretVersion: *string,
 	Workspace: *string,
 }
@@ -1455,7 +1455,7 @@ AuthorizerCredential GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthori
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -1469,7 +1469,7 @@ ReadAuthorizerCredential GoogleDeveloperConnectConnectionBitbucketCloudConfigRea
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -1487,7 +1487,7 @@ Immutable. SecretManager resource containing the webhook secret used to verify w
 events, formatted as 'projects/* /secrets/* /versions/*'. This is used to
 validate and create webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1503,7 +1503,7 @@ Workspace *string
 
 Required. The Bitbucket Cloud Workspace ID to be connected to Google Cloud Platform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#workspace GoogleDeveloperConnectConnection#workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#workspace GoogleDeveloperConnectConnection#workspace}
 
 ---
 
@@ -1512,7 +1512,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -1537,7 +1537,7 @@ UserTokenSecretVersion *string
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1548,7 +1548,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -1573,7 +1573,7 @@ UserTokenSecretVersion *string
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1584,14 +1584,14 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfig {
-	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredential,
+	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredential,
 	HostUri: *string,
-	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredential,
+	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredential,
 	WebhookSecretSecretVersion: *string,
-	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfig,
+	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfig,
 	SslCaCertificate: *string,
 }
 ```
@@ -1619,7 +1619,7 @@ AuthorizerCredential GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAu
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -1633,7 +1633,7 @@ HostUri *string
 
 Required. The URI of the Bitbucket Data Center host this connection is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
 
 ---
 
@@ -1647,7 +1647,7 @@ ReadAuthorizerCredential GoogleDeveloperConnectConnectionBitbucketDataCenterConf
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -1665,7 +1665,7 @@ Immutable. SecretManager resource containing the webhook secret used to verify w
 events, formatted as 'projects/* /secrets/* /versions/*'. This is used to
 validate webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1681,7 +1681,7 @@ ServiceDirectoryConfig GoogleDeveloperConnectConnectionBitbucketDataCenterConfig
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
 
 ---
 
@@ -1695,7 +1695,7 @@ SslCaCertificate *string
 
 Optional. SSL certificate authority to trust when making requests to Bitbucket Data Center.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
 
 ---
 
@@ -1704,7 +1704,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -1729,7 +1729,7 @@ UserTokenSecretVersion *string
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1740,7 +1740,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -1765,7 +1765,7 @@ UserTokenSecretVersion *string
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1776,7 +1776,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfig {
 	Service: *string,
@@ -1801,7 +1801,7 @@ Service *string
 
 Required. The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
 
 ---
 
@@ -1810,7 +1810,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionConfig {
 	Connection: interface{},
@@ -1823,21 +1823,21 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlede
 	ConnectionId: *string,
 	Location: *string,
 	Annotations: *map[string]*string,
-	BitbucketCloudConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfig,
-	BitbucketDataCenterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfig,
-	CryptoKeyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionCryptoKeyConfig,
+	BitbucketCloudConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfig,
+	BitbucketDataCenterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfig,
+	CryptoKeyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionCryptoKeyConfig,
 	DeletionPolicy: *string,
 	Disabled: interface{},
 	Etag: *string,
-	GithubConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubConfig,
-	GithubEnterpriseConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfig,
-	GitlabConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfig,
-	GitlabEnterpriseConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfig,
-	HttpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig,
+	GithubConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubConfig,
+	GithubEnterpriseConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfig,
+	GitlabConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfig,
+	GitlabEnterpriseConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfig,
+	HttpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts,
 }
 ```
 
@@ -1866,9 +1866,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlede
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.gitlabConfig">GitlabConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfig">GoogleDeveloperConnectConnectionGitlabConfig</a></code> | gitlab_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.gitlabEnterpriseConfig">GitlabEnterpriseConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfig">GoogleDeveloperConnectConnectionGitlabEnterpriseConfig</a></code> | gitlab_enterprise_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.httpConfig">HttpConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig">GoogleDeveloperConnectConnectionHttpConfig</a></code> | http_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Optional. Labels as key value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts">GoogleDeveloperConnectConnectionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1953,7 +1953,7 @@ ConnectionId *string
 
 Required. Id of the requesting object If auto-generating Id server-side, remove this field and connection_id from the method_signature of Create RPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#connection_id GoogleDeveloperConnectConnection#connection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#connection_id GoogleDeveloperConnectConnection#connection_id}
 
 ---
 
@@ -1967,7 +1967,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#location GoogleDeveloperConnectConnection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#location GoogleDeveloperConnectConnection#location}
 
 ---
 
@@ -1984,7 +1984,7 @@ Optional. Allows clients to store small amounts of arbitrary data.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#annotations GoogleDeveloperConnectConnection#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#annotations GoogleDeveloperConnectConnection#annotations}
 
 ---
 
@@ -1998,7 +1998,7 @@ BitbucketCloudConfig GoogleDeveloperConnectConnectionBitbucketCloudConfig
 
 bitbucket_cloud_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#bitbucket_cloud_config GoogleDeveloperConnectConnection#bitbucket_cloud_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#bitbucket_cloud_config GoogleDeveloperConnectConnection#bitbucket_cloud_config}
 
 ---
 
@@ -2012,7 +2012,7 @@ BitbucketDataCenterConfig GoogleDeveloperConnectConnectionBitbucketDataCenterCon
 
 bitbucket_data_center_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#bitbucket_data_center_config GoogleDeveloperConnectConnection#bitbucket_data_center_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#bitbucket_data_center_config GoogleDeveloperConnectConnection#bitbucket_data_center_config}
 
 ---
 
@@ -2026,7 +2026,7 @@ CryptoKeyConfig GoogleDeveloperConnectConnectionCryptoKeyConfig
 
 crypto_key_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#crypto_key_config GoogleDeveloperConnectConnection#crypto_key_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#crypto_key_config GoogleDeveloperConnectConnection#crypto_key_config}
 
 ---
 
@@ -2047,7 +2047,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#deletion_policy GoogleDeveloperConnectConnection#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#deletion_policy GoogleDeveloperConnectConnection#deletion_policy}
 
 ---
 
@@ -2065,7 +2065,7 @@ If disabled is set to true, functionality is disabled for this connection.
 Repository based API methods and webhooks processing for repositories in
 this connection will be disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#disabled GoogleDeveloperConnectConnection#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#disabled GoogleDeveloperConnectConnection#disabled}
 
 ---
 
@@ -2083,7 +2083,7 @@ This checksum is computed by the server based on the value of other
 fields, and may be sent on update and delete requests to ensure the
 client has an up-to-date value before proceeding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#etag GoogleDeveloperConnectConnection#etag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#etag GoogleDeveloperConnectConnection#etag}
 
 ---
 
@@ -2097,7 +2097,7 @@ GithubConfig GoogleDeveloperConnectConnectionGithubConfig
 
 github_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#github_config GoogleDeveloperConnectConnection#github_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#github_config GoogleDeveloperConnectConnection#github_config}
 
 ---
 
@@ -2111,7 +2111,7 @@ GithubEnterpriseConfig GoogleDeveloperConnectConnectionGithubEnterpriseConfig
 
 github_enterprise_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#github_enterprise_config GoogleDeveloperConnectConnection#github_enterprise_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#github_enterprise_config GoogleDeveloperConnectConnection#github_enterprise_config}
 
 ---
 
@@ -2125,7 +2125,7 @@ GitlabConfig GoogleDeveloperConnectConnectionGitlabConfig
 
 gitlab_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#gitlab_config GoogleDeveloperConnectConnection#gitlab_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#gitlab_config GoogleDeveloperConnectConnection#gitlab_config}
 
 ---
 
@@ -2139,7 +2139,7 @@ GitlabEnterpriseConfig GoogleDeveloperConnectConnectionGitlabEnterpriseConfig
 
 gitlab_enterprise_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#gitlab_enterprise_config GoogleDeveloperConnectConnection#gitlab_enterprise_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#gitlab_enterprise_config GoogleDeveloperConnectConnection#gitlab_enterprise_config}
 
 ---
 
@@ -2153,7 +2153,7 @@ HttpConfig GoogleDeveloperConnectConnectionHttpConfig
 
 http_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#http_config GoogleDeveloperConnectConnection#http_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#http_config GoogleDeveloperConnectConnection#http_config}
 
 ---
 
@@ -2165,7 +2165,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#id GoogleDeveloperConnectConnection#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2185,7 +2185,7 @@ Optional. Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#labels GoogleDeveloperConnectConnection#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#labels GoogleDeveloperConnectConnection#labels}
 
 ---
 
@@ -2197,7 +2197,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#project GoogleDeveloperConnectConnection#project}.
 
 ---
 
@@ -2211,7 +2211,7 @@ Timeouts GoogleDeveloperConnectConnectionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#timeouts GoogleDeveloperConnectConnection#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#timeouts GoogleDeveloperConnectConnection#timeouts}
 
 ---
 
@@ -2220,7 +2220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionCryptoKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionCryptoKeyConfig {
 	KeyReference: *string,
@@ -2249,7 +2249,7 @@ The name of the key which is used to encrypt/decrypt customer data. For key
 in Cloud KMS, the key should be in the format of
 'projects/* /locations/* /keyRings/* /cryptoKeys/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#key_reference GoogleDeveloperConnectConnection#key_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#key_reference GoogleDeveloperConnectConnection#key_reference}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2260,12 +2260,12 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionGithubConfig {
 	GithubApp: *string,
 	AppInstallationId: *string,
-	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredential,
+	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredential,
 }
 ```
 
@@ -2289,7 +2289,7 @@ GithubApp *string
 
 Required. Immutable. The GitHub Application that was installed to the GitHub user or organization. Possible values: GIT_HUB_APP_UNSPECIFIED DEVELOPER_CONNECT FIREBASE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#github_app GoogleDeveloperConnectConnection#github_app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#github_app GoogleDeveloperConnectConnection#github_app}
 
 ---
 
@@ -2303,7 +2303,7 @@ AppInstallationId *string
 
 Optional. GitHub App installation id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
 
 ---
 
@@ -2317,7 +2317,7 @@ AuthorizerCredential GoogleDeveloperConnectConnectionGithubConfigAuthorizerCrede
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -2326,7 +2326,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredential {
 	OauthTokenSecretVersion: *string,
@@ -2351,7 +2351,7 @@ OauthTokenSecretVersion *string
 
 Required. A SecretManager resource containing the OAuth token that authorizes the connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#oauth_token_secret_version GoogleDeveloperConnectConnection#oauth_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#oauth_token_secret_version GoogleDeveloperConnectConnection#oauth_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2362,14 +2362,14 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfig {
 	HostUri: *string,
 	AppId: *string,
 	AppInstallationId: *string,
 	PrivateKeySecretVersion: *string,
-	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfig,
+	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfig,
 	SslCaCertificate: *string,
 	WebhookSecretSecretVersion: *string,
 }
@@ -2399,7 +2399,7 @@ HostUri *string
 
 Required. The URI of the GitHub Enterprise host this connection is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
 
 ---
 
@@ -2413,7 +2413,7 @@ AppId *string
 
 Optional. ID of the GitHub App created from the manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#app_id GoogleDeveloperConnectConnection#app_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#app_id GoogleDeveloperConnectConnection#app_id}
 
 ---
 
@@ -2427,7 +2427,7 @@ AppInstallationId *string
 
 Optional. ID of the installation of the GitHub App.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#app_installation_id GoogleDeveloperConnectConnection#app_installation_id}
 
 ---
 
@@ -2441,7 +2441,7 @@ PrivateKeySecretVersion *string
 
 Optional. SecretManager resource containing the private key of the GitHub App, formatted as 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#private_key_secret_version GoogleDeveloperConnectConnection#private_key_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#private_key_secret_version GoogleDeveloperConnectConnection#private_key_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2457,7 +2457,7 @@ ServiceDirectoryConfig GoogleDeveloperConnectConnectionGithubEnterpriseConfigSer
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
 
 ---
 
@@ -2471,7 +2471,7 @@ SslCaCertificate *string
 
 Optional. SSL certificate to use for requests to GitHub Enterprise.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
 
 ---
 
@@ -2485,7 +2485,7 @@ WebhookSecretSecretVersion *string
 
 Optional. SecretManager resource containing the webhook secret of the GitHub App, formatted as 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2496,7 +2496,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfig {
 	Service: *string,
@@ -2521,7 +2521,7 @@ Service *string
 
 Required. The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
 
 ---
 
@@ -2530,11 +2530,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionGitlabConfig {
-	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredential,
-	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredential,
+	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredential,
+	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredential,
 	WebhookSecretSecretVersion: *string,
 }
 ```
@@ -2559,7 +2559,7 @@ AuthorizerCredential GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCrede
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -2573,7 +2573,7 @@ ReadAuthorizerCredential GoogleDeveloperConnectConnectionGitlabConfigReadAuthori
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -2591,7 +2591,7 @@ Immutable. SecretManager resource containing the webhook secret of a GitLab proj
 formatted as 'projects/* /secrets/* /versions/*'. This is used to validate
 webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2602,7 +2602,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -2627,7 +2627,7 @@ UserTokenSecretVersion *string
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2638,7 +2638,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -2663,7 +2663,7 @@ UserTokenSecretVersion *string
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2674,14 +2674,14 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfig {
-	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredential,
+	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredential,
 	HostUri: *string,
-	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredential,
+	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredential,
 	WebhookSecretSecretVersion: *string,
-	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfig,
+	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfig,
 	SslCaCertificate: *string,
 }
 ```
@@ -2709,7 +2709,7 @@ AuthorizerCredential GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAutho
 
 authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#authorizer_credential GoogleDeveloperConnectConnection#authorizer_credential}
 
 ---
 
@@ -2723,7 +2723,7 @@ HostUri *string
 
 Required. The URI of the GitLab Enterprise host this connection is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
 
 ---
 
@@ -2737,7 +2737,7 @@ ReadAuthorizerCredential GoogleDeveloperConnectConnectionGitlabEnterpriseConfigR
 
 read_authorizer_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#read_authorizer_credential GoogleDeveloperConnectConnection#read_authorizer_credential}
 
 ---
 
@@ -2755,7 +2755,7 @@ Immutable. SecretManager resource containing the webhook secret of a GitLab proj
 formatted as 'projects/* /secrets/* /versions/*'. This is used to validate
 webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#webhook_secret_secret_version GoogleDeveloperConnectConnection#webhook_secret_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2771,7 +2771,7 @@ ServiceDirectoryConfig GoogleDeveloperConnectConnectionGitlabEnterpriseConfigSer
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
 
 ---
 
@@ -2785,7 +2785,7 @@ SslCaCertificate *string
 
 Optional. SSL Certificate Authority certificate to use for requests to GitLab Enterprise instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
 
 ---
 
@@ -2794,7 +2794,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -2819,7 +2819,7 @@ UserTokenSecretVersion *string
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2830,7 +2830,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -2855,7 +2855,7 @@ UserTokenSecretVersion *string
 
 Required. A SecretManager resource containing the user token that authorizes the Developer Connect connection. Format: 'projects/* /secrets/* /versions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#user_token_secret_version GoogleDeveloperConnectConnection#user_token_secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2866,7 +2866,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfig {
 	Service: *string,
@@ -2891,7 +2891,7 @@ Service *string
 
 Required. The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
 
 ---
 
@@ -2900,13 +2900,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionHttpConfig {
 	HostUri: *string,
-	BasicAuthentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication,
-	BearerTokenAuthentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication,
-	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig,
+	BasicAuthentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication,
+	BearerTokenAuthentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication,
+	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig,
 	SslCaCertificate: *string,
 }
 ```
@@ -2933,7 +2933,7 @@ HostUri *string
 
 The service provider's https endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#host_uri GoogleDeveloperConnectConnection#host_uri}
 
 ---
 
@@ -2947,7 +2947,7 @@ BasicAuthentication GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticatio
 
 basic_authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#basic_authentication GoogleDeveloperConnectConnection#basic_authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#basic_authentication GoogleDeveloperConnectConnection#basic_authentication}
 
 ---
 
@@ -2961,7 +2961,7 @@ BearerTokenAuthentication GoogleDeveloperConnectConnectionHttpConfigBearerTokenA
 
 bearer_token_authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#bearer_token_authentication GoogleDeveloperConnectConnection#bearer_token_authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#bearer_token_authentication GoogleDeveloperConnectConnection#bearer_token_authentication}
 
 ---
 
@@ -2975,7 +2975,7 @@ ServiceDirectoryConfig GoogleDeveloperConnectConnectionHttpConfigServiceDirector
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#service_directory_config GoogleDeveloperConnectConnection#service_directory_config}
 
 ---
 
@@ -2989,7 +2989,7 @@ SslCaCertificate *string
 
 The SSL certificate to use for requests to the HTTP service provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#ssl_ca_certificate GoogleDeveloperConnectConnection#ssl_ca_certificate}
 
 ---
 
@@ -2998,7 +2998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthentication {
 	Username: *string,
@@ -3025,7 +3025,7 @@ Username *string
 
 The username to authenticate as.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#username GoogleDeveloperConnectConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#username GoogleDeveloperConnectConnection#username}
 
 ---
 
@@ -3039,7 +3039,7 @@ PasswordSecretVersion *string
 
 The password SecretManager secret version to authenticate as.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#password_secret_version GoogleDeveloperConnectConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#password_secret_version GoogleDeveloperConnectConnection#password_secret_version}
 
 ---
 
@@ -3048,7 +3048,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthentication {
 	TokenSecretVersion: *string,
@@ -3073,7 +3073,7 @@ TokenSecretVersion *string
 
 The token SecretManager secret version to authenticate as.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#token_secret_version GoogleDeveloperConnectConnection#token_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#token_secret_version GoogleDeveloperConnectConnection#token_secret_version}
 
 ---
 
@@ -3082,7 +3082,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfig {
 	Service: *string,
@@ -3107,7 +3107,7 @@ Service *string
 
 The Service Directory service name. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#service GoogleDeveloperConnectConnection#service}
 
 ---
 
@@ -3116,7 +3116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionInstallationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionInstallationState {
 
@@ -3129,7 +3129,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlede
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 &googledeveloperconnectconnection.GoogleDeveloperConnectConnectionTimeouts {
 	Create: *string,
@@ -3142,9 +3142,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlede
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#create GoogleDeveloperConnectConnection#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#delete GoogleDeveloperConnectConnection#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#update GoogleDeveloperConnectConnection#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#create GoogleDeveloperConnectConnection#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#delete GoogleDeveloperConnectConnection#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#update GoogleDeveloperConnectConnection#update}. |
 
 ---
 
@@ -3156,7 +3156,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#create GoogleDeveloperConnectConnection#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#create GoogleDeveloperConnectConnection#create}.
 
 ---
 
@@ -3168,7 +3168,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#delete GoogleDeveloperConnectConnection#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#delete GoogleDeveloperConnectConnection#delete}.
 
 ---
 
@@ -3180,7 +3180,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_connection#update GoogleDeveloperConnectConnection#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_connection#update GoogleDeveloperConnectConnection#update}.
 
 ---
 
@@ -3191,7 +3191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredentialOutputReference
 ```
@@ -3473,7 +3473,7 @@ func InternalValue() GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthori
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionBitbucketCloudConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionBitbucketCloudConfigOutputReference
 ```
@@ -3836,7 +3836,7 @@ func InternalValue() GoogleDeveloperConnectConnectionBitbucketCloudConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference
 ```
@@ -4118,7 +4118,7 @@ func InternalValue() GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAut
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference
 ```
@@ -4400,7 +4400,7 @@ func InternalValue() GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference
 ```
@@ -4845,7 +4845,7 @@ func InternalValue() GoogleDeveloperConnectConnectionBitbucketDataCenterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredentialOutputReference
 ```
@@ -5127,7 +5127,7 @@ func InternalValue() GoogleDeveloperConnectConnectionBitbucketDataCenterConfigRe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfigOutputReference
 ```
@@ -5398,7 +5398,7 @@ func InternalValue() GoogleDeveloperConnectConnectionBitbucketDataCenterConfigSe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionCryptoKeyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionCryptoKeyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionCryptoKeyConfigOutputReference
 ```
@@ -5669,7 +5669,7 @@ func InternalValue() GoogleDeveloperConnectConnectionCryptoKeyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionGithubConfigAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredentialOutputReference
 ```
@@ -5951,7 +5951,7 @@ func InternalValue() GoogleDeveloperConnectConnectionGithubConfigAuthorizerCrede
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionGithubConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGithubConfigOutputReference
 ```
@@ -6304,7 +6304,7 @@ func InternalValue() GoogleDeveloperConnectConnectionGithubConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference
 ```
@@ -6795,7 +6795,7 @@ func InternalValue() GoogleDeveloperConnectConnectionGithubEnterpriseConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfigOutputReference
 ```
@@ -7066,7 +7066,7 @@ func InternalValue() GoogleDeveloperConnectConnectionGithubEnterpriseConfigServi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialOutputReference
 ```
@@ -7348,7 +7348,7 @@ func InternalValue() GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCrede
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionGitlabConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGitlabConfigOutputReference
 ```
@@ -7689,7 +7689,7 @@ func InternalValue() GoogleDeveloperConnectConnectionGitlabConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredentialOutputReference
 ```
@@ -7971,7 +7971,7 @@ func InternalValue() GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredentialOutputReference
 ```
@@ -8253,7 +8253,7 @@ func InternalValue() GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAutho
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionGitlabEnterpriseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGitlabEnterpriseConfigOutputReference
 ```
@@ -8698,7 +8698,7 @@ func InternalValue() GoogleDeveloperConnectConnectionGitlabEnterpriseConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference
 ```
@@ -8980,7 +8980,7 @@ func InternalValue() GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadA
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfigOutputReference
 ```
@@ -9251,7 +9251,7 @@ func InternalValue() GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticationOutputReference
 ```
@@ -9551,7 +9551,7 @@ func InternalValue() GoogleDeveloperConnectConnectionHttpConfigBasicAuthenticati
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthenticationOutputReference
 ```
@@ -9829,7 +9829,7 @@ func InternalValue() GoogleDeveloperConnectConnectionHttpConfigBearerTokenAuthen
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionHttpConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionHttpConfigOutputReference
 ```
@@ -10255,7 +10255,7 @@ func InternalValue() GoogleDeveloperConnectConnectionHttpConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryConfigOutputReference
 ```
@@ -10526,7 +10526,7 @@ func InternalValue() GoogleDeveloperConnectConnectionHttpConfigServiceDirectoryC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionInstallationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionInstallationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDeveloperConnectConnectionInstallationStateList
 ```
@@ -10675,7 +10675,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionInstallationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionInstallationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDeveloperConnectConnectionInstallationStateOutputReference
 ```
@@ -10975,7 +10975,7 @@ func InternalValue() GoogleDeveloperConnectConnectionInstallationState
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnectionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectconnection"
 
 googledeveloperconnectconnection.NewGoogleDeveloperConnectConnectionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionTimeoutsOutputReference
 ```

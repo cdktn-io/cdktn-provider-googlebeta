@@ -4,12 +4,12 @@
 
 ### GoogleStorageBucket <a name="GoogleStorageBucket" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket google_storage_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket google_storage_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucket(scope Construct, id *string, config GoogleStorageBucketConfig) GoogleStorageBucket
 ```
@@ -744,7 +744,7 @@ func ResetWebsite()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucket.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.GoogleStorageBucket_IsConstruct(x interface{}) *bool
 ```
@@ -776,7 +776,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucket.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.GoogleStorageBucket_IsTerraformElement(x interface{}) *bool
 ```
@@ -790,7 +790,7 @@ googlestoragebucket.GoogleStorageBucket_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucket.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.GoogleStorageBucket_IsTerraformResource(x interface{}) *bool
 ```
@@ -804,7 +804,7 @@ googlestoragebucket.GoogleStorageBucket_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucket.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.GoogleStorageBucket_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -833,7 +833,7 @@ The construct id used in the generated config for the GoogleStorageBucket to imp
 
 The id of the existing GoogleStorageBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1704,7 +1704,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketAutoclass.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketAutoclass {
 	Enabled: interface{},
@@ -1731,7 +1731,7 @@ Enabled interface{}
 
 While set to true, autoclass automatically transitions objects in your bucket to appropriate storage classes based on each object's access pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#enabled GoogleStorageBucket#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#enabled GoogleStorageBucket#enabled}
 
 ---
 
@@ -1747,7 +1747,7 @@ The storage class that objects in the bucket eventually transition to if they ar
 
 Supported values include: NEARLINE, ARCHIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#terminal_storage_class GoogleStorageBucket#terminal_storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#terminal_storage_class GoogleStorageBucket#terminal_storage_class}
 
 ---
 
@@ -1756,7 +1756,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketConfig {
 	Connection: interface{},
@@ -1768,31 +1768,31 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlest
 	Provisioners: *[]interface{},
 	Location: *string,
 	Name: *string,
-	Autoclass: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketAutoclass,
+	Autoclass: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketAutoclass,
 	Cors: interface{},
-	CustomPlacementConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketCustomPlacementConfig,
+	CustomPlacementConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketCustomPlacementConfig,
 	DefaultEventBasedHold: interface{},
 	DeletionPolicy: *string,
 	EnableObjectRetention: interface{},
-	Encryption: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketEncryption,
+	Encryption: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketEncryption,
 	ForceDestroy: interface{},
-	HierarchicalNamespace: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketHierarchicalNamespace,
+	HierarchicalNamespace: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketHierarchicalNamespace,
 	Id: *string,
-	IpFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketIpFilter,
+	IpFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketIpFilter,
 	Labels: *map[string]*string,
 	LifecycleRule: interface{},
-	Logging: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketLogging,
+	Logging: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketLogging,
 	Project: *string,
 	PublicAccessPrevention: *string,
 	RequesterPays: interface{},
-	RetentionPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketRetentionPolicy,
+	RetentionPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketRetentionPolicy,
 	Rpo: *string,
-	SoftDeletePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketSoftDeletePolicy,
+	SoftDeletePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketSoftDeletePolicy,
 	StorageClass: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketTimeouts,
 	UniformBucketLevelAccess: interface{},
-	Versioning: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketVersioning,
-	Website: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketWebsite,
+	Versioning: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketVersioning,
+	Website: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketWebsite,
 }
 ```
 
@@ -1818,7 +1818,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlest
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketConfig.property.encryption">Encryption</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketEncryption">GoogleStorageBucketEncryption</a></code> | encryption block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketConfig.property.forceDestroy">ForceDestroy</a></code> | <code>interface{}</code> | When true, before deleting a bucket, delete all objects within the bucket, or Anywhere Caches caching data for that bucket. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketConfig.property.hierarchicalNamespace">HierarchicalNamespace</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketHierarchicalNamespace">GoogleStorageBucketHierarchicalNamespace</a></code> | hierarchical_namespace block. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#id GoogleStorageBucket#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#id GoogleStorageBucket#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketConfig.property.ipFilter">IpFilter</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketIpFilter">GoogleStorageBucketIpFilter</a></code> | ip_filter block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | A set of key/value label pairs to assign to the bucket. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketConfig.property.lifecycleRule">LifecycleRule</a></code> | <code>interface{}</code> | lifecycle_rule block. |
@@ -1917,7 +1917,7 @@ Location *string
 
 The Google Cloud Storage location or region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#location GoogleStorageBucket#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#location GoogleStorageBucket#location}
 
 ---
 
@@ -1931,7 +1931,7 @@ Name *string
 
 The name of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#name GoogleStorageBucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#name GoogleStorageBucket#name}
 
 ---
 
@@ -1945,7 +1945,7 @@ Autoclass GoogleStorageBucketAutoclass
 
 autoclass block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#autoclass GoogleStorageBucket#autoclass}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#autoclass GoogleStorageBucket#autoclass}
 
 ---
 
@@ -1959,7 +1959,7 @@ Cors interface{}
 
 cors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#cors GoogleStorageBucket#cors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#cors GoogleStorageBucket#cors}
 
 ---
 
@@ -1973,7 +1973,7 @@ CustomPlacementConfig GoogleStorageBucketCustomPlacementConfig
 
 custom_placement_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#custom_placement_config GoogleStorageBucket#custom_placement_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#custom_placement_config GoogleStorageBucket#custom_placement_config}
 
 ---
 
@@ -1987,7 +1987,7 @@ DefaultEventBasedHold interface{}
 
 Whether or not to automatically apply an eventBasedHold to new objects added to the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#default_event_based_hold GoogleStorageBucket#default_event_based_hold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#default_event_based_hold GoogleStorageBucket#default_event_based_hold}
 
 ---
 
@@ -2008,7 +2008,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#deletion_policy GoogleStorageBucket#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#deletion_policy GoogleStorageBucket#deletion_policy}
 
 ---
 
@@ -2022,7 +2022,7 @@ EnableObjectRetention interface{}
 
 Enables each object in the bucket to have its own retention policy, which prevents deletion until stored for a specific length of time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#enable_object_retention GoogleStorageBucket#enable_object_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#enable_object_retention GoogleStorageBucket#enable_object_retention}
 
 ---
 
@@ -2036,7 +2036,7 @@ Encryption GoogleStorageBucketEncryption
 
 encryption block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#encryption GoogleStorageBucket#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#encryption GoogleStorageBucket#encryption}
 
 ---
 
@@ -2052,7 +2052,7 @@ When true, before deleting a bucket, delete all objects within the bucket, or An
 
 Otherwise, buckets with objects/caches will fail. Anywhere Cache requires additional permissions to interact with and will be ignored when those are not present, attempting to delete anyways. This may result in the objects in the bucket getting destroyed but not the bucket itself if there is a cache in use with the bucket. Force deletion may take a long time to delete buckets with lots of objects or with any Anywhere Caches (80m+).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#force_destroy GoogleStorageBucket#force_destroy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#force_destroy GoogleStorageBucket#force_destroy}
 
 ---
 
@@ -2066,7 +2066,7 @@ HierarchicalNamespace GoogleStorageBucketHierarchicalNamespace
 
 hierarchical_namespace block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#hierarchical_namespace GoogleStorageBucket#hierarchical_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#hierarchical_namespace GoogleStorageBucket#hierarchical_namespace}
 
 ---
 
@@ -2078,7 +2078,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#id GoogleStorageBucket#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#id GoogleStorageBucket#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2095,7 +2095,7 @@ IpFilter GoogleStorageBucketIpFilter
 
 ip_filter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#ip_filter GoogleStorageBucket#ip_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#ip_filter GoogleStorageBucket#ip_filter}
 
 ---
 
@@ -2109,7 +2109,7 @@ Labels *map[string]*string
 
 A set of key/value label pairs to assign to the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#labels GoogleStorageBucket#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#labels GoogleStorageBucket#labels}
 
 ---
 
@@ -2123,7 +2123,7 @@ LifecycleRule interface{}
 
 lifecycle_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#lifecycle_rule GoogleStorageBucket#lifecycle_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#lifecycle_rule GoogleStorageBucket#lifecycle_rule}
 
 ---
 
@@ -2137,7 +2137,7 @@ Logging GoogleStorageBucketLogging
 
 logging block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#logging GoogleStorageBucket#logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#logging GoogleStorageBucket#logging}
 
 ---
 
@@ -2153,7 +2153,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#project GoogleStorageBucket#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#project GoogleStorageBucket#project}
 
 ---
 
@@ -2167,7 +2167,7 @@ PublicAccessPrevention *string
 
 Prevents public access to a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#public_access_prevention GoogleStorageBucket#public_access_prevention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#public_access_prevention GoogleStorageBucket#public_access_prevention}
 
 ---
 
@@ -2181,7 +2181,7 @@ RequesterPays interface{}
 
 Enables Requester Pays on a storage bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#requester_pays GoogleStorageBucket#requester_pays}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#requester_pays GoogleStorageBucket#requester_pays}
 
 ---
 
@@ -2195,7 +2195,7 @@ RetentionPolicy GoogleStorageBucketRetentionPolicy
 
 retention_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#retention_policy GoogleStorageBucket#retention_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#retention_policy GoogleStorageBucket#retention_policy}
 
 ---
 
@@ -2211,7 +2211,7 @@ Specifies the RPO setting of bucket.
 
 If set 'ASYNC_TURBO', The Turbo Replication will be enabled for the dual-region bucket. Value 'DEFAULT' will set RPO setting to default. Turbo Replication is only for buckets in dual-regions.See the docs for more details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#rpo GoogleStorageBucket#rpo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#rpo GoogleStorageBucket#rpo}
 
 ---
 
@@ -2225,7 +2225,7 @@ SoftDeletePolicy GoogleStorageBucketSoftDeletePolicy
 
 soft_delete_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#soft_delete_policy GoogleStorageBucket#soft_delete_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#soft_delete_policy GoogleStorageBucket#soft_delete_policy}
 
 ---
 
@@ -2239,7 +2239,7 @@ StorageClass *string
 
 The Storage Class of the new bucket. Supported values include: STANDARD, MULTI_REGIONAL, REGIONAL, NEARLINE, COLDLINE, ARCHIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#storage_class GoogleStorageBucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#storage_class GoogleStorageBucket#storage_class}
 
 ---
 
@@ -2253,7 +2253,7 @@ Timeouts GoogleStorageBucketTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#timeouts GoogleStorageBucket#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#timeouts GoogleStorageBucket#timeouts}
 
 ---
 
@@ -2267,7 +2267,7 @@ UniformBucketLevelAccess interface{}
 
 Enables uniform bucket-level access on a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#uniform_bucket_level_access GoogleStorageBucket#uniform_bucket_level_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#uniform_bucket_level_access GoogleStorageBucket#uniform_bucket_level_access}
 
 ---
 
@@ -2281,7 +2281,7 @@ Versioning GoogleStorageBucketVersioning
 
 versioning block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#versioning GoogleStorageBucket#versioning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#versioning GoogleStorageBucket#versioning}
 
 ---
 
@@ -2295,7 +2295,7 @@ Website GoogleStorageBucketWebsite
 
 website block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#website GoogleStorageBucket#website}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#website GoogleStorageBucket#website}
 
 ---
 
@@ -2304,7 +2304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketCors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketCors {
 	MaxAgeSeconds: *f64,
@@ -2335,7 +2335,7 @@ MaxAgeSeconds *f64
 
 The value, in seconds, to return in the Access-Control-Max-Age header used in preflight responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#max_age_seconds GoogleStorageBucket#max_age_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#max_age_seconds GoogleStorageBucket#max_age_seconds}
 
 ---
 
@@ -2349,7 +2349,7 @@ Method *[]*string
 
 The list of HTTP methods on which to include CORS response headers, (GET, OPTIONS, POST, etc) Note: "*" is permitted in the list of methods, and means "any method".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#method GoogleStorageBucket#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#method GoogleStorageBucket#method}
 
 ---
 
@@ -2365,7 +2365,7 @@ The list of Origins eligible to receive CORS response headers.
 
 Note: "*" is permitted in the list of origins, and means "any Origin".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#origin GoogleStorageBucket#origin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#origin GoogleStorageBucket#origin}
 
 ---
 
@@ -2379,7 +2379,7 @@ ResponseHeader *[]*string
 
 The list of HTTP headers other than the simple response headers to give permission for the user-agent to share across domains.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#response_header GoogleStorageBucket#response_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#response_header GoogleStorageBucket#response_header}
 
 ---
 
@@ -2388,7 +2388,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketCustomPlacementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketCustomPlacementConfig {
 	DataLocations: *[]*string,
@@ -2415,7 +2415,7 @@ The list of individual regions that comprise a dual-region bucket.
 
 See the docs for a list of acceptable regions. Note: If any of the data_locations changes, it will recreate the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#data_locations GoogleStorageBucket#data_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#data_locations GoogleStorageBucket#data_locations}
 
 ---
 
@@ -2424,13 +2424,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketEncryption {
-	CustomerManagedEncryptionEnforcementConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketEncryptionCustomerManagedEncryptionEnforcementConfig,
-	CustomerSuppliedEncryptionEnforcementConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketEncryptionCustomerSuppliedEncryptionEnforcementConfig,
+	CustomerManagedEncryptionEnforcementConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketEncryptionCustomerManagedEncryptionEnforcementConfig,
+	CustomerSuppliedEncryptionEnforcementConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketEncryptionCustomerSuppliedEncryptionEnforcementConfig,
 	DefaultKmsKeyName: *string,
-	GoogleManagedEncryptionEnforcementConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfig,
+	GoogleManagedEncryptionEnforcementConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfig,
 }
 ```
 
@@ -2455,7 +2455,7 @@ CustomerManagedEncryptionEnforcementConfig GoogleStorageBucketEncryptionCustomer
 
 customer_managed_encryption_enforcement_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#customer_managed_encryption_enforcement_config GoogleStorageBucket#customer_managed_encryption_enforcement_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#customer_managed_encryption_enforcement_config GoogleStorageBucket#customer_managed_encryption_enforcement_config}
 
 ---
 
@@ -2469,7 +2469,7 @@ CustomerSuppliedEncryptionEnforcementConfig GoogleStorageBucketEncryptionCustome
 
 customer_supplied_encryption_enforcement_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#customer_supplied_encryption_enforcement_config GoogleStorageBucket#customer_supplied_encryption_enforcement_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#customer_supplied_encryption_enforcement_config GoogleStorageBucket#customer_supplied_encryption_enforcement_config}
 
 ---
 
@@ -2485,7 +2485,7 @@ A Cloud KMS key that will be used to encrypt objects inserted into this bucket, 
 
 You must pay attention to whether the crypto key is available in the location that this bucket is created in. See the docs for more details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#default_kms_key_name GoogleStorageBucket#default_kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#default_kms_key_name GoogleStorageBucket#default_kms_key_name}
 
 ---
 
@@ -2499,7 +2499,7 @@ GoogleManagedEncryptionEnforcementConfig GoogleStorageBucketEncryptionGoogleMana
 
 google_managed_encryption_enforcement_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#google_managed_encryption_enforcement_config GoogleStorageBucket#google_managed_encryption_enforcement_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#google_managed_encryption_enforcement_config GoogleStorageBucket#google_managed_encryption_enforcement_config}
 
 ---
 
@@ -2508,7 +2508,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketEncryptionCustomerManagedEncryptionEnforcementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketEncryptionCustomerManagedEncryptionEnforcementConfig {
 	RestrictionMode: *string,
@@ -2535,7 +2535,7 @@ Whether CMEK is restricted for new objects within the bucket.
 
 If FullyRestricted, new objects can't be created using CMEK encryption. If NotRestricted or unset, creation of new objects with CMEK encryption is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#restriction_mode GoogleStorageBucket#restriction_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#restriction_mode GoogleStorageBucket#restriction_mode}
 
 ---
 
@@ -2544,7 +2544,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketEncryptionCustomerSuppliedEncryptionEnforcementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketEncryptionCustomerSuppliedEncryptionEnforcementConfig {
 	RestrictionMode: *string,
@@ -2571,7 +2571,7 @@ Whether CSEK is restricted for new objects within the bucket.
 
 If FullyRestricted, new objects can't be created using CSEK encryption. If NotRestricted or unset, creation of new objects with CSEK encryption is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#restriction_mode GoogleStorageBucket#restriction_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#restriction_mode GoogleStorageBucket#restriction_mode}
 
 ---
 
@@ -2580,7 +2580,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfig {
 	RestrictionMode: *string,
@@ -2607,7 +2607,7 @@ Whether GMEK is restricted for new objects within the bucket.
 
 If FullyRestricted, new objects can't be created using GMEK encryption. If NotRestricted or unset, creation of new objects with GMEK encryption is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#restriction_mode GoogleStorageBucket#restriction_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#restriction_mode GoogleStorageBucket#restriction_mode}
 
 ---
 
@@ -2616,7 +2616,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketHierarchicalNamespace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketHierarchicalNamespace {
 	Enabled: interface{},
@@ -2641,7 +2641,7 @@ Enabled interface{}
 
 Set this field true to organize bucket with logical file system structure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#enabled GoogleStorageBucket#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#enabled GoogleStorageBucket#enabled}
 
 ---
 
@@ -2650,13 +2650,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketIpFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketIpFilter {
 	Mode: *string,
 	AllowAllServiceAgentAccess: interface{},
 	AllowCrossOrgVpcs: interface{},
-	PublicNetworkSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketIpFilterPublicNetworkSource,
+	PublicNetworkSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketIpFilterPublicNetworkSource,
 	VpcNetworkSources: interface{},
 }
 ```
@@ -2683,7 +2683,7 @@ Mode *string
 
 The mode of the IP filter. Valid values are 'Enabled' and 'Disabled'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#mode GoogleStorageBucket#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#mode GoogleStorageBucket#mode}
 
 ---
 
@@ -2697,7 +2697,7 @@ AllowAllServiceAgentAccess interface{}
 
 Whether to allow all service agents to access the bucket regardless of the IP filter configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#allow_all_service_agent_access GoogleStorageBucket#allow_all_service_agent_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#allow_all_service_agent_access GoogleStorageBucket#allow_all_service_agent_access}
 
 ---
 
@@ -2711,7 +2711,7 @@ AllowCrossOrgVpcs interface{}
 
 Whether to allow cross-org VPCs in the bucket's IP filter configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#allow_cross_org_vpcs GoogleStorageBucket#allow_cross_org_vpcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#allow_cross_org_vpcs GoogleStorageBucket#allow_cross_org_vpcs}
 
 ---
 
@@ -2725,7 +2725,7 @@ PublicNetworkSource GoogleStorageBucketIpFilterPublicNetworkSource
 
 public_network_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#public_network_source GoogleStorageBucket#public_network_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#public_network_source GoogleStorageBucket#public_network_source}
 
 ---
 
@@ -2739,7 +2739,7 @@ VpcNetworkSources interface{}
 
 vpc_network_sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#vpc_network_sources GoogleStorageBucket#vpc_network_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#vpc_network_sources GoogleStorageBucket#vpc_network_sources}
 
 ---
 
@@ -2748,7 +2748,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketIpFilterPublicNetworkSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketIpFilterPublicNetworkSource {
 	AllowedIpCidrRanges: *[]*string,
@@ -2773,7 +2773,7 @@ AllowedIpCidrRanges *[]*string
 
 The list of public IPv4, IPv6 cidr ranges that are allowed to access the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#allowed_ip_cidr_ranges GoogleStorageBucket#allowed_ip_cidr_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#allowed_ip_cidr_ranges GoogleStorageBucket#allowed_ip_cidr_ranges}
 
 ---
 
@@ -2782,7 +2782,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketIpFilterVpcNetworkSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketIpFilterVpcNetworkSources {
 	AllowedIpCidrRanges: *[]*string,
@@ -2809,7 +2809,7 @@ AllowedIpCidrRanges *[]*string
 
 The list of public or private IPv4 and IPv6 CIDR ranges that can access the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#allowed_ip_cidr_ranges GoogleStorageBucket#allowed_ip_cidr_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#allowed_ip_cidr_ranges GoogleStorageBucket#allowed_ip_cidr_ranges}
 
 ---
 
@@ -2823,7 +2823,7 @@ Network *string
 
 Name of the network. Format: projects/{PROJECT_ID}/global/networks/{NETWORK_NAME}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#network GoogleStorageBucket#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#network GoogleStorageBucket#network}
 
 ---
 
@@ -2832,11 +2832,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketLifecycleRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketLifecycleRule {
-	Action: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketLifecycleRuleAction,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBucket.GoogleStorageBucketLifecycleRuleCondition,
+	Action: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketLifecycleRuleAction,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageBucket.GoogleStorageBucketLifecycleRuleCondition,
 }
 ```
 
@@ -2859,7 +2859,7 @@ Action GoogleStorageBucketLifecycleRuleAction
 
 action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#action GoogleStorageBucket#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#action GoogleStorageBucket#action}
 
 ---
 
@@ -2873,7 +2873,7 @@ Condition GoogleStorageBucketLifecycleRuleCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#condition GoogleStorageBucket#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#condition GoogleStorageBucket#condition}
 
 ---
 
@@ -2882,7 +2882,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketLifecycleRuleAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketLifecycleRuleAction {
 	Type: *string,
@@ -2909,7 +2909,7 @@ Type *string
 
 The type of the action of this Lifecycle Rule. Supported values include: Delete, SetStorageClass and AbortIncompleteMultipartUpload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#type GoogleStorageBucket#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#type GoogleStorageBucket#type}
 
 ---
 
@@ -2923,7 +2923,7 @@ StorageClass *string
 
 The target Storage Class of objects affected by this Lifecycle Rule. Supported values include: MULTI_REGIONAL, REGIONAL, NEARLINE, COLDLINE, ARCHIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#storage_class GoogleStorageBucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#storage_class GoogleStorageBucket#storage_class}
 
 ---
 
@@ -2932,7 +2932,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketLifecycleRuleCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketLifecycleRuleCondition {
 	Age: *f64,
@@ -2989,7 +2989,7 @@ Age *f64
 
 Minimum age of an object in days to satisfy this condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#age GoogleStorageBucket#age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#age GoogleStorageBucket#age}
 
 ---
 
@@ -3003,7 +3003,7 @@ CreatedBefore *string
 
 Creation date of an object in RFC 3339 (e.g. 2017-06-13) to satisfy this condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#created_before GoogleStorageBucket#created_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#created_before GoogleStorageBucket#created_before}
 
 ---
 
@@ -3017,7 +3017,7 @@ CustomTimeBefore *string
 
 Creation date of an object in RFC 3339 (e.g. 2017-06-13) to satisfy this condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#custom_time_before GoogleStorageBucket#custom_time_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#custom_time_before GoogleStorageBucket#custom_time_before}
 
 ---
 
@@ -3031,7 +3031,7 @@ DaysSinceCustomTime *f64
 
 Number of days elapsed since the user-specified timestamp set on an object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#days_since_custom_time GoogleStorageBucket#days_since_custom_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#days_since_custom_time GoogleStorageBucket#days_since_custom_time}
 
 ---
 
@@ -3045,7 +3045,7 @@ DaysSinceNoncurrentTime *f64
 
 Number of days elapsed since the noncurrent timestamp of an object. This 										condition is relevant only for versioned objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#days_since_noncurrent_time GoogleStorageBucket#days_since_noncurrent_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#days_since_noncurrent_time GoogleStorageBucket#days_since_noncurrent_time}
 
 ---
 
@@ -3059,7 +3059,7 @@ MatchesPrefix *[]*string
 
 One or more matching name prefixes to satisfy this condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#matches_prefix GoogleStorageBucket#matches_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#matches_prefix GoogleStorageBucket#matches_prefix}
 
 ---
 
@@ -3073,7 +3073,7 @@ MatchesStorageClass *[]*string
 
 Storage Class of objects to satisfy this condition. Supported values include: MULTI_REGIONAL, REGIONAL, NEARLINE, COLDLINE, ARCHIVE, STANDARD, DURABLE_REDUCED_AVAILABILITY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#matches_storage_class GoogleStorageBucket#matches_storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#matches_storage_class GoogleStorageBucket#matches_storage_class}
 
 ---
 
@@ -3087,7 +3087,7 @@ MatchesSuffix *[]*string
 
 One or more matching name suffixes to satisfy this condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#matches_suffix GoogleStorageBucket#matches_suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#matches_suffix GoogleStorageBucket#matches_suffix}
 
 ---
 
@@ -3101,7 +3101,7 @@ NoncurrentTimeBefore *string
 
 Creation date of an object in RFC 3339 (e.g. 2017-06-13) to satisfy this condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#noncurrent_time_before GoogleStorageBucket#noncurrent_time_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#noncurrent_time_before GoogleStorageBucket#noncurrent_time_before}
 
 ---
 
@@ -3115,7 +3115,7 @@ NumNewerVersions *f64
 
 Relevant only for versioned objects. The number of newer versions of an object to satisfy this condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#num_newer_versions GoogleStorageBucket#num_newer_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#num_newer_versions GoogleStorageBucket#num_newer_versions}
 
 ---
 
@@ -3131,7 +3131,7 @@ While set true, age value will be sent in the request even for zero value of the
 
 This field is only useful for setting 0 value to the age field. It can be used alone or together with age.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#send_age_if_zero GoogleStorageBucket#send_age_if_zero}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#send_age_if_zero GoogleStorageBucket#send_age_if_zero}
 
 ---
 
@@ -3147,7 +3147,7 @@ While set true, days_since_custom_time value will be sent in the request even fo
 
 This field is only useful for setting 0 value to the days_since_custom_time field. It can be used alone or together with days_since_custom_time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#send_days_since_custom_time_if_zero GoogleStorageBucket#send_days_since_custom_time_if_zero}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#send_days_since_custom_time_if_zero GoogleStorageBucket#send_days_since_custom_time_if_zero}
 
 ---
 
@@ -3163,7 +3163,7 @@ While set true, days_since_noncurrent_time value will be sent in the request eve
 
 This field is only useful for setting 0 value to the days_since_noncurrent_time field. It can be used alone or together with days_since_noncurrent_time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#send_days_since_noncurrent_time_if_zero GoogleStorageBucket#send_days_since_noncurrent_time_if_zero}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#send_days_since_noncurrent_time_if_zero GoogleStorageBucket#send_days_since_noncurrent_time_if_zero}
 
 ---
 
@@ -3179,7 +3179,7 @@ While set true, num_newer_versions value will be sent in the request even for ze
 
 This field is only useful for setting 0 value to the num_newer_versions field. It can be used alone or together with num_newer_versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#send_num_newer_versions_if_zero GoogleStorageBucket#send_num_newer_versions_if_zero}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#send_num_newer_versions_if_zero GoogleStorageBucket#send_num_newer_versions_if_zero}
 
 ---
 
@@ -3193,7 +3193,7 @@ SizeAboveBytes *f64
 
 Objects having a size greater than this value in bytes will be matched.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#size_above_bytes GoogleStorageBucket#size_above_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#size_above_bytes GoogleStorageBucket#size_above_bytes}
 
 ---
 
@@ -3207,7 +3207,7 @@ SizeBelowBytes *f64
 
 Objects having a size less than this value in bytes will be matched.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#size_below_bytes GoogleStorageBucket#size_below_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#size_below_bytes GoogleStorageBucket#size_below_bytes}
 
 ---
 
@@ -3221,7 +3221,7 @@ WithState *string
 
 Match to live and/or archived objects. Unversioned buckets have only live objects. Supported values include: "LIVE", "ARCHIVED", "ANY".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#with_state GoogleStorageBucket#with_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#with_state GoogleStorageBucket#with_state}
 
 ---
 
@@ -3230,7 +3230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketLogging.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketLogging {
 	LogBucket: *string,
@@ -3257,7 +3257,7 @@ LogBucket *string
 
 The bucket that will receive log objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#log_bucket GoogleStorageBucket#log_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#log_bucket GoogleStorageBucket#log_bucket}
 
 ---
 
@@ -3273,7 +3273,7 @@ The object prefix for log objects.
 
 If it's not provided, by default Google Cloud Storage sets this to this bucket's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#log_object_prefix GoogleStorageBucket#log_object_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#log_object_prefix GoogleStorageBucket#log_object_prefix}
 
 ---
 
@@ -3282,7 +3282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketRetentionPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketRetentionPolicy {
 	RetentionPeriod: *string,
@@ -3311,7 +3311,7 @@ The period of time, in seconds, that objects in the bucket must be retained and 
 
 The value must be less than 3,155,760,000 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#retention_period GoogleStorageBucket#retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#retention_period GoogleStorageBucket#retention_period}
 
 ---
 
@@ -3327,7 +3327,7 @@ If set to true, the bucket will be locked and permanently restrict edits to the 
 
 Caution: Locking a bucket is an irreversible action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#is_locked GoogleStorageBucket#is_locked}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#is_locked GoogleStorageBucket#is_locked}
 
 ---
 
@@ -3336,7 +3336,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketSoftDeletePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketSoftDeletePolicy {
 	RetentionDurationSeconds: *f64,
@@ -3363,7 +3363,7 @@ The duration in seconds that soft-deleted objects in the bucket will be retained
 
 Default value is 604800.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#retention_duration_seconds GoogleStorageBucket#retention_duration_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#retention_duration_seconds GoogleStorageBucket#retention_duration_seconds}
 
 ---
 
@@ -3372,7 +3372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketTimeouts {
 	Create: *string,
@@ -3385,9 +3385,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlest
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#create GoogleStorageBucket#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketTimeouts.property.read">Read</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#read GoogleStorageBucket#read}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#update GoogleStorageBucket#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#create GoogleStorageBucket#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketTimeouts.property.read">Read</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#read GoogleStorageBucket#read}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#update GoogleStorageBucket#update}. |
 
 ---
 
@@ -3399,7 +3399,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#create GoogleStorageBucket#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#create GoogleStorageBucket#create}.
 
 ---
 
@@ -3411,7 +3411,7 @@ Read *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#read GoogleStorageBucket#read}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#read GoogleStorageBucket#read}.
 
 ---
 
@@ -3423,7 +3423,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#update GoogleStorageBucket#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#update GoogleStorageBucket#update}.
 
 ---
 
@@ -3432,7 +3432,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketVersioning.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketVersioning {
 	Enabled: interface{},
@@ -3457,7 +3457,7 @@ Enabled interface{}
 
 While set to true, versioning is fully enabled for this bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#enabled GoogleStorageBucket#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#enabled GoogleStorageBucket#enabled}
 
 ---
 
@@ -3466,7 +3466,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketWebsite.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 &googlestoragebucket.GoogleStorageBucketWebsite {
 	MainPageSuffix: *string,
@@ -3493,7 +3493,7 @@ MainPageSuffix *string
 
 Behaves as the bucket's directory index where missing objects are treated as potential directories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#main_page_suffix GoogleStorageBucket#main_page_suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#main_page_suffix GoogleStorageBucket#main_page_suffix}
 
 ---
 
@@ -3507,7 +3507,7 @@ NotFoundPage *string
 
 The custom object to return when a requested resource is not found.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_bucket#not_found_page GoogleStorageBucket#not_found_page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_bucket#not_found_page GoogleStorageBucket#not_found_page}
 
 ---
 
@@ -3518,7 +3518,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketAutoclassOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketAutoclassOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketAutoclassOutputReference
 ```
@@ -3818,7 +3818,7 @@ func InternalValue() GoogleStorageBucketAutoclass
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketCorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketCorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleStorageBucketCorsList
 ```
@@ -3978,7 +3978,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketCorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketCorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleStorageBucketCorsOutputReference
 ```
@@ -4361,7 +4361,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketCustomPlacementConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketCustomPlacementConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketCustomPlacementConfigOutputReference
 ```
@@ -4632,7 +4632,7 @@ func InternalValue() GoogleStorageBucketCustomPlacementConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketEncryptionCustomerManagedEncryptionEnforcementConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketEncryptionCustomerManagedEncryptionEnforcementConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketEncryptionCustomerManagedEncryptionEnforcementConfigOutputReference
 ```
@@ -4914,7 +4914,7 @@ func InternalValue() GoogleStorageBucketEncryptionCustomerManagedEncryptionEnfor
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketEncryptionCustomerSuppliedEncryptionEnforcementConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketEncryptionCustomerSuppliedEncryptionEnforcementConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketEncryptionCustomerSuppliedEncryptionEnforcementConfigOutputReference
 ```
@@ -5196,7 +5196,7 @@ func InternalValue() GoogleStorageBucketEncryptionCustomerSuppliedEncryptionEnfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference
 ```
@@ -5478,7 +5478,7 @@ func InternalValue() GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforce
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketEncryptionOutputReference
 ```
@@ -5882,7 +5882,7 @@ func InternalValue() GoogleStorageBucketEncryption
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketHierarchicalNamespaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketHierarchicalNamespaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketHierarchicalNamespaceOutputReference
 ```
@@ -6153,7 +6153,7 @@ func InternalValue() GoogleStorageBucketHierarchicalNamespace
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketIpFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketIpFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketIpFilterOutputReference
 ```
@@ -6566,7 +6566,7 @@ func InternalValue() GoogleStorageBucketIpFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketIpFilterPublicNetworkSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketIpFilterPublicNetworkSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketIpFilterPublicNetworkSourceOutputReference
 ```
@@ -6837,7 +6837,7 @@ func InternalValue() GoogleStorageBucketIpFilterPublicNetworkSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketIpFilterVpcNetworkSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketIpFilterVpcNetworkSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleStorageBucketIpFilterVpcNetworkSourcesList
 ```
@@ -6997,7 +6997,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketIpFilterVpcNetworkSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketIpFilterVpcNetworkSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleStorageBucketIpFilterVpcNetworkSourcesOutputReference
 ```
@@ -7308,7 +7308,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketLifecycleRuleActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketLifecycleRuleActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketLifecycleRuleActionOutputReference
 ```
@@ -7608,7 +7608,7 @@ func InternalValue() GoogleStorageBucketLifecycleRuleAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketLifecycleRuleConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketLifecycleRuleConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketLifecycleRuleConditionOutputReference
 ```
@@ -8350,7 +8350,7 @@ func InternalValue() GoogleStorageBucketLifecycleRuleCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketLifecycleRuleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketLifecycleRuleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleStorageBucketLifecycleRuleList
 ```
@@ -8510,7 +8510,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketLifecycleRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketLifecycleRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleStorageBucketLifecycleRuleOutputReference
 ```
@@ -8847,7 +8847,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketLoggingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketLoggingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketLoggingOutputReference
 ```
@@ -9147,7 +9147,7 @@ func InternalValue() GoogleStorageBucketLogging
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketRetentionPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketRetentionPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketRetentionPolicyOutputReference
 ```
@@ -9447,7 +9447,7 @@ func InternalValue() GoogleStorageBucketRetentionPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketSoftDeletePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketSoftDeletePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketSoftDeletePolicyOutputReference
 ```
@@ -9736,7 +9736,7 @@ func InternalValue() GoogleStorageBucketSoftDeletePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketTimeoutsOutputReference
 ```
@@ -10072,7 +10072,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketVersioningOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketVersioningOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketVersioningOutputReference
 ```
@@ -10343,7 +10343,7 @@ func InternalValue() GoogleStorageBucketVersioning
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucket.GoogleStorageBucketWebsiteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragebucket"
 
 googlestoragebucket.NewGoogleStorageBucketWebsiteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBucketWebsiteOutputReference
 ```

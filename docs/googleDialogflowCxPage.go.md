@@ -4,12 +4,12 @@
 
 ### GoogleDialogflowCxPage <a name="GoogleDialogflowCxPage" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page google_dialogflow_cx_page}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page google_dialogflow_cx_page}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPage(scope Construct, id *string, config GoogleDialogflowCxPageConfig) GoogleDialogflowCxPage
 ```
@@ -575,7 +575,7 @@ func ResetTransitionRoutes()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.GoogleDialogflowCxPage_IsConstruct(x interface{}) *bool
 ```
@@ -607,7 +607,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.GoogleDialogflowCxPage_IsTerraformElement(x interface{}) *bool
 ```
@@ -621,7 +621,7 @@ googledialogflowcxpage.GoogleDialogflowCxPage_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPage.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.GoogleDialogflowCxPage_IsTerraformResource(x interface{}) *bool
 ```
@@ -635,7 +635,7 @@ googledialogflowcxpage.GoogleDialogflowCxPage_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.GoogleDialogflowCxPage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -664,7 +664,7 @@ The construct id used in the generated config for the GoogleDialogflowCxPage to 
 
 The id of the existing GoogleDialogflowCxPage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1161,10 +1161,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageAdvancedSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageAdvancedSettings {
-	DtmfSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageAdvancedSettingsDtmfSettings,
+	DtmfSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageAdvancedSettingsDtmfSettings,
 }
 ```
 
@@ -1186,7 +1186,7 @@ DtmfSettings GoogleDialogflowCxPageAdvancedSettingsDtmfSettings
 
 dtmf_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#dtmf_settings GoogleDialogflowCxPage#dtmf_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#dtmf_settings GoogleDialogflowCxPage#dtmf_settings}
 
 ---
 
@@ -1195,7 +1195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageAdvancedSettingsDtmfSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageAdvancedSettingsDtmfSettings {
 	Enabled: interface{},
@@ -1226,7 +1226,7 @@ If true, incoming audio is processed for DTMF (dual tone multi frequency) events
 
 For example, if the caller presses a button on their telephone keypad and DTMF processing is enabled, Dialogflow will detect the event (e.g. a "3" was pressed) in the incoming audio and pass the event to the bot to drive business logic (e.g. when 3 is pressed, return the account balance).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#enabled GoogleDialogflowCxPage#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#enabled GoogleDialogflowCxPage#enabled}
 
 ---
 
@@ -1240,7 +1240,7 @@ FinishDigit *string
 
 The digit that terminates a DTMF digit sequence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#finish_digit GoogleDialogflowCxPage#finish_digit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#finish_digit GoogleDialogflowCxPage#finish_digit}
 
 ---
 
@@ -1254,7 +1254,7 @@ MaxDigits *f64
 
 Max length of DTMF digits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#max_digits GoogleDialogflowCxPage#max_digits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#max_digits GoogleDialogflowCxPage#max_digits}
 
 ---
 
@@ -1263,7 +1263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageConfig {
 	Connection: interface{},
@@ -1274,16 +1274,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	DisplayName: *string,
-	AdvancedSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageAdvancedSettings,
+	AdvancedSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageAdvancedSettings,
 	DeletionPolicy: *string,
-	EntryFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillment,
+	EntryFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillment,
 	EventHandlers: interface{},
-	Form: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageForm,
+	Form: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageForm,
 	Id: *string,
-	KnowledgeConnectorSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettings,
+	KnowledgeConnectorSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettings,
 	LanguageCode: *string,
 	Parent: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageTimeouts,
 	TransitionRouteGroups: *[]*string,
 	TransitionRoutes: interface{},
 }
@@ -1306,7 +1306,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageConfig.property.entryFulfillment">EntryFulfillment</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillment">GoogleDialogflowCxPageEntryFulfillment</a></code> | entry_fulfillment block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageConfig.property.eventHandlers">EventHandlers</a></code> | <code>interface{}</code> | event_handlers block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageConfig.property.form">Form</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageForm">GoogleDialogflowCxPageForm</a></code> | form block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#id GoogleDialogflowCxPage#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#id GoogleDialogflowCxPage#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageConfig.property.knowledgeConnectorSettings">KnowledgeConnectorSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettings">GoogleDialogflowCxPageKnowledgeConnectorSettings</a></code> | knowledge_connector_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageConfig.property.languageCode">LanguageCode</a></code> | <code>*string</code> | The language of the following fields in page:. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageConfig.property.parent">Parent</a></code> | <code>*string</code> | The flow to create a page for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>. |
@@ -1396,7 +1396,7 @@ DisplayName *string
 
 The human-readable name of the page, unique within the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#display_name GoogleDialogflowCxPage#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#display_name GoogleDialogflowCxPage#display_name}
 
 ---
 
@@ -1410,7 +1410,7 @@ AdvancedSettings GoogleDialogflowCxPageAdvancedSettings
 
 advanced_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#advanced_settings GoogleDialogflowCxPage#advanced_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#advanced_settings GoogleDialogflowCxPage#advanced_settings}
 
 ---
 
@@ -1431,7 +1431,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#deletion_policy GoogleDialogflowCxPage#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#deletion_policy GoogleDialogflowCxPage#deletion_policy}
 
 ---
 
@@ -1445,7 +1445,7 @@ EntryFulfillment GoogleDialogflowCxPageEntryFulfillment
 
 entry_fulfillment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#entry_fulfillment GoogleDialogflowCxPage#entry_fulfillment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#entry_fulfillment GoogleDialogflowCxPage#entry_fulfillment}
 
 ---
 
@@ -1459,7 +1459,7 @@ EventHandlers interface{}
 
 event_handlers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#event_handlers GoogleDialogflowCxPage#event_handlers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#event_handlers GoogleDialogflowCxPage#event_handlers}
 
 ---
 
@@ -1473,7 +1473,7 @@ Form GoogleDialogflowCxPageForm
 
 form block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#form GoogleDialogflowCxPage#form}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#form GoogleDialogflowCxPage#form}
 
 ---
 
@@ -1485,7 +1485,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#id GoogleDialogflowCxPage#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#id GoogleDialogflowCxPage#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1502,7 +1502,7 @@ KnowledgeConnectorSettings GoogleDialogflowCxPageKnowledgeConnectorSettings
 
 knowledge_connector_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#knowledge_connector_settings GoogleDialogflowCxPage#knowledge_connector_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#knowledge_connector_settings GoogleDialogflowCxPage#knowledge_connector_settings}
 
 ---
 
@@ -1528,7 +1528,7 @@ Page.transition_routes.trigger_fulfillment.messages
 Page.transition_routes.trigger_fulfillment.conditional_cases
 If not specified, the agent's default language is used. Many languages are supported. Note: languages must be enabled in the agent before they can be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#language_code GoogleDialogflowCxPage#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#language_code GoogleDialogflowCxPage#language_code}
 
 ---
 
@@ -1542,7 +1542,7 @@ Parent *string
 
 The flow to create a page for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#parent GoogleDialogflowCxPage#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#parent GoogleDialogflowCxPage#parent}
 
 ---
 
@@ -1556,7 +1556,7 @@ Timeouts GoogleDialogflowCxPageTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#timeouts GoogleDialogflowCxPage#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#timeouts GoogleDialogflowCxPage#timeouts}
 
 ---
 
@@ -1575,7 +1575,7 @@ If multiple transition routes within a page scope refer to the same intent, then
 If multiple transition route groups within a page contain the same intent, then the first group in the ordered list takes precedence.
 Format:projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>/transitionRouteGroups/<TransitionRouteGroup ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#transition_route_groups GoogleDialogflowCxPage#transition_route_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#transition_route_groups GoogleDialogflowCxPage#transition_route_groups}
 
 ---
 
@@ -1589,7 +1589,7 @@ TransitionRoutes interface{}
 
 transition_routes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#transition_routes GoogleDialogflowCxPage#transition_routes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#transition_routes GoogleDialogflowCxPage#transition_routes}
 
 ---
 
@@ -1598,7 +1598,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEntryFulfillment {
 	ConditionalCases: interface{},
@@ -1633,7 +1633,7 @@ ConditionalCases interface{}
 
 conditional_cases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
 
 ---
 
@@ -1647,7 +1647,7 @@ Messages interface{}
 
 messages block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
 
 ---
 
@@ -1663,7 +1663,7 @@ Whether Dialogflow should return currently queued fulfillment response messages 
 
 If a webhook is specified, it happens before Dialogflow invokes webhook. Warning: 1) This flag only affects streaming API. Responses are still queued and returned once in non-streaming API. 2) The flag can be enabled in any fulfillment but only the first 3 partial responses will be returned. You may only want to apply it to fulfillments that have slow webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
 
 ---
 
@@ -1677,7 +1677,7 @@ SetParameterActions interface{}
 
 set_parameter_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
 
 ---
 
@@ -1693,7 +1693,7 @@ The tag used by the webhook to identify which fulfillment is being called.
 
 This field is required if webhook is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
 
 ---
 
@@ -1707,7 +1707,7 @@ Webhook *string
 
 The webhook to call. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/webhooks/<Webhook ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
 
 ---
 
@@ -1716,7 +1716,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentConditionalCases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEntryFulfillmentConditionalCases {
 	Cases: *string,
@@ -1744,7 +1744,7 @@ A JSON encoded list of cascading if-else conditions.
 Cases are mutually exclusive. The first one with a matching condition is selected, all the rest ignored.
 See [Case](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/Fulfillment#case) for the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
 
 ---
 
@@ -1753,17 +1753,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEntryFulfillmentMessages {
 	Channel: *string,
-	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesConversationSuccess,
-	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesLiveAgentHandoff,
-	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesOutputAudioText,
+	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesConversationSuccess,
+	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesLiveAgentHandoff,
+	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesOutputAudioText,
 	Payload: *string,
-	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesPlayAudio,
-	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesTelephonyTransferCall,
-	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesText,
+	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesPlayAudio,
+	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesTelephonyTransferCall,
+	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesText,
 }
 ```
 
@@ -1794,7 +1794,7 @@ The channel which the response is associated with.
 
 Clients can specify the channel via QueryParameters.channel, and only associated channel response will be returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
 
 ---
 
@@ -1808,7 +1808,7 @@ ConversationSuccess GoogleDialogflowCxPageEntryFulfillmentMessagesConversationSu
 
 conversation_success block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
 
 ---
 
@@ -1822,7 +1822,7 @@ LiveAgentHandoff GoogleDialogflowCxPageEntryFulfillmentMessagesLiveAgentHandoff
 
 live_agent_handoff block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
 
 ---
 
@@ -1836,7 +1836,7 @@ OutputAudioText GoogleDialogflowCxPageEntryFulfillmentMessagesOutputAudioText
 
 output_audio_text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
 
 ---
 
@@ -1850,7 +1850,7 @@ Payload *string
 
 A custom, platform-specific payload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
 
 ---
 
@@ -1864,7 +1864,7 @@ PlayAudio GoogleDialogflowCxPageEntryFulfillmentMessagesPlayAudio
 
 play_audio block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
 
 ---
 
@@ -1878,7 +1878,7 @@ TelephonyTransferCall GoogleDialogflowCxPageEntryFulfillmentMessagesTelephonyTra
 
 telephony_transfer_call block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
 
 ---
 
@@ -1892,7 +1892,7 @@ Text GoogleDialogflowCxPageEntryFulfillmentMessagesText
 
 text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -1901,7 +1901,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesConversationSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEntryFulfillmentMessagesConversationSuccess {
 	Metadata: *string,
@@ -1926,7 +1926,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -1935,7 +1935,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesLiveAgentHandoff.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEntryFulfillmentMessagesLiveAgentHandoff {
 	Metadata: *string,
@@ -1960,7 +1960,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -1969,7 +1969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesOutputAudioText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEntryFulfillmentMessagesOutputAudioText {
 	Ssml: *string,
@@ -1996,7 +1996,7 @@ Ssml *string
 
 The SSML text to be synthesized. For more information, see SSML.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
 
 ---
 
@@ -2010,7 +2010,7 @@ Text *string
 
 The raw text to be synthesized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -2019,7 +2019,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesPlayAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEntryFulfillmentMessagesPlayAudio {
 	AudioUri: *string,
@@ -2046,7 +2046,7 @@ URI of the audio clip.
 
 Dialogflow does not impose any validation on this value. It is specific to the client that reads it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
 
 ---
 
@@ -2055,7 +2055,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesTelephonyTransferCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEntryFulfillmentMessagesTelephonyTransferCall {
 	PhoneNumber: *string,
@@ -2080,7 +2080,7 @@ PhoneNumber *string
 
 Transfer the call to a phone number in E.164 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
 
 ---
 
@@ -2089,7 +2089,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEntryFulfillmentMessagesText {
 	Text: *[]*string,
@@ -2114,7 +2114,7 @@ Text *[]*string
 
 A collection of text responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -2123,7 +2123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentSetParameterActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEntryFulfillmentSetParameterActions {
 	Parameter: *string,
@@ -2150,7 +2150,7 @@ Parameter *string
 
 Display name of the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
 
 ---
 
@@ -2164,7 +2164,7 @@ Value *string
 
 The new JSON-encoded value of the parameter. A null value clears the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
 
 ---
 
@@ -2173,13 +2173,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEventHandlers {
 	Event: *string,
 	TargetFlow: *string,
 	TargetPage: *string,
-	TriggerFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillment,
+	TriggerFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillment,
 }
 ```
 
@@ -2204,7 +2204,7 @@ Event *string
 
 The name of the event to handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#event GoogleDialogflowCxPage#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#event GoogleDialogflowCxPage#event}
 
 ---
 
@@ -2218,7 +2218,7 @@ TargetFlow *string
 
 The target flow to transition to. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#target_flow GoogleDialogflowCxPage#target_flow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#target_flow GoogleDialogflowCxPage#target_flow}
 
 ---
 
@@ -2232,7 +2232,7 @@ TargetPage *string
 
 The target page to transition to. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>/pages/<Page ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#target_page GoogleDialogflowCxPage#target_page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#target_page GoogleDialogflowCxPage#target_page}
 
 ---
 
@@ -2246,7 +2246,7 @@ TriggerFulfillment GoogleDialogflowCxPageEventHandlersTriggerFulfillment
 
 trigger_fulfillment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#trigger_fulfillment GoogleDialogflowCxPage#trigger_fulfillment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#trigger_fulfillment GoogleDialogflowCxPage#trigger_fulfillment}
 
 ---
 
@@ -2255,7 +2255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEventHandlersTriggerFulfillment {
 	ConditionalCases: interface{},
@@ -2290,7 +2290,7 @@ ConditionalCases interface{}
 
 conditional_cases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
 
 ---
 
@@ -2304,7 +2304,7 @@ Messages interface{}
 
 messages block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
 
 ---
 
@@ -2320,7 +2320,7 @@ Whether Dialogflow should return currently queued fulfillment response messages 
 
 If a webhook is specified, it happens before Dialogflow invokes webhook. Warning: 1) This flag only affects streaming API. Responses are still queued and returned once in non-streaming API. 2) The flag can be enabled in any fulfillment but only the first 3 partial responses will be returned. You may only want to apply it to fulfillments that have slow webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
 
 ---
 
@@ -2334,7 +2334,7 @@ SetParameterActions interface{}
 
 set_parameter_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
 
 ---
 
@@ -2350,7 +2350,7 @@ The tag used by the webhook to identify which fulfillment is being called.
 
 This field is required if webhook is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
 
 ---
 
@@ -2364,7 +2364,7 @@ Webhook *string
 
 The webhook to call. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/webhooks/<Webhook ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
 
 ---
 
@@ -2373,7 +2373,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentConditionalCases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentConditionalCases {
 	Cases: *string,
@@ -2401,7 +2401,7 @@ A JSON encoded list of cascading if-else conditions.
 Cases are mutually exclusive. The first one with a matching condition is selected, all the rest ignored.
 See [Case](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/Fulfillment#case) for the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
 
 ---
 
@@ -2410,17 +2410,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessages {
 	Channel: *string,
-	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesConversationSuccess,
-	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoff,
-	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesOutputAudioText,
+	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesConversationSuccess,
+	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoff,
+	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesOutputAudioText,
 	Payload: *string,
-	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesPlayAudio,
-	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCall,
-	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesText,
+	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesPlayAudio,
+	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCall,
+	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesText,
 }
 ```
 
@@ -2451,7 +2451,7 @@ The channel which the response is associated with.
 
 Clients can specify the channel via QueryParameters.channel, and only associated channel response will be returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
 
 ---
 
@@ -2465,7 +2465,7 @@ ConversationSuccess GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessage
 
 conversation_success block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
 
 ---
 
@@ -2479,7 +2479,7 @@ LiveAgentHandoff GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesLi
 
 live_agent_handoff block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
 
 ---
 
@@ -2493,7 +2493,7 @@ OutputAudioText GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesOut
 
 output_audio_text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
 
 ---
 
@@ -2507,7 +2507,7 @@ Payload *string
 
 A custom, platform-specific payload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
 
 ---
 
@@ -2521,7 +2521,7 @@ PlayAudio GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesPlayAudio
 
 play_audio block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
 
 ---
 
@@ -2535,7 +2535,7 @@ TelephonyTransferCall GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessa
 
 telephony_transfer_call block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
 
 ---
 
@@ -2549,7 +2549,7 @@ Text GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesText
 
 text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -2558,7 +2558,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesConversationSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesConversationSuccess {
 	Metadata: *string,
@@ -2583,7 +2583,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -2592,7 +2592,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoff.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoff {
 	Metadata: *string,
@@ -2617,7 +2617,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -2626,7 +2626,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesOutputAudioText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesOutputAudioText {
 	Ssml: *string,
@@ -2653,7 +2653,7 @@ Ssml *string
 
 The SSML text to be synthesized. For more information, see SSML.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
 
 ---
 
@@ -2667,7 +2667,7 @@ Text *string
 
 The raw text to be synthesized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -2676,7 +2676,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesPlayAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesPlayAudio {
 	AudioUri: *string,
@@ -2703,7 +2703,7 @@ URI of the audio clip.
 
 Dialogflow does not impose any validation on this value. It is specific to the client that reads it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
 
 ---
 
@@ -2712,7 +2712,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCall {
 	PhoneNumber: *string,
@@ -2737,7 +2737,7 @@ PhoneNumber *string
 
 Transfer the call to a phone number in E.164 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
 
 ---
 
@@ -2746,7 +2746,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesText {
 	Text: *[]*string,
@@ -2771,7 +2771,7 @@ Text *[]*string
 
 A collection of text responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -2780,7 +2780,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentSetParameterActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentSetParameterActions {
 	Parameter: *string,
@@ -2807,7 +2807,7 @@ Parameter *string
 
 Display name of the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
 
 ---
 
@@ -2821,7 +2821,7 @@ Value *string
 
 The new JSON-encoded value of the parameter. A null value clears the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
 
 ---
 
@@ -2830,7 +2830,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageForm.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageForm {
 	Parameters: interface{},
@@ -2855,7 +2855,7 @@ Parameters interface{}
 
 parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#parameters GoogleDialogflowCxPage#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#parameters GoogleDialogflowCxPage#parameters}
 
 ---
 
@@ -2864,14 +2864,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParameters {
-	AdvancedSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersAdvancedSettings,
+	AdvancedSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersAdvancedSettings,
 	DefaultValue: *string,
 	DisplayName: *string,
 	EntityType: *string,
-	FillBehavior: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehavior,
+	FillBehavior: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehavior,
 	IsList: interface{},
 	Redact: interface{},
 	Required: interface{},
@@ -2903,7 +2903,7 @@ AdvancedSettings GoogleDialogflowCxPageFormParametersAdvancedSettings
 
 advanced_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#advanced_settings GoogleDialogflowCxPage#advanced_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#advanced_settings GoogleDialogflowCxPage#advanced_settings}
 
 ---
 
@@ -2917,7 +2917,7 @@ DefaultValue *string
 
 The default value of an optional parameter. If the parameter is required, the default value will be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#default_value GoogleDialogflowCxPage#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#default_value GoogleDialogflowCxPage#default_value}
 
 ---
 
@@ -2931,7 +2931,7 @@ DisplayName *string
 
 The human-readable name of the parameter, unique within the form.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#display_name GoogleDialogflowCxPage#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#display_name GoogleDialogflowCxPage#display_name}
 
 ---
 
@@ -2947,7 +2947,7 @@ The entity type of the parameter.
 
 Format: projects/-/locations/-/agents/-/entityTypes/<System Entity Type ID> for system entity types (for example, projects/-/locations/-/agents/-/entityTypes/sys.date), or projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/entityTypes/<Entity Type ID> for developer entity types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#entity_type GoogleDialogflowCxPage#entity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#entity_type GoogleDialogflowCxPage#entity_type}
 
 ---
 
@@ -2961,7 +2961,7 @@ FillBehavior GoogleDialogflowCxPageFormParametersFillBehavior
 
 fill_behavior block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#fill_behavior GoogleDialogflowCxPage#fill_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#fill_behavior GoogleDialogflowCxPage#fill_behavior}
 
 ---
 
@@ -2975,7 +2975,7 @@ IsList interface{}
 
 Indicates whether the parameter represents a list of values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#is_list GoogleDialogflowCxPage#is_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#is_list GoogleDialogflowCxPage#is_list}
 
 ---
 
@@ -2991,7 +2991,7 @@ Indicates whether the parameter content should be redacted in log.
 
 If redaction is enabled, the parameter content will be replaced by parameter name during logging. Note: the parameter content is subject to redaction if either parameter level redaction or entity type level redaction is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#redact GoogleDialogflowCxPage#redact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#redact GoogleDialogflowCxPage#redact}
 
 ---
 
@@ -3008,7 +3008,7 @@ Indicates whether the parameter is required.
 Optional parameters will not trigger prompts; however, they are filled if the user specifies them.
 Required parameters must be filled before form filling concludes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#required GoogleDialogflowCxPage#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#required GoogleDialogflowCxPage#required}
 
 ---
 
@@ -3017,10 +3017,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersAdvancedSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersAdvancedSettings {
-	DtmfSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersAdvancedSettingsDtmfSettings,
+	DtmfSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersAdvancedSettingsDtmfSettings,
 }
 ```
 
@@ -3042,7 +3042,7 @@ DtmfSettings GoogleDialogflowCxPageFormParametersAdvancedSettingsDtmfSettings
 
 dtmf_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#dtmf_settings GoogleDialogflowCxPage#dtmf_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#dtmf_settings GoogleDialogflowCxPage#dtmf_settings}
 
 ---
 
@@ -3051,7 +3051,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersAdvancedSettingsDtmfSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersAdvancedSettingsDtmfSettings {
 	Enabled: interface{},
@@ -3082,7 +3082,7 @@ If true, incoming audio is processed for DTMF (dual tone multi frequency) events
 
 For example, if the caller presses a button on their telephone keypad and DTMF processing is enabled, Dialogflow will detect the event (e.g. a "3" was pressed) in the incoming audio and pass the event to the bot to drive business logic (e.g. when 3 is pressed, return the account balance).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#enabled GoogleDialogflowCxPage#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#enabled GoogleDialogflowCxPage#enabled}
 
 ---
 
@@ -3096,7 +3096,7 @@ FinishDigit *string
 
 The digit that terminates a DTMF digit sequence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#finish_digit GoogleDialogflowCxPage#finish_digit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#finish_digit GoogleDialogflowCxPage#finish_digit}
 
 ---
 
@@ -3110,7 +3110,7 @@ MaxDigits *f64
 
 Max length of DTMF digits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#max_digits GoogleDialogflowCxPage#max_digits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#max_digits GoogleDialogflowCxPage#max_digits}
 
 ---
 
@@ -3119,10 +3119,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehavior.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehavior {
-	InitialPromptFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillment,
+	InitialPromptFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillment,
 	RepromptEventHandlers: interface{},
 }
 ```
@@ -3146,7 +3146,7 @@ InitialPromptFulfillment GoogleDialogflowCxPageFormParametersFillBehaviorInitial
 
 initial_prompt_fulfillment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#initial_prompt_fulfillment GoogleDialogflowCxPage#initial_prompt_fulfillment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#initial_prompt_fulfillment GoogleDialogflowCxPage#initial_prompt_fulfillment}
 
 ---
 
@@ -3160,7 +3160,7 @@ RepromptEventHandlers interface{}
 
 reprompt_event_handlers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#reprompt_event_handlers GoogleDialogflowCxPage#reprompt_event_handlers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#reprompt_event_handlers GoogleDialogflowCxPage#reprompt_event_handlers}
 
 ---
 
@@ -3169,7 +3169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillment {
 	ConditionalCases: interface{},
@@ -3204,7 +3204,7 @@ ConditionalCases interface{}
 
 conditional_cases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
 
 ---
 
@@ -3218,7 +3218,7 @@ Messages interface{}
 
 messages block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
 
 ---
 
@@ -3234,7 +3234,7 @@ Whether Dialogflow should return currently queued fulfillment response messages 
 
 If a webhook is specified, it happens before Dialogflow invokes webhook. Warning: 1) This flag only affects streaming API. Responses are still queued and returned once in non-streaming API. 2) The flag can be enabled in any fulfillment but only the first 3 partial responses will be returned. You may only want to apply it to fulfillments that have slow webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
 
 ---
 
@@ -3248,7 +3248,7 @@ SetParameterActions interface{}
 
 set_parameter_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
 
 ---
 
@@ -3264,7 +3264,7 @@ The tag used by the webhook to identify which fulfillment is being called.
 
 This field is required if webhook is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
 
 ---
 
@@ -3278,7 +3278,7 @@ Webhook *string
 
 The webhook to call. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/webhooks/<Webhook ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
 
 ---
 
@@ -3287,7 +3287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentConditionalCases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentConditionalCases {
 	Cases: *string,
@@ -3315,7 +3315,7 @@ A JSON encoded list of cascading if-else conditions.
 Cases are mutually exclusive. The first one with a matching condition is selected, all the rest ignored.
 See [Case](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/Fulfillment#case) for the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
 
 ---
 
@@ -3324,17 +3324,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessages {
 	Channel: *string,
-	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesConversationSuccess,
-	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesLiveAgentHandoff,
-	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesOutputAudioText,
+	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesConversationSuccess,
+	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesLiveAgentHandoff,
+	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesOutputAudioText,
 	Payload: *string,
-	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesPlayAudio,
-	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTelephonyTransferCall,
-	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesText,
+	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesPlayAudio,
+	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTelephonyTransferCall,
+	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesText,
 }
 ```
 
@@ -3365,7 +3365,7 @@ The channel which the response is associated with.
 
 Clients can specify the channel via QueryParameters.channel, and only associated channel response will be returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
 
 ---
 
@@ -3379,7 +3379,7 @@ ConversationSuccess GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromp
 
 conversation_success block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
 
 ---
 
@@ -3393,7 +3393,7 @@ LiveAgentHandoff GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFu
 
 live_agent_handoff block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
 
 ---
 
@@ -3407,7 +3407,7 @@ OutputAudioText GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFul
 
 output_audio_text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
 
 ---
 
@@ -3421,7 +3421,7 @@ Payload *string
 
 A custom, platform-specific payload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
 
 ---
 
@@ -3435,7 +3435,7 @@ PlayAudio GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillme
 
 play_audio block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
 
 ---
 
@@ -3449,7 +3449,7 @@ TelephonyTransferCall GoogleDialogflowCxPageFormParametersFillBehaviorInitialPro
 
 telephony_transfer_call block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
 
 ---
 
@@ -3463,7 +3463,7 @@ Text GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMes
 
 text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -3472,7 +3472,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesConversationSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesConversationSuccess {
 	Metadata: *string,
@@ -3497,7 +3497,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -3506,7 +3506,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesLiveAgentHandoff.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesLiveAgentHandoff {
 	Metadata: *string,
@@ -3531,7 +3531,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -3540,7 +3540,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesOutputAudioText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesOutputAudioText {
 	Ssml: *string,
@@ -3567,7 +3567,7 @@ Ssml *string
 
 The SSML text to be synthesized. For more information, see SSML.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
 
 ---
 
@@ -3581,7 +3581,7 @@ Text *string
 
 The raw text to be synthesized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -3590,7 +3590,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesPlayAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesPlayAudio {
 	AudioUri: *string,
@@ -3617,7 +3617,7 @@ URI of the audio clip.
 
 Dialogflow does not impose any validation on this value. It is specific to the client that reads it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
 
 ---
 
@@ -3626,7 +3626,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTelephonyTransferCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTelephonyTransferCall {
 	PhoneNumber: *string,
@@ -3651,7 +3651,7 @@ PhoneNumber *string
 
 Transfer the call to a phone number in E.164 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
 
 ---
 
@@ -3660,7 +3660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesText {
 	Text: *[]*string,
@@ -3685,7 +3685,7 @@ Text *[]*string
 
 A collection of text responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -3694,7 +3694,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentSetParameterActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentSetParameterActions {
 	Parameter: *string,
@@ -3721,7 +3721,7 @@ Parameter *string
 
 Display name of the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
 
 ---
 
@@ -3735,7 +3735,7 @@ Value *string
 
 The new JSON-encoded value of the parameter. A null value clears the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
 
 ---
 
@@ -3744,13 +3744,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlers {
 	Event: *string,
 	TargetFlow: *string,
 	TargetPage: *string,
-	TriggerFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillment,
+	TriggerFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillment,
 }
 ```
 
@@ -3775,7 +3775,7 @@ Event *string
 
 The name of the event to handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#event GoogleDialogflowCxPage#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#event GoogleDialogflowCxPage#event}
 
 ---
 
@@ -3789,7 +3789,7 @@ TargetFlow *string
 
 The target flow to transition to. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#target_flow GoogleDialogflowCxPage#target_flow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#target_flow GoogleDialogflowCxPage#target_flow}
 
 ---
 
@@ -3803,7 +3803,7 @@ TargetPage *string
 
 The target page to transition to. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>/pages/<Page ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#target_page GoogleDialogflowCxPage#target_page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#target_page GoogleDialogflowCxPage#target_page}
 
 ---
 
@@ -3817,7 +3817,7 @@ TriggerFulfillment GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEvent
 
 trigger_fulfillment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#trigger_fulfillment GoogleDialogflowCxPage#trigger_fulfillment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#trigger_fulfillment GoogleDialogflowCxPage#trigger_fulfillment}
 
 ---
 
@@ -3826,7 +3826,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillment {
 	ConditionalCases: interface{},
@@ -3861,7 +3861,7 @@ ConditionalCases interface{}
 
 conditional_cases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
 
 ---
 
@@ -3875,7 +3875,7 @@ Messages interface{}
 
 messages block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
 
 ---
 
@@ -3891,7 +3891,7 @@ Whether Dialogflow should return currently queued fulfillment response messages 
 
 If a webhook is specified, it happens before Dialogflow invokes webhook. Warning: 1) This flag only affects streaming API. Responses are still queued and returned once in non-streaming API. 2) The flag can be enabled in any fulfillment but only the first 3 partial responses will be returned. You may only want to apply it to fulfillments that have slow webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
 
 ---
 
@@ -3905,7 +3905,7 @@ SetParameterActions interface{}
 
 set_parameter_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
 
 ---
 
@@ -3921,7 +3921,7 @@ The tag used by the webhook to identify which fulfillment is being called.
 
 This field is required if webhook is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
 
 ---
 
@@ -3935,7 +3935,7 @@ Webhook *string
 
 The webhook to call. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/webhooks/<Webhook ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
 
 ---
 
@@ -3944,7 +3944,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentConditionalCases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentConditionalCases {
 	Cases: *string,
@@ -3972,7 +3972,7 @@ A JSON encoded list of cascading if-else conditions.
 Cases are mutually exclusive. The first one with a matching condition is selected, all the rest ignored.
 See [Case](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/Fulfillment#case) for the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
 
 ---
 
@@ -3981,17 +3981,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessages {
 	Channel: *string,
-	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesConversationSuccess,
-	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesLiveAgentHandoff,
-	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesOutputAudioText,
+	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesConversationSuccess,
+	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesLiveAgentHandoff,
+	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesOutputAudioText,
 	Payload: *string,
-	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesPlayAudio,
-	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesTelephonyTransferCall,
-	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesText,
+	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesPlayAudio,
+	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesTelephonyTransferCall,
+	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesText,
 }
 ```
 
@@ -4022,7 +4022,7 @@ The channel which the response is associated with.
 
 Clients can specify the channel via QueryParameters.channel, and only associated channel response will be returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
 
 ---
 
@@ -4036,7 +4036,7 @@ ConversationSuccess GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEven
 
 conversation_success block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
 
 ---
 
@@ -4050,7 +4050,7 @@ LiveAgentHandoff GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHa
 
 live_agent_handoff block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
 
 ---
 
@@ -4064,7 +4064,7 @@ OutputAudioText GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHan
 
 output_audio_text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
 
 ---
 
@@ -4078,7 +4078,7 @@ Payload *string
 
 A custom, platform-specific payload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
 
 ---
 
@@ -4092,7 +4092,7 @@ PlayAudio GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersT
 
 play_audio block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
 
 ---
 
@@ -4106,7 +4106,7 @@ TelephonyTransferCall GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEv
 
 telephony_transfer_call block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
 
 ---
 
@@ -4120,7 +4120,7 @@ Text GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTrigge
 
 text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -4129,7 +4129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesConversationSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesConversationSuccess {
 	Metadata: *string,
@@ -4154,7 +4154,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -4163,7 +4163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesLiveAgentHandoff.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesLiveAgentHandoff {
 	Metadata: *string,
@@ -4188,7 +4188,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -4197,7 +4197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesOutputAudioText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesOutputAudioText {
 	Ssml: *string,
@@ -4224,7 +4224,7 @@ Ssml *string
 
 The SSML text to be synthesized. For more information, see SSML.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
 
 ---
 
@@ -4238,7 +4238,7 @@ Text *string
 
 The raw text to be synthesized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -4247,7 +4247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesPlayAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesPlayAudio {
 	AudioUri: *string,
@@ -4274,7 +4274,7 @@ URI of the audio clip.
 
 Dialogflow does not impose any validation on this value. It is specific to the client that reads it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
 
 ---
 
@@ -4283,7 +4283,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesTelephonyTransferCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesTelephonyTransferCall {
 	PhoneNumber: *string,
@@ -4308,7 +4308,7 @@ PhoneNumber *string
 
 Transfer the call to a phone number in E.164 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
 
 ---
 
@@ -4317,7 +4317,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesText {
 	Text: *[]*string,
@@ -4342,7 +4342,7 @@ Text *[]*string
 
 A collection of text responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -4351,7 +4351,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentSetParameterActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentSetParameterActions {
 	Parameter: *string,
@@ -4378,7 +4378,7 @@ Parameter *string
 
 Display name of the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
 
 ---
 
@@ -4392,7 +4392,7 @@ Value *string
 
 The new JSON-encoded value of the parameter. A null value clears the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
 
 ---
 
@@ -4401,14 +4401,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettings {
 	DataStoreConnections: interface{},
 	Enabled: interface{},
 	TargetFlow: *string,
 	TargetPage: *string,
-	TriggerFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillment,
+	TriggerFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillment,
 }
 ```
 
@@ -4434,7 +4434,7 @@ DataStoreConnections interface{}
 
 data_store_connections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#data_store_connections GoogleDialogflowCxPage#data_store_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#data_store_connections GoogleDialogflowCxPage#data_store_connections}
 
 ---
 
@@ -4448,7 +4448,7 @@ Enabled interface{}
 
 Whether Knowledge Connector is enabled or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#enabled GoogleDialogflowCxPage#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#enabled GoogleDialogflowCxPage#enabled}
 
 ---
 
@@ -4465,7 +4465,7 @@ The target flow to transition to.
 Format: projects/<ProjectID>/locations/<LocationID>/agents/<AgentID>/flows/<FlowID>.
 This field is part of a union field 'target': Only one of 'targetPage' or 'targetFlow' may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#target_flow GoogleDialogflowCxPage#target_flow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#target_flow GoogleDialogflowCxPage#target_flow}
 
 ---
 
@@ -4483,7 +4483,7 @@ Format: projects/<ProjectID>/locations/<LocationID>/agents/<AgentID>/flows/<Flow
 The page must be in the same host flow (the flow that owns this 'KnowledgeConnectorSettings').
 This field is part of a union field 'target': Only one of 'targetPage' or 'targetFlow' may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#target_page GoogleDialogflowCxPage#target_page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#target_page GoogleDialogflowCxPage#target_page}
 
 ---
 
@@ -4497,7 +4497,7 @@ TriggerFulfillment GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfil
 
 trigger_fulfillment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#trigger_fulfillment GoogleDialogflowCxPage#trigger_fulfillment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#trigger_fulfillment GoogleDialogflowCxPage#trigger_fulfillment}
 
 ---
 
@@ -4506,7 +4506,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsDataStoreConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsDataStoreConnections {
 	DataStore: *string,
@@ -4535,7 +4535,7 @@ DataStore *string
 
 The full name of the referenced data store. Formats: projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore} projects/{project}/locations/{location}/dataStores/{dataStore}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#data_store GoogleDialogflowCxPage#data_store}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#data_store GoogleDialogflowCxPage#data_store}
 
 ---
 
@@ -4553,7 +4553,7 @@ The type of the connected data store.
 * UNSTRUCTURED: A data store that contains unstructured private data.
 * STRUCTURED: A data store that contains structured data (for example FAQ). Possible values: ["PUBLIC_WEB", "UNSTRUCTURED", "STRUCTURED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#data_store_type GoogleDialogflowCxPage#data_store_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#data_store_type GoogleDialogflowCxPage#data_store_type}
 
 ---
 
@@ -4572,7 +4572,7 @@ Should only be set for PUBLIC_WEB and UNSTRUCTURED data stores. If not set it is
 * DOCUMENTS: Documents are processed as documents.
 * CHUNKS: Documents are converted to chunks. Possible values: ["DOCUMENTS", "CHUNKS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#document_processing_mode GoogleDialogflowCxPage#document_processing_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#document_processing_mode GoogleDialogflowCxPage#document_processing_mode}
 
 ---
 
@@ -4581,10 +4581,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillment {
-	AdvancedSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettings,
+	AdvancedSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettings,
 	ConditionalCases: interface{},
 	EnableGenerativeFallback: interface{},
 	Messages: interface{},
@@ -4620,7 +4620,7 @@ AdvancedSettings GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillm
 
 advanced_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#advanced_settings GoogleDialogflowCxPage#advanced_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#advanced_settings GoogleDialogflowCxPage#advanced_settings}
 
 ---
 
@@ -4634,7 +4634,7 @@ ConditionalCases interface{}
 
 conditional_cases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
 
 ---
 
@@ -4650,7 +4650,7 @@ If the flag is true, the agent will utilize LLM to generate a text response.
 
 If LLM generation fails, the defined responses in the fulfillment will be respected. This flag is only useful for fulfillments associated with no-match event handlers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#enable_generative_fallback GoogleDialogflowCxPage#enable_generative_fallback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#enable_generative_fallback GoogleDialogflowCxPage#enable_generative_fallback}
 
 ---
 
@@ -4664,7 +4664,7 @@ Messages interface{}
 
 messages block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
 
 ---
 
@@ -4680,7 +4680,7 @@ Whether Dialogflow should return currently queued fulfillment response messages 
 
 If a webhook is specified, it happens before Dialogflow invokes webhook. Warning: 1) This flag only affects streaming API. Responses are still queued and returned once in non-streaming API. 2) The flag can be enabled in any fulfillment but only the first 3 partial responses will be returned. You may only want to apply it to fulfillments that have slow webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
 
 ---
 
@@ -4694,7 +4694,7 @@ SetParameterActions interface{}
 
 set_parameter_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
 
 ---
 
@@ -4710,7 +4710,7 @@ The tag used by the webhook to identify which fulfillment is being called.
 
 This field is required if webhook is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
 
 ---
 
@@ -4724,7 +4724,7 @@ Webhook *string
 
 The webhook to call. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/webhooks/<Webhook ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
 
 ---
 
@@ -4733,12 +4733,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettings {
-	DtmfSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsDtmfSettings,
-	LoggingSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsLoggingSettings,
-	SpeechSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsSpeechSettings,
+	DtmfSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsDtmfSettings,
+	LoggingSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsLoggingSettings,
+	SpeechSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsSpeechSettings,
 }
 ```
 
@@ -4762,7 +4762,7 @@ DtmfSettings GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentA
 
 dtmf_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#dtmf_settings GoogleDialogflowCxPage#dtmf_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#dtmf_settings GoogleDialogflowCxPage#dtmf_settings}
 
 ---
 
@@ -4776,7 +4776,7 @@ LoggingSettings GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillme
 
 logging_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#logging_settings GoogleDialogflowCxPage#logging_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#logging_settings GoogleDialogflowCxPage#logging_settings}
 
 ---
 
@@ -4790,7 +4790,7 @@ SpeechSettings GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmen
 
 speech_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#speech_settings GoogleDialogflowCxPage#speech_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#speech_settings GoogleDialogflowCxPage#speech_settings}
 
 ---
 
@@ -4799,7 +4799,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsDtmfSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsDtmfSettings {
 	Enabled: interface{},
@@ -4834,7 +4834,7 @@ If true, incoming audio is processed for DTMF (dual tone multi frequtectency) ev
 
 For example, if the caller presses a button on their telephone keypad and DTMF processing is enabled, Dialogflow will de the event (e.g. a "3" was pressed) in the incoming audio and pass the event to the bot to drive business logic (e.g. when 3 is pressed, return the account balance).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#enabled GoogleDialogflowCxPage#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#enabled GoogleDialogflowCxPage#enabled}
 
 ---
 
@@ -4850,7 +4850,7 @@ Endpoint timeout setting for matching dtmf input to regex.
 
 A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.500s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#endpointing_timeout_duration GoogleDialogflowCxPage#endpointing_timeout_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#endpointing_timeout_duration GoogleDialogflowCxPage#endpointing_timeout_duration}
 
 ---
 
@@ -4864,7 +4864,7 @@ FinishDigit *string
 
 The digit that terminates a DTMF digit sequence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#finish_digit GoogleDialogflowCxPage#finish_digit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#finish_digit GoogleDialogflowCxPage#finish_digit}
 
 ---
 
@@ -4880,7 +4880,7 @@ Interdigit timeout setting for matching dtmf input to regex.
 
 A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.500s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#interdigit_timeout_duration GoogleDialogflowCxPage#interdigit_timeout_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#interdigit_timeout_duration GoogleDialogflowCxPage#interdigit_timeout_duration}
 
 ---
 
@@ -4894,7 +4894,7 @@ MaxDigits *f64
 
 Max length of DTMF digits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#max_digits GoogleDialogflowCxPage#max_digits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#max_digits GoogleDialogflowCxPage#max_digits}
 
 ---
 
@@ -4903,7 +4903,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsLoggingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsLoggingSettings {
 	EnableConsentBasedRedaction: interface{},
@@ -4932,7 +4932,7 @@ EnableConsentBasedRedaction interface{}
 
 Enables consent-based end-user input redaction, if true, a pre-defined session parameter **$session.params.conversation-redaction** will be used to determine if the utterance should be redacted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#enable_consent_based_redaction GoogleDialogflowCxPage#enable_consent_based_redaction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#enable_consent_based_redaction GoogleDialogflowCxPage#enable_consent_based_redaction}
 
 ---
 
@@ -4946,7 +4946,7 @@ EnableInteractionLogging interface{}
 
 Enables DF Interaction logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#enable_interaction_logging GoogleDialogflowCxPage#enable_interaction_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#enable_interaction_logging GoogleDialogflowCxPage#enable_interaction_logging}
 
 ---
 
@@ -4960,7 +4960,7 @@ EnableStackdriverLogging interface{}
 
 Enables Google Cloud Logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#enable_stackdriver_logging GoogleDialogflowCxPage#enable_stackdriver_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#enable_stackdriver_logging GoogleDialogflowCxPage#enable_stackdriver_logging}
 
 ---
 
@@ -4969,7 +4969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsSpeechSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsSpeechSettings {
 	EndpointerSensitivity: *f64,
@@ -5000,7 +5000,7 @@ EndpointerSensitivity *f64
 
 Sensitivity of the speech model that detects the end of speech. Scale from 0 to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#endpointer_sensitivity GoogleDialogflowCxPage#endpointer_sensitivity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#endpointer_sensitivity GoogleDialogflowCxPage#endpointer_sensitivity}
 
 ---
 
@@ -5017,7 +5017,7 @@ Mapping from language to Speech-to-Text model.
 The mapped Speech-to-Text model will be selected for requests from its corresponding language. For more information, see [Speech models](https://cloud.google.com/dialogflow/cx/docs/concept/speech-models).
 An object containing a list of **"key": value** pairs. Example: **{ "name": "wrench", "mass": "1.3kg", "count": "3" }**.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#models GoogleDialogflowCxPage#models}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#models GoogleDialogflowCxPage#models}
 
 ---
 
@@ -5031,7 +5031,7 @@ NoSpeechTimeout *string
 
 Timeout before detecting no speech. A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.500s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#no_speech_timeout GoogleDialogflowCxPage#no_speech_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#no_speech_timeout GoogleDialogflowCxPage#no_speech_timeout}
 
 ---
 
@@ -5045,7 +5045,7 @@ UseTimeoutBasedEndpointing interface{}
 
 Use timeout based endpointing, interpreting endpointer sensitivity as seconds of timeout value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#use_timeout_based_endpointing GoogleDialogflowCxPage#use_timeout_based_endpointing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#use_timeout_based_endpointing GoogleDialogflowCxPage#use_timeout_based_endpointing}
 
 ---
 
@@ -5054,7 +5054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentConditionalCases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentConditionalCases {
 	Cases: *string,
@@ -5082,7 +5082,7 @@ A JSON encoded list of cascading if-else conditions.
 Cases are mutually exclusive. The first one with a matching condition is selected, all the rest ignored.
 See [Case](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/Fulfillment#case) for the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
 
 ---
 
@@ -5091,18 +5091,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessages {
 	Channel: *string,
-	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesConversationSuccess,
-	KnowledgeInfoCard: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesKnowledgeInfoCard,
-	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesLiveAgentHandoff,
-	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputAudioText,
+	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesConversationSuccess,
+	KnowledgeInfoCard: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesKnowledgeInfoCard,
+	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesLiveAgentHandoff,
+	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputAudioText,
 	Payload: *string,
-	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesPlayAudio,
-	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesTelephonyTransferCall,
-	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesText,
+	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesPlayAudio,
+	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesTelephonyTransferCall,
+	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesText,
 }
 ```
 
@@ -5134,7 +5134,7 @@ The channel which the response is associated with.
 
 Clients can specify the channel via QueryParameters.channel, and only associated channel response will be returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
 
 ---
 
@@ -5148,7 +5148,7 @@ ConversationSuccess GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfi
 
 conversation_success block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
 
 ---
 
@@ -5162,7 +5162,7 @@ KnowledgeInfoCard GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfill
 
 knowledge_info_card block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#knowledge_info_card GoogleDialogflowCxPage#knowledge_info_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#knowledge_info_card GoogleDialogflowCxPage#knowledge_info_card}
 
 ---
 
@@ -5176,7 +5176,7 @@ LiveAgentHandoff GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillm
 
 live_agent_handoff block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
 
 ---
 
@@ -5190,7 +5190,7 @@ OutputAudioText GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillme
 
 output_audio_text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
 
 ---
 
@@ -5206,7 +5206,7 @@ Returns a response containing a custom, platform-specific payload.
 
 This field is part of a union field 'message': Only one of 'text', 'payload', 'conversationSuccess', 'outputAudioText', 'liveAgentHandoff', 'endInteraction', 'playAudio', 'mixedAudio', 'telephonyTransferCall', or 'knowledgeInfoCard' may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
 
 ---
 
@@ -5220,7 +5220,7 @@ PlayAudio GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMess
 
 play_audio block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
 
 ---
 
@@ -5234,7 +5234,7 @@ TelephonyTransferCall GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFul
 
 telephony_transfer_call block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
 
 ---
 
@@ -5248,7 +5248,7 @@ Text GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesT
 
 text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -5257,7 +5257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesConversationSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesConversationSuccess {
 	Metadata: *string,
@@ -5282,7 +5282,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -5291,7 +5291,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesEndInteraction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesEndInteraction {
 
@@ -5304,7 +5304,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesKnowledgeInfoCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesKnowledgeInfoCard {
 
@@ -5317,7 +5317,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesLiveAgentHandoff.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesLiveAgentHandoff {
 	Metadata: *string,
@@ -5342,7 +5342,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -5351,7 +5351,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudio {
 
@@ -5364,7 +5364,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioSegments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioSegments {
 
@@ -5377,7 +5377,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputAudioText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputAudioText {
 	Ssml: *string,
@@ -5407,7 +5407,7 @@ The SSML text to be synthesized.
 For more information, see SSML.
 This field is part of a union field 'source': Only one of 'text' or 'ssml' may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
 
 ---
 
@@ -5423,7 +5423,7 @@ The raw text to be synthesized.
 
 This field is part of a union field 'source': Only one of 'text' or 'ssml' may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -5432,7 +5432,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesPlayAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesPlayAudio {
 	AudioUri: *string,
@@ -5459,7 +5459,7 @@ URI of the audio clip.
 
 Dialogflow does not impose any validation on this value. It is specific to the client that reads it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
 
 ---
 
@@ -5468,7 +5468,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesTelephonyTransferCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesTelephonyTransferCall {
 	PhoneNumber: *string,
@@ -5493,7 +5493,7 @@ PhoneNumber *string
 
 Transfer the call to a phone number in E.164 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
 
 ---
 
@@ -5502,7 +5502,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesText {
 	Text: *[]*string,
@@ -5530,7 +5530,7 @@ A collection of text response variants.
 If multiple variants are defined, only one text response variant is returned at runtime.
 required: true
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -5539,7 +5539,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentSetParameterActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentSetParameterActions {
 	Parameter: *string,
@@ -5566,7 +5566,7 @@ Parameter *string
 
 Display name of the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
 
 ---
 
@@ -5580,7 +5580,7 @@ Value *string
 
 The new JSON-encoded value of the parameter. A null value clears the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
 
 ---
 
@@ -5589,7 +5589,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTimeouts {
 	Create: *string,
@@ -5602,9 +5602,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#create GoogleDialogflowCxPage#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#delete GoogleDialogflowCxPage#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#update GoogleDialogflowCxPage#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#create GoogleDialogflowCxPage#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#delete GoogleDialogflowCxPage#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#update GoogleDialogflowCxPage#update}. |
 
 ---
 
@@ -5616,7 +5616,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#create GoogleDialogflowCxPage#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#create GoogleDialogflowCxPage#create}.
 
 ---
 
@@ -5628,7 +5628,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#delete GoogleDialogflowCxPage#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#delete GoogleDialogflowCxPage#delete}.
 
 ---
 
@@ -5640,7 +5640,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#update GoogleDialogflowCxPage#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#update GoogleDialogflowCxPage#update}.
 
 ---
 
@@ -5649,14 +5649,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTransitionRoutes {
 	Condition: *string,
 	Intent: *string,
 	TargetFlow: *string,
 	TargetPage: *string,
-	TriggerFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillment,
+	TriggerFulfillment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillment,
 }
 ```
 
@@ -5684,7 +5684,7 @@ The condition to evaluate against form parameters or session parameters.
 
 At least one of intent or condition must be specified. When both intent and condition are specified, the transition can only happen when both are fulfilled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#condition GoogleDialogflowCxPage#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#condition GoogleDialogflowCxPage#condition}
 
 ---
 
@@ -5700,7 +5700,7 @@ The unique identifier of an Intent.
 
 Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/intents/<Intent ID>. Indicates that the transition can only happen when the given intent is matched. At least one of intent or condition must be specified. When both intent and condition are specified, the transition can only happen when both are fulfilled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#intent GoogleDialogflowCxPage#intent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#intent GoogleDialogflowCxPage#intent}
 
 ---
 
@@ -5714,7 +5714,7 @@ TargetFlow *string
 
 The target flow to transition to. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#target_flow GoogleDialogflowCxPage#target_flow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#target_flow GoogleDialogflowCxPage#target_flow}
 
 ---
 
@@ -5728,7 +5728,7 @@ TargetPage *string
 
 The target page to transition to. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/flows/<Flow ID>/pages/<Page ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#target_page GoogleDialogflowCxPage#target_page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#target_page GoogleDialogflowCxPage#target_page}
 
 ---
 
@@ -5742,7 +5742,7 @@ TriggerFulfillment GoogleDialogflowCxPageTransitionRoutesTriggerFulfillment
 
 trigger_fulfillment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#trigger_fulfillment GoogleDialogflowCxPage#trigger_fulfillment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#trigger_fulfillment GoogleDialogflowCxPage#trigger_fulfillment}
 
 ---
 
@@ -5751,7 +5751,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillment {
 	ConditionalCases: interface{},
@@ -5786,7 +5786,7 @@ ConditionalCases interface{}
 
 conditional_cases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conditional_cases GoogleDialogflowCxPage#conditional_cases}
 
 ---
 
@@ -5800,7 +5800,7 @@ Messages interface{}
 
 messages block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#messages GoogleDialogflowCxPage#messages}
 
 ---
 
@@ -5816,7 +5816,7 @@ Whether Dialogflow should return currently queued fulfillment response messages 
 
 If a webhook is specified, it happens before Dialogflow invokes webhook. Warning: 1) This flag only affects streaming API. Responses are still queued and returned once in non-streaming API. 2) The flag can be enabled in any fulfillment but only the first 3 partial responses will be returned. You may only want to apply it to fulfillments that have slow webhooks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#return_partial_responses GoogleDialogflowCxPage#return_partial_responses}
 
 ---
 
@@ -5830,7 +5830,7 @@ SetParameterActions interface{}
 
 set_parameter_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#set_parameter_actions GoogleDialogflowCxPage#set_parameter_actions}
 
 ---
 
@@ -5846,7 +5846,7 @@ The tag used by the webhook to identify which fulfillment is being called.
 
 This field is required if webhook is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#tag GoogleDialogflowCxPage#tag}
 
 ---
 
@@ -5860,7 +5860,7 @@ Webhook *string
 
 The webhook to call. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/webhooks/<Webhook ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#webhook GoogleDialogflowCxPage#webhook}
 
 ---
 
@@ -5869,7 +5869,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentConditionalCases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentConditionalCases {
 	Cases: *string,
@@ -5897,7 +5897,7 @@ A JSON encoded list of cascading if-else conditions.
 Cases are mutually exclusive. The first one with a matching condition is selected, all the rest ignored.
 See [Case](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/Fulfillment#case) for the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#cases GoogleDialogflowCxPage#cases}
 
 ---
 
@@ -5906,17 +5906,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessages {
 	Channel: *string,
-	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesConversationSuccess,
-	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesLiveAgentHandoff,
-	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioText,
+	ConversationSuccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesConversationSuccess,
+	LiveAgentHandoff: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesLiveAgentHandoff,
+	OutputAudioText: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioText,
 	Payload: *string,
-	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesPlayAudio,
-	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesTelephonyTransferCall,
-	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesText,
+	PlayAudio: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesPlayAudio,
+	TelephonyTransferCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesTelephonyTransferCall,
+	Text: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesText,
 }
 ```
 
@@ -5947,7 +5947,7 @@ The channel which the response is associated with.
 
 Clients can specify the channel via QueryParameters.channel, and only associated channel response will be returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#channel GoogleDialogflowCxPage#channel}
 
 ---
 
@@ -5961,7 +5961,7 @@ ConversationSuccess GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMess
 
 conversation_success block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#conversation_success GoogleDialogflowCxPage#conversation_success}
 
 ---
 
@@ -5975,7 +5975,7 @@ LiveAgentHandoff GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessage
 
 live_agent_handoff block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#live_agent_handoff GoogleDialogflowCxPage#live_agent_handoff}
 
 ---
 
@@ -5989,7 +5989,7 @@ OutputAudioText GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessages
 
 output_audio_text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#output_audio_text GoogleDialogflowCxPage#output_audio_text}
 
 ---
 
@@ -6003,7 +6003,7 @@ Payload *string
 
 A custom, platform-specific payload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#payload GoogleDialogflowCxPage#payload}
 
 ---
 
@@ -6017,7 +6017,7 @@ PlayAudio GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesPlayAu
 
 play_audio block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#play_audio GoogleDialogflowCxPage#play_audio}
 
 ---
 
@@ -6031,7 +6031,7 @@ TelephonyTransferCall GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMe
 
 telephony_transfer_call block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#telephony_transfer_call GoogleDialogflowCxPage#telephony_transfer_call}
 
 ---
 
@@ -6045,7 +6045,7 @@ Text GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesText
 
 text block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -6054,7 +6054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesConversationSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesConversationSuccess {
 	Metadata: *string,
@@ -6079,7 +6079,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -6088,7 +6088,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesLiveAgentHandoff.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesLiveAgentHandoff {
 	Metadata: *string,
@@ -6113,7 +6113,7 @@ Metadata *string
 
 Custom metadata. Dialogflow doesn't impose any structure on this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#metadata GoogleDialogflowCxPage#metadata}
 
 ---
 
@@ -6122,7 +6122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioText {
 	Ssml: *string,
@@ -6149,7 +6149,7 @@ Ssml *string
 
 The SSML text to be synthesized. For more information, see SSML.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#ssml GoogleDialogflowCxPage#ssml}
 
 ---
 
@@ -6163,7 +6163,7 @@ Text *string
 
 The raw text to be synthesized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -6172,7 +6172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesPlayAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesPlayAudio {
 	AudioUri: *string,
@@ -6199,7 +6199,7 @@ URI of the audio clip.
 
 Dialogflow does not impose any validation on this value. It is specific to the client that reads it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#audio_uri GoogleDialogflowCxPage#audio_uri}
 
 ---
 
@@ -6208,7 +6208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesTelephonyTransferCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesTelephonyTransferCall {
 	PhoneNumber: *string,
@@ -6233,7 +6233,7 @@ PhoneNumber *string
 
 Transfer the call to a phone number in E.164 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#phone_number GoogleDialogflowCxPage#phone_number}
 
 ---
 
@@ -6242,7 +6242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesText {
 	Text: *[]*string,
@@ -6267,7 +6267,7 @@ Text *[]*string
 
 A collection of text responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#text GoogleDialogflowCxPage#text}
 
 ---
 
@@ -6276,7 +6276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentSetParameterActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 &googledialogflowcxpage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentSetParameterActions {
 	Parameter: *string,
@@ -6303,7 +6303,7 @@ Parameter *string
 
 Display name of the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#parameter GoogleDialogflowCxPage#parameter}
 
 ---
 
@@ -6317,7 +6317,7 @@ Value *string
 
 The new JSON-encoded value of the parameter. A null value clears the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_page#value GoogleDialogflowCxPage#value}
 
 ---
 
@@ -6328,7 +6328,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageAdvancedSettingsDtmfSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageAdvancedSettingsDtmfSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageAdvancedSettingsDtmfSettingsOutputReference
 ```
@@ -6664,7 +6664,7 @@ func InternalValue() GoogleDialogflowCxPageAdvancedSettingsDtmfSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageAdvancedSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageAdvancedSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageAdvancedSettingsOutputReference
 ```
@@ -6955,7 +6955,7 @@ func InternalValue() GoogleDialogflowCxPageAdvancedSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentConditionalCasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentConditionalCasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageEntryFulfillmentConditionalCasesList
 ```
@@ -7115,7 +7115,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentConditionalCasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentConditionalCasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageEntryFulfillmentConditionalCasesOutputReference
 ```
@@ -7411,7 +7411,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesConversationSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentMessagesConversationSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEntryFulfillmentMessagesConversationSuccessOutputReference
 ```
@@ -7689,7 +7689,7 @@ func InternalValue() GoogleDialogflowCxPageEntryFulfillmentMessagesConversationS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentMessagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageEntryFulfillmentMessagesList
 ```
@@ -7849,7 +7849,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesLiveAgentHandoffOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentMessagesLiveAgentHandoffOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEntryFulfillmentMessagesLiveAgentHandoffOutputReference
 ```
@@ -8127,7 +8127,7 @@ func InternalValue() GoogleDialogflowCxPageEntryFulfillmentMessagesLiveAgentHand
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesOutputAudioTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentMessagesOutputAudioTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEntryFulfillmentMessagesOutputAudioTextOutputReference
 ```
@@ -8445,7 +8445,7 @@ func InternalValue() GoogleDialogflowCxPageEntryFulfillmentMessagesOutputAudioTe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentMessagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageEntryFulfillmentMessagesOutputReference
 ```
@@ -9022,7 +9022,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesPlayAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentMessagesPlayAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEntryFulfillmentMessagesPlayAudioOutputReference
 ```
@@ -9304,7 +9304,7 @@ func InternalValue() GoogleDialogflowCxPageEntryFulfillmentMessagesPlayAudio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesTelephonyTransferCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentMessagesTelephonyTransferCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEntryFulfillmentMessagesTelephonyTransferCallOutputReference
 ```
@@ -9575,7 +9575,7 @@ func InternalValue() GoogleDialogflowCxPageEntryFulfillmentMessagesTelephonyTran
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentMessagesTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentMessagesTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEntryFulfillmentMessagesTextOutputReference
 ```
@@ -9864,7 +9864,7 @@ func InternalValue() GoogleDialogflowCxPageEntryFulfillmentMessagesText
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEntryFulfillmentOutputReference
 ```
@@ -10326,7 +10326,7 @@ func InternalValue() GoogleDialogflowCxPageEntryFulfillment
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentSetParameterActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentSetParameterActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageEntryFulfillmentSetParameterActionsList
 ```
@@ -10486,7 +10486,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEntryFulfillmentSetParameterActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEntryFulfillmentSetParameterActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageEntryFulfillmentSetParameterActionsOutputReference
 ```
@@ -10811,7 +10811,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageEventHandlersList
 ```
@@ -10971,7 +10971,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageEventHandlersOutputReference
 ```
@@ -11378,7 +11378,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentConditionalCasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentConditionalCasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentConditionalCasesList
 ```
@@ -11538,7 +11538,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentConditionalCasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentConditionalCasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentConditionalCasesOutputReference
 ```
@@ -11834,7 +11834,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesConversationSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesConversationSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesConversationSuccessOutputReference
 ```
@@ -12112,7 +12112,7 @@ func InternalValue() GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessag
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesList
 ```
@@ -12272,7 +12272,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReference
 ```
@@ -12550,7 +12550,7 @@ func InternalValue() GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessag
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesOutputAudioTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesOutputAudioTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesOutputAudioTextOutputReference
 ```
@@ -12868,7 +12868,7 @@ func InternalValue() GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessag
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesOutputReference
 ```
@@ -13445,7 +13445,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesPlayAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesPlayAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesPlayAudioOutputReference
 ```
@@ -13727,7 +13727,7 @@ func InternalValue() GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessag
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReference
 ```
@@ -13998,7 +13998,7 @@ func InternalValue() GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessag
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTextOutputReference
 ```
@@ -14287,7 +14287,7 @@ func InternalValue() GoogleDialogflowCxPageEventHandlersTriggerFulfillmentMessag
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentOutputReference
 ```
@@ -14749,7 +14749,7 @@ func InternalValue() GoogleDialogflowCxPageEventHandlersTriggerFulfillment
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentSetParameterActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentSetParameterActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentSetParameterActionsList
 ```
@@ -14909,7 +14909,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageEventHandlersTriggerFulfillmentSetParameterActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageEventHandlersTriggerFulfillmentSetParameterActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageEventHandlersTriggerFulfillmentSetParameterActionsOutputReference
 ```
@@ -15234,7 +15234,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormOutputReference
 ```
@@ -15525,7 +15525,7 @@ func InternalValue() GoogleDialogflowCxPageForm
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersAdvancedSettingsDtmfSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersAdvancedSettingsDtmfSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersAdvancedSettingsDtmfSettingsOutputReference
 ```
@@ -15861,7 +15861,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersAdvancedSettingsDtmfSet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersAdvancedSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersAdvancedSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersAdvancedSettingsOutputReference
 ```
@@ -16152,7 +16152,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersAdvancedSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentConditionalCasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentConditionalCasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentConditionalCasesList
 ```
@@ -16312,7 +16312,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentConditionalCasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentConditionalCasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentConditionalCasesOutputReference
 ```
@@ -16608,7 +16608,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesConversationSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesConversationSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesConversationSuccessOutputReference
 ```
@@ -16886,7 +16886,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorInitialProm
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesList
 ```
@@ -17046,7 +17046,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesLiveAgentHandoffOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesLiveAgentHandoffOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesLiveAgentHandoffOutputReference
 ```
@@ -17324,7 +17324,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorInitialProm
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesOutputAudioTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesOutputAudioTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesOutputAudioTextOutputReference
 ```
@@ -17642,7 +17642,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorInitialProm
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesOutputReference
 ```
@@ -18219,7 +18219,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesPlayAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesPlayAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesPlayAudioOutputReference
 ```
@@ -18501,7 +18501,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorInitialProm
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTelephonyTransferCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTelephonyTransferCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTelephonyTransferCallOutputReference
 ```
@@ -18772,7 +18772,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorInitialProm
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTextOutputReference
 ```
@@ -19061,7 +19061,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorInitialProm
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentOutputReference
 ```
@@ -19523,7 +19523,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorInitialProm
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentSetParameterActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentSetParameterActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentSetParameterActionsList
 ```
@@ -19683,7 +19683,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentSetParameterActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentSetParameterActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentSetParameterActionsOutputReference
 ```
@@ -20008,7 +20008,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorOutputReference
 ```
@@ -20341,7 +20341,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehavior
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersList
 ```
@@ -20501,7 +20501,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersOutputReference
 ```
@@ -20908,7 +20908,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentConditionalCasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentConditionalCasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentConditionalCasesList
 ```
@@ -21068,7 +21068,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentConditionalCasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentConditionalCasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentConditionalCasesOutputReference
 ```
@@ -21364,7 +21364,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesConversationSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesConversationSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesConversationSuccessOutputReference
 ```
@@ -21642,7 +21642,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEve
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesList
 ```
@@ -21802,7 +21802,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReference
 ```
@@ -22080,7 +22080,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEve
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesOutputAudioTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesOutputAudioTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesOutputAudioTextOutputReference
 ```
@@ -22398,7 +22398,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEve
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesOutputReference
 ```
@@ -22975,7 +22975,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesPlayAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesPlayAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesPlayAudioOutputReference
 ```
@@ -23257,7 +23257,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEve
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReference
 ```
@@ -23528,7 +23528,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEve
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentMessagesTextOutputReference
 ```
@@ -23817,7 +23817,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEve
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentOutputReference
 ```
@@ -24279,7 +24279,7 @@ func InternalValue() GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEve
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentSetParameterActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentSetParameterActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentSetParameterActionsList
 ```
@@ -24439,7 +24439,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentSetParameterActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentSetParameterActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageFormParametersFillBehaviorRepromptEventHandlersTriggerFulfillmentSetParameterActionsOutputReference
 ```
@@ -24764,7 +24764,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageFormParametersList
 ```
@@ -24924,7 +24924,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageFormParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageFormParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageFormParametersOutputReference
 ```
@@ -25449,7 +25449,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsList
 ```
@@ -25609,7 +25609,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsOutputReference
 ```
@@ -25963,7 +25963,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsOutputReference
 ```
@@ -26383,7 +26383,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsDtmfSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsDtmfSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsDtmfSettingsOutputReference
 ```
@@ -26777,7 +26777,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsLoggingSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsLoggingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsLoggingSettingsOutputReference
 ```
@@ -27113,7 +27113,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsOutputReference
 ```
@@ -27488,7 +27488,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsSpeechSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsSpeechSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsSpeechSettingsOutputReference
 ```
@@ -27853,7 +27853,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentConditionalCasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentConditionalCasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentConditionalCasesList
 ```
@@ -28013,7 +28013,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentConditionalCasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentConditionalCasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentConditionalCasesOutputReference
 ```
@@ -28309,7 +28309,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesConversationSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesConversationSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesConversationSuccessOutputReference
 ```
@@ -28587,7 +28587,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesEndInteractionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesEndInteractionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesEndInteractionList
 ```
@@ -28736,7 +28736,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesEndInteractionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesEndInteractionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesEndInteractionOutputReference
 ```
@@ -29003,7 +29003,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesKnowledgeInfoCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesKnowledgeInfoCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesKnowledgeInfoCardOutputReference
 ```
@@ -29252,7 +29252,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesList
 ```
@@ -29412,7 +29412,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesLiveAgentHandoffOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesLiveAgentHandoffOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesLiveAgentHandoffOutputReference
 ```
@@ -29690,7 +29690,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioList
 ```
@@ -29839,7 +29839,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioOutputReference
 ```
@@ -30117,7 +30117,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioSegmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioSegmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioSegmentsList
 ```
@@ -30266,7 +30266,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioSegmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioSegmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioSegmentsOutputReference
 ```
@@ -30566,7 +30566,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputAudioTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputAudioTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputAudioTextOutputReference
 ```
@@ -30884,7 +30884,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputReference
 ```
@@ -31525,7 +31525,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesPlayAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesPlayAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesPlayAudioOutputReference
 ```
@@ -31807,7 +31807,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesTelephonyTransferCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesTelephonyTransferCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesTelephonyTransferCallOutputReference
 ```
@@ -32078,7 +32078,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentMessagesTextOutputReference
 ```
@@ -32367,7 +32367,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentOutputReference
 ```
@@ -32900,7 +32900,7 @@ func InternalValue() GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentSetParameterActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentSetParameterActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentSetParameterActionsList
 ```
@@ -33060,7 +33060,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentSetParameterActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentSetParameterActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageKnowledgeConnectorSettingsTriggerFulfillmentSetParameterActionsOutputReference
 ```
@@ -33385,7 +33385,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageTimeoutsOutputReference
 ```
@@ -33721,7 +33721,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageTransitionRoutesList
 ```
@@ -33881,7 +33881,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageTransitionRoutesOutputReference
 ```
@@ -34317,7 +34317,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentConditionalCasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentConditionalCasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentConditionalCasesList
 ```
@@ -34477,7 +34477,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentConditionalCasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentConditionalCasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentConditionalCasesOutputReference
 ```
@@ -34773,7 +34773,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesConversationSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesConversationSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesConversationSuccessOutputReference
 ```
@@ -35051,7 +35051,7 @@ func InternalValue() GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesList
 ```
@@ -35211,7 +35211,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesLiveAgentHandoffOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesLiveAgentHandoffOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesLiveAgentHandoffOutputReference
 ```
@@ -35489,7 +35489,7 @@ func InternalValue() GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioTextOutputReference
 ```
@@ -35807,7 +35807,7 @@ func InternalValue() GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputReference
 ```
@@ -36384,7 +36384,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesPlayAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesPlayAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesPlayAudioOutputReference
 ```
@@ -36666,7 +36666,7 @@ func InternalValue() GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesTelephonyTransferCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesTelephonyTransferCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesTelephonyTransferCallOutputReference
 ```
@@ -36937,7 +36937,7 @@ func InternalValue() GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesTextOutputReference
 ```
@@ -37226,7 +37226,7 @@ func InternalValue() GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentMes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentOutputReference
 ```
@@ -37688,7 +37688,7 @@ func InternalValue() GoogleDialogflowCxPageTransitionRoutesTriggerFulfillment
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentSetParameterActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentSetParameterActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentSetParameterActionsList
 ```
@@ -37848,7 +37848,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxPage.GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentSetParameterActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxpage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxpage"
 
 googledialogflowcxpage.NewGoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentSetParameterActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxPageTransitionRoutesTriggerFulfillmentSetParameterActionsOutputReference
 ```

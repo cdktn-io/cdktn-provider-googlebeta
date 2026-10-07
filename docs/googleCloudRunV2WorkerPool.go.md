@@ -4,12 +4,12 @@
 
 ### GoogleCloudRunV2WorkerPool <a name="GoogleCloudRunV2WorkerPool" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPool(scope Construct, id *string, config GoogleCloudRunV2WorkerPoolConfig) GoogleCloudRunV2WorkerPool
 ```
@@ -83,7 +83,6 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.resetBinaryAuthorization">ResetBinaryAuthorization</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.resetClient">ResetClient</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.resetClientVersion">ResetClientVersion</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.resetCustomAudiences">ResetCustomAudiences</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.resetDeletionProtection">ResetDeletionProtection</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.resetDescription">ResetDescription</a></code> | *No description.* |
@@ -490,12 +489,6 @@ func ResetClient()
 func ResetClientVersion()
 ```
 
-##### `ResetCustomAudiences` <a name="ResetCustomAudiences" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.resetCustomAudiences"></a>
-
-```go
-func ResetCustomAudiences()
-```
-
 ##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.resetDeletionPolicy"></a>
 
 ```go
@@ -570,7 +563,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPool_IsConstruct(x interface{}) *bool
 ```
@@ -602,7 +595,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPool_IsTerraformElement(x interface{}) *bool
 ```
@@ -616,7 +609,7 @@ googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPool_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPool_IsTerraformResource(x interface{}) *bool
 ```
@@ -630,7 +623,7 @@ googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPool_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -659,7 +652,7 @@ The construct id used in the generated config for the GoogleCloudRunV2WorkerPool
 
 The id of the existing GoogleCloudRunV2WorkerPool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -717,7 +710,6 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.binaryAuthorizationInput">BinaryAuthorizationInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolBinaryAuthorization">GoogleCloudRunV2WorkerPoolBinaryAuthorization</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.clientInput">ClientInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.clientVersionInput">ClientVersionInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.customAudiencesInput">CustomAudiencesInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.deletionProtectionInput">DeletionProtectionInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
@@ -734,7 +726,6 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.annotations">Annotations</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.client">Client</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.clientVersion">ClientVersion</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.customAudiences">CustomAudiences</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.deletionProtection">DeletionProtection</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.description">Description</a></code> | <code>*string</code> | *No description.* |
@@ -1169,16 +1160,6 @@ func ClientVersionInput() *string
 
 ---
 
-##### `CustomAudiencesInput`<sup>Optional</sup> <a name="CustomAudiencesInput" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.customAudiencesInput"></a>
-
-```go
-func CustomAudiencesInput() *[]*string
-```
-
-- *Type:* *[]*string
-
----
-
 ##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.deletionPolicyInput"></a>
 
 ```go
@@ -1339,16 +1320,6 @@ func ClientVersion() *string
 
 ---
 
-##### `CustomAudiences`<sup>Required</sup> <a name="CustomAudiences" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.customAudiences"></a>
-
-```go
-func CustomAudiences() *[]*string
-```
-
-- *Type:* *[]*string
-
----
-
 ##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPool.property.deletionPolicy"></a>
 
 ```go
@@ -1464,7 +1435,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolBinaryAuthorization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolBinaryAuthorization {
 	BreakglassJustification: *string,
@@ -1495,7 +1466,7 @@ If present, indicates to use Breakglass using this justification.
 
 If useDefault is False, then it must be empty. For more information on breakglass, see https://cloud.google.com/binary-authorization/docs/using-breakglass
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#breakglass_justification GoogleCloudRunV2WorkerPool#breakglass_justification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#breakglass_justification GoogleCloudRunV2WorkerPool#breakglass_justification}
 
 ---
 
@@ -1509,7 +1480,7 @@ Policy *string
 
 The path to a binary authorization policy. Format: projects/{project}/platforms/cloudRun/{policy-name}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#policy GoogleCloudRunV2WorkerPool#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#policy GoogleCloudRunV2WorkerPool#policy}
 
 ---
 
@@ -1523,7 +1494,7 @@ UseDefault interface{}
 
 If True, indicates to use the default project's binary authorization policy. If False, binary authorization will be disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#use_default GoogleCloudRunV2WorkerPool#use_default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#use_default GoogleCloudRunV2WorkerPool#use_default}
 
 ---
 
@@ -1532,7 +1503,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolConditions {
 
@@ -1545,7 +1516,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolConfig {
 	Connection: interface{},
@@ -1557,12 +1528,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 	Provisioners: *[]interface{},
 	Location: *string,
 	Name: *string,
-	Template: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplate,
+	Template: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplate,
 	Annotations: *map[string]*string,
-	BinaryAuthorization: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolBinaryAuthorization,
+	BinaryAuthorization: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolBinaryAuthorization,
 	Client: *string,
 	ClientVersion: *string,
-	CustomAudiences: *[]*string,
 	DeletionPolicy: *string,
 	DeletionProtection: interface{},
 	Description: *string,
@@ -1571,8 +1541,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 	Labels: *map[string]*string,
 	LaunchStage: *string,
 	Project: *string,
-	Scaling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolScaling,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTimeouts,
+	Scaling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolScaling,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTimeouts,
 }
 ```
 
@@ -1594,15 +1564,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.binaryAuthorization">BinaryAuthorization</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolBinaryAuthorization">GoogleCloudRunV2WorkerPoolBinaryAuthorization</a></code> | binary_authorization block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.client">Client</a></code> | <code>*string</code> | Arbitrary identifier for the API client. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.clientVersion">ClientVersion</a></code> | <code>*string</code> | Arbitrary version identifier for the API client. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.customAudiences">CustomAudiences</a></code> | <code>*[]*string</code> | One or more custom audiences that you want this worker pool to support. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.deletionProtection">DeletionProtection</a></code> | <code>interface{}</code> | Whether Terraform will be prevented from destroying the service. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.description">Description</a></code> | <code>*string</code> | User-provided description of the WorkerPool. This field currently has a 512-character limit. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#id GoogleCloudRunV2WorkerPool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#id GoogleCloudRunV2WorkerPool#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.instanceSplits">InstanceSplits</a></code> | <code>interface{}</code> | instance_splits block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Unstructured key value map that can be used to organize and categorize objects. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.launchStage">LaunchStage</a></code> | <code>*string</code> | The launch stage as defined by [Google Cloud Platform Launch Stages](https://cloud.google.com/products#product-launch-stages). Cloud Run supports ALPHA, BETA, and GA. If no value is specified, GA is assumed. Set the launch stage to a preview stage on input to allow use of preview features in that stage. On read (or output), describes whether the resource uses preview features. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#project GoogleCloudRunV2WorkerPool#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#project GoogleCloudRunV2WorkerPool#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.scaling">Scaling</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolScaling">GoogleCloudRunV2WorkerPoolScaling</a></code> | scaling block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTimeouts">GoogleCloudRunV2WorkerPoolTimeouts</a></code> | timeouts block. |
 
@@ -1688,7 +1657,7 @@ Location *string
 
 The location of the cloud run worker pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#location GoogleCloudRunV2WorkerPool#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#location GoogleCloudRunV2WorkerPool#location}
 
 ---
 
@@ -1702,7 +1671,7 @@ Name *string
 
 Name of the WorkerPool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
 
 ---
 
@@ -1716,7 +1685,7 @@ Template GoogleCloudRunV2WorkerPoolTemplate
 
 template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#template GoogleCloudRunV2WorkerPool#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#template GoogleCloudRunV2WorkerPool#template}
 
 ---
 
@@ -1740,7 +1709,7 @@ This field follows Kubernetes annotations' namespacing, limits, and rules.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#annotations GoogleCloudRunV2WorkerPool#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#annotations GoogleCloudRunV2WorkerPool#annotations}
 
 ---
 
@@ -1754,7 +1723,7 @@ BinaryAuthorization GoogleCloudRunV2WorkerPoolBinaryAuthorization
 
 binary_authorization block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#binary_authorization GoogleCloudRunV2WorkerPool#binary_authorization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#binary_authorization GoogleCloudRunV2WorkerPool#binary_authorization}
 
 ---
 
@@ -1768,7 +1737,7 @@ Client *string
 
 Arbitrary identifier for the API client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#client GoogleCloudRunV2WorkerPool#client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#client GoogleCloudRunV2WorkerPool#client}
 
 ---
 
@@ -1782,24 +1751,7 @@ ClientVersion *string
 
 Arbitrary version identifier for the API client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#client_version GoogleCloudRunV2WorkerPool#client_version}
-
----
-
-##### `CustomAudiences`<sup>Optional</sup> <a name="CustomAudiences" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConfig.property.customAudiences"></a>
-
-```go
-CustomAudiences *[]*string
-```
-
-- *Type:* *[]*string
-
-One or more custom audiences that you want this worker pool to support.
-
-Specify each custom audience as the full URL in a string. The custom audiences are encoded in the token and used to authenticate requests.
-For more information, see https://cloud.google.com/run/docs/configuring/custom-audiences.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#custom_audiences GoogleCloudRunV2WorkerPool#custom_audiences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#client_version GoogleCloudRunV2WorkerPool#client_version}
 
 ---
 
@@ -1820,7 +1772,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#deletion_policy GoogleCloudRunV2WorkerPool#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#deletion_policy GoogleCloudRunV2WorkerPool#deletion_policy}
 
 ---
 
@@ -1841,7 +1793,7 @@ When the field is set to true or unset in Terraform state, a 'terraform apply'
 or 'terraform destroy' that would delete the WorkerPool will fail.
 When the field is set to false, deleting the WorkerPool is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#deletion_protection GoogleCloudRunV2WorkerPool#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#deletion_protection GoogleCloudRunV2WorkerPool#deletion_protection}
 
 ---
 
@@ -1855,7 +1807,7 @@ Description *string
 
 User-provided description of the WorkerPool. This field currently has a 512-character limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#description GoogleCloudRunV2WorkerPool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#description GoogleCloudRunV2WorkerPool#description}
 
 ---
 
@@ -1867,7 +1819,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#id GoogleCloudRunV2WorkerPool#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#id GoogleCloudRunV2WorkerPool#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1884,7 +1836,7 @@ InstanceSplits interface{}
 
 instance_splits block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#instance_splits GoogleCloudRunV2WorkerPool#instance_splits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#instance_splits GoogleCloudRunV2WorkerPool#instance_splits}
 
 ---
 
@@ -1907,7 +1859,7 @@ All system labels in v1 now have a corresponding field in v2 WorkerPool.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#labels GoogleCloudRunV2WorkerPool#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#labels GoogleCloudRunV2WorkerPool#labels}
 
 ---
 
@@ -1923,7 +1875,7 @@ The launch stage as defined by [Google Cloud Platform Launch Stages](https://clo
 
 For example, if ALPHA is provided as input, but only BETA and GA-level features are used, this field will be BETA on output. Possible values: ["UNIMPLEMENTED", "PRELAUNCH", "EARLY_ACCESS", "ALPHA", "BETA", "GA", "DEPRECATED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#launch_stage GoogleCloudRunV2WorkerPool#launch_stage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#launch_stage GoogleCloudRunV2WorkerPool#launch_stage}
 
 ---
 
@@ -1935,7 +1887,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#project GoogleCloudRunV2WorkerPool#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#project GoogleCloudRunV2WorkerPool#project}.
 
 ---
 
@@ -1949,7 +1901,7 @@ Scaling GoogleCloudRunV2WorkerPoolScaling
 
 scaling block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#scaling GoogleCloudRunV2WorkerPool#scaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#scaling GoogleCloudRunV2WorkerPool#scaling}
 
 ---
 
@@ -1963,7 +1915,7 @@ Timeouts GoogleCloudRunV2WorkerPoolTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#timeouts GoogleCloudRunV2WorkerPool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#timeouts GoogleCloudRunV2WorkerPool#timeouts}
 
 ---
 
@@ -1972,7 +1924,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolInstanceSplits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolInstanceSplits {
 	Percent: *f64,
@@ -2001,7 +1953,7 @@ Percent *f64
 
 Specifies percent of the instance split to this Revision. This defaults to zero if unspecified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#percent GoogleCloudRunV2WorkerPool#percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#percent GoogleCloudRunV2WorkerPool#percent}
 
 ---
 
@@ -2015,7 +1967,7 @@ Revision *string
 
 Revision to which to assign this portion of instances, if split allocation is by revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#revision GoogleCloudRunV2WorkerPool#revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#revision GoogleCloudRunV2WorkerPool#revision}
 
 ---
 
@@ -2029,7 +1981,7 @@ Type *string
 
 The allocation type for this instance split. Possible values: ["INSTANCE_SPLIT_ALLOCATION_TYPE_LATEST", "INSTANCE_SPLIT_ALLOCATION_TYPE_REVISION"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#type GoogleCloudRunV2WorkerPool#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#type GoogleCloudRunV2WorkerPool#type}
 
 ---
 
@@ -2038,7 +1990,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolInstanceSplitStatuses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolInstanceSplitStatuses {
 
@@ -2051,7 +2003,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolScaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolScaling {
 	ManualInstanceCount: *f64,
@@ -2082,7 +2034,7 @@ ManualInstanceCount *f64
 
 The total number of instances in manual scaling mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#manual_instance_count GoogleCloudRunV2WorkerPool#manual_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#manual_instance_count GoogleCloudRunV2WorkerPool#manual_instance_count}
 
 ---
 
@@ -2096,7 +2048,7 @@ MaxInstanceCount *f64
 
 The maximum count of instances distributed among revisions based on the specified instance split percentages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#max_instance_count GoogleCloudRunV2WorkerPool#max_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#max_instance_count GoogleCloudRunV2WorkerPool#max_instance_count}
 
 ---
 
@@ -2110,7 +2062,7 @@ MinInstanceCount *f64
 
 The minimum count of instances distributed among revisions based on the specified instance split percentages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#min_instance_count GoogleCloudRunV2WorkerPool#min_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#min_instance_count GoogleCloudRunV2WorkerPool#min_instance_count}
 
 ---
 
@@ -2124,7 +2076,7 @@ ScalingMode *string
 
 The scaling mode for the worker pool. It defaults to MANUAL. Possible values: ["AUTOMATIC", "MANUAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#scaling_mode GoogleCloudRunV2WorkerPool#scaling_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#scaling_mode GoogleCloudRunV2WorkerPool#scaling_mode}
 
 ---
 
@@ -2133,7 +2085,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplate {
 	Annotations: *map[string]*string,
@@ -2145,11 +2097,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 	EncryptionKeyShutdownDuration: *string,
 	GpuZonalRedundancyDisabled: interface{},
 	Labels: *map[string]*string,
-	NodeSelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateNodeSelector,
+	NodeSelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateNodeSelector,
 	Revision: *string,
 	ServiceAccount: *string,
 	Volumes: interface{},
-	VpcAccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVpcAccess,
+	VpcAccess: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVpcAccess,
 }
 ```
 
@@ -2191,7 +2143,7 @@ All system annotations in v1 now have a corresponding field in v2 WorkerPoolRevi
 
 This field follows Kubernetes annotations' namespacing, limits, and rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#annotations GoogleCloudRunV2WorkerPool#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#annotations GoogleCloudRunV2WorkerPool#annotations}
 
 ---
 
@@ -2205,7 +2157,7 @@ Client *string
 
 Arbitrary identifier for the API client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#client GoogleCloudRunV2WorkerPool#client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#client GoogleCloudRunV2WorkerPool#client}
 
 ---
 
@@ -2219,7 +2171,7 @@ ClientVersion *string
 
 Arbitrary version identifier for the API client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#client_version GoogleCloudRunV2WorkerPool#client_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#client_version GoogleCloudRunV2WorkerPool#client_version}
 
 ---
 
@@ -2233,7 +2185,7 @@ Containers interface{}
 
 containers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#containers GoogleCloudRunV2WorkerPool#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#containers GoogleCloudRunV2WorkerPool#containers}
 
 ---
 
@@ -2249,7 +2201,7 @@ A reference to a customer managed encryption key (CMEK) to use to encrypt this c
 
 For more information, go to https://cloud.google.com/run/docs/securing/using-cmek
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#encryption_key GoogleCloudRunV2WorkerPool#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#encryption_key GoogleCloudRunV2WorkerPool#encryption_key}
 
 ---
 
@@ -2263,7 +2215,7 @@ EncryptionKeyRevocationAction *string
 
 The action to take if the encryption key is revoked. Possible values: ["PREVENT_NEW", "SHUTDOWN"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#encryption_key_revocation_action GoogleCloudRunV2WorkerPool#encryption_key_revocation_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#encryption_key_revocation_action GoogleCloudRunV2WorkerPool#encryption_key_revocation_action}
 
 ---
 
@@ -2279,7 +2231,7 @@ If encryptionKeyRevocationAction is SHUTDOWN, the duration before shutting down 
 
 A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#encryption_key_shutdown_duration GoogleCloudRunV2WorkerPool#encryption_key_shutdown_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#encryption_key_shutdown_duration GoogleCloudRunV2WorkerPool#encryption_key_shutdown_duration}
 
 ---
 
@@ -2293,7 +2245,7 @@ GpuZonalRedundancyDisabled interface{}
 
 True if GPU zonal redundancy is disabled on this revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#gpu_zonal_redundancy_disabled GoogleCloudRunV2WorkerPool#gpu_zonal_redundancy_disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#gpu_zonal_redundancy_disabled GoogleCloudRunV2WorkerPool#gpu_zonal_redundancy_disabled}
 
 ---
 
@@ -2313,7 +2265,7 @@ For more information, visit https://docs.cloud.google.com/resource-manager/docs/
 Cloud Run API v2 does not support labels with 'run.googleapis.com', 'cloud.googleapis.com', 'serving.knative.dev', or 'autoscaling.knative.dev' namespaces, and they will be rejected.
 All system labels in v1 now have a corresponding field in v2 WorkerPoolRevisionTemplate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#labels GoogleCloudRunV2WorkerPool#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#labels GoogleCloudRunV2WorkerPool#labels}
 
 ---
 
@@ -2327,7 +2279,7 @@ NodeSelector GoogleCloudRunV2WorkerPoolTemplateNodeSelector
 
 node_selector block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#node_selector GoogleCloudRunV2WorkerPool#node_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#node_selector GoogleCloudRunV2WorkerPool#node_selector}
 
 ---
 
@@ -2343,7 +2295,7 @@ The unique name for the revision.
 
 If this field is omitted, it will be automatically generated based on the WorkerPool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#revision GoogleCloudRunV2WorkerPool#revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#revision GoogleCloudRunV2WorkerPool#revision}
 
 ---
 
@@ -2359,7 +2311,7 @@ Email address of the IAM service account associated with the revision of the Wor
 
 The service account represents the identity of the running revision, and determines what permissions the revision has. If not provided, the revision will use the project's default service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#service_account GoogleCloudRunV2WorkerPool#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#service_account GoogleCloudRunV2WorkerPool#service_account}
 
 ---
 
@@ -2373,7 +2325,7 @@ Volumes interface{}
 
 volumes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#volumes GoogleCloudRunV2WorkerPool#volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#volumes GoogleCloudRunV2WorkerPool#volumes}
 
 ---
 
@@ -2387,7 +2339,7 @@ VpcAccess GoogleCloudRunV2WorkerPoolTemplateVpcAccess
 
 vpc_access block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#vpc_access GoogleCloudRunV2WorkerPool#vpc_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#vpc_access GoogleCloudRunV2WorkerPool#vpc_access}
 
 ---
 
@@ -2396,7 +2348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainers {
 	Image: *string,
@@ -2404,10 +2356,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 	Command: *[]*string,
 	DependsOn: *[]*string,
 	Env: interface{},
-	LivenessProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe,
+	LivenessProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe,
 	Name: *string,
-	Resources: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersResources,
-	StartupProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe,
+	Resources: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersResources,
+	SandboxLauncher: interface{},
+	StartupProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe,
 	VolumeMounts: interface{},
 	WorkingDir: *string,
 }
@@ -2425,6 +2378,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainers.property.livenessProbe">LivenessProbe</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe">GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe</a></code> | liveness_probe block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainers.property.name">Name</a></code> | <code>*string</code> | Name of the container specified as a DNS_LABEL. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainers.property.resources">Resources</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersResources">GoogleCloudRunV2WorkerPoolTemplateContainersResources</a></code> | resources block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainers.property.sandboxLauncher">SandboxLauncher</a></code> | <code>interface{}</code> | Indicates that this container can act as a sandbox supervisor and launch sandboxes. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainers.property.startupProbe">StartupProbe</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe">GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe</a></code> | startup_probe block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainers.property.volumeMounts">VolumeMounts</a></code> | <code>interface{}</code> | volume_mounts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainers.property.workingDir">WorkingDir</a></code> | <code>*string</code> | Container's working directory. |
@@ -2441,7 +2395,7 @@ Image *string
 
 URL of the Container image in Google Container Registry or Google Artifact Registry. More info: https://kubernetes.io/docs/concepts/containers/images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#image GoogleCloudRunV2WorkerPool#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#image GoogleCloudRunV2WorkerPool#image}
 
 ---
 
@@ -2457,7 +2411,7 @@ Arguments to the entrypoint.
 
 The docker image's CMD is used if this is not provided. Variable references are not supported in Cloud Run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#args GoogleCloudRunV2WorkerPool#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#args GoogleCloudRunV2WorkerPool#args}
 
 ---
 
@@ -2473,7 +2427,7 @@ Entrypoint array.
 
 Not executed within a shell. The docker image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#command GoogleCloudRunV2WorkerPool#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#command GoogleCloudRunV2WorkerPool#command}
 
 ---
 
@@ -2487,7 +2441,7 @@ DependsOn *[]*string
 
 Names of the containers that must start before this container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#depends_on GoogleCloudRunV2WorkerPool#depends_on}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#depends_on GoogleCloudRunV2WorkerPool#depends_on}
 
 ---
 
@@ -2501,7 +2455,7 @@ Env interface{}
 
 env block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#env GoogleCloudRunV2WorkerPool#env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#env GoogleCloudRunV2WorkerPool#env}
 
 ---
 
@@ -2515,7 +2469,7 @@ LivenessProbe GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe
 
 liveness_probe block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#liveness_probe GoogleCloudRunV2WorkerPool#liveness_probe}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#liveness_probe GoogleCloudRunV2WorkerPool#liveness_probe}
 
 ---
 
@@ -2529,7 +2483,7 @@ Name *string
 
 Name of the container specified as a DNS_LABEL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
 
 ---
 
@@ -2543,7 +2497,21 @@ Resources GoogleCloudRunV2WorkerPoolTemplateContainersResources
 
 resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#resources GoogleCloudRunV2WorkerPool#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#resources GoogleCloudRunV2WorkerPool#resources}
+
+---
+
+##### `SandboxLauncher`<sup>Optional</sup> <a name="SandboxLauncher" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainers.property.sandboxLauncher"></a>
+
+```go
+SandboxLauncher interface{}
+```
+
+- *Type:* interface{}
+
+Indicates that this container can act as a sandbox supervisor and launch sandboxes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#sandbox_launcher GoogleCloudRunV2WorkerPool#sandbox_launcher}
 
 ---
 
@@ -2557,7 +2525,7 @@ StartupProbe GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe
 
 startup_probe block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#startup_probe GoogleCloudRunV2WorkerPool#startup_probe}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#startup_probe GoogleCloudRunV2WorkerPool#startup_probe}
 
 ---
 
@@ -2571,7 +2539,7 @@ VolumeMounts interface{}
 
 volume_mounts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#volume_mounts GoogleCloudRunV2WorkerPool#volume_mounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#volume_mounts GoogleCloudRunV2WorkerPool#volume_mounts}
 
 ---
 
@@ -2587,7 +2555,7 @@ Container's working directory.
 
 If not specified, the container runtime's default will be used, which might be configured in the container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#working_dir GoogleCloudRunV2WorkerPool#working_dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#working_dir GoogleCloudRunV2WorkerPool#working_dir}
 
 ---
 
@@ -2596,12 +2564,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersEnv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersEnv {
 	Name: *string,
 	Value: *string,
-	ValueSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSource,
+	ValueSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSource,
 }
 ```
 
@@ -2625,7 +2593,7 @@ Name *string
 
 Name of the environment variable. Must be a C_IDENTIFIER, and may not exceed 32768 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
 
 ---
 
@@ -2641,7 +2609,7 @@ Literal value of the environment variable.
 
 Defaults to "" and the maximum allowed length is 32768 characters. Variable references are not supported in Cloud Run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
 
 ---
 
@@ -2655,7 +2623,7 @@ ValueSource GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSource
 
 value_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#value_source GoogleCloudRunV2WorkerPool#value_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#value_source GoogleCloudRunV2WorkerPool#value_source}
 
 ---
 
@@ -2664,10 +2632,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSource {
-	SecretKeyRef: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceSecretKeyRef,
+	SecretKeyRef: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceSecretKeyRef,
 }
 ```
 
@@ -2689,7 +2657,7 @@ SecretKeyRef GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceSecretKey
 
 secret_key_ref block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#secret_key_ref GoogleCloudRunV2WorkerPool#secret_key_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#secret_key_ref GoogleCloudRunV2WorkerPool#secret_key_ref}
 
 ---
 
@@ -2698,7 +2666,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceSecretKeyRef.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceSecretKeyRef {
 	Secret: *string,
@@ -2727,7 +2695,7 @@ The name of the secret in Cloud Secret Manager.
 
 Format: {secretName} if the secret is in the same project. projects/{project}/secrets/{secretName} if the secret is in a different project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
 
 ---
 
@@ -2743,7 +2711,7 @@ The Cloud Secret Manager secret version.
 
 Can be 'latest' for the latest value or an integer for a specific version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#version GoogleCloudRunV2WorkerPool#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#version GoogleCloudRunV2WorkerPool#version}
 
 ---
 
@@ -2752,15 +2720,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe {
 	FailureThreshold: *f64,
-	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeGrpc,
-	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet,
+	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeGrpc,
+	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet,
 	InitialDelaySeconds: *f64,
 	PeriodSeconds: *f64,
-	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeTcpSocket,
+	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeTcpSocket,
 	TimeoutSeconds: *f64,
 }
 ```
@@ -2791,7 +2759,7 @@ Optional.
 
 Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#failure_threshold GoogleCloudRunV2WorkerPool#failure_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#failure_threshold GoogleCloudRunV2WorkerPool#failure_threshold}
 
 ---
 
@@ -2805,7 +2773,7 @@ Grpc GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeGrpc
 
 grpc block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#grpc GoogleCloudRunV2WorkerPool#grpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#grpc GoogleCloudRunV2WorkerPool#grpc}
 
 ---
 
@@ -2819,7 +2787,7 @@ HttpGet GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet
 
 http_get block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#http_get GoogleCloudRunV2WorkerPool#http_get}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#http_get GoogleCloudRunV2WorkerPool#http_get}
 
 ---
 
@@ -2835,7 +2803,7 @@ Optional.
 
 Number of seconds after the container has started before the probe is initiated. Defaults to 0 seconds. Minimum value is 0. Maximum value for liveness probe is 3600. Maximum value for startup probe is 240.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#initial_delay_seconds GoogleCloudRunV2WorkerPool#initial_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#initial_delay_seconds GoogleCloudRunV2WorkerPool#initial_delay_seconds}
 
 ---
 
@@ -2851,7 +2819,7 @@ Optional.
 
 How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1. Maximum value for liveness probe is 3600. Maximum value for startup probe is 240. Must be greater or equal than timeout_seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#period_seconds GoogleCloudRunV2WorkerPool#period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#period_seconds GoogleCloudRunV2WorkerPool#period_seconds}
 
 ---
 
@@ -2865,7 +2833,7 @@ TcpSocket GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeTcpSocket
 
 tcp_socket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#tcp_socket GoogleCloudRunV2WorkerPool#tcp_socket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#tcp_socket GoogleCloudRunV2WorkerPool#tcp_socket}
 
 ---
 
@@ -2881,7 +2849,7 @@ Optional.
 
 Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. Maximum value is 3600. Must be smaller than period_seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#timeout_seconds GoogleCloudRunV2WorkerPool#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#timeout_seconds GoogleCloudRunV2WorkerPool#timeout_seconds}
 
 ---
 
@@ -2890,7 +2858,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeGrpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeGrpc {
 	Port: *f64,
@@ -2919,7 +2887,7 @@ Optional.
 
 Port number of the gRPC service. Number must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
 
 ---
 
@@ -2935,7 +2903,7 @@ Optional.
 
 Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md ). If this is not specified, the default behavior is defined by gRPC
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#service GoogleCloudRunV2WorkerPool#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#service GoogleCloudRunV2WorkerPool#service}
 
 ---
 
@@ -2944,7 +2912,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet {
 	HttpHeaders: interface{},
@@ -2973,7 +2941,7 @@ HttpHeaders interface{}
 
 http_headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#http_headers GoogleCloudRunV2WorkerPool#http_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#http_headers GoogleCloudRunV2WorkerPool#http_headers}
 
 ---
 
@@ -2987,7 +2955,7 @@ Path *string
 
 Optional. Path to access on the HTTP server. Defaults to '/'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
 
 ---
 
@@ -3003,7 +2971,7 @@ Optional.
 
 Port number to access on the container. Must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
 
 ---
 
@@ -3012,11 +2980,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders {
 	Name: *string,
-	Port: *f64,
 	Value: *string,
 }
 ```
@@ -3026,12 +2993,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders.property.name">Name</a></code> | <code>*string</code> | Required. The header field name. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders.property.port">Port</a></code> | <code>*f64</code> | Required. The header field name. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders.property.value">Value</a></code> | <code>*string</code> | Optional. The header field value. |
 
 ---
 
-##### `Name`<sup>Optional</sup> <a name="Name" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders.property.name"></a>
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders.property.name"></a>
 
 ```go
 Name *string
@@ -3041,21 +3007,7 @@ Name *string
 
 Required. The header field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
-
----
-
-##### `Port`<sup>Optional</sup> <a name="Port" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders.property.port"></a>
-
-```go
-Port *f64
-```
-
-- *Type:* *f64
-
-Required. The header field name.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
 
 ---
 
@@ -3069,7 +3021,7 @@ Value *string
 
 Optional. The header field value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
 
 ---
 
@@ -3078,7 +3030,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeTcpSocket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeTcpSocket {
 	Port: *f64,
@@ -3105,7 +3057,7 @@ Optional.
 
 Port number to access on the container. Must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
 
 ---
 
@@ -3114,7 +3066,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersResources {
 	Limits: *map[string]*string,
@@ -3139,7 +3091,7 @@ Limits *map[string]*string
 
 Only memory, CPU, and nvidia.com/gpu are supported. Use key 'cpu' for CPU limit, 'memory' for memory limit, 'nvidia.com/gpu' for gpu limit. Note: The only supported values for CPU are '1', '2', '4', '6', and '8'. Setting 4 CPU requires at least 2Gi of memory, setting 6 or more CPU requires at least 4Gi of memory. The values of the map is string form of the 'quantity' k8s type: https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apimachinery/pkg/api/resource/quantity.go.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#limits GoogleCloudRunV2WorkerPool#limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#limits GoogleCloudRunV2WorkerPool#limits}
 
 ---
 
@@ -3148,15 +3100,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe {
 	FailureThreshold: *f64,
-	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeGrpc,
-	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGet,
+	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeGrpc,
+	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGet,
 	InitialDelaySeconds: *f64,
 	PeriodSeconds: *f64,
-	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeTcpSocket,
+	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeTcpSocket,
 	TimeoutSeconds: *f64,
 }
 ```
@@ -3187,7 +3139,7 @@ Optional.
 
 Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#failure_threshold GoogleCloudRunV2WorkerPool#failure_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#failure_threshold GoogleCloudRunV2WorkerPool#failure_threshold}
 
 ---
 
@@ -3201,7 +3153,7 @@ Grpc GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeGrpc
 
 grpc block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#grpc GoogleCloudRunV2WorkerPool#grpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#grpc GoogleCloudRunV2WorkerPool#grpc}
 
 ---
 
@@ -3215,7 +3167,7 @@ HttpGet GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGet
 
 http_get block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#http_get GoogleCloudRunV2WorkerPool#http_get}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#http_get GoogleCloudRunV2WorkerPool#http_get}
 
 ---
 
@@ -3231,7 +3183,7 @@ Optional.
 
 Number of seconds after the container has started before the probe is initiated. Defaults to 0 seconds. Minimum value is 0. Maximum value for liveness probe is 3600. Maximum value for startup probe is 240.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#initial_delay_seconds GoogleCloudRunV2WorkerPool#initial_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#initial_delay_seconds GoogleCloudRunV2WorkerPool#initial_delay_seconds}
 
 ---
 
@@ -3247,7 +3199,7 @@ Optional.
 
 How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1. Maximum value for liveness probe is 3600. Maximum value for startup probe is 240. Must be greater or equal than timeout_seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#period_seconds GoogleCloudRunV2WorkerPool#period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#period_seconds GoogleCloudRunV2WorkerPool#period_seconds}
 
 ---
 
@@ -3261,7 +3213,7 @@ TcpSocket GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeTcpSocket
 
 tcp_socket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#tcp_socket GoogleCloudRunV2WorkerPool#tcp_socket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#tcp_socket GoogleCloudRunV2WorkerPool#tcp_socket}
 
 ---
 
@@ -3277,7 +3229,7 @@ Optional.
 
 Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. Maximum value is 3600. Must be smaller than period_seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#timeout_seconds GoogleCloudRunV2WorkerPool#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#timeout_seconds GoogleCloudRunV2WorkerPool#timeout_seconds}
 
 ---
 
@@ -3286,7 +3238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeGrpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeGrpc {
 	Port: *f64,
@@ -3315,7 +3267,7 @@ Optional.
 
 Port number of the gRPC service. Number must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
 
 ---
 
@@ -3331,7 +3283,7 @@ Optional.
 
 Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md ). If this is not specified, the default behavior is defined by gRPC
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#service GoogleCloudRunV2WorkerPool#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#service GoogleCloudRunV2WorkerPool#service}
 
 ---
 
@@ -3340,7 +3292,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGet {
 	HttpHeaders: interface{},
@@ -3369,7 +3321,7 @@ HttpHeaders interface{}
 
 http_headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#http_headers GoogleCloudRunV2WorkerPool#http_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#http_headers GoogleCloudRunV2WorkerPool#http_headers}
 
 ---
 
@@ -3383,7 +3335,7 @@ Path *string
 
 Optional. Path to access on the HTTP server. Defaults to '/'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
 
 ---
 
@@ -3399,7 +3351,7 @@ Optional.
 
 Port number to access on the container. Must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
 
 ---
 
@@ -3408,11 +3360,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders {
 	Name: *string,
-	Port: *f64,
 	Value: *string,
 }
 ```
@@ -3422,12 +3373,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders.property.name">Name</a></code> | <code>*string</code> | Required. The header field name. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders.property.port">Port</a></code> | <code>*f64</code> | Required. The header field name. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders.property.value">Value</a></code> | <code>*string</code> | Optional. The header field value. |
 
 ---
 
-##### `Name`<sup>Optional</sup> <a name="Name" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders.property.name"></a>
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders.property.name"></a>
 
 ```go
 Name *string
@@ -3437,21 +3387,7 @@ Name *string
 
 Required. The header field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
-
----
-
-##### `Port`<sup>Optional</sup> <a name="Port" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders.property.port"></a>
-
-```go
-Port *f64
-```
-
-- *Type:* *f64
-
-Required. The header field name.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
 
 ---
 
@@ -3465,7 +3401,7 @@ Value *string
 
 Optional. The header field value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
 
 ---
 
@@ -3474,7 +3410,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeTcpSocket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeTcpSocket {
 	Port: *f64,
@@ -3501,7 +3437,7 @@ Optional.
 
 Port number to access on the container. Must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
 
 ---
 
@@ -3510,7 +3446,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersVolumeMounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateContainersVolumeMounts {
 	MountPath: *string,
@@ -3541,7 +3477,7 @@ Path within the container at which the volume should be mounted.
 
 Must not contain ':'. For Cloud SQL volumes, it can be left empty, or must otherwise be /cloudsql. All instances defined in the Volume will be available as /cloudsql/[instance]. For more information on Cloud SQL volumes, visit https://cloud.google.com/sql/docs/mysql/connect-run
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#mount_path GoogleCloudRunV2WorkerPool#mount_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#mount_path GoogleCloudRunV2WorkerPool#mount_path}
 
 ---
 
@@ -3555,7 +3491,7 @@ Name *string
 
 This must match the Name of a Volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
 
 ---
 
@@ -3569,7 +3505,7 @@ SubPath *string
 
 Path within the volume from which the container's volume should be mounted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#sub_path GoogleCloudRunV2WorkerPool#sub_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#sub_path GoogleCloudRunV2WorkerPool#sub_path}
 
 ---
 
@@ -3578,7 +3514,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateNodeSelector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateNodeSelector {
 	Accelerator: *string,
@@ -3603,7 +3539,7 @@ Accelerator *string
 
 The GPU to attach to an instance. See https://cloud.google.com/run/docs/configuring/services/gpu for configuring GPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#accelerator GoogleCloudRunV2WorkerPool#accelerator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#accelerator GoogleCloudRunV2WorkerPool#accelerator}
 
 ---
 
@@ -3612,15 +3548,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateVolumes {
 	Name: *string,
-	CloudSqlInstance: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesCloudSqlInstance,
-	EmptyDir: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesEmptyDir,
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesGcs,
-	Nfs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesNfs,
-	Secret: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesSecret,
+	CloudSqlInstance: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesCloudSqlInstance,
+	EmptyDir: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesEmptyDir,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesGcs,
+	Nfs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesNfs,
+	Secret: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesSecret,
 }
 ```
 
@@ -3647,7 +3583,7 @@ Name *string
 
 Volume's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
 
 ---
 
@@ -3661,7 +3597,7 @@ CloudSqlInstance GoogleCloudRunV2WorkerPoolTemplateVolumesCloudSqlInstance
 
 cloud_sql_instance block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#cloud_sql_instance GoogleCloudRunV2WorkerPool#cloud_sql_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#cloud_sql_instance GoogleCloudRunV2WorkerPool#cloud_sql_instance}
 
 ---
 
@@ -3675,7 +3611,7 @@ EmptyDir GoogleCloudRunV2WorkerPoolTemplateVolumesEmptyDir
 
 empty_dir block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#empty_dir GoogleCloudRunV2WorkerPool#empty_dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#empty_dir GoogleCloudRunV2WorkerPool#empty_dir}
 
 ---
 
@@ -3689,7 +3625,7 @@ Gcs GoogleCloudRunV2WorkerPoolTemplateVolumesGcs
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#gcs GoogleCloudRunV2WorkerPool#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#gcs GoogleCloudRunV2WorkerPool#gcs}
 
 ---
 
@@ -3703,7 +3639,7 @@ Nfs GoogleCloudRunV2WorkerPoolTemplateVolumesNfs
 
 nfs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#nfs GoogleCloudRunV2WorkerPool#nfs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#nfs GoogleCloudRunV2WorkerPool#nfs}
 
 ---
 
@@ -3717,7 +3653,7 @@ Secret GoogleCloudRunV2WorkerPoolTemplateVolumesSecret
 
 secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
 
 ---
 
@@ -3726,7 +3662,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesCloudSqlInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateVolumesCloudSqlInstance {
 	Instances: *[]*string,
@@ -3751,7 +3687,7 @@ Instances *[]*string
 
 The Cloud SQL instance connection names, as can be found in https://console.cloud.google.com/sql/instances. Visit https://cloud.google.com/sql/docs/mysql/connect-run for more information on how to connect Cloud SQL and Cloud Run. Format: {project}:{location}:{instance}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#instances GoogleCloudRunV2WorkerPool#instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#instances GoogleCloudRunV2WorkerPool#instances}
 
 ---
 
@@ -3760,7 +3696,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesEmptyDir.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateVolumesEmptyDir {
 	Medium: *string,
@@ -3787,7 +3723,7 @@ Medium *string
 
 The different types of medium supported for EmptyDir. Default value: "MEMORY" Possible values: ["MEMORY", "DISK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#medium GoogleCloudRunV2WorkerPool#medium}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#medium GoogleCloudRunV2WorkerPool#medium}
 
 ---
 
@@ -3803,7 +3739,7 @@ Limit on the storage usable by this EmptyDir volume.
 
 The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. This field's values are of the 'Quantity' k8s type: https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes/#emptydir.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#size_limit GoogleCloudRunV2WorkerPool#size_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#size_limit GoogleCloudRunV2WorkerPool#size_limit}
 
 ---
 
@@ -3812,7 +3748,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateVolumesGcs {
 	Bucket: *string,
@@ -3841,7 +3777,7 @@ Bucket *string
 
 GCS Bucket name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#bucket GoogleCloudRunV2WorkerPool#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#bucket GoogleCloudRunV2WorkerPool#bucket}
 
 ---
 
@@ -3857,7 +3793,7 @@ A list of flags to pass to the gcsfuse command for configuring this volume.
 
 Flags should be passed without leading dashes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#mount_options GoogleCloudRunV2WorkerPool#mount_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#mount_options GoogleCloudRunV2WorkerPool#mount_options}
 
 ---
 
@@ -3871,7 +3807,7 @@ ReadOnly interface{}
 
 If true, mount the GCS bucket as read-only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#read_only GoogleCloudRunV2WorkerPool#read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#read_only GoogleCloudRunV2WorkerPool#read_only}
 
 ---
 
@@ -3880,7 +3816,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesNfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateVolumesNfs {
 	Path: *string,
@@ -3909,7 +3845,7 @@ Path *string
 
 Path that is exported by the NFS server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
 
 ---
 
@@ -3923,7 +3859,7 @@ Server *string
 
 Hostname or IP address of the NFS server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#server GoogleCloudRunV2WorkerPool#server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#server GoogleCloudRunV2WorkerPool#server}
 
 ---
 
@@ -3937,7 +3873,7 @@ ReadOnly interface{}
 
 If true, mount the NFS volume as read only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#read_only GoogleCloudRunV2WorkerPool#read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#read_only GoogleCloudRunV2WorkerPool#read_only}
 
 ---
 
@@ -3946,7 +3882,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesSecret.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateVolumesSecret {
 	Secret: *string,
@@ -3977,7 +3913,7 @@ The name of the secret in Cloud Secret Manager.
 
 Format: {secret} if the secret is in the same project. projects/{project}/secrets/{secret} if the secret is in a different project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
 
 ---
 
@@ -3993,7 +3929,7 @@ Integer representation of mode bits to use on created files by default.
 
 Must be a value between 0000 and 0777 (octal), defaulting to 0444. Directories within the path are not affected by this setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#default_mode GoogleCloudRunV2WorkerPool#default_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#default_mode GoogleCloudRunV2WorkerPool#default_mode}
 
 ---
 
@@ -4007,7 +3943,7 @@ Items interface{}
 
 items block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#items GoogleCloudRunV2WorkerPool#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#items GoogleCloudRunV2WorkerPool#items}
 
 ---
 
@@ -4016,7 +3952,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesSecretItems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateVolumesSecretItems {
 	Path: *string,
@@ -4045,7 +3981,7 @@ Path *string
 
 The relative path of the secret in the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
 
 ---
 
@@ -4061,7 +3997,7 @@ Integer octal mode bits to use on this file, must be a value between 01 and 0777
 
 If 0 or not set, the Volume's default mode will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#mode GoogleCloudRunV2WorkerPool#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#mode GoogleCloudRunV2WorkerPool#mode}
 
 ---
 
@@ -4077,7 +4013,7 @@ The Cloud Secret Manager secret version.
 
 Can be 'latest' for the latest value or an integer for a specific version
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#version GoogleCloudRunV2WorkerPool#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#version GoogleCloudRunV2WorkerPool#version}
 
 ---
 
@@ -4086,7 +4022,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVpcAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateVpcAccess {
 	Connector: *string,
@@ -4115,7 +4051,7 @@ Connector *string
 
 VPC Access connector name. Format: projects/{project}/locations/{location}/connectors/{connector}, where {project} can be project id or number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#connector GoogleCloudRunV2WorkerPool#connector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#connector GoogleCloudRunV2WorkerPool#connector}
 
 ---
 
@@ -4129,7 +4065,7 @@ Egress *string
 
 Traffic VPC egress settings. Possible values: ["ALL_TRAFFIC", "PRIVATE_RANGES_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#egress GoogleCloudRunV2WorkerPool#egress}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#egress GoogleCloudRunV2WorkerPool#egress}
 
 ---
 
@@ -4143,7 +4079,7 @@ NetworkInterfaces interface{}
 
 network_interfaces block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#network_interfaces GoogleCloudRunV2WorkerPool#network_interfaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#network_interfaces GoogleCloudRunV2WorkerPool#network_interfaces}
 
 ---
 
@@ -4152,7 +4088,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVpcAccessNetworkInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTemplateVpcAccessNetworkInterfaces {
 	Network: *string,
@@ -4185,7 +4121,7 @@ At least one of network or subnetwork must be specified. If both
 network and subnetwork are specified, the given VPC subnetwork must belong to the given VPC network. If network is not specified, it will be
 looked up from the subnetwork.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#network GoogleCloudRunV2WorkerPool#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#network GoogleCloudRunV2WorkerPool#network}
 
 ---
 
@@ -4203,7 +4139,7 @@ At least one of network or subnetwork must be specified. If both
 network and subnetwork are specified, the given VPC subnetwork must belong to the given VPC network. If subnetwork is not specified, the
 subnetwork with the same name with the network will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#subnetwork GoogleCloudRunV2WorkerPool#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#subnetwork GoogleCloudRunV2WorkerPool#subnetwork}
 
 ---
 
@@ -4217,7 +4153,7 @@ Tags *[]*string
 
 Network tags applied to this Cloud Run WorkerPool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#tags GoogleCloudRunV2WorkerPool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#tags GoogleCloudRunV2WorkerPool#tags}
 
 ---
 
@@ -4226,7 +4162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTerminalCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTerminalCondition {
 
@@ -4239,7 +4175,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 &googlecloudrunv2workerpool.GoogleCloudRunV2WorkerPoolTimeouts {
 	Create: *string,
@@ -4252,9 +4188,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#create GoogleCloudRunV2WorkerPool#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#delete GoogleCloudRunV2WorkerPool#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#update GoogleCloudRunV2WorkerPool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#create GoogleCloudRunV2WorkerPool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#delete GoogleCloudRunV2WorkerPool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#update GoogleCloudRunV2WorkerPool#update}. |
 
 ---
 
@@ -4266,7 +4202,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#create GoogleCloudRunV2WorkerPool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#create GoogleCloudRunV2WorkerPool#create}.
 
 ---
 
@@ -4278,7 +4214,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#delete GoogleCloudRunV2WorkerPool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#delete GoogleCloudRunV2WorkerPool#delete}.
 
 ---
 
@@ -4290,7 +4226,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_worker_pool#update GoogleCloudRunV2WorkerPool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_worker_pool#update GoogleCloudRunV2WorkerPool#update}.
 
 ---
 
@@ -4301,7 +4237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolBinaryAuthorizationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolBinaryAuthorizationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolBinaryAuthorizationOutputReference
 ```
@@ -4637,7 +4573,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolBinaryAuthorization
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolConditionsList
 ```
@@ -4786,7 +4722,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolConditionsOutputReference
 ```
@@ -5141,7 +5077,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolInstanceSplitsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolInstanceSplitsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolInstanceSplitsList
 ```
@@ -5301,7 +5237,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolInstanceSplitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolInstanceSplitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolInstanceSplitsOutputReference
 ```
@@ -5655,7 +5591,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolInstanceSplitStatusesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolInstanceSplitStatusesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolInstanceSplitStatusesList
 ```
@@ -5804,7 +5740,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolInstanceSplitStatusesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolInstanceSplitStatusesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolInstanceSplitStatusesOutputReference
 ```
@@ -6104,7 +6040,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolInstanceSplitStatuses
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolScalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolScalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolScalingOutputReference
 ```
@@ -6469,7 +6405,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolScaling
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersEnvList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolTemplateContainersEnvList
 ```
@@ -6629,7 +6565,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersEnvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolTemplateContainersEnvOutputReference
 ```
@@ -6989,7 +6925,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceOutputReference
 ```
@@ -7280,7 +7216,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceSecretKeyRefOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceSecretKeyRefOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceSecretKeyRefOutputReference
 ```
@@ -7580,7 +7516,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolTemplateContainersList
 ```
@@ -7740,7 +7676,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeGrpcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeGrpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeGrpcOutputReference
 ```
@@ -8047,7 +7983,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeGr
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersList
 ```
@@ -8207,7 +8143,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference
 ```
@@ -8270,8 +8206,6 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.resetName">ResetName</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.resetPort">ResetPort</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.resetValue">ResetValue</a></code> | *No description.* |
 
 ---
@@ -8426,18 +8360,6 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `ResetName` <a name="ResetName" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.resetName"></a>
-
-```go
-func ResetName()
-```
-
-##### `ResetPort` <a name="ResetPort" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.resetPort"></a>
-
-```go
-func ResetPort()
-```
-
 ##### `ResetValue` <a name="ResetValue" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.resetValue"></a>
 
 ```go
@@ -8452,10 +8374,8 @@ func ResetValue()
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.portInput">PortInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.valueInput">ValueInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.name">Name</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.port">Port</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.value">Value</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
@@ -8495,16 +8415,6 @@ func NameInput() *string
 
 ---
 
-##### `PortInput`<sup>Optional</sup> <a name="PortInput" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.portInput"></a>
-
-```go
-func PortInput() *f64
-```
-
-- *Type:* *f64
-
----
-
 ##### `ValueInput`<sup>Optional</sup> <a name="ValueInput" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.valueInput"></a>
 
 ```go
@@ -8522,16 +8432,6 @@ func Name() *string
 ```
 
 - *Type:* *string
-
----
-
-##### `Port`<sup>Required</sup> <a name="Port" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference.property.port"></a>
-
-```go
-func Port() *f64
-```
-
-- *Type:* *f64
 
 ---
 
@@ -8561,7 +8461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference
 ```
@@ -8910,7 +8810,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHt
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeOutputReference
 ```
@@ -9401,7 +9301,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeTcpSocketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeTcpSocketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeTcpSocketOutputReference
 ```
@@ -9679,7 +9579,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeTc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference
 ```
@@ -9754,6 +9654,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.resetLivenessProbe">ResetLivenessProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.resetName">ResetName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.resetResources">ResetResources</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.resetSandboxLauncher">ResetSandboxLauncher</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.resetStartupProbe">ResetStartupProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.resetVolumeMounts">ResetVolumeMounts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.resetWorkingDir">ResetWorkingDir</a></code> | *No description.* |
@@ -10012,6 +9913,12 @@ func ResetName()
 func ResetResources()
 ```
 
+##### `ResetSandboxLauncher` <a name="ResetSandboxLauncher" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.resetSandboxLauncher"></a>
+
+```go
+func ResetSandboxLauncher()
+```
+
 ##### `ResetStartupProbe` <a name="ResetStartupProbe" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.resetStartupProbe"></a>
 
 ```go
@@ -10050,6 +9957,7 @@ func ResetWorkingDir()
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.livenessProbeInput">LivenessProbeInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe">GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.resourcesInput">ResourcesInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersResources">GoogleCloudRunV2WorkerPoolTemplateContainersResources</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.sandboxLauncherInput">SandboxLauncherInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.startupProbeInput">StartupProbeInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe">GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.volumeMountsInput">VolumeMountsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.workingDirInput">WorkingDirInput</a></code> | <code>*string</code> | *No description.* |
@@ -10058,6 +9966,7 @@ func ResetWorkingDir()
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.image">Image</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.sandboxLauncher">SandboxLauncher</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.workingDir">WorkingDir</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
@@ -10217,6 +10126,16 @@ func ResourcesInput() GoogleCloudRunV2WorkerPoolTemplateContainersResources
 
 ---
 
+##### `SandboxLauncherInput`<sup>Optional</sup> <a name="SandboxLauncherInput" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.sandboxLauncherInput"></a>
+
+```go
+func SandboxLauncherInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `StartupProbeInput`<sup>Optional</sup> <a name="StartupProbeInput" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.startupProbeInput"></a>
 
 ```go
@@ -10297,6 +10216,16 @@ func Name() *string
 
 ---
 
+##### `SandboxLauncher`<sup>Required</sup> <a name="SandboxLauncher" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.sandboxLauncher"></a>
+
+```go
+func SandboxLauncher() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `WorkingDir`<sup>Required</sup> <a name="WorkingDir" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersOutputReference.property.workingDir"></a>
 
 ```go
@@ -10323,7 +10252,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateContainersResourcesOutputReference
 ```
@@ -10601,7 +10530,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateContainersResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeGrpcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeGrpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeGrpcOutputReference
 ```
@@ -10908,7 +10837,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeGrp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersList
 ```
@@ -11068,7 +10997,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference
 ```
@@ -11131,8 +11060,6 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.resetName">ResetName</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.resetPort">ResetPort</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.resetValue">ResetValue</a></code> | *No description.* |
 
 ---
@@ -11287,18 +11214,6 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `ResetName` <a name="ResetName" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.resetName"></a>
-
-```go
-func ResetName()
-```
-
-##### `ResetPort` <a name="ResetPort" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.resetPort"></a>
-
-```go
-func ResetPort()
-```
-
 ##### `ResetValue` <a name="ResetValue" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.resetValue"></a>
 
 ```go
@@ -11313,10 +11228,8 @@ func ResetValue()
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.portInput">PortInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.valueInput">ValueInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.name">Name</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.port">Port</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.value">Value</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
@@ -11356,16 +11269,6 @@ func NameInput() *string
 
 ---
 
-##### `PortInput`<sup>Optional</sup> <a name="PortInput" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.portInput"></a>
-
-```go
-func PortInput() *f64
-```
-
-- *Type:* *f64
-
----
-
 ##### `ValueInput`<sup>Optional</sup> <a name="ValueInput" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.valueInput"></a>
 
 ```go
@@ -11383,16 +11286,6 @@ func Name() *string
 ```
 
 - *Type:* *string
-
----
-
-##### `Port`<sup>Required</sup> <a name="Port" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference.property.port"></a>
-
-```go
-func Port() *f64
-```
-
-- *Type:* *f64
 
 ---
 
@@ -11422,7 +11315,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference
 ```
@@ -11771,7 +11664,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHtt
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeOutputReference
 ```
@@ -12262,7 +12155,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeTcpSocketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeTcpSocketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeTcpSocketOutputReference
 ```
@@ -12540,7 +12433,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeTcp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersVolumeMountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersVolumeMountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolTemplateContainersVolumeMountsList
 ```
@@ -12700,7 +12593,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateContainersVolumeMountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateContainersVolumeMountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolTemplateContainersVolumeMountsOutputReference
 ```
@@ -13040,7 +12933,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateNodeSelectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateNodeSelectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateNodeSelectorOutputReference
 ```
@@ -13311,7 +13204,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateNodeSelector
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateOutputReference
 ```
@@ -14018,7 +13911,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesCloudSqlInstanceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVolumesCloudSqlInstanceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateVolumesCloudSqlInstanceOutputReference
 ```
@@ -14296,7 +14189,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateVolumesCloudSqlInstance
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesEmptyDirOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVolumesEmptyDirOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateVolumesEmptyDirOutputReference
 ```
@@ -14603,7 +14496,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateVolumesEmptyDir
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVolumesGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateVolumesGcsOutputReference
 ```
@@ -14932,7 +14825,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateVolumesGcs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolTemplateVolumesList
 ```
@@ -15092,7 +14985,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesNfsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVolumesNfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateVolumesNfsOutputReference
 ```
@@ -15414,7 +15307,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateVolumesNfs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolTemplateVolumesOutputReference
 ```
@@ -15913,7 +15806,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesSecretItemsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVolumesSecretItemsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolTemplateVolumesSecretItemsList
 ```
@@ -16073,7 +15966,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesSecretItemsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVolumesSecretItemsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolTemplateVolumesSecretItemsOutputReference
 ```
@@ -16420,7 +16313,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVolumesSecretOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVolumesSecretOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateVolumesSecretOutputReference
 ```
@@ -16762,7 +16655,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateVolumesSecret
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVpcAccessNetworkInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVpcAccessNetworkInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolTemplateVpcAccessNetworkInterfacesList
 ```
@@ -16922,7 +16815,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVpcAccessNetworkInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVpcAccessNetworkInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolTemplateVpcAccessNetworkInterfacesOutputReference
 ```
@@ -17276,7 +17169,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTemplateVpcAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTemplateVpcAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTemplateVpcAccessOutputReference
 ```
@@ -17625,7 +17518,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTemplateVpcAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTerminalConditionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTerminalConditionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunV2WorkerPoolTerminalConditionList
 ```
@@ -17774,7 +17667,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTerminalConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTerminalConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunV2WorkerPoolTerminalConditionOutputReference
 ```
@@ -18129,7 +18022,7 @@ func InternalValue() GoogleCloudRunV2WorkerPoolTerminalCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPool.GoogleCloudRunV2WorkerPoolTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2workerpool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool"
 
 googlecloudrunv2workerpool.NewGoogleCloudRunV2WorkerPoolTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunV2WorkerPoolTimeoutsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### GoogleCloudRunDomainMapping <a name="GoogleCloudRunDomainMapping" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping google_cloud_run_domain_mapping}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping google_cloud_run_domain_mapping}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.NewGoogleCloudRunDomainMapping(scope Construct, id *string, config GoogleCloudRunDomainMappingConfig) GoogleCloudRunDomainMapping
 ```
@@ -474,7 +474,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.GoogleCloudRunDomainMapping_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.GoogleCloudRunDomainMapping_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ googlecloudrundomainmapping.GoogleCloudRunDomainMapping_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.GoogleCloudRunDomainMapping_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googlecloudrundomainmapping.GoogleCloudRunDomainMapping_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.GoogleCloudRunDomainMapping_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the GoogleCloudRunDomainMappin
 
 The id of the existing GoogleCloudRunDomainMapping that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -950,7 +950,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 &googlecloudrundomainmapping.GoogleCloudRunDomainMappingConfig {
 	Connection: interface{},
@@ -962,12 +962,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 	Provisioners: *[]interface{},
 	Location: *string,
 	Name: *string,
-	Spec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingSpec,
+	Spec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingSpec,
 	DeletionPolicy: *string,
 	Id: *string,
-	Metadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingMetadata,
+	Metadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingMetadata,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingTimeouts,
 }
 ```
 
@@ -986,9 +986,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingConfig.property.name">Name</a></code> | <code>*string</code> | Name should be a [verified](https://support.google.com/webmasters/answer/9008080) domain. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingConfig.property.spec">Spec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingSpec">GoogleCloudRunDomainMappingSpec</a></code> | spec block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#id GoogleCloudRunDomainMapping#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#id GoogleCloudRunDomainMapping#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingConfig.property.metadata">Metadata</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingMetadata">GoogleCloudRunDomainMappingMetadata</a></code> | metadata block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#project GoogleCloudRunDomainMapping#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#project GoogleCloudRunDomainMapping#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingTimeouts">GoogleCloudRunDomainMappingTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1073,7 +1073,7 @@ Location *string
 
 The location of the cloud run instance. eg us-central1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#location GoogleCloudRunDomainMapping#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#location GoogleCloudRunDomainMapping#location}
 
 ---
 
@@ -1087,7 +1087,7 @@ Name *string
 
 Name should be a [verified](https://support.google.com/webmasters/answer/9008080) domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#name GoogleCloudRunDomainMapping#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#name GoogleCloudRunDomainMapping#name}
 
 ---
 
@@ -1101,7 +1101,7 @@ Spec GoogleCloudRunDomainMappingSpec
 
 spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#spec GoogleCloudRunDomainMapping#spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#spec GoogleCloudRunDomainMapping#spec}
 
 ---
 
@@ -1122,7 +1122,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#deletion_policy GoogleCloudRunDomainMapping#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#deletion_policy GoogleCloudRunDomainMapping#deletion_policy}
 
 ---
 
@@ -1134,7 +1134,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#id GoogleCloudRunDomainMapping#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#id GoogleCloudRunDomainMapping#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1151,7 +1151,7 @@ Metadata GoogleCloudRunDomainMappingMetadata
 
 metadata block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#metadata GoogleCloudRunDomainMapping#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#metadata GoogleCloudRunDomainMapping#metadata}
 
 ---
 
@@ -1163,7 +1163,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#project GoogleCloudRunDomainMapping#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#project GoogleCloudRunDomainMapping#project}.
 
 ---
 
@@ -1177,7 +1177,7 @@ Timeouts GoogleCloudRunDomainMappingTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#timeouts GoogleCloudRunDomainMapping#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#timeouts GoogleCloudRunDomainMapping#timeouts}
 
 ---
 
@@ -1186,7 +1186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 &googlecloudrundomainmapping.GoogleCloudRunDomainMappingMetadata {
 	Namespace: *string,
@@ -1215,7 +1215,7 @@ Namespace *string
 
 In Cloud Run the namespace must be equal to either the project ID or project number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#namespace GoogleCloudRunDomainMapping#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#namespace GoogleCloudRunDomainMapping#namespace}
 
 ---
 
@@ -1238,7 +1238,7 @@ or apply the lifecycle.ignore_changes rule to the metadata.0.annotations field.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#annotations GoogleCloudRunDomainMapping#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#annotations GoogleCloudRunDomainMapping#annotations}
 
 ---
 
@@ -1259,7 +1259,7 @@ More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/lab
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#labels GoogleCloudRunDomainMapping#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#labels GoogleCloudRunDomainMapping#labels}
 
 ---
 
@@ -1268,7 +1268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 &googlecloudrundomainmapping.GoogleCloudRunDomainMappingSpec {
 	RouteName: *string,
@@ -1297,7 +1297,7 @@ RouteName *string
 
 The name of the Cloud Run Service that this DomainMapping applies to. The route must exist.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#route_name GoogleCloudRunDomainMapping#route_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#route_name GoogleCloudRunDomainMapping#route_name}
 
 ---
 
@@ -1311,7 +1311,7 @@ CertificateMode *string
 
 The mode of the certificate. Default value: "AUTOMATIC" Possible values: ["NONE", "AUTOMATIC"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#certificate_mode GoogleCloudRunDomainMapping#certificate_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#certificate_mode GoogleCloudRunDomainMapping#certificate_mode}
 
 ---
 
@@ -1329,7 +1329,7 @@ It is recommended that the user leaves this empty to receive an error
 warning about a potential conflict and only set it once the respective UI
 has given such a warning.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#force_override GoogleCloudRunDomainMapping#force_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#force_override GoogleCloudRunDomainMapping#force_override}
 
 ---
 
@@ -1338,7 +1338,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 &googlecloudrundomainmapping.GoogleCloudRunDomainMappingStatus {
 
@@ -1351,7 +1351,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingStatusConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 &googlecloudrundomainmapping.GoogleCloudRunDomainMappingStatusConditions {
 
@@ -1364,7 +1364,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingStatusResourceRecords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 &googlecloudrundomainmapping.GoogleCloudRunDomainMappingStatusResourceRecords {
 
@@ -1377,7 +1377,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 &googlecloudrundomainmapping.GoogleCloudRunDomainMappingTimeouts {
 	Create: *string,
@@ -1389,8 +1389,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#create GoogleCloudRunDomainMapping#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#delete GoogleCloudRunDomainMapping#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#create GoogleCloudRunDomainMapping#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#delete GoogleCloudRunDomainMapping#delete}. |
 
 ---
 
@@ -1402,7 +1402,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#create GoogleCloudRunDomainMapping#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#create GoogleCloudRunDomainMapping#create}.
 
 ---
 
@@ -1414,7 +1414,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_domain_mapping#delete GoogleCloudRunDomainMapping#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_domain_mapping#delete GoogleCloudRunDomainMapping#delete}.
 
 ---
 
@@ -1425,7 +1425,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.NewGoogleCloudRunDomainMappingMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunDomainMappingMetadataOutputReference
 ```
@@ -1831,7 +1831,7 @@ func InternalValue() GoogleCloudRunDomainMappingMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.NewGoogleCloudRunDomainMappingSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunDomainMappingSpecOutputReference
 ```
@@ -2160,7 +2160,7 @@ func InternalValue() GoogleCloudRunDomainMappingSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingStatusConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.NewGoogleCloudRunDomainMappingStatusConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunDomainMappingStatusConditionsList
 ```
@@ -2309,7 +2309,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingStatusConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.NewGoogleCloudRunDomainMappingStatusConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunDomainMappingStatusConditionsOutputReference
 ```
@@ -2620,7 +2620,7 @@ func InternalValue() GoogleCloudRunDomainMappingStatusConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.NewGoogleCloudRunDomainMappingStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunDomainMappingStatusList
 ```
@@ -2769,7 +2769,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.NewGoogleCloudRunDomainMappingStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunDomainMappingStatusOutputReference
 ```
@@ -3080,7 +3080,7 @@ func InternalValue() GoogleCloudRunDomainMappingStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingStatusResourceRecordsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.NewGoogleCloudRunDomainMappingStatusResourceRecordsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunDomainMappingStatusResourceRecordsList
 ```
@@ -3229,7 +3229,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingStatusResourceRecordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.NewGoogleCloudRunDomainMappingStatusResourceRecordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunDomainMappingStatusResourceRecordsOutputReference
 ```
@@ -3529,7 +3529,7 @@ func InternalValue() GoogleCloudRunDomainMappingStatusResourceRecords
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMappingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrundomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrundomainmapping"
 
 googlecloudrundomainmapping.NewGoogleCloudRunDomainMappingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunDomainMappingTimeoutsOutputReference
 ```

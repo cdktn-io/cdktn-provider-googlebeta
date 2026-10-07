@@ -4,12 +4,12 @@
 
 ### GoogleBigqueryDatapolicyv2DataPolicy <a name="GoogleBigqueryDatapolicyv2DataPolicy" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy google_bigquery_datapolicyv2_data_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy google_bigquery_datapolicyv2_data_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 googlebigquerydatapolicyv2datapolicy.NewGoogleBigqueryDatapolicyv2DataPolicy(scope Construct, id *string, config GoogleBigqueryDatapolicyv2DataPolicyConfig) GoogleBigqueryDatapolicyv2DataPolicy
 ```
@@ -495,7 +495,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 googlebigquerydatapolicyv2datapolicy.GoogleBigqueryDatapolicyv2DataPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 googlebigquerydatapolicyv2datapolicy.GoogleBigqueryDatapolicyv2DataPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ googlebigquerydatapolicyv2datapolicy.GoogleBigqueryDatapolicyv2DataPolicy_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 googlebigquerydatapolicyv2datapolicy.GoogleBigqueryDatapolicyv2DataPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ googlebigquerydatapolicyv2datapolicy.GoogleBigqueryDatapolicyv2DataPolicy_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 googlebigquerydatapolicyv2datapolicy.GoogleBigqueryDatapolicyv2DataPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -584,7 +584,7 @@ The construct id used in the generated config for the GoogleBigqueryDatapolicyv2
 
 The id of the existing GoogleBigqueryDatapolicyv2DataPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1059,7 +1059,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 &googlebigquerydatapolicyv2datapolicy.GoogleBigqueryDatapolicyv2DataPolicyConfig {
 	Connection: interface{},
@@ -1072,14 +1072,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 	DataPolicyId: *string,
 	DataPolicyType: *string,
 	Location: *string,
-	DataGovernanceTag: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyDataGovernanceTag,
-	DataMaskingPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyDataMaskingPolicy,
+	DataGovernanceTag: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyDataGovernanceTag,
+	DataMaskingPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyDataMaskingPolicy,
 	DeletionPolicy: *string,
 	Etag: *string,
 	Grantees: *[]*string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeouts,
 }
 ```
 
@@ -1102,8 +1102,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyConfig.property.etag">Etag</a></code> | <code>*string</code> | The etag for this Data Policy. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyConfig.property.grantees">Grantees</a></code> | <code>*[]*string</code> | The list of IAM principals that have Fine Grained Access to the underlying data goverened by this data policy. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#id GoogleBigqueryDatapolicyv2DataPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#project GoogleBigqueryDatapolicyv2DataPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#id GoogleBigqueryDatapolicyv2DataPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#project GoogleBigqueryDatapolicyv2DataPolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeouts">GoogleBigqueryDatapolicyv2DataPolicyTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1191,7 +1191,7 @@ User-assigned (human readable) ID of the data policy that needs to be unique wit
 Used as {data_policy_id} in part of the resource
 name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#data_policy_id GoogleBigqueryDatapolicyv2DataPolicy#data_policy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#data_policy_id GoogleBigqueryDatapolicyv2DataPolicy#data_policy_id}
 
 ---
 
@@ -1205,7 +1205,7 @@ DataPolicyType *string
 
 Type of data policy. Possible values: DATA_MASKING_POLICY RAW_DATA_ACCESS_POLICY COLUMN_LEVEL_SECURITY_POLICY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#data_policy_type GoogleBigqueryDatapolicyv2DataPolicy#data_policy_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#data_policy_type GoogleBigqueryDatapolicyv2DataPolicy#data_policy_type}
 
 ---
 
@@ -1219,7 +1219,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#location GoogleBigqueryDatapolicyv2DataPolicy#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#location GoogleBigqueryDatapolicyv2DataPolicy#location}
 
 ---
 
@@ -1233,7 +1233,7 @@ DataGovernanceTag GoogleBigqueryDatapolicyv2DataPolicyDataGovernanceTag
 
 data_governance_tag block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#data_governance_tag GoogleBigqueryDatapolicyv2DataPolicy#data_governance_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#data_governance_tag GoogleBigqueryDatapolicyv2DataPolicy#data_governance_tag}
 
 ---
 
@@ -1247,7 +1247,7 @@ DataMaskingPolicy GoogleBigqueryDatapolicyv2DataPolicyDataMaskingPolicy
 
 data_masking_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#data_masking_policy GoogleBigqueryDatapolicyv2DataPolicy#data_masking_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#data_masking_policy GoogleBigqueryDatapolicyv2DataPolicy#data_masking_policy}
 
 ---
 
@@ -1268,7 +1268,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#deletion_policy GoogleBigqueryDatapolicyv2DataPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#deletion_policy GoogleBigqueryDatapolicyv2DataPolicy#deletion_policy}
 
 ---
 
@@ -1287,7 +1287,7 @@ field is required and must match the server's etag. It will also be
 populated in the response of GetDataPolicy, CreateDataPolicy, and
 UpdateDataPolicy calls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#etag GoogleBigqueryDatapolicyv2DataPolicy#etag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#etag GoogleBigqueryDatapolicyv2DataPolicy#etag}
 
 ---
 
@@ -1307,7 +1307,7 @@ supports principal types users, groups, serviceaccounts, cloudidentity.
 This field is supported in V2 Data Policy only. In case of V1 data policies
 (i.e. verion = 1 and policy_tag is set), this field is not populated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#grantees GoogleBigqueryDatapolicyv2DataPolicy#grantees}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#grantees GoogleBigqueryDatapolicyv2DataPolicy#grantees}
 
 ---
 
@@ -1319,7 +1319,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#id GoogleBigqueryDatapolicyv2DataPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#id GoogleBigqueryDatapolicyv2DataPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1334,7 +1334,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#project GoogleBigqueryDatapolicyv2DataPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#project GoogleBigqueryDatapolicyv2DataPolicy#project}.
 
 ---
 
@@ -1348,7 +1348,7 @@ Timeouts GoogleBigqueryDatapolicyv2DataPolicyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#timeouts GoogleBigqueryDatapolicyv2DataPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#timeouts GoogleBigqueryDatapolicyv2DataPolicy#timeouts}
 
 ---
 
@@ -1357,7 +1357,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyDataGovernanceTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 &googlebigquerydatapolicyv2datapolicy.GoogleBigqueryDatapolicyv2DataPolicyDataGovernanceTag {
 	Key: *string,
@@ -1386,7 +1386,7 @@ Tag keys are globally unique.
 
 Tag key is expected to be in the namespaced format, for example "parent-id/pii" where "parent-id" is the ID of the parent organization or project resource for this tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#key GoogleBigqueryDatapolicyv2DataPolicy#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#key GoogleBigqueryDatapolicyv2DataPolicy#key}
 
 ---
 
@@ -1400,7 +1400,7 @@ Value *string
 
 Tag value is expected to be the short name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#value GoogleBigqueryDatapolicyv2DataPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#value GoogleBigqueryDatapolicyv2DataPolicy#value}
 
 ---
 
@@ -1409,7 +1409,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyDataMaskingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 &googlebigquerydatapolicyv2datapolicy.GoogleBigqueryDatapolicyv2DataPolicyDataMaskingPolicy {
 	PredefinedExpression: *string,
@@ -1436,7 +1436,7 @@ PredefinedExpression *string
 
 A predefined masking expression. Possible values: SHA256 ALWAYS_NULL DEFAULT_MASKING_VALUE LAST_FOUR_CHARACTERS FIRST_FOUR_CHARACTERS EMAIL_MASK DATE_YEAR_MASK RANDOM_HASH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#predefined_expression GoogleBigqueryDatapolicyv2DataPolicy#predefined_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#predefined_expression GoogleBigqueryDatapolicyv2DataPolicy#predefined_expression}
 
 ---
 
@@ -1450,7 +1450,7 @@ Routine *string
 
 The name of the BigQuery routine that contains the custom masking routine, in the format of 'projects/{project_number}/datasets/{dataset_id}/routines/{routine_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#routine GoogleBigqueryDatapolicyv2DataPolicy#routine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#routine GoogleBigqueryDatapolicyv2DataPolicy#routine}
 
 ---
 
@@ -1459,7 +1459,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 &googlebigquerydatapolicyv2datapolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeouts {
 	Create: *string,
@@ -1472,9 +1472,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#create GoogleBigqueryDatapolicyv2DataPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#delete GoogleBigqueryDatapolicyv2DataPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#update GoogleBigqueryDatapolicyv2DataPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#create GoogleBigqueryDatapolicyv2DataPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#delete GoogleBigqueryDatapolicyv2DataPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#update GoogleBigqueryDatapolicyv2DataPolicy#update}. |
 
 ---
 
@@ -1486,7 +1486,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#create GoogleBigqueryDatapolicyv2DataPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#create GoogleBigqueryDatapolicyv2DataPolicy#create}.
 
 ---
 
@@ -1498,7 +1498,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#delete GoogleBigqueryDatapolicyv2DataPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#delete GoogleBigqueryDatapolicyv2DataPolicy#delete}.
 
 ---
 
@@ -1510,7 +1510,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy#update GoogleBigqueryDatapolicyv2DataPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy#update GoogleBigqueryDatapolicyv2DataPolicy#update}.
 
 ---
 
@@ -1521,7 +1521,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyDataGovernanceTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 googlebigquerydatapolicyv2datapolicy.NewGoogleBigqueryDatapolicyv2DataPolicyDataGovernanceTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatapolicyv2DataPolicyDataGovernanceTagOutputReference
 ```
@@ -1828,7 +1828,7 @@ func InternalValue() GoogleBigqueryDatapolicyv2DataPolicyDataGovernanceTag
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyDataMaskingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 googlebigquerydatapolicyv2datapolicy.NewGoogleBigqueryDatapolicyv2DataPolicyDataMaskingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatapolicyv2DataPolicyDataMaskingPolicyOutputReference
 ```
@@ -2135,7 +2135,7 @@ func InternalValue() GoogleBigqueryDatapolicyv2DataPolicyDataMaskingPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicy.GoogleBigqueryDatapolicyv2DataPolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicy"
 
 googlebigquerydatapolicyv2datapolicy.NewGoogleBigqueryDatapolicyv2DataPolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatapolicyv2DataPolicyTimeoutsOutputReference
 ```

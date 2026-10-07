@@ -4,12 +4,12 @@
 
 ### GoogleFirebaseAppHostingBackend <a name="GoogleFirebaseAppHostingBackend" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackend"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend google_firebase_app_hosting_backend}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend google_firebase_app_hosting_backend}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackend.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 googlefirebaseapphostingbackend.NewGoogleFirebaseAppHostingBackend(scope Construct, id *string, config GoogleFirebaseAppHostingBackendConfig) GoogleFirebaseAppHostingBackend
 ```
@@ -489,7 +489,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackend.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 googlefirebaseapphostingbackend.GoogleFirebaseAppHostingBackend_IsConstruct(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackend.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 googlefirebaseapphostingbackend.GoogleFirebaseAppHostingBackend_IsTerraformElement(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googlefirebaseapphostingbackend.GoogleFirebaseAppHostingBackend_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackend.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 googlefirebaseapphostingbackend.GoogleFirebaseAppHostingBackend_IsTerraformResource(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ googlefirebaseapphostingbackend.GoogleFirebaseAppHostingBackend_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackend.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 googlefirebaseapphostingbackend.GoogleFirebaseAppHostingBackend_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -578,7 +578,7 @@ The construct id used in the generated config for the GoogleFirebaseAppHostingBa
 
 The id of the existing GoogleFirebaseAppHostingBackend that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1207,7 +1207,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendCodebase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 &googlefirebaseapphostingbackend.GoogleFirebaseAppHostingBackendCodebase {
 	Repository: *string,
@@ -1236,7 +1236,7 @@ The resource name for the Developer Connect ['gitRepositoryLink'](https://cloud.
 
 projects/{project}/locations/{location}/connections/{connection}/gitRepositoryLinks/{repositoryLink}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#repository GoogleFirebaseAppHostingBackend#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#repository GoogleFirebaseAppHostingBackend#repository}
 
 ---
 
@@ -1250,7 +1250,7 @@ RootDirectory *string
 
 If 'repository' is provided, the directory relative to the root of the repository to use as the root for the deployed web app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#root_directory GoogleFirebaseAppHostingBackend#root_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#root_directory GoogleFirebaseAppHostingBackend#root_directory}
 
 ---
 
@@ -1259,7 +1259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 &googlefirebaseapphostingbackend.GoogleFirebaseAppHostingBackendConfig {
 	Connection: interface{},
@@ -1275,14 +1275,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 	ServiceAccount: *string,
 	ServingLocality: *string,
 	Annotations: *map[string]*string,
-	Codebase: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendCodebase,
+	Codebase: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendCodebase,
 	DeletionPolicy: *string,
 	DisplayName: *string,
 	Environment: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendTimeouts,
 }
 ```
 
@@ -1307,9 +1307,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | Human-readable name. 63 character limit. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendConfig.property.environment">Environment</a></code> | <code>*string</code> | The environment name of the backend, used to load environment variables from environment specific configuration. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#id GoogleFirebaseAppHostingBackend#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#id GoogleFirebaseAppHostingBackend#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Unstructured key value map that can be used to organize and categorize objects. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#project GoogleFirebaseAppHostingBackend#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#project GoogleFirebaseAppHostingBackend#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendTimeouts">GoogleFirebaseAppHostingBackendTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1394,7 +1394,7 @@ AppId *string
 
 The [ID of a Web App](https://firebase.google.com/docs/reference/firebase-management/rest/v1beta1/projects.webApps#WebApp.FIELDS.app_id) associated with the backend.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#app_id GoogleFirebaseAppHostingBackend#app_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#app_id GoogleFirebaseAppHostingBackend#app_id}
 
 ---
 
@@ -1411,7 +1411,7 @@ Id of the backend.
 Also used as the service ID for Cloud Run, and as part
 of the default domain name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#backend_id GoogleFirebaseAppHostingBackend#backend_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#backend_id GoogleFirebaseAppHostingBackend#backend_id}
 
 ---
 
@@ -1425,7 +1425,7 @@ Location *string
 
 The canonical IDs of a Google Cloud location such as "us-east1".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#location GoogleFirebaseAppHostingBackend#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#location GoogleFirebaseAppHostingBackend#location}
 
 ---
 
@@ -1439,7 +1439,7 @@ ServiceAccount *string
 
 The name of the service account used for Cloud Build and Cloud Run. Should have the role roles/firebaseapphosting.computeRunner or equivalent permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#service_account GoogleFirebaseAppHostingBackend#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#service_account GoogleFirebaseAppHostingBackend#service_account}
 
 ---
 
@@ -1457,7 +1457,7 @@ Specifies how App Hosting will serve the content for this backend. It will
 either be contained to a single region (REGIONAL_STRICT) or allowed to use
 App Hosting's global-replicated serving infrastructure (GLOBAL_ACCESS). Possible values: ["REGIONAL_STRICT", "GLOBAL_ACCESS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#serving_locality GoogleFirebaseAppHostingBackend#serving_locality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#serving_locality GoogleFirebaseAppHostingBackend#serving_locality}
 
 ---
 
@@ -1477,7 +1477,7 @@ preserved when modifying objects.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#annotations GoogleFirebaseAppHostingBackend#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#annotations GoogleFirebaseAppHostingBackend#annotations}
 
 ---
 
@@ -1491,7 +1491,7 @@ Codebase GoogleFirebaseAppHostingBackendCodebase
 
 codebase block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#codebase GoogleFirebaseAppHostingBackend#codebase}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#codebase GoogleFirebaseAppHostingBackend#codebase}
 
 ---
 
@@ -1512,7 +1512,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#deletion_policy GoogleFirebaseAppHostingBackend#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#deletion_policy GoogleFirebaseAppHostingBackend#deletion_policy}
 
 ---
 
@@ -1526,7 +1526,7 @@ DisplayName *string
 
 Human-readable name. 63 character limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#display_name GoogleFirebaseAppHostingBackend#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#display_name GoogleFirebaseAppHostingBackend#display_name}
 
 ---
 
@@ -1540,7 +1540,7 @@ Environment *string
 
 The environment name of the backend, used to load environment variables from environment specific configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#environment GoogleFirebaseAppHostingBackend#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#environment GoogleFirebaseAppHostingBackend#environment}
 
 ---
 
@@ -1552,7 +1552,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#id GoogleFirebaseAppHostingBackend#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#id GoogleFirebaseAppHostingBackend#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1572,7 +1572,7 @@ Unstructured key value map that can be used to organize and categorize objects.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#labels GoogleFirebaseAppHostingBackend#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#labels GoogleFirebaseAppHostingBackend#labels}
 
 ---
 
@@ -1584,7 +1584,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#project GoogleFirebaseAppHostingBackend#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#project GoogleFirebaseAppHostingBackend#project}.
 
 ---
 
@@ -1598,7 +1598,7 @@ Timeouts GoogleFirebaseAppHostingBackendTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#timeouts GoogleFirebaseAppHostingBackend#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#timeouts GoogleFirebaseAppHostingBackend#timeouts}
 
 ---
 
@@ -1607,7 +1607,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendManagedResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 &googlefirebaseapphostingbackend.GoogleFirebaseAppHostingBackendManagedResources {
 
@@ -1620,7 +1620,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendManagedResourcesRunService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 &googlefirebaseapphostingbackend.GoogleFirebaseAppHostingBackendManagedResourcesRunService {
 
@@ -1633,7 +1633,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 &googlefirebaseapphostingbackend.GoogleFirebaseAppHostingBackendTimeouts {
 	Create: *string,
@@ -1646,9 +1646,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#create GoogleFirebaseAppHostingBackend#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#delete GoogleFirebaseAppHostingBackend#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#update GoogleFirebaseAppHostingBackend#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#create GoogleFirebaseAppHostingBackend#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#delete GoogleFirebaseAppHostingBackend#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#update GoogleFirebaseAppHostingBackend#update}. |
 
 ---
 
@@ -1660,7 +1660,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#create GoogleFirebaseAppHostingBackend#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#create GoogleFirebaseAppHostingBackend#create}.
 
 ---
 
@@ -1672,7 +1672,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#delete GoogleFirebaseAppHostingBackend#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#delete GoogleFirebaseAppHostingBackend#delete}.
 
 ---
 
@@ -1684,7 +1684,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_backend#update GoogleFirebaseAppHostingBackend#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_backend#update GoogleFirebaseAppHostingBackend#update}.
 
 ---
 
@@ -1695,7 +1695,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendCodebaseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 googlefirebaseapphostingbackend.NewGoogleFirebaseAppHostingBackendCodebaseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAppHostingBackendCodebaseOutputReference
 ```
@@ -1995,7 +1995,7 @@ func InternalValue() GoogleFirebaseAppHostingBackendCodebase
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendManagedResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 googlefirebaseapphostingbackend.NewGoogleFirebaseAppHostingBackendManagedResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseAppHostingBackendManagedResourcesList
 ```
@@ -2144,7 +2144,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendManagedResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 googlefirebaseapphostingbackend.NewGoogleFirebaseAppHostingBackendManagedResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingBackendManagedResourcesOutputReference
 ```
@@ -2422,7 +2422,7 @@ func InternalValue() GoogleFirebaseAppHostingBackendManagedResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendManagedResourcesRunServiceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 googlefirebaseapphostingbackend.NewGoogleFirebaseAppHostingBackendManagedResourcesRunServiceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseAppHostingBackendManagedResourcesRunServiceList
 ```
@@ -2571,7 +2571,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendManagedResourcesRunServiceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 googlefirebaseapphostingbackend.NewGoogleFirebaseAppHostingBackendManagedResourcesRunServiceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingBackendManagedResourcesRunServiceOutputReference
 ```
@@ -2849,7 +2849,7 @@ func InternalValue() GoogleFirebaseAppHostingBackendManagedResourcesRunService
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingBackend.GoogleFirebaseAppHostingBackendTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingbackend"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingbackend"
 
 googlefirebaseapphostingbackend.NewGoogleFirebaseAppHostingBackendTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAppHostingBackendTimeoutsOutputReference
 ```

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,11 +21,11 @@ export interface GoogleNetworkSecurityUllMirroringCollectorRuleConfig extends cd
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#deletion_policy GoogleNetworkSecurityUllMirroringCollectorRule#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#deletion_policy GoogleNetworkSecurityUllMirroringCollectorRule#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#id GoogleNetworkSecurityUllMirroringCollectorRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#id GoogleNetworkSecurityUllMirroringCollectorRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,41 +37,41 @@ export interface GoogleNetworkSecurityUllMirroringCollectorRuleConfig extends cd
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#labels GoogleNetworkSecurityUllMirroringCollectorRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#labels GoogleNetworkSecurityUllMirroringCollectorRule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#location GoogleNetworkSecurityUllMirroringCollectorRule#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#location GoogleNetworkSecurityUllMirroringCollectorRule#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#project GoogleNetworkSecurityUllMirroringCollectorRule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#project GoogleNetworkSecurityUllMirroringCollectorRule#project}
   */
   readonly project?: string;
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#ull_mirroring_collector GoogleNetworkSecurityUllMirroringCollectorRule#ull_mirroring_collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#ull_mirroring_collector GoogleNetworkSecurityUllMirroringCollectorRule#ull_mirroring_collector}
   */
   readonly ullMirroringCollector: string;
   /**
   * ID for the new UllMirroringCollectorRule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#ull_mirroring_collector_rule_id GoogleNetworkSecurityUllMirroringCollectorRule#ull_mirroring_collector_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#ull_mirroring_collector_rule_id GoogleNetworkSecurityUllMirroringCollectorRule#ull_mirroring_collector_rule_id}
   */
   readonly ullMirroringCollectorRuleId: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#match GoogleNetworkSecurityUllMirroringCollectorRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#match GoogleNetworkSecurityUllMirroringCollectorRule#match}
   */
   readonly match: GoogleNetworkSecurityUllMirroringCollectorRuleMatch;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#timeouts GoogleNetworkSecurityUllMirroringCollectorRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#timeouts GoogleNetworkSecurityUllMirroringCollectorRule#timeouts}
   */
   readonly timeouts?: GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts;
 }
@@ -82,27 +82,34 @@ export interface GoogleNetworkSecurityUllMirroringCollectorRuleMatch {
   * INGRESS: Traffic inbound to the capture point.
   * EGRESS: Traffic outbound from the capture point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#direction GoogleNetworkSecurityUllMirroringCollectorRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#direction GoogleNetworkSecurityUllMirroringCollectorRule#direction}
   */
   readonly direction?: string;
   /**
   * Destination IP ranges to match. When unset, matches any destination IP
   * range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#dst_ip_ranges GoogleNetworkSecurityUllMirroringCollectorRule#dst_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#dst_ip_ranges GoogleNetworkSecurityUllMirroringCollectorRule#dst_ip_ranges}
   */
   readonly dstIpRanges?: string[];
   /**
   * IP protocols to match. When unset, matches any IP protocol.
   * Examples: "tcp", "udp", "icmp". If unset, matches any IP protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#ip_protocols GoogleNetworkSecurityUllMirroringCollectorRule#ip_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#ip_protocols GoogleNetworkSecurityUllMirroringCollectorRule#ip_protocols}
   */
   readonly ipProtocols?: string[];
   /**
+  * Primary IP ranges to match (for the capture point).
+  * When unset, matches any primary IP.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#primary_ip_ranges GoogleNetworkSecurityUllMirroringCollectorRule#primary_ip_ranges}
+  */
+  readonly primaryIpRanges?: string[];
+  /**
   * Source IP ranges to match. When unset, matches any source IP range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#src_ip_ranges GoogleNetworkSecurityUllMirroringCollectorRule#src_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#src_ip_ranges GoogleNetworkSecurityUllMirroringCollectorRule#src_ip_ranges}
   */
   readonly srcIpRanges?: string[];
 }
@@ -116,6 +123,7 @@ export function googleNetworkSecurityUllMirroringCollectorRuleMatchToTerraform(s
     direction: cdktn.stringToTerraform(struct!.direction),
     dst_ip_ranges: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.dstIpRanges),
     ip_protocols: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.ipProtocols),
+    primary_ip_ranges: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.primaryIpRanges),
     src_ip_ranges: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.srcIpRanges),
   }
 }
@@ -141,6 +149,12 @@ export function googleNetworkSecurityUllMirroringCollectorRuleMatchToHclTerrafor
     },
     ip_protocols: {
       value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.ipProtocols),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    primary_ip_ranges: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.primaryIpRanges),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -183,6 +197,10 @@ export class GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference 
       hasAnyValues = true;
       internalValueResult.ipProtocols = this._ipProtocols;
     }
+    if (this._primaryIpRanges !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.primaryIpRanges = this._primaryIpRanges;
+    }
     if (this._srcIpRanges !== undefined) {
       hasAnyValues = true;
       internalValueResult.srcIpRanges = this._srcIpRanges;
@@ -196,6 +214,7 @@ export class GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference 
       this._direction = undefined;
       this._dstIpRanges = undefined;
       this._ipProtocols = undefined;
+      this._primaryIpRanges = undefined;
       this._srcIpRanges = undefined;
     }
     else {
@@ -203,6 +222,7 @@ export class GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference 
       this._direction = value.direction;
       this._dstIpRanges = value.dstIpRanges;
       this._ipProtocols = value.ipProtocols;
+      this._primaryIpRanges = value.primaryIpRanges;
       this._srcIpRanges = value.srcIpRanges;
     }
   }
@@ -255,6 +275,22 @@ export class GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference 
     return this._ipProtocols;
   }
 
+  // primary_ip_ranges - computed: false, optional: true, required: false
+  private _primaryIpRanges?: string[]; 
+  public get primaryIpRanges() {
+    return this.getListAttribute('primary_ip_ranges');
+  }
+  public set primaryIpRanges(value: string[]) {
+    this._primaryIpRanges = value;
+  }
+  public resetPrimaryIpRanges() {
+    this._primaryIpRanges = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get primaryIpRangesInput() {
+    return this._primaryIpRanges;
+  }
+
   // src_ip_ranges - computed: false, optional: true, required: false
   private _srcIpRanges?: string[]; 
   public get srcIpRanges() {
@@ -273,15 +309,15 @@ export class GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference 
 }
 export interface GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#create GoogleNetworkSecurityUllMirroringCollectorRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#create GoogleNetworkSecurityUllMirroringCollectorRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#delete GoogleNetworkSecurityUllMirroringCollectorRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#delete GoogleNetworkSecurityUllMirroringCollectorRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#update GoogleNetworkSecurityUllMirroringCollectorRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#update GoogleNetworkSecurityUllMirroringCollectorRule#update}
   */
   readonly update?: string;
 }
@@ -433,7 +469,7 @@ export class GoogleNetworkSecurityUllMirroringCollectorRuleTimeoutsOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule}
 */
 export class GoogleNetworkSecurityUllMirroringCollectorRule extends cdktn.TerraformResource {
 
@@ -449,7 +485,7 @@ export class GoogleNetworkSecurityUllMirroringCollectorRule extends cdktn.Terraf
   * Generates CDKTN code for importing a GoogleNetworkSecurityUllMirroringCollectorRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkSecurityUllMirroringCollectorRule to import
-  * @param importFromId The id of the existing GoogleNetworkSecurityUllMirroringCollectorRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetworkSecurityUllMirroringCollectorRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkSecurityUllMirroringCollectorRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -461,7 +497,7 @@ export class GoogleNetworkSecurityUllMirroringCollectorRule extends cdktn.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -472,8 +508,8 @@ export class GoogleNetworkSecurityUllMirroringCollectorRule extends cdktn.Terraf
       terraformResourceType: 'google_network_security_ull_mirroring_collector_rule',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.46.1',
-        providerVersionConstraint: '~> 7.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

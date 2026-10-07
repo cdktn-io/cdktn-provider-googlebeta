@@ -122,9 +122,6 @@ export * as googleBackupDrBackupVault from './google-backup-dr-backup-vault/inde
 export * as googleBackupDrManagementServer from './google-backup-dr-management-server/index';
 export * as googleBackupDrRestoreWorkload from './google-backup-dr-restore-workload/index';
 export * as googleBackupDrServiceConfig from './google-backup-dr-service-config/index';
-export * as googleBeyondcorpAppConnection from './google-beyondcorp-app-connection/index';
-export * as googleBeyondcorpAppConnector from './google-beyondcorp-app-connector/index';
-export * as googleBeyondcorpAppGateway from './google-beyondcorp-app-gateway/index';
 export * as googleBeyondcorpSecurityGateway from './google-beyondcorp-security-gateway/index';
 export * as googleBeyondcorpSecurityGatewayApplication from './google-beyondcorp-security-gateway-application/index';
 export * as googleBeyondcorpSecurityGatewayApplicationIamBinding from './google-beyondcorp-security-gateway-application-iam-binding/index';
@@ -178,6 +175,7 @@ export * as googleBigqueryConnectionIamBinding from './google-bigquery-connectio
 export * as googleBigqueryConnectionIamMember from './google-bigquery-connection-iam-member/index';
 export * as googleBigqueryConnectionIamPolicy from './google-bigquery-connection-iam-policy/index';
 export * as googleBigqueryDataTransferConfig from './google-bigquery-data-transfer-config/index';
+export * as googleBigqueryDataTransferDataSourceEnrollment from './google-bigquery-data-transfer-data-source-enrollment/index';
 export * as googleBigqueryDatapolicyDataPolicy from './google-bigquery-datapolicy-data-policy/index';
 export * as googleBigqueryDatapolicyDataPolicyIamBinding from './google-bigquery-datapolicy-data-policy-iam-binding/index';
 export * as googleBigqueryDatapolicyDataPolicyIamMember from './google-bigquery-datapolicy-data-policy-iam-member/index';
@@ -248,6 +246,9 @@ export * as googleCesSecuritySettings from './google-ces-security-settings/index
 export * as googleCesTool from './google-ces-tool/index';
 export * as googleCesToolset from './google-ces-toolset/index';
 export * as googleChronicleBigQueryExport from './google-chronicle-big-query-export/index';
+export * as googleChronicleCaseCloseDefinition from './google-chronicle-case-close-definition/index';
+export * as googleChronicleCaseStageDefinition from './google-chronicle-case-stage-definition/index';
+export * as googleChronicleCaseTagDefinition from './google-chronicle-case-tag-definition/index';
 export * as googleChronicleCustomList from './google-chronicle-custom-list/index';
 export * as googleChronicleDashboardChart from './google-chronicle-dashboard-chart/index';
 export * as googleChronicleDataAccessLabel from './google-chronicle-data-access-label/index';
@@ -586,6 +587,7 @@ export * as googleDataFusionInstanceIamBinding from './google-data-fusion-instan
 export * as googleDataFusionInstanceIamMember from './google-data-fusion-instance-iam-member/index';
 export * as googleDataFusionInstanceIamPolicy from './google-data-fusion-instance-iam-policy/index';
 export * as googleDataLineageConfig from './google-data-lineage-config/index';
+export * as googleDataLossPreventionContentPolicy from './google-data-loss-prevention-content-policy/index';
 export * as googleDataLossPreventionDeidentifyTemplate from './google-data-loss-prevention-deidentify-template/index';
 export * as googleDataLossPreventionDiscoveryConfig from './google-data-loss-prevention-discovery-config/index';
 export * as googleDataLossPreventionInspectTemplate from './google-data-loss-prevention-inspect-template/index';
@@ -717,6 +719,7 @@ export * as googleDialogflowFulfillment from './google-dialogflow-fulfillment/in
 export * as googleDialogflowGenerator from './google-dialogflow-generator/index';
 export * as googleDialogflowIntent from './google-dialogflow-intent/index';
 export * as googleDialogflowSipTrunk from './google-dialogflow-sip-trunk/index';
+export * as googleDialogflowTool from './google-dialogflow-tool/index';
 export * as googleDialogflowVersion from './google-dialogflow-version/index';
 export * as googleDiscoveryEngineAclConfig from './google-discovery-engine-acl-config/index';
 export * as googleDiscoveryEngineAssistant from './google-discovery-engine-assistant/index';
@@ -770,6 +773,9 @@ export * as googleEventarcGoogleApiSource from './google-eventarc-google-api-sou
 export * as googleEventarcGoogleChannelConfig from './google-eventarc-google-channel-config/index';
 export * as googleEventarcMessageBus from './google-eventarc-message-bus/index';
 export * as googleEventarcPipeline from './google-eventarc-pipeline/index';
+export * as googleEventarcPipelineIamBinding from './google-eventarc-pipeline-iam-binding/index';
+export * as googleEventarcPipelineIamMember from './google-eventarc-pipeline-iam-member/index';
+export * as googleEventarcPipelineIamPolicy from './google-eventarc-pipeline-iam-policy/index';
 export * as googleEventarcTrigger from './google-eventarc-trigger/index';
 export * as googleFilestoreBackup from './google-filestore-backup/index';
 export * as googleFilestoreInstance from './google-filestore-instance/index';
@@ -827,8 +833,12 @@ export * as googleGeminiCodeToolsSetting from './google-gemini-code-tools-settin
 export * as googleGeminiCodeToolsSettingBinding from './google-gemini-code-tools-setting-binding/index';
 export * as googleGeminiDataSharingWithGoogleSetting from './google-gemini-data-sharing-with-google-setting/index';
 export * as googleGeminiDataSharingWithGoogleSettingBinding from './google-gemini-data-sharing-with-google-setting-binding/index';
+export * as googleGeminiGdaObservabilitySetting from './google-gemini-gda-observability-setting/index';
+export * as googleGeminiGdaObservabilitySettingBinding from './google-gemini-gda-observability-setting-binding/index';
 export * as googleGeminiGeminiGcpEnablementSetting from './google-gemini-gemini-gcp-enablement-setting/index';
 export * as googleGeminiGeminiGcpEnablementSettingBinding from './google-gemini-gemini-gcp-enablement-setting-binding/index';
+export * as googleGeminiGibqObservabilitySetting from './google-gemini-gibq-observability-setting/index';
+export * as googleGeminiGibqObservabilitySettingBinding from './google-gemini-gibq-observability-setting-binding/index';
 export * as googleGeminiLoggingSetting from './google-gemini-logging-setting/index';
 export * as googleGeminiLoggingSettingBinding from './google-gemini-logging-setting-binding/index';
 export * as googleGeminiReleaseChannelSetting from './google-gemini-release-channel-setting/index';
@@ -939,8 +949,6 @@ export * as googleIapAppEngineServiceIamPolicy from './google-iap-app-engine-ser
 export * as googleIapAppEngineVersionIamBinding from './google-iap-app-engine-version-iam-binding/index';
 export * as googleIapAppEngineVersionIamMember from './google-iap-app-engine-version-iam-member/index';
 export * as googleIapAppEngineVersionIamPolicy from './google-iap-app-engine-version-iam-policy/index';
-export * as googleIapBrand from './google-iap-brand/index';
-export * as googleIapClient from './google-iap-client/index';
 export * as googleIapLocationWebIamBinding from './google-iap-location-web-iam-binding/index';
 export * as googleIapLocationWebIamMember from './google-iap-location-web-iam-member/index';
 export * as googleIapLocationWebIamPolicy from './google-iap-location-web-iam-policy/index';
@@ -1057,7 +1065,6 @@ export * as googleMigrationCenterReport from './google-migration-center-report/i
 export * as googleMigrationCenterReportConfig from './google-migration-center-report-config/index';
 export * as googleMigrationCenterSettings from './google-migration-center-settings/index';
 export * as googleMigrationCenterSource from './google-migration-center-source/index';
-export * as googleMlEngineModel from './google-ml-engine-model/index';
 export * as googleModelArmorFloorsetting from './google-model-armor-floorsetting/index';
 export * as googleModelArmorTemplate from './google-model-armor-template/index';
 export * as googleMonitoringAlertPolicy from './google-monitoring-alert-policy/index';
@@ -1069,6 +1076,7 @@ export * as googleMonitoringMonitoredProject from './google-monitoring-monitored
 export * as googleMonitoringNotificationChannel from './google-monitoring-notification-channel/index';
 export * as googleMonitoringService from './google-monitoring-service/index';
 export * as googleMonitoringSlo from './google-monitoring-slo/index';
+export * as googleMonitoringSnooze from './google-monitoring-snooze/index';
 export * as googleMonitoringUptimeCheckConfig from './google-monitoring-uptime-check-config/index';
 export * as googleNetappActiveDirectory from './google-netapp-active-directory/index';
 export * as googleNetappBackup from './google-netapp-backup/index';
@@ -1096,6 +1104,7 @@ export * as googleNetworkConnectivityServiceConnectionPolicy from './google-netw
 export * as googleNetworkConnectivitySpoke from './google-network-connectivity-spoke/index';
 export * as googleNetworkConnectivityTransport from './google-network-connectivity-transport/index';
 export * as googleNetworkManagementConnectivityTest from './google-network-management-connectivity-test/index';
+export * as googleNetworkManagementNetworkMonitoringProvider from './google-network-management-network-monitoring-provider/index';
 export * as googleNetworkManagementOrganizationVpcFlowLogsConfig from './google-network-management-organization-vpc-flow-logs-config/index';
 export * as googleNetworkManagementVpcFlowLogsConfig from './google-network-management-vpc-flow-logs-config/index';
 export * as googleNetworkSecurityAddressGroup from './google-network-security-address-group/index';
@@ -1130,6 +1139,7 @@ export * as googleNetworkSecurityUllMirroringCollector from './google-network-se
 export * as googleNetworkSecurityUllMirroringCollectorRule from './google-network-security-ull-mirroring-collector-rule/index';
 export * as googleNetworkSecurityUllMirroringEngine from './google-network-security-ull-mirroring-engine/index';
 export * as googleNetworkSecurityUrlLists from './google-network-security-url-lists/index';
+export * as googleNetworkServicesAgentConnectivityTemplate from './google-network-services-agent-connectivity-template/index';
 export * as googleNetworkServicesAgentGateway from './google-network-services-agent-gateway/index';
 export * as googleNetworkServicesAuthzExtension from './google-network-services-authz-extension/index';
 export * as googleNetworkServicesEdgeCacheKeyset from './google-network-services-edge-cache-keyset/index';
@@ -1157,16 +1167,9 @@ export * as googleNetworkServicesServiceLbPolicies from './google-network-servic
 export * as googleNetworkServicesTcpRoute from './google-network-services-tcp-route/index';
 export * as googleNetworkServicesTlsRoute from './google-network-services-tls-route/index';
 export * as googleNetworkServicesWasmPlugin from './google-network-services-wasm-plugin/index';
-export * as googleNotebooksEnvironment from './google-notebooks-environment/index';
-export * as googleNotebooksInstance from './google-notebooks-instance/index';
-export * as googleNotebooksInstanceIamBinding from './google-notebooks-instance-iam-binding/index';
-export * as googleNotebooksInstanceIamMember from './google-notebooks-instance-iam-member/index';
-export * as googleNotebooksInstanceIamPolicy from './google-notebooks-instance-iam-policy/index';
-export * as googleNotebooksRuntime from './google-notebooks-runtime/index';
-export * as googleNotebooksRuntimeIamBinding from './google-notebooks-runtime-iam-binding/index';
-export * as googleNotebooksRuntimeIamMember from './google-notebooks-runtime-iam-member/index';
-export * as googleNotebooksRuntimeIamPolicy from './google-notebooks-runtime-iam-policy/index';
+export * as googleObservabilityBucket from './google-observability-bucket/index';
 export * as googleObservabilityFolderSettings from './google-observability-folder-settings/index';
+export * as googleObservabilityLink from './google-observability-link/index';
 export * as googleObservabilityOrganizationSettings from './google-observability-organization-settings/index';
 export * as googleObservabilityProjectSettings from './google-observability-project-settings/index';
 export * as googleObservabilityTraceScope from './google-observability-trace-scope/index';
@@ -1204,6 +1207,7 @@ export * as googleParameterManagerParameter from './google-parameter-manager-par
 export * as googleParameterManagerParameterVersion from './google-parameter-manager-parameter-version/index';
 export * as googleParameterManagerRegionalParameter from './google-parameter-manager-regional-parameter/index';
 export * as googleParameterManagerRegionalParameterVersion from './google-parameter-manager-regional-parameter-version/index';
+export * as googleParameterManagerTemplate from './google-parameter-manager-template/index';
 export * as googlePrivatecaCaPool from './google-privateca-ca-pool/index';
 export * as googlePrivatecaCaPoolIamBinding from './google-privateca-ca-pool-iam-binding/index';
 export * as googlePrivatecaCaPoolIamMember from './google-privateca-ca-pool-iam-member/index';
@@ -1251,6 +1255,7 @@ export * as googleRedisClusterAclPolicy from './google-redis-cluster-acl-policy/
 export * as googleRedisClusterUserCreatedConnections from './google-redis-cluster-user-created-connections/index';
 export * as googleRedisInstance from './google-redis-instance/index';
 export * as googleResourceManagerCapability from './google-resource-manager-capability/index';
+export * as googleResourceManagerCapabilityConfig from './google-resource-manager-capability-config/index';
 export * as googleResourceManagerLien from './google-resource-manager-lien/index';
 export * as googleRuntimeconfigConfig from './google-runtimeconfig-config/index';
 export * as googleRuntimeconfigConfigIamBinding from './google-runtimeconfig-config-iam-binding/index';
@@ -1274,6 +1279,7 @@ export * as googleSccManagementOrganizationSecurityHealthAnalyticsCustomModule f
 export * as googleSccManagementProjectSecurityHealthAnalyticsCustomModule from './google-scc-management-project-security-health-analytics-custom-module/index';
 export * as googleSccMuteConfig from './google-scc-mute-config/index';
 export * as googleSccNotificationConfig from './google-scc-notification-config/index';
+export * as googleSccNotificationServiceAccount from './google-scc-notification-service-account/index';
 export * as googleSccOrganizationCustomModule from './google-scc-organization-custom-module/index';
 export * as googleSccOrganizationSccBigQueryExport from './google-scc-organization-scc-big-query-export/index';
 export * as googleSccProjectCustomModule from './google-scc-project-custom-module/index';
@@ -1338,6 +1344,7 @@ export * as googleServiceNetworkingConnection from './google-service-networking-
 export * as googleServiceNetworkingPeeredDnsDomain from './google-service-networking-peered-dns-domain/index';
 export * as googleServiceNetworkingVpcServiceControls from './google-service-networking-vpc-service-controls/index';
 export * as googleServiceUsageConsumerQuotaOverride from './google-service-usage-consumer-quota-override/index';
+export * as googleServiceUsageV2ConsumerPolicy from './google-service-usage-v2-consumer-policy/index';
 export * as googleSiteVerificationOwner from './google-site-verification-owner/index';
 export * as googleSiteVerificationWebResource from './google-site-verification-web-resource/index';
 export * as googleSourcerepoRepository from './google-sourcerepo-repository/index';
@@ -1376,6 +1383,8 @@ export * as googleStorageControlProjectIntelligenceConfig from './google-storage
 export * as googleStorageDefaultObjectAccessControl from './google-storage-default-object-access-control/index';
 export * as googleStorageDefaultObjectAcl from './google-storage-default-object-acl/index';
 export * as googleStorageFolder from './google-storage-folder/index';
+export * as googleStorageFtpServer from './google-storage-ftp-server/index';
+export * as googleStorageFtpUser from './google-storage-ftp-user/index';
 export * as googleStorageHmacKey from './google-storage-hmac-key/index';
 export * as googleStorageInsightsDatasetConfig from './google-storage-insights-dataset-config/index';
 export * as googleStorageInsightsReportConfig from './google-storage-insights-report-config/index';
@@ -1444,12 +1453,13 @@ export * as googleVertexAiIndexEndpointDeployedIndex from './google-vertex-ai-in
 export * as googleVertexAiMetadataStore from './google-vertex-ai-metadata-store/index';
 export * as googleVertexAiModelGardenEnableModel from './google-vertex-ai-model-garden-enable-model/index';
 export * as googleVertexAiPersistentResource from './google-vertex-ai-persistent-resource/index';
+export * as googleVertexAiRagCorpus from './google-vertex-ai-rag-corpus/index';
 export * as googleVertexAiRagEngineConfig from './google-vertex-ai-rag-engine-config/index';
 export * as googleVertexAiReasoningEngine from './google-vertex-ai-reasoning-engine/index';
 export * as googleVertexAiReasoningEngineIamBinding from './google-vertex-ai-reasoning-engine-iam-binding/index';
 export * as googleVertexAiReasoningEngineIamMember from './google-vertex-ai-reasoning-engine-iam-member/index';
 export * as googleVertexAiReasoningEngineIamPolicy from './google-vertex-ai-reasoning-engine-iam-policy/index';
-export * as googleVertexAiSchedule from './google-vertex-ai-schedule/index';
+export * as googleVertexAiSemanticGovernancePolicy from './google-vertex-ai-semantic-governance-policy/index';
 export * as googleVertexAiSemanticGovernancePolicyEngine from './google-vertex-ai-semantic-governance-policy-engine/index';
 export * as googleVertexAiTensorboard from './google-vertex-ai-tensorboard/index';
 export * as googleVertexAiTensorboardExperiment from './google-vertex-ai-tensorboard-experiment/index';
@@ -1532,9 +1542,6 @@ export * as dataGoogleBackupDrDataSourceReference from './data-google-backup-dr-
 export * as dataGoogleBackupDrDataSourceReferences from './data-google-backup-dr-data-source-references/index';
 export * as dataGoogleBackupDrDataSources from './data-google-backup-dr-data-sources/index';
 export * as dataGoogleBackupDrManagementServer from './data-google-backup-dr-management-server/index';
-export * as dataGoogleBeyondcorpAppConnection from './data-google-beyondcorp-app-connection/index';
-export * as dataGoogleBeyondcorpAppConnector from './data-google-beyondcorp-app-connector/index';
-export * as dataGoogleBeyondcorpAppGateway from './data-google-beyondcorp-app-gateway/index';
 export * as dataGoogleBeyondcorpSecurityGateway from './data-google-beyondcorp-security-gateway/index';
 export * as dataGoogleBeyondcorpSecurityGatewayApplicationIamPolicy from './data-google-beyondcorp-security-gateway-application-iam-policy/index';
 export * as dataGoogleBeyondcorpSecurityGatewayIamPolicy from './data-google-beyondcorp-security-gateway-iam-policy/index';
@@ -1588,6 +1595,7 @@ export * as dataGoogleCloudRunV2WorkerPool from './data-google-cloud-run-v2-work
 export * as dataGoogleCloudRunV2WorkerPoolIamPolicy from './data-google-cloud-run-v2-worker-pool-iam-policy/index';
 export * as dataGoogleCloudTasksQueueIamPolicy from './data-google-cloud-tasks-queue-iam-policy/index';
 export * as dataGoogleCloudbuildTrigger from './data-google-cloudbuild-trigger/index';
+export * as dataGoogleCloudbuildWorkerPool from './data-google-cloudbuild-worker-pool/index';
 export * as dataGoogleCloudbuildv2ConnectionIamPolicy from './data-google-cloudbuildv2-connection-iam-policy/index';
 export * as dataGoogleClouddeployCustomTargetTypeIamPolicy from './data-google-clouddeploy-custom-target-type-iam-policy/index';
 export * as dataGoogleClouddeployDeliveryPipelineIamPolicy from './data-google-clouddeploy-delivery-pipeline-iam-policy/index';
@@ -1670,6 +1678,7 @@ export * as dataGoogleComputeRouterStatus from './data-google-compute-router-sta
 export * as dataGoogleComputeRouters from './data-google-compute-routers/index';
 export * as dataGoogleComputeSecurityPolicy from './data-google-compute-security-policy/index';
 export * as dataGoogleComputeServiceAttachment from './data-google-compute-service-attachment/index';
+export * as dataGoogleComputeServiceAttachments from './data-google-compute-service-attachments/index';
 export * as dataGoogleComputeSnapshot from './data-google-compute-snapshot/index';
 export * as dataGoogleComputeSnapshotIamPolicy from './data-google-compute-snapshot-iam-policy/index';
 export * as dataGoogleComputeSslCertificate from './data-google-compute-ssl-certificate/index';
@@ -1732,6 +1741,7 @@ export * as dataGoogleDnsRecordSet from './data-google-dns-record-set/index';
 export * as dataGoogleDnsRecordSets from './data-google-dns-record-sets/index';
 export * as dataGoogleEndpointsServiceConsumersIamPolicy from './data-google-endpoints-service-consumers-iam-policy/index';
 export * as dataGoogleEndpointsServiceIamPolicy from './data-google-endpoints-service-iam-policy/index';
+export * as dataGoogleEventarcPipelineIamPolicy from './data-google-eventarc-pipeline-iam-policy/index';
 export * as dataGoogleFilestoreInstance from './data-google-filestore-instance/index';
 export * as dataGoogleFirebaseAdminSdkConfig from './data-google-firebase-admin-sdk-config/index';
 export * as dataGoogleFirebaseAndroidApp from './data-google-firebase-android-app/index';
@@ -1766,6 +1776,7 @@ export * as dataGoogleIamTestablePermissions from './data-google-iam-testable-pe
 export * as dataGoogleIamWorkforcePoolIamPolicy from './data-google-iam-workforce-pool-iam-policy/index';
 export * as dataGoogleIamWorkloadIdentityPool from './data-google-iam-workload-identity-pool/index';
 export * as dataGoogleIamWorkloadIdentityPoolIamPolicy from './data-google-iam-workload-identity-pool-iam-policy/index';
+export * as dataGoogleIamWorkloadIdentityPoolJwks from './data-google-iam-workload-identity-pool-jwks/index';
 export * as dataGoogleIamWorkloadIdentityPoolOpenidConfig from './data-google-iam-workload-identity-pool-openid-config/index';
 export * as dataGoogleIamWorkloadIdentityPoolProvider from './data-google-iam-workload-identity-pool-provider/index';
 export * as dataGoogleIapAgentRegistryAgentIamPolicy from './data-google-iap-agent-registry-agent-iam-policy/index';
@@ -1774,7 +1785,6 @@ export * as dataGoogleIapAgentRegistryIamPolicy from './data-google-iap-agent-re
 export * as dataGoogleIapAgentRegistryMcpServerIamPolicy from './data-google-iap-agent-registry-mcp-server-iam-policy/index';
 export * as dataGoogleIapAppEngineServiceIamPolicy from './data-google-iap-app-engine-service-iam-policy/index';
 export * as dataGoogleIapAppEngineVersionIamPolicy from './data-google-iap-app-engine-version-iam-policy/index';
-export * as dataGoogleIapClient from './data-google-iap-client/index';
 export * as dataGoogleIapLocationWebIamPolicy from './data-google-iap-location-web-iam-policy/index';
 export * as dataGoogleIapTunnelDestGroupIamPolicy from './data-google-iap-tunnel-dest-group-iam-policy/index';
 export * as dataGoogleIapTunnelIamPolicy from './data-google-iap-tunnel-iam-policy/index';
@@ -1826,8 +1836,7 @@ export * as dataGoogleNetworkManagementConnectivityTestRun from './data-google-n
 export * as dataGoogleNetworkManagementConnectivityTests from './data-google-network-management-connectivity-tests/index';
 export * as dataGoogleNetworkSecurityAddressGroupIamPolicy from './data-google-network-security-address-group-iam-policy/index';
 export * as dataGoogleNetworkSecurityAddressGroups from './data-google-network-security-address-groups/index';
-export * as dataGoogleNotebooksInstanceIamPolicy from './data-google-notebooks-instance-iam-policy/index';
-export * as dataGoogleNotebooksRuntimeIamPolicy from './data-google-notebooks-runtime-iam-policy/index';
+export * as dataGoogleNetworkServicesGateway from './data-google-network-services-gateway/index';
 export * as dataGoogleObservabilityFolderSettings from './data-google-observability-folder-settings/index';
 export * as dataGoogleObservabilityOrganizationSettings from './data-google-observability-organization-settings/index';
 export * as dataGoogleObservabilityProjectSettings from './data-google-observability-project-settings/index';

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleIntegrationsClientConfig extends cdktn.TerraformMetaArgum
   /**
   * Indicates if sample integrations should be created along with provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#create_sample_integrations GoogleIntegrationsClient#create_sample_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#create_sample_integrations GoogleIntegrationsClient#create_sample_integrations}
   */
   readonly createSampleIntegrations?: boolean | cdktn.IResolvable;
   /**
@@ -27,11 +27,11 @@ export interface GoogleIntegrationsClientConfig extends cdktn.TerraformMetaArgum
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#deletion_policy GoogleIntegrationsClient#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#deletion_policy GoogleIntegrationsClient#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#id GoogleIntegrationsClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#id GoogleIntegrationsClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,29 +40,23 @@ export interface GoogleIntegrationsClientConfig extends cdktn.TerraformMetaArgum
   /**
   * Location in which client needs to be provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#location GoogleIntegrationsClient#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#location GoogleIntegrationsClient#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#project GoogleIntegrationsClient#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#project GoogleIntegrationsClient#project}
   */
   readonly project?: string;
   /**
-  * User input run-as service account, if empty, will bring up a new default service account.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#run_as_service_account GoogleIntegrationsClient#run_as_service_account}
-  */
-  readonly runAsServiceAccount?: string;
-  /**
   * cloud_kms_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#cloud_kms_config GoogleIntegrationsClient#cloud_kms_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#cloud_kms_config GoogleIntegrationsClient#cloud_kms_config}
   */
   readonly cloudKmsConfig?: GoogleIntegrationsClientCloudKmsConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#timeouts GoogleIntegrationsClient#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#timeouts GoogleIntegrationsClient#timeouts}
   */
   readonly timeouts?: GoogleIntegrationsClientTimeouts;
 }
@@ -72,7 +66,7 @@ export interface GoogleIntegrationsClientCloudKmsConfig {
   * with metadata for the key. A key exists on exactly one key ring tied to a
   * specific location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#key GoogleIntegrationsClient#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#key GoogleIntegrationsClient#key}
   */
   readonly key: string;
   /**
@@ -81,13 +75,13 @@ export interface GoogleIntegrationsClientCloudKmsConfig {
   * or verify a signature, you must use the same key version that was used to
   * encrypt or sign the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#key_version GoogleIntegrationsClient#key_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#key_version GoogleIntegrationsClient#key_version}
   */
   readonly keyVersion?: string;
   /**
   * Location name of the key ring, e.g. "us-west1".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#kms_location GoogleIntegrationsClient#kms_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#kms_location GoogleIntegrationsClient#kms_location}
   */
   readonly kmsLocation: string;
   /**
@@ -96,7 +90,7 @@ export interface GoogleIntegrationsClientCloudKmsConfig {
   * with CMEK, otherwise, the kms key is stored in the tenant project and
   * encrypted with GMEK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#kms_project_id GoogleIntegrationsClient#kms_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#kms_project_id GoogleIntegrationsClient#kms_project_id}
   */
   readonly kmsProjectId?: string;
   /**
@@ -104,7 +98,7 @@ export interface GoogleIntegrationsClientCloudKmsConfig {
   * manage access control on groups of keys. A key ring's name does not need to be
   * unique across a Google Cloud project, but must be unique within a given location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#kms_ring GoogleIntegrationsClient#kms_ring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#kms_ring GoogleIntegrationsClient#kms_ring}
   */
   readonly kmsRing: string;
 }
@@ -295,11 +289,11 @@ export class GoogleIntegrationsClientCloudKmsConfigOutputReference extends cdktn
 }
 export interface GoogleIntegrationsClientTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#create GoogleIntegrationsClient#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#create GoogleIntegrationsClient#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#delete GoogleIntegrationsClient#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#delete GoogleIntegrationsClient#delete}
   */
   readonly delete?: string;
 }
@@ -422,7 +416,7 @@ export class GoogleIntegrationsClientTimeoutsOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client google_integrations_client}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client google_integrations_client}
 */
 export class GoogleIntegrationsClient extends cdktn.TerraformResource {
 
@@ -438,7 +432,7 @@ export class GoogleIntegrationsClient extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleIntegrationsClient resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIntegrationsClient to import
-  * @param importFromId The id of the existing GoogleIntegrationsClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleIntegrationsClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIntegrationsClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -450,7 +444,7 @@ export class GoogleIntegrationsClient extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client google_integrations_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client google_integrations_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -461,8 +455,8 @@ export class GoogleIntegrationsClient extends cdktn.TerraformResource {
       terraformResourceType: 'google_integrations_client',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.46.1',
-        providerVersionConstraint: '~> 7.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -477,7 +471,6 @@ export class GoogleIntegrationsClient extends cdktn.TerraformResource {
     this._id = config.id;
     this._location = config.location;
     this._project = config.project;
-    this._runAsServiceAccount = config.runAsServiceAccount;
     this._cloudKmsConfig.internalValue = config.cloudKmsConfig;
     this._timeouts.internalValue = config.timeouts;
   }
@@ -563,22 +556,6 @@ export class GoogleIntegrationsClient extends cdktn.TerraformResource {
     return this._project;
   }
 
-  // run_as_service_account - computed: false, optional: true, required: false
-  private _runAsServiceAccount?: string; 
-  public get runAsServiceAccount() {
-    return this.getStringAttribute('run_as_service_account');
-  }
-  public set runAsServiceAccount(value: string) {
-    this._runAsServiceAccount = value;
-  }
-  public resetRunAsServiceAccount() {
-    this._runAsServiceAccount = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get runAsServiceAccountInput() {
-    return this._runAsServiceAccount;
-  }
-
   // cloud_kms_config - computed: false, optional: true, required: false
   private _cloudKmsConfig = new GoogleIntegrationsClientCloudKmsConfigOutputReference(this, "cloud_kms_config");
   public get cloudKmsConfig() {
@@ -622,7 +599,6 @@ export class GoogleIntegrationsClient extends cdktn.TerraformResource {
       id: cdktn.stringToTerraform(this._id),
       location: cdktn.stringToTerraform(this._location),
       project: cdktn.stringToTerraform(this._project),
-      run_as_service_account: cdktn.stringToTerraform(this._runAsServiceAccount),
       cloud_kms_config: googleIntegrationsClientCloudKmsConfigToTerraform(this._cloudKmsConfig.internalValue),
       timeouts: googleIntegrationsClientTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -656,12 +632,6 @@ export class GoogleIntegrationsClient extends cdktn.TerraformResource {
       },
       project: {
         value: cdktn.stringToHclTerraform(this._project),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      run_as_service_account: {
-        value: cdktn.stringToHclTerraform(this._runAsServiceAccount),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

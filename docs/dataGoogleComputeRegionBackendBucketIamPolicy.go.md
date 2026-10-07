@@ -4,12 +4,12 @@
 
 ### DataGoogleComputeRegionBackendBucketIamPolicy <a name="DataGoogleComputeRegionBackendBucketIamPolicy" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_backend_bucket_iam_policy google_compute_region_backend_bucket_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_backend_bucket_iam_policy google_compute_region_backend_bucket_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputeregionbackendbucketiampolicy"
 
 datagooglecomputeregionbackendbucketiampolicy.NewDataGoogleComputeRegionBackendBucketIamPolicy(scope Construct, id *string, config DataGoogleComputeRegionBackendBucketIamPolicyConfig) DataGoogleComputeRegionBackendBucketIamPolicy
 ```
@@ -319,7 +319,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputeregionbackendbucketiampolicy"
 
 datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBucketIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputeregionbackendbucketiampolicy"
 
 datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBucketIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBuck
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputeregionbackendbucketiampolicy"
 
 datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBucketIamPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -379,7 +379,7 @@ datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBuck
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputeregionbackendbucketiampolicy"
 
 datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBucketIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -408,7 +408,7 @@ The construct id used in the generated config for the DataGoogleComputeRegionBac
 
 The id of the existing DataGoogleComputeRegionBackendBucketIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_backend_bucket_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_backend_bucket_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -696,7 +696,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputeregionbackendbucketiampolicy"
 
 &datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig {
 	Connection: interface{},
@@ -724,10 +724,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_backend_bucket_iam_policy#name DataGoogleComputeRegionBackendBucketIamPolicy#name}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_backend_bucket_iam_policy#id DataGoogleComputeRegionBackendBucketIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_backend_bucket_iam_policy#project DataGoogleComputeRegionBackendBucketIamPolicy#project}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_backend_bucket_iam_policy#region DataGoogleComputeRegionBackendBucketIamPolicy#region}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_backend_bucket_iam_policy#name DataGoogleComputeRegionBackendBucketIamPolicy#name}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_backend_bucket_iam_policy#id DataGoogleComputeRegionBackendBucketIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_backend_bucket_iam_policy#project DataGoogleComputeRegionBackendBucketIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_backend_bucket_iam_policy#region DataGoogleComputeRegionBackendBucketIamPolicy#region}. |
 
 ---
 
@@ -809,7 +809,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_backend_bucket_iam_policy#name DataGoogleComputeRegionBackendBucketIamPolicy#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_backend_bucket_iam_policy#name DataGoogleComputeRegionBackendBucketIamPolicy#name}.
 
 ---
 
@@ -821,7 +821,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_backend_bucket_iam_policy#id DataGoogleComputeRegionBackendBucketIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_backend_bucket_iam_policy#id DataGoogleComputeRegionBackendBucketIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -836,7 +836,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_backend_bucket_iam_policy#project DataGoogleComputeRegionBackendBucketIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_backend_bucket_iam_policy#project DataGoogleComputeRegionBackendBucketIamPolicy#project}.
 
 ---
 
@@ -848,7 +848,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_backend_bucket_iam_policy#region DataGoogleComputeRegionBackendBucketIamPolicy#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_backend_bucket_iam_policy#region DataGoogleComputeRegionBackendBucketIamPolicy#region}.
 
 ---
 

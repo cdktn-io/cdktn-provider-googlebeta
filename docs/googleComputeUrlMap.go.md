@@ -4,12 +4,12 @@
 
 ### GoogleComputeUrlMap <a name="GoogleComputeUrlMap" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map google_compute_url_map}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map google_compute_url_map}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMap(scope Construct, id *string, config GoogleComputeUrlMapConfig) GoogleComputeUrlMap
 ```
@@ -595,7 +595,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMap.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.GoogleComputeUrlMap_IsConstruct(x interface{}) *bool
 ```
@@ -627,7 +627,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMap.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.GoogleComputeUrlMap_IsTerraformElement(x interface{}) *bool
 ```
@@ -641,7 +641,7 @@ googlecomputeurlmap.GoogleComputeUrlMap_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMap.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.GoogleComputeUrlMap_IsTerraformResource(x interface{}) *bool
 ```
@@ -655,7 +655,7 @@ googlecomputeurlmap.GoogleComputeUrlMap_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMap.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.GoogleComputeUrlMap_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -684,7 +684,7 @@ The construct id used in the generated config for the GoogleComputeUrlMap to imp
 
 The id of the existing GoogleComputeUrlMap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1236,7 +1236,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapConfig {
 	Connection: interface{},
@@ -1247,19 +1247,19 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	DefaultCustomErrorResponsePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultCustomErrorResponsePolicy,
-	DefaultRouteAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction,
+	DefaultCustomErrorResponsePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultCustomErrorResponsePolicy,
+	DefaultRouteAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction,
 	DefaultService: *string,
-	DefaultUrlRedirect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultUrlRedirect,
+	DefaultUrlRedirect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultUrlRedirect,
 	DeletionPolicy: *string,
 	Description: *string,
-	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapHeaderAction,
+	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapHeaderAction,
 	HostRule: interface{},
 	Id: *string,
 	PathMatcher: interface{},
 	Project: *string,
 	Test: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapTimeouts,
 }
 ```
 
@@ -1283,9 +1283,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.headerAction">HeaderAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHeaderAction">GoogleComputeUrlMapHeaderAction</a></code> | header_action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.hostRule">HostRule</a></code> | <code>interface{}</code> | host_rule block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#id GoogleComputeUrlMap#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#id GoogleComputeUrlMap#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.pathMatcher">PathMatcher</a></code> | <code>interface{}</code> | path_matcher block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#project GoogleComputeUrlMap#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#project GoogleComputeUrlMap#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.test">Test</a></code> | <code>interface{}</code> | test block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts">GoogleComputeUrlMapTimeouts</a></code> | timeouts block. |
 
@@ -1378,7 +1378,7 @@ name must be 1-63 characters long and match the regular expression
 letter, and all following characters must be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
 
 ---
 
@@ -1392,7 +1392,7 @@ DefaultCustomErrorResponsePolicy GoogleComputeUrlMapDefaultCustomErrorResponsePo
 
 default_custom_error_response_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_custom_error_response_policy GoogleComputeUrlMap#default_custom_error_response_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_custom_error_response_policy GoogleComputeUrlMap#default_custom_error_response_policy}
 
 ---
 
@@ -1406,7 +1406,7 @@ DefaultRouteAction GoogleComputeUrlMapDefaultRouteAction
 
 default_route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_route_action GoogleComputeUrlMap#default_route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_route_action GoogleComputeUrlMap#default_route_action}
 
 ---
 
@@ -1420,7 +1420,7 @@ DefaultService *string
 
 The backend service or backend bucket to use when none of the given rules match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_service GoogleComputeUrlMap#default_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_service GoogleComputeUrlMap#default_service}
 
 ---
 
@@ -1434,7 +1434,7 @@ DefaultUrlRedirect GoogleComputeUrlMapDefaultUrlRedirect
 
 default_url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_url_redirect GoogleComputeUrlMap#default_url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_url_redirect GoogleComputeUrlMap#default_url_redirect}
 
 ---
 
@@ -1455,7 +1455,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#deletion_policy GoogleComputeUrlMap#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#deletion_policy GoogleComputeUrlMap#deletion_policy}
 
 ---
 
@@ -1469,7 +1469,7 @@ Description *string
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
 
 ---
 
@@ -1483,7 +1483,7 @@ HeaderAction GoogleComputeUrlMapHeaderAction
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -1497,7 +1497,7 @@ HostRule interface{}
 
 host_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#host_rule GoogleComputeUrlMap#host_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_rule GoogleComputeUrlMap#host_rule}
 
 ---
 
@@ -1509,7 +1509,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#id GoogleComputeUrlMap#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#id GoogleComputeUrlMap#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1526,7 +1526,7 @@ PathMatcher interface{}
 
 path_matcher block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_matcher GoogleComputeUrlMap#path_matcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_matcher GoogleComputeUrlMap#path_matcher}
 
 ---
 
@@ -1538,7 +1538,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#project GoogleComputeUrlMap#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#project GoogleComputeUrlMap#project}.
 
 ---
 
@@ -1552,7 +1552,7 @@ Test interface{}
 
 test block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#test GoogleComputeUrlMap#test}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#test GoogleComputeUrlMap#test}
 
 ---
 
@@ -1566,7 +1566,7 @@ Timeouts GoogleComputeUrlMapTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#timeouts GoogleComputeUrlMap#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#timeouts GoogleComputeUrlMap#timeouts}
 
 ---
 
@@ -1575,7 +1575,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultCustomErrorResponsePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultCustomErrorResponsePolicy {
 	ErrorResponseRule: interface{},
@@ -1602,7 +1602,7 @@ ErrorResponseRule interface{}
 
 error_response_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
 
 ---
 
@@ -1623,7 +1623,7 @@ global/backendBuckets/myBackendBucket
 If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
 If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
 
 ---
 
@@ -1632,7 +1632,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule {
 	MatchResponseCodes: *[]*string,
@@ -1665,7 +1665,7 @@ Valid values include: - A number between 400 and 599: For example 401 or 503, in
 * 4xx: Load Balancer will apply the policy if the backend service responds with any response code in the range of 400 to 499.
   Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
 
 ---
 
@@ -1681,7 +1681,7 @@ The HTTP status code returned with the response containing the custom error cont
 
 If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
 
 ---
 
@@ -1700,7 +1700,7 @@ path must start with a leading slash. path cannot have trailing slashes.
 If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
 The value must be from 1 to 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
 
 ---
 
@@ -1709,17 +1709,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteAction {
-	CachePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicy,
-	CorsPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCorsPolicy,
-	FaultInjectionPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy,
-	MaxStreamDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration,
-	RequestMirrorPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy,
-	RetryPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRetryPolicy,
-	Timeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionTimeout,
-	UrlRewrite: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionUrlRewrite,
+	CachePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicy,
+	CorsPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCorsPolicy,
+	FaultInjectionPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy,
+	MaxStreamDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration,
+	RequestMirrorPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy,
+	RetryPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRetryPolicy,
+	Timeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionTimeout,
+	UrlRewrite: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionUrlRewrite,
 	WeightedBackendServices: interface{},
 }
 ```
@@ -1750,7 +1750,7 @@ CachePolicy GoogleComputeUrlMapDefaultRouteActionCachePolicy
 
 cache_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
 
 ---
 
@@ -1764,7 +1764,7 @@ CorsPolicy GoogleComputeUrlMapDefaultRouteActionCorsPolicy
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
 
 ---
 
@@ -1778,7 +1778,7 @@ FaultInjectionPolicy GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
 
 ---
 
@@ -1792,7 +1792,7 @@ MaxStreamDuration GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration
 
 max_stream_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
 
 ---
 
@@ -1806,7 +1806,7 @@ RequestMirrorPolicy GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
 
 ---
 
@@ -1820,7 +1820,7 @@ RetryPolicy GoogleComputeUrlMapDefaultRouteActionRetryPolicy
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
 
 ---
 
@@ -1834,7 +1834,7 @@ Timeout GoogleComputeUrlMapDefaultRouteActionTimeout
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
 
 ---
 
@@ -1848,7 +1848,7 @@ UrlRewrite GoogleComputeUrlMapDefaultRouteActionUrlRewrite
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
 
 ---
 
@@ -1862,7 +1862,7 @@ WeightedBackendServices interface{}
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
 
 ---
 
@@ -1871,19 +1871,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionCachePolicy {
 	CacheBypassRequestHeaderNames: *[]*string,
-	CacheKeyPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy,
+	CacheKeyPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy,
 	CacheMode: *string,
-	ClientTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtl,
-	DefaultTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtl,
-	MaxTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl,
+	ClientTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtl,
+	DefaultTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtl,
+	MaxTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl,
 	NegativeCaching: interface{},
 	NegativeCachingPolicy: interface{},
 	RequestCoalescing: interface{},
-	ServeWhileStale: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStale,
+	ServeWhileStale: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStale,
 }
 ```
 
@@ -1914,7 +1914,7 @@ CacheBypassRequestHeaderNames *[]*string
 
 Bypass the cache when the specified request headers are matched by name, e.g. Pragma or Authorization headers. Values are case-insensitive. Up to 5 header names can be specified. The cache is bypassed for all cacheMode values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
 
 ---
 
@@ -1928,7 +1928,7 @@ CacheKeyPolicy GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy
 
 cache_key_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
 
 ---
 
@@ -1945,7 +1945,7 @@ Specifies the cache setting for all responses from this route.
 If not
 specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
 
 ---
 
@@ -1959,7 +1959,7 @@ ClientTtl GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtl
 
 client_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
 
 ---
 
@@ -1973,7 +1973,7 @@ DefaultTtl GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtl
 
 default_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
 
 ---
 
@@ -1987,7 +1987,7 @@ MaxTtl GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl
 
 max_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
 
 ---
 
@@ -2017,7 +2017,7 @@ Cloud CDN applies the following TTLs to these HTTP status codes:
   These defaults can be overridden in negativeCachingPolicy. If not
   specified, Cloud CDN applies negative caching by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
 
 ---
 
@@ -2031,7 +2031,7 @@ NegativeCachingPolicy interface{}
 
 negative_caching_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
 
 ---
 
@@ -2048,7 +2048,7 @@ If true then Cloud CDN will combine multiple concurrent cache fill requests into
 If not specified,
 Cloud CDN applies request coalescing by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
 
 ---
 
@@ -2062,7 +2062,7 @@ ServeWhileStale GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStale
 
 serve_while_stale block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
 
 ---
 
@@ -2071,7 +2071,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy {
 	ExcludedQueryParameters: *[]*string,
@@ -2118,7 +2118,7 @@ error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
 
 ---
 
@@ -2140,7 +2140,7 @@ Attempting to set it on a route that points exclusively to Backend
 Buckets will result in a configuration error. Up to 5 cookie names can
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
 
 ---
 
@@ -2154,7 +2154,7 @@ IncludedHeaderNames *[]*string
 
 Allows HTTP request headers (by name) to be used in the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
 
 ---
 
@@ -2173,7 +2173,7 @@ parameters will be excluded. Either specify includedQueryParameters
 or excludedQueryParameters, not both. '&' and '=' will be percent
 encoded and not treated as delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
 
 ---
 
@@ -2194,7 +2194,7 @@ never included in a Backend Bucket's cache key. Attempting to set it on
 a route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
 
 ---
 
@@ -2215,7 +2215,7 @@ never included in a Backend Bucket's cache key. Attempting to set on a
 route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
 
 ---
 
@@ -2238,7 +2238,7 @@ configuration error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
 
 ---
 
@@ -2247,7 +2247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtl {
 	Seconds: *string,
@@ -2274,7 +2274,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2288,7 +2288,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2297,7 +2297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtl {
 	Seconds: *string,
@@ -2324,7 +2324,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2338,7 +2338,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2347,7 +2347,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl {
 	Seconds: *string,
@@ -2374,7 +2374,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2388,7 +2388,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2397,11 +2397,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicy {
 	Code: *f64,
-	Ttl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtl,
+	Ttl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtl,
 }
 ```
 
@@ -2429,7 +2429,7 @@ Only HTTP status codes
 specified as values, and you cannot specify a status code more than
 once.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
 
 ---
 
@@ -2443,7 +2443,7 @@ Ttl GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtl
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
 
 ---
 
@@ -2452,7 +2452,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtl {
 	Seconds: *string,
@@ -2479,7 +2479,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2493,7 +2493,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2502,7 +2502,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStale.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStale {
 	Seconds: *string,
@@ -2529,7 +2529,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2543,7 +2543,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2552,7 +2552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCorsPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionCorsPolicy {
 	AllowCredentials: interface{},
@@ -2593,7 +2593,7 @@ In response to a preflight request, setting this to true indicates that the actu
 
 This translates to the Access-Control-Allow-Credentials header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
 
 ---
 
@@ -2607,7 +2607,7 @@ AllowHeaders *[]*string
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
 
 ---
 
@@ -2621,7 +2621,7 @@ AllowMethods *[]*string
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
 
 ---
 
@@ -2639,7 +2639,7 @@ For regular expression grammar
 please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
 
 ---
 
@@ -2655,7 +2655,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
 
 ---
 
@@ -2671,7 +2671,7 @@ If true, specifies the CORS policy is disabled.
 
 The default value is false, which indicates that the CORS policy is in effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
 
 ---
 
@@ -2685,7 +2685,7 @@ ExposeHeaders *[]*string
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
 
 ---
 
@@ -2699,7 +2699,7 @@ MaxAge *f64
 
 Specifies how long results of a preflight request can be cached in seconds. This translates to the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
 
 ---
 
@@ -2708,11 +2708,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy {
-	Abort: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort,
-	Delay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay,
+	Abort: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort,
+	Delay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay,
 }
 ```
 
@@ -2735,7 +2735,7 @@ Abort GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
 
 ---
 
@@ -2749,7 +2749,7 @@ Delay GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
 
 ---
 
@@ -2758,7 +2758,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort {
 	HttpStatus: *f64,
@@ -2785,7 +2785,7 @@ HttpStatus *f64
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
 
 ---
 
@@ -2801,7 +2801,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -2810,10 +2810,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay {
-	FixedDelay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelay,
+	FixedDelay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelay,
 	Percentage: *f64,
 }
 ```
@@ -2837,7 +2837,7 @@ FixedDelay GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDe
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
 
 ---
 
@@ -2853,7 +2853,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -2862,7 +2862,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelay {
 	Nanos: *f64,
@@ -2892,7 +2892,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2909,7 +2909,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2918,7 +2918,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration {
 	Seconds: *string,
@@ -2948,7 +2948,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2965,7 +2965,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2974,7 +2974,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy {
 	BackendService: *string,
@@ -3001,7 +3001,7 @@ BackendService *string
 
 The full or partial URL to the BackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -3015,7 +3015,7 @@ MirrorPercent *f64
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
 
 ---
 
@@ -3024,11 +3024,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRetryPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionRetryPolicy {
 	NumRetries: *f64,
-	PerTryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout,
+	PerTryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout,
 	RetryConditions: *[]*string,
 }
 ```
@@ -3053,7 +3053,7 @@ NumRetries *f64
 
 Specifies the allowed number retries. This number must be > 0. If not specified, defaults to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
 
 ---
 
@@ -3067,7 +3067,7 @@ PerTryTimeout GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
 
 ---
 
@@ -3096,7 +3096,7 @@ Specfies one or more conditions when this retry rule applies. Valid values are:.
 * resource-exhausted: Loadbalancer will retry if the gRPC status code in the response header is set to resource-exhausted
 * unavailable: Loadbalancer will retry if the gRPC status code in the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
 
 ---
 
@@ -3105,7 +3105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout {
 	Nanos: *f64,
@@ -3135,7 +3135,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -3152,7 +3152,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -3161,7 +3161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionTimeout {
 	Nanos: *f64,
@@ -3191,7 +3191,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -3208,7 +3208,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -3217,7 +3217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionUrlRewrite.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionUrlRewrite {
 	HostRewrite: *string,
@@ -3246,7 +3246,7 @@ Prior to forwarding the request to the selected service, the request's host head
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
 
 ---
 
@@ -3262,7 +3262,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -3271,11 +3271,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices {
 	BackendService: *string,
-	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderAction,
+	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderAction,
 	Weight: *f64,
 }
 ```
@@ -3304,7 +3304,7 @@ Before forwarding the
 request to backendService, the loadbalancer applies any relevant headerActions
 specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -3318,7 +3318,7 @@ HeaderAction GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -3338,7 +3338,7 @@ as determined by the BackendService's session affinity policy.
 
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
 
 ---
 
@@ -3347,7 +3347,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderAction {
 	RequestHeadersToAdd: interface{},
@@ -3378,7 +3378,7 @@ RequestHeadersToAdd interface{}
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -3392,7 +3392,7 @@ RequestHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -3406,7 +3406,7 @@ ResponseHeadersToAdd interface{}
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -3420,7 +3420,7 @@ ResponseHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -3429,7 +3429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd {
 	HeaderName: *string,
@@ -3458,7 +3458,7 @@ HeaderName *string
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -3472,7 +3472,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -3488,7 +3488,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -3497,7 +3497,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd {
 	HeaderName: *string,
@@ -3526,7 +3526,7 @@ HeaderName *string
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -3540,7 +3540,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -3556,7 +3556,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -3565,7 +3565,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultUrlRedirect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapDefaultUrlRedirect {
 	StripQuery: interface{},
@@ -3604,7 +3604,7 @@ If set to false, the query portion of the original URL is
 retained. The default is set to false.
 This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
 
 ---
 
@@ -3620,7 +3620,7 @@ The host that will be used in the redirect response instead of the one that was 
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
 
 ---
 
@@ -3639,7 +3639,7 @@ false, the URL scheme of the redirected request will remain the same as that of 
 request. This must only be set for UrlMaps used in TargetHttpProxys. Setting this
 true for TargetHttpsProxy is not permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
 
 ---
 
@@ -3658,7 +3658,7 @@ prefixRedirect. Supply one alone or neither. If neither is supplied, the path of
 original request will be used for the redirect. The value must be between 1 and 1024
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
 
 ---
 
@@ -3676,7 +3676,7 @@ prefixRedirect cannot be supplied together with pathRedirect. Supply one alone o
 neither. If neither is supplied, the path of the original request will be used for
 the redirect. The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
 
 ---
 
@@ -3698,7 +3698,7 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
 
 ---
 
@@ -3707,7 +3707,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHeaderAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapHeaderAction {
 	RequestHeadersToAdd: interface{},
@@ -3738,7 +3738,7 @@ RequestHeadersToAdd interface{}
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -3752,7 +3752,7 @@ RequestHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -3766,7 +3766,7 @@ ResponseHeadersToAdd interface{}
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -3780,7 +3780,7 @@ ResponseHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -3789,7 +3789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHeaderActionRequestHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapHeaderActionRequestHeadersToAdd {
 	HeaderName: *string,
@@ -3818,7 +3818,7 @@ HeaderName *string
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -3832,7 +3832,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -3849,7 +3849,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -3858,7 +3858,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHeaderActionResponseHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapHeaderActionResponseHeadersToAdd {
 	HeaderName: *string,
@@ -3887,7 +3887,7 @@ HeaderName *string
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -3901,7 +3901,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -3918,7 +3918,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -3927,7 +3927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHostRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapHostRule {
 	Hosts: *[]*string,
@@ -3960,7 +3960,7 @@ They must be valid hostnames, except * will
 match any string of ([a-z0-9-.]*). In that case, * must be the first character
 and must be followed in the pattern by either - or ..
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#hosts GoogleComputeUrlMap#hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#hosts GoogleComputeUrlMap#hosts}
 
 ---
 
@@ -3974,7 +3974,7 @@ PathMatcher *string
 
 The name of the PathMatcher to use to match the path portion of the URL if the hostRule matches the URL's host portion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_matcher GoogleComputeUrlMap#path_matcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_matcher GoogleComputeUrlMap#path_matcher}
 
 ---
 
@@ -3988,7 +3988,7 @@ Description *string
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
 
 ---
 
@@ -3997,16 +3997,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcher.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcher {
 	Name: *string,
-	DefaultCustomErrorResponsePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicy,
-	DefaultRouteAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction,
+	DefaultCustomErrorResponsePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicy,
+	DefaultRouteAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction,
 	DefaultService: *string,
-	DefaultUrlRedirect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultUrlRedirect,
+	DefaultUrlRedirect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultUrlRedirect,
 	Description: *string,
-	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherHeaderAction,
+	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherHeaderAction,
 	PathRule: interface{},
 	RouteRules: interface{},
 }
@@ -4038,7 +4038,7 @@ Name *string
 
 The name to which this PathMatcher is referred by the HostRule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
 
 ---
 
@@ -4052,7 +4052,7 @@ DefaultCustomErrorResponsePolicy GoogleComputeUrlMapPathMatcherDefaultCustomErro
 
 default_custom_error_response_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_custom_error_response_policy GoogleComputeUrlMap#default_custom_error_response_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_custom_error_response_policy GoogleComputeUrlMap#default_custom_error_response_policy}
 
 ---
 
@@ -4066,7 +4066,7 @@ DefaultRouteAction GoogleComputeUrlMapPathMatcherDefaultRouteAction
 
 default_route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_route_action GoogleComputeUrlMap#default_route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_route_action GoogleComputeUrlMap#default_route_action}
 
 ---
 
@@ -4080,7 +4080,7 @@ DefaultService *string
 
 The backend service or backend bucket to use when none of the given paths match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_service GoogleComputeUrlMap#default_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_service GoogleComputeUrlMap#default_service}
 
 ---
 
@@ -4094,7 +4094,7 @@ DefaultUrlRedirect GoogleComputeUrlMapPathMatcherDefaultUrlRedirect
 
 default_url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_url_redirect GoogleComputeUrlMap#default_url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_url_redirect GoogleComputeUrlMap#default_url_redirect}
 
 ---
 
@@ -4108,7 +4108,7 @@ Description *string
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
 
 ---
 
@@ -4122,7 +4122,7 @@ HeaderAction GoogleComputeUrlMapPathMatcherHeaderAction
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -4136,7 +4136,7 @@ PathRule interface{}
 
 path_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_rule GoogleComputeUrlMap#path_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_rule GoogleComputeUrlMap#path_rule}
 
 ---
 
@@ -4150,7 +4150,7 @@ RouteRules interface{}
 
 route_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#route_rules GoogleComputeUrlMap#route_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#route_rules GoogleComputeUrlMap#route_rules}
 
 ---
 
@@ -4159,7 +4159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicy {
 	ErrorResponseRule: interface{},
@@ -4186,7 +4186,7 @@ ErrorResponseRule interface{}
 
 error_response_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
 
 ---
 
@@ -4207,7 +4207,7 @@ global/backendBuckets/myBackendBucket
 If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
 If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
 
 ---
 
@@ -4216,7 +4216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule {
 	MatchResponseCodes: *[]*string,
@@ -4249,7 +4249,7 @@ Valid values include: - A number between 400 and 599: For example 401 or 503, in
 * 4xx: Load Balancer will apply the policy if the backend service responds with any response code in the range of 400 to 499.
   Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
 
 ---
 
@@ -4265,7 +4265,7 @@ The HTTP status code returned with the response containing the custom error cont
 
 If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
 
 ---
 
@@ -4284,7 +4284,7 @@ path must start with a leading slash. path cannot have trailing slashes.
 If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
 The value must be from 1 to 1024 characters
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
 
 ---
 
@@ -4293,17 +4293,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteAction {
-	CachePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy,
-	CorsPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy,
-	FaultInjectionPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy,
-	MaxStreamDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration,
-	RequestMirrorPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy,
-	RetryPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy,
-	Timeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout,
-	UrlRewrite: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite,
+	CachePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy,
+	CorsPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy,
+	FaultInjectionPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy,
+	MaxStreamDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration,
+	RequestMirrorPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy,
+	RetryPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy,
+	Timeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout,
+	UrlRewrite: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite,
 	WeightedBackendServices: interface{},
 }
 ```
@@ -4334,7 +4334,7 @@ CachePolicy GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy
 
 cache_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
 
 ---
 
@@ -4348,7 +4348,7 @@ CorsPolicy GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
 
 ---
 
@@ -4362,7 +4362,7 @@ FaultInjectionPolicy GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInject
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
 
 ---
 
@@ -4376,7 +4376,7 @@ MaxStreamDuration GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurat
 
 max_stream_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
 
 ---
 
@@ -4390,7 +4390,7 @@ RequestMirrorPolicy GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirro
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
 
 ---
 
@@ -4404,7 +4404,7 @@ RetryPolicy GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
 
 ---
 
@@ -4418,7 +4418,7 @@ Timeout GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
 
 ---
 
@@ -4432,7 +4432,7 @@ UrlRewrite GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
 
 ---
 
@@ -4446,7 +4446,7 @@ WeightedBackendServices interface{}
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
 
 ---
 
@@ -4455,19 +4455,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy {
 	CacheBypassRequestHeaderNames: *[]*string,
-	CacheKeyPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicy,
+	CacheKeyPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicy,
 	CacheMode: *string,
-	ClientTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtl,
-	DefaultTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtl,
-	MaxTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtl,
+	ClientTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtl,
+	DefaultTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtl,
+	MaxTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtl,
 	NegativeCaching: interface{},
 	NegativeCachingPolicy: interface{},
 	RequestCoalescing: interface{},
-	ServeWhileStale: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStale,
+	ServeWhileStale: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStale,
 }
 ```
 
@@ -4498,7 +4498,7 @@ CacheBypassRequestHeaderNames *[]*string
 
 Bypass the cache when the specified request headers are matched by name, e.g. Pragma or Authorization headers. Values are case-insensitive. Up to 5 header names can be specified. The cache is bypassed for all cacheMode values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
 
 ---
 
@@ -4512,7 +4512,7 @@ CacheKeyPolicy GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheK
 
 cache_key_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
 
 ---
 
@@ -4529,7 +4529,7 @@ Specifies the cache setting for all responses from this route.
 If not
 specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
 
 ---
 
@@ -4543,7 +4543,7 @@ ClientTtl GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtl
 
 client_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
 
 ---
 
@@ -4557,7 +4557,7 @@ DefaultTtl GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtl
 
 default_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
 
 ---
 
@@ -4571,7 +4571,7 @@ MaxTtl GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtl
 
 max_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
 
 ---
 
@@ -4601,7 +4601,7 @@ Cloud CDN applies the following TTLs to these HTTP status codes:
   These defaults can be overridden in negativeCachingPolicy. If not
   specified, Cloud CDN applies negative caching by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
 
 ---
 
@@ -4615,7 +4615,7 @@ NegativeCachingPolicy interface{}
 
 negative_caching_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
 
 ---
 
@@ -4632,7 +4632,7 @@ If true then Cloud CDN will combine multiple concurrent cache fill requests into
 If not specified,
 Cloud CDN applies request coalescing by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
 
 ---
 
@@ -4646,7 +4646,7 @@ ServeWhileStale GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServe
 
 serve_while_stale block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
 
 ---
 
@@ -4655,7 +4655,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicy {
 	ExcludedQueryParameters: *[]*string,
@@ -4702,7 +4702,7 @@ error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
 
 ---
 
@@ -4724,7 +4724,7 @@ Attempting to set it on a route that points exclusively to Backend
 Buckets will result in a configuration error. Up to 5 cookie names can
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
 
 ---
 
@@ -4738,7 +4738,7 @@ IncludedHeaderNames *[]*string
 
 Allows HTTP request headers (by name) to be used in the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
 
 ---
 
@@ -4757,7 +4757,7 @@ parameters will be excluded. Either specify includedQueryParameters
 or excludedQueryParameters, not both. '&' and '=' will be percent
 encoded and not treated as delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
 
 ---
 
@@ -4778,7 +4778,7 @@ never included in a Backend Bucket's cache key. Attempting to set it on
 a route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
 
 ---
 
@@ -4799,7 +4799,7 @@ never included in a Backend Bucket's cache key. Attempting to set on a
 route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
 
 ---
 
@@ -4822,7 +4822,7 @@ configuration error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
 
 ---
 
@@ -4831,7 +4831,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtl {
 	Seconds: *string,
@@ -4858,7 +4858,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -4872,7 +4872,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -4881,7 +4881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtl {
 	Seconds: *string,
@@ -4908,7 +4908,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -4922,7 +4922,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -4931,7 +4931,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtl {
 	Seconds: *string,
@@ -4958,7 +4958,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -4972,7 +4972,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -4981,11 +4981,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicy {
 	Code: *f64,
-	Ttl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtl,
+	Ttl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtl,
 }
 ```
 
@@ -5013,7 +5013,7 @@ Only HTTP status codes
 specified as values, and you cannot specify a status code more than
 once.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
 
 ---
 
@@ -5027,7 +5027,7 @@ Ttl GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPo
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
 
 ---
 
@@ -5036,7 +5036,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtl {
 	Seconds: *string,
@@ -5063,7 +5063,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -5077,7 +5077,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -5086,7 +5086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStale.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStale {
 	Seconds: *string,
@@ -5113,7 +5113,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -5127,7 +5127,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -5136,7 +5136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy {
 	AllowCredentials: interface{},
@@ -5177,7 +5177,7 @@ In response to a preflight request, setting this to true indicates that the actu
 
 This translates to the Access-Control-Allow-Credentials header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
 
 ---
 
@@ -5191,7 +5191,7 @@ AllowHeaders *[]*string
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
 
 ---
 
@@ -5205,7 +5205,7 @@ AllowMethods *[]*string
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
 
 ---
 
@@ -5223,7 +5223,7 @@ For regular expression grammar
 please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
 
 ---
 
@@ -5239,7 +5239,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
 
 ---
 
@@ -5255,7 +5255,7 @@ If true, specifies the CORS policy is disabled.
 
 The default value is false, which indicates that the CORS policy is in effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
 
 ---
 
@@ -5269,7 +5269,7 @@ ExposeHeaders *[]*string
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
 
 ---
 
@@ -5283,7 +5283,7 @@ MaxAge *f64
 
 Specifies how long results of a preflight request can be cached in seconds. This translates to the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
 
 ---
 
@@ -5292,11 +5292,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy {
-	Abort: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbort,
-	Delay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelay,
+	Abort: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbort,
+	Delay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelay,
 }
 ```
 
@@ -5319,7 +5319,7 @@ Abort GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbort
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
 
 ---
 
@@ -5333,7 +5333,7 @@ Delay GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelay
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
 
 ---
 
@@ -5342,7 +5342,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbort {
 	HttpStatus: *f64,
@@ -5369,7 +5369,7 @@ HttpStatus *f64
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
 
 ---
 
@@ -5385,7 +5385,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -5394,10 +5394,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelay {
-	FixedDelay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelay,
+	FixedDelay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelay,
 	Percentage: *f64,
 }
 ```
@@ -5421,7 +5421,7 @@ FixedDelay GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyD
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
 
 ---
 
@@ -5437,7 +5437,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -5446,7 +5446,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelay {
 	Nanos: *f64,
@@ -5476,7 +5476,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -5493,7 +5493,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -5502,7 +5502,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration {
 	Seconds: *string,
@@ -5532,7 +5532,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -5549,7 +5549,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -5558,7 +5558,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy {
 	BackendService: *string,
@@ -5585,7 +5585,7 @@ BackendService *string
 
 The full or partial URL to the BackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -5599,7 +5599,7 @@ MirrorPercent *f64
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
 
 ---
 
@@ -5608,11 +5608,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy {
 	NumRetries: *f64,
-	PerTryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeout,
+	PerTryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeout,
 	RetryConditions: *[]*string,
 }
 ```
@@ -5637,7 +5637,7 @@ NumRetries *f64
 
 Specifies the allowed number retries. This number must be > 0. If not specified, defaults to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
 
 ---
 
@@ -5651,7 +5651,7 @@ PerTryTimeout GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryT
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
 
 ---
 
@@ -5680,7 +5680,7 @@ Specfies one or more conditions when this retry rule applies. Valid values are:.
 * resource-exhausted: Loadbalancer will retry if the gRPC status code in the response header is set to resource-exhausted
 * unavailable: Loadbalancer will retry if the gRPC status code in the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
 
 ---
 
@@ -5689,7 +5689,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeout {
 	Nanos: *f64,
@@ -5719,7 +5719,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -5736,7 +5736,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -5745,7 +5745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout {
 	Nanos: *f64,
@@ -5775,7 +5775,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -5792,7 +5792,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -5801,7 +5801,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite {
 	HostRewrite: *string,
@@ -5830,7 +5830,7 @@ Prior to forwarding the request to the selected service, the request's host head
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
 
 ---
 
@@ -5846,7 +5846,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -5855,11 +5855,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices {
 	BackendService: *string,
-	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderAction,
+	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderAction,
 	Weight: *f64,
 }
 ```
@@ -5888,7 +5888,7 @@ Before forwarding the
 request to backendService, the loadbalancer applies any relevant headerActions
 specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -5902,7 +5902,7 @@ HeaderAction GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -5922,7 +5922,7 @@ as determined by the BackendService's session affinity policy.
 
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
 
 ---
 
@@ -5931,7 +5931,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderAction {
 	RequestHeadersToAdd: interface{},
@@ -5962,7 +5962,7 @@ RequestHeadersToAdd interface{}
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -5976,7 +5976,7 @@ RequestHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -5990,7 +5990,7 @@ ResponseHeadersToAdd interface{}
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -6004,7 +6004,7 @@ ResponseHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -6013,7 +6013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd {
 	HeaderName: *string,
@@ -6042,7 +6042,7 @@ HeaderName *string
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -6056,7 +6056,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -6072,7 +6072,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -6081,7 +6081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd {
 	HeaderName: *string,
@@ -6110,7 +6110,7 @@ HeaderName *string
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -6124,7 +6124,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -6140,7 +6140,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -6149,7 +6149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultUrlRedirect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherDefaultUrlRedirect {
 	StripQuery: interface{},
@@ -6188,7 +6188,7 @@ If set to false, the query portion of the original URL is
 retained.
 This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
 
 ---
 
@@ -6204,7 +6204,7 @@ The host that will be used in the redirect response instead of the one that was 
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
 
 ---
 
@@ -6223,7 +6223,7 @@ false, the URL scheme of the redirected request will remain the same as that of 
 request. This must only be set for UrlMaps used in TargetHttpProxys. Setting this
 true for TargetHttpsProxy is not permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
 
 ---
 
@@ -6242,7 +6242,7 @@ prefixRedirect. Supply one alone or neither. If neither is supplied, the path of
 original request will be used for the redirect. The value must be between 1 and 1024
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
 
 ---
 
@@ -6260,7 +6260,7 @@ prefixRedirect cannot be supplied together with pathRedirect. Supply one alone o
 neither. If neither is supplied, the path of the original request will be used for
 the redirect. The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
 
 ---
 
@@ -6282,7 +6282,7 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
 
 ---
 
@@ -6291,7 +6291,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherHeaderAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherHeaderAction {
 	RequestHeadersToAdd: interface{},
@@ -6322,7 +6322,7 @@ RequestHeadersToAdd interface{}
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -6336,7 +6336,7 @@ RequestHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -6350,7 +6350,7 @@ ResponseHeadersToAdd interface{}
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -6364,7 +6364,7 @@ ResponseHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -6373,7 +6373,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd {
 	HeaderName: *string,
@@ -6402,7 +6402,7 @@ HeaderName *string
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -6416,7 +6416,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -6433,7 +6433,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -6442,7 +6442,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd {
 	HeaderName: *string,
@@ -6471,7 +6471,7 @@ HeaderName *string
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -6485,7 +6485,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -6502,7 +6502,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -6511,14 +6511,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRule {
 	Paths: *[]*string,
-	CustomErrorResponsePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy,
-	RouteAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction,
+	CustomErrorResponsePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy,
+	RouteAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction,
 	Service: *string,
-	UrlRedirect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect,
+	UrlRedirect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect,
 }
 ```
 
@@ -6549,7 +6549,7 @@ Each must start with / and the only place a
 does not include any text after the first ? or #, and those chars are not
 allowed here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#paths GoogleComputeUrlMap#paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#paths GoogleComputeUrlMap#paths}
 
 ---
 
@@ -6563,7 +6563,7 @@ CustomErrorResponsePolicy GoogleComputeUrlMapPathMatcherPathRuleCustomErrorRespo
 
 custom_error_response_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#custom_error_response_policy GoogleComputeUrlMap#custom_error_response_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#custom_error_response_policy GoogleComputeUrlMap#custom_error_response_policy}
 
 ---
 
@@ -6577,7 +6577,7 @@ RouteAction GoogleComputeUrlMapPathMatcherPathRuleRouteAction
 
 route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#route_action GoogleComputeUrlMap#route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#route_action GoogleComputeUrlMap#route_action}
 
 ---
 
@@ -6591,7 +6591,7 @@ Service *string
 
 The backend service or backend bucket to use if any of the given paths match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
 
 ---
 
@@ -6605,7 +6605,7 @@ UrlRedirect GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect
 
 url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#url_redirect GoogleComputeUrlMap#url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_redirect GoogleComputeUrlMap#url_redirect}
 
 ---
 
@@ -6614,7 +6614,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy {
 	ErrorResponseRule: interface{},
@@ -6641,7 +6641,7 @@ ErrorResponseRule interface{}
 
 error_response_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
 
 ---
 
@@ -6662,7 +6662,7 @@ global/backendBuckets/myBackendBucket
 If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
 If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
 
 ---
 
@@ -6671,7 +6671,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule {
 	MatchResponseCodes: *[]*string,
@@ -6706,7 +6706,7 @@ Valid values include:.
 
 Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
 
 ---
 
@@ -6722,7 +6722,7 @@ The HTTP status code returned with the response containing the custom error cont
 
 If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
 
 ---
 
@@ -6741,7 +6741,7 @@ path must start with a leading slash. path cannot have trailing slashes.
 If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
 The value must be from 1 to 1024 characters
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
 
 ---
 
@@ -6750,17 +6750,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction {
-	CachePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy,
-	CorsPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy,
-	FaultInjectionPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy,
-	MaxStreamDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration,
-	RequestMirrorPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy,
-	RetryPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy,
-	Timeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout,
-	UrlRewrite: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite,
+	CachePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy,
+	CorsPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy,
+	FaultInjectionPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy,
+	MaxStreamDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration,
+	RequestMirrorPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy,
+	RetryPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy,
+	Timeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout,
+	UrlRewrite: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite,
 	WeightedBackendServices: interface{},
 }
 ```
@@ -6791,7 +6791,7 @@ CachePolicy GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy
 
 cache_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
 
 ---
 
@@ -6805,7 +6805,7 @@ CorsPolicy GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
 
 ---
 
@@ -6819,7 +6819,7 @@ FaultInjectionPolicy GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjec
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
 
 ---
 
@@ -6833,7 +6833,7 @@ MaxStreamDuration GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDura
 
 max_stream_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
 
 ---
 
@@ -6847,7 +6847,7 @@ RequestMirrorPolicy GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirr
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
 
 ---
 
@@ -6861,7 +6861,7 @@ RetryPolicy GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
 
 ---
 
@@ -6875,7 +6875,7 @@ Timeout GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
 
 ---
 
@@ -6889,7 +6889,7 @@ UrlRewrite GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
 
 ---
 
@@ -6903,7 +6903,7 @@ WeightedBackendServices interface{}
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
 
 ---
 
@@ -6912,19 +6912,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy {
 	CacheBypassRequestHeaderNames: *[]*string,
-	CacheKeyPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy,
+	CacheKeyPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy,
 	CacheMode: *string,
-	ClientTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtl,
-	DefaultTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtl,
-	MaxTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtl,
+	ClientTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtl,
+	DefaultTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtl,
+	MaxTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtl,
 	NegativeCaching: interface{},
 	NegativeCachingPolicy: interface{},
 	RequestCoalescing: interface{},
-	ServeWhileStale: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStale,
+	ServeWhileStale: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStale,
 }
 ```
 
@@ -6955,7 +6955,7 @@ CacheBypassRequestHeaderNames *[]*string
 
 Bypass the cache when the specified request headers are matched by name, e.g. Pragma or Authorization headers. Values are case-insensitive. Up to 5 header names can be specified. The cache is bypassed for all cacheMode values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
 
 ---
 
@@ -6969,7 +6969,7 @@ CacheKeyPolicy GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCache
 
 cache_key_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
 
 ---
 
@@ -6986,7 +6986,7 @@ Specifies the cache setting for all responses from this route.
 If not
 specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
 
 ---
 
@@ -7000,7 +7000,7 @@ ClientTtl GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtl
 
 client_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
 
 ---
 
@@ -7014,7 +7014,7 @@ DefaultTtl GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTt
 
 default_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
 
 ---
 
@@ -7028,7 +7028,7 @@ MaxTtl GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtl
 
 max_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
 
 ---
 
@@ -7058,7 +7058,7 @@ Cloud CDN applies the following TTLs to these HTTP status codes:
   These defaults can be overridden in negativeCachingPolicy. If not
   specified, Cloud CDN applies negative caching by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
 
 ---
 
@@ -7072,7 +7072,7 @@ NegativeCachingPolicy interface{}
 
 negative_caching_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
 
 ---
 
@@ -7089,7 +7089,7 @@ If true then Cloud CDN will combine multiple concurrent cache fill requests into
 If not specified,
 Cloud CDN applies request coalescing by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
 
 ---
 
@@ -7103,7 +7103,7 @@ ServeWhileStale GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServ
 
 serve_while_stale block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
 
 ---
 
@@ -7112,7 +7112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy {
 	ExcludedQueryParameters: *[]*string,
@@ -7159,7 +7159,7 @@ error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
 
 ---
 
@@ -7181,7 +7181,7 @@ Attempting to set it on a route that points exclusively to Backend
 Buckets will result in a configuration error. Up to 5 cookie names can
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
 
 ---
 
@@ -7195,7 +7195,7 @@ IncludedHeaderNames *[]*string
 
 Allows HTTP request headers (by name) to be used in the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
 
 ---
 
@@ -7214,7 +7214,7 @@ parameters will be excluded. Either specify includedQueryParameters
 or excludedQueryParameters, not both. '&' and '=' will be percent
 encoded and not treated as delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
 
 ---
 
@@ -7235,7 +7235,7 @@ never included in a Backend Bucket's cache key. Attempting to set it on
 a route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
 
 ---
 
@@ -7256,7 +7256,7 @@ never included in a Backend Bucket's cache key. Attempting to set on a
 route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
 
 ---
 
@@ -7279,7 +7279,7 @@ configuration error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
 
 ---
 
@@ -7288,7 +7288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtl {
 	Seconds: *string,
@@ -7315,7 +7315,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7329,7 +7329,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7338,7 +7338,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtl {
 	Seconds: *string,
@@ -7365,7 +7365,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7379,7 +7379,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7388,7 +7388,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtl {
 	Seconds: *string,
@@ -7415,7 +7415,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7429,7 +7429,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7438,11 +7438,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicy {
 	Code: *f64,
-	Ttl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtl,
+	Ttl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtl,
 }
 ```
 
@@ -7470,7 +7470,7 @@ Only HTTP status codes
 specified as values, and you cannot specify a status code more than
 once.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
 
 ---
 
@@ -7484,7 +7484,7 @@ Ttl GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingP
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
 
 ---
 
@@ -7493,7 +7493,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtl {
 	Seconds: *string,
@@ -7520,7 +7520,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7534,7 +7534,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7543,7 +7543,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStale.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStale {
 	Seconds: *string,
@@ -7570,7 +7570,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7584,7 +7584,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7593,7 +7593,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy {
 	Disabled: interface{},
@@ -7632,7 +7632,7 @@ Disabled interface{}
 
 If true, specifies the CORS policy is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
 
 ---
 
@@ -7649,7 +7649,7 @@ In response to a preflight request, setting this to true indicates that the actu
 This translates to the Access-
 Control-Allow-Credentials header. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
 
 ---
 
@@ -7663,7 +7663,7 @@ AllowHeaders *[]*string
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
 
 ---
 
@@ -7677,7 +7677,7 @@ AllowMethods *[]*string
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
 
 ---
 
@@ -7695,7 +7695,7 @@ For
 regular expression grammar please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
 
 ---
 
@@ -7712,7 +7712,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 An
 origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
 
 ---
 
@@ -7726,7 +7726,7 @@ ExposeHeaders *[]*string
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
 
 ---
 
@@ -7743,7 +7743,7 @@ Specifies how long the results of a preflight request can be cached.
 This
 translates to the content for the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
 
 ---
 
@@ -7752,11 +7752,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy {
-	Abort: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort,
-	Delay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay,
+	Abort: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort,
+	Delay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay,
 }
 ```
 
@@ -7779,7 +7779,7 @@ Abort GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
 
 ---
 
@@ -7793,7 +7793,7 @@ Delay GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
 
 ---
 
@@ -7802,7 +7802,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort {
 	HttpStatus: *f64,
@@ -7829,7 +7829,7 @@ HttpStatus *f64
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
 
 ---
 
@@ -7846,7 +7846,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 The value must be between 0.0 and 100.0
 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -7855,10 +7855,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay {
-	FixedDelay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelay,
+	FixedDelay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelay,
 	Percentage: *f64,
 }
 ```
@@ -7882,7 +7882,7 @@ FixedDelay GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
 
 ---
 
@@ -7899,7 +7899,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 The value must be between 0.0 and
 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -7908,7 +7908,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelay {
 	Seconds: *string,
@@ -7935,7 +7935,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7953,7 +7953,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7962,7 +7962,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration {
 	Seconds: *string,
@@ -7989,7 +7989,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -8007,7 +8007,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -8016,7 +8016,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy {
 	BackendService: *string,
@@ -8043,7 +8043,7 @@ BackendService *string
 
 The BackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -8057,7 +8057,7 @@ MirrorPercent *f64
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
 
 ---
 
@@ -8066,11 +8066,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy {
 	NumRetries: *f64,
-	PerTryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeout,
+	PerTryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeout,
 	RetryConditions: *[]*string,
 }
 ```
@@ -8095,7 +8095,7 @@ NumRetries *f64
 
 Specifies the allowed number retries. This number must be > 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
 
 ---
 
@@ -8109,7 +8109,7 @@ PerTryTimeout GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTry
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
 
 ---
 
@@ -8144,7 +8144,7 @@ Specifies one or more conditions when this retry rule applies. Valid values are:
 * unavailable: Loadbalancer will retry if
   the gRPC status code in the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
 
 ---
 
@@ -8153,7 +8153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeout {
 	Seconds: *string,
@@ -8180,7 +8180,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -8198,7 +8198,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -8207,7 +8207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout {
 	Seconds: *string,
@@ -8234,7 +8234,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -8252,7 +8252,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -8261,7 +8261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite {
 	HostRewrite: *string,
@@ -8291,7 +8291,7 @@ Prior to forwarding the request to the selected service, the request's host head
 The value must be between 1 and
 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
 
 ---
 
@@ -8308,7 +8308,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 The value must
 be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -8317,12 +8317,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices {
 	BackendService: *string,
 	Weight: *f64,
-	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction,
+	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction,
 }
 ```
 
@@ -8350,7 +8350,7 @@ Before
 forwarding the request to backendService, the loadbalancer applies any relevant
 headerActions specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -8370,7 +8370,7 @@ been directed to a backendService, subsequent requests will be sent to the same
 backendService as determined by the BackendService's session affinity policy.
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
 
 ---
 
@@ -8384,7 +8384,7 @@ HeaderAction GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -8393,7 +8393,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction {
 	RequestHeadersToAdd: interface{},
@@ -8424,7 +8424,7 @@ RequestHeadersToAdd interface{}
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -8438,7 +8438,7 @@ RequestHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -8452,7 +8452,7 @@ ResponseHeadersToAdd interface{}
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -8466,7 +8466,7 @@ ResponseHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -8475,7 +8475,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd {
 	HeaderName: *string,
@@ -8504,7 +8504,7 @@ HeaderName *string
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -8518,7 +8518,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -8535,7 +8535,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -8544,7 +8544,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd {
 	HeaderName: *string,
@@ -8573,7 +8573,7 @@ HeaderName *string
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -8587,7 +8587,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -8604,7 +8604,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -8613,7 +8613,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect {
 	StripQuery: interface{},
@@ -8652,7 +8652,7 @@ If set to false, the query
 portion of the original URL is retained.
 This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
 
 ---
 
@@ -8669,7 +8669,7 @@ The host that will be used in the redirect response instead of the one that was 
 The value must be between 1 and 255
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
 
 ---
 
@@ -8688,7 +8688,7 @@ same as that of the request. This must only be set for UrlMaps used in
 TargetHttpProxys. Setting this true for TargetHttpsProxy is not
 permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
 
 ---
 
@@ -8707,7 +8707,7 @@ together with prefixRedirect. Supply one alone or neither. If neither is
 supplied, the path of the original request will be used for the redirect.
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
 
 ---
 
@@ -8726,7 +8726,7 @@ pathRedirect. Supply one alone or neither. If neither is supplied, the
 path of the original request will be used for the redirect. The value
 must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
 
 ---
 
@@ -8748,7 +8748,7 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
 
 ---
 
@@ -8757,18 +8757,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRules {
 	Priority: *f64,
-	CustomErrorResponsePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicy,
-	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction,
+	CustomErrorResponsePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicy,
+	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction,
 	HttpFilterConfigs: interface{},
 	HttpFilterMetadata: interface{},
 	MatchRules: interface{},
-	RouteAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction,
+	RouteAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction,
 	Service: *string,
-	UrlRedirect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect,
+	UrlRedirect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect,
 }
 ```
 
@@ -8813,7 +8813,7 @@ in the future without affecting the rest of the rules. For example,
 you could add rules numbered from 6 to 8, 10 to 11, and 13 to 15 in the
 future without any impact on existing rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#priority GoogleComputeUrlMap#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#priority GoogleComputeUrlMap#priority}
 
 ---
 
@@ -8827,7 +8827,7 @@ CustomErrorResponsePolicy GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorRes
 
 custom_error_response_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#custom_error_response_policy GoogleComputeUrlMap#custom_error_response_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#custom_error_response_policy GoogleComputeUrlMap#custom_error_response_policy}
 
 ---
 
@@ -8841,7 +8841,7 @@ HeaderAction GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -8855,7 +8855,7 @@ HttpFilterConfigs interface{}
 
 http_filter_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#http_filter_configs GoogleComputeUrlMap#http_filter_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_filter_configs GoogleComputeUrlMap#http_filter_configs}
 
 ---
 
@@ -8869,7 +8869,7 @@ HttpFilterMetadata interface{}
 
 http_filter_metadata block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#http_filter_metadata GoogleComputeUrlMap#http_filter_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_filter_metadata GoogleComputeUrlMap#http_filter_metadata}
 
 ---
 
@@ -8883,7 +8883,7 @@ MatchRules interface{}
 
 match_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#match_rules GoogleComputeUrlMap#match_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#match_rules GoogleComputeUrlMap#match_rules}
 
 ---
 
@@ -8897,7 +8897,7 @@ RouteAction GoogleComputeUrlMapPathMatcherRouteRulesRouteAction
 
 route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#route_action GoogleComputeUrlMap#route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#route_action GoogleComputeUrlMap#route_action}
 
 ---
 
@@ -8918,7 +8918,7 @@ contain any weightedBackendService s. Conversely, if routeAction specifies any
 weightedBackendServices, service must not be specified. Only one of urlRedirect,
 service or routeAction.weightedBackendService must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
 
 ---
 
@@ -8932,7 +8932,7 @@ UrlRedirect GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect
 
 url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#url_redirect GoogleComputeUrlMap#url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_redirect GoogleComputeUrlMap#url_redirect}
 
 ---
 
@@ -8941,7 +8941,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicy {
 	ErrorResponseRule: interface{},
@@ -8968,7 +8968,7 @@ ErrorResponseRule interface{}
 
 error_response_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
 
 ---
 
@@ -8989,7 +8989,7 @@ global/backendBuckets/myBackendBucket
 If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
 If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
 
 ---
 
@@ -8998,7 +8998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule {
 	MatchResponseCodes: *[]*string,
@@ -9033,7 +9033,7 @@ Valid values include:.
 
 Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
 
 ---
 
@@ -9049,7 +9049,7 @@ The HTTP status code returned with the response containing the custom error cont
 
 If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
 
 ---
 
@@ -9068,7 +9068,7 @@ path must start with a leading slash. path cannot have trailing slashes.
 If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
 The value must be from 1 to 1024 characters
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
 
 ---
 
@@ -9077,7 +9077,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction {
 	RequestHeadersToAdd: interface{},
@@ -9108,7 +9108,7 @@ RequestHeadersToAdd interface{}
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -9122,7 +9122,7 @@ RequestHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -9136,7 +9136,7 @@ ResponseHeadersToAdd interface{}
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -9150,7 +9150,7 @@ ResponseHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -9159,7 +9159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd {
 	HeaderName: *string,
@@ -9188,7 +9188,7 @@ HeaderName *string
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -9202,7 +9202,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -9219,7 +9219,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -9228,7 +9228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd {
 	HeaderName: *string,
@@ -9257,7 +9257,7 @@ HeaderName *string
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -9271,7 +9271,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -9288,7 +9288,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -9297,7 +9297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs {
 	Config: *string,
@@ -9326,7 +9326,7 @@ Config *string
 
 The configuration needed to enable the networkservices.HttpFilter resource. The configuration must be YAML formatted and only contain fields defined in the protobuf identified in configTypeUrl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
 
 ---
 
@@ -9340,7 +9340,7 @@ ConfigTypeUrl *string
 
 The fully qualified versioned proto3 type url of the protobuf that the filter expects for its contextual settings, for example: type.googleapis.com/google.protobuf.Struct.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
 
 ---
 
@@ -9354,7 +9354,7 @@ FilterName *string
 
 Name of the networkservices.HttpFilter resource this configuration belongs to. This name must be known to the xDS client. Example: envoy.wasm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
 
 ---
 
@@ -9363,7 +9363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata {
 	Config: *string,
@@ -9392,7 +9392,7 @@ Config *string
 
 The configuration needed to enable the networkservices.HttpFilter resource. The configuration must be YAML formatted and only contain fields defined in the protobuf identified in configTypeUrl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
 
 ---
 
@@ -9406,7 +9406,7 @@ ConfigTypeUrl *string
 
 The fully qualified versioned proto3 type url of the protobuf that the filter expects for its contextual settings, for example: type.googleapis.com/google.protobuf.Struct.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
 
 ---
 
@@ -9420,7 +9420,7 @@ FilterName *string
 
 Name of the networkservices.HttpFilter resource this configuration belongs to. This name must be known to the xDS client. Example: envoy.wasm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
 
 ---
 
@@ -9429,7 +9429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRules {
 	FullPathMatch: *string,
@@ -9472,7 +9472,7 @@ FullPathMatch must be between 1
 and 1024 characters. Only one of prefixMatch, fullPathMatch or regexMatch must
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#full_path_match GoogleComputeUrlMap#full_path_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#full_path_match GoogleComputeUrlMap#full_path_match}
 
 ---
 
@@ -9486,7 +9486,7 @@ HeaderMatches interface{}
 
 header_matches block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_matches GoogleComputeUrlMap#header_matches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_matches GoogleComputeUrlMap#header_matches}
 
 ---
 
@@ -9500,7 +9500,7 @@ IgnoreCase interface{}
 
 Specifies that prefixMatch and fullPathMatch matches are case sensitive. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#ignore_case GoogleComputeUrlMap#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#ignore_case GoogleComputeUrlMap#ignore_case}
 
 ---
 
@@ -9514,7 +9514,7 @@ MetadataFilters interface{}
 
 metadata_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#metadata_filters GoogleComputeUrlMap#metadata_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#metadata_filters GoogleComputeUrlMap#metadata_filters}
 
 ---
 
@@ -9533,7 +9533,7 @@ pathTemplateMatch must be between 1 and 255 characters
 have at most 5 wildcard operators and at most 5 variable
 captures in total.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_template_match GoogleComputeUrlMap#path_template_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_template_match GoogleComputeUrlMap#path_template_match}
 
 ---
 
@@ -9551,7 +9551,7 @@ prefixMatch must begin with a /. The value must be
 between 1 and 1024 characters. Only one of prefixMatch, fullPathMatch or
 regexMatch must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
 
 ---
 
@@ -9565,7 +9565,7 @@ QueryParameterMatches interface{}
 
 query_parameter_matches block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#query_parameter_matches GoogleComputeUrlMap#query_parameter_matches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#query_parameter_matches GoogleComputeUrlMap#query_parameter_matches}
 
 ---
 
@@ -9583,7 +9583,7 @@ For regular expression grammar please
 see en.cppreference.com/w/cpp/regex/ecmascript  Only one of prefixMatch,
 fullPathMatch or regexMatch must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
 
 ---
 
@@ -9592,7 +9592,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches {
 	HeaderName: *string,
@@ -9600,7 +9600,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 	InvertMatch: interface{},
 	PrefixMatch: *string,
 	PresentMatch: interface{},
-	RangeMatch: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatch,
+	RangeMatch: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatch,
 	RegexMatch: *string,
 	SuffixMatch: *string,
 }
@@ -9635,7 +9635,7 @@ For matching against the HTTP request's
 authority, use a headerMatch with the header name ":authority". For matching a
 request's method, use the headerName ":method".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -9652,7 +9652,7 @@ The value should exactly match contents of exactMatch.
 Only one of exactMatch,
 prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
 
 ---
 
@@ -9669,7 +9669,7 @@ If set to false, the headerMatch is considered a match if the match criteria abo
 If set to true, the headerMatch is considered a match if the
 match criteria above are NOT met. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#invert_match GoogleComputeUrlMap#invert_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#invert_match GoogleComputeUrlMap#invert_match}
 
 ---
 
@@ -9687,7 +9687,7 @@ Only one of
 exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
 
 ---
 
@@ -9705,7 +9705,7 @@ The match takes place
 whether or not the request's header has a value or not. Only one of exactMatch,
 prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
 
 ---
 
@@ -9719,7 +9719,7 @@ RangeMatch GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeM
 
 range_match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#range_match GoogleComputeUrlMap#range_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#range_match GoogleComputeUrlMap#range_match}
 
 ---
 
@@ -9740,7 +9740,7 @@ a regular expression that satisfies the RFC2616 Host header's port specifier.
 Only one of exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or
 rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
 
 ---
 
@@ -9758,7 +9758,7 @@ Only one of
 exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#suffix_match GoogleComputeUrlMap#suffix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#suffix_match GoogleComputeUrlMap#suffix_match}
 
 ---
 
@@ -9767,7 +9767,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatch {
 	RangeEnd: *f64,
@@ -9794,7 +9794,7 @@ RangeEnd *f64
 
 The end of the range (exclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#range_end GoogleComputeUrlMap#range_end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#range_end GoogleComputeUrlMap#range_end}
 
 ---
 
@@ -9808,7 +9808,7 @@ RangeStart *f64
 
 The start of the range (inclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#range_start GoogleComputeUrlMap#range_start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#range_start GoogleComputeUrlMap#range_start}
 
 ---
 
@@ -9817,7 +9817,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters {
 	FilterLabels: interface{},
@@ -9844,7 +9844,7 @@ FilterLabels interface{}
 
 filter_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#filter_labels GoogleComputeUrlMap#filter_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#filter_labels GoogleComputeUrlMap#filter_labels}
 
 ---
 
@@ -9865,7 +9865,7 @@ Supported values are:
 * MATCH_ALL: All filterLabels must have matching labels in
   the provided metadata. Possible values: ["MATCH_ALL", "MATCH_ANY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#filter_match_criteria GoogleComputeUrlMap#filter_match_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#filter_match_criteria GoogleComputeUrlMap#filter_match_criteria}
 
 ---
 
@@ -9874,7 +9874,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels {
 	Name: *string,
@@ -9904,7 +9904,7 @@ Name of metadata label.
 The name can have a maximum length of 1024 characters
 and must be at least 1 character long.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
 
 ---
 
@@ -9918,7 +9918,7 @@ Value *string
 
 The value of the label must match the specified value. value can have a maximum length of 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#value GoogleComputeUrlMap#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#value GoogleComputeUrlMap#value}
 
 ---
 
@@ -9927,7 +9927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches {
 	Name: *string,
@@ -9961,7 +9961,7 @@ The name of the query parameter to match.
 The query parameter must exist in the
 request, in the absence of which the request match fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
 
 ---
 
@@ -9978,7 +9978,7 @@ The queryParameterMatch matches if the value of the parameter exactly matches th
 Only one of presentMatch, exactMatch and regexMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
 
 ---
 
@@ -9995,7 +9995,7 @@ Specifies that the queryParameterMatch matches if the request contains the query
 Only one of
 presentMatch, exactMatch and regexMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
 
 ---
 
@@ -10013,7 +10013,7 @@ For the regular expression grammar,
 please see en.cppreference.com/w/cpp/regex/ecmascript  Only one of presentMatch,
 exactMatch and regexMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
 
 ---
 
@@ -10022,17 +10022,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction {
-	CachePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy,
-	CorsPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy,
-	FaultInjectionPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy,
-	MaxStreamDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration,
-	RequestMirrorPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy,
-	RetryPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy,
-	Timeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout,
-	UrlRewrite: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite,
+	CachePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy,
+	CorsPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy,
+	FaultInjectionPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy,
+	MaxStreamDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration,
+	RequestMirrorPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy,
+	RetryPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy,
+	Timeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout,
+	UrlRewrite: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite,
 	WeightedBackendServices: interface{},
 }
 ```
@@ -10063,7 +10063,7 @@ CachePolicy GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy
 
 cache_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
 
 ---
 
@@ -10077,7 +10077,7 @@ CorsPolicy GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
 
 ---
 
@@ -10091,7 +10091,7 @@ FaultInjectionPolicy GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInj
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
 
 ---
 
@@ -10105,7 +10105,7 @@ MaxStreamDuration GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDu
 
 max_stream_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
 
 ---
 
@@ -10119,7 +10119,7 @@ RequestMirrorPolicy GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMi
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
 
 ---
 
@@ -10133,7 +10133,7 @@ RetryPolicy GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
 
 ---
 
@@ -10147,7 +10147,7 @@ Timeout GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
 
 ---
 
@@ -10161,7 +10161,7 @@ UrlRewrite GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
 
 ---
 
@@ -10175,7 +10175,7 @@ WeightedBackendServices interface{}
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
 
 ---
 
@@ -10184,19 +10184,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy {
 	CacheBypassRequestHeaderNames: *[]*string,
-	CacheKeyPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicy,
+	CacheKeyPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicy,
 	CacheMode: *string,
-	ClientTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtl,
-	DefaultTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtl,
-	MaxTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtl,
+	ClientTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtl,
+	DefaultTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtl,
+	MaxTtl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtl,
 	NegativeCaching: interface{},
 	NegativeCachingPolicy: interface{},
 	RequestCoalescing: interface{},
-	ServeWhileStale: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStale,
+	ServeWhileStale: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStale,
 }
 ```
 
@@ -10227,7 +10227,7 @@ CacheBypassRequestHeaderNames *[]*string
 
 Bypass the cache when the specified request headers are matched by name, e.g. Pragma or Authorization headers. Values are case-insensitive. Up to 5 header names can be specified. The cache is bypassed for all cacheMode values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
 
 ---
 
@@ -10241,7 +10241,7 @@ CacheKeyPolicy GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCac
 
 cache_key_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
 
 ---
 
@@ -10258,7 +10258,7 @@ Specifies the cache setting for all responses from this route.
 If not
 specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
 
 ---
 
@@ -10272,7 +10272,7 @@ ClientTtl GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTt
 
 client_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
 
 ---
 
@@ -10286,7 +10286,7 @@ DefaultTtl GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefault
 
 default_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
 
 ---
 
@@ -10300,7 +10300,7 @@ MaxTtl GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtl
 
 max_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
 
 ---
 
@@ -10330,7 +10330,7 @@ Cloud CDN applies the following TTLs to these HTTP status codes:
   These defaults can be overridden in negativeCachingPolicy. If not
   specified, Cloud CDN applies negative caching by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
 
 ---
 
@@ -10344,7 +10344,7 @@ NegativeCachingPolicy interface{}
 
 negative_caching_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
 
 ---
 
@@ -10361,7 +10361,7 @@ If true then Cloud CDN will combine multiple concurrent cache fill requests into
 If not specified,
 Cloud CDN applies request coalescing by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
 
 ---
 
@@ -10375,7 +10375,7 @@ ServeWhileStale GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicySe
 
 serve_while_stale block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
 
 ---
 
@@ -10384,7 +10384,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicy {
 	ExcludedQueryParameters: *[]*string,
@@ -10431,7 +10431,7 @@ error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
 
 ---
 
@@ -10453,7 +10453,7 @@ Attempting to set it on a route that points exclusively to Backend
 Buckets will result in a configuration error. Up to 5 cookie names can
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
 
 ---
 
@@ -10467,7 +10467,7 @@ IncludedHeaderNames *[]*string
 
 Allows HTTP request headers (by name) to be used in the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
 
 ---
 
@@ -10486,7 +10486,7 @@ parameters will be excluded. Either specify includedQueryParameters
 or excludedQueryParameters, not both. '&' and '=' will be percent
 encoded and not treated as delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
 
 ---
 
@@ -10507,7 +10507,7 @@ never included in a Backend Bucket's cache key. Attempting to set it on
 a route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
 
 ---
 
@@ -10528,7 +10528,7 @@ never included in a Backend Bucket's cache key. Attempting to set on a
 route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
 
 ---
 
@@ -10551,7 +10551,7 @@ configuration error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
 
 ---
 
@@ -10560,7 +10560,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtl {
 	Seconds: *string,
@@ -10587,7 +10587,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10601,7 +10601,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10610,7 +10610,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtl {
 	Seconds: *string,
@@ -10637,7 +10637,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10651,7 +10651,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10660,7 +10660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtl {
 	Seconds: *string,
@@ -10687,7 +10687,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10701,7 +10701,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10710,11 +10710,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicy {
 	Code: *f64,
-	Ttl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtl,
+	Ttl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtl,
 }
 ```
 
@@ -10742,7 +10742,7 @@ Only HTTP status codes
 specified as values, and you cannot specify a status code more than
 once.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
 
 ---
 
@@ -10756,7 +10756,7 @@ Ttl GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachin
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
 
 ---
 
@@ -10765,7 +10765,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtl {
 	Seconds: *string,
@@ -10792,7 +10792,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10806,7 +10806,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10815,7 +10815,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStale.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStale {
 	Seconds: *string,
@@ -10842,7 +10842,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10856,7 +10856,7 @@ Nanos *f64
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10865,7 +10865,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy {
 	AllowCredentials: interface{},
@@ -10907,7 +10907,7 @@ In response to a preflight request, setting this to true indicates that the actu
 This translates to the Access-
 Control-Allow-Credentials header. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
 
 ---
 
@@ -10921,7 +10921,7 @@ AllowHeaders *[]*string
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
 
 ---
 
@@ -10935,7 +10935,7 @@ AllowMethods *[]*string
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
 
 ---
 
@@ -10953,7 +10953,7 @@ For
 regular expression grammar please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
 
 ---
 
@@ -10970,7 +10970,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 An
 origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
 
 ---
 
@@ -10984,7 +10984,7 @@ Disabled interface{}
 
 If true, specifies the CORS policy is disabled. which indicates that the CORS policy is in effect. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
 
 ---
 
@@ -10998,7 +10998,7 @@ ExposeHeaders *[]*string
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
 
 ---
 
@@ -11015,7 +11015,7 @@ Specifies how long the results of a preflight request can be cached.
 This
 translates to the content for the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
 
 ---
 
@@ -11024,11 +11024,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy {
-	Abort: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbort,
-	Delay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelay,
+	Abort: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbort,
+	Delay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelay,
 }
 ```
 
@@ -11051,7 +11051,7 @@ Abort GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbo
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
 
 ---
 
@@ -11065,7 +11065,7 @@ Delay GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDel
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
 
 ---
 
@@ -11074,7 +11074,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbort {
 	HttpStatus: *f64,
@@ -11101,7 +11101,7 @@ HttpStatus *f64
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
 
 ---
 
@@ -11118,7 +11118,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 The value must be between 0.0 and 100.0
 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -11127,10 +11127,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelay {
-	FixedDelay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelay,
+	FixedDelay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelay,
 	Percentage: *f64,
 }
 ```
@@ -11154,7 +11154,7 @@ FixedDelay GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPoli
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
 
 ---
 
@@ -11171,7 +11171,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 The value must be between 0.0 and
 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -11180,7 +11180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelay {
 	Seconds: *string,
@@ -11207,7 +11207,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -11225,7 +11225,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -11234,7 +11234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration {
 	Seconds: *string,
@@ -11261,7 +11261,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -11279,7 +11279,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -11288,7 +11288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy {
 	BackendService: *string,
@@ -11315,7 +11315,7 @@ BackendService *string
 
 The BackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -11329,7 +11329,7 @@ MirrorPercent *f64
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
 
 ---
 
@@ -11338,11 +11338,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy {
 	NumRetries: *f64,
-	PerTryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeout,
+	PerTryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeout,
 	RetryConditions: *[]*string,
 }
 ```
@@ -11367,7 +11367,7 @@ NumRetries *f64
 
 Specifies the allowed number retries. This number must be > 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
 
 ---
 
@@ -11381,7 +11381,7 @@ PerTryTimeout GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerT
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
 
 ---
 
@@ -11416,7 +11416,7 @@ Specfies one or more conditions when this retry rule applies. Valid values are:.
 * unavailable: Loadbalancer will retry if the gRPC status code in
   the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
 
 ---
 
@@ -11425,7 +11425,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeout {
 	Seconds: *string,
@@ -11452,7 +11452,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -11470,7 +11470,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -11479,7 +11479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout {
 	Seconds: *string,
@@ -11506,7 +11506,7 @@ Seconds *string
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -11524,7 +11524,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -11533,12 +11533,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite {
 	HostRewrite: *string,
 	PathPrefixRewrite: *string,
 	PathTemplateRewrite: *string,
+	RegexRewrite: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite,
 }
 ```
 
@@ -11549,6 +11550,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite.property.hostRewrite">HostRewrite</a></code> | <code>*string</code> | Prior to forwarding the request to the selected service, the request's host header is replaced with contents of hostRewrite. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite.property.pathPrefixRewrite">PathPrefixRewrite</a></code> | <code>*string</code> | Prior to forwarding the request to the selected backend service, the matching portion of the request's path is replaced by pathPrefixRewrite. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite.property.pathTemplateRewrite">PathTemplateRewrite</a></code> | <code>*string</code> | Prior to forwarding the request to the selected origin, if the request matched a pathTemplateMatch, the matching portion of the request's path is replaced re-written using the pattern specified by pathTemplateRewrite. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite.property.regexRewrite">RegexRewrite</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite</a></code> | regex_rewrite block. |
 
 ---
 
@@ -11565,7 +11567,7 @@ Prior to forwarding the request to the selected service, the request's host head
 The value must be between 1 and
 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
 
 ---
 
@@ -11582,7 +11584,10 @@ Prior to forwarding the request to the selected backend service, the matching po
 The value must
 be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+Only one of pathPrefixRewrite, pathTemplateRewrite, or regexRewrite may be
+specified.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -11603,10 +11608,83 @@ captured by the route's pathTemplate matchers.
 pathTemplateRewrite may only be used when all of a route's
 MatchRules specify pathTemplate.
 
-Only one of pathPrefixRewrite and pathTemplateRewrite may be
+Only one of pathPrefixRewrite, pathTemplateRewrite, or regexRewrite may be
 specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_template_rewrite GoogleComputeUrlMap#path_template_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_template_rewrite GoogleComputeUrlMap#path_template_rewrite}
+
+---
+
+##### `RegexRewrite`<sup>Optional</sup> <a name="RegexRewrite" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite.property.regexRewrite"></a>
+
+```go
+RegexRewrite GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite</a>
+
+regex_rewrite block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#regex_rewrite GoogleComputeUrlMap#regex_rewrite}
+
+---
+
+### GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite <a name="GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
+
+&googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite {
+	PathPattern: *string,
+	PathSubstitution: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite.property.pathPattern">PathPattern</a></code> | <code>*string</code> | The regular expression used to match against the URL path. It uses RE2 syntax with the following constraints:. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite.property.pathSubstitution">PathSubstitution</a></code> | <code>*string</code> | The substitution used to rewrite the parts of the URL path matched by pathPattern. May reference capture groups from pathPattern. |
+
+---
+
+##### `PathPattern`<sup>Required</sup> <a name="PathPattern" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite.property.pathPattern"></a>
+
+```go
+PathPattern *string
+```
+
+- *Type:* *string
+
+The regular expression used to match against the URL path. It uses RE2 syntax with the following constraints:.
+
+* Any single character operators are allowed.
+* Groups may only contain a submatch operator, and may not
+  contain character repetition (for example, '.*').
+* Character repetition (for example, '.*') may only be used in
+  a regex together with empty string operators, other
+  repetitions, ranges, and repetitions of ranges.
+* Ranges may only contain character ranges, digit ranges, and
+  symbols allowed for ranges.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_pattern GoogleComputeUrlMap#path_pattern}
+
+---
+
+##### `PathSubstitution`<sup>Required</sup> <a name="PathSubstitution" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite.property.pathSubstitution"></a>
+
+```go
+PathSubstitution *string
+```
+
+- *Type:* *string
+
+The substitution used to rewrite the parts of the URL path matched by pathPattern. May reference capture groups from pathPattern.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_substitution GoogleComputeUrlMap#path_substitution}
 
 ---
 
@@ -11615,12 +11693,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices {
 	BackendService: *string,
 	Weight: *f64,
-	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderAction,
+	HeaderAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderAction,
 }
 ```
 
@@ -11648,7 +11726,7 @@ Before
 forwarding the request to backendService, the loadbalancer applies any relevant
 headerActions specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -11668,7 +11746,7 @@ been directed to a backendService, subsequent requests will be sent to the same
 backendService as determined by the BackendService's session affinity policy.
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
 
 ---
 
@@ -11682,7 +11760,7 @@ HeaderAction GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -11691,7 +11769,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderAction {
 	RequestHeadersToAdd: interface{},
@@ -11722,7 +11800,7 @@ RequestHeadersToAdd interface{}
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -11736,7 +11814,7 @@ RequestHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -11750,7 +11828,7 @@ ResponseHeadersToAdd interface{}
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -11764,7 +11842,7 @@ ResponseHeadersToRemove *[]*string
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -11773,7 +11851,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd {
 	HeaderName: *string,
@@ -11802,7 +11880,7 @@ HeaderName *string
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -11816,7 +11894,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -11833,7 +11911,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -11842,7 +11920,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd {
 	HeaderName: *string,
@@ -11871,7 +11949,7 @@ HeaderName *string
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -11885,7 +11963,7 @@ HeaderValue *string
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -11902,7 +11980,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -11911,7 +11989,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect {
 	HostRedirect: *string,
@@ -11948,7 +12026,7 @@ The host that will be used in the redirect response instead of the one that was 
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
 
 ---
 
@@ -11967,7 +12045,7 @@ to false, the URL scheme of the redirected request will remain the same as that
 of the request. This must only be set for UrlMaps used in TargetHttpProxys.
 Setting this true for TargetHttpsProxy is not permitted. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
 
 ---
 
@@ -11984,7 +12062,7 @@ The path that will be used in the redirect response instead of the one that was 
 Only one of pathRedirect or prefixRedirect must be
 specified. The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
 
 ---
 
@@ -11998,7 +12076,7 @@ PrefixRedirect *string
 
 The prefix that replaces the prefixMatch specified in the HttpRouteRuleMatch, retaining the remaining portion of the URL before redirecting the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
 
 ---
 
@@ -12018,7 +12096,7 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * TEMPORARY_REDIRECT, which corresponds to 307. In this case, the request method will be retained.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case, the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
 
 ---
 
@@ -12035,7 +12113,7 @@ If set to true, any accompanying query portion of the original URL is removed pr
 If set to false, the query portion of the
 original URL is retained. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
 
 ---
 
@@ -12044,7 +12122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapTest {
 	Host: *string,
@@ -12081,7 +12159,7 @@ Host *string
 
 Host portion of the URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#host GoogleComputeUrlMap#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host GoogleComputeUrlMap#host}
 
 ---
 
@@ -12095,7 +12173,7 @@ Path *string
 
 Path portion of the URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
 
 ---
 
@@ -12109,7 +12187,7 @@ Description *string
 
 Description of this test case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
 
 ---
 
@@ -12129,7 +12207,7 @@ For rules with urlRedirect, the test passes only if expectedOutputUrl matches th
 
 expectedOutputUrl is optional when service is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#expected_output_url GoogleComputeUrlMap#expected_output_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expected_output_url GoogleComputeUrlMap#expected_output_url}
 
 ---
 
@@ -12145,7 +12223,7 @@ For rules with urlRedirect, the test passes only if expectedRedirectResponseCode
 
 expectedRedirectResponseCode cannot be set when service is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#expected_redirect_response_code GoogleComputeUrlMap#expected_redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expected_redirect_response_code GoogleComputeUrlMap#expected_redirect_response_code}
 
 ---
 
@@ -12159,7 +12237,7 @@ Headers interface{}
 
 headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#headers GoogleComputeUrlMap#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#headers GoogleComputeUrlMap#headers}
 
 ---
 
@@ -12173,7 +12251,7 @@ Service *string
 
 The backend service or backend bucket link that should be matched by this test.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
 
 ---
 
@@ -12182,7 +12260,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTestHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapTestHeaders {
 	Name: *string,
@@ -12209,7 +12287,7 @@ Name *string
 
 Header name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
 
 ---
 
@@ -12223,7 +12301,7 @@ Value *string
 
 Header value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#value GoogleComputeUrlMap#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#value GoogleComputeUrlMap#value}
 
 ---
 
@@ -12232,7 +12310,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 &googlecomputeurlmap.GoogleComputeUrlMapTimeouts {
 	Create: *string,
@@ -12245,9 +12323,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#create GoogleComputeUrlMap#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#delete GoogleComputeUrlMap#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#update GoogleComputeUrlMap#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#create GoogleComputeUrlMap#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delete GoogleComputeUrlMap#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#update GoogleComputeUrlMap#update}. |
 
 ---
 
@@ -12259,7 +12337,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#create GoogleComputeUrlMap#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#create GoogleComputeUrlMap#create}.
 
 ---
 
@@ -12271,7 +12349,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#delete GoogleComputeUrlMap#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delete GoogleComputeUrlMap#delete}.
 
 ---
 
@@ -12283,7 +12361,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#update GoogleComputeUrlMap#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#update GoogleComputeUrlMap#update}.
 
 ---
 
@@ -12294,7 +12372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleList
 ```
@@ -12454,7 +12532,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleOutputReference
 ```
@@ -12808,7 +12886,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultCustomErrorResponsePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultCustomErrorResponsePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultCustomErrorResponsePolicyOutputReference
 ```
@@ -13128,7 +13206,7 @@ func InternalValue() GoogleComputeUrlMapDefaultCustomErrorResponsePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicyOutputReference
 ```
@@ -13580,7 +13658,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPol
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtlOutputReference
 ```
@@ -13880,7 +13958,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtl
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtlOutputReference
 ```
@@ -14180,7 +14258,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtl
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference
 ```
@@ -14480,7 +14558,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyList
 ```
@@ -14640,7 +14718,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyOutputReference
 ```
@@ -14978,7 +15056,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference
 ```
@@ -15278,7 +15356,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCac
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionCachePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionCachePolicyOutputReference
 ```
@@ -15895,7 +15973,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionCachePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStaleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStaleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStaleOutputReference
 ```
@@ -16195,7 +16273,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference
 ```
@@ -16676,7 +16754,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionCorsPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference
 ```
@@ -16983,7 +17061,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAb
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference
 ```
@@ -17290,7 +17368,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayOutputReference
 ```
@@ -17610,7 +17688,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference
 ```
@@ -17943,7 +18021,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference
 ```
@@ -18243,7 +18321,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionOutputReference
 ```
@@ -18870,7 +18948,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference
 ```
@@ -19170,7 +19248,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRetryPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionRetryPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionRetryPolicyOutputReference
 ```
@@ -19519,7 +19597,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionRetryPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference
 ```
@@ -19826,7 +19904,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionTimeoutOutputReference
 ```
@@ -20133,7 +20211,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionTimeout
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionUrlRewriteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionUrlRewriteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionUrlRewriteOutputReference
 ```
@@ -20440,7 +20518,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionUrlRewrite
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference
 ```
@@ -20831,7 +20909,7 @@ func InternalValue() GoogleComputeUrlMapDefaultRouteActionWeightedBackendService
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList
 ```
@@ -20991,7 +21069,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference
 ```
@@ -21345,7 +21423,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList
 ```
@@ -21505,7 +21583,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference
 ```
@@ -21859,7 +21937,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesList
 ```
@@ -22019,7 +22097,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesOutputReference
 ```
@@ -22386,7 +22464,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultUrlRedirectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapDefaultUrlRedirectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapDefaultUrlRedirectOutputReference
 ```
@@ -22802,7 +22880,7 @@ func InternalValue() GoogleComputeUrlMapDefaultUrlRedirect
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHeaderActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapHeaderActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapHeaderActionOutputReference
 ```
@@ -23193,7 +23271,7 @@ func InternalValue() GoogleComputeUrlMapHeaderAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHeaderActionRequestHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapHeaderActionRequestHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapHeaderActionRequestHeadersToAddList
 ```
@@ -23353,7 +23431,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHeaderActionRequestHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapHeaderActionRequestHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapHeaderActionRequestHeadersToAddOutputReference
 ```
@@ -23686,7 +23764,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHeaderActionResponseHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapHeaderActionResponseHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapHeaderActionResponseHeadersToAddList
 ```
@@ -23846,7 +23924,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHeaderActionResponseHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapHeaderActionResponseHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapHeaderActionResponseHeadersToAddOutputReference
 ```
@@ -24179,7 +24257,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHostRuleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapHostRuleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapHostRuleList
 ```
@@ -24339,7 +24417,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHostRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapHostRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapHostRuleOutputReference
 ```
@@ -24679,7 +24757,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleList
 ```
@@ -24839,7 +24917,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleOutputReference
 ```
@@ -25193,7 +25271,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyOutputReference
 ```
@@ -25513,7 +25591,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePol
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicyOutputReference
 ```
@@ -25965,7 +26043,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtlOutputReference
 ```
@@ -26265,7 +26343,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtlOutputReference
 ```
@@ -26565,7 +26643,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtlOutputReference
 ```
@@ -26865,7 +26943,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyList
 ```
@@ -27025,7 +27103,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyOutputReference
 ```
@@ -27363,7 +27441,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference
 ```
@@ -27663,7 +27741,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyOutputReference
 ```
@@ -28280,7 +28358,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStaleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStaleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStaleOutputReference
 ```
@@ -28580,7 +28658,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference
 ```
@@ -29061,7 +29139,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference
 ```
@@ -29368,7 +29446,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInject
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference
 ```
@@ -29675,7 +29753,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInject
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayOutputReference
 ```
@@ -29995,7 +30073,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInject
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference
 ```
@@ -30328,7 +30406,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInject
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference
 ```
@@ -30628,7 +30706,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference
 ```
@@ -31255,7 +31333,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference
 ```
@@ -31555,7 +31633,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirr
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference
 ```
@@ -31904,7 +31982,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference
 ```
@@ -32211,7 +32289,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeoutOutputReference
 ```
@@ -32518,7 +32596,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteOutputReference
 ```
@@ -32825,7 +32903,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference
 ```
@@ -33216,7 +33294,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBac
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList
 ```
@@ -33376,7 +33454,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference
 ```
@@ -33730,7 +33808,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList
 ```
@@ -33890,7 +33968,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference
 ```
@@ -34244,7 +34322,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesList
 ```
@@ -34404,7 +34482,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference
 ```
@@ -34771,7 +34849,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultUrlRedirectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherDefaultUrlRedirectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherDefaultUrlRedirectOutputReference
 ```
@@ -35187,7 +35265,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherDefaultUrlRedirect
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherHeaderActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherHeaderActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherHeaderActionOutputReference
 ```
@@ -35578,7 +35656,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherHeaderAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddList
 ```
@@ -35738,7 +35816,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference
 ```
@@ -36071,7 +36149,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddList
 ```
@@ -36231,7 +36309,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference
 ```
@@ -36564,7 +36642,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherList
 ```
@@ -36724,7 +36802,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherOutputReference
 ```
@@ -37323,7 +37401,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList
 ```
@@ -37483,7 +37561,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleOutputReference
 ```
@@ -37837,7 +37915,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyOutputReference
 ```
@@ -38157,7 +38235,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherPathRuleList
 ```
@@ -38317,7 +38395,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherPathRuleOutputReference
 ```
@@ -38761,7 +38839,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicyOutputReference
 ```
@@ -39213,7 +39291,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtlOutputReference
 ```
@@ -39513,7 +39591,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtlOutputReference
 ```
@@ -39813,7 +39891,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtlOutputReference
 ```
@@ -40113,7 +40191,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyList
 ```
@@ -40273,7 +40351,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyOutputReference
 ```
@@ -40611,7 +40689,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference
 ```
@@ -40911,7 +40989,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyOutputReference
 ```
@@ -41528,7 +41606,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStaleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStaleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStaleOutputReference
 ```
@@ -41828,7 +41906,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference
 ```
@@ -42302,7 +42380,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference
 ```
@@ -42595,7 +42673,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference
 ```
@@ -42895,7 +42973,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayOutputReference
 ```
@@ -43201,7 +43279,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference
 ```
@@ -43534,7 +43612,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference
 ```
@@ -43834,7 +43912,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamD
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference
 ```
@@ -44461,7 +44539,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference
 ```
@@ -44761,7 +44839,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMir
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference
 ```
@@ -45110,7 +45188,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutOutputReference
 ```
@@ -45410,7 +45488,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutOutputReference
 ```
@@ -45710,7 +45788,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteOutputReference
 ```
@@ -46017,7 +46095,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionOutputReference
 ```
@@ -46408,7 +46486,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList
 ```
@@ -46568,7 +46646,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference
 ```
@@ -46901,7 +46979,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList
 ```
@@ -47061,7 +47139,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference
 ```
@@ -47394,7 +47472,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesList
 ```
@@ -47554,7 +47632,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesOutputReference
 ```
@@ -47907,7 +47985,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference
 ```
@@ -48323,7 +48401,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleList
 ```
@@ -48483,7 +48561,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleOutputReference
 ```
@@ -48837,7 +48915,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyOutputReference
 ```
@@ -49157,7 +49235,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesHeaderActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionOutputReference
 ```
@@ -49548,7 +49626,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddList
 ```
@@ -49708,7 +49786,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference
 ```
@@ -50041,7 +50119,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddList
 ```
@@ -50201,7 +50279,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddOutputReference
 ```
@@ -50534,7 +50612,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsList
 ```
@@ -50694,7 +50772,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsOutputReference
 ```
@@ -51048,7 +51126,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataList
 ```
@@ -51208,7 +51286,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataOutputReference
 ```
@@ -51562,7 +51640,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesList
 ```
@@ -51722,7 +51800,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesList
 ```
@@ -51882,7 +51960,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutputReference
 ```
@@ -52387,7 +52465,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchOutputReference
 ```
@@ -52680,7 +52758,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesMatchRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesList
 ```
@@ -52840,7 +52918,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsList
 ```
@@ -53000,7 +53078,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsOutputReference
 ```
@@ -53311,7 +53389,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersList
 ```
@@ -53471,7 +53549,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersOutputReference
 ```
@@ -53795,7 +53873,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference
 ```
@@ -54333,7 +54411,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesList
 ```
@@ -54493,7 +54571,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesOutputReference
 ```
@@ -54869,7 +54947,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesOutputReference
 ```
@@ -55481,7 +55559,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicyOutputReference
 ```
@@ -55933,7 +56011,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePol
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtlOutputReference
 ```
@@ -56233,7 +56311,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePol
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtlOutputReference
 ```
@@ -56533,7 +56611,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePol
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtlOutputReference
 ```
@@ -56833,7 +56911,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePol
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyList
 ```
@@ -56993,7 +57071,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyOutputReference
 ```
@@ -57331,7 +57409,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference
 ```
@@ -57631,7 +57709,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePol
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyOutputReference
 ```
@@ -58248,7 +58326,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePol
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStaleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStaleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStaleOutputReference
 ```
@@ -58548,7 +58626,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePol
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference
 ```
@@ -59029,7 +59107,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPoli
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference
 ```
@@ -59336,7 +59414,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInj
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference
 ```
@@ -59636,7 +59714,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInj
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayOutputReference
 ```
@@ -59956,7 +60034,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInj
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference
 ```
@@ -60289,7 +60367,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInj
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference
 ```
@@ -60589,7 +60667,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStrea
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference
 ```
@@ -61216,7 +61294,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference
 ```
@@ -61516,7 +61594,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestM
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference
 ```
@@ -61858,7 +61936,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPol
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutOutputReference
 ```
@@ -62158,7 +62236,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPol
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutOutputReference
 ```
@@ -62458,7 +62536,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference
 ```
@@ -62503,9 +62581,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.putRegexRewrite">PutRegexRewrite</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.resetHostRewrite">ResetHostRewrite</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.resetPathPrefixRewrite">ResetPathPrefixRewrite</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.resetPathTemplateRewrite">ResetPathTemplateRewrite</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.resetRegexRewrite">ResetRegexRewrite</a></code> | *No description.* |
 
 ---
 
@@ -62659,6 +62739,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutRegexRewrite` <a name="PutRegexRewrite" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.putRegexRewrite"></a>
+
+```go
+func PutRegexRewrite(value GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.putRegexRewrite.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite</a>
+
+---
+
 ##### `ResetHostRewrite` <a name="ResetHostRewrite" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.resetHostRewrite"></a>
 
 ```go
@@ -62677,6 +62769,12 @@ func ResetPathPrefixRewrite()
 func ResetPathTemplateRewrite()
 ```
 
+##### `ResetRegexRewrite` <a name="ResetRegexRewrite" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.resetRegexRewrite"></a>
+
+```go
+func ResetRegexRewrite()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -62684,9 +62782,11 @@ func ResetPathTemplateRewrite()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.regexRewrite">RegexRewrite</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.hostRewriteInput">HostRewriteInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.pathPrefixRewriteInput">PathPrefixRewriteInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.pathTemplateRewriteInput">PathTemplateRewriteInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.regexRewriteInput">RegexRewriteInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.hostRewrite">HostRewrite</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.pathPrefixRewrite">PathPrefixRewrite</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.pathTemplateRewrite">PathTemplateRewrite</a></code> | <code>*string</code> | *No description.* |
@@ -62718,6 +62818,16 @@ func Fqn() *string
 
 ---
 
+##### `RegexRewrite`<sup>Required</sup> <a name="RegexRewrite" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.regexRewrite"></a>
+
+```go
+func RegexRewrite() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference</a>
+
+---
+
 ##### `HostRewriteInput`<sup>Optional</sup> <a name="HostRewriteInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.hostRewriteInput"></a>
 
 ```go
@@ -62745,6 +62855,16 @@ func PathTemplateRewriteInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `RegexRewriteInput`<sup>Optional</sup> <a name="RegexRewriteInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference.property.regexRewriteInput"></a>
+
+```go
+func RegexRewriteInput() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite</a>
 
 ---
 
@@ -62789,12 +62909,305 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewri
 ---
 
 
+### GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference <a name="GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
+
+googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.pathPatternInput">PathPatternInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.pathSubstitutionInput">PathSubstitutionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.pathPattern">PathPattern</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.pathSubstitution">PathSubstitution</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PathPatternInput`<sup>Optional</sup> <a name="PathPatternInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.pathPatternInput"></a>
+
+```go
+func PathPatternInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PathSubstitutionInput`<sup>Optional</sup> <a name="PathSubstitutionInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.pathSubstitutionInput"></a>
+
+```go
+func PathSubstitutionInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PathPattern`<sup>Required</sup> <a name="PathPattern" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.pathPattern"></a>
+
+```go
+func PathPattern() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PathSubstitution`<sup>Required</sup> <a name="PathSubstitution" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.pathSubstitution"></a>
+
+```go
+func PathSubstitution() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite</a>
+
+---
+
+
 ### GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionOutputReference <a name="GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionOutputReference
 ```
@@ -63185,7 +63598,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeighted
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList
 ```
@@ -63345,7 +63758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference
 ```
@@ -63678,7 +64091,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList
 ```
@@ -63838,7 +64251,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference
 ```
@@ -64171,7 +64584,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesList
 ```
@@ -64331,7 +64744,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesOutputReference
 ```
@@ -64684,7 +65097,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapPathMatcherRouteRulesUrlRedirectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirectOutputReference
 ```
@@ -65107,7 +65520,7 @@ func InternalValue() GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTestHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapTestHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapTestHeadersList
 ```
@@ -65267,7 +65680,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTestHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapTestHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapTestHeadersOutputReference
 ```
@@ -65578,7 +65991,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTestList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapTestList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeUrlMapTestList
 ```
@@ -65738,7 +66151,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapTestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeUrlMapTestOutputReference
 ```
@@ -66207,7 +66620,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeurlmap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeurlmap"
 
 googlecomputeurlmap.NewGoogleComputeUrlMapTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeUrlMapTimeoutsOutputReference
 ```

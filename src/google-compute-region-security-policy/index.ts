@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleComputeRegionSecurityPolicyConfig extends cdktn.Terraform
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#deletion_policy GoogleComputeRegionSecurityPolicy#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#deletion_policy GoogleComputeRegionSecurityPolicy#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An optional description of this resource. Provide this property when you create the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#description GoogleComputeRegionSecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#description GoogleComputeRegionSecurityPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#id GoogleComputeRegionSecurityPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#id GoogleComputeRegionSecurityPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,18 +41,18 @@ export interface GoogleComputeRegionSecurityPolicyConfig extends cdktn.Terraform
   * Name of the resource. Provided by the client when the resource is created. The name must be 1-63 characters long, and comply with RFC1035.
   * Specifically, the name must be 1-63 characters long and match the regular expression [a-z]([-a-z0-9]*[a-z0-9])? which means the first character must be a lowercase letter, and all following characters must be a dash, lowercase letter, or digit, except the last character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#project GoogleComputeRegionSecurityPolicy#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#project GoogleComputeRegionSecurityPolicy#project}
   */
   readonly project?: string;
   /**
   * The Region in which the created Region Security Policy should reside.
   * If it is not provided, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#region GoogleComputeRegionSecurityPolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#region GoogleComputeRegionSecurityPolicy#region}
   */
   readonly region?: string;
   /**
@@ -62,37 +62,37 @@ export interface GoogleComputeRegionSecurityPolicyConfig extends cdktn.Terraform
   * - CLOUD_ARMOR_NETWORK: Cloud Armor network policies can be configured to filter packets targeting network load balancing resources such as backend services, target pools, target instances, and instances with external IPs. They filter requests before the request is served from the application.
   * This field can be set only at resource creation time. Possible values: ["CLOUD_ARMOR", "CLOUD_ARMOR_EDGE", "CLOUD_ARMOR_NETWORK"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#type GoogleComputeRegionSecurityPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#type GoogleComputeRegionSecurityPolicy#type}
   */
   readonly type?: string;
   /**
   * advanced_options_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#advanced_options_config GoogleComputeRegionSecurityPolicy#advanced_options_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#advanced_options_config GoogleComputeRegionSecurityPolicy#advanced_options_config}
   */
   readonly advancedOptionsConfig?: GoogleComputeRegionSecurityPolicyAdvancedOptionsConfig;
   /**
   * ddos_protection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#ddos_protection_config GoogleComputeRegionSecurityPolicy#ddos_protection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#ddos_protection_config GoogleComputeRegionSecurityPolicy#ddos_protection_config}
   */
   readonly ddosProtectionConfig?: GoogleComputeRegionSecurityPolicyDdosProtectionConfig;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#rules GoogleComputeRegionSecurityPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#rules GoogleComputeRegionSecurityPolicy#rules}
   */
   readonly rules?: GoogleComputeRegionSecurityPolicyRules[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#timeouts GoogleComputeRegionSecurityPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#timeouts GoogleComputeRegionSecurityPolicy#timeouts}
   */
   readonly timeouts?: GoogleComputeRegionSecurityPolicyTimeouts;
   /**
   * user_defined_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#user_defined_fields GoogleComputeRegionSecurityPolicy#user_defined_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#user_defined_fields GoogleComputeRegionSecurityPolicy#user_defined_fields}
   */
   readonly userDefinedFields?: GoogleComputeRegionSecurityPolicyUserDefinedFields[] | cdktn.IResolvable;
 }
@@ -100,7 +100,7 @@ export interface GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigJsonCusto
   /**
   * A list of custom Content-Type header values to apply the JSON parsing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#content_types GoogleComputeRegionSecurityPolicy#content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#content_types GoogleComputeRegionSecurityPolicy#content_types}
   */
   readonly contentTypes: string[];
 }
@@ -183,32 +183,32 @@ export interface GoogleComputeRegionSecurityPolicyAdvancedOptionsConfig {
   /**
   * JSON body parsing. Supported values include: "DISABLED", "STANDARD", "STANDARD_WITH_GRAPHQL". Possible values: ["DISABLED", "STANDARD", "STANDARD_WITH_GRAPHQL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#json_parsing GoogleComputeRegionSecurityPolicy#json_parsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#json_parsing GoogleComputeRegionSecurityPolicy#json_parsing}
   */
   readonly jsonParsing?: string;
   /**
   * Logging level. Supported values include: "NORMAL", "VERBOSE". Possible values: ["NORMAL", "VERBOSE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#log_level GoogleComputeRegionSecurityPolicy#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#log_level GoogleComputeRegionSecurityPolicy#log_level}
   */
   readonly logLevel?: string;
   /**
   * The maximum request size chosen by the customer with Waf enabled. Values supported are "8KB", "16KB, "32KB", "48KB" and "64KB".
   * Values are case insensitive. Possible values: ["8KB", "16KB", "32KB", "48KB", "64KB"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#request_body_inspection_size GoogleComputeRegionSecurityPolicy#request_body_inspection_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#request_body_inspection_size GoogleComputeRegionSecurityPolicy#request_body_inspection_size}
   */
   readonly requestBodyInspectionSize?: string;
   /**
   * An optional list of case-insensitive request header names to use for resolving the callers client IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#user_ip_request_headers GoogleComputeRegionSecurityPolicy#user_ip_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#user_ip_request_headers GoogleComputeRegionSecurityPolicy#user_ip_request_headers}
   */
   readonly userIpRequestHeaders?: string[];
   /**
   * json_custom_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#json_custom_config GoogleComputeRegionSecurityPolicy#json_custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#json_custom_config GoogleComputeRegionSecurityPolicy#json_custom_config}
   */
   readonly jsonCustomConfig?: GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigJsonCustomConfig;
 }
@@ -413,7 +413,7 @@ export interface GoogleComputeRegionSecurityPolicyDdosProtectionConfig {
   * - ADVANCED: additional protections for Managed Protection Plus subscribers who use network load balancers, protocol forwarding, or VMs with public IP addresses.
   * - ADVANCED_PREVIEW: flag to enable the security policy in preview mode. Possible values: ["ADVANCED", "ADVANCED_PREVIEW", "STANDARD"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#ddos_protection GoogleComputeRegionSecurityPolicy#ddos_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#ddos_protection GoogleComputeRegionSecurityPolicy#ddos_protection}
   */
   readonly ddosProtection: string;
 }
@@ -496,7 +496,7 @@ export interface GoogleComputeRegionSecurityPolicyRulesMatchConfig {
   /**
   * CIDR IP address range. Maximum number of srcIpRanges allowed is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#src_ip_ranges GoogleComputeRegionSecurityPolicy#src_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#src_ip_ranges GoogleComputeRegionSecurityPolicy#src_ip_ranges}
   */
   readonly srcIpRanges?: string[];
 }
@@ -582,7 +582,7 @@ export interface GoogleComputeRegionSecurityPolicyRulesMatchExpr {
   /**
   * Textual representation of an expression in Common Expression Language syntax. The application context of the containing message determines which well-known feature set of CEL is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#expression GoogleComputeRegionSecurityPolicy#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#expression GoogleComputeRegionSecurityPolicy#expression}
   */
   readonly expression: string;
 }
@@ -666,19 +666,19 @@ export interface GoogleComputeRegionSecurityPolicyRulesMatch {
   * Preconfigured versioned expression. If this field is specified, config must also be specified.
   * Available preconfigured expressions along with their requirements are: SRC_IPS_V1 - must specify the corresponding srcIpRange field in config. Possible values: ["SRC_IPS_V1"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#versioned_expr GoogleComputeRegionSecurityPolicy#versioned_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#versioned_expr GoogleComputeRegionSecurityPolicy#versioned_expr}
   */
   readonly versionedExpr?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#config GoogleComputeRegionSecurityPolicy#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#config GoogleComputeRegionSecurityPolicy#config}
   */
   readonly config?: GoogleComputeRegionSecurityPolicyRulesMatchConfig;
   /**
   * expr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#expr GoogleComputeRegionSecurityPolicy#expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#expr GoogleComputeRegionSecurityPolicy#expr}
   */
   readonly expr?: GoogleComputeRegionSecurityPolicyRulesMatchExpr;
 }
@@ -822,13 +822,13 @@ export interface GoogleComputeRegionSecurityPolicyRulesNetworkMatchUserDefinedFi
   /**
   * Name of the user-defined field, as given in the definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
   */
   readonly name?: string;
   /**
   * Matching values of the field. Each element can be a 32-bit unsigned decimal or hexadecimal (starting with "0x") number (e.g. "64") or range (e.g. "0x400-0x7ff").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#values GoogleComputeRegionSecurityPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#values GoogleComputeRegionSecurityPolicy#values}
   */
   readonly values?: string[];
 }
@@ -975,49 +975,49 @@ export interface GoogleComputeRegionSecurityPolicyRulesNetworkMatch {
   /**
   * Destination IPv4/IPv6 addresses or CIDR prefixes, in standard text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#dest_ip_ranges GoogleComputeRegionSecurityPolicy#dest_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#dest_ip_ranges GoogleComputeRegionSecurityPolicy#dest_ip_ranges}
   */
   readonly destIpRanges?: string[];
   /**
   * Destination port numbers for TCP/UDP/SCTP. Each element can be a 16-bit unsigned decimal number (e.g. "80") or range (e.g. "0-1023").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#dest_ports GoogleComputeRegionSecurityPolicy#dest_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#dest_ports GoogleComputeRegionSecurityPolicy#dest_ports}
   */
   readonly destPorts?: string[];
   /**
   * IPv4 protocol / IPv6 next header (after extension headers). Each element can be an 8-bit unsigned decimal number (e.g. "6"), range (e.g. "253-254"), or one of the following protocol names: "tcp", "udp", "icmp", "esp", "ah", "ipip", or "sctp".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#ip_protocols GoogleComputeRegionSecurityPolicy#ip_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#ip_protocols GoogleComputeRegionSecurityPolicy#ip_protocols}
   */
   readonly ipProtocols?: string[];
   /**
   * BGP Autonomous System Number associated with the source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#src_asns GoogleComputeRegionSecurityPolicy#src_asns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#src_asns GoogleComputeRegionSecurityPolicy#src_asns}
   */
   readonly srcAsns?: number[];
   /**
   * Source IPv4/IPv6 addresses or CIDR prefixes, in standard text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#src_ip_ranges GoogleComputeRegionSecurityPolicy#src_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#src_ip_ranges GoogleComputeRegionSecurityPolicy#src_ip_ranges}
   */
   readonly srcIpRanges?: string[];
   /**
   * Source port numbers for TCP/UDP/SCTP. Each element can be a 16-bit unsigned decimal number (e.g. "80") or range (e.g. "0-1023").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#src_ports GoogleComputeRegionSecurityPolicy#src_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#src_ports GoogleComputeRegionSecurityPolicy#src_ports}
   */
   readonly srcPorts?: string[];
   /**
   * Two-letter ISO 3166-1 alpha-2 country code associated with the source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#src_region_codes GoogleComputeRegionSecurityPolicy#src_region_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#src_region_codes GoogleComputeRegionSecurityPolicy#src_region_codes}
   */
   readonly srcRegionCodes?: string[];
   /**
   * user_defined_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#user_defined_fields GoogleComputeRegionSecurityPolicy#user_defined_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#user_defined_fields GoogleComputeRegionSecurityPolicy#user_defined_fields}
   */
   readonly userDefinedFields?: GoogleComputeRegionSecurityPolicyRulesNetworkMatchUserDefinedFields[] | cdktn.IResolvable;
 }
@@ -1302,6 +1302,163 @@ export class GoogleComputeRegionSecurityPolicyRulesNetworkMatchOutputReference e
     return this._userDefinedFields.internalValue;
   }
 }
+export interface GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBody {
+  /**
+  * You can specify an exact match or a partial match by using a field operator and a field value.
+  * Available options:
+  * EQUALS: The operator matches if the field value equals the specified value.
+  * STARTS_WITH: The operator matches if the field value starts with the specified value.
+  * ENDS_WITH: The operator matches if the field value ends with the specified value.
+  * CONTAINS: The operator matches if the field value contains the specified value.
+  * EQUALS_ANY: The operator matches if the field value is any value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
+  */
+  readonly operator: string;
+  /**
+  * A request field matching the specified value will be excluded from inspection during preconfigured WAF evaluation.
+  * The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
+  */
+  readonly value?: string;
+}
+
+export function googleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyToTerraform(struct?: GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBody | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    operator: cdktn.stringToTerraform(struct!.operator),
+    value: cdktn.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function googleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyToHclTerraform(struct?: GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBody | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    operator: {
+      value: cdktn.stringToHclTerraform(struct!.operator),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBody | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBody | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._operator = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._operator = value.operator;
+      this._value = value.value;
+    }
+  }
+
+  // operator - computed: false, optional: false, required: true
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBody[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyOutputReference {
+    return new GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookie {
   /**
   * You can specify an exact match or a partial match by using a field operator and a field value.
@@ -1312,14 +1469,14 @@ export interface GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExc
   * CONTAINS: The operator matches if the field value contains the specified value.
   * EQUALS_ANY: The operator matches if the field value is any value. Possible values: ["CONTAINS", "ENDS_WITH", "EQUALS", "EQUALS_ANY", "STARTS_WITH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
   */
   readonly operator: string;
   /**
   * A request field matching the specified value will be excluded from inspection during preconfigured WAF evaluation.
   * The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
   */
   readonly value?: string;
 }
@@ -1469,14 +1626,14 @@ export interface GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExc
   * CONTAINS: The operator matches if the field value contains the specified value.
   * EQUALS_ANY: The operator matches if the field value is any value. Possible values: ["CONTAINS", "ENDS_WITH", "EQUALS", "EQUALS_ANY", "STARTS_WITH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
   */
   readonly operator: string;
   /**
   * A request field matching the specified value will be excluded from inspection during preconfigured WAF evaluation.
   * The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
   */
   readonly value?: string;
 }
@@ -1626,14 +1783,14 @@ export interface GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExc
   * CONTAINS: The operator matches if the field value contains the specified value.
   * EQUALS_ANY: The operator matches if the field value is any value. Possible values: ["CONTAINS", "ENDS_WITH", "EQUALS", "EQUALS_ANY", "STARTS_WITH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
   */
   readonly operator: string;
   /**
   * A request field matching the specified value will be excluded from inspection during preconfigured WAF evaluation.
   * The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
   */
   readonly value?: string;
 }
@@ -1783,14 +1940,14 @@ export interface GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExc
   * CONTAINS: The operator matches if the field value contains the specified value.
   * EQUALS_ANY: The operator matches if the field value is any value. Possible values: ["CONTAINS", "ENDS_WITH", "EQUALS", "EQUALS_ANY", "STARTS_WITH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
   */
   readonly operator: string;
   /**
   * A request field matching the specified value will be excluded from inspection during preconfigured WAF evaluation.
   * The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
   */
   readonly value?: string;
 }
@@ -1935,37 +2092,43 @@ export interface GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExc
   * A list of target rule IDs under the WAF rule set to apply the preconfigured WAF exclusion.
   * If omitted, it refers to all the rule IDs under the WAF rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#target_rule_ids GoogleComputeRegionSecurityPolicy#target_rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#target_rule_ids GoogleComputeRegionSecurityPolicy#target_rule_ids}
   */
   readonly targetRuleIds?: string[];
   /**
   * Target WAF rule set to apply the preconfigured WAF exclusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#target_rule_set GoogleComputeRegionSecurityPolicy#target_rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#target_rule_set GoogleComputeRegionSecurityPolicy#target_rule_set}
   */
   readonly targetRuleSet: string;
   /**
+  * request_body block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#request_body GoogleComputeRegionSecurityPolicy#request_body}
+  */
+  readonly requestBody?: GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBody[] | cdktn.IResolvable;
+  /**
   * request_cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#request_cookie GoogleComputeRegionSecurityPolicy#request_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#request_cookie GoogleComputeRegionSecurityPolicy#request_cookie}
   */
   readonly requestCookie?: GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookie[] | cdktn.IResolvable;
   /**
   * request_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#request_header GoogleComputeRegionSecurityPolicy#request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#request_header GoogleComputeRegionSecurityPolicy#request_header}
   */
   readonly requestHeader?: GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestHeader[] | cdktn.IResolvable;
   /**
   * request_query_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#request_query_param GoogleComputeRegionSecurityPolicy#request_query_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#request_query_param GoogleComputeRegionSecurityPolicy#request_query_param}
   */
   readonly requestQueryParam?: GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestQueryParam[] | cdktn.IResolvable;
   /**
   * request_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#request_uri GoogleComputeRegionSecurityPolicy#request_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#request_uri GoogleComputeRegionSecurityPolicy#request_uri}
   */
   readonly requestUri?: GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestUri[] | cdktn.IResolvable;
 }
@@ -1978,6 +2141,7 @@ export function googleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExcl
   return {
     target_rule_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.targetRuleIds),
     target_rule_set: cdktn.stringToTerraform(struct!.targetRuleSet),
+    request_body: cdktn.listMapper(googleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyToTerraform, true)(struct!.requestBody),
     request_cookie: cdktn.listMapper(googleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookieToTerraform, true)(struct!.requestCookie),
     request_header: cdktn.listMapper(googleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestHeaderToTerraform, true)(struct!.requestHeader),
     request_query_param: cdktn.listMapper(googleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestQueryParamToTerraform, true)(struct!.requestQueryParam),
@@ -2003,6 +2167,12 @@ export function googleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExcl
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    request_body: {
+      value: cdktn.listMapperHcl(googleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyToHclTerraform, true)(struct!.requestBody),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyList",
     },
     request_cookie: {
       value: cdktn.listMapperHcl(googleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookieToHclTerraform, true)(struct!.requestCookie),
@@ -2062,6 +2232,10 @@ export class GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusi
       hasAnyValues = true;
       internalValueResult.targetRuleSet = this._targetRuleSet;
     }
+    if (this._requestBody?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requestBody = this._requestBody?.internalValue;
+    }
     if (this._requestCookie?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.requestCookie = this._requestCookie?.internalValue;
@@ -2087,6 +2261,7 @@ export class GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusi
       this.resolvableValue = undefined;
       this._targetRuleIds = undefined;
       this._targetRuleSet = undefined;
+      this._requestBody.internalValue = undefined;
       this._requestCookie.internalValue = undefined;
       this._requestHeader.internalValue = undefined;
       this._requestQueryParam.internalValue = undefined;
@@ -2101,6 +2276,7 @@ export class GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusi
       this.resolvableValue = undefined;
       this._targetRuleIds = value.targetRuleIds;
       this._targetRuleSet = value.targetRuleSet;
+      this._requestBody.internalValue = value.requestBody;
       this._requestCookie.internalValue = value.requestCookie;
       this._requestHeader.internalValue = value.requestHeader;
       this._requestQueryParam.internalValue = value.requestQueryParam;
@@ -2135,6 +2311,22 @@ export class GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusi
   // Temporarily expose input value. Use with caution.
   public get targetRuleSetInput() {
     return this._targetRuleSet;
+  }
+
+  // request_body - computed: false, optional: true, required: false
+  private _requestBody = new GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyList(this, "request_body", false);
+  public get requestBody() {
+    return this._requestBody;
+  }
+  public putRequestBody(value: GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBody[] | cdktn.IResolvable) {
+    this._requestBody.internalValue = value;
+  }
+  public resetRequestBody() {
+    this._requestBody.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestBodyInput() {
+    return this._requestBody.internalValue;
   }
 
   // request_cookie - computed: false, optional: true, required: false
@@ -2225,7 +2417,7 @@ export interface GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfig {
   /**
   * exclusion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#exclusion GoogleComputeRegionSecurityPolicy#exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#exclusion GoogleComputeRegionSecurityPolicy#exclusion}
   */
   readonly exclusion?: GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusion[] | cdktn.IResolvable;
 }
@@ -2311,13 +2503,13 @@ export interface GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsBanThresh
   /**
   * Number of HTTP(S) requests for calculating the threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#count GoogleComputeRegionSecurityPolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#count GoogleComputeRegionSecurityPolicy#count}
   */
   readonly count?: number;
   /**
   * Interval over which the threshold is computed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#interval_sec GoogleComputeRegionSecurityPolicy#interval_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#interval_sec GoogleComputeRegionSecurityPolicy#interval_sec}
   */
   readonly intervalSec?: number;
 }
@@ -2434,7 +2626,7 @@ export interface GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsEnforceOn
   * HTTP_HEADER -- Name of the HTTP header whose value is taken as the key value.
   * HTTP_COOKIE -- Name of the HTTP cookie whose value is taken as the key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#enforce_on_key_name GoogleComputeRegionSecurityPolicy#enforce_on_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#enforce_on_key_name GoogleComputeRegionSecurityPolicy#enforce_on_key_name}
   */
   readonly enforceOnKeyName?: string;
   /**
@@ -2451,7 +2643,7 @@ export interface GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsEnforceOn
   * * TLS_JA4_FINGERPRINT: JA4 TLS/SSL fingerprint if the client connects using HTTPS, HTTP/2 or HTTP/3. If not available, the key type defaults to ALL.
   * * USER_IP: The IP address of the originating client, which is resolved based on "userIpRequestHeaders" configured with the security policy. If there is no "userIpRequestHeaders" configuration or an IP address cannot be resolved from it, the key type defaults to IP. Possible values: ["ALL", "IP", "HTTP_HEADER", "XFF_IP", "HTTP_COOKIE", "HTTP_PATH", "SNI", "REGION_CODE", "TLS_JA3_FINGERPRINT", "TLS_JA4_FINGERPRINT", "USER_IP"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#enforce_on_key_type GoogleComputeRegionSecurityPolicy#enforce_on_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#enforce_on_key_type GoogleComputeRegionSecurityPolicy#enforce_on_key_type}
   */
   readonly enforceOnKeyType?: string;
 }
@@ -2598,13 +2790,13 @@ export interface GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsRateLimit
   /**
   * Number of HTTP(S) requests for calculating the threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#count GoogleComputeRegionSecurityPolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#count GoogleComputeRegionSecurityPolicy#count}
   */
   readonly count?: number;
   /**
   * Interval over which the threshold is computed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#interval_sec GoogleComputeRegionSecurityPolicy#interval_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#interval_sec GoogleComputeRegionSecurityPolicy#interval_sec}
   */
   readonly intervalSec?: number;
 }
@@ -2720,14 +2912,14 @@ export interface GoogleComputeRegionSecurityPolicyRulesRateLimitOptions {
   * Can only be specified if the action for the rule is "rate_based_ban".
   * If specified, determines the time (in seconds) the traffic will continue to be banned by the rate limit after the rate falls below the threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#ban_duration_sec GoogleComputeRegionSecurityPolicy#ban_duration_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#ban_duration_sec GoogleComputeRegionSecurityPolicy#ban_duration_sec}
   */
   readonly banDurationSec?: number;
   /**
   * Action to take for requests that are under the configured rate limit threshold.
   * Valid option is "allow" only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#conform_action GoogleComputeRegionSecurityPolicy#conform_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#conform_action GoogleComputeRegionSecurityPolicy#conform_action}
   */
   readonly conformAction?: string;
   /**
@@ -2744,7 +2936,7 @@ export interface GoogleComputeRegionSecurityPolicyRulesRateLimitOptions {
   * * TLS_JA4_FINGERPRINT: JA4 TLS/SSL fingerprint if the client connects using HTTPS, HTTP/2 or HTTP/3. If not available, the key type defaults to ALL.
   * * USER_IP: The IP address of the originating client, which is resolved based on "userIpRequestHeaders" configured with the security policy. If there is no "userIpRequestHeaders" configuration or an IP address cannot be resolved from it, the key type defaults to IP. Possible values: ["ALL", "IP", "HTTP_HEADER", "XFF_IP", "HTTP_COOKIE", "HTTP_PATH", "SNI", "REGION_CODE", "TLS_JA3_FINGERPRINT", "TLS_JA4_FINGERPRINT", "USER_IP"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#enforce_on_key GoogleComputeRegionSecurityPolicy#enforce_on_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#enforce_on_key GoogleComputeRegionSecurityPolicy#enforce_on_key}
   */
   readonly enforceOnKey?: string;
   /**
@@ -2752,32 +2944,32 @@ export interface GoogleComputeRegionSecurityPolicyRulesRateLimitOptions {
   * HTTP_HEADER -- Name of the HTTP header whose value is taken as the key value.
   * HTTP_COOKIE -- Name of the HTTP cookie whose value is taken as the key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#enforce_on_key_name GoogleComputeRegionSecurityPolicy#enforce_on_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#enforce_on_key_name GoogleComputeRegionSecurityPolicy#enforce_on_key_name}
   */
   readonly enforceOnKeyName?: string;
   /**
   * Action to take for requests that are above the configured rate limit threshold, to deny with a specified HTTP response code.
   * Valid options are deny(STATUS), where valid values for STATUS are 403, 404, 429, and 502.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#exceed_action GoogleComputeRegionSecurityPolicy#exceed_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#exceed_action GoogleComputeRegionSecurityPolicy#exceed_action}
   */
   readonly exceedAction?: string;
   /**
   * ban_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#ban_threshold GoogleComputeRegionSecurityPolicy#ban_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#ban_threshold GoogleComputeRegionSecurityPolicy#ban_threshold}
   */
   readonly banThreshold?: GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsBanThreshold;
   /**
   * enforce_on_key_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#enforce_on_key_configs GoogleComputeRegionSecurityPolicy#enforce_on_key_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#enforce_on_key_configs GoogleComputeRegionSecurityPolicy#enforce_on_key_configs}
   */
   readonly enforceOnKeyConfigs?: GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsEnforceOnKeyConfigs[] | cdktn.IResolvable;
   /**
   * rate_limit_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#rate_limit_threshold GoogleComputeRegionSecurityPolicy#rate_limit_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#rate_limit_threshold GoogleComputeRegionSecurityPolicy#rate_limit_threshold}
   */
   readonly rateLimitThreshold?: GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsRateLimitThreshold;
 }
@@ -3076,19 +3268,19 @@ export interface GoogleComputeRegionSecurityPolicyRules {
   * 
   * * throttle: limit client traffic to the configured threshold. Configure parameters for this action in rateLimitOptions. Requires rateLimitOptions to be set for this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#action GoogleComputeRegionSecurityPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#action GoogleComputeRegionSecurityPolicy#action}
   */
   readonly action: string;
   /**
   * An optional description of this resource. Provide this property when you create the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#description GoogleComputeRegionSecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#description GoogleComputeRegionSecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * If set to true, the specified action is not enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#preview GoogleComputeRegionSecurityPolicy#preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#preview GoogleComputeRegionSecurityPolicy#preview}
   */
   readonly preview?: boolean | cdktn.IResolvable;
   /**
@@ -3096,31 +3288,31 @@ export interface GoogleComputeRegionSecurityPolicyRules {
   * The priority must be a positive value between 0 and 2147483647.
   * Rules are evaluated from highest to lowest priority where 0 is the highest priority and 2147483647 is the lowest priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#priority GoogleComputeRegionSecurityPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#priority GoogleComputeRegionSecurityPolicy#priority}
   */
   readonly priority: number;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#match GoogleComputeRegionSecurityPolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#match GoogleComputeRegionSecurityPolicy#match}
   */
   readonly match?: GoogleComputeRegionSecurityPolicyRulesMatch;
   /**
   * network_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#network_match GoogleComputeRegionSecurityPolicy#network_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#network_match GoogleComputeRegionSecurityPolicy#network_match}
   */
   readonly networkMatch?: GoogleComputeRegionSecurityPolicyRulesNetworkMatch;
   /**
   * preconfigured_waf_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#preconfigured_waf_config GoogleComputeRegionSecurityPolicy#preconfigured_waf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#preconfigured_waf_config GoogleComputeRegionSecurityPolicy#preconfigured_waf_config}
   */
   readonly preconfiguredWafConfig?: GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfig;
   /**
   * rate_limit_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#rate_limit_options GoogleComputeRegionSecurityPolicy#rate_limit_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#rate_limit_options GoogleComputeRegionSecurityPolicy#rate_limit_options}
   */
   readonly rateLimitOptions?: GoogleComputeRegionSecurityPolicyRulesRateLimitOptions;
 }
@@ -3433,15 +3625,15 @@ export class GoogleComputeRegionSecurityPolicyRulesList extends cdktn.ComplexLis
 }
 export interface GoogleComputeRegionSecurityPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#create GoogleComputeRegionSecurityPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#create GoogleComputeRegionSecurityPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#delete GoogleComputeRegionSecurityPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#delete GoogleComputeRegionSecurityPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#update GoogleComputeRegionSecurityPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#update GoogleComputeRegionSecurityPolicy#update}
   */
   readonly update?: string;
 }
@@ -3599,7 +3791,7 @@ export interface GoogleComputeRegionSecurityPolicyUserDefinedFields {
   * - TCP: Points to the beginning of the TCP header, skipping over any IPv4 options or IPv6 extension headers. Not present for non-first fragments.
   * - UDP: Points to the beginning of the UDP header, skipping over any IPv4 options or IPv6 extension headers. Not present for non-first fragments. Possible values: ["IPV4", "IPV6", "TCP", "UDP"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#base GoogleComputeRegionSecurityPolicy#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#base GoogleComputeRegionSecurityPolicy#base}
   */
   readonly base: string;
   /**
@@ -3607,25 +3799,25 @@ export interface GoogleComputeRegionSecurityPolicyUserDefinedFields {
   * Encoded as a hexadecimal number (starting with "0x").
   * The last byte of the field (in network byte order) corresponds to the least significant byte of the mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#mask GoogleComputeRegionSecurityPolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#mask GoogleComputeRegionSecurityPolicy#mask}
   */
   readonly mask?: string;
   /**
   * The name of this field. Must be unique within the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
   */
   readonly name?: string;
   /**
   * Offset of the first byte of the field (in network byte order) relative to 'base'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#offset GoogleComputeRegionSecurityPolicy#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#offset GoogleComputeRegionSecurityPolicy#offset}
   */
   readonly offset?: number;
   /**
   * Size of the field in bytes. Valid values: 1-4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#size GoogleComputeRegionSecurityPolicy#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#size GoogleComputeRegionSecurityPolicy#size}
   */
   readonly size?: number;
 }
@@ -3854,7 +4046,7 @@ export class GoogleComputeRegionSecurityPolicyUserDefinedFieldsList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy google_compute_region_security_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy google_compute_region_security_policy}
 */
 export class GoogleComputeRegionSecurityPolicy extends cdktn.TerraformResource {
 
@@ -3870,7 +4062,7 @@ export class GoogleComputeRegionSecurityPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeRegionSecurityPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeRegionSecurityPolicy to import
-  * @param importFromId The id of the existing GoogleComputeRegionSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeRegionSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeRegionSecurityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3882,7 +4074,7 @@ export class GoogleComputeRegionSecurityPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_security_policy google_compute_region_security_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_security_policy google_compute_region_security_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3893,8 +4085,8 @@ export class GoogleComputeRegionSecurityPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_region_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.46.1',
-        providerVersionConstraint: '~> 7.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -4,12 +4,12 @@
 
 ### GoogleBiglakeHiveCatalog <a name="GoogleBiglakeHiveCatalog" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalog"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog google_biglake_hive_catalog}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog google_biglake_hive_catalog}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivecatalog"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivecatalog"
 
 googlebiglakehivecatalog.NewGoogleBiglakeHiveCatalog(scope Construct, id *string, config GoogleBiglakeHiveCatalogConfig) GoogleBiglakeHiveCatalog
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalog.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivecatalog"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivecatalog"
 
 googlebiglakehivecatalog.GoogleBiglakeHiveCatalog_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalog.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivecatalog"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivecatalog"
 
 googlebiglakehivecatalog.GoogleBiglakeHiveCatalog_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlebiglakehivecatalog.GoogleBiglakeHiveCatalog_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalog.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivecatalog"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivecatalog"
 
 googlebiglakehivecatalog.GoogleBiglakeHiveCatalog_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlebiglakehivecatalog.GoogleBiglakeHiveCatalog_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalog.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivecatalog"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivecatalog"
 
 googlebiglakehivecatalog.GoogleBiglakeHiveCatalog_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleBiglakeHiveCatalog t
 
 The id of the existing GoogleBiglakeHiveCatalog that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -946,7 +946,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivecatalog"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivecatalog"
 
 &googlebiglakehivecatalog.GoogleBiglakeHiveCatalogConfig {
 	Connection: interface{},
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 	Description: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogTimeouts,
 }
 ```
 
@@ -983,8 +983,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogConfig.property.primaryLocation">PrimaryLocation</a></code> | <code>*string</code> | The primary location for mirroring the remote catalog metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogConfig.property.description">Description</a></code> | <code>*string</code> | Description of the Hive catalog. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#id GoogleBiglakeHiveCatalog#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#project GoogleBiglakeHiveCatalog#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#id GoogleBiglakeHiveCatalog#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#project GoogleBiglakeHiveCatalog#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogTimeouts">GoogleBiglakeHiveCatalogTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1069,7 +1069,7 @@ LocationUri *string
 
 Cloud Storage location path where the catalog data will be stored. Format: gs://bucket/path/to/catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#location_uri GoogleBiglakeHiveCatalog#location_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#location_uri GoogleBiglakeHiveCatalog#location_uri}
 
 ---
 
@@ -1083,7 +1083,7 @@ Name *string
 
 Name of the Hive Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#name GoogleBiglakeHiveCatalog#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#name GoogleBiglakeHiveCatalog#name}
 
 ---
 
@@ -1101,7 +1101,7 @@ It must be
 a BigLake-supported location, and it should be proximate to the remote
 catalog's location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#primary_location GoogleBiglakeHiveCatalog#primary_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#primary_location GoogleBiglakeHiveCatalog#primary_location}
 
 ---
 
@@ -1122,7 +1122,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#deletion_policy GoogleBiglakeHiveCatalog#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#deletion_policy GoogleBiglakeHiveCatalog#deletion_policy}
 
 ---
 
@@ -1136,7 +1136,7 @@ Description *string
 
 Description of the Hive catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#description GoogleBiglakeHiveCatalog#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#description GoogleBiglakeHiveCatalog#description}
 
 ---
 
@@ -1148,7 +1148,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#id GoogleBiglakeHiveCatalog#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#id GoogleBiglakeHiveCatalog#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1163,7 +1163,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#project GoogleBiglakeHiveCatalog#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#project GoogleBiglakeHiveCatalog#project}.
 
 ---
 
@@ -1177,7 +1177,7 @@ Timeouts GoogleBiglakeHiveCatalogTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#timeouts GoogleBiglakeHiveCatalog#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#timeouts GoogleBiglakeHiveCatalog#timeouts}
 
 ---
 
@@ -1186,7 +1186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogReplicas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivecatalog"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivecatalog"
 
 &googlebiglakehivecatalog.GoogleBiglakeHiveCatalogReplicas {
 
@@ -1199,7 +1199,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivecatalog"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivecatalog"
 
 &googlebiglakehivecatalog.GoogleBiglakeHiveCatalogTimeouts {
 	Create: *string,
@@ -1212,9 +1212,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#create GoogleBiglakeHiveCatalog#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#delete GoogleBiglakeHiveCatalog#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#update GoogleBiglakeHiveCatalog#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#create GoogleBiglakeHiveCatalog#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#delete GoogleBiglakeHiveCatalog#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#update GoogleBiglakeHiveCatalog#update}. |
 
 ---
 
@@ -1226,7 +1226,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#create GoogleBiglakeHiveCatalog#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#create GoogleBiglakeHiveCatalog#create}.
 
 ---
 
@@ -1238,7 +1238,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#delete GoogleBiglakeHiveCatalog#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#delete GoogleBiglakeHiveCatalog#delete}.
 
 ---
 
@@ -1250,7 +1250,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog#update GoogleBiglakeHiveCatalog#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_catalog#update GoogleBiglakeHiveCatalog#update}.
 
 ---
 
@@ -1261,7 +1261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogReplicasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivecatalog"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivecatalog"
 
 googlebiglakehivecatalog.NewGoogleBiglakeHiveCatalogReplicasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBiglakeHiveCatalogReplicasList
 ```
@@ -1410,7 +1410,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogReplicasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivecatalog"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivecatalog"
 
 googlebiglakehivecatalog.NewGoogleBiglakeHiveCatalogReplicasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBiglakeHiveCatalogReplicasOutputReference
 ```
@@ -1699,7 +1699,7 @@ func InternalValue() GoogleBiglakeHiveCatalogReplicas
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveCatalog.GoogleBiglakeHiveCatalogTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivecatalog"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivecatalog"
 
 googlebiglakehivecatalog.NewGoogleBiglakeHiveCatalogTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeHiveCatalogTimeoutsOutputReference
 ```

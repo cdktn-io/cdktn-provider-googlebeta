@@ -4,7 +4,7 @@
 
 ### DataGoogleComputeRegionDisk <a name="DataGoogleComputeRegionDisk" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_disk google_compute_region_disk}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_disk google_compute_region_disk}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.Initializer"></a>
 
@@ -408,7 +408,7 @@ The construct id used in the generated config for the DataGoogleComputeRegionDis
 
 The id of the existing DataGoogleComputeRegionDisk that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_disk#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_disk#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1101,8 +1101,8 @@ new DataGoogleComputeRegionDiskConfig {
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.name">Name</a></code> | <code>string</code> | Name of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_disk#id DataGoogleComputeRegionDisk#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_disk#project DataGoogleComputeRegionDisk#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_disk#id DataGoogleComputeRegionDisk#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_disk#project DataGoogleComputeRegionDisk#project}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.region">Region</a></code> | <code>string</code> | A reference to the region where the disk resides. |
 
 ---
@@ -1195,7 +1195,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_disk#name DataGoogleComputeRegionDisk#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_disk#name DataGoogleComputeRegionDisk#name}
 
 ---
 
@@ -1207,7 +1207,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_disk#id DataGoogleComputeRegionDisk#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_disk#id DataGoogleComputeRegionDisk#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1222,7 +1222,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_disk#project DataGoogleComputeRegionDisk#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_disk#project DataGoogleComputeRegionDisk#project}.
 
 ---
 
@@ -1236,7 +1236,7 @@ public string Region { get; set; }
 
 A reference to the region where the disk resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_disk#region DataGoogleComputeRegionDisk#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_region_disk#region DataGoogleComputeRegionDisk#region}
 
 ---
 
@@ -2100,7 +2100,11 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.kmsKeyName">KmsKeyName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.rawKey">RawKey</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.rawKeyWo">RawKeyWo</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.rawKeyWoVersion">RawKeyWoVersion</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.rsaEncryptedKey">RsaEncryptedKey</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.rsaEncryptedKeyWo">RsaEncryptedKeyWo</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.rsaEncryptedKeyWoVersion">RsaEncryptedKeyWoVersion</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.sha256">Sha256</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKey">DataGoogleComputeRegionDiskDiskEncryptionKey</a></code> | *No description.* |
 
@@ -2150,10 +2154,50 @@ public string RawKey { get; }
 
 ---
 
+##### `RawKeyWo`<sup>Required</sup> <a name="RawKeyWo" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.rawKeyWo"></a>
+
+```csharp
+public string RawKeyWo { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RawKeyWoVersion`<sup>Required</sup> <a name="RawKeyWoVersion" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.rawKeyWoVersion"></a>
+
+```csharp
+public string RawKeyWoVersion { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `RsaEncryptedKey`<sup>Required</sup> <a name="RsaEncryptedKey" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.rsaEncryptedKey"></a>
 
 ```csharp
 public string RsaEncryptedKey { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RsaEncryptedKeyWo`<sup>Required</sup> <a name="RsaEncryptedKeyWo" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.rsaEncryptedKeyWo"></a>
+
+```csharp
+public string RsaEncryptedKeyWo { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RsaEncryptedKeyWoVersion`<sup>Required</sup> <a name="RsaEncryptedKeyWoVersion" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.property.rsaEncryptedKeyWoVersion"></a>
+
+```csharp
+public string RsaEncryptedKeyWoVersion { get; }
 ```
 
 - *Type:* string

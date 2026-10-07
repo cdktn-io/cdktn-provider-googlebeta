@@ -4,12 +4,12 @@
 
 ### GoogleChronicleReferenceList <a name="GoogleChronicleReferenceList" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list google_chronicle_reference_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 googlechroniclereferencelist.NewGoogleChronicleReferenceList(scope Construct, id *string, config GoogleChronicleReferenceListConfig) GoogleChronicleReferenceList
 ```
@@ -467,7 +467,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 googlechroniclereferencelist.GoogleChronicleReferenceList_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 googlechroniclereferencelist.GoogleChronicleReferenceList_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ googlechroniclereferencelist.GoogleChronicleReferenceList_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 googlechroniclereferencelist.GoogleChronicleReferenceList_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ googlechroniclereferencelist.GoogleChronicleReferenceList_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 googlechroniclereferencelist.GoogleChronicleReferenceList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the GoogleChronicleReferenceLi
 
 The id of the existing GoogleChronicleReferenceList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1031,7 +1031,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 &googlechroniclereferencelist.GoogleChronicleReferenceListConfig {
 	Connection: interface{},
@@ -1049,8 +1049,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlech
 	SyntaxType: *string,
 	Id: *string,
 	Project: *string,
-	ScopeInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts,
+	ScopeInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts,
 }
 ```
 
@@ -1071,8 +1071,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlech
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.location">Location</a></code> | <code>*string</code> | The location of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.referenceListId">ReferenceListId</a></code> | <code>*string</code> | Required. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.syntaxType">SyntaxType</a></code> | <code>*string</code> | Possible values: REFERENCE_LIST_SYNTAX_TYPE_PLAIN_TEXT_STRING REFERENCE_LIST_SYNTAX_TYPE_REGEX REFERENCE_LIST_SYNTAX_TYPE_CIDR. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.scopeInfo">ScopeInfo</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo">GoogleChronicleReferenceListScopeInfo</a></code> | scope_info block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts">GoogleChronicleReferenceListTimeouts</a></code> | timeouts block. |
 
@@ -1158,7 +1158,7 @@ Description *string
 
 Required. A user-provided description of the reference list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#description GoogleChronicleReferenceList#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#description GoogleChronicleReferenceList#description}
 
 ---
 
@@ -1172,7 +1172,7 @@ Entries interface{}
 
 entries block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#entries GoogleChronicleReferenceList#entries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#entries GoogleChronicleReferenceList#entries}
 
 ---
 
@@ -1186,7 +1186,7 @@ Instance *string
 
 The unique identifier for the Chronicle instance, which is the same as the customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#instance GoogleChronicleReferenceList#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#instance GoogleChronicleReferenceList#instance}
 
 ---
 
@@ -1202,7 +1202,7 @@ The location of the resource.
 
 This is the geographical region where the Chronicle instance resides, such as "us" or "europe-west2".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#location GoogleChronicleReferenceList#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#location GoogleChronicleReferenceList#location}
 
 ---
 
@@ -1224,7 +1224,7 @@ the reference list. It must satisfy the following requirements:
 * Has length < 256.
 * Must be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#reference_list_id GoogleChronicleReferenceList#reference_list_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#reference_list_id GoogleChronicleReferenceList#reference_list_id}
 
 ---
 
@@ -1238,7 +1238,7 @@ SyntaxType *string
 
 Possible values: REFERENCE_LIST_SYNTAX_TYPE_PLAIN_TEXT_STRING REFERENCE_LIST_SYNTAX_TYPE_REGEX REFERENCE_LIST_SYNTAX_TYPE_CIDR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#syntax_type GoogleChronicleReferenceList#syntax_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#syntax_type GoogleChronicleReferenceList#syntax_type}
 
 ---
 
@@ -1250,7 +1250,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1265,7 +1265,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}.
 
 ---
 
@@ -1279,7 +1279,7 @@ ScopeInfo GoogleChronicleReferenceListScopeInfo
 
 scope_info block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#scope_info GoogleChronicleReferenceList#scope_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#scope_info GoogleChronicleReferenceList#scope_info}
 
 ---
 
@@ -1293,7 +1293,7 @@ Timeouts GoogleChronicleReferenceListTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#timeouts GoogleChronicleReferenceList#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#timeouts GoogleChronicleReferenceList#timeouts}
 
 ---
 
@@ -1302,7 +1302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListEntries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 &googlechroniclereferencelist.GoogleChronicleReferenceListEntries {
 	Value: *string,
@@ -1327,7 +1327,7 @@ Value *string
 
 Required. The value of the entry. Maximum length is 512 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#value GoogleChronicleReferenceList#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#value GoogleChronicleReferenceList#value}
 
 ---
 
@@ -1336,10 +1336,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 &googlechroniclereferencelist.GoogleChronicleReferenceListScopeInfo {
-	ReferenceListScope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope,
+	ReferenceListScope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope,
 }
 ```
 
@@ -1361,7 +1361,7 @@ ReferenceListScope GoogleChronicleReferenceListScopeInfoReferenceListScope
 
 reference_list_scope block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#reference_list_scope GoogleChronicleReferenceList#reference_list_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#reference_list_scope GoogleChronicleReferenceList#reference_list_scope}
 
 ---
 
@@ -1370,7 +1370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 &googlechroniclereferencelist.GoogleChronicleReferenceListScopeInfoReferenceListScope {
 	ScopeNames: *[]*string,
@@ -1399,7 +1399,7 @@ The list of scope names of the reference list. The scope names should be
 full resource names and should be of the format:
 "projects/{project}/locations/{location}/instances/{instance}/dataAccessScopes/{scope_name}".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#scope_names GoogleChronicleReferenceList#scope_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#scope_names GoogleChronicleReferenceList#scope_names}
 
 ---
 
@@ -1408,7 +1408,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 &googlechroniclereferencelist.GoogleChronicleReferenceListTimeouts {
 	Create: *string,
@@ -1421,9 +1421,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlech
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#create GoogleChronicleReferenceList#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#delete GoogleChronicleReferenceList#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#update GoogleChronicleReferenceList#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#create GoogleChronicleReferenceList#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#delete GoogleChronicleReferenceList#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#update GoogleChronicleReferenceList#update}. |
 
 ---
 
@@ -1435,7 +1435,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#create GoogleChronicleReferenceList#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#create GoogleChronicleReferenceList#create}.
 
 ---
 
@@ -1447,7 +1447,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#delete GoogleChronicleReferenceList#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#delete GoogleChronicleReferenceList#delete}.
 
 ---
 
@@ -1459,7 +1459,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_reference_list#update GoogleChronicleReferenceList#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_reference_list#update GoogleChronicleReferenceList#update}.
 
 ---
 
@@ -1470,7 +1470,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListEntriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 googlechroniclereferencelist.NewGoogleChronicleReferenceListEntriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleReferenceListEntriesList
 ```
@@ -1630,7 +1630,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListEntriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 googlechroniclereferencelist.NewGoogleChronicleReferenceListEntriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleReferenceListEntriesOutputReference
 ```
@@ -1919,7 +1919,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 googlechroniclereferencelist.NewGoogleChronicleReferenceListScopeInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleReferenceListScopeInfoOutputReference
 ```
@@ -2210,7 +2210,7 @@ func InternalValue() GoogleChronicleReferenceListScopeInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 googlechroniclereferencelist.NewGoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference
 ```
@@ -2488,7 +2488,7 @@ func InternalValue() GoogleChronicleReferenceListScopeInfoReferenceListScope
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclereferencelist"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclereferencelist"
 
 googlechroniclereferencelist.NewGoogleChronicleReferenceListTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleReferenceListTimeoutsOutputReference
 ```

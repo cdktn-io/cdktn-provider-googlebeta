@@ -4,12 +4,12 @@
 
 ### GoogleSccV2ProjectNotificationConfig <a name="GoogleSccV2ProjectNotificationConfig" id="@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config google_scc_v2_project_notification_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config google_scc_v2_project_notification_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2projectnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2projectnotificationconfig"
 
 googlesccv2projectnotificationconfig.NewGoogleSccV2ProjectNotificationConfig(scope Construct, id *string, config GoogleSccV2ProjectNotificationConfigConfig) GoogleSccV2ProjectNotificationConfig
 ```
@@ -475,7 +475,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2projectnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2projectnotificationconfig"
 
 googlesccv2projectnotificationconfig.GoogleSccV2ProjectNotificationConfig_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2projectnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2projectnotificationconfig"
 
 googlesccv2projectnotificationconfig.GoogleSccV2ProjectNotificationConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googlesccv2projectnotificationconfig.GoogleSccV2ProjectNotificationConfig_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2projectnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2projectnotificationconfig"
 
 googlesccv2projectnotificationconfig.GoogleSccV2ProjectNotificationConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googlesccv2projectnotificationconfig.GoogleSccV2ProjectNotificationConfig_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2projectnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2projectnotificationconfig"
 
 googlesccv2projectnotificationconfig.GoogleSccV2ProjectNotificationConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -564,7 +564,7 @@ The construct id used in the generated config for the GoogleSccV2ProjectNotifica
 
 The id of the existing GoogleSccV2ProjectNotificationConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -984,7 +984,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2projectnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2projectnotificationconfig"
 
 &googlesccv2projectnotificationconfig.GoogleSccV2ProjectNotificationConfigConfig {
 	Connection: interface{},
@@ -995,14 +995,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesc
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ConfigId: *string,
-	StreamingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigStreamingConfig,
+	StreamingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigStreamingConfig,
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Location: *string,
 	Project: *string,
 	PubsubTopic: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigTimeouts,
 }
 ```
 
@@ -1021,9 +1021,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesc
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigConfig.property.streamingConfig">StreamingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigStreamingConfig">GoogleSccV2ProjectNotificationConfigStreamingConfig</a></code> | streaming_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigConfig.property.description">Description</a></code> | <code>*string</code> | The description of the notification config (max of 1024 characters). |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#id GoogleSccV2ProjectNotificationConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#id GoogleSccV2ProjectNotificationConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigConfig.property.location">Location</a></code> | <code>*string</code> | Location ID for the parent project. Defaults to 'global' if location is not provided. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#project GoogleSccV2ProjectNotificationConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#project GoogleSccV2ProjectNotificationConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigConfig.property.pubsubTopic">PubsubTopic</a></code> | <code>*string</code> | The Pub/Sub topic to send notifications to. Its format is "projects/[project_id]/topics/[topic]". |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigTimeouts">GoogleSccV2ProjectNotificationConfigTimeouts</a></code> | timeouts block. |
 
@@ -1109,7 +1109,7 @@ ConfigId *string
 
 This must be unique within the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#config_id GoogleSccV2ProjectNotificationConfig#config_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#config_id GoogleSccV2ProjectNotificationConfig#config_id}
 
 ---
 
@@ -1123,7 +1123,7 @@ StreamingConfig GoogleSccV2ProjectNotificationConfigStreamingConfig
 
 streaming_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#streaming_config GoogleSccV2ProjectNotificationConfig#streaming_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#streaming_config GoogleSccV2ProjectNotificationConfig#streaming_config}
 
 ---
 
@@ -1144,7 +1144,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#deletion_policy GoogleSccV2ProjectNotificationConfig#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#deletion_policy GoogleSccV2ProjectNotificationConfig#deletion_policy}
 
 ---
 
@@ -1158,7 +1158,7 @@ Description *string
 
 The description of the notification config (max of 1024 characters).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#description GoogleSccV2ProjectNotificationConfig#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#description GoogleSccV2ProjectNotificationConfig#description}
 
 ---
 
@@ -1170,7 +1170,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#id GoogleSccV2ProjectNotificationConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#id GoogleSccV2ProjectNotificationConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1187,7 +1187,7 @@ Location *string
 
 Location ID for the parent project. Defaults to 'global' if location is not provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#location GoogleSccV2ProjectNotificationConfig#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#location GoogleSccV2ProjectNotificationConfig#location}
 
 ---
 
@@ -1199,7 +1199,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#project GoogleSccV2ProjectNotificationConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#project GoogleSccV2ProjectNotificationConfig#project}.
 
 ---
 
@@ -1213,7 +1213,7 @@ PubsubTopic *string
 
 The Pub/Sub topic to send notifications to. Its format is "projects/[project_id]/topics/[topic]".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#pubsub_topic GoogleSccV2ProjectNotificationConfig#pubsub_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#pubsub_topic GoogleSccV2ProjectNotificationConfig#pubsub_topic}
 
 ---
 
@@ -1227,7 +1227,7 @@ Timeouts GoogleSccV2ProjectNotificationConfigTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#timeouts GoogleSccV2ProjectNotificationConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#timeouts GoogleSccV2ProjectNotificationConfig#timeouts}
 
 ---
 
@@ -1236,7 +1236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigStreamingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2projectnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2projectnotificationconfig"
 
 &googlesccv2projectnotificationconfig.GoogleSccV2ProjectNotificationConfigStreamingConfig {
 	Filter: *string,
@@ -1286,7 +1286,7 @@ See
 [Filtering notifications](https://cloud.google.com/security-command-center/docs/how-to-api-filter-notifications)
 for information on how to write a filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#filter GoogleSccV2ProjectNotificationConfig#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#filter GoogleSccV2ProjectNotificationConfig#filter}
 
 ---
 
@@ -1295,7 +1295,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2projectnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2projectnotificationconfig"
 
 &googlesccv2projectnotificationconfig.GoogleSccV2ProjectNotificationConfigTimeouts {
 	Create: *string,
@@ -1308,9 +1308,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#create GoogleSccV2ProjectNotificationConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#delete GoogleSccV2ProjectNotificationConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#update GoogleSccV2ProjectNotificationConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#create GoogleSccV2ProjectNotificationConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#delete GoogleSccV2ProjectNotificationConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#update GoogleSccV2ProjectNotificationConfig#update}. |
 
 ---
 
@@ -1322,7 +1322,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#create GoogleSccV2ProjectNotificationConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#create GoogleSccV2ProjectNotificationConfig#create}.
 
 ---
 
@@ -1334,7 +1334,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#delete GoogleSccV2ProjectNotificationConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#delete GoogleSccV2ProjectNotificationConfig#delete}.
 
 ---
 
@@ -1346,7 +1346,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_project_notification_config#update GoogleSccV2ProjectNotificationConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_project_notification_config#update GoogleSccV2ProjectNotificationConfig#update}.
 
 ---
 
@@ -1357,7 +1357,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigStreamingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2projectnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2projectnotificationconfig"
 
 googlesccv2projectnotificationconfig.NewGoogleSccV2ProjectNotificationConfigStreamingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSccV2ProjectNotificationConfigStreamingConfigOutputReference
 ```
@@ -1628,7 +1628,7 @@ func InternalValue() GoogleSccV2ProjectNotificationConfigStreamingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2projectnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2projectnotificationconfig"
 
 googlesccv2projectnotificationconfig.NewGoogleSccV2ProjectNotificationConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSccV2ProjectNotificationConfigTimeoutsOutputReference
 ```

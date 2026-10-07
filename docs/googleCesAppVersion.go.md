@@ -4,12 +4,12 @@
 
 ### GoogleCesAppVersion <a name="GoogleCesAppVersion" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version google_ces_app_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version google_ces_app_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersion(scope Construct, id *string, config GoogleCesAppVersionConfig) GoogleCesAppVersion
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.GoogleCesAppVersion_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.GoogleCesAppVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlecesappversion.GoogleCesAppVersion_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.GoogleCesAppVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlecesappversion.GoogleCesAppVersion_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.GoogleCesAppVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleCesAppVersion to imp
 
 The id of the existing GoogleCesAppVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -997,7 +997,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionConfig {
 	Connection: interface{},
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesAppVersion.GoogleCesAppVersionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesAppVersion.GoogleCesAppVersionTimeouts,
 }
 ```
 
@@ -1036,8 +1036,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.description">Description</a></code> | <code>*string</code> | The description of the app version. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | The display name of the app version. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#id GoogleCesAppVersion#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#project GoogleCesAppVersion#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#id GoogleCesAppVersion#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#project GoogleCesAppVersion#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts">GoogleCesAppVersionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1122,7 +1122,7 @@ App *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#app GoogleCesAppVersion#app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#app GoogleCesAppVersion#app}
 
 ---
 
@@ -1139,7 +1139,7 @@ The ID to use for the app version, which will become the final component of the 
 If not provided, a unique ID will be
 automatically assigned for the app version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#app_version_id GoogleCesAppVersion#app_version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#app_version_id GoogleCesAppVersion#app_version_id}
 
 ---
 
@@ -1153,7 +1153,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#location GoogleCesAppVersion#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#location GoogleCesAppVersion#location}
 
 ---
 
@@ -1174,7 +1174,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#deletion_policy GoogleCesAppVersion#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#deletion_policy GoogleCesAppVersion#deletion_policy}
 
 ---
 
@@ -1188,7 +1188,7 @@ Description *string
 
 The description of the app version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#description GoogleCesAppVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#description GoogleCesAppVersion#description}
 
 ---
 
@@ -1202,7 +1202,7 @@ DisplayName *string
 
 The display name of the app version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#display_name GoogleCesAppVersion#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#display_name GoogleCesAppVersion#display_name}
 
 ---
 
@@ -1214,7 +1214,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#id GoogleCesAppVersion#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#id GoogleCesAppVersion#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1229,7 +1229,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#project GoogleCesAppVersion#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#project GoogleCesAppVersion#project}.
 
 ---
 
@@ -1243,7 +1243,7 @@ Timeouts GoogleCesAppVersionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#timeouts GoogleCesAppVersion#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#timeouts GoogleCesAppVersion#timeouts}
 
 ---
 
@@ -1252,7 +1252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshot {
 
@@ -1265,7 +1265,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgents {
 
@@ -1278,7 +1278,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacks {
 
@@ -1291,7 +1291,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacks {
 
@@ -1304,7 +1304,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacks {
 
@@ -1317,7 +1317,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacks {
 
@@ -1330,7 +1330,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacks {
 
@@ -1343,7 +1343,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacks {
 
@@ -1356,7 +1356,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsLlmAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsLlmAgent {
 
@@ -1369,7 +1369,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsModelSettings {
 
@@ -1382,7 +1382,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgent {
 
@@ -1395,9 +1395,87 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsToolsets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAgentsToolsets {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRules <a name="GoogleCesAppVersionSnapshotAgentsTransferRules" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRules"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRules.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAgentsTransferRules {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransfer <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransfer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransfer"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransfer.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransfer {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionCondition <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionCondition" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionCondition"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionCondition.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionCondition {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeCondition <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeCondition" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeCondition"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeCondition.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeCondition {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransfer <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransfer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransfer"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransfer.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransfer {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionCondition <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionCondition" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionCondition"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionCondition.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionCondition {
 
 }
 ```
@@ -1408,7 +1486,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotApp {
 
@@ -1421,7 +1499,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppAudioProcessingConfig {
 
@@ -1434,7 +1512,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfig {
 
@@ -1447,7 +1525,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfig {
 
@@ -1460,7 +1538,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigs {
 
@@ -1473,7 +1551,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppClientCertificateSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppClientCertificateSettings {
 
@@ -1486,7 +1564,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppDataStoreSettings {
 
@@ -1499,7 +1577,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettingsEngines.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppDataStoreSettingsEngines {
 
@@ -1512,7 +1590,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppDefaultChannelProfile {
 
@@ -1525,7 +1603,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaProperty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaProperty {
 
@@ -1538,9 +1616,61 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfig {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfig <a name="GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfig" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfig {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAppErrorHandlingSettings <a name="GoogleCesAppVersionSnapshotAppErrorHandlingSettings" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettings.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAppErrorHandlingSettings {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfig <a name="GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfig" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfig {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfig <a name="GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfig" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfig {
 
 }
 ```
@@ -1551,7 +1681,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds {
 
@@ -1564,7 +1694,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds {
 
@@ -1577,9 +1707,22 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings <a name="GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings {
 
 }
 ```
@@ -1590,7 +1733,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds {
 
@@ -1603,7 +1746,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLanguageSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLanguageSettings {
 
@@ -1616,7 +1759,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettings {
 
@@ -1629,7 +1772,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfig {
 
@@ -1642,7 +1785,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettings {
 
@@ -1655,7 +1798,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettings {
 
@@ -1668,9 +1811,22 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettings {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettings <a name="GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettings" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettings.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettings {
 
 }
 ```
@@ -1681,7 +1837,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfig {
 
@@ -1694,7 +1850,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppModelSettings {
 
@@ -1707,7 +1863,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppTimeZoneSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppTimeZoneSettings {
 
@@ -1720,7 +1876,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppVariableDeclarations {
 
@@ -1733,9 +1889,22 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarationsSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotAppVariableDeclarationsSchema {
+
+}
+```
+
+
+### GoogleCesAppVersionSnapshotAppVpcScSettings <a name="GoogleCesAppVersionSnapshotAppVpcScSettings" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettings.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+&googlecesappversion.GoogleCesAppVersionSnapshotAppVpcScSettings {
 
 }
 ```
@@ -1746,7 +1915,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamples.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamples {
 
@@ -1759,7 +1928,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessages {
 
@@ -1772,7 +1941,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunks {
 
@@ -1785,7 +1954,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransfer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransfer {
 
@@ -1798,7 +1967,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksImage {
 
@@ -1811,7 +1980,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCall {
 
@@ -1824,7 +1993,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetTool {
 
@@ -1837,7 +2006,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponse {
 
@@ -1850,7 +2019,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetTool {
 
@@ -1863,7 +2032,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrails {
 
@@ -1876,7 +2045,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsAction {
 
@@ -1889,7 +2058,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswer {
 
@@ -1902,7 +2071,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediately.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediately {
 
@@ -1915,7 +2084,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponses {
 
@@ -1928,7 +2097,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionTransferAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsActionTransferAgent {
 
@@ -1941,7 +2110,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallback.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsCodeCallback {
 
@@ -1954,7 +2123,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallback.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallback {
 
@@ -1967,7 +2136,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallback.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallback {
 
@@ -1980,7 +2149,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallback.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallback {
 
@@ -1993,7 +2162,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallback.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallback {
 
@@ -2006,7 +2175,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsContentFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsContentFilter {
 
@@ -2019,7 +2188,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicy {
 
@@ -2032,7 +2201,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettings {
 
@@ -2045,7 +2214,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurity {
 
@@ -2058,7 +2227,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicy {
 
@@ -2071,7 +2240,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettings {
 
@@ -2084,7 +2253,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettings {
 
@@ -2097,7 +2266,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafety.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsModelSafety {
 
@@ -2110,7 +2279,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettings {
 
@@ -2123,7 +2292,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotTools.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotTools {
 
@@ -2136,7 +2305,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsClientFunction {
 
@@ -2149,7 +2318,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsClientFunctionParameters {
 
@@ -2162,7 +2331,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsClientFunctionResponse {
 
@@ -2175,7 +2344,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreTool {
 
@@ -2188,7 +2357,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecs {
 
@@ -2201,7 +2370,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec {
 
@@ -2214,7 +2383,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecs {
 
@@ -2227,7 +2396,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec {
 
@@ -2240,7 +2409,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPoints {
 
@@ -2253,7 +2422,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSource {
 
@@ -2266,7 +2435,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSources {
 
@@ -2279,7 +2448,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStore {
 
@@ -2292,7 +2461,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfig {
 
@@ -2305,7 +2474,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigs {
 
@@ -2318,7 +2487,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfig {
 
@@ -2331,7 +2500,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfig {
 
@@ -2344,7 +2513,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettings {
 
@@ -2357,7 +2526,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfig {
 
@@ -2370,7 +2539,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettings {
 
@@ -2383,7 +2552,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsets {
 
@@ -2396,7 +2565,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolset {
 
@@ -2409,7 +2578,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthentication {
 
@@ -2422,7 +2591,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfig {
 
@@ -2435,7 +2604,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfig {
 
@@ -2448,7 +2617,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfig {
 
@@ -2461,7 +2630,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfig {
 
@@ -2474,7 +2643,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfig {
 
@@ -2487,7 +2656,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfig {
 
@@ -2500,7 +2669,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfig {
 
@@ -2513,7 +2682,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCerts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCerts {
 
@@ -2526,7 +2695,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsGoogleSearchTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsGoogleSearchTool {
 
@@ -2539,7 +2708,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiTool {
 
@@ -2552,7 +2721,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthentication {
 
@@ -2565,7 +2734,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfig {
 
@@ -2578,7 +2747,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfig {
 
@@ -2591,7 +2760,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfig {
 
@@ -2604,7 +2773,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfig {
 
@@ -2617,7 +2786,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfig {
 
@@ -2630,7 +2799,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfig {
 
@@ -2643,7 +2812,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCerts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCerts {
 
@@ -2656,7 +2825,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsPythonFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsPythonFunction {
 
@@ -2669,7 +2838,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsSystemTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionSnapshotToolsSystemTool {
 
@@ -2682,7 +2851,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 &googlecesappversion.GoogleCesAppVersionTimeouts {
 	Create: *string,
@@ -2694,8 +2863,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#create GoogleCesAppVersion#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#delete GoogleCesAppVersion#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#create GoogleCesAppVersion#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#delete GoogleCesAppVersion#delete}. |
 
 ---
 
@@ -2707,7 +2876,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#create GoogleCesAppVersion#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#create GoogleCesAppVersion#create}.
 
 ---
 
@@ -2719,7 +2888,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version#delete GoogleCesAppVersion#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version#delete GoogleCesAppVersion#delete}.
 
 ---
 
@@ -2730,7 +2899,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksList
 ```
@@ -2879,7 +3048,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference
 ```
@@ -3104,6 +3273,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference.property.disabled">Disabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference.property.pythonCode">PythonCode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacks">GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacks</a></code> | *No description.* |
 
@@ -3153,6 +3323,16 @@ func Disabled() IResolvable
 
 ---
 
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference.property.proactiveExecutionEnabled"></a>
+
+```go
+func ProactiveExecutionEnabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `PythonCode`<sup>Required</sup> <a name="PythonCode" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacksOutputReference.property.pythonCode"></a>
 
 ```go
@@ -3179,7 +3359,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsAfterAgentCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterModelCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksList
 ```
@@ -3328,7 +3508,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference
 ```
@@ -3553,6 +3733,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference.property.disabled">Disabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference.property.pythonCode">PythonCode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacks">GoogleCesAppVersionSnapshotAgentsAfterModelCallbacks</a></code> | *No description.* |
 
@@ -3602,6 +3783,16 @@ func Disabled() IResolvable
 
 ---
 
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference.property.proactiveExecutionEnabled"></a>
+
+```go
+func ProactiveExecutionEnabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `PythonCode`<sup>Required</sup> <a name="PythonCode" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterModelCallbacksOutputReference.property.pythonCode"></a>
 
 ```go
@@ -3628,7 +3819,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsAfterModelCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterToolCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksList
 ```
@@ -3777,7 +3968,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference
 ```
@@ -4002,6 +4193,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference.property.disabled">Disabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference.property.pythonCode">PythonCode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacks">GoogleCesAppVersionSnapshotAgentsAfterToolCallbacks</a></code> | *No description.* |
 
@@ -4051,6 +4243,16 @@ func Disabled() IResolvable
 
 ---
 
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference.property.proactiveExecutionEnabled"></a>
+
+```go
+func ProactiveExecutionEnabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `PythonCode`<sup>Required</sup> <a name="PythonCode" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsAfterToolCallbacksOutputReference.property.pythonCode"></a>
 
 ```go
@@ -4077,7 +4279,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsAfterToolCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksList
 ```
@@ -4226,7 +4428,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference
 ```
@@ -4451,6 +4653,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference.property.disabled">Disabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference.property.pythonCode">PythonCode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacks">GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacks</a></code> | *No description.* |
 
@@ -4500,6 +4703,16 @@ func Disabled() IResolvable
 
 ---
 
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference.property.proactiveExecutionEnabled"></a>
+
+```go
+func ProactiveExecutionEnabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `PythonCode`<sup>Required</sup> <a name="PythonCode" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacksOutputReference.property.pythonCode"></a>
 
 ```go
@@ -4526,7 +4739,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsBeforeAgentCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksList
 ```
@@ -4675,7 +4888,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference
 ```
@@ -4900,6 +5113,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference.property.disabled">Disabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference.property.pythonCode">PythonCode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacks">GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacks</a></code> | *No description.* |
 
@@ -4949,6 +5163,16 @@ func Disabled() IResolvable
 
 ---
 
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference.property.proactiveExecutionEnabled"></a>
+
+```go
+func ProactiveExecutionEnabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `PythonCode`<sup>Required</sup> <a name="PythonCode" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacksOutputReference.property.pythonCode"></a>
 
 ```go
@@ -4975,7 +5199,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsBeforeModelCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksList
 ```
@@ -5124,7 +5348,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference
 ```
@@ -5349,6 +5573,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference.property.disabled">Disabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference.property.pythonCode">PythonCode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacks">GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacks</a></code> | *No description.* |
 
@@ -5398,6 +5623,16 @@ func Disabled() IResolvable
 
 ---
 
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference.property.proactiveExecutionEnabled"></a>
+
+```go
+func ProactiveExecutionEnabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `PythonCode`<sup>Required</sup> <a name="PythonCode" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacksOutputReference.property.pythonCode"></a>
 
 ```go
@@ -5424,7 +5659,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsBeforeToolCallbacks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsList
 ```
@@ -5573,7 +5808,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsLlmAgentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsLlmAgentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsLlmAgentList
 ```
@@ -5722,7 +5957,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsLlmAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsLlmAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsLlmAgentOutputReference
 ```
@@ -5989,7 +6224,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsLlmAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsModelSettingsList
 ```
@@ -6138,7 +6373,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsModelSettingsOutputReference
 ```
@@ -6427,7 +6662,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsModelSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsOutputReference
 ```
@@ -6670,6 +6905,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsOutputReference.property.remoteDialogflowAgent">RemoteDialogflowAgent</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentList">GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsOutputReference.property.tools">Tools</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsOutputReference.property.toolsets">Toolsets</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsToolsetsList">GoogleCesAppVersionSnapshotAgentsToolsetsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsOutputReference.property.transferRules">TransferRules</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList">GoogleCesAppVersionSnapshotAgentsTransferRulesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsOutputReference.property.updateTime">UpdateTime</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgents">GoogleCesAppVersionSnapshotAgents</a></code> | *No description.* |
 
@@ -6899,6 +7135,16 @@ func Toolsets() GoogleCesAppVersionSnapshotAgentsToolsetsList
 
 ---
 
+##### `TransferRules`<sup>Required</sup> <a name="TransferRules" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsOutputReference.property.transferRules"></a>
+
+```go
+func TransferRules() GoogleCesAppVersionSnapshotAgentsTransferRulesList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList">GoogleCesAppVersionSnapshotAgentsTransferRulesList</a>
+
+---
+
 ##### `UpdateTime`<sup>Required</sup> <a name="UpdateTime" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsOutputReference.property.updateTime"></a>
 
 ```go
@@ -6925,7 +7171,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgents
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentList
 ```
@@ -7074,7 +7320,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference
 ```
@@ -7301,6 +7547,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference.property.environmentId">EnvironmentId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference.property.flowId">FlowId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference.property.inputVariableMapping">InputVariableMapping</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference.property.languageCodeVariable">LanguageCodeVariable</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference.property.outputVariableMapping">OutputVariableMapping</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgent">GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgent</a></code> | *No description.* |
 
@@ -7370,6 +7617,16 @@ func InputVariableMapping() StringMap
 
 ---
 
+##### `LanguageCodeVariable`<sup>Required</sup> <a name="LanguageCodeVariable" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference.property.languageCodeVariable"></a>
+
+```go
+func LanguageCodeVariable() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `OutputVariableMapping`<sup>Required</sup> <a name="OutputVariableMapping" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference.property.outputVariableMapping"></a>
 
 ```go
@@ -7396,7 +7653,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsToolsetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsToolsetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsToolsetsList
 ```
@@ -7545,7 +7802,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsToolsetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsToolsetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsToolsetsOutputReference
 ```
@@ -7829,12 +8086,2618 @@ func InternalValue() GoogleCesAppVersionSnapshotAgentsToolsets
 ---
 
 
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.property.expression">Expression</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionCondition">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionCondition</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Expression`<sup>Required</sup> <a name="Expression" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.property.expression"></a>
+
+```go
+func Expression() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionCondition
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionCondition">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionCondition</a>
+
+---
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.property.expressionCondition">ExpressionCondition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.property.pythonCodeCondition">PythonCodeCondition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransfer">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransfer</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExpressionCondition`<sup>Required</sup> <a name="ExpressionCondition" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.property.expressionCondition"></a>
+
+```go
+func ExpressionCondition() GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferExpressionConditionList</a>
+
+---
+
+##### `PythonCodeCondition`<sup>Required</sup> <a name="PythonCodeCondition" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.property.pythonCodeCondition"></a>
+
+```go
+func PythonCodeCondition() GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransfer
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransfer">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransfer</a>
+
+---
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.property.pythonCode">PythonCode</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeCondition">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeCondition</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PythonCode`<sup>Required</sup> <a name="PythonCode" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.property.pythonCode"></a>
+
+```go
+func PythonCode() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeConditionOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeCondition
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeCondition">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferPythonCodeCondition</a>
+
+---
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.property.expression">Expression</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionCondition">GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionCondition</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Expression`<sup>Required</sup> <a name="Expression" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.property.expression"></a>
+
+```go
+func Expression() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionCondition
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionCondition">GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionCondition</a>
+
+---
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.property.expressionCondition">ExpressionCondition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList">GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransfer">GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransfer</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExpressionCondition`<sup>Required</sup> <a name="ExpressionCondition" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.property.expressionCondition"></a>
+
+```go
+func ExpressionCondition() GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList">GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferExpressionConditionList</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransfer
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransfer">GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransfer</a>
+
+---
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesList <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference <a name="GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.childAgent">ChildAgent</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.deterministicTransfer">DeterministicTransfer</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.direction">Direction</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.disablePlannerTransfer">DisablePlannerTransfer</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList">GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRules">GoogleCesAppVersionSnapshotAgentsTransferRules</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ChildAgent`<sup>Required</sup> <a name="ChildAgent" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.childAgent"></a>
+
+```go
+func ChildAgent() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DeterministicTransfer`<sup>Required</sup> <a name="DeterministicTransfer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.deterministicTransfer"></a>
+
+```go
+func DeterministicTransfer() GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList">GoogleCesAppVersionSnapshotAgentsTransferRulesDeterministicTransferList</a>
+
+---
+
+##### `Direction`<sup>Required</sup> <a name="Direction" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.direction"></a>
+
+```go
+func Direction() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DisablePlannerTransfer`<sup>Required</sup> <a name="DisablePlannerTransfer" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.disablePlannerTransfer"></a>
+
+```go
+func DisablePlannerTransfer() GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList">GoogleCesAppVersionSnapshotAgentsTransferRulesDisablePlannerTransferList</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRulesOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAgentsTransferRules
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAgentsTransferRules">GoogleCesAppVersionSnapshotAgentsTransferRules</a>
+
+---
+
+
 ### GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigList <a name="GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigList
 ```
@@ -7983,7 +10846,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientSoundConfigOutputReference
 ```
@@ -8283,7 +11146,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppAudioProcessingConfigAmbientS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigList
 ```
@@ -8432,7 +11295,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInConfigOutputReference
 ```
@@ -8710,7 +11573,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppAudioProcessingConfigBargeInC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigList
 ```
@@ -8859,7 +11722,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigOutputReference
 ```
@@ -9170,7 +12033,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppAudioProcessingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsList
 ```
@@ -9319,7 +12182,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference
 ```
@@ -9619,7 +12482,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppAudioProcessingConfigSynthesi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppClientCertificateSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppClientCertificateSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppClientCertificateSettingsList
 ```
@@ -9768,7 +12631,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppClientCertificateSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppClientCertificateSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppClientCertificateSettingsOutputReference
 ```
@@ -10068,7 +12931,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppClientCertificateSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesList
 ```
@@ -10217,7 +13080,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppDataStoreSettingsEnginesOutputReference
 ```
@@ -10506,7 +13369,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppDataStoreSettingsEngines
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDataStoreSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppDataStoreSettingsList
 ```
@@ -10655,7 +13518,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDataStoreSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDataStoreSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppDataStoreSettingsOutputReference
 ```
@@ -10933,7 +13796,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppDataStoreSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfileList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfileList
 ```
@@ -11082,7 +13945,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference
 ```
@@ -11311,6 +14174,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference.property.personaProperty">PersonaProperty</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyList">GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference.property.profileId">ProfileId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference.property.webWidgetConfig">WebWidgetConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigList">GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference.property.whatsappConfig">WhatsappConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList">GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfile">GoogleCesAppVersionSnapshotAppDefaultChannelProfile</a></code> | *No description.* |
 
 ---
@@ -11399,6 +14263,16 @@ func WebWidgetConfig() GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWid
 
 ---
 
+##### `WhatsappConfig`<sup>Required</sup> <a name="WhatsappConfig" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference.property.whatsappConfig"></a>
+
+```go
+func WhatsappConfig() GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList">GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList</a>
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileOutputReference.property.internalValue"></a>
 
 ```go
@@ -11415,7 +14289,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppDefaultChannelProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyList
 ```
@@ -11564,7 +14438,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaPropertyOutputReference
 ```
@@ -11842,7 +14716,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppDefaultChannelProfilePersonaP
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigList
 ```
@@ -11991,7 +14865,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidgetConfigOutputReference
 ```
@@ -12286,12 +15160,1808 @@ func InternalValue() GoogleCesAppVersionSnapshotAppDefaultChannelProfileWebWidge
 ---
 
 
+### GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList <a name="GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference <a name="GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.displayName">DisplayName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumber">PhoneNumber</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumberId">PhoneNumberId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.thumbnailUrl">ThumbnailUrl</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.wabaId">WabaId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfig">GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Description`<sup>Required</sup> <a name="Description" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.description"></a>
+
+```go
+func Description() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DisplayName`<sup>Required</sup> <a name="DisplayName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.displayName"></a>
+
+```go
+func DisplayName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PhoneNumber`<sup>Required</sup> <a name="PhoneNumber" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumber"></a>
+
+```go
+func PhoneNumber() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PhoneNumberId`<sup>Required</sup> <a name="PhoneNumberId" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumberId"></a>
+
+```go
+func PhoneNumberId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ThumbnailUrl`<sup>Required</sup> <a name="ThumbnailUrl" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.thumbnailUrl"></a>
+
+```go
+func ThumbnailUrl() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `WabaId`<sup>Required</sup> <a name="WabaId" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.wabaId"></a>
+
+```go
+func WabaId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfig">GoogleCesAppVersionSnapshotAppDefaultChannelProfileWhatsappConfig</a>
+
+---
+
+
+### GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList <a name="GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference <a name="GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.property.escalateSession">EscalateSession</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfig">GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EscalateSession`<sup>Required</sup> <a name="EscalateSession" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.property.escalateSession"></a>
+
+```go
+func EscalateSession() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfig">GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfig</a>
+
+---
+
+
+### GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList <a name="GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference <a name="GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.customFallbackMessages">CustomFallbackMessages</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.maxFallbackAttempts">MaxFallbackAttempts</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfig">GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `CustomFallbackMessages`<sup>Required</sup> <a name="CustomFallbackMessages" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.customFallbackMessages"></a>
+
+```go
+func CustomFallbackMessages() StringMap
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.StringMap
+
+---
+
+##### `MaxFallbackAttempts`<sup>Required</sup> <a name="MaxFallbackAttempts" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.maxFallbackAttempts"></a>
+
+```go
+func MaxFallbackAttempts() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfig">GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfig</a>
+
+---
+
+
+### GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList <a name="GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppErrorHandlingSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference <a name="GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.endSessionConfig">EndSessionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList">GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.errorHandlingStrategy">ErrorHandlingStrategy</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.fallbackResponseConfig">FallbackResponseConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList">GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettings">GoogleCesAppVersionSnapshotAppErrorHandlingSettings</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EndSessionConfig`<sup>Required</sup> <a name="EndSessionConfig" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.endSessionConfig"></a>
+
+```go
+func EndSessionConfig() GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList">GoogleCesAppVersionSnapshotAppErrorHandlingSettingsEndSessionConfigList</a>
+
+---
+
+##### `ErrorHandlingStrategy`<sup>Required</sup> <a name="ErrorHandlingStrategy" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.errorHandlingStrategy"></a>
+
+```go
+func ErrorHandlingStrategy() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `FallbackResponseConfig`<sup>Required</sup> <a name="FallbackResponseConfig" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.fallbackResponseConfig"></a>
+
+```go
+func FallbackResponseConfig() GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList">GoogleCesAppVersionSnapshotAppErrorHandlingSettingsFallbackResponseConfigList</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAppErrorHandlingSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettings">GoogleCesAppVersionSnapshotAppErrorHandlingSettings</a>
+
+---
+
+
 ### GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsList <a name="GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsList
 ```
@@ -12440,7 +17110,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference
 ```
@@ -12718,7 +17388,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsList
 ```
@@ -12867,7 +17537,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference
 ```
@@ -13091,6 +17761,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.expectationLevelMetricsThresholds">ExpectationLevelMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsList">GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.toolMatchingSettings">ToolMatchingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList">GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.turnLevelMetricsThresholds">TurnLevelMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList">GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds">GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds</a></code> | *No description.* |
 
@@ -13130,6 +17801,16 @@ func ExpectationLevelMetricsThresholds() GoogleCesAppVersionSnapshotAppEvaluatio
 
 ---
 
+##### `ToolMatchingSettings`<sup>Required</sup> <a name="ToolMatchingSettings" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.toolMatchingSettings"></a>
+
+```go
+func ToolMatchingSettings() GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList">GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList</a>
+
+---
+
 ##### `TurnLevelMetricsThresholds`<sup>Required</sup> <a name="TurnLevelMetricsThresholds" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.turnLevelMetricsThresholds"></a>
 
 ```go
@@ -13151,12 +17832,439 @@ func InternalValue() GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGo
 ---
 
 
+### GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList <a name="GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference <a name="GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.extraToolCallBehavior">ExtraToolCallBehavior</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings">GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExtraToolCallBehavior`<sup>Required</sup> <a name="ExtraToolCallBehavior" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.extraToolCallBehavior"></a>
+
+```go
+func ExtraToolCallBehavior() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings">GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings</a>
+
+---
+
+
 ### GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList <a name="GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList
 ```
@@ -13305,7 +18413,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference
 ```
@@ -13529,6 +18637,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.overallToolInvocationCorrectnessThreshold">OverallToolInvocationCorrectnessThreshold</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.semanticSimilarityChannel">SemanticSimilarityChannel</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.semanticSimilaritySuccessThreshold">SemanticSimilaritySuccessThreshold</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds">GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds</a></code> | *No description.* |
 
@@ -13568,6 +18677,16 @@ func OverallToolInvocationCorrectnessThreshold() *f64
 
 ---
 
+##### `SemanticSimilarityChannel`<sup>Required</sup> <a name="SemanticSimilarityChannel" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.semanticSimilarityChannel"></a>
+
+```go
+func SemanticSimilarityChannel() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `SemanticSimilaritySuccessThreshold`<sup>Required</sup> <a name="SemanticSimilaritySuccessThreshold" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.semanticSimilaritySuccessThreshold"></a>
 
 ```go
@@ -13594,7 +18713,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsList
 ```
@@ -13743,7 +18862,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference
 ```
@@ -13967,6 +19086,8 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference.property.goldenEvaluationMetricsThresholds">GoldenEvaluationMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsList">GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference.property.goldenHallucinationMetricBehavior">GoldenHallucinationMetricBehavior</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference.property.scenarioHallucinationMetricBehavior">ScenarioHallucinationMetricBehavior</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds">GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds</a></code> | *No description.* |
 
 ---
@@ -14005,6 +19126,26 @@ func GoldenEvaluationMetricsThresholds() GoogleCesAppVersionSnapshotAppEvaluatio
 
 ---
 
+##### `GoldenHallucinationMetricBehavior`<sup>Required</sup> <a name="GoldenHallucinationMetricBehavior" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference.property.goldenHallucinationMetricBehavior"></a>
+
+```go
+func GoldenHallucinationMetricBehavior() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ScenarioHallucinationMetricBehavior`<sup>Required</sup> <a name="ScenarioHallucinationMetricBehavior" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference.property.scenarioHallucinationMetricBehavior"></a>
+
+```go
+func ScenarioHallucinationMetricBehavior() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference.property.internalValue"></a>
 
 ```go
@@ -14021,7 +19162,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLanguageSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLanguageSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLanguageSettingsList
 ```
@@ -14170,7 +19311,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLanguageSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLanguageSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLanguageSettingsOutputReference
 ```
@@ -14481,7 +19622,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLanguageSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppList
 ```
@@ -14630,7 +19771,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigList
 ```
@@ -14779,7 +19920,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecordingConfigOutputReference
 ```
@@ -15068,7 +20209,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettingsAudioRecording
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsList
 ```
@@ -15217,7 +20358,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsOutputReference
 ```
@@ -15517,7 +20658,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExport
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsList
 ```
@@ -15666,7 +20807,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsOutputReference
 ```
@@ -15944,7 +21085,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsList
 ```
@@ -16093,7 +21234,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference
 ```
@@ -16317,6 +21458,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference.property.disableConversationLogging">DisableConversationLogging</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference.property.retentionWindow">RetentionWindow</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettings">GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettings</a></code> | *No description.* |
 
 ---
@@ -16355,6 +21497,16 @@ func DisableConversationLogging() IResolvable
 
 ---
 
+##### `RetentionWindow`<sup>Required</sup> <a name="RetentionWindow" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference.property.retentionWindow"></a>
+
+```go
+func RetentionWindow() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference.property.internalValue"></a>
 
 ```go
@@ -16371,7 +21523,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsList
 ```
@@ -16515,12 +21667,439 @@ func Fqn() *string
 ---
 
 
+### GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList <a name="GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference <a name="GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.llmMetricsOptedOut">LlmMetricsOptedOut</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettings">GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettings</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `LlmMetricsOptedOut`<sup>Required</sup> <a name="LlmMetricsOptedOut" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.llmMetricsOptedOut"></a>
+
+```go
+func LlmMetricsOptedOut() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettings">GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettings</a>
+
+---
+
+
 ### GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference <a name="GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference
 ```
@@ -16747,6 +22326,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference.property.bigqueryExportSettings">BigqueryExportSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsList">GoogleCesAppVersionSnapshotAppLoggingSettingsBigqueryExportSettingsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference.property.cloudLoggingSettings">CloudLoggingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsList">GoogleCesAppVersionSnapshotAppLoggingSettingsCloudLoggingSettingsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference.property.conversationLoggingSettings">ConversationLoggingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsList">GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference.property.metricAnalysisSettings">MetricAnalysisSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList">GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference.property.redactionConfig">RedactionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigList">GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettings">GoogleCesAppVersionSnapshotAppLoggingSettings</a></code> | *No description.* |
 
@@ -16816,6 +22396,16 @@ func ConversationLoggingSettings() GoogleCesAppVersionSnapshotAppLoggingSettings
 
 ---
 
+##### `MetricAnalysisSettings`<sup>Required</sup> <a name="MetricAnalysisSettings" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference.property.metricAnalysisSettings"></a>
+
+```go
+func MetricAnalysisSettings() GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList">GoogleCesAppVersionSnapshotAppLoggingSettingsMetricAnalysisSettingsList</a>
+
+---
+
 ##### `RedactionConfig`<sup>Required</sup> <a name="RedactionConfig" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsOutputReference.property.redactionConfig"></a>
 
 ```go
@@ -16842,7 +22432,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigList
 ```
@@ -16991,7 +22581,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfigOutputReference
 ```
@@ -17291,7 +22881,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppLoggingSettingsRedactionConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppModelSettingsList
 ```
@@ -17440,7 +23030,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppModelSettingsOutputReference
 ```
@@ -17729,7 +23319,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppModelSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppOutputReference
 ```
@@ -17960,6 +23550,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.deploymentCount">DeploymentCount</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.displayName">DisplayName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.errorHandlingSettings">ErrorHandlingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList">GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.evaluationMetricsThresholds">EvaluationMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsList">GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.globalInstruction">GlobalInstruction</a></code> | <code>*string</code> | *No description.* |
@@ -17973,6 +23564,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.timeZoneSettings">TimeZoneSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppTimeZoneSettingsList">GoogleCesAppVersionSnapshotAppTimeZoneSettingsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.updateTime">UpdateTime</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.variableDeclarations">VariableDeclarations</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarationsList">GoogleCesAppVersionSnapshotAppVariableDeclarationsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.vpcScSettings">VpcScSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList">GoogleCesAppVersionSnapshotAppVpcScSettingsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotApp">GoogleCesAppVersionSnapshotApp</a></code> | *No description.* |
 
 ---
@@ -18078,6 +23670,16 @@ func DisplayName() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `ErrorHandlingSettings`<sup>Required</sup> <a name="ErrorHandlingSettings" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.errorHandlingSettings"></a>
+
+```go
+func ErrorHandlingSettings() GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList">GoogleCesAppVersionSnapshotAppErrorHandlingSettingsList</a>
 
 ---
 
@@ -18211,6 +23813,16 @@ func VariableDeclarations() GoogleCesAppVersionSnapshotAppVariableDeclarationsLi
 
 ---
 
+##### `VpcScSettings`<sup>Required</sup> <a name="VpcScSettings" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.vpcScSettings"></a>
+
+```go
+func VpcScSettings() GoogleCesAppVersionSnapshotAppVpcScSettingsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList">GoogleCesAppVersionSnapshotAppVpcScSettingsList</a>
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppOutputReference.property.internalValue"></a>
 
 ```go
@@ -18227,7 +23839,7 @@ func InternalValue() GoogleCesAppVersionSnapshotApp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppTimeZoneSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppTimeZoneSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppTimeZoneSettingsList
 ```
@@ -18376,7 +23988,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppTimeZoneSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppTimeZoneSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppTimeZoneSettingsOutputReference
 ```
@@ -18654,7 +24266,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppTimeZoneSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppVariableDeclarationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppVariableDeclarationsList
 ```
@@ -18803,7 +24415,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppVariableDeclarationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppVariableDeclarationsOutputReference
 ```
@@ -19103,7 +24715,7 @@ func InternalValue() GoogleCesAppVersionSnapshotAppVariableDeclarations
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaList
 ```
@@ -19252,7 +24864,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppVariableDeclarationsSchemaOutputReference
 ```
@@ -19668,12 +25280,439 @@ func InternalValue() GoogleCesAppVersionSnapshotAppVariableDeclarationsSchema
 ---
 
 
+### GoogleCesAppVersionSnapshotAppVpcScSettingsList <a name="GoogleCesAppVersionSnapshotAppVpcScSettingsList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppVpcScSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotAppVpcScSettingsList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.get"></a>
+
+```go
+func Get(index *f64) GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference <a name="GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
+
+googlecesappversion.NewGoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.property.allowedOrigins">AllowedOrigins</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettings">GoogleCesAppVersionSnapshotAppVpcScSettings</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AllowedOrigins`<sup>Required</sup> <a name="AllowedOrigins" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.property.allowedOrigins"></a>
+
+```go
+func AllowedOrigins() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettingsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVersionSnapshotAppVpcScSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotAppVpcScSettings">GoogleCesAppVersionSnapshotAppVpcScSettings</a>
+
+---
+
+
 ### GoogleCesAppVersionSnapshotExamplesList <a name="GoogleCesAppVersionSnapshotExamplesList" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesList
 ```
@@ -19822,7 +25861,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferList
 ```
@@ -19971,7 +26010,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTransferOutputReference
 ```
@@ -20260,7 +26299,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksAgentTrans
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksImageList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksImageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksImageList
 ```
@@ -20409,7 +26448,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksImageOutputReference
 ```
@@ -20698,7 +26737,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksImage
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksList
 ```
@@ -20847,7 +26886,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksOutputReference
 ```
@@ -21180,7 +27219,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallList
 ```
@@ -21329,7 +27368,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallOutputReference
 ```
@@ -21651,7 +27690,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCall
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolList
 ```
@@ -21800,7 +27839,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallToolsetToolOutputReference
 ```
@@ -22089,7 +28128,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksToolCallTo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseList
 ```
@@ -22238,7 +28277,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseOutputReference
 ```
@@ -22560,7 +28599,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksToolRespon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolList
 ```
@@ -22709,7 +28748,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesChunksToolResponseToolsetToolOutputReference
 ```
@@ -22998,7 +29037,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessagesChunksToolRespon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesList
 ```
@@ -23147,7 +29186,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesMessagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesMessagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesMessagesOutputReference
 ```
@@ -23436,7 +29475,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamplesMessages
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotExamplesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotExamplesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotExamplesOutputReference
 ```
@@ -23802,7 +29841,7 @@ func InternalValue() GoogleCesAppVersionSnapshotExamples
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerList
 ```
@@ -23951,7 +29990,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswerOutputReference
 ```
@@ -24229,7 +30268,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsActionGenerativeAnswer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionList
 ```
@@ -24378,7 +30417,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionOutputReference
 ```
@@ -24678,7 +30717,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyList
 ```
@@ -24827,7 +30866,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyOutputReference
 ```
@@ -25105,7 +31144,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesList
 ```
@@ -25254,7 +31293,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediatelyResponsesOutputReference
 ```
@@ -25543,7 +31582,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsActionRespondImmediate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionTransferAgentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionTransferAgentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionTransferAgentList
 ```
@@ -25692,7 +31731,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsActionTransferAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsActionTransferAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsActionTransferAgentOutputReference
 ```
@@ -25970,7 +32009,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsActionTransferAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackList
 ```
@@ -26119,7 +32158,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference
 ```
@@ -26344,6 +32383,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference.property.disabled">Disabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference.property.pythonCode">PythonCode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallback">GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallback</a></code> | *No description.* |
 
@@ -26393,6 +32433,16 @@ func Disabled() IResolvable
 
 ---
 
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference.property.proactiveExecutionEnabled"></a>
+
+```go
+func ProactiveExecutionEnabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `PythonCode`<sup>Required</sup> <a name="PythonCode" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgentCallbackOutputReference.property.pythonCode"></a>
 
 ```go
@@ -26419,7 +32469,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackList
 ```
@@ -26568,7 +32618,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference
 ```
@@ -26793,6 +32843,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference.property.disabled">Disabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference.property.pythonCode">PythonCode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallback">GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallback</a></code> | *No description.* |
 
@@ -26842,6 +32893,16 @@ func Disabled() IResolvable
 
 ---
 
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference.property.proactiveExecutionEnabled"></a>
+
+```go
+func ProactiveExecutionEnabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `PythonCode`<sup>Required</sup> <a name="PythonCode" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModelCallbackOutputReference.property.pythonCode"></a>
 
 ```go
@@ -26868,7 +32929,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsCodeCallbackAfterModel
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackList
 ```
@@ -27017,7 +33078,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference
 ```
@@ -27242,6 +33303,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference.property.disabled">Disabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference.property.pythonCode">PythonCode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallback">GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallback</a></code> | *No description.* |
 
@@ -27291,6 +33353,16 @@ func Disabled() IResolvable
 
 ---
 
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference.property.proactiveExecutionEnabled"></a>
+
+```go
+func ProactiveExecutionEnabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `PythonCode`<sup>Required</sup> <a name="PythonCode" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgentCallbackOutputReference.property.pythonCode"></a>
 
 ```go
@@ -27317,7 +33389,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeAgen
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackList
 ```
@@ -27466,7 +33538,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference
 ```
@@ -27691,6 +33763,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference.property.disabled">Disabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference.property.pythonCode">PythonCode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallback">GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallback</a></code> | *No description.* |
 
@@ -27740,6 +33813,16 @@ func Disabled() IResolvable
 
 ---
 
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference.property.proactiveExecutionEnabled"></a>
+
+```go
+func ProactiveExecutionEnabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `PythonCode`<sup>Required</sup> <a name="PythonCode" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference.property.pythonCode"></a>
 
 ```go
@@ -27766,7 +33849,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeMode
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackList
 ```
@@ -27915,7 +33998,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsCodeCallbackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsCodeCallbackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsCodeCallbackOutputReference
 ```
@@ -28226,7 +34309,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsCodeCallback
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsContentFilterList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsContentFilterList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsContentFilterList
 ```
@@ -28375,7 +34458,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsContentFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsContentFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsContentFilterOutputReference
 ```
@@ -28697,7 +34780,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsContentFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsList
 ```
@@ -28846,7 +34929,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPolicyList
 ```
@@ -28995,7 +35078,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsList
 ```
@@ -29144,7 +35227,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettingsOutputReference
 ```
@@ -29433,7 +35516,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPolicyModelSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPolicyOutputReference
 ```
@@ -29755,7 +35838,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyList
 ```
@@ -29904,7 +35987,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsList
 ```
@@ -30053,7 +36136,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyModelSettingsOutputReference
 ```
@@ -30342,7 +36425,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCusto
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyOutputReference
 ```
@@ -30664,7 +36747,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCusto
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsList
 ```
@@ -30813,7 +36896,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsOutputReference
 ```
@@ -31091,7 +37174,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefau
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityList
 ```
@@ -31240,7 +37323,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityOutputReference
 ```
@@ -31540,7 +37623,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurity
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafetyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsModelSafetyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsModelSafetyList
 ```
@@ -31689,7 +37772,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafetyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsModelSafetyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsModelSafetyOutputReference
 ```
@@ -31967,7 +38050,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsModelSafety
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsList
 ```
@@ -32116,7 +38199,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySettingsOutputReference
 ```
@@ -32405,7 +38488,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrailsModelSafetySafetySetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotGuardrailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotGuardrailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotGuardrailsOutputReference
 ```
@@ -32815,7 +38898,7 @@ func InternalValue() GoogleCesAppVersionSnapshotGuardrails
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotList
 ```
@@ -32964,7 +39047,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotOutputReference
 ```
@@ -33297,7 +39380,7 @@ func InternalValue() GoogleCesAppVersionSnapshot
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionList
 ```
@@ -33446,7 +39529,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionOutputReference
 ```
@@ -33757,7 +39840,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsClientFunction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionParametersList
 ```
@@ -33906,7 +39989,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionParametersOutputReference
 ```
@@ -34327,7 +40410,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsClientFunctionParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionResponseList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionResponseList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionResponseList
 ```
@@ -34476,7 +40559,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsClientFunctionResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsClientFunctionResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsClientFunctionResponseOutputReference
 ```
@@ -34897,7 +40980,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsClientFunctionResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsList
 ```
@@ -35046,7 +41129,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsOutputReference
 ```
@@ -35335,7 +41418,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsList
 ```
@@ -35484,7 +41567,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsOutputReference
 ```
@@ -35773,7 +41856,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecList
 ```
@@ -35922,7 +42005,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecOutputReference
 ```
@@ -36233,7 +42316,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsList
 ```
@@ -36382,7 +42465,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecConditionBoostSpecsOutputReference
 ```
@@ -36682,7 +42765,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecList
 ```
@@ -36831,7 +42914,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpecOutputReference
 ```
@@ -37109,7 +43192,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolBoostSpecsSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigList
 ```
@@ -37258,7 +43341,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigOutputReference
 ```
@@ -37558,7 +43641,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreList
 ```
@@ -37707,7 +43790,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesDataStoreOutputReference
 ```
@@ -38040,7 +44123,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesList
 ```
@@ -38189,7 +44272,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDataStoreSourcesOutputReference
 ```
@@ -38478,7 +44561,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceDa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceList
 ```
@@ -38627,7 +44710,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSourceOutputReference
 ```
@@ -38927,7 +45010,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolEngineSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolList
 ```
@@ -39076,7 +45159,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigList
 ```
@@ -39225,7 +45308,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsGroundingConfigOutputReference
 ```
@@ -39514,7 +45597,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsList
 ```
@@ -39663,7 +45746,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsOutputReference
 ```
@@ -39974,7 +46057,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigList
 ```
@@ -40123,7 +46206,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsList
 ```
@@ -40272,7 +46355,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigModelSettingsOutputReference
 ```
@@ -40561,7 +46644,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsRewriterConfigOutputReference
 ```
@@ -40861,7 +46944,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigList
 ```
@@ -41010,7 +47093,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsList
 ```
@@ -41159,7 +47242,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference
 ```
@@ -41448,7 +47531,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfigsSummarizationConfigOutputReference
 ```
@@ -41748,7 +47831,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreToolModalityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsDataStoreToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsDataStoreToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsDataStoreToolOutputReference
 ```
@@ -42081,7 +48164,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsDataStoreTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsList
 ```
@@ -42230,7 +48313,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigList
 ```
@@ -42379,7 +48462,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationApiKeyConfigOutputReference
 ```
@@ -42679,7 +48762,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigList
 ```
@@ -42828,7 +48911,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationBearerTokenConfigOutputReference
 ```
@@ -43106,7 +49189,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationList
 ```
@@ -43255,7 +49338,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigList
 ```
@@ -43404,7 +49487,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOauthConfigOutputReference
 ```
@@ -43726,7 +49809,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationOutputReference
 ```
@@ -44048,7 +50131,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigList
 ```
@@ -44197,7 +50280,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference
 ```
@@ -44475,7 +50558,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigList
 ```
@@ -44624,7 +50707,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference
 ```
@@ -44891,7 +50974,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetList
 ```
@@ -45040,7 +51123,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetOutputReference
 ```
@@ -45373,7 +51456,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolset
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigList
 ```
@@ -45522,7 +51605,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDirectoryConfigOutputReference
 ```
@@ -45800,7 +51883,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetServiceDir
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsList
 ```
@@ -45949,7 +52032,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigCaCertsOutputReference
 ```
@@ -46238,7 +52321,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigList
 ```
@@ -46387,7 +52470,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfigOutputReference
 ```
@@ -46665,7 +52748,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetTlsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsetsOutputReference
 ```
@@ -47020,7 +53103,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsets
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsGoogleSearchToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsGoogleSearchToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsGoogleSearchToolList
 ```
@@ -47169,7 +53252,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsGoogleSearchToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsGoogleSearchToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsGoogleSearchToolOutputReference
 ```
@@ -47469,7 +53552,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsGoogleSearchTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsList
 ```
@@ -47618,7 +53701,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigList
 ```
@@ -47767,7 +53850,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationApiKeyConfigOutputReference
 ```
@@ -48067,7 +54150,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationList
 ```
@@ -48216,7 +54299,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigList
 ```
@@ -48365,7 +54448,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOauthConfigOutputReference
 ```
@@ -48687,7 +54770,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationOutputReference
 ```
@@ -48998,7 +55081,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigList
 ```
@@ -49147,7 +55230,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAccountAuthConfigOutputReference
 ```
@@ -49425,7 +55508,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigList
 ```
@@ -49574,7 +55657,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference
 ```
@@ -49841,7 +55924,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolApiAuthenticatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolList
 ```
@@ -49990,7 +56073,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolOutputReference
 ```
@@ -50345,7 +56428,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigList
 ```
@@ -50494,7 +56577,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectoryConfigOutputReference
 ```
@@ -50772,7 +56855,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolServiceDirectory
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsList
 ```
@@ -50921,7 +57004,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCertsOutputReference
 ```
@@ -51210,7 +57293,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigCaCerts
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigList
 ```
@@ -51359,7 +57442,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfigOutputReference
 ```
@@ -51637,7 +57720,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsOpenApiToolTlsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsOutputReference
 ```
@@ -52047,7 +58130,7 @@ func InternalValue() GoogleCesAppVersionSnapshotTools
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsPythonFunctionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsPythonFunctionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsPythonFunctionList
 ```
@@ -52196,7 +58279,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsPythonFunctionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsPythonFunctionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsPythonFunctionOutputReference
 ```
@@ -52496,7 +58579,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsPythonFunction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsSystemToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsSystemToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVersionSnapshotToolsSystemToolList
 ```
@@ -52645,7 +58728,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionSnapshotToolsSystemToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionSnapshotToolsSystemToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVersionSnapshotToolsSystemToolOutputReference
 ```
@@ -52934,7 +59017,7 @@ func InternalValue() GoogleCesAppVersionSnapshotToolsSystemTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion"
 
 googlecesappversion.NewGoogleCesAppVersionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppVersionTimeoutsOutputReference
 ```

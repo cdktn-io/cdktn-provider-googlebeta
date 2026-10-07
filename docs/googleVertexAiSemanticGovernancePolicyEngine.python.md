@@ -4,7 +4,7 @@
 
 ### GoogleVertexAiSemanticGovernancePolicyEngine <a name="GoogleVertexAiSemanticGovernancePolicyEngine" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer"></a>
 
@@ -22,6 +22,7 @@ googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePol
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   deletion_policy: str = None,
+  gateway_configs: IResolvable | typing.List[GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs] = None,
   id: str = None,
   project: str = None,
   region: str = None,
@@ -41,8 +42,9 @@ googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePol
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#id GoogleVertexAiSemanticGovernancePolicyEngine#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#project GoogleVertexAiSemanticGovernancePolicyEngine#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer.parameter.gatewayConfigs">gateway_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs</a>]</code> | gateway_configs block. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#id GoogleVertexAiSemanticGovernancePolicyEngine#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#project GoogleVertexAiSemanticGovernancePolicyEngine#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer.parameter.region">region</a></code> | <code>str</code> | The region of the SemanticGovernancePolicyEngine, e.g. 'us-central1'. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineTimeouts">GoogleVertexAiSemanticGovernancePolicyEngineTimeouts</a></code> | timeouts block. |
 
@@ -121,7 +123,17 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#deletion_policy GoogleVertexAiSemanticGovernancePolicyEngine#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#deletion_policy GoogleVertexAiSemanticGovernancePolicyEngine#deletion_policy}
+
+---
+
+##### `gateway_configs`<sup>Optional</sup> <a name="gateway_configs" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.Initializer.parameter.gatewayConfigs"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs</a>]
+
+gateway_configs block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#gateway_configs GoogleVertexAiSemanticGovernancePolicyEngine#gateway_configs}
 
 ---
 
@@ -129,7 +141,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#id GoogleVertexAiSemanticGovernancePolicyEngine#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#id GoogleVertexAiSemanticGovernancePolicyEngine#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -140,7 +152,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#project GoogleVertexAiSemanticGovernancePolicyEngine#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#project GoogleVertexAiSemanticGovernancePolicyEngine#project}.
 
 ---
 
@@ -150,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The region of the SemanticGovernancePolicyEngine, e.g. 'us-central1'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#region GoogleVertexAiSemanticGovernancePolicyEngine#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#region GoogleVertexAiSemanticGovernancePolicyEngine#region}
 
 ---
 
@@ -160,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#timeouts GoogleVertexAiSemanticGovernancePolicyEngine#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#timeouts GoogleVertexAiSemanticGovernancePolicyEngine#timeouts}
 
 ---
 
@@ -192,8 +204,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.putGatewayConfigs">put_gateway_configs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.resetGatewayConfigs">reset_gateway_configs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.resetProject">reset_project</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.resetRegion">reset_region</a></code> | *No description.* |
@@ -549,6 +563,20 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_gateway_configs` <a name="put_gateway_configs" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.putGatewayConfigs"></a>
+
+```python
+def put_gateway_configs(
+  value: IResolvable | typing.List[GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.putGatewayConfigs.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs</a>]
+
+---
+
 ##### `put_timeouts` <a name="put_timeouts" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.putTimeouts"></a>
 
 ```python
@@ -563,7 +591,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#create GoogleVertexAiSemanticGovernancePolicyEngine#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#create GoogleVertexAiSemanticGovernancePolicyEngine#create}.
 
 ---
 
@@ -571,7 +599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#delete GoogleVertexAiSemanticGovernancePolicyEngine#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#delete GoogleVertexAiSemanticGovernancePolicyEngine#delete}.
 
 ---
 
@@ -579,7 +607,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#update GoogleVertexAiSemanticGovernancePolicyEngine#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#update GoogleVertexAiSemanticGovernancePolicyEngine#update}.
 
 ---
 
@@ -587,6 +615,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def reset_deletion_policy() -> None
+```
+
+##### `reset_gateway_configs` <a name="reset_gateway_configs" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.resetGatewayConfigs"></a>
+
+```python
+def reset_gateway_configs() -> None
 ```
 
 ##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.resetId"></a>
@@ -727,7 +761,7 @@ The construct id used in the generated config for the GoogleVertexAiSemanticGove
 
 The id of the existing GoogleVertexAiSemanticGovernancePolicyEngine that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -758,6 +792,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.createTime">create_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.gatewayConfigs">gateway_configs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.ipAddress">ip_address</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.pscForwardingRule">psc_forwarding_rule</a></code> | <code>str</code> | *No description.* |
@@ -766,6 +801,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineTimeoutsOutputReference">GoogleVertexAiSemanticGovernancePolicyEngineTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.gatewayConfigsInput">gateway_configs_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.regionInput">region_input</a></code> | <code>str</code> | *No description.* |
@@ -929,6 +965,16 @@ create_time: str
 
 ---
 
+##### `gateway_configs`<sup>Required</sup> <a name="gateway_configs" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.gatewayConfigs"></a>
+
+```python
+gateway_configs: GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList</a>
+
+---
+
 ##### `ip_address`<sup>Required</sup> <a name="ip_address" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.ipAddress"></a>
 
 ```python
@@ -1006,6 +1052,16 @@ deletion_policy_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `gateway_configs_input`<sup>Optional</sup> <a name="gateway_configs_input" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngine.property.gatewayConfigsInput"></a>
+
+```python
+gateway_configs_input: IResolvable | typing.List[GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs</a>]
 
 ---
 
@@ -1125,6 +1181,7 @@ googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePol
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   deletion_policy: str = None,
+  gateway_configs: IResolvable | typing.List[GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs] = None,
   id: str = None,
   project: str = None,
   region: str = None,
@@ -1144,8 +1201,9 @@ googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePol
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#id GoogleVertexAiSemanticGovernancePolicyEngine#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#project GoogleVertexAiSemanticGovernancePolicyEngine#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineConfig.property.gatewayConfigs">gateway_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs</a>]</code> | gateway_configs block. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#id GoogleVertexAiSemanticGovernancePolicyEngine#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#project GoogleVertexAiSemanticGovernancePolicyEngine#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineConfig.property.region">region</a></code> | <code>str</code> | The region of the SemanticGovernancePolicyEngine, e.g. 'us-central1'. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineTimeouts">GoogleVertexAiSemanticGovernancePolicyEngineTimeouts</a></code> | timeouts block. |
 
@@ -1238,7 +1296,21 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#deletion_policy GoogleVertexAiSemanticGovernancePolicyEngine#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#deletion_policy GoogleVertexAiSemanticGovernancePolicyEngine#deletion_policy}
+
+---
+
+##### `gateway_configs`<sup>Optional</sup> <a name="gateway_configs" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineConfig.property.gatewayConfigs"></a>
+
+```python
+gateway_configs: IResolvable | typing.List[GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs</a>]
+
+gateway_configs block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#gateway_configs GoogleVertexAiSemanticGovernancePolicyEngine#gateway_configs}
 
 ---
 
@@ -1250,7 +1322,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#id GoogleVertexAiSemanticGovernancePolicyEngine#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#id GoogleVertexAiSemanticGovernancePolicyEngine#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1265,7 +1337,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#project GoogleVertexAiSemanticGovernancePolicyEngine#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#project GoogleVertexAiSemanticGovernancePolicyEngine#project}.
 
 ---
 
@@ -1279,7 +1351,7 @@ region: str
 
 The region of the SemanticGovernancePolicyEngine, e.g. 'us-central1'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#region GoogleVertexAiSemanticGovernancePolicyEngine#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#region GoogleVertexAiSemanticGovernancePolicyEngine#region}
 
 ---
 
@@ -1293,7 +1365,124 @@ timeouts: GoogleVertexAiSemanticGovernancePolicyEngineTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#timeouts GoogleVertexAiSemanticGovernancePolicyEngine#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#timeouts GoogleVertexAiSemanticGovernancePolicyEngine#timeouts}
+
+---
+
+### GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs <a name="GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_vertex_ai_semantic_governance_policy_engine
+
+googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs(
+  name: str,
+  allowed_projects: typing.List[str] = None,
+  dns_zone_name: str = None,
+  network: str = None,
+  subnetwork: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#name GoogleVertexAiSemanticGovernancePolicyEngine#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs.property.allowedProjects">allowed_projects</a></code> | <code>typing.List[str]</code> | Additional consumer projects permitted to attach their own PSC endpoint to this gateway's ServiceAttachment. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs.property.dnsZoneName">dns_zone_name</a></code> | <code>str</code> | The name of the private Cloud DNS managed zone in which the backend creates the DNS record set for this gateway's PSC endpoint. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs.property.network">network</a></code> | <code>str</code> | The URI of the network resource where the gateway's PSC endpoint is provisioned. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs.property.subnetwork">subnetwork</a></code> | <code>str</code> | The URI of the subnetwork resource where the gateway's PSC endpoint is provisioned. |
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#name GoogleVertexAiSemanticGovernancePolicyEngine#name}.
+
+---
+
+##### `allowed_projects`<sup>Optional</sup> <a name="allowed_projects" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs.property.allowedProjects"></a>
+
+```python
+allowed_projects: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Additional consumer projects permitted to attach their own PSC endpoint to this gateway's ServiceAttachment.
+
+This is the "decoupled" mode, where
+the customer creates the PSC endpoint in a project other than this
+gateway's network project. Each listed project is VPC-SC enforced: it
+must be within the caller's service perimeter. The owning
+SemanticGovernancePolicyEngine's own project is always permitted
+implicitly and need not be listed. Format: projects/{project} (ID or number).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#allowed_projects GoogleVertexAiSemanticGovernancePolicyEngine#allowed_projects}
+
+---
+
+##### `dns_zone_name`<sup>Optional</sup> <a name="dns_zone_name" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs.property.dnsZoneName"></a>
+
+```python
+dns_zone_name: str
+```
+
+- *Type:* str
+
+The name of the private Cloud DNS managed zone in which the backend creates the DNS record set for this gateway's PSC endpoint.
+
+This is the
+managed-zone resource name, not a fully-qualified domain name. The zone
+must already exist and be attached to the gateway's VPC at provision
+time. The name must match '^[a-z0-9.-]{1,63}$'. Must be set together
+with 'network' and 'subnetwork' (all three or none).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#dns_zone_name GoogleVertexAiSemanticGovernancePolicyEngine#dns_zone_name}
+
+---
+
+##### `network`<sup>Optional</sup> <a name="network" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs.property.network"></a>
+
+```python
+network: str
+```
+
+- *Type:* str
+
+The URI of the network resource where the gateway's PSC endpoint is provisioned.
+
+Format: projects/{project}/global/networks/{network}.
+'network', 'subnetwork', and 'dns_zone_name' must all be set together
+or all omitted; setting only some is rejected by the API.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#network GoogleVertexAiSemanticGovernancePolicyEngine#network}
+
+---
+
+##### `subnetwork`<sup>Optional</sup> <a name="subnetwork" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs.property.subnetwork"></a>
+
+```python
+subnetwork: str
+```
+
+- *Type:* str
+
+The URI of the subnetwork resource where the gateway's PSC endpoint is provisioned.
+
+Format:
+projects/{project}/regions/{region}/subnetworks/{subnetwork}. Must be
+set together with 'network' and 'dns_zone_name' (all three or none).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#subnetwork GoogleVertexAiSemanticGovernancePolicyEngine#subnetwork}
 
 ---
 
@@ -1315,9 +1504,9 @@ googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePol
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#create GoogleVertexAiSemanticGovernancePolicyEngine#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#delete GoogleVertexAiSemanticGovernancePolicyEngine#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#update GoogleVertexAiSemanticGovernancePolicyEngine#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#create GoogleVertexAiSemanticGovernancePolicyEngine#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#delete GoogleVertexAiSemanticGovernancePolicyEngine#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#update GoogleVertexAiSemanticGovernancePolicyEngine#update}. |
 
 ---
 
@@ -1329,7 +1518,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#create GoogleVertexAiSemanticGovernancePolicyEngine#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#create GoogleVertexAiSemanticGovernancePolicyEngine#create}.
 
 ---
 
@@ -1341,7 +1530,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#delete GoogleVertexAiSemanticGovernancePolicyEngine#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#delete GoogleVertexAiSemanticGovernancePolicyEngine#delete}.
 
 ---
 
@@ -1353,11 +1542,657 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_semantic_governance_policy_engine#update GoogleVertexAiSemanticGovernancePolicyEngine#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#update GoogleVertexAiSemanticGovernancePolicyEngine#update}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList <a name="GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_vertex_ai_semantic_governance_policy_engine
+
+googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs</a>]
+
+---
+
+
+### GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference <a name="GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_vertex_ai_semantic_governance_policy_engine
+
+googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.resetAllowedProjects">reset_allowed_projects</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.resetDnsZoneName">reset_dns_zone_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.resetNetwork">reset_network</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.resetSubnetwork">reset_subnetwork</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_allowed_projects` <a name="reset_allowed_projects" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.resetAllowedProjects"></a>
+
+```python
+def reset_allowed_projects() -> None
+```
+
+##### `reset_dns_zone_name` <a name="reset_dns_zone_name" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.resetDnsZoneName"></a>
+
+```python
+def reset_dns_zone_name() -> None
+```
+
+##### `reset_network` <a name="reset_network" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.resetNetwork"></a>
+
+```python
+def reset_network() -> None
+```
+
+##### `reset_subnetwork` <a name="reset_subnetwork" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.resetSubnetwork"></a>
+
+```python
+def reset_subnetwork() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.dnsRecord">dns_record</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.ipAddress">ip_address</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.pscEndpoint">psc_endpoint</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.state">state</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.allowedProjectsInput">allowed_projects_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.dnsZoneNameInput">dns_zone_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.networkInput">network_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.subnetworkInput">subnetwork_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.allowedProjects">allowed_projects</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.dnsZoneName">dns_zone_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.network">network</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.subnetwork">subnetwork</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `dns_record`<sup>Required</sup> <a name="dns_record" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.dnsRecord"></a>
+
+```python
+dns_record: str
+```
+
+- *Type:* str
+
+---
+
+##### `ip_address`<sup>Required</sup> <a name="ip_address" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.ipAddress"></a>
+
+```python
+ip_address: str
+```
+
+- *Type:* str
+
+---
+
+##### `psc_endpoint`<sup>Required</sup> <a name="psc_endpoint" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.pscEndpoint"></a>
+
+```python
+psc_endpoint: str
+```
+
+- *Type:* str
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.state"></a>
+
+```python
+state: str
+```
+
+- *Type:* str
+
+---
+
+##### `allowed_projects_input`<sup>Optional</sup> <a name="allowed_projects_input" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.allowedProjectsInput"></a>
+
+```python
+allowed_projects_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `dns_zone_name_input`<sup>Optional</sup> <a name="dns_zone_name_input" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.dnsZoneNameInput"></a>
+
+```python
+dns_zone_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.nameInput"></a>
+
+```python
+name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `network_input`<sup>Optional</sup> <a name="network_input" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.networkInput"></a>
+
+```python
+network_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `subnetwork_input`<sup>Optional</sup> <a name="subnetwork_input" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.subnetworkInput"></a>
+
+```python
+subnetwork_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `allowed_projects`<sup>Required</sup> <a name="allowed_projects" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.allowedProjects"></a>
+
+```python
+allowed_projects: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `dns_zone_name`<sup>Required</sup> <a name="dns_zone_name" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.dnsZoneName"></a>
+
+```python
+dns_zone_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `network`<sup>Required</sup> <a name="network" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.network"></a>
+
+```python
+network: str
+```
+
+- *Type:* str
+
+---
+
+##### `subnetwork`<sup>Required</sup> <a name="subnetwork" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.subnetwork"></a>
+
+```python
+subnetwork: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs">GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs</a>
+
+---
+
 
 ### GoogleVertexAiSemanticGovernancePolicyEngineTimeoutsOutputReference <a name="GoogleVertexAiSemanticGovernancePolicyEngineTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicyEngine.GoogleVertexAiSemanticGovernancePolicyEngineTimeoutsOutputReference"></a>
 

@@ -4,12 +4,12 @@
 
 ### GoogleMigrationCenterImportDataFile <a name="GoogleMigrationCenterImportDataFile" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file google_migration_center_import_data_file}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file google_migration_center_import_data_file}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportdatafile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportdatafile"
 
 googlemigrationcenterimportdatafile.NewGoogleMigrationCenterImportDataFile(scope Construct, id *string, config GoogleMigrationCenterImportDataFileConfig) GoogleMigrationCenterImportDataFile
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportdatafile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportdatafile"
 
 googlemigrationcenterimportdatafile.GoogleMigrationCenterImportDataFile_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportdatafile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportdatafile"
 
 googlemigrationcenterimportdatafile.GoogleMigrationCenterImportDataFile_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlemigrationcenterimportdatafile.GoogleMigrationCenterImportDataFile_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportdatafile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportdatafile"
 
 googlemigrationcenterimportdatafile.GoogleMigrationCenterImportDataFile_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlemigrationcenterimportdatafile.GoogleMigrationCenterImportDataFile_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportdatafile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportdatafile"
 
 googlemigrationcenterimportdatafile.GoogleMigrationCenterImportDataFile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleMigrationCenterImpor
 
 The id of the existing GoogleMigrationCenterImportDataFile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -979,7 +979,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportdatafile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportdatafile"
 
 &googlemigrationcenterimportdatafile.GoogleMigrationCenterImportDataFileConfig {
 	Connection: interface{},
@@ -997,7 +997,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts,
 }
 ```
 
@@ -1018,8 +1018,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.location">Location</a></code> | <code>*string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | User-friendly display name. Maximum length is 63 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts">GoogleMigrationCenterImportDataFileTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1104,7 +1104,7 @@ Format *string
 
 Possible values: IMPORT_JOB_FORMAT_RVTOOLS_XLSX IMPORT_JOB_FORMAT_RVTOOLS_CSV IMPORT_JOB_FORMAT_EXPORTED_AWS_CSV IMPORT_JOB_FORMAT_EXPORTED_AZURE_CSV IMPORT_JOB_FORMAT_STRATOZONE_CSV IMPORT_JOB_FORMAT_DATABASE_ZIP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#format GoogleMigrationCenterImportDataFile#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#format GoogleMigrationCenterImportDataFile#format}
 
 ---
 
@@ -1118,7 +1118,7 @@ ImportDataFileId *string
 
 The ID of the new data file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#import_data_file_id GoogleMigrationCenterImportDataFile#import_data_file_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#import_data_file_id GoogleMigrationCenterImportDataFile#import_data_file_id}
 
 ---
 
@@ -1132,7 +1132,7 @@ ImportJob *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#import_job GoogleMigrationCenterImportDataFile#import_job}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#import_job GoogleMigrationCenterImportDataFile#import_job}
 
 ---
 
@@ -1146,7 +1146,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#location GoogleMigrationCenterImportDataFile#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#location GoogleMigrationCenterImportDataFile#location}
 
 ---
 
@@ -1167,7 +1167,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#deletion_policy GoogleMigrationCenterImportDataFile#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#deletion_policy GoogleMigrationCenterImportDataFile#deletion_policy}
 
 ---
 
@@ -1181,7 +1181,7 @@ DisplayName *string
 
 User-friendly display name. Maximum length is 63 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#display_name GoogleMigrationCenterImportDataFile#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#display_name GoogleMigrationCenterImportDataFile#display_name}
 
 ---
 
@@ -1193,7 +1193,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1208,7 +1208,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}.
 
 ---
 
@@ -1222,7 +1222,7 @@ Timeouts GoogleMigrationCenterImportDataFileTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#timeouts GoogleMigrationCenterImportDataFile#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#timeouts GoogleMigrationCenterImportDataFile#timeouts}
 
 ---
 
@@ -1231,7 +1231,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportdatafile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportdatafile"
 
 &googlemigrationcenterimportdatafile.GoogleMigrationCenterImportDataFileTimeouts {
 	Create: *string,
@@ -1243,8 +1243,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#create GoogleMigrationCenterImportDataFile#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#delete GoogleMigrationCenterImportDataFile#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#create GoogleMigrationCenterImportDataFile#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#delete GoogleMigrationCenterImportDataFile#delete}. |
 
 ---
 
@@ -1256,7 +1256,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#create GoogleMigrationCenterImportDataFile#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#create GoogleMigrationCenterImportDataFile#create}.
 
 ---
 
@@ -1268,7 +1268,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_data_file#delete GoogleMigrationCenterImportDataFile#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_data_file#delete GoogleMigrationCenterImportDataFile#delete}.
 
 ---
 
@@ -1277,7 +1277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileUploadFileInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportdatafile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportdatafile"
 
 &googlemigrationcenterimportdatafile.GoogleMigrationCenterImportDataFileUploadFileInfo {
 
@@ -1292,7 +1292,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportdatafile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportdatafile"
 
 googlemigrationcenterimportdatafile.NewGoogleMigrationCenterImportDataFileTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMigrationCenterImportDataFileTimeoutsOutputReference
 ```
@@ -1599,7 +1599,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileUploadFileInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportdatafile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportdatafile"
 
 googlemigrationcenterimportdatafile.NewGoogleMigrationCenterImportDataFileUploadFileInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportDataFileUploadFileInfoList
 ```
@@ -1748,7 +1748,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileUploadFileInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportdatafile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportdatafile"
 
 googlemigrationcenterimportdatafile.NewGoogleMigrationCenterImportDataFileUploadFileInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportDataFileUploadFileInfoOutputReference
 ```

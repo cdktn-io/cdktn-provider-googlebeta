@@ -4,12 +4,12 @@
 
 ### GoogleAccessContextManagerAccessLevel <a name="GoogleAccessContextManagerAccessLevel" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level google_access_context_manager_access_level}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level google_access_context_manager_access_level}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevel(scope Construct, id *string, config GoogleAccessContextManagerAccessLevelConfig) GoogleAccessContextManagerAccessLevel
 ```
@@ -481,7 +481,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevel_IsConstruct(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevel_IsTerraformElement(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevel_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevel_IsTerraformResource(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevel_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -570,7 +570,7 @@ The construct id used in the generated config for the GoogleAccessContextManager
 
 The id of the existing GoogleAccessContextManagerAccessLevel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -968,7 +968,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 &googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevelBasic {
 	Conditions: interface{},
@@ -995,7 +995,7 @@ Conditions interface{}
 
 conditions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#conditions GoogleAccessContextManagerAccessLevel#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#conditions GoogleAccessContextManagerAccessLevel#conditions}
 
 ---
 
@@ -1014,7 +1014,7 @@ conditions must be satisfied for the AccessLevel to be applied. If
 OR is used, at least one Condition in conditions must be satisfied
 for the AccessLevel to be applied. Default value: "AND" Possible values: ["AND", "OR"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#combining_function GoogleAccessContextManagerAccessLevel#combining_function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#combining_function GoogleAccessContextManagerAccessLevel#combining_function}
 
 ---
 
@@ -1023,10 +1023,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 &googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevelBasicConditions {
-	DevicePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicy,
+	DevicePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicy,
 	IpSubnetworks: *[]*string,
 	Members: *[]*string,
 	Negate: interface{},
@@ -1060,7 +1060,7 @@ DevicePolicy GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicy
 
 device_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#device_policy GoogleAccessContextManagerAccessLevel#device_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#device_policy GoogleAccessContextManagerAccessLevel#device_policy}
 
 ---
 
@@ -1085,7 +1085,7 @@ is not. The originating IP of a request must be in one of the
 listed subnets in order for this Condition to be true.
 If empty, all IP addresses are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#ip_subnetworks GoogleAccessContextManagerAccessLevel#ip_subnetworks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#ip_subnetworks GoogleAccessContextManagerAccessLevel#ip_subnetworks}
 
 ---
 
@@ -1105,7 +1105,7 @@ from any user (logged in/not logged in, not present in any
 groups, etc.).
 Formats: 'user:{emailid}', 'serviceAccount:{emailid}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#members GoogleAccessContextManagerAccessLevel#members}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#members GoogleAccessContextManagerAccessLevel#members}
 
 ---
 
@@ -1123,7 +1123,7 @@ If true, the Condition becomes
 a NAND over its non-empty fields, each field must be false for
 the Condition overall to be satisfied. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#negate GoogleAccessContextManagerAccessLevel#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#negate GoogleAccessContextManagerAccessLevel#negate}
 
 ---
 
@@ -1137,7 +1137,7 @@ Regions *[]*string
 
 The request must originate from one of the provided countries/regions. Format: A valid ISO 3166-1 alpha-2 code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#regions GoogleAccessContextManagerAccessLevel#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#regions GoogleAccessContextManagerAccessLevel#regions}
 
 ---
 
@@ -1156,7 +1156,7 @@ does not exist is an error. All access levels listed must be
 granted for the Condition to be true.
 Format: accessPolicies/{policy_id}/accessLevels/{short_name}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#required_access_levels GoogleAccessContextManagerAccessLevel#required_access_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#required_access_levels GoogleAccessContextManagerAccessLevel#required_access_levels}
 
 ---
 
@@ -1170,7 +1170,7 @@ VpcNetworkSources interface{}
 
 vpc_network_sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#vpc_network_sources GoogleAccessContextManagerAccessLevel#vpc_network_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#vpc_network_sources GoogleAccessContextManagerAccessLevel#vpc_network_sources}
 
 ---
 
@@ -1179,7 +1179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 &googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicy {
 	AllowedDeviceManagementLevels: *[]*string,
@@ -1214,7 +1214,7 @@ AllowedDeviceManagementLevels *[]*string
 
 A list of allowed device management levels. An empty list allows all management levels. Possible values: ["MANAGEMENT_UNSPECIFIED", "NONE", "BASIC", "COMPLETE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#allowed_device_management_levels GoogleAccessContextManagerAccessLevel#allowed_device_management_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#allowed_device_management_levels GoogleAccessContextManagerAccessLevel#allowed_device_management_levels}
 
 ---
 
@@ -1228,7 +1228,7 @@ AllowedEncryptionStatuses *[]*string
 
 A list of allowed encryptions statuses. An empty list allows all statuses. Possible values: ["ENCRYPTION_UNSPECIFIED", "ENCRYPTION_UNSUPPORTED", "UNENCRYPTED", "ENCRYPTED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#allowed_encryption_statuses GoogleAccessContextManagerAccessLevel#allowed_encryption_statuses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#allowed_encryption_statuses GoogleAccessContextManagerAccessLevel#allowed_encryption_statuses}
 
 ---
 
@@ -1242,7 +1242,7 @@ OsConstraints interface{}
 
 os_constraints block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#os_constraints GoogleAccessContextManagerAccessLevel#os_constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#os_constraints GoogleAccessContextManagerAccessLevel#os_constraints}
 
 ---
 
@@ -1256,7 +1256,7 @@ RequireAdminApproval interface{}
 
 Whether the device needs to be approved by the customer admin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#require_admin_approval GoogleAccessContextManagerAccessLevel#require_admin_approval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#require_admin_approval GoogleAccessContextManagerAccessLevel#require_admin_approval}
 
 ---
 
@@ -1270,7 +1270,7 @@ RequireCorpOwned interface{}
 
 Whether the device needs to be corp owned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#require_corp_owned GoogleAccessContextManagerAccessLevel#require_corp_owned}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#require_corp_owned GoogleAccessContextManagerAccessLevel#require_corp_owned}
 
 ---
 
@@ -1284,7 +1284,7 @@ RequireScreenLock interface{}
 
 Whether or not screenlock is required for the DevicePolicy to be true. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#require_screen_lock GoogleAccessContextManagerAccessLevel#require_screen_lock}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#require_screen_lock GoogleAccessContextManagerAccessLevel#require_screen_lock}
 
 ---
 
@@ -1293,7 +1293,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOsConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 &googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOsConstraints {
 	OsType: *string,
@@ -1322,7 +1322,7 @@ OsType *string
 
 The operating system type of the device. Possible values: ["OS_UNSPECIFIED", "DESKTOP_MAC", "DESKTOP_WINDOWS", "DESKTOP_LINUX", "DESKTOP_CHROME_OS", "ANDROID", "IOS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#os_type GoogleAccessContextManagerAccessLevel#os_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#os_type GoogleAccessContextManagerAccessLevel#os_type}
 
 ---
 
@@ -1340,7 +1340,7 @@ If not set, any version
 of this OS satisfies the constraint.
 Format: "major.minor.patch" such as "10.5.301", "9.2.1".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#minimum_version GoogleAccessContextManagerAccessLevel#minimum_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#minimum_version GoogleAccessContextManagerAccessLevel#minimum_version}
 
 ---
 
@@ -1354,7 +1354,7 @@ RequireVerifiedChromeOs interface{}
 
 If you specify DESKTOP_CHROME_OS for osType, you can optionally include requireVerifiedChromeOs to require Chrome Verified Access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#require_verified_chrome_os GoogleAccessContextManagerAccessLevel#require_verified_chrome_os}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#require_verified_chrome_os GoogleAccessContextManagerAccessLevel#require_verified_chrome_os}
 
 ---
 
@@ -1363,10 +1363,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 &googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSources {
-	VpcSubnetwork: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesVpcSubnetwork,
+	VpcSubnetwork: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesVpcSubnetwork,
 }
 ```
 
@@ -1388,7 +1388,7 @@ VpcSubnetwork GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSour
 
 vpc_subnetwork block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#vpc_subnetwork GoogleAccessContextManagerAccessLevel#vpc_subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#vpc_subnetwork GoogleAccessContextManagerAccessLevel#vpc_subnetwork}
 
 ---
 
@@ -1397,7 +1397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesVpcSubnetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 &googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesVpcSubnetwork {
 	Network: *string,
@@ -1426,7 +1426,7 @@ Required.
 
 Network name to be allowed by this Access Level. Networks of foreign organizations requires 'compute.network.get' permission to be granted to caller.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#network GoogleAccessContextManagerAccessLevel#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#network GoogleAccessContextManagerAccessLevel#network}
 
 ---
 
@@ -1440,7 +1440,7 @@ VpcIpSubnetworks *[]*string
 
 A list of CIDR block IP subnetwork specification. Must be IPv4.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#vpc_ip_subnetworks GoogleAccessContextManagerAccessLevel#vpc_ip_subnetworks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#vpc_ip_subnetworks GoogleAccessContextManagerAccessLevel#vpc_ip_subnetworks}
 
 ---
 
@@ -1449,7 +1449,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 &googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevelConfig {
 	Connection: interface{},
@@ -1462,12 +1462,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleac
 	Name: *string,
 	Parent: *string,
 	Title: *string,
-	Basic: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasic,
-	Custom: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelCustom,
+	Basic: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasic,
+	Custom: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelCustom,
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelTimeouts,
 }
 ```
 
@@ -1489,7 +1489,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleac
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelConfig.property.custom">Custom</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelCustom">GoogleAccessContextManagerAccessLevelCustom</a></code> | custom block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelConfig.property.description">Description</a></code> | <code>*string</code> | Description of the AccessLevel and its use. Does not affect behavior. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#id GoogleAccessContextManagerAccessLevel#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#id GoogleAccessContextManagerAccessLevel#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelTimeouts">GoogleAccessContextManagerAccessLevelTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1578,7 +1578,7 @@ The short_name component must begin
 with a letter and only include alphanumeric and '_'.
 Format: accessPolicies/{policy_id}/accessLevels/{short_name}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#name GoogleAccessContextManagerAccessLevel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#name GoogleAccessContextManagerAccessLevel#name}
 
 ---
 
@@ -1592,7 +1592,7 @@ Parent *string
 
 The AccessPolicy this AccessLevel lives in. Format: accessPolicies/{policy_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#parent GoogleAccessContextManagerAccessLevel#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#parent GoogleAccessContextManagerAccessLevel#parent}
 
 ---
 
@@ -1606,7 +1606,7 @@ Title *string
 
 Human readable title. Must be unique within the Policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#title GoogleAccessContextManagerAccessLevel#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#title GoogleAccessContextManagerAccessLevel#title}
 
 ---
 
@@ -1620,7 +1620,7 @@ Basic GoogleAccessContextManagerAccessLevelBasic
 
 basic block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#basic GoogleAccessContextManagerAccessLevel#basic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#basic GoogleAccessContextManagerAccessLevel#basic}
 
 ---
 
@@ -1634,7 +1634,7 @@ Custom GoogleAccessContextManagerAccessLevelCustom
 
 custom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#custom GoogleAccessContextManagerAccessLevel#custom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#custom GoogleAccessContextManagerAccessLevel#custom}
 
 ---
 
@@ -1655,7 +1655,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#deletion_policy GoogleAccessContextManagerAccessLevel#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#deletion_policy GoogleAccessContextManagerAccessLevel#deletion_policy}
 
 ---
 
@@ -1669,7 +1669,7 @@ Description *string
 
 Description of the AccessLevel and its use. Does not affect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#description GoogleAccessContextManagerAccessLevel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#description GoogleAccessContextManagerAccessLevel#description}
 
 ---
 
@@ -1681,7 +1681,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#id GoogleAccessContextManagerAccessLevel#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#id GoogleAccessContextManagerAccessLevel#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1698,7 +1698,7 @@ Timeouts GoogleAccessContextManagerAccessLevelTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#timeouts GoogleAccessContextManagerAccessLevel#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#timeouts GoogleAccessContextManagerAccessLevel#timeouts}
 
 ---
 
@@ -1707,10 +1707,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelCustom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 &googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevelCustom {
-	Expr: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelCustomExpr,
+	Expr: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelCustomExpr,
 }
 ```
 
@@ -1732,7 +1732,7 @@ Expr GoogleAccessContextManagerAccessLevelCustomExpr
 
 expr block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#expr GoogleAccessContextManagerAccessLevel#expr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#expr GoogleAccessContextManagerAccessLevel#expr}
 
 ---
 
@@ -1741,7 +1741,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelCustomExpr.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 &googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevelCustomExpr {
 	Expression: *string,
@@ -1772,7 +1772,7 @@ Expression *string
 
 Textual representation of an expression in Common Expression Language syntax.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#expression GoogleAccessContextManagerAccessLevel#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#expression GoogleAccessContextManagerAccessLevel#expression}
 
 ---
 
@@ -1786,7 +1786,7 @@ Description *string
 
 Description of the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#description GoogleAccessContextManagerAccessLevel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#description GoogleAccessContextManagerAccessLevel#description}
 
 ---
 
@@ -1800,7 +1800,7 @@ Location *string
 
 String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#location GoogleAccessContextManagerAccessLevel#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#location GoogleAccessContextManagerAccessLevel#location}
 
 ---
 
@@ -1814,7 +1814,7 @@ Title *string
 
 Title for the expression, i.e. a short string describing its purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#title GoogleAccessContextManagerAccessLevel#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#title GoogleAccessContextManagerAccessLevel#title}
 
 ---
 
@@ -1823,7 +1823,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 &googleaccesscontextmanageraccesslevel.GoogleAccessContextManagerAccessLevelTimeouts {
 	Create: *string,
@@ -1836,9 +1836,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleac
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#create GoogleAccessContextManagerAccessLevel#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#delete GoogleAccessContextManagerAccessLevel#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#update GoogleAccessContextManagerAccessLevel#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#create GoogleAccessContextManagerAccessLevel#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#delete GoogleAccessContextManagerAccessLevel#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#update GoogleAccessContextManagerAccessLevel#update}. |
 
 ---
 
@@ -1850,7 +1850,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#create GoogleAccessContextManagerAccessLevel#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#create GoogleAccessContextManagerAccessLevel#create}.
 
 ---
 
@@ -1862,7 +1862,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#delete GoogleAccessContextManagerAccessLevel#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#delete GoogleAccessContextManagerAccessLevel#delete}.
 
 ---
 
@@ -1874,7 +1874,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_access_level#update GoogleAccessContextManagerAccessLevel#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_access_level#update GoogleAccessContextManagerAccessLevel#update}.
 
 ---
 
@@ -1885,7 +1885,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOsConstraintsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOsConstraintsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOsConstraintsList
 ```
@@ -2045,7 +2045,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOsConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOsConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOsConstraintsOutputReference
 ```
@@ -2392,7 +2392,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference
 ```
@@ -2828,7 +2828,7 @@ func InternalValue() GoogleAccessContextManagerAccessLevelBasicConditionsDeviceP
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelBasicConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAccessContextManagerAccessLevelBasicConditionsList
 ```
@@ -2988,7 +2988,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelBasicConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAccessContextManagerAccessLevelBasicConditionsOutputReference
 ```
@@ -3484,7 +3484,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesList
 ```
@@ -3644,7 +3644,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesOutputReference
 ```
@@ -3953,7 +3953,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesVpcSubnetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesVpcSubnetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesVpcSubnetworkOutputReference
 ```
@@ -4253,7 +4253,7 @@ func InternalValue() GoogleAccessContextManagerAccessLevelBasicConditionsVpcNetw
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelBasicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerAccessLevelBasicOutputReference
 ```
@@ -4566,7 +4566,7 @@ func InternalValue() GoogleAccessContextManagerAccessLevelBasic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelCustomExprOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelCustomExprOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerAccessLevelCustomExprOutputReference
 ```
@@ -4924,7 +4924,7 @@ func InternalValue() GoogleAccessContextManagerAccessLevelCustomExpr
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelCustomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelCustomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerAccessLevelCustomOutputReference
 ```
@@ -5208,7 +5208,7 @@ func InternalValue() GoogleAccessContextManagerAccessLevelCustom
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanageraccesslevel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanageraccesslevel"
 
 googleaccesscontextmanageraccesslevel.NewGoogleAccessContextManagerAccessLevelTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerAccessLevelTimeoutsOutputReference
 ```

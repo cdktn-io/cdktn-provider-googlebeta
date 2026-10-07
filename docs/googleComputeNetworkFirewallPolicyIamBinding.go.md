@@ -4,12 +4,12 @@
 
 ### GoogleComputeNetworkFirewallPolicyIamBinding <a name="GoogleComputeNetworkFirewallPolicyIamBinding" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputenetworkfirewallpolicyiambinding"
 
 googlecomputenetworkfirewallpolicyiambinding.NewGoogleComputeNetworkFirewallPolicyIamBinding(scope Construct, id *string, config GoogleComputeNetworkFirewallPolicyIamBindingConfig) GoogleComputeNetworkFirewallPolicyIamBinding
 ```
@@ -434,7 +434,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputenetworkfirewallpolicyiambinding"
 
 googlecomputenetworkfirewallpolicyiambinding.GoogleComputeNetworkFirewallPolicyIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputenetworkfirewallpolicyiambinding"
 
 googlecomputenetworkfirewallpolicyiambinding.GoogleComputeNetworkFirewallPolicyIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlecomputenetworkfirewallpolicyiambinding.GoogleComputeNetworkFirewallPolicyI
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputenetworkfirewallpolicyiambinding"
 
 googlecomputenetworkfirewallpolicyiambinding.GoogleComputeNetworkFirewallPolicyIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlecomputenetworkfirewallpolicyiambinding.GoogleComputeNetworkFirewallPolicyI
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputenetworkfirewallpolicyiambinding"
 
 googlecomputenetworkfirewallpolicyiambinding.GoogleComputeNetworkFirewallPolicyIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleComputeNetworkFirewa
 
 The id of the existing GoogleComputeNetworkFirewallPolicyIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -866,7 +866,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputenetworkfirewallpolicyiambinding"
 
 &googlecomputenetworkfirewallpolicyiambinding.GoogleComputeNetworkFirewallPolicyIamBindingCondition {
 	Expression: *string,
@@ -879,9 +879,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#expression GoogleComputeNetworkFirewallPolicyIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#title GoogleComputeNetworkFirewallPolicyIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#description GoogleComputeNetworkFirewallPolicyIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#expression GoogleComputeNetworkFirewallPolicyIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#title GoogleComputeNetworkFirewallPolicyIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#description GoogleComputeNetworkFirewallPolicyIamBinding#description}. |
 
 ---
 
@@ -893,7 +893,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#expression GoogleComputeNetworkFirewallPolicyIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#expression GoogleComputeNetworkFirewallPolicyIamBinding#expression}.
 
 ---
 
@@ -905,7 +905,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#title GoogleComputeNetworkFirewallPolicyIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#title GoogleComputeNetworkFirewallPolicyIamBinding#title}.
 
 ---
 
@@ -917,7 +917,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#description GoogleComputeNetworkFirewallPolicyIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#description GoogleComputeNetworkFirewallPolicyIamBinding#description}.
 
 ---
 
@@ -926,7 +926,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputenetworkfirewallpolicyiambinding"
 
 &googlecomputenetworkfirewallpolicyiambinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig {
 	Connection: interface{},
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 	Members: *[]*string,
 	Name: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingCondition,
 	Id: *string,
 	Project: *string,
 }
@@ -956,12 +956,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#members GoogleComputeNetworkFirewallPolicyIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#name GoogleComputeNetworkFirewallPolicyIamBinding#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#role GoogleComputeNetworkFirewallPolicyIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#members GoogleComputeNetworkFirewallPolicyIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#name GoogleComputeNetworkFirewallPolicyIamBinding#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#role GoogleComputeNetworkFirewallPolicyIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingCondition">GoogleComputeNetworkFirewallPolicyIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#id GoogleComputeNetworkFirewallPolicyIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#project GoogleComputeNetworkFirewallPolicyIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#id GoogleComputeNetworkFirewallPolicyIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#project GoogleComputeNetworkFirewallPolicyIamBinding#project}. |
 
 ---
 
@@ -1043,7 +1043,7 @@ Members *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#members GoogleComputeNetworkFirewallPolicyIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#members GoogleComputeNetworkFirewallPolicyIamBinding#members}.
 
 ---
 
@@ -1055,7 +1055,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#name GoogleComputeNetworkFirewallPolicyIamBinding#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#name GoogleComputeNetworkFirewallPolicyIamBinding#name}.
 
 ---
 
@@ -1067,7 +1067,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#role GoogleComputeNetworkFirewallPolicyIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#role GoogleComputeNetworkFirewallPolicyIamBinding#role}.
 
 ---
 
@@ -1081,7 +1081,7 @@ Condition GoogleComputeNetworkFirewallPolicyIamBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#condition GoogleComputeNetworkFirewallPolicyIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#condition GoogleComputeNetworkFirewallPolicyIamBinding#condition}
 
 ---
 
@@ -1093,7 +1093,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#id GoogleComputeNetworkFirewallPolicyIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#id GoogleComputeNetworkFirewallPolicyIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1108,7 +1108,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_binding#project GoogleComputeNetworkFirewallPolicyIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_network_firewall_policy_iam_binding#project GoogleComputeNetworkFirewallPolicyIamBinding#project}.
 
 ---
 
@@ -1119,7 +1119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamBinding.GoogleComputeNetworkFirewallPolicyIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputenetworkfirewallpolicyiambinding"
 
 googlecomputenetworkfirewallpolicyiambinding.NewGoogleComputeNetworkFirewallPolicyIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeNetworkFirewallPolicyIamBindingConditionOutputReference
 ```

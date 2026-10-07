@@ -4,12 +4,12 @@
 
 ### GoogleFirebaseAppHostingDomain <a name="GoogleFirebaseAppHostingDomain" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain google_firebase_app_hosting_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain google_firebase_app_hosting_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomain(scope Construct, id *string, config GoogleFirebaseAppHostingDomainConfig) GoogleFirebaseAppHostingDomain
 ```
@@ -461,7 +461,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomain_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomain_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomain_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomain_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the GoogleFirebaseAppHostingDo
 
 The id of the existing GoogleFirebaseAppHostingDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1014,7 +1014,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainConfig {
 	Connection: interface{},
@@ -1030,8 +1030,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
-	Serve: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainServe,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainTimeouts,
+	Serve: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainServe,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainTimeouts,
 }
 ```
 
@@ -1050,8 +1050,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainConfig.property.domainId">DomainId</a></code> | <code>*string</code> | Id of the domain to create. Must be a valid domain name, such as "foo.com". |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainConfig.property.location">Location</a></code> | <code>*string</code> | The location of the Backend that this Domain is associated with. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#id GoogleFirebaseAppHostingDomain#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#project GoogleFirebaseAppHostingDomain#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#id GoogleFirebaseAppHostingDomain#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#project GoogleFirebaseAppHostingDomain#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainConfig.property.serve">Serve</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainServe">GoogleFirebaseAppHostingDomainServe</a></code> | serve block. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainTimeouts">GoogleFirebaseAppHostingDomainTimeouts</a></code> | timeouts block. |
 
@@ -1137,7 +1137,7 @@ Backend *string
 
 The ID of the Backend that this Domain is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#backend GoogleFirebaseAppHostingDomain#backend}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#backend GoogleFirebaseAppHostingDomain#backend}
 
 ---
 
@@ -1151,7 +1151,7 @@ DomainId *string
 
 Id of the domain to create. Must be a valid domain name, such as "foo.com".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#domain_id GoogleFirebaseAppHostingDomain#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#domain_id GoogleFirebaseAppHostingDomain#domain_id}
 
 ---
 
@@ -1165,7 +1165,7 @@ Location *string
 
 The location of the Backend that this Domain is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#location GoogleFirebaseAppHostingDomain#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#location GoogleFirebaseAppHostingDomain#location}
 
 ---
 
@@ -1186,7 +1186,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#deletion_policy GoogleFirebaseAppHostingDomain#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#deletion_policy GoogleFirebaseAppHostingDomain#deletion_policy}
 
 ---
 
@@ -1198,7 +1198,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#id GoogleFirebaseAppHostingDomain#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#id GoogleFirebaseAppHostingDomain#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1213,7 +1213,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#project GoogleFirebaseAppHostingDomain#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#project GoogleFirebaseAppHostingDomain#project}.
 
 ---
 
@@ -1227,7 +1227,7 @@ Serve GoogleFirebaseAppHostingDomainServe
 
 serve block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#serve GoogleFirebaseAppHostingDomain#serve}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#serve GoogleFirebaseAppHostingDomain#serve}
 
 ---
 
@@ -1241,7 +1241,7 @@ Timeouts GoogleFirebaseAppHostingDomainTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#timeouts GoogleFirebaseAppHostingDomain#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#timeouts GoogleFirebaseAppHostingDomain#timeouts}
 
 ---
 
@@ -1250,7 +1250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainCustomDomainStatus {
 
@@ -1263,7 +1263,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusIssues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainCustomDomainStatusIssues {
 
@@ -1276,7 +1276,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdates {
 
@@ -1289,7 +1289,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesired.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesired {
 
@@ -1302,7 +1302,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredCheckError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredCheckError {
 
@@ -1315,7 +1315,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredRecords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredRecords {
 
@@ -1328,7 +1328,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscovered.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscovered {
 
@@ -1341,7 +1341,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredCheckError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredCheckError {
 
@@ -1354,7 +1354,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredRecords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredRecords {
 
@@ -1367,10 +1367,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainServe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainServe {
-	Redirect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainServeRedirect,
+	Redirect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainServeRedirect,
 }
 ```
 
@@ -1392,7 +1392,7 @@ Redirect GoogleFirebaseAppHostingDomainServeRedirect
 
 redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#redirect GoogleFirebaseAppHostingDomain#redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#redirect GoogleFirebaseAppHostingDomain#redirect}
 
 ---
 
@@ -1401,7 +1401,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainServeRedirect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainServeRedirect {
 	Uri: *string,
@@ -1432,7 +1432,7 @@ This URI will be
 prepended to the original request path. URI without a scheme are
 assumed to be HTTPS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#uri GoogleFirebaseAppHostingDomain#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#uri GoogleFirebaseAppHostingDomain#uri}
 
 ---
 
@@ -1449,7 +1449,7 @@ The status code to use in a redirect response.
 Must be a valid HTTP 3XX
 status code. Defaults to 302 if not present.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#status GoogleFirebaseAppHostingDomain#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#status GoogleFirebaseAppHostingDomain#status}
 
 ---
 
@@ -1458,7 +1458,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 &googlefirebaseapphostingdomain.GoogleFirebaseAppHostingDomainTimeouts {
 	Create: *string,
@@ -1471,9 +1471,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#create GoogleFirebaseAppHostingDomain#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#delete GoogleFirebaseAppHostingDomain#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#update GoogleFirebaseAppHostingDomain#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#create GoogleFirebaseAppHostingDomain#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#delete GoogleFirebaseAppHostingDomain#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#update GoogleFirebaseAppHostingDomain#update}. |
 
 ---
 
@@ -1485,7 +1485,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#create GoogleFirebaseAppHostingDomain#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#create GoogleFirebaseAppHostingDomain#create}.
 
 ---
 
@@ -1497,7 +1497,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#delete GoogleFirebaseAppHostingDomain#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#delete GoogleFirebaseAppHostingDomain#delete}.
 
 ---
 
@@ -1509,7 +1509,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_hosting_domain#update GoogleFirebaseAppHostingDomain#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_hosting_domain#update GoogleFirebaseAppHostingDomain#update}.
 
 ---
 
@@ -1520,7 +1520,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusIssuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusIssuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusIssuesList
 ```
@@ -1669,7 +1669,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusIssuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusIssuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusIssuesOutputReference
 ```
@@ -1969,7 +1969,7 @@ func InternalValue() GoogleFirebaseAppHostingDomainCustomDomainStatusIssues
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusList
 ```
@@ -2118,7 +2118,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusOutputReference
 ```
@@ -2440,7 +2440,7 @@ func InternalValue() GoogleFirebaseAppHostingDomainCustomDomainStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredCheckErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredCheckErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredCheckErrorList
 ```
@@ -2589,7 +2589,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredCheckErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredCheckErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredCheckErrorOutputReference
 ```
@@ -2889,7 +2889,7 @@ func InternalValue() GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDns
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredList
 ```
@@ -3038,7 +3038,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredOutputReference
 ```
@@ -3338,7 +3338,7 @@ func InternalValue() GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDns
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredRecordsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredRecordsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredRecordsList
 ```
@@ -3487,7 +3487,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredRecordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredRecordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDesiredRecordsOutputReference
 ```
@@ -3809,7 +3809,7 @@ func InternalValue() GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDns
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredCheckErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredCheckErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredCheckErrorList
 ```
@@ -3958,7 +3958,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredCheckErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredCheckErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredCheckErrorOutputReference
 ```
@@ -4258,7 +4258,7 @@ func InternalValue() GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDns
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredList
 ```
@@ -4407,7 +4407,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredOutputReference
 ```
@@ -4707,7 +4707,7 @@ func InternalValue() GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDns
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredRecordsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredRecordsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredRecordsList
 ```
@@ -4856,7 +4856,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredRecordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredRecordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredRecordsOutputReference
 ```
@@ -5178,7 +5178,7 @@ func InternalValue() GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDns
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesList
 ```
@@ -5327,7 +5327,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesOutputReference
 ```
@@ -5638,7 +5638,7 @@ func InternalValue() GoogleFirebaseAppHostingDomainCustomDomainStatusRequiredDns
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainServeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainServeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAppHostingDomainServeOutputReference
 ```
@@ -5929,7 +5929,7 @@ func InternalValue() GoogleFirebaseAppHostingDomainServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainServeRedirectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainServeRedirectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAppHostingDomainServeRedirectOutputReference
 ```
@@ -6229,7 +6229,7 @@ func InternalValue() GoogleFirebaseAppHostingDomainServeRedirect
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomainTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseapphostingdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseapphostingdomain"
 
 googlefirebaseapphostingdomain.NewGoogleFirebaseAppHostingDomainTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAppHostingDomainTimeoutsOutputReference
 ```
