@@ -4,12 +4,12 @@
 
 ### GoogleOsConfigV2PolicyOrchestratorForFolder <a name="GoogleOsConfigV2PolicyOrchestratorForFolder" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolder(scope Construct, id *string, config GoogleOsConfigV2PolicyOrchestratorForFolderConfig) GoogleOsConfigV2PolicyOrchestratorForFolder
 ```
@@ -488,7 +488,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolder_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolder_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorFo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolder_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorFo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolder_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the GoogleOsConfigV2PolicyOrch
 
 The id of the existing GoogleOsConfigV2PolicyOrchestratorForFolder that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1107,7 +1107,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderConfig {
 	Connection: interface{},
@@ -1119,15 +1119,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleos
 	Provisioners: *[]interface{},
 	Action: *string,
 	FolderId: *string,
-	OrchestratedResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource,
+	OrchestratedResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource,
 	PolicyOrchestratorId: *string,
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
-	OrchestrationScope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope,
+	OrchestrationScope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope,
 	State: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts,
 }
 ```
 
@@ -1148,7 +1148,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleos
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderConfig.property.policyOrchestratorId">PolicyOrchestratorId</a></code> | <code>*string</code> | The logical identifier of the policy orchestrator, with the following restrictions:. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderConfig.property.description">Description</a></code> | <code>*string</code> | Freeform text describing the purpose of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Labels as key value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderConfig.property.orchestrationScope">OrchestrationScope</a></code> | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope">GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope</a></code> | orchestration_scope block. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderConfig.property.state">State</a></code> | <code>*string</code> | State of the orchestrator. |
@@ -1241,7 +1241,7 @@ Allowed values:
 * 'UPSERT' - Orchestrator will create or update target resources.
 * 'DELETE' - Orchestrator will delete target resources, if they exist
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#action GoogleOsConfigV2PolicyOrchestratorForFolder#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#action GoogleOsConfigV2PolicyOrchestratorForFolder#action}
 
 ---
 
@@ -1255,7 +1255,7 @@ FolderId *string
 
 The parent resource name in the form of 'folders/{folder_id}/locations/global'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#folder_id GoogleOsConfigV2PolicyOrchestratorForFolder#folder_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#folder_id GoogleOsConfigV2PolicyOrchestratorForFolder#folder_id}
 
 ---
 
@@ -1269,7 +1269,7 @@ OrchestratedResource GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 
 orchestrated_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#orchestrated_resource GoogleOsConfigV2PolicyOrchestratorForFolder#orchestrated_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#orchestrated_resource GoogleOsConfigV2PolicyOrchestratorForFolder#orchestrated_resource}
 
 ---
 
@@ -1289,7 +1289,7 @@ The logical identifier of the policy orchestrator, with the following restrictio
 * Must end with a number or a letter.
 * Must be unique within the parent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#policy_orchestrator_id GoogleOsConfigV2PolicyOrchestratorForFolder#policy_orchestrator_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#policy_orchestrator_id GoogleOsConfigV2PolicyOrchestratorForFolder#policy_orchestrator_id}
 
 ---
 
@@ -1310,7 +1310,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#deletion_policy GoogleOsConfigV2PolicyOrchestratorForFolder#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#deletion_policy GoogleOsConfigV2PolicyOrchestratorForFolder#deletion_policy}
 
 ---
 
@@ -1324,7 +1324,7 @@ Description *string
 
 Freeform text describing the purpose of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
 
 ---
 
@@ -1336,7 +1336,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1356,7 +1356,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
 
 ---
 
@@ -1370,7 +1370,7 @@ OrchestrationScope GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope
 
 orchestration_scope block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#orchestration_scope GoogleOsConfigV2PolicyOrchestratorForFolder#orchestration_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#orchestration_scope GoogleOsConfigV2PolicyOrchestratorForFolder#orchestration_scope}
 
 ---
 
@@ -1394,7 +1394,7 @@ Note: There might be more states added in the future. We use string here
 instead of an enum, to avoid the need of propagating new states to all the
 client code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#state GoogleOsConfigV2PolicyOrchestratorForFolder#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#state GoogleOsConfigV2PolicyOrchestratorForFolder#state}
 
 ---
 
@@ -1408,7 +1408,7 @@ Timeouts GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#timeouts GoogleOsConfigV2PolicyOrchestratorForFolder#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#timeouts GoogleOsConfigV2PolicyOrchestratorForFolder#timeouts}
 
 ---
 
@@ -1417,11 +1417,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource {
 	Id: *string,
-	OsPolicyAssignmentV1Payload: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1Payload,
+	OsPolicyAssignmentV1Payload: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1Payload,
 }
 ```
 
@@ -1457,7 +1457,7 @@ restrictions:
 For DELETE action, ID must be specified explicitly during
 PolicyOrchestrator creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1474,7 +1474,7 @@ OsPolicyAssignmentV1Payload GoogleOsConfigV2PolicyOrchestratorForFolderOrchestra
 
 os_policy_assignment_v1_payload block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_policy_assignment_v1_payload GoogleOsConfigV2PolicyOrchestratorForFolder#os_policy_assignment_v1_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_policy_assignment_v1_payload GoogleOsConfigV2PolicyOrchestratorForFolder#os_policy_assignment_v1_payload}
 
 ---
 
@@ -1483,12 +1483,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1Payload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1Payload {
-	InstanceFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilter,
+	InstanceFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilter,
 	OsPolicies: interface{},
-	Rollout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRollout,
+	Rollout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRollout,
 	Description: *string,
 	Name: *string,
 }
@@ -1516,7 +1516,7 @@ InstanceFilter GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOs
 
 instance_filter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#instance_filter GoogleOsConfigV2PolicyOrchestratorForFolder#instance_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#instance_filter GoogleOsConfigV2PolicyOrchestratorForFolder#instance_filter}
 
 ---
 
@@ -1530,7 +1530,7 @@ OsPolicies interface{}
 
 os_policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_policies GoogleOsConfigV2PolicyOrchestratorForFolder#os_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_policies GoogleOsConfigV2PolicyOrchestratorForFolder#os_policies}
 
 ---
 
@@ -1544,7 +1544,7 @@ Rollout GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyA
 
 rollout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#rollout GoogleOsConfigV2PolicyOrchestratorForFolder#rollout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#rollout GoogleOsConfigV2PolicyOrchestratorForFolder#rollout}
 
 ---
 
@@ -1558,7 +1558,7 @@ Description *string
 
 OS policy assignment description. Length of the description is limited to 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
 
 ---
 
@@ -1577,7 +1577,7 @@ Format:
 
 This field is ignored when you create an OS policy assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
 
 ---
 
@@ -1586,7 +1586,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilter {
 	All: interface{},
@@ -1617,7 +1617,7 @@ All interface{}
 
 Target all VMs in the project. If true, no other criteria is permitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#all GoogleOsConfigV2PolicyOrchestratorForFolder#all}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#all GoogleOsConfigV2PolicyOrchestratorForFolder#all}
 
 ---
 
@@ -1631,7 +1631,7 @@ ExclusionLabels interface{}
 
 exclusion_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#exclusion_labels GoogleOsConfigV2PolicyOrchestratorForFolder#exclusion_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#exclusion_labels GoogleOsConfigV2PolicyOrchestratorForFolder#exclusion_labels}
 
 ---
 
@@ -1645,7 +1645,7 @@ InclusionLabels interface{}
 
 inclusion_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inclusion_labels GoogleOsConfigV2PolicyOrchestratorForFolder#inclusion_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inclusion_labels GoogleOsConfigV2PolicyOrchestratorForFolder#inclusion_labels}
 
 ---
 
@@ -1659,7 +1659,7 @@ Inventories interface{}
 
 inventories block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inventories GoogleOsConfigV2PolicyOrchestratorForFolder#inventories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inventories GoogleOsConfigV2PolicyOrchestratorForFolder#inventories}
 
 ---
 
@@ -1668,7 +1668,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabels {
 	Labels: *map[string]*string,
@@ -1696,7 +1696,7 @@ Labels are identified by key/value pairs in this map.
 A VM should contain all the key/value pairs specified in this
 map to be selected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
 
 ---
 
@@ -1705,7 +1705,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabels {
 	Labels: *map[string]*string,
@@ -1733,7 +1733,7 @@ Labels are identified by key/value pairs in this map.
 A VM should contain all the key/value pairs specified in this
 map to be selected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
 
 ---
 
@@ -1742,7 +1742,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventories {
 	OsShortName: *string,
@@ -1769,7 +1769,7 @@ OsShortName *string
 
 The OS short name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_short_name GoogleOsConfigV2PolicyOrchestratorForFolder#os_short_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_short_name GoogleOsConfigV2PolicyOrchestratorForFolder#os_short_name}
 
 ---
 
@@ -1789,7 +1789,7 @@ version of '7', specify the following value for this field '7.*'
 
 An empty string matches all OS versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_version GoogleOsConfigV2PolicyOrchestratorForFolder#os_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_version GoogleOsConfigV2PolicyOrchestratorForFolder#os_version}
 
 ---
 
@@ -1798,7 +1798,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPolicies {
 	Id: *string,
@@ -1837,7 +1837,7 @@ The id of the OS policy with the following restrictions:.
 * Must end with a number or a letter.
 * Must be unique within the assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1854,7 +1854,7 @@ Mode *string
 
 Policy mode Possible values: ["VALIDATION", "ENFORCEMENT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#mode GoogleOsConfigV2PolicyOrchestratorForFolder#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#mode GoogleOsConfigV2PolicyOrchestratorForFolder#mode}
 
 ---
 
@@ -1868,7 +1868,7 @@ ResourceGroups interface{}
 
 resource_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resource_groups GoogleOsConfigV2PolicyOrchestratorForFolder#resource_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resource_groups GoogleOsConfigV2PolicyOrchestratorForFolder#resource_groups}
 
 ---
 
@@ -1886,7 +1886,7 @@ Set this value
 to 'true' if the policy needs to be reported as compliant even if the
 policy has nothing to validate or enforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_no_resource_group_match GoogleOsConfigV2PolicyOrchestratorForFolder#allow_no_resource_group_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_no_resource_group_match GoogleOsConfigV2PolicyOrchestratorForFolder#allow_no_resource_group_match}
 
 ---
 
@@ -1900,7 +1900,7 @@ Description *string
 
 Policy description. Length of the description is limited to 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
 
 ---
 
@@ -1909,7 +1909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroups {
 	Resources: interface{},
@@ -1936,7 +1936,7 @@ Resources interface{}
 
 resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resources GoogleOsConfigV2PolicyOrchestratorForFolder#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resources GoogleOsConfigV2PolicyOrchestratorForFolder#resources}
 
 ---
 
@@ -1950,7 +1950,7 @@ InventoryFilters interface{}
 
 inventory_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inventory_filters GoogleOsConfigV2PolicyOrchestratorForFolder#inventory_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inventory_filters GoogleOsConfigV2PolicyOrchestratorForFolder#inventory_filters}
 
 ---
 
@@ -1959,7 +1959,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFilters {
 	OsShortName: *string,
@@ -1986,7 +1986,7 @@ OsShortName *string
 
 The OS short name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_short_name GoogleOsConfigV2PolicyOrchestratorForFolder#os_short_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_short_name GoogleOsConfigV2PolicyOrchestratorForFolder#os_short_name}
 
 ---
 
@@ -2006,7 +2006,7 @@ version of '7', specify the following value for this field '7.*'
 
 An empty string matches all OS versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_version GoogleOsConfigV2PolicyOrchestratorForFolder#os_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_version GoogleOsConfigV2PolicyOrchestratorForFolder#os_version}
 
 ---
 
@@ -2015,14 +2015,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResources {
 	Id: *string,
-	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExec,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFile,
-	Pkg: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkg,
-	Repository: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepository,
+	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExec,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFile,
+	Pkg: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkg,
+	Repository: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepository,
 }
 ```
 
@@ -2054,7 +2054,7 @@ The id of the resource with the following restrictions:.
 * Must end with a number or a letter.
 * Must be unique within the OS policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2071,7 +2071,7 @@ Exec GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssi
 
 exec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#exec GoogleOsConfigV2PolicyOrchestratorForFolder#exec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#exec GoogleOsConfigV2PolicyOrchestratorForFolder#exec}
 
 ---
 
@@ -2085,7 +2085,7 @@ File GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssi
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
 
 ---
 
@@ -2099,7 +2099,7 @@ Pkg GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 pkg block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pkg GoogleOsConfigV2PolicyOrchestratorForFolder#pkg}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pkg GoogleOsConfigV2PolicyOrchestratorForFolder#pkg}
 
 ---
 
@@ -2113,7 +2113,7 @@ Repository GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPoli
 
 repository block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#repository GoogleOsConfigV2PolicyOrchestratorForFolder#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#repository GoogleOsConfigV2PolicyOrchestratorForFolder#repository}
 
 ---
 
@@ -2122,11 +2122,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExec {
-	Validate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidate,
-	Enforce: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforce,
+	Validate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidate,
+	Enforce: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforce,
 }
 ```
 
@@ -2149,7 +2149,7 @@ Validate GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicy
 
 validate block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#validate GoogleOsConfigV2PolicyOrchestratorForFolder#validate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#validate GoogleOsConfigV2PolicyOrchestratorForFolder#validate}
 
 ---
 
@@ -2163,7 +2163,7 @@ Enforce GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyA
 
 enforce block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#enforce GoogleOsConfigV2PolicyOrchestratorForFolder#enforce}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#enforce GoogleOsConfigV2PolicyOrchestratorForFolder#enforce}
 
 ---
 
@@ -2172,12 +2172,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforce.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforce {
 	Interpreter: *string,
 	Args: *[]*string,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFile,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFile,
 	OutputFilePath: *string,
 	Script: *string,
 }
@@ -2205,7 +2205,7 @@ Interpreter *string
 
 The script interpreter to use. Possible values: ["NONE", "SHELL", "POWERSHELL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#interpreter GoogleOsConfigV2PolicyOrchestratorForFolder#interpreter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#interpreter GoogleOsConfigV2PolicyOrchestratorForFolder#interpreter}
 
 ---
 
@@ -2219,7 +2219,7 @@ Args *[]*string
 
 Optional arguments to pass to the source during execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#args GoogleOsConfigV2PolicyOrchestratorForFolder#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#args GoogleOsConfigV2PolicyOrchestratorForFolder#args}
 
 ---
 
@@ -2233,7 +2233,7 @@ File GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssi
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
 
 ---
 
@@ -2253,7 +2253,7 @@ successful run. Absence or failure to read this file will result in
 this ExecResource being non-compliant. Output file size is limited to
 500K bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#output_file_path GoogleOsConfigV2PolicyOrchestratorForFolder#output_file_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#output_file_path GoogleOsConfigV2PolicyOrchestratorForFolder#output_file_path}
 
 ---
 
@@ -2267,7 +2267,7 @@ Script *string
 
 An inline script. The size of the script is limited to 32KiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#script GoogleOsConfigV2PolicyOrchestratorForFolder#script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#script GoogleOsConfigV2PolicyOrchestratorForFolder#script}
 
 ---
 
@@ -2276,13 +2276,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFile {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemote,
 }
 ```
 
@@ -2310,7 +2310,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
 
 ---
 
@@ -2324,7 +2324,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
 
 ---
 
@@ -2338,7 +2338,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
 
 ---
 
@@ -2352,7 +2352,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
 
 ---
 
@@ -2361,7 +2361,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcs {
 	Bucket: *string,
@@ -2390,7 +2390,7 @@ Bucket *string
 
 Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
 
 ---
 
@@ -2404,7 +2404,7 @@ Object *string
 
 Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
 
 ---
 
@@ -2418,7 +2418,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
 
 ---
 
@@ -2427,7 +2427,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemote {
 	Uri: *string,
@@ -2454,7 +2454,7 @@ Uri *string
 
 URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
 
 ---
 
@@ -2468,7 +2468,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
 
 ---
 
@@ -2477,12 +2477,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidate {
 	Interpreter: *string,
 	Args: *[]*string,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFile,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFile,
 	OutputFilePath: *string,
 	Script: *string,
 }
@@ -2510,7 +2510,7 @@ Interpreter *string
 
 The script interpreter to use. Possible values: ["NONE", "SHELL", "POWERSHELL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#interpreter GoogleOsConfigV2PolicyOrchestratorForFolder#interpreter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#interpreter GoogleOsConfigV2PolicyOrchestratorForFolder#interpreter}
 
 ---
 
@@ -2524,7 +2524,7 @@ Args *[]*string
 
 Optional arguments to pass to the source during execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#args GoogleOsConfigV2PolicyOrchestratorForFolder#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#args GoogleOsConfigV2PolicyOrchestratorForFolder#args}
 
 ---
 
@@ -2538,7 +2538,7 @@ File GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssi
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
 
 ---
 
@@ -2558,7 +2558,7 @@ successful run. Absence or failure to read this file will result in
 this ExecResource being non-compliant. Output file size is limited to
 500K bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#output_file_path GoogleOsConfigV2PolicyOrchestratorForFolder#output_file_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#output_file_path GoogleOsConfigV2PolicyOrchestratorForFolder#output_file_path}
 
 ---
 
@@ -2572,7 +2572,7 @@ Script *string
 
 An inline script. The size of the script is limited to 32KiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#script GoogleOsConfigV2PolicyOrchestratorForFolder#script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#script GoogleOsConfigV2PolicyOrchestratorForFolder#script}
 
 ---
 
@@ -2581,13 +2581,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFile {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemote,
 }
 ```
 
@@ -2615,7 +2615,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
 
 ---
 
@@ -2629,7 +2629,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
 
 ---
 
@@ -2643,7 +2643,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
 
 ---
 
@@ -2657,7 +2657,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
 
 ---
 
@@ -2666,7 +2666,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcs {
 	Bucket: *string,
@@ -2695,7 +2695,7 @@ Bucket *string
 
 Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
 
 ---
 
@@ -2709,7 +2709,7 @@ Object *string
 
 Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
 
 ---
 
@@ -2723,7 +2723,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
 
 ---
 
@@ -2732,7 +2732,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemote {
 	Uri: *string,
@@ -2759,7 +2759,7 @@ Uri *string
 
 URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
 
 ---
 
@@ -2773,7 +2773,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
 
 ---
 
@@ -2782,13 +2782,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFile {
 	Path: *string,
 	State: *string,
 	Content: *string,
-	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFile,
+	File: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFile,
 	Permissions: *string,
 }
 ```
@@ -2815,7 +2815,7 @@ Path *string
 
 The absolute path of the file within the VM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#path GoogleOsConfigV2PolicyOrchestratorForFolder#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#path GoogleOsConfigV2PolicyOrchestratorForFolder#path}
 
 ---
 
@@ -2829,7 +2829,7 @@ State *string
 
 Desired state of the file. Possible values: ["PRESENT", "ABSENT", "CONTENTS_MATCH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#state GoogleOsConfigV2PolicyOrchestratorForFolder#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#state GoogleOsConfigV2PolicyOrchestratorForFolder#state}
 
 ---
 
@@ -2843,7 +2843,7 @@ Content *string
 
 A a file with this content. The size of the content is limited to 32KiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#content GoogleOsConfigV2PolicyOrchestratorForFolder#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#content GoogleOsConfigV2PolicyOrchestratorForFolder#content}
 
 ---
 
@@ -2857,7 +2857,7 @@ File GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssi
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
 
 ---
 
@@ -2882,7 +2882,7 @@ read and execute: 5
 read and write: 6
 read only: 4
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#permissions GoogleOsConfigV2PolicyOrchestratorForFolder#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#permissions GoogleOsConfigV2PolicyOrchestratorForFolder#permissions}
 
 ---
 
@@ -2891,13 +2891,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFile {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemote,
 }
 ```
 
@@ -2925,7 +2925,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
 
 ---
 
@@ -2939,7 +2939,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
 
 ---
 
@@ -2953,7 +2953,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
 
 ---
 
@@ -2967,7 +2967,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
 
 ---
 
@@ -2976,7 +2976,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcs {
 	Bucket: *string,
@@ -3005,7 +3005,7 @@ Bucket *string
 
 Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
 
 ---
 
@@ -3019,7 +3019,7 @@ Object *string
 
 Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
 
 ---
 
@@ -3033,7 +3033,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
 
 ---
 
@@ -3042,7 +3042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemote {
 	Uri: *string,
@@ -3069,7 +3069,7 @@ Uri *string
 
 URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
 
 ---
 
@@ -3083,7 +3083,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
 
 ---
 
@@ -3092,17 +3092,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkg.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkg {
 	DesiredState: *string,
-	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgApt,
-	Deb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDeb,
-	Googet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGooget,
-	Msi: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsi,
-	Rpm: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpm,
-	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYum,
-	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypper,
+	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgApt,
+	Deb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDeb,
+	Googet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGooget,
+	Msi: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsi,
+	Rpm: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpm,
+	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYum,
+	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypper,
 }
 ```
 
@@ -3131,7 +3131,7 @@ DesiredState *string
 
 The desired state the agent should maintain for this package. Possible values: ["INSTALLED", "REMOVED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#desired_state GoogleOsConfigV2PolicyOrchestratorForFolder#desired_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#desired_state GoogleOsConfigV2PolicyOrchestratorForFolder#desired_state}
 
 ---
 
@@ -3145,7 +3145,7 @@ Apt GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 apt block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#apt GoogleOsConfigV2PolicyOrchestratorForFolder#apt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#apt GoogleOsConfigV2PolicyOrchestratorForFolder#apt}
 
 ---
 
@@ -3159,7 +3159,7 @@ Deb GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 deb block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#deb GoogleOsConfigV2PolicyOrchestratorForFolder#deb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#deb GoogleOsConfigV2PolicyOrchestratorForFolder#deb}
 
 ---
 
@@ -3173,7 +3173,7 @@ Googet GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 googet block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#googet GoogleOsConfigV2PolicyOrchestratorForFolder#googet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#googet GoogleOsConfigV2PolicyOrchestratorForFolder#googet}
 
 ---
 
@@ -3187,7 +3187,7 @@ Msi GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 msi block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#msi GoogleOsConfigV2PolicyOrchestratorForFolder#msi}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#msi GoogleOsConfigV2PolicyOrchestratorForFolder#msi}
 
 ---
 
@@ -3201,7 +3201,7 @@ Rpm GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 rpm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#rpm GoogleOsConfigV2PolicyOrchestratorForFolder#rpm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#rpm GoogleOsConfigV2PolicyOrchestratorForFolder#rpm}
 
 ---
 
@@ -3215,7 +3215,7 @@ Yum GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 yum block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#yum GoogleOsConfigV2PolicyOrchestratorForFolder#yum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#yum GoogleOsConfigV2PolicyOrchestratorForFolder#yum}
 
 ---
 
@@ -3229,7 +3229,7 @@ Zypper GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 zypper block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#zypper GoogleOsConfigV2PolicyOrchestratorForFolder#zypper}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#zypper GoogleOsConfigV2PolicyOrchestratorForFolder#zypper}
 
 ---
 
@@ -3238,7 +3238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgApt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgApt {
 	Name: *string,
@@ -3263,7 +3263,7 @@ Name *string
 
 Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
 
 ---
 
@@ -3272,10 +3272,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDeb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDeb {
-	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSource,
+	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSource,
 	PullDeps: interface{},
 }
 ```
@@ -3299,7 +3299,7 @@ Source GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
 
 ---
 
@@ -3317,7 +3317,7 @@ Whether dependencies should also be installed.
 * install when true: 'apt-get update && apt-get -y install
   package.deb'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pull_deps GoogleOsConfigV2PolicyOrchestratorForFolder#pull_deps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pull_deps GoogleOsConfigV2PolicyOrchestratorForFolder#pull_deps}
 
 ---
 
@@ -3326,13 +3326,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSource {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemote,
 }
 ```
 
@@ -3360,7 +3360,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
 
 ---
 
@@ -3374,7 +3374,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
 
 ---
 
@@ -3388,7 +3388,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
 
 ---
 
@@ -3402,7 +3402,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
 
 ---
 
@@ -3411,7 +3411,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcs {
 	Bucket: *string,
@@ -3440,7 +3440,7 @@ Bucket *string
 
 Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
 
 ---
 
@@ -3454,7 +3454,7 @@ Object *string
 
 Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
 
 ---
 
@@ -3468,7 +3468,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
 
 ---
 
@@ -3477,7 +3477,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemote {
 	Uri: *string,
@@ -3504,7 +3504,7 @@ Uri *string
 
 URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
 
 ---
 
@@ -3518,7 +3518,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
 
 ---
 
@@ -3527,7 +3527,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGooget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGooget {
 	Name: *string,
@@ -3552,7 +3552,7 @@ Name *string
 
 Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
 
 ---
 
@@ -3561,10 +3561,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsi.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsi {
-	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSource,
+	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSource,
 	Properties: *[]*string,
 }
 ```
@@ -3588,7 +3588,7 @@ Source GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
 
 ---
 
@@ -3602,7 +3602,7 @@ Properties *[]*string
 
 Additional properties to use during installation. This should be in the format of Property=Setting. Appended to the defaults of 'ACTION=INSTALL REBOOT=ReallySuppress'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#properties GoogleOsConfigV2PolicyOrchestratorForFolder#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#properties GoogleOsConfigV2PolicyOrchestratorForFolder#properties}
 
 ---
 
@@ -3611,13 +3611,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSource {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote,
 }
 ```
 
@@ -3645,7 +3645,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
 
 ---
 
@@ -3659,7 +3659,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
 
 ---
 
@@ -3673,7 +3673,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
 
 ---
 
@@ -3687,7 +3687,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
 
 ---
 
@@ -3696,7 +3696,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs {
 	Bucket: *string,
@@ -3725,7 +3725,7 @@ Bucket *string
 
 Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
 
 ---
 
@@ -3739,7 +3739,7 @@ Object *string
 
 Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
 
 ---
 
@@ -3753,7 +3753,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
 
 ---
 
@@ -3762,7 +3762,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote {
 	Uri: *string,
@@ -3789,7 +3789,7 @@ Uri *string
 
 URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
 
 ---
 
@@ -3803,7 +3803,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
 
 ---
 
@@ -3812,10 +3812,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpm.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpm {
-	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSource,
+	Source: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSource,
 	PullDeps: interface{},
 }
 ```
@@ -3839,7 +3839,7 @@ Source GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
 
 ---
 
@@ -3857,7 +3857,7 @@ Whether dependencies should also be installed.
 * install when true: 'yum -y install package.rpm' or
   'zypper -y install package.rpm'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pull_deps GoogleOsConfigV2PolicyOrchestratorForFolder#pull_deps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pull_deps GoogleOsConfigV2PolicyOrchestratorForFolder#pull_deps}
 
 ---
 
@@ -3866,13 +3866,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSource {
 	AllowInsecure: interface{},
-	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs,
+	Gcs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs,
 	LocalPath: *string,
-	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote,
+	Remote: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote,
 }
 ```
 
@@ -3900,7 +3900,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
 
 ---
 
@@ -3914,7 +3914,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
 
 ---
 
@@ -3928,7 +3928,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
 
 ---
 
@@ -3942,7 +3942,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
 
 ---
 
@@ -3951,7 +3951,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs {
 	Bucket: *string,
@@ -3980,7 +3980,7 @@ Bucket *string
 
 Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
 
 ---
 
@@ -3994,7 +3994,7 @@ Object *string
 
 Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
 
 ---
 
@@ -4008,7 +4008,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
 
 ---
 
@@ -4017,7 +4017,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote {
 	Uri: *string,
@@ -4044,7 +4044,7 @@ Uri *string
 
 URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
 
 ---
 
@@ -4058,7 +4058,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
 
 ---
 
@@ -4067,7 +4067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYum.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYum {
 	Name: *string,
@@ -4092,7 +4092,7 @@ Name *string
 
 Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
 
 ---
 
@@ -4101,7 +4101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypper.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypper {
 	Name: *string,
@@ -4126,7 +4126,7 @@ Name *string
 
 Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
 
 ---
 
@@ -4135,13 +4135,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepository {
-	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryApt,
-	Goo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGoo,
-	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYum,
-	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypper,
+	Apt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryApt,
+	Goo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGoo,
+	Yum: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYum,
+	Zypper: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypper,
 }
 ```
 
@@ -4166,7 +4166,7 @@ Apt GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 apt block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#apt GoogleOsConfigV2PolicyOrchestratorForFolder#apt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#apt GoogleOsConfigV2PolicyOrchestratorForFolder#apt}
 
 ---
 
@@ -4180,7 +4180,7 @@ Goo GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 goo block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#goo GoogleOsConfigV2PolicyOrchestratorForFolder#goo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#goo GoogleOsConfigV2PolicyOrchestratorForFolder#goo}
 
 ---
 
@@ -4194,7 +4194,7 @@ Yum GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssig
 
 yum block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#yum GoogleOsConfigV2PolicyOrchestratorForFolder#yum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#yum GoogleOsConfigV2PolicyOrchestratorForFolder#yum}
 
 ---
 
@@ -4208,7 +4208,7 @@ Zypper GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAs
 
 zypper block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#zypper GoogleOsConfigV2PolicyOrchestratorForFolder#zypper}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#zypper GoogleOsConfigV2PolicyOrchestratorForFolder#zypper}
 
 ---
 
@@ -4217,7 +4217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryApt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryApt {
 	ArchiveType: *string,
@@ -4250,7 +4250,7 @@ ArchiveType *string
 
 Type of archive files in this repository. Possible values: ["DEB", "DEB_SRC"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#archive_type GoogleOsConfigV2PolicyOrchestratorForFolder#archive_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#archive_type GoogleOsConfigV2PolicyOrchestratorForFolder#archive_type}
 
 ---
 
@@ -4264,7 +4264,7 @@ Components *[]*string
 
 List of components for this repository. Must contain at least one item.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#components GoogleOsConfigV2PolicyOrchestratorForFolder#components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#components GoogleOsConfigV2PolicyOrchestratorForFolder#components}
 
 ---
 
@@ -4278,7 +4278,7 @@ Distribution *string
 
 Distribution of this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#distribution GoogleOsConfigV2PolicyOrchestratorForFolder#distribution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#distribution GoogleOsConfigV2PolicyOrchestratorForFolder#distribution}
 
 ---
 
@@ -4292,7 +4292,7 @@ Uri *string
 
 URI for this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
 
 ---
 
@@ -4306,7 +4306,7 @@ GpgKey *string
 
 URI of the key file for this repository. The agent maintains a keyring at '/etc/apt/trusted.gpg.d/osconfig_agent_managed.gpg'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_key GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_key GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_key}
 
 ---
 
@@ -4315,7 +4315,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGoo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGoo {
 	Name: *string,
@@ -4342,7 +4342,7 @@ Name *string
 
 The name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
 
 ---
 
@@ -4356,7 +4356,7 @@ Url *string
 
 The url of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#url GoogleOsConfigV2PolicyOrchestratorForFolder#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#url GoogleOsConfigV2PolicyOrchestratorForFolder#url}
 
 ---
 
@@ -4365,7 +4365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYum.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYum {
 	BaseUrl: *string,
@@ -4396,7 +4396,7 @@ BaseUrl *string
 
 The location of the repository directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#base_url GoogleOsConfigV2PolicyOrchestratorForFolder#base_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#base_url GoogleOsConfigV2PolicyOrchestratorForFolder#base_url}
 
 ---
 
@@ -4415,7 +4415,7 @@ id' in the yum config file and also the 'display_name' if
 'display_name' is omitted. This id is also used as the unique
 identifier when checking for resource conflicts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4432,7 +4432,7 @@ DisplayName *string
 
 The display name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#display_name GoogleOsConfigV2PolicyOrchestratorForFolder#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#display_name GoogleOsConfigV2PolicyOrchestratorForFolder#display_name}
 
 ---
 
@@ -4446,7 +4446,7 @@ GpgKeys *[]*string
 
 URIs of GPG keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_keys GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_keys GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_keys}
 
 ---
 
@@ -4455,7 +4455,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypper.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypper {
 	BaseUrl: *string,
@@ -4486,7 +4486,7 @@ BaseUrl *string
 
 The location of the repository directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#base_url GoogleOsConfigV2PolicyOrchestratorForFolder#base_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#base_url GoogleOsConfigV2PolicyOrchestratorForFolder#base_url}
 
 ---
 
@@ -4505,7 +4505,7 @@ id' in the zypper config file and also the 'display_name' if
 'display_name' is omitted. This id is also used as the unique
 identifier when checking for GuestPolicy conflicts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4522,7 +4522,7 @@ DisplayName *string
 
 The display name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#display_name GoogleOsConfigV2PolicyOrchestratorForFolder#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#display_name GoogleOsConfigV2PolicyOrchestratorForFolder#display_name}
 
 ---
 
@@ -4536,7 +4536,7 @@ GpgKeys *[]*string
 
 URIs of GPG keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_keys GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_keys GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_keys}
 
 ---
 
@@ -4545,10 +4545,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRollout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRollout {
-	DisruptionBudget: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudget,
+	DisruptionBudget: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudget,
 	MinWaitDuration: *string,
 }
 ```
@@ -4572,7 +4572,7 @@ DisruptionBudget GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 
 disruption_budget block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#disruption_budget GoogleOsConfigV2PolicyOrchestratorForFolder#disruption_budget}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#disruption_budget GoogleOsConfigV2PolicyOrchestratorForFolder#disruption_budget}
 
 ---
 
@@ -4591,7 +4591,7 @@ VM continues to count towards the 'disruption_budget' at least
 until this duration of time has passed after configuration changes are
 applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#min_wait_duration GoogleOsConfigV2PolicyOrchestratorForFolder#min_wait_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#min_wait_duration GoogleOsConfigV2PolicyOrchestratorForFolder#min_wait_duration}
 
 ---
 
@@ -4600,7 +4600,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudget {
 	Fixed: *f64,
@@ -4627,7 +4627,7 @@ Fixed *f64
 
 Specifies a fixed value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#fixed GoogleOsConfigV2PolicyOrchestratorForFolder#fixed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#fixed GoogleOsConfigV2PolicyOrchestratorForFolder#fixed}
 
 ---
 
@@ -4641,7 +4641,7 @@ Percent *f64
 
 Specifies the relative value defined as a percentage, which will be multiplied by a reference value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#percent GoogleOsConfigV2PolicyOrchestratorForFolder#percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#percent GoogleOsConfigV2PolicyOrchestratorForFolder#percent}
 
 ---
 
@@ -4650,7 +4650,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope {
 	Selectors: interface{},
@@ -4675,7 +4675,7 @@ Selectors interface{}
 
 selectors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#selectors GoogleOsConfigV2PolicyOrchestratorForFolder#selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#selectors GoogleOsConfigV2PolicyOrchestratorForFolder#selectors}
 
 ---
 
@@ -4684,11 +4684,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectors {
-	LocationSelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelector,
-	ResourceHierarchySelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelector,
+	LocationSelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelector,
+	ResourceHierarchySelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelector,
 }
 ```
 
@@ -4711,7 +4711,7 @@ LocationSelector GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSe
 
 location_selector block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#location_selector GoogleOsConfigV2PolicyOrchestratorForFolder#location_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#location_selector GoogleOsConfigV2PolicyOrchestratorForFolder#location_selector}
 
 ---
 
@@ -4725,7 +4725,7 @@ ResourceHierarchySelector GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrati
 
 resource_hierarchy_selector block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resource_hierarchy_selector GoogleOsConfigV2PolicyOrchestratorForFolder#resource_hierarchy_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resource_hierarchy_selector GoogleOsConfigV2PolicyOrchestratorForFolder#resource_hierarchy_selector}
 
 ---
 
@@ -4734,7 +4734,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelector {
 	IncludedLocations: *[]*string,
@@ -4759,7 +4759,7 @@ IncludedLocations *[]*string
 
 Names of the locations in scope. Format: 'us-central1-a'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_locations GoogleOsConfigV2PolicyOrchestratorForFolder#included_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_locations GoogleOsConfigV2PolicyOrchestratorForFolder#included_locations}
 
 ---
 
@@ -4768,7 +4768,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelector {
 	IncludedFolders: *[]*string,
@@ -4795,7 +4795,7 @@ IncludedFolders *[]*string
 
 Names of the folders in scope. Format: 'folders/{folder_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_folders GoogleOsConfigV2PolicyOrchestratorForFolder#included_folders}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_folders GoogleOsConfigV2PolicyOrchestratorForFolder#included_folders}
 
 ---
 
@@ -4809,7 +4809,7 @@ IncludedProjects *[]*string
 
 Names of the projects in scope. Format: 'projects/{project_number}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_projects GoogleOsConfigV2PolicyOrchestratorForFolder#included_projects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_projects GoogleOsConfigV2PolicyOrchestratorForFolder#included_projects}
 
 ---
 
@@ -4818,7 +4818,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationState {
 
@@ -4831,7 +4831,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationState {
 
@@ -4844,7 +4844,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateError {
 
@@ -4857,7 +4857,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetails {
 
@@ -4870,7 +4870,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationState {
 
@@ -4883,7 +4883,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateError {
 
@@ -4896,7 +4896,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetails {
 
@@ -4909,7 +4909,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleos
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 &googleosconfigv2policyorchestratorforfolder.GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts {
 	Create: *string,
@@ -4922,9 +4922,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleos
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#create GoogleOsConfigV2PolicyOrchestratorForFolder#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#delete GoogleOsConfigV2PolicyOrchestratorForFolder#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#update GoogleOsConfigV2PolicyOrchestratorForFolder#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#create GoogleOsConfigV2PolicyOrchestratorForFolder#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#delete GoogleOsConfigV2PolicyOrchestratorForFolder#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#update GoogleOsConfigV2PolicyOrchestratorForFolder#update}. |
 
 ---
 
@@ -4936,7 +4936,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#create GoogleOsConfigV2PolicyOrchestratorForFolder#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#create GoogleOsConfigV2PolicyOrchestratorForFolder#create}.
 
 ---
 
@@ -4948,7 +4948,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#delete GoogleOsConfigV2PolicyOrchestratorForFolder#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#delete GoogleOsConfigV2PolicyOrchestratorForFolder#delete}.
 
 ---
 
@@ -4960,7 +4960,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#update GoogleOsConfigV2PolicyOrchestratorForFolder#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#update GoogleOsConfigV2PolicyOrchestratorForFolder#update}.
 
 ---
 
@@ -4971,7 +4971,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsList
 ```
@@ -5131,7 +5131,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsOutputReference
 ```
@@ -5427,7 +5427,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsList
 ```
@@ -5587,7 +5587,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsOutputReference
 ```
@@ -5883,7 +5883,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesList
 ```
@@ -6043,7 +6043,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesOutputReference
 ```
@@ -6361,7 +6361,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterOutputReference
 ```
@@ -6765,7 +6765,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesList
 ```
@@ -6925,7 +6925,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesOutputReference
 ```
@@ -7329,7 +7329,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersList
 ```
@@ -7489,7 +7489,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersOutputReference
 ```
@@ -7807,7 +7807,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsList
 ```
@@ -7967,7 +7967,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsOutputReference
 ```
@@ -8311,7 +8311,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference
 ```
@@ -8633,7 +8633,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference
 ```
@@ -9024,7 +9024,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference
 ```
@@ -9324,7 +9324,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceOutputReference
 ```
@@ -9724,7 +9724,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecOutputReference
 ```
@@ -10050,7 +10050,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference
 ```
@@ -10372,7 +10372,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference
 ```
@@ -10763,7 +10763,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference
 ```
@@ -11063,7 +11063,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateOutputReference
 ```
@@ -11463,7 +11463,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference
 ```
@@ -11785,7 +11785,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileOutputReference
 ```
@@ -12176,7 +12176,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference
 ```
@@ -12476,7 +12476,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileOutputReference
 ```
@@ -12869,7 +12869,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesList
 ```
@@ -13029,7 +13029,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesOutputReference
 ```
@@ -13486,7 +13486,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgAptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgAptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgAptOutputReference
 ```
@@ -13757,7 +13757,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebOutputReference
 ```
@@ -14070,7 +14070,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference
 ```
@@ -14392,7 +14392,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference
 ```
@@ -14783,7 +14783,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference
 ```
@@ -15083,7 +15083,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference
 ```
@@ -15354,7 +15354,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiOutputReference
 ```
@@ -15667,7 +15667,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference
 ```
@@ -15989,7 +15989,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference
 ```
@@ -16380,7 +16380,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference
 ```
@@ -16680,7 +16680,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgOutputReference
 ```
@@ -17245,7 +17245,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmOutputReference
 ```
@@ -17558,7 +17558,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference
 ```
@@ -17880,7 +17880,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference
 ```
@@ -18271,7 +18271,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference
 ```
@@ -18571,7 +18571,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYumOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYumOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYumOutputReference
 ```
@@ -18842,7 +18842,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypperOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypperOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypperOutputReference
 ```
@@ -19113,7 +19113,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference
 ```
@@ -19479,7 +19479,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference
 ```
@@ -19772,7 +19772,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryOutputReference
 ```
@@ -20189,7 +20189,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference
 ```
@@ -20540,7 +20540,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference
 ```
@@ -20891,7 +20891,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOutputReference
 ```
@@ -21391,7 +21391,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudgetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudgetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudgetOutputReference
 ```
@@ -21698,7 +21698,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutOutputReference
 ```
@@ -22004,7 +22004,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOutputReference
 ```
@@ -22324,7 +22324,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeOutputReference
 ```
@@ -22615,7 +22615,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationSco
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsList
 ```
@@ -22775,7 +22775,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelectorOutputReference
 ```
@@ -23053,7 +23053,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationSco
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsOutputReference
 ```
@@ -23404,7 +23404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelectorOutputReference
 ```
@@ -23711,7 +23711,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationSco
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetailsList
 ```
@@ -23860,7 +23860,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetailsOutputReference
 ```
@@ -24149,7 +24149,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationSta
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorList
 ```
@@ -24298,7 +24298,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorOutputReference
 ```
@@ -24598,7 +24598,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationSta
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateList
 ```
@@ -24747,7 +24747,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateOutputReference
 ```
@@ -25102,7 +25102,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationSta
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateList
 ```
@@ -25251,7 +25251,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateOutputReference
 ```
@@ -25540,7 +25540,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationSta
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetailsList
 ```
@@ -25689,7 +25689,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetailsOutputReference
 ```
@@ -25978,7 +25978,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationSta
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorList
 ```
@@ -26127,7 +26127,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorOutputReference
 ```
@@ -26427,7 +26427,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationSta
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateList
 ```
@@ -26576,7 +26576,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateOutputReference
 ```
@@ -26931,7 +26931,7 @@ func InternalValue() GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationSta
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolderTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleosconfigv2policyorchestratorforfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleosconfigv2policyorchestratorforfolder"
 
 googleosconfigv2policyorchestratorforfolder.NewGoogleOsConfigV2PolicyOrchestratorForFolderTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOsConfigV2PolicyOrchestratorForFolderTimeoutsOutputReference
 ```

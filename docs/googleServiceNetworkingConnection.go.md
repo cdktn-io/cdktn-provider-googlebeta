@@ -4,12 +4,12 @@
 
 ### GoogleServiceNetworkingConnection <a name="GoogleServiceNetworkingConnection" id="@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection google_service_networking_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection google_service_networking_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleservicenetworkingconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleservicenetworkingconnection"
 
 googleservicenetworkingconnection.NewGoogleServiceNetworkingConnection(scope Construct, id *string, config GoogleServiceNetworkingConnectionConfig) GoogleServiceNetworkingConnection
 ```
@@ -441,7 +441,7 @@ func ResetUpdateOnCreationFail()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleservicenetworkingconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleservicenetworkingconnection"
 
 googleservicenetworkingconnection.GoogleServiceNetworkingConnection_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleservicenetworkingconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleservicenetworkingconnection"
 
 googleservicenetworkingconnection.GoogleServiceNetworkingConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleservicenetworkingconnection.GoogleServiceNetworkingConnection_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleservicenetworkingconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleservicenetworkingconnection"
 
 googleservicenetworkingconnection.GoogleServiceNetworkingConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleservicenetworkingconnection.GoogleServiceNetworkingConnection_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleservicenetworkingconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleservicenetworkingconnection"
 
 googleservicenetworkingconnection.GoogleServiceNetworkingConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleServiceNetworkingCon
 
 The id of the existing GoogleServiceNetworkingConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleservicenetworkingconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleservicenetworkingconnection"
 
 &googleservicenetworkingconnection.GoogleServiceNetworkingConnectionConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlese
 	Service: *string,
 	DeletionPolicy: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionTimeouts,
 	UpdateOnCreationFail: interface{},
 }
 ```
@@ -929,8 +929,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlese
 | <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionConfig.property.network">Network</a></code> | <code>*string</code> | Name of VPC network connected with service producers using VPC peering. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionConfig.property.reservedPeeringRanges">ReservedPeeringRanges</a></code> | <code>*[]*string</code> | Named IP address range(s) of PEERING type reserved for this service provider. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionConfig.property.service">Service</a></code> | <code>*string</code> | Provider peering service that is managing peering connectivity for a service provider organization. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#id GoogleServiceNetworkingConnection#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the connection. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#id GoogleServiceNetworkingConnection#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionTimeouts">GoogleServiceNetworkingConnectionTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionConfig.property.updateOnCreationFail">UpdateOnCreationFail</a></code> | <code>interface{}</code> | When set to true, enforce an update of the reserved peering ranges on the existing service networking connection in case of a new connection creation failure. |
 
@@ -1016,7 +1016,7 @@ Network *string
 
 Name of VPC network connected with service producers using VPC peering.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#network GoogleServiceNetworkingConnection#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#network GoogleServiceNetworkingConnection#network}
 
 ---
 
@@ -1032,7 +1032,7 @@ Named IP address range(s) of PEERING type reserved for this service provider.
 
 Note that invoking this method with a different range when connection is already established will not reallocate already provisioned service producer subnetworks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#reserved_peering_ranges GoogleServiceNetworkingConnection#reserved_peering_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#reserved_peering_ranges GoogleServiceNetworkingConnection#reserved_peering_ranges}
 
 ---
 
@@ -1048,7 +1048,7 @@ Provider peering service that is managing peering connectivity for a service pro
 
 For Google services that support this functionality it is 'servicenetworking.googleapis.com'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#service GoogleServiceNetworkingConnection#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#service GoogleServiceNetworkingConnection#service}
 
 ---
 
@@ -1060,16 +1060,20 @@ DeletionPolicy *string
 
 - *Type:* *string
 
-Whether Terraform will be prevented from destroying the instance.
+Whether Terraform will be prevented from destroying the connection.
 
 Defaults to "DELETE".
-When a 'terraform destroy' or 'terraform apply' would delete the instance,
-the command will fail if this field is set to "PREVENT" in Terraform state.
-When set to "ABANDON", the command will remove the resource from Terraform
-management without updating or deleting the resource in the API.
-When set to "DELETE", deleting the resource is allowed.
+When set to "PREVENT", destroying the resource will fail.
+When set to "ABANDON", the resource is removed from Terraform state without
+deleting the connection in the API. The VPC peering created by this connection
+is left in place, which will block deletion of the network.
+When set to "DELETE", the connection is deleted.
+When set to "REMOVE_PEERING", the connection is deleted, and if the API refuses
+because service producer resources still use it, the VPC peering is removed from
+the network instead so that the network can be deleted. Only use this once the
+service instances using the connection (such as Cloud SQL) are already deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#deletion_policy GoogleServiceNetworkingConnection#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#deletion_policy GoogleServiceNetworkingConnection#deletion_policy}
 
 ---
 
@@ -1081,7 +1085,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#id GoogleServiceNetworkingConnection#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#id GoogleServiceNetworkingConnection#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1098,7 +1102,7 @@ Timeouts GoogleServiceNetworkingConnectionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#timeouts GoogleServiceNetworkingConnection#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#timeouts GoogleServiceNetworkingConnection#timeouts}
 
 ---
 
@@ -1112,7 +1116,7 @@ UpdateOnCreationFail interface{}
 
 When set to true, enforce an update of the reserved peering ranges on the existing service networking connection in case of a new connection creation failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#update_on_creation_fail GoogleServiceNetworkingConnection#update_on_creation_fail}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#update_on_creation_fail GoogleServiceNetworkingConnection#update_on_creation_fail}
 
 ---
 
@@ -1121,7 +1125,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleservicenetworkingconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleservicenetworkingconnection"
 
 &googleservicenetworkingconnection.GoogleServiceNetworkingConnectionTimeouts {
 	Create: *string,
@@ -1134,9 +1138,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlese
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#create GoogleServiceNetworkingConnection#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#delete GoogleServiceNetworkingConnection#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#update GoogleServiceNetworkingConnection#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#create GoogleServiceNetworkingConnection#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#delete GoogleServiceNetworkingConnection#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#update GoogleServiceNetworkingConnection#update}. |
 
 ---
 
@@ -1148,7 +1152,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#create GoogleServiceNetworkingConnection#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#create GoogleServiceNetworkingConnection#create}.
 
 ---
 
@@ -1160,7 +1164,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#delete GoogleServiceNetworkingConnection#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#delete GoogleServiceNetworkingConnection#delete}.
 
 ---
 
@@ -1172,7 +1176,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#update GoogleServiceNetworkingConnection#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#update GoogleServiceNetworkingConnection#update}.
 
 ---
 
@@ -1183,7 +1187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceNetworkingConnection.GoogleServiceNetworkingConnectionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleservicenetworkingconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleservicenetworkingconnection"
 
 googleservicenetworkingconnection.NewGoogleServiceNetworkingConnectionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleServiceNetworkingConnectionTimeoutsOutputReference
 ```

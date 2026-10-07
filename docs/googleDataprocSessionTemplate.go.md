@@ -4,12 +4,12 @@
 
 ### GoogleDataprocSessionTemplate <a name="GoogleDataprocSessionTemplate" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template google_dataproc_session_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template google_dataproc_session_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.NewGoogleDataprocSessionTemplate(scope Construct, id *string, config GoogleDataprocSessionTemplateConfig) GoogleDataprocSessionTemplate
 ```
@@ -535,7 +535,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.GoogleDataprocSessionTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.GoogleDataprocSessionTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ googledataprocsessiontemplate.GoogleDataprocSessionTemplate_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.GoogleDataprocSessionTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -595,7 +595,7 @@ googledataprocsessiontemplate.GoogleDataprocSessionTemplate_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.GoogleDataprocSessionTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -624,7 +624,7 @@ The construct id used in the generated config for the GoogleDataprocSessionTempl
 
 The id of the existing GoogleDataprocSessionTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1132,7 +1132,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 &googledataprocsessiontemplate.GoogleDataprocSessionTemplateConfig {
 	Connection: interface{},
@@ -1144,15 +1144,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 	Provisioners: *[]interface{},
 	Name: *string,
 	DeletionPolicy: *string,
-	EnvironmentConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfig,
+	EnvironmentConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfig,
 	Id: *string,
-	JupyterSession: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateJupyterSession,
+	JupyterSession: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateJupyterSession,
 	Labels: *map[string]*string,
 	Location: *string,
 	Project: *string,
-	RuntimeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateRuntimeConfig,
-	SparkConnectSession: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateSparkConnectSession,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateTimeouts,
+	RuntimeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateRuntimeConfig,
+	SparkConnectSession: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateSparkConnectSession,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateTimeouts,
 }
 ```
 
@@ -1170,11 +1170,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.name">Name</a></code> | <code>*string</code> | The resource name of the session template in the following format: projects/{project}/locations/{location}/sessionTemplates/{template_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.environmentConfig">EnvironmentConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfig">GoogleDataprocSessionTemplateEnvironmentConfig</a></code> | environment_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#id GoogleDataprocSessionTemplate#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#id GoogleDataprocSessionTemplate#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.jupyterSession">JupyterSession</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateJupyterSession">GoogleDataprocSessionTemplateJupyterSession</a></code> | jupyter_session block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | The labels to associate with this session template. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.location">Location</a></code> | <code>*string</code> | The location in which the session template will be created in. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#project GoogleDataprocSessionTemplate#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#project GoogleDataprocSessionTemplate#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.runtimeConfig">RuntimeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateRuntimeConfig">GoogleDataprocSessionTemplateRuntimeConfig</a></code> | runtime_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.sparkConnectSession">SparkConnectSession</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateSparkConnectSession">GoogleDataprocSessionTemplateSparkConnectSession</a></code> | spark_connect_session block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateTimeouts">GoogleDataprocSessionTemplateTimeouts</a></code> | timeouts block. |
@@ -1261,7 +1261,7 @@ Name *string
 
 The resource name of the session template in the following format: projects/{project}/locations/{location}/sessionTemplates/{template_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#name GoogleDataprocSessionTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#name GoogleDataprocSessionTemplate#name}
 
 ---
 
@@ -1282,7 +1282,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#deletion_policy GoogleDataprocSessionTemplate#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#deletion_policy GoogleDataprocSessionTemplate#deletion_policy}
 
 ---
 
@@ -1296,7 +1296,7 @@ EnvironmentConfig GoogleDataprocSessionTemplateEnvironmentConfig
 
 environment_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#environment_config GoogleDataprocSessionTemplate#environment_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#environment_config GoogleDataprocSessionTemplate#environment_config}
 
 ---
 
@@ -1308,7 +1308,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#id GoogleDataprocSessionTemplate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#id GoogleDataprocSessionTemplate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1325,7 +1325,7 @@ JupyterSession GoogleDataprocSessionTemplateJupyterSession
 
 jupyter_session block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#jupyter_session GoogleDataprocSessionTemplate#jupyter_session}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#jupyter_session GoogleDataprocSessionTemplate#jupyter_session}
 
 ---
 
@@ -1342,7 +1342,7 @@ The labels to associate with this session template.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#labels GoogleDataprocSessionTemplate#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#labels GoogleDataprocSessionTemplate#labels}
 
 ---
 
@@ -1356,7 +1356,7 @@ Location *string
 
 The location in which the session template will be created in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#location GoogleDataprocSessionTemplate#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#location GoogleDataprocSessionTemplate#location}
 
 ---
 
@@ -1368,7 +1368,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#project GoogleDataprocSessionTemplate#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#project GoogleDataprocSessionTemplate#project}.
 
 ---
 
@@ -1382,7 +1382,7 @@ RuntimeConfig GoogleDataprocSessionTemplateRuntimeConfig
 
 runtime_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#runtime_config GoogleDataprocSessionTemplate#runtime_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#runtime_config GoogleDataprocSessionTemplate#runtime_config}
 
 ---
 
@@ -1396,7 +1396,7 @@ SparkConnectSession GoogleDataprocSessionTemplateSparkConnectSession
 
 spark_connect_session block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#spark_connect_session GoogleDataprocSessionTemplate#spark_connect_session}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#spark_connect_session GoogleDataprocSessionTemplate#spark_connect_session}
 
 ---
 
@@ -1410,7 +1410,7 @@ Timeouts GoogleDataprocSessionTemplateTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#timeouts GoogleDataprocSessionTemplate#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#timeouts GoogleDataprocSessionTemplate#timeouts}
 
 ---
 
@@ -1419,11 +1419,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 &googledataprocsessiontemplate.GoogleDataprocSessionTemplateEnvironmentConfig {
-	ExecutionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfig,
-	PeripheralsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfig,
+	ExecutionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfig,
+	PeripheralsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfig,
 }
 ```
 
@@ -1446,7 +1446,7 @@ ExecutionConfig GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfig
 
 execution_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#execution_config GoogleDataprocSessionTemplate#execution_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#execution_config GoogleDataprocSessionTemplate#execution_config}
 
 ---
 
@@ -1460,7 +1460,7 @@ PeripheralsConfig GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfi
 
 peripherals_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#peripherals_config GoogleDataprocSessionTemplate#peripherals_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#peripherals_config GoogleDataprocSessionTemplate#peripherals_config}
 
 ---
 
@@ -1469,10 +1469,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 &googledataprocsessiontemplate.GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfig {
-	AuthenticationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfig,
+	AuthenticationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfig,
 	IdleTtl: *string,
 	KmsKey: *string,
 	NetworkTags: *[]*string,
@@ -1508,7 +1508,7 @@ AuthenticationConfig GoogleDataprocSessionTemplateEnvironmentConfigExecutionConf
 
 authentication_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#authentication_config GoogleDataprocSessionTemplate#authentication_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#authentication_config GoogleDataprocSessionTemplate#authentication_config}
 
 ---
 
@@ -1527,7 +1527,7 @@ Defaults to 1 hour if not set. If both ttl and idleTtl are specified for an inte
 are treated as OR conditions: the workload will be terminated when it has been idle for idleTtl or when ttl has
 been exceeded, whichever occurs first.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#idle_ttl GoogleDataprocSessionTemplate#idle_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#idle_ttl GoogleDataprocSessionTemplate#idle_ttl}
 
 ---
 
@@ -1541,7 +1541,7 @@ KmsKey *string
 
 The Cloud KMS key to use for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#kms_key GoogleDataprocSessionTemplate#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#kms_key GoogleDataprocSessionTemplate#kms_key}
 
 ---
 
@@ -1555,7 +1555,7 @@ NetworkTags *[]*string
 
 Tags used for network traffic control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#network_tags GoogleDataprocSessionTemplate#network_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#network_tags GoogleDataprocSessionTemplate#network_tags}
 
 ---
 
@@ -1569,7 +1569,7 @@ ServiceAccount *string
 
 Service account that used to execute workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#service_account GoogleDataprocSessionTemplate#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#service_account GoogleDataprocSessionTemplate#service_account}
 
 ---
 
@@ -1588,7 +1588,7 @@ Cloud Dataproc will determine a Cloud Storage location according to the region w
 and then create and manage project-level, per-location staging and temporary buckets.
 This field requires a Cloud Storage bucket name, not a gs://... URI to a Cloud Storage bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#staging_bucket GoogleDataprocSessionTemplate#staging_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#staging_bucket GoogleDataprocSessionTemplate#staging_bucket}
 
 ---
 
@@ -1602,7 +1602,7 @@ SubnetworkUri *string
 
 Subnetwork configuration for workload execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#subnetwork_uri GoogleDataprocSessionTemplate#subnetwork_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#subnetwork_uri GoogleDataprocSessionTemplate#subnetwork_uri}
 
 ---
 
@@ -1624,7 +1624,7 @@ Minimum value is 10 minutes; maximum value is 14 days. If both ttl and idleTtl a
 the conditions are treated as OR conditions: the workload will be terminated when it has been idle for idleTtl or
 when ttl has been exceeded, whichever occurs first.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#ttl GoogleDataprocSessionTemplate#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#ttl GoogleDataprocSessionTemplate#ttl}
 
 ---
 
@@ -1633,7 +1633,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 &googledataprocsessiontemplate.GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfig {
 	UserWorkloadAuthenticationType: *string,
@@ -1658,7 +1658,7 @@ UserWorkloadAuthenticationType *string
 
 Authentication type for the user workload running in containers. Possible values: ["SERVICE_ACCOUNT", "END_USER_CREDENTIALS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#user_workload_authentication_type GoogleDataprocSessionTemplate#user_workload_authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#user_workload_authentication_type GoogleDataprocSessionTemplate#user_workload_authentication_type}
 
 ---
 
@@ -1667,11 +1667,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 &googledataprocsessiontemplate.GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfig {
 	MetastoreService: *string,
-	SparkHistoryServerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfig,
+	SparkHistoryServerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfig,
 }
 ```
 
@@ -1694,7 +1694,7 @@ MetastoreService *string
 
 Resource name of an existing Dataproc Metastore service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#metastore_service GoogleDataprocSessionTemplate#metastore_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#metastore_service GoogleDataprocSessionTemplate#metastore_service}
 
 ---
 
@@ -1708,7 +1708,7 @@ SparkHistoryServerConfig GoogleDataprocSessionTemplateEnvironmentConfigPeriphera
 
 spark_history_server_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#spark_history_server_config GoogleDataprocSessionTemplate#spark_history_server_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#spark_history_server_config GoogleDataprocSessionTemplate#spark_history_server_config}
 
 ---
 
@@ -1717,7 +1717,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 &googledataprocsessiontemplate.GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfig {
 	DataprocCluster: *string,
@@ -1742,7 +1742,7 @@ DataprocCluster *string
 
 Resource name of an existing Dataproc Cluster to act as a Spark History Server for the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#dataproc_cluster GoogleDataprocSessionTemplate#dataproc_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#dataproc_cluster GoogleDataprocSessionTemplate#dataproc_cluster}
 
 ---
 
@@ -1751,7 +1751,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateJupyterSession.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 &googledataprocsessiontemplate.GoogleDataprocSessionTemplateJupyterSession {
 	DisplayName: *string,
@@ -1778,7 +1778,7 @@ DisplayName *string
 
 Display name, shown in the Jupyter kernelspec card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#display_name GoogleDataprocSessionTemplate#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#display_name GoogleDataprocSessionTemplate#display_name}
 
 ---
 
@@ -1792,7 +1792,7 @@ Kernel *string
 
 Kernel to be used with Jupyter interactive session. Possible values: ["PYTHON", "SCALA"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#kernel GoogleDataprocSessionTemplate#kernel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#kernel GoogleDataprocSessionTemplate#kernel}
 
 ---
 
@@ -1801,7 +1801,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateRuntimeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 &googledataprocsessiontemplate.GoogleDataprocSessionTemplateRuntimeConfig {
 	ContainerImage: *string,
@@ -1830,7 +1830,7 @@ ContainerImage *string
 
 Optional custom container image for the job runtime environment. If not specified, a default container image will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#container_image GoogleDataprocSessionTemplate#container_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#container_image GoogleDataprocSessionTemplate#container_image}
 
 ---
 
@@ -1844,7 +1844,7 @@ Properties *map[string]*string
 
 A mapping of property names to values, which are used to configure workload execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#properties GoogleDataprocSessionTemplate#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#properties GoogleDataprocSessionTemplate#properties}
 
 ---
 
@@ -1858,7 +1858,7 @@ Version *string
 
 Version of the session runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#version GoogleDataprocSessionTemplate#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#version GoogleDataprocSessionTemplate#version}
 
 ---
 
@@ -1867,7 +1867,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateSparkConnectSession.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 &googledataprocsessiontemplate.GoogleDataprocSessionTemplateSparkConnectSession {
 
@@ -1880,7 +1880,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 &googledataprocsessiontemplate.GoogleDataprocSessionTemplateTimeouts {
 	Create: *string,
@@ -1893,9 +1893,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#create GoogleDataprocSessionTemplate#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#delete GoogleDataprocSessionTemplate#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#update GoogleDataprocSessionTemplate#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#create GoogleDataprocSessionTemplate#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#delete GoogleDataprocSessionTemplate#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#update GoogleDataprocSessionTemplate#update}. |
 
 ---
 
@@ -1907,7 +1907,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#create GoogleDataprocSessionTemplate#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#create GoogleDataprocSessionTemplate#create}.
 
 ---
 
@@ -1919,7 +1919,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#delete GoogleDataprocSessionTemplate#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#delete GoogleDataprocSessionTemplate#delete}.
 
 ---
 
@@ -1931,7 +1931,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template#update GoogleDataprocSessionTemplate#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template#update GoogleDataprocSessionTemplate#update}.
 
 ---
 
@@ -1942,7 +1942,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.NewGoogleDataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference
 ```
@@ -2220,7 +2220,7 @@ func InternalValue() GoogleDataprocSessionTemplateEnvironmentConfigExecutionConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.NewGoogleDataprocSessionTemplateEnvironmentConfigExecutionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocSessionTemplateEnvironmentConfigExecutionConfigOutputReference
 ```
@@ -2714,7 +2714,7 @@ func InternalValue() GoogleDataprocSessionTemplateEnvironmentConfigExecutionConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.NewGoogleDataprocSessionTemplateEnvironmentConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocSessionTemplateEnvironmentConfigOutputReference
 ```
@@ -3047,7 +3047,7 @@ func InternalValue() GoogleDataprocSessionTemplateEnvironmentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.NewGoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReference
 ```
@@ -3367,7 +3367,7 @@ func InternalValue() GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.NewGoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfigOutputReference
 ```
@@ -3645,7 +3645,7 @@ func InternalValue() GoogleDataprocSessionTemplateEnvironmentConfigPeripheralsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateJupyterSessionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.NewGoogleDataprocSessionTemplateJupyterSessionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocSessionTemplateJupyterSessionOutputReference
 ```
@@ -3952,7 +3952,7 @@ func InternalValue() GoogleDataprocSessionTemplateJupyterSession
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateRuntimeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.NewGoogleDataprocSessionTemplateRuntimeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocSessionTemplateRuntimeConfigOutputReference
 ```
@@ -4299,7 +4299,7 @@ func InternalValue() GoogleDataprocSessionTemplateRuntimeConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateSparkConnectSessionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.NewGoogleDataprocSessionTemplateSparkConnectSessionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocSessionTemplateSparkConnectSessionOutputReference
 ```
@@ -4548,7 +4548,7 @@ func InternalValue() GoogleDataprocSessionTemplateSparkConnectSession
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocSessionTemplate.GoogleDataprocSessionTemplateTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate"
 
 googledataprocsessiontemplate.NewGoogleDataprocSessionTemplateTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocSessionTemplateTimeoutsOutputReference
 ```

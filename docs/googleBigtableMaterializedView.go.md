@@ -4,12 +4,12 @@
 
 ### GoogleBigtableMaterializedView <a name="GoogleBigtableMaterializedView" id="@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view google_bigtable_materialized_view}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view google_bigtable_materialized_view}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigtablematerializedview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigtablematerializedview"
 
 googlebigtablematerializedview.NewGoogleBigtableMaterializedView(scope Construct, id *string, config GoogleBigtableMaterializedViewConfig) GoogleBigtableMaterializedView
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigtablematerializedview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigtablematerializedview"
 
 googlebigtablematerializedview.GoogleBigtableMaterializedView_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigtablematerializedview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigtablematerializedview"
 
 googlebigtablematerializedview.GoogleBigtableMaterializedView_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlebigtablematerializedview.GoogleBigtableMaterializedView_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigtablematerializedview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigtablematerializedview"
 
 googlebigtablematerializedview.GoogleBigtableMaterializedView_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlebigtablematerializedview.GoogleBigtableMaterializedView_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigtablematerializedview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigtablematerializedview"
 
 googlebigtablematerializedview.GoogleBigtableMaterializedView_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleBigtableMaterialized
 
 The id of the existing GoogleBigtableMaterializedView that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigtablematerializedview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigtablematerializedview"
 
 &googlebigtablematerializedview.GoogleBigtableMaterializedViewConfig {
 	Connection: interface{},
@@ -948,7 +948,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 	Id: *string,
 	Instance: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts,
 }
 ```
 
@@ -967,9 +967,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig.property.query">Query</a></code> | <code>*string</code> | The materialized view's select query. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig.property.deletionProtection">DeletionProtection</a></code> | <code>interface{}</code> | Set to true to make the MaterializedView protected against deletion. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#id GoogleBigtableMaterializedView#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#id GoogleBigtableMaterializedView#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig.property.instance">Instance</a></code> | <code>*string</code> | The name of the instance to create the materialized view within. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#project GoogleBigtableMaterializedView#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#project GoogleBigtableMaterializedView#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts">GoogleBigtableMaterializedViewTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1054,7 +1054,7 @@ MaterializedViewId *string
 
 The unique name of the materialized view in the form '[_a-zA-Z0-9][-_.a-zA-Z0-9]*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#materialized_view_id GoogleBigtableMaterializedView#materialized_view_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#materialized_view_id GoogleBigtableMaterializedView#materialized_view_id}
 
 ---
 
@@ -1068,7 +1068,7 @@ Query *string
 
 The materialized view's select query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#query GoogleBigtableMaterializedView#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#query GoogleBigtableMaterializedView#query}
 
 ---
 
@@ -1089,7 +1089,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#deletion_policy GoogleBigtableMaterializedView#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#deletion_policy GoogleBigtableMaterializedView#deletion_policy}
 
 ---
 
@@ -1103,7 +1103,7 @@ DeletionProtection interface{}
 
 Set to true to make the MaterializedView protected against deletion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#deletion_protection GoogleBigtableMaterializedView#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#deletion_protection GoogleBigtableMaterializedView#deletion_protection}
 
 ---
 
@@ -1115,7 +1115,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#id GoogleBigtableMaterializedView#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#id GoogleBigtableMaterializedView#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1132,7 +1132,7 @@ Instance *string
 
 The name of the instance to create the materialized view within.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#instance GoogleBigtableMaterializedView#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#instance GoogleBigtableMaterializedView#instance}
 
 ---
 
@@ -1144,7 +1144,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#project GoogleBigtableMaterializedView#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#project GoogleBigtableMaterializedView#project}.
 
 ---
 
@@ -1158,7 +1158,7 @@ Timeouts GoogleBigtableMaterializedViewTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#timeouts GoogleBigtableMaterializedView#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#timeouts GoogleBigtableMaterializedView#timeouts}
 
 ---
 
@@ -1167,7 +1167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigtablematerializedview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigtablematerializedview"
 
 &googlebigtablematerializedview.GoogleBigtableMaterializedViewTimeouts {
 	Create: *string,
@@ -1180,9 +1180,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#create GoogleBigtableMaterializedView#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#delete GoogleBigtableMaterializedView#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#update GoogleBigtableMaterializedView#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#create GoogleBigtableMaterializedView#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#delete GoogleBigtableMaterializedView#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#update GoogleBigtableMaterializedView#update}. |
 
 ---
 
@@ -1194,7 +1194,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#create GoogleBigtableMaterializedView#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#create GoogleBigtableMaterializedView#create}.
 
 ---
 
@@ -1206,7 +1206,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#delete GoogleBigtableMaterializedView#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#delete GoogleBigtableMaterializedView#delete}.
 
 ---
 
@@ -1218,7 +1218,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view#update GoogleBigtableMaterializedView#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigtable_materialized_view#update GoogleBigtableMaterializedView#update}.
 
 ---
 
@@ -1229,7 +1229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigtablematerializedview"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigtablematerializedview"
 
 googlebigtablematerializedview.NewGoogleBigtableMaterializedViewTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigtableMaterializedViewTimeoutsOutputReference
 ```

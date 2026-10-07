@@ -4,12 +4,12 @@
 
 ### GoogleOracleDatabaseGoldengateConnection <a name="GoogleOracleDatabaseGoldengateConnection" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection google_oracle_database_goldengate_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection google_oracle_database_goldengate_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnection(scope Construct, id *string, config GoogleOracleDatabaseGoldengateConnectionConfig) GoogleOracleDatabaseGoldengateConnection
 ```
@@ -489,7 +489,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnection_IsConstruct(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectio
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectio
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -578,7 +578,7 @@ The construct id used in the generated config for the GoogleOracleDatabaseGolden
 
 The id of the existing GoogleOracleDatabaseGoldengateConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1108,7 +1108,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionConfig {
 	Connection: interface{},
@@ -1120,7 +1120,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleor
 	Provisioners: *[]interface{},
 	GoldengateConnectionId: *string,
 	Location: *string,
-	Properties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionProperties,
+	Properties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionProperties,
 	DeletionPolicy: *string,
 	DeletionProtection: interface{},
 	GcpOracleZone: *string,
@@ -1129,7 +1129,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleor
 	OdbNetwork: *string,
 	OdbSubnet: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionTimeouts,
 }
 ```
 
@@ -1150,11 +1150,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleor
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.property.deletionProtection">DeletionProtection</a></code> | <code>interface{}</code> | Whether or not to allow Terraform to destroy the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.property.gcpOracleZone">GcpOracleZone</a></code> | <code>*string</code> | The GCP Oracle zone where Oracle GoldengateConnection is hosted. |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#id GoogleOracleDatabaseGoldengateConnection#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#id GoogleOracleDatabaseGoldengateConnection#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | The labels or tags associated with the GoldengateConnection. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.property.odbNetwork">OdbNetwork</a></code> | <code>*string</code> | The name of the OdbNetwork associated with the GoldengateConnection. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.property.odbSubnet">OdbSubnet</a></code> | <code>*string</code> | The name of the OdbSubnet associated with the GoldengateConnection for IP allocation. Format: projects/{project}/locations/{location}/odbNetworks/{odb_network}/odbSubnets/{odb_subnet}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#project GoogleOracleDatabaseGoldengateConnection#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#project GoogleOracleDatabaseGoldengateConnection#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionTimeouts">GoogleOracleDatabaseGoldengateConnectionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1244,7 +1244,7 @@ restricted to (^[a-z](%5Ba-z0-9-%5D%7B0,61%7D%5Ba-z0-9%5D)?$) and must be a maxi
 63 characters in length. The value must start with a letter and end with a
 letter or a number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#goldengate_connection_id GoogleOracleDatabaseGoldengateConnection#goldengate_connection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#goldengate_connection_id GoogleOracleDatabaseGoldengateConnection#goldengate_connection_id}
 
 ---
 
@@ -1258,7 +1258,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#location GoogleOracleDatabaseGoldengateConnection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#location GoogleOracleDatabaseGoldengateConnection#location}
 
 ---
 
@@ -1272,7 +1272,7 @@ Properties GoogleOracleDatabaseGoldengateConnectionProperties
 
 properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#properties GoogleOracleDatabaseGoldengateConnection#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#properties GoogleOracleDatabaseGoldengateConnection#properties}
 
 ---
 
@@ -1293,7 +1293,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#deletion_policy GoogleOracleDatabaseGoldengateConnection#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#deletion_policy GoogleOracleDatabaseGoldengateConnection#deletion_policy}
 
 ---
 
@@ -1309,7 +1309,7 @@ Whether or not to allow Terraform to destroy the instance.
 
 Unless this field is set to false in Terraform state, a terraform destroy or terraform apply that would delete the instance will fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#deletion_protection GoogleOracleDatabaseGoldengateConnection#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#deletion_protection GoogleOracleDatabaseGoldengateConnection#deletion_protection}
 
 ---
 
@@ -1326,7 +1326,7 @@ The GCP Oracle zone where Oracle GoldengateConnection is hosted.
 Example: us-east4-b-r2.
 If not specified, the system will pick a zone based on availability.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#gcp_oracle_zone GoogleOracleDatabaseGoldengateConnection#gcp_oracle_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#gcp_oracle_zone GoogleOracleDatabaseGoldengateConnection#gcp_oracle_zone}
 
 ---
 
@@ -1338,7 +1338,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#id GoogleOracleDatabaseGoldengateConnection#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#id GoogleOracleDatabaseGoldengateConnection#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1358,7 +1358,7 @@ The labels or tags associated with the GoldengateConnection.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#labels GoogleOracleDatabaseGoldengateConnection#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#labels GoogleOracleDatabaseGoldengateConnection#labels}
 
 ---
 
@@ -1377,7 +1377,7 @@ projects/{project}/locations/{location}/odbNetworks/{odb_network}.
 It is optional but if specified, this should match the parent ODBNetwork
 of the OdbSubnet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#odb_network GoogleOracleDatabaseGoldengateConnection#odb_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#odb_network GoogleOracleDatabaseGoldengateConnection#odb_network}
 
 ---
 
@@ -1391,7 +1391,7 @@ OdbSubnet *string
 
 The name of the OdbSubnet associated with the GoldengateConnection for IP allocation. Format: projects/{project}/locations/{location}/odbNetworks/{odb_network}/odbSubnets/{odb_subnet}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#odb_subnet GoogleOracleDatabaseGoldengateConnection#odb_subnet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#odb_subnet GoogleOracleDatabaseGoldengateConnection#odb_subnet}
 
 ---
 
@@ -1403,7 +1403,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#project GoogleOracleDatabaseGoldengateConnection#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#project GoogleOracleDatabaseGoldengateConnection#project}.
 
 ---
 
@@ -1417,7 +1417,7 @@ Timeouts GoogleOracleDatabaseGoldengateConnectionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#timeouts GoogleOracleDatabaseGoldengateConnection#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#timeouts GoogleOracleDatabaseGoldengateConnection#timeouts}
 
 ---
 
@@ -1426,42 +1426,42 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionProperties {
 	ConnectionType: *string,
 	DisplayName: *string,
-	AmazonKinesisConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonKinesisConnectionProperties,
-	AmazonRedshiftConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonRedshiftConnectionProperties,
-	AmazonS3ConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonS3ConnectionProperties,
-	AzureDataLakeStorageConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAzureDataLakeStorageConnectionProperties,
-	AzureSynapseAnalyticsConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAzureSynapseAnalyticsConnectionProperties,
-	DatabricksConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDatabricksConnectionProperties,
-	Db2ConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionProperties,
+	AmazonKinesisConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonKinesisConnectionProperties,
+	AmazonRedshiftConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonRedshiftConnectionProperties,
+	AmazonS3ConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonS3ConnectionProperties,
+	AzureDataLakeStorageConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAzureDataLakeStorageConnectionProperties,
+	AzureSynapseAnalyticsConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAzureSynapseAnalyticsConnectionProperties,
+	DatabricksConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDatabricksConnectionProperties,
+	Db2ConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionProperties,
 	Description: *string,
-	ElasticsearchConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesElasticsearchConnectionProperties,
-	GenericConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGenericConnectionProperties,
-	GoldengateConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoldengateConnectionProperties,
-	GoogleBigQueryConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleBigQueryConnectionProperties,
-	GoogleCloudStorageConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleCloudStorageConnectionProperties,
-	GooglePubsubConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGooglePubsubConnectionProperties,
-	HdfsConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesHdfsConnectionProperties,
-	IcebergConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionProperties,
-	JavaMessageServiceConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionProperties,
-	KafkaConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionProperties,
-	KafkaSchemaRegistryConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaSchemaRegistryConnectionProperties,
-	MicrosoftFabricConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftFabricConnectionProperties,
-	MicrosoftSqlserverConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionProperties,
-	MongodbConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMongodbConnectionProperties,
-	MysqlConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionProperties,
-	OciObjectStorageConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOciObjectStorageConnectionProperties,
-	OracleAiDataPlatformConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleAiDataPlatformConnectionProperties,
-	OracleConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleConnectionProperties,
-	OracleNosqlConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleNosqlConnectionProperties,
-	PostgresqlConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionProperties,
-	RedisConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesRedisConnectionProperties,
+	ElasticsearchConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesElasticsearchConnectionProperties,
+	GenericConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGenericConnectionProperties,
+	GoldengateConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoldengateConnectionProperties,
+	GoogleBigQueryConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleBigQueryConnectionProperties,
+	GoogleCloudStorageConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleCloudStorageConnectionProperties,
+	GooglePubsubConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGooglePubsubConnectionProperties,
+	HdfsConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesHdfsConnectionProperties,
+	IcebergConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionProperties,
+	JavaMessageServiceConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionProperties,
+	KafkaConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionProperties,
+	KafkaSchemaRegistryConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaSchemaRegistryConnectionProperties,
+	MicrosoftFabricConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftFabricConnectionProperties,
+	MicrosoftSqlserverConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionProperties,
+	MongodbConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMongodbConnectionProperties,
+	MysqlConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionProperties,
+	OciObjectStorageConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOciObjectStorageConnectionProperties,
+	OracleAiDataPlatformConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleAiDataPlatformConnectionProperties,
+	OracleConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleConnectionProperties,
+	OracleNosqlConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleNosqlConnectionProperties,
+	PostgresqlConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionProperties,
+	RedisConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesRedisConnectionProperties,
 	RoutingMethod: *string,
-	SnowflakeConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesSnowflakeConnectionProperties,
+	SnowflakeConnectionProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesSnowflakeConnectionProperties,
 }
 ```
 
@@ -1515,7 +1515,7 @@ ConnectionType *string
 
 The connection type. Possible values: GOLDENGATE KAFKA KAFKA_SCHEMA_REGISTRY MYSQL JAVA_MESSAGE_SERVICE MICROSOFT_SQLSERVER OCI_OBJECT_STORAGE ORACLE AZURE_DATA_LAKE_STORAGE POSTGRESQL AZURE_SYNAPSE_ANALYTICS SNOWFLAKE AMAZON_S3 HDFS ORACLE_AI_DATA_PLATFORM ORACLE_NOSQL MONGODB AMAZON_KINESIS AMAZON_REDSHIFT DB2 REDIS ELASTICSEARCH GENERIC GOOGLE_CLOUD_STORAGE GOOGLE_BIGQUERY DATABRICKS GOOGLE_PUBSUB MICROSOFT_FABRIC ICEBERG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#connection_type GoogleOracleDatabaseGoldengateConnection#connection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#connection_type GoogleOracleDatabaseGoldengateConnection#connection_type}
 
 ---
 
@@ -1529,7 +1529,7 @@ DisplayName *string
 
 An object's Display Name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#display_name GoogleOracleDatabaseGoldengateConnection#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#display_name GoogleOracleDatabaseGoldengateConnection#display_name}
 
 ---
 
@@ -1543,7 +1543,7 @@ AmazonKinesisConnectionProperties GoogleOracleDatabaseGoldengateConnectionProper
 
 amazon_kinesis_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#amazon_kinesis_connection_properties GoogleOracleDatabaseGoldengateConnection#amazon_kinesis_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#amazon_kinesis_connection_properties GoogleOracleDatabaseGoldengateConnection#amazon_kinesis_connection_properties}
 
 ---
 
@@ -1557,7 +1557,7 @@ AmazonRedshiftConnectionProperties GoogleOracleDatabaseGoldengateConnectionPrope
 
 amazon_redshift_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#amazon_redshift_connection_properties GoogleOracleDatabaseGoldengateConnection#amazon_redshift_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#amazon_redshift_connection_properties GoogleOracleDatabaseGoldengateConnection#amazon_redshift_connection_properties}
 
 ---
 
@@ -1571,7 +1571,7 @@ AmazonS3ConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertiesA
 
 amazon_s3_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#amazon_s3_connection_properties GoogleOracleDatabaseGoldengateConnection#amazon_s3_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#amazon_s3_connection_properties GoogleOracleDatabaseGoldengateConnection#amazon_s3_connection_properties}
 
 ---
 
@@ -1585,7 +1585,7 @@ AzureDataLakeStorageConnectionProperties GoogleOracleDatabaseGoldengateConnectio
 
 azure_data_lake_storage_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#azure_data_lake_storage_connection_properties GoogleOracleDatabaseGoldengateConnection#azure_data_lake_storage_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#azure_data_lake_storage_connection_properties GoogleOracleDatabaseGoldengateConnection#azure_data_lake_storage_connection_properties}
 
 ---
 
@@ -1599,7 +1599,7 @@ AzureSynapseAnalyticsConnectionProperties GoogleOracleDatabaseGoldengateConnecti
 
 azure_synapse_analytics_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#azure_synapse_analytics_connection_properties GoogleOracleDatabaseGoldengateConnection#azure_synapse_analytics_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#azure_synapse_analytics_connection_properties GoogleOracleDatabaseGoldengateConnection#azure_synapse_analytics_connection_properties}
 
 ---
 
@@ -1613,7 +1613,7 @@ DatabricksConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertie
 
 databricks_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#databricks_connection_properties GoogleOracleDatabaseGoldengateConnection#databricks_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#databricks_connection_properties GoogleOracleDatabaseGoldengateConnection#databricks_connection_properties}
 
 ---
 
@@ -1627,7 +1627,7 @@ Db2ConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertiesDb2Con
 
 db2_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#db2_connection_properties GoogleOracleDatabaseGoldengateConnection#db2_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#db2_connection_properties GoogleOracleDatabaseGoldengateConnection#db2_connection_properties}
 
 ---
 
@@ -1641,7 +1641,7 @@ Description *string
 
 Metadata about this specific object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#description GoogleOracleDatabaseGoldengateConnection#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#description GoogleOracleDatabaseGoldengateConnection#description}
 
 ---
 
@@ -1655,7 +1655,7 @@ ElasticsearchConnectionProperties GoogleOracleDatabaseGoldengateConnectionProper
 
 elasticsearch_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#elasticsearch_connection_properties GoogleOracleDatabaseGoldengateConnection#elasticsearch_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#elasticsearch_connection_properties GoogleOracleDatabaseGoldengateConnection#elasticsearch_connection_properties}
 
 ---
 
@@ -1669,7 +1669,7 @@ GenericConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertiesGe
 
 generic_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#generic_connection_properties GoogleOracleDatabaseGoldengateConnection#generic_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#generic_connection_properties GoogleOracleDatabaseGoldengateConnection#generic_connection_properties}
 
 ---
 
@@ -1683,7 +1683,7 @@ GoldengateConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertie
 
 goldengate_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#goldengate_connection_properties GoogleOracleDatabaseGoldengateConnection#goldengate_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#goldengate_connection_properties GoogleOracleDatabaseGoldengateConnection#goldengate_connection_properties}
 
 ---
 
@@ -1697,7 +1697,7 @@ GoogleBigQueryConnectionProperties GoogleOracleDatabaseGoldengateConnectionPrope
 
 google_big_query_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#google_big_query_connection_properties GoogleOracleDatabaseGoldengateConnection#google_big_query_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#google_big_query_connection_properties GoogleOracleDatabaseGoldengateConnection#google_big_query_connection_properties}
 
 ---
 
@@ -1711,7 +1711,7 @@ GoogleCloudStorageConnectionProperties GoogleOracleDatabaseGoldengateConnectionP
 
 google_cloud_storage_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#google_cloud_storage_connection_properties GoogleOracleDatabaseGoldengateConnection#google_cloud_storage_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#google_cloud_storage_connection_properties GoogleOracleDatabaseGoldengateConnection#google_cloud_storage_connection_properties}
 
 ---
 
@@ -1725,7 +1725,7 @@ GooglePubsubConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropert
 
 google_pubsub_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#google_pubsub_connection_properties GoogleOracleDatabaseGoldengateConnection#google_pubsub_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#google_pubsub_connection_properties GoogleOracleDatabaseGoldengateConnection#google_pubsub_connection_properties}
 
 ---
 
@@ -1739,7 +1739,7 @@ HdfsConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertiesHdfsC
 
 hdfs_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#hdfs_connection_properties GoogleOracleDatabaseGoldengateConnection#hdfs_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#hdfs_connection_properties GoogleOracleDatabaseGoldengateConnection#hdfs_connection_properties}
 
 ---
 
@@ -1753,7 +1753,7 @@ IcebergConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertiesIc
 
 iceberg_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#iceberg_connection_properties GoogleOracleDatabaseGoldengateConnection#iceberg_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#iceberg_connection_properties GoogleOracleDatabaseGoldengateConnection#iceberg_connection_properties}
 
 ---
 
@@ -1767,7 +1767,7 @@ JavaMessageServiceConnectionProperties GoogleOracleDatabaseGoldengateConnectionP
 
 java_message_service_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#java_message_service_connection_properties GoogleOracleDatabaseGoldengateConnection#java_message_service_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#java_message_service_connection_properties GoogleOracleDatabaseGoldengateConnection#java_message_service_connection_properties}
 
 ---
 
@@ -1781,7 +1781,7 @@ KafkaConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertiesKafk
 
 kafka_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#kafka_connection_properties GoogleOracleDatabaseGoldengateConnection#kafka_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#kafka_connection_properties GoogleOracleDatabaseGoldengateConnection#kafka_connection_properties}
 
 ---
 
@@ -1795,7 +1795,7 @@ KafkaSchemaRegistryConnectionProperties GoogleOracleDatabaseGoldengateConnection
 
 kafka_schema_registry_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#kafka_schema_registry_connection_properties GoogleOracleDatabaseGoldengateConnection#kafka_schema_registry_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#kafka_schema_registry_connection_properties GoogleOracleDatabaseGoldengateConnection#kafka_schema_registry_connection_properties}
 
 ---
 
@@ -1809,7 +1809,7 @@ MicrosoftFabricConnectionProperties GoogleOracleDatabaseGoldengateConnectionProp
 
 microsoft_fabric_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#microsoft_fabric_connection_properties GoogleOracleDatabaseGoldengateConnection#microsoft_fabric_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#microsoft_fabric_connection_properties GoogleOracleDatabaseGoldengateConnection#microsoft_fabric_connection_properties}
 
 ---
 
@@ -1823,7 +1823,7 @@ MicrosoftSqlserverConnectionProperties GoogleOracleDatabaseGoldengateConnectionP
 
 microsoft_sqlserver_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#microsoft_sqlserver_connection_properties GoogleOracleDatabaseGoldengateConnection#microsoft_sqlserver_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#microsoft_sqlserver_connection_properties GoogleOracleDatabaseGoldengateConnection#microsoft_sqlserver_connection_properties}
 
 ---
 
@@ -1837,7 +1837,7 @@ MongodbConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertiesMo
 
 mongodb_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#mongodb_connection_properties GoogleOracleDatabaseGoldengateConnection#mongodb_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#mongodb_connection_properties GoogleOracleDatabaseGoldengateConnection#mongodb_connection_properties}
 
 ---
 
@@ -1851,7 +1851,7 @@ MysqlConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertiesMysq
 
 mysql_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#mysql_connection_properties GoogleOracleDatabaseGoldengateConnection#mysql_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#mysql_connection_properties GoogleOracleDatabaseGoldengateConnection#mysql_connection_properties}
 
 ---
 
@@ -1865,7 +1865,7 @@ OciObjectStorageConnectionProperties GoogleOracleDatabaseGoldengateConnectionPro
 
 oci_object_storage_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#oci_object_storage_connection_properties GoogleOracleDatabaseGoldengateConnection#oci_object_storage_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#oci_object_storage_connection_properties GoogleOracleDatabaseGoldengateConnection#oci_object_storage_connection_properties}
 
 ---
 
@@ -1879,7 +1879,7 @@ OracleAiDataPlatformConnectionProperties GoogleOracleDatabaseGoldengateConnectio
 
 oracle_ai_data_platform_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#oracle_ai_data_platform_connection_properties GoogleOracleDatabaseGoldengateConnection#oracle_ai_data_platform_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#oracle_ai_data_platform_connection_properties GoogleOracleDatabaseGoldengateConnection#oracle_ai_data_platform_connection_properties}
 
 ---
 
@@ -1893,7 +1893,7 @@ OracleConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertiesOra
 
 oracle_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#oracle_connection_properties GoogleOracleDatabaseGoldengateConnection#oracle_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#oracle_connection_properties GoogleOracleDatabaseGoldengateConnection#oracle_connection_properties}
 
 ---
 
@@ -1907,7 +1907,7 @@ OracleNosqlConnectionProperties GoogleOracleDatabaseGoldengateConnectionProperti
 
 oracle_nosql_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#oracle_nosql_connection_properties GoogleOracleDatabaseGoldengateConnection#oracle_nosql_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#oracle_nosql_connection_properties GoogleOracleDatabaseGoldengateConnection#oracle_nosql_connection_properties}
 
 ---
 
@@ -1921,7 +1921,7 @@ PostgresqlConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertie
 
 postgresql_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#postgresql_connection_properties GoogleOracleDatabaseGoldengateConnection#postgresql_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#postgresql_connection_properties GoogleOracleDatabaseGoldengateConnection#postgresql_connection_properties}
 
 ---
 
@@ -1935,7 +1935,7 @@ RedisConnectionProperties GoogleOracleDatabaseGoldengateConnectionPropertiesRedi
 
 redis_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#redis_connection_properties GoogleOracleDatabaseGoldengateConnection#redis_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#redis_connection_properties GoogleOracleDatabaseGoldengateConnection#redis_connection_properties}
 
 ---
 
@@ -1949,7 +1949,7 @@ RoutingMethod *string
 
 The routing method for the GoldengateConnection. Possible values: SHARED_DEPLOYMENT_ENDPOINT DEDICATED_ENDPOINT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#routing_method GoogleOracleDatabaseGoldengateConnection#routing_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#routing_method GoogleOracleDatabaseGoldengateConnection#routing_method}
 
 ---
 
@@ -1963,7 +1963,7 @@ SnowflakeConnectionProperties GoogleOracleDatabaseGoldengateConnectionProperties
 
 snowflake_connection_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#snowflake_connection_properties GoogleOracleDatabaseGoldengateConnection#snowflake_connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#snowflake_connection_properties GoogleOracleDatabaseGoldengateConnection#snowflake_connection_properties}
 
 ---
 
@@ -1972,7 +1972,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonKinesisConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonKinesisConnectionProperties {
 	AccessKeyId: *string,
@@ -2005,7 +2005,7 @@ AccessKeyId *string
 
 Access key ID to access the Amazon Kinesis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#access_key_id GoogleOracleDatabaseGoldengateConnection#access_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#access_key_id GoogleOracleDatabaseGoldengateConnection#access_key_id}
 
 ---
 
@@ -2019,7 +2019,7 @@ AwsRegion *string
 
 The name of the AWS region. If not provided, Goldengate will default to 'us-west-1'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#aws_region GoogleOracleDatabaseGoldengateConnection#aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#aws_region GoogleOracleDatabaseGoldengateConnection#aws_region}
 
 ---
 
@@ -2033,7 +2033,7 @@ Endpoint *string
 
 The endpoint URL of the Amazon Kinesis service. e.g.: 'https://kinesis.us-east-1.amazonaws.com' If not provided, Goldengate will default to 'https://kinesis..amazonaws.com'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
 
 ---
 
@@ -2047,7 +2047,7 @@ SecretAccessKeySecret *string
 
 Secret access key to access the Amazon Kinesis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#secret_access_key_secret GoogleOracleDatabaseGoldengateConnection#secret_access_key_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#secret_access_key_secret GoogleOracleDatabaseGoldengateConnection#secret_access_key_secret}
 
 ---
 
@@ -2061,7 +2061,7 @@ TechnologyType *string
 
 The technology type of AmazonKinesisConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -2070,7 +2070,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonRedshiftConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonRedshiftConnectionProperties {
 	ConnectionUrl: *string,
@@ -2103,7 +2103,7 @@ ConnectionUrl *string
 
 Connection URL. e.g.: 'jdbc:redshift://aws-redshift-instance.aaaaaaaaaaaa.us-east-2.redshift.amazonaws.com:5439/mydb'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#connection_url GoogleOracleDatabaseGoldengateConnection#connection_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#connection_url GoogleOracleDatabaseGoldengateConnection#connection_url}
 
 ---
 
@@ -2117,7 +2117,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses for Amazon Redshift connection in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -2135,7 +2135,7 @@ The resource name of a secret version in Secret Manager which contains
 the password Oracle Goldengate uses for Amazon Redshift connection.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -2149,7 +2149,7 @@ TechnologyType *string
 
 The technology type of AmazonRedshiftConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -2163,7 +2163,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect the associated system of the given technology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -2172,7 +2172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonS3ConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonS3ConnectionProperties {
 	AccessKeyId: *string,
@@ -2205,7 +2205,7 @@ AccessKeyId *string
 
 Access key ID to access the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#access_key_id GoogleOracleDatabaseGoldengateConnection#access_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#access_key_id GoogleOracleDatabaseGoldengateConnection#access_key_id}
 
 ---
 
@@ -2219,7 +2219,7 @@ Endpoint *string
 
 The Amazon Endpoint for S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
 
 ---
 
@@ -2233,7 +2233,7 @@ Region *string
 
 The name of the AWS region where the bucket is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#region GoogleOracleDatabaseGoldengateConnection#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#region GoogleOracleDatabaseGoldengateConnection#region}
 
 ---
 
@@ -2247,7 +2247,7 @@ SecretAccessKeySecret *string
 
 Secret access key to access the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#secret_access_key_secret GoogleOracleDatabaseGoldengateConnection#secret_access_key_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#secret_access_key_secret GoogleOracleDatabaseGoldengateConnection#secret_access_key_secret}
 
 ---
 
@@ -2261,7 +2261,7 @@ TechnologyType *string
 
 The technology type of AmazonS3Connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -2270,7 +2270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAzureDataLakeStorageConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAzureDataLakeStorageConnectionProperties {
 	Account: *string,
@@ -2313,7 +2313,7 @@ Account *string
 
 Sets the Azure storage account name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#account GoogleOracleDatabaseGoldengateConnection#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#account GoogleOracleDatabaseGoldengateConnection#account}
 
 ---
 
@@ -2327,7 +2327,7 @@ AccountKeySecret *string
 
 Azure storage account key. This property is required when 'authentication_type' is set to 'SHARED_KEY'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#account_key_secret GoogleOracleDatabaseGoldengateConnection#account_key_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#account_key_secret GoogleOracleDatabaseGoldengateConnection#account_key_secret}
 
 ---
 
@@ -2341,7 +2341,7 @@ AuthenticationType *string
 
 Authentication mechanism to access Azure Data Lake Storage. Possible values: SHARED_KEY SHARED_ACCESS_SIGNATURE AZURE_ACTIVE_DIRECTORY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
 
 ---
 
@@ -2355,7 +2355,7 @@ AzureAuthorityHost *string
 
 The endpoint used for authentication with Microsoft Entra ID (formerly Azure Active Directory). Default value: https://login.microsoftonline.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#azure_authority_host GoogleOracleDatabaseGoldengateConnection#azure_authority_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#azure_authority_host GoogleOracleDatabaseGoldengateConnection#azure_authority_host}
 
 ---
 
@@ -2369,7 +2369,7 @@ AzureTenantId *string
 
 Azure tenant ID of the application. This property is required when 'authentication_type' is set to 'AZURE_ACTIVE_DIRECTORY'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#azure_tenant_id GoogleOracleDatabaseGoldengateConnection#azure_tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#azure_tenant_id GoogleOracleDatabaseGoldengateConnection#azure_tenant_id}
 
 ---
 
@@ -2383,7 +2383,7 @@ ClientId *string
 
 Azure client ID of the application. This property is required when 'authentication_type' is set to 'AZURE_ACTIVE_DIRECTORY'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#client_id GoogleOracleDatabaseGoldengateConnection#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#client_id GoogleOracleDatabaseGoldengateConnection#client_id}
 
 ---
 
@@ -2397,7 +2397,7 @@ ClientSecret *string
 
 Azure client secret (aka application password) for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#client_secret GoogleOracleDatabaseGoldengateConnection#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#client_secret GoogleOracleDatabaseGoldengateConnection#client_secret}
 
 ---
 
@@ -2411,7 +2411,7 @@ Endpoint *string
 
 Azure Storage service endpoint. e.g: https://test.blob.core.windows.net.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
 
 ---
 
@@ -2425,7 +2425,7 @@ SasTokenSecret *string
 
 Credential that uses a shared access signature (SAS) to authenticate to an Azure Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#sas_token_secret GoogleOracleDatabaseGoldengateConnection#sas_token_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#sas_token_secret GoogleOracleDatabaseGoldengateConnection#sas_token_secret}
 
 ---
 
@@ -2439,7 +2439,7 @@ TechnologyType *string
 
 The technology type of AzureDataLakeStorageConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -2448,7 +2448,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAzureSynapseAnalyticsConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAzureSynapseAnalyticsConnectionProperties {
 	ConnectionString: *string,
@@ -2481,7 +2481,7 @@ ConnectionString *string
 
 JDBC connection string. e.g.: 'jdbc:sqlserver://.sql.azuresynapse.net:1433;database=;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.sql.azuresynapse.net;loginTimeout=300;'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#connection_string GoogleOracleDatabaseGoldengateConnection#connection_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#connection_string GoogleOracleDatabaseGoldengateConnection#connection_string}
 
 ---
 
@@ -2495,7 +2495,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses for Azure Synapse Analytics connection in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -2514,7 +2514,7 @@ the password Oracle Goldengate uses for Azure Synapse Analytics
 connection.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -2528,7 +2528,7 @@ TechnologyType *string
 
 The technology type of AzureSynapseAnalyticsConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -2542,7 +2542,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect the associated system of the given technology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -2551,7 +2551,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDatabricksConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDatabricksConnectionProperties {
 	AuthenticationType: *string,
@@ -2590,7 +2590,7 @@ AuthenticationType *string
 
 Authentication type for Databricks. Possible values: PERSONAL_ACCESS_TOKEN OAUTH_M2M.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
 
 ---
 
@@ -2604,7 +2604,7 @@ ClientId *string
 
 OAuth client id, only applicable for authentication_type == OAUTH_M2M.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#client_id GoogleOracleDatabaseGoldengateConnection#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#client_id GoogleOracleDatabaseGoldengateConnection#client_id}
 
 ---
 
@@ -2618,7 +2618,7 @@ ClientSecret *string
 
 OAuth client secret, only applicable for authentication_type == OAUTH_M2M.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#client_secret GoogleOracleDatabaseGoldengateConnection#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#client_secret GoogleOracleDatabaseGoldengateConnection#client_secret}
 
 ---
 
@@ -2632,7 +2632,7 @@ ConnectionUrl *string
 
 Connection URL. e.g.: 'jdbc:databricks://adb-33934.4.azuredatabricks.net:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/3393########44/0##3-7-hlrb'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#connection_url GoogleOracleDatabaseGoldengateConnection#connection_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#connection_url GoogleOracleDatabaseGoldengateConnection#connection_url}
 
 ---
 
@@ -2646,7 +2646,7 @@ Password *string
 
 Input only. The password used to connect to Databricks in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -2664,7 +2664,7 @@ The resource name of a secret version in Secret Manager which contains
 the password used to connect to Databricks.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -2678,7 +2678,7 @@ StorageCredential *string
 
 External storage credential name to access files on object storage such as ADLS Gen2, S3 or Cloud Storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#storage_credential GoogleOracleDatabaseGoldengateConnection#storage_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#storage_credential GoogleOracleDatabaseGoldengateConnection#storage_credential}
 
 ---
 
@@ -2692,7 +2692,7 @@ TechnologyType *string
 
 The technology type of DatabricksConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -2701,7 +2701,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionProperties {
 	AdditionalAttributes: interface{},
@@ -2748,7 +2748,7 @@ AdditionalAttributes interface{}
 
 additional_attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#additional_attributes GoogleOracleDatabaseGoldengateConnection#additional_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#additional_attributes GoogleOracleDatabaseGoldengateConnection#additional_attributes}
 
 ---
 
@@ -2762,7 +2762,7 @@ Database *string
 
 The name of the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#database GoogleOracleDatabaseGoldengateConnection#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#database GoogleOracleDatabaseGoldengateConnection#database}
 
 ---
 
@@ -2776,7 +2776,7 @@ Host *string
 
 The name or address of a host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
 
 ---
 
@@ -2790,7 +2790,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses for Db2 connection in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -2808,7 +2808,7 @@ The resource name of a secret version in Secret Manager which contains
 the password Oracle Goldengate uses for Db2 connection.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -2822,7 +2822,7 @@ Port *f64
 
 The port of an endpoint usually specified for a connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
 
 ---
 
@@ -2836,7 +2836,7 @@ SecurityProtocol *string
 
 Security protocol for the DB2 database. Possible values: PLAIN TLS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
 
 ---
 
@@ -2850,7 +2850,7 @@ SslClientKeystashFile *string
 
 The keystash file which contains the encrypted password to the key database file. Not supported for IBM Db2 for i.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_client_keystash_file GoogleOracleDatabaseGoldengateConnection#ssl_client_keystash_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_client_keystash_file GoogleOracleDatabaseGoldengateConnection#ssl_client_keystash_file}
 
 ---
 
@@ -2866,7 +2866,7 @@ The keystore file created at the client containing the server certificate / CA r
 
 Not supported for IBM Db2 for i.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_client_keystoredb_file GoogleOracleDatabaseGoldengateConnection#ssl_client_keystoredb_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_client_keystoredb_file GoogleOracleDatabaseGoldengateConnection#ssl_client_keystoredb_file}
 
 ---
 
@@ -2880,7 +2880,7 @@ SslServerCertificateFile *string
 
 The file which contains the self-signed server certificate / Certificate Authority (CA) certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_server_certificate_file GoogleOracleDatabaseGoldengateConnection#ssl_server_certificate_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_server_certificate_file GoogleOracleDatabaseGoldengateConnection#ssl_server_certificate_file}
 
 ---
 
@@ -2894,7 +2894,7 @@ TechnologyType *string
 
 The technology type of Db2Connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -2908,7 +2908,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect to the DB2 database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -2917,7 +2917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionPropertiesAdditionalAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionPropertiesAdditionalAttributes {
 	Key: *string,
@@ -2944,7 +2944,7 @@ Key *string
 
 The name of the property entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key GoogleOracleDatabaseGoldengateConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key GoogleOracleDatabaseGoldengateConnection#key}
 
 ---
 
@@ -2958,7 +2958,7 @@ Value *string
 
 The value of the property entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#value GoogleOracleDatabaseGoldengateConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#value GoogleOracleDatabaseGoldengateConnection#value}
 
 ---
 
@@ -2967,7 +2967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesElasticsearchConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesElasticsearchConnectionProperties {
 	AuthenticationType: *string,
@@ -3006,7 +3006,7 @@ AuthenticationType *string
 
 Authentication type for Elasticsearch. Possible values: NONE BASIC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
 
 ---
 
@@ -3020,7 +3020,7 @@ Fingerprint *string
 
 Fingerprint required by TLS security protocol. Eg.: '6152b2dfbff200f973c5074a5b91d06ab3b472c07c09a1ea57bb7fd406cdce9c'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#fingerprint GoogleOracleDatabaseGoldengateConnection#fingerprint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#fingerprint GoogleOracleDatabaseGoldengateConnection#fingerprint}
 
 ---
 
@@ -3034,7 +3034,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses for Elastic Search connection in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -3052,7 +3052,7 @@ The resource name of a secret version in Secret Manager which contains
 the password Oracle Goldengate uses for Elastic Search connection.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -3066,7 +3066,7 @@ SecurityProtocol *string
 
 Security protocol for Elasticsearch. Possible values: PLAIN TLS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
 
 ---
 
@@ -3084,7 +3084,7 @@ If port is not specified, it
 defaults to 9200. Example:
 "server1.example.com:4000,server2.example.com:4000"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#servers GoogleOracleDatabaseGoldengateConnection#servers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#servers GoogleOracleDatabaseGoldengateConnection#servers}
 
 ---
 
@@ -3098,7 +3098,7 @@ TechnologyType *string
 
 The technology type of ElasticsearchConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -3112,7 +3112,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect the associated system of the given technology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -3121,7 +3121,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGenericConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGenericConnectionProperties {
 	Host: *string,
@@ -3148,7 +3148,7 @@ Host *string
 
 The host of the GenericConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
 
 ---
 
@@ -3162,7 +3162,7 @@ TechnologyType *string
 
 The technology type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -3171,7 +3171,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoldengateConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoldengateConnectionProperties {
 	GoldengateDeploymentId: *string,
@@ -3208,7 +3208,7 @@ GoldengateDeploymentId *string
 
 The name of the GoldengateDeployment associated with the GoldengateConnection. Format: projects/{project}/locations/{location}/goldengateDeployments/{goldengate_deployment}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#goldengate_deployment_id GoogleOracleDatabaseGoldengateConnection#goldengate_deployment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#goldengate_deployment_id GoogleOracleDatabaseGoldengateConnection#goldengate_deployment_id}
 
 ---
 
@@ -3222,7 +3222,7 @@ Host *string
 
 The host of the GoldengateConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
 
 ---
 
@@ -3236,7 +3236,7 @@ Password *string
 
 Input only. The password used to connect to the Oracle Goldengate in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -3254,7 +3254,7 @@ The resource name of a secret version in Secret Manager which contains
 the password used to connect to the Oracle Goldengate.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -3268,7 +3268,7 @@ Port *f64
 
 The port of the GoldengateConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
 
 ---
 
@@ -3282,7 +3282,7 @@ TechnologyType *string
 
 The technology type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -3296,7 +3296,7 @@ Username *string
 
 The username credential.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -3305,7 +3305,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleBigQueryConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleBigQueryConnectionProperties {
 	ServiceAccountKeyFile: *string,
@@ -3332,7 +3332,7 @@ ServiceAccountKeyFile *string
 
 The service account key file Cloud Storage containing the credentials required to use Google BigQuery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
 
 ---
 
@@ -3346,7 +3346,7 @@ TechnologyType *string
 
 The technology type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -3355,7 +3355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleCloudStorageConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleCloudStorageConnectionProperties {
 	ServiceAccountKeyFile: *string,
@@ -3382,7 +3382,7 @@ ServiceAccountKeyFile *string
 
 The service account key Cloud Storage file containing the credentials required to use Google Cloud Storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
 
 ---
 
@@ -3396,7 +3396,7 @@ TechnologyType *string
 
 The technology type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -3405,7 +3405,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGooglePubsubConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGooglePubsubConnectionProperties {
 	ServiceAccountKeyFile: *string,
@@ -3432,7 +3432,7 @@ ServiceAccountKeyFile *string
 
 The content of the service account key file containing the credentials required to use Google Pub/Sub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
 
 ---
 
@@ -3446,7 +3446,7 @@ TechnologyType *string
 
 The technology type of GooglePubsubConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -3455,7 +3455,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesHdfsConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesHdfsConnectionProperties {
 	CoreSiteXml: *string,
@@ -3482,7 +3482,7 @@ CoreSiteXml *string
 
 The content of the Hadoop Distributed File System configuration file (core-site.xml).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#core_site_xml GoogleOracleDatabaseGoldengateConnection#core_site_xml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#core_site_xml GoogleOracleDatabaseGoldengateConnection#core_site_xml}
 
 ---
 
@@ -3496,7 +3496,7 @@ TechnologyType *string
 
 The technology type of HdfsConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -3505,11 +3505,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionProperties {
-	Catalog: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalog,
-	Storage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorage,
+	Catalog: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalog,
+	Storage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorage,
 	TechnologyType: *string,
 }
 ```
@@ -3534,7 +3534,7 @@ Catalog GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPrope
 
 catalog block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#catalog GoogleOracleDatabaseGoldengateConnection#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#catalog GoogleOracleDatabaseGoldengateConnection#catalog}
 
 ---
 
@@ -3548,7 +3548,7 @@ Storage GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPrope
 
 storage block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#storage GoogleOracleDatabaseGoldengateConnection#storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#storage GoogleOracleDatabaseGoldengateConnection#storage}
 
 ---
 
@@ -3562,7 +3562,7 @@ TechnologyType *string
 
 The technology type of Iceberg connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -3571,14 +3571,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalog {
 	CatalogType: *string,
-	GlueIcebergCatalog: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogGlueIcebergCatalog,
-	NessieIcebergCatalog: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogNessieIcebergCatalog,
-	PolarisIcebergCatalog: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogPolarisIcebergCatalog,
-	RestIcebergCatalog: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogRestIcebergCatalog,
+	GlueIcebergCatalog: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogGlueIcebergCatalog,
+	NessieIcebergCatalog: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogNessieIcebergCatalog,
+	PolarisIcebergCatalog: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogPolarisIcebergCatalog,
+	RestIcebergCatalog: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogRestIcebergCatalog,
 }
 ```
 
@@ -3604,7 +3604,7 @@ CatalogType *string
 
 The type of Iceberg catalog. Possible values: GLUE HADOOP NESSIE POLARIS REST.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#catalog_type GoogleOracleDatabaseGoldengateConnection#catalog_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#catalog_type GoogleOracleDatabaseGoldengateConnection#catalog_type}
 
 ---
 
@@ -3618,7 +3618,7 @@ GlueIcebergCatalog GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConn
 
 glue_iceberg_catalog block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#glue_iceberg_catalog GoogleOracleDatabaseGoldengateConnection#glue_iceberg_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#glue_iceberg_catalog GoogleOracleDatabaseGoldengateConnection#glue_iceberg_catalog}
 
 ---
 
@@ -3632,7 +3632,7 @@ NessieIcebergCatalog GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergCo
 
 nessie_iceberg_catalog block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#nessie_iceberg_catalog GoogleOracleDatabaseGoldengateConnection#nessie_iceberg_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#nessie_iceberg_catalog GoogleOracleDatabaseGoldengateConnection#nessie_iceberg_catalog}
 
 ---
 
@@ -3646,7 +3646,7 @@ PolarisIcebergCatalog GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergC
 
 polaris_iceberg_catalog block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#polaris_iceberg_catalog GoogleOracleDatabaseGoldengateConnection#polaris_iceberg_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#polaris_iceberg_catalog GoogleOracleDatabaseGoldengateConnection#polaris_iceberg_catalog}
 
 ---
 
@@ -3660,7 +3660,7 @@ RestIcebergCatalog GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConn
 
 rest_iceberg_catalog block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#rest_iceberg_catalog GoogleOracleDatabaseGoldengateConnection#rest_iceberg_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#rest_iceberg_catalog GoogleOracleDatabaseGoldengateConnection#rest_iceberg_catalog}
 
 ---
 
@@ -3669,7 +3669,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogGlueIcebergCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogGlueIcebergCatalog {
 	GlueId: *string,
@@ -3694,7 +3694,7 @@ GlueId *string
 
 The catalog ID of Glue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#glue_id GoogleOracleDatabaseGoldengateConnection#glue_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#glue_id GoogleOracleDatabaseGoldengateConnection#glue_id}
 
 ---
 
@@ -3703,7 +3703,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogNessieIcebergCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogNessieIcebergCatalog {
 	Branch: *string,
@@ -3730,7 +3730,7 @@ Branch *string
 
 The Nessie branch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#branch GoogleOracleDatabaseGoldengateConnection#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#branch GoogleOracleDatabaseGoldengateConnection#branch}
 
 ---
 
@@ -3744,7 +3744,7 @@ Uri *string
 
 The Nessie uri.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#uri GoogleOracleDatabaseGoldengateConnection#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#uri GoogleOracleDatabaseGoldengateConnection#uri}
 
 ---
 
@@ -3753,7 +3753,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogPolarisIcebergCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogPolarisIcebergCatalog {
 	ClientId: *string,
@@ -3786,7 +3786,7 @@ ClientId *string
 
 The Polaris client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#client_id GoogleOracleDatabaseGoldengateConnection#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#client_id GoogleOracleDatabaseGoldengateConnection#client_id}
 
 ---
 
@@ -3800,7 +3800,7 @@ PolarisCatalog *string
 
 The catalog name within Polaris.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#polaris_catalog GoogleOracleDatabaseGoldengateConnection#polaris_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#polaris_catalog GoogleOracleDatabaseGoldengateConnection#polaris_catalog}
 
 ---
 
@@ -3814,7 +3814,7 @@ PrincipalRole *string
 
 The Polaris principal role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#principal_role GoogleOracleDatabaseGoldengateConnection#principal_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#principal_role GoogleOracleDatabaseGoldengateConnection#principal_role}
 
 ---
 
@@ -3828,7 +3828,7 @@ Uri *string
 
 The Polaris uri.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#uri GoogleOracleDatabaseGoldengateConnection#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#uri GoogleOracleDatabaseGoldengateConnection#uri}
 
 ---
 
@@ -3842,7 +3842,7 @@ ClientSecret *string
 
 The Polaris client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#client_secret GoogleOracleDatabaseGoldengateConnection#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#client_secret GoogleOracleDatabaseGoldengateConnection#client_secret}
 
 ---
 
@@ -3851,7 +3851,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogRestIcebergCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogRestIcebergCatalog {
 	Uri: *string,
@@ -3878,7 +3878,7 @@ Uri *string
 
 The REST uri.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#uri GoogleOracleDatabaseGoldengateConnection#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#uri GoogleOracleDatabaseGoldengateConnection#uri}
 
 ---
 
@@ -3892,7 +3892,7 @@ Properties *string
 
 The content of the configuration file containing additional properties for the REST catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#properties GoogleOracleDatabaseGoldengateConnection#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#properties GoogleOracleDatabaseGoldengateConnection#properties}
 
 ---
 
@@ -3901,13 +3901,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorage {
 	StorageType: *string,
-	AmazonS3IcebergStorage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAmazonS3IcebergStorage,
-	AzureDataLakeStorageIcebergStorage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAzureDataLakeStorageIcebergStorage,
-	GoogleCloudStorageIcebergStorage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageGoogleCloudStorageIcebergStorage,
+	AmazonS3IcebergStorage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAmazonS3IcebergStorage,
+	AzureDataLakeStorageIcebergStorage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAzureDataLakeStorageIcebergStorage,
+	GoogleCloudStorageIcebergStorage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageGoogleCloudStorageIcebergStorage,
 }
 ```
 
@@ -3932,7 +3932,7 @@ StorageType *string
 
 The type of Iceberg storage. Possible values: AMAZON_S3 GOOGLE_CLOUD_STORAGE AZURE_DATA_LAKE_STORAGE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#storage_type GoogleOracleDatabaseGoldengateConnection#storage_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#storage_type GoogleOracleDatabaseGoldengateConnection#storage_type}
 
 ---
 
@@ -3946,7 +3946,7 @@ AmazonS3IcebergStorage GoogleOracleDatabaseGoldengateConnectionPropertiesIceberg
 
 amazon_s3_iceberg_storage block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#amazon_s3_iceberg_storage GoogleOracleDatabaseGoldengateConnection#amazon_s3_iceberg_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#amazon_s3_iceberg_storage GoogleOracleDatabaseGoldengateConnection#amazon_s3_iceberg_storage}
 
 ---
 
@@ -3960,7 +3960,7 @@ AzureDataLakeStorageIcebergStorage GoogleOracleDatabaseGoldengateConnectionPrope
 
 azure_data_lake_storage_iceberg_storage block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#azure_data_lake_storage_iceberg_storage GoogleOracleDatabaseGoldengateConnection#azure_data_lake_storage_iceberg_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#azure_data_lake_storage_iceberg_storage GoogleOracleDatabaseGoldengateConnection#azure_data_lake_storage_iceberg_storage}
 
 ---
 
@@ -3974,7 +3974,7 @@ GoogleCloudStorageIcebergStorage GoogleOracleDatabaseGoldengateConnectionPropert
 
 google_cloud_storage_iceberg_storage block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#google_cloud_storage_iceberg_storage GoogleOracleDatabaseGoldengateConnection#google_cloud_storage_iceberg_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#google_cloud_storage_iceberg_storage GoogleOracleDatabaseGoldengateConnection#google_cloud_storage_iceberg_storage}
 
 ---
 
@@ -3983,7 +3983,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAmazonS3IcebergStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAmazonS3IcebergStorage {
 	AccessKeyId: *string,
@@ -4018,7 +4018,7 @@ AccessKeyId *string
 
 The access key ID of Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#access_key_id GoogleOracleDatabaseGoldengateConnection#access_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#access_key_id GoogleOracleDatabaseGoldengateConnection#access_key_id}
 
 ---
 
@@ -4032,7 +4032,7 @@ Bucket *string
 
 The bucket of Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#bucket GoogleOracleDatabaseGoldengateConnection#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#bucket GoogleOracleDatabaseGoldengateConnection#bucket}
 
 ---
 
@@ -4046,7 +4046,7 @@ Region *string
 
 The region of Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#region GoogleOracleDatabaseGoldengateConnection#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#region GoogleOracleDatabaseGoldengateConnection#region}
 
 ---
 
@@ -4060,7 +4060,7 @@ SchemeType *string
 
 The scheme type of Amazon S3. Possible values: S3 S3A.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#scheme_type GoogleOracleDatabaseGoldengateConnection#scheme_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#scheme_type GoogleOracleDatabaseGoldengateConnection#scheme_type}
 
 ---
 
@@ -4074,7 +4074,7 @@ Endpoint *string
 
 The endpoint of Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
 
 ---
 
@@ -4088,7 +4088,7 @@ SecretAccessKeySecret *string
 
 The secret access key of Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#secret_access_key_secret GoogleOracleDatabaseGoldengateConnection#secret_access_key_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#secret_access_key_secret GoogleOracleDatabaseGoldengateConnection#secret_access_key_secret}
 
 ---
 
@@ -4097,7 +4097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAzureDataLakeStorageIcebergStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAzureDataLakeStorageIcebergStorage {
 	AzureAccount: *string,
@@ -4128,7 +4128,7 @@ AzureAccount *string
 
 The account of Azure Data Lake Storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#azure_account GoogleOracleDatabaseGoldengateConnection#azure_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#azure_account GoogleOracleDatabaseGoldengateConnection#azure_account}
 
 ---
 
@@ -4142,7 +4142,7 @@ Container *string
 
 The container of Azure Data Lake Storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#container GoogleOracleDatabaseGoldengateConnection#container}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#container GoogleOracleDatabaseGoldengateConnection#container}
 
 ---
 
@@ -4156,7 +4156,7 @@ AccountKeySecret *string
 
 The account key of Azure Data Lake Storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#account_key_secret GoogleOracleDatabaseGoldengateConnection#account_key_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#account_key_secret GoogleOracleDatabaseGoldengateConnection#account_key_secret}
 
 ---
 
@@ -4170,7 +4170,7 @@ Endpoint *string
 
 The endpoint of Azure Data Lake Storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
 
 ---
 
@@ -4179,7 +4179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageGoogleCloudStorageIcebergStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageGoogleCloudStorageIcebergStorage {
 	Bucket: *string,
@@ -4208,7 +4208,7 @@ Bucket *string
 
 The bucket of Google Cloud Storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#bucket GoogleOracleDatabaseGoldengateConnection#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#bucket GoogleOracleDatabaseGoldengateConnection#bucket}
 
 ---
 
@@ -4222,7 +4222,7 @@ ProjectId *string
 
 The project ID of Google Cloud Storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#project_id GoogleOracleDatabaseGoldengateConnection#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#project_id GoogleOracleDatabaseGoldengateConnection#project_id}
 
 ---
 
@@ -4236,7 +4236,7 @@ ServiceAccountKeyFile *string
 
 The service account key file of Google Cloud Storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
 
 ---
 
@@ -4245,7 +4245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionProperties {
 	AuthenticationType: *string,
@@ -4312,7 +4312,7 @@ AuthenticationType *string
 
 Authentication type for Java Message Service. Possible values: NONE BASIC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
 
 ---
 
@@ -4326,7 +4326,7 @@ ConnectionFactory *string
 
 The Java class implementing javax.jms.ConnectionFactory interface supplied by the JMS provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#connection_factory GoogleOracleDatabaseGoldengateConnection#connection_factory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#connection_factory GoogleOracleDatabaseGoldengateConnection#connection_factory}
 
 ---
 
@@ -4340,7 +4340,7 @@ ConnectionUrl *string
 
 Connection URL of the Java Message Service, specifying the protocol, host, and port. e.g.: 'mq://myjms.host.domain:7676'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#connection_url GoogleOracleDatabaseGoldengateConnection#connection_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#connection_url GoogleOracleDatabaseGoldengateConnection#connection_url}
 
 ---
 
@@ -4354,7 +4354,7 @@ JndiConnectionFactory *string
 
 The Connection Factory can be looked up using this name. e.g.: 'ConnectionFactory'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#jndi_connection_factory GoogleOracleDatabaseGoldengateConnection#jndi_connection_factory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#jndi_connection_factory GoogleOracleDatabaseGoldengateConnection#jndi_connection_factory}
 
 ---
 
@@ -4368,7 +4368,7 @@ JndiInitialContextFactory *string
 
 The implementation of javax.naming.spi.InitialContextFactory interface used to obtain initial naming context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#jndi_initial_context_factory GoogleOracleDatabaseGoldengateConnection#jndi_initial_context_factory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#jndi_initial_context_factory GoogleOracleDatabaseGoldengateConnection#jndi_initial_context_factory}
 
 ---
 
@@ -4382,7 +4382,7 @@ JndiProviderUrl *string
 
 The URL that Java Message Service will use to contact the JNDI provider. e.g.: 'tcp://myjms.host.domain:61616?jms.prefetchPolicy.all=1000'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#jndi_provider_url GoogleOracleDatabaseGoldengateConnection#jndi_provider_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#jndi_provider_url GoogleOracleDatabaseGoldengateConnection#jndi_provider_url}
 
 ---
 
@@ -4396,7 +4396,7 @@ JndiSecurityCredentialsSecret *string
 
 The password associated to the principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#jndi_security_credentials_secret GoogleOracleDatabaseGoldengateConnection#jndi_security_credentials_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#jndi_security_credentials_secret GoogleOracleDatabaseGoldengateConnection#jndi_security_credentials_secret}
 
 ---
 
@@ -4410,7 +4410,7 @@ JndiSecurityPrincipal *string
 
 Specifies the identity of the principal (user) to be authenticated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#jndi_security_principal GoogleOracleDatabaseGoldengateConnection#jndi_security_principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#jndi_security_principal GoogleOracleDatabaseGoldengateConnection#jndi_security_principal}
 
 ---
 
@@ -4424,7 +4424,7 @@ KeyStoreFile *string
 
 The content of the KeyStore file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_file GoogleOracleDatabaseGoldengateConnection#key_store_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_file GoogleOracleDatabaseGoldengateConnection#key_store_file}
 
 ---
 
@@ -4438,7 +4438,7 @@ KeyStorePassword *string
 
 Input only. The KeyStore password in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_password GoogleOracleDatabaseGoldengateConnection#key_store_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_password GoogleOracleDatabaseGoldengateConnection#key_store_password}
 
 ---
 
@@ -4452,7 +4452,7 @@ KeyStorePasswordSecretVersion *string
 
 Input only. The resource name of a secret version in Secret Manager which contains the KeyStore password. Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#key_store_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#key_store_password_secret_version}
 
 ---
 
@@ -4466,7 +4466,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses to connect the Java Message Service in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -4485,7 +4485,7 @@ the password Oracle Goldengate uses to connect the associated Java
 Message Service.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -4499,7 +4499,7 @@ SecurityProtocol *string
 
 Security protocol for Java Message Service. Possible values: PLAIN TLS MTLS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
 
 ---
 
@@ -4513,7 +4513,7 @@ SslKeyPassword *string
 
 Input only. The password for the cert inside of the KeyStore in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password GoogleOracleDatabaseGoldengateConnection#ssl_key_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password GoogleOracleDatabaseGoldengateConnection#ssl_key_password}
 
 ---
 
@@ -4531,7 +4531,7 @@ The resource name of a secret version in Secret Manager which contains
 the password for the cert inside of the KeyStore.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password_secret_version GoogleOracleDatabaseGoldengateConnection#ssl_key_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password_secret_version GoogleOracleDatabaseGoldengateConnection#ssl_key_password_secret_version}
 
 ---
 
@@ -4545,7 +4545,7 @@ TechnologyType *string
 
 The technology type of JavaMessageServiceConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -4559,7 +4559,7 @@ TrustStoreFile *string
 
 The content of the TrustStore file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_file GoogleOracleDatabaseGoldengateConnection#trust_store_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_file GoogleOracleDatabaseGoldengateConnection#trust_store_file}
 
 ---
 
@@ -4573,7 +4573,7 @@ TrustStorePassword *string
 
 Input only. The TrustStore password in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_password GoogleOracleDatabaseGoldengateConnection#trust_store_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_password GoogleOracleDatabaseGoldengateConnection#trust_store_password}
 
 ---
 
@@ -4587,7 +4587,7 @@ TrustStorePasswordSecretVersion *string
 
 Input only. The resource name of a secret version in Secret Manager which contains the TrustStore password. Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#trust_store_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#trust_store_password_secret_version}
 
 ---
 
@@ -4601,7 +4601,7 @@ UseJndi interface{}
 
 If set to true, Java Naming and Directory Interface (JNDI) properties should be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#use_jndi GoogleOracleDatabaseGoldengateConnection#use_jndi}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#use_jndi GoogleOracleDatabaseGoldengateConnection#use_jndi}
 
 ---
 
@@ -4615,7 +4615,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect to the Java Message Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -4624,7 +4624,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionProperties {
 	BootstrapServers: interface{},
@@ -4685,7 +4685,7 @@ BootstrapServers interface{}
 
 bootstrap_servers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#bootstrap_servers GoogleOracleDatabaseGoldengateConnection#bootstrap_servers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#bootstrap_servers GoogleOracleDatabaseGoldengateConnection#bootstrap_servers}
 
 ---
 
@@ -4699,7 +4699,7 @@ ClusterId *string
 
 The OCID of the Kafka cluster being referenced from OCI Streaming with Apache Kafka.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#cluster_id GoogleOracleDatabaseGoldengateConnection#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#cluster_id GoogleOracleDatabaseGoldengateConnection#cluster_id}
 
 ---
 
@@ -4713,7 +4713,7 @@ ConsumerPropertiesFile *string
 
 The content of the consumer.properties file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#consumer_properties_file GoogleOracleDatabaseGoldengateConnection#consumer_properties_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#consumer_properties_file GoogleOracleDatabaseGoldengateConnection#consumer_properties_file}
 
 ---
 
@@ -4727,7 +4727,7 @@ KeyStoreFile *string
 
 The content of the KeyStore file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_file GoogleOracleDatabaseGoldengateConnection#key_store_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_file GoogleOracleDatabaseGoldengateConnection#key_store_file}
 
 ---
 
@@ -4741,7 +4741,7 @@ KeyStorePassword *string
 
 Input only. The KeyStore password in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_password GoogleOracleDatabaseGoldengateConnection#key_store_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_password GoogleOracleDatabaseGoldengateConnection#key_store_password}
 
 ---
 
@@ -4755,7 +4755,7 @@ KeyStorePasswordSecretVersion *string
 
 Input only. The resource name of a secret version in Secret Manager which contains the KeyStore password. Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#key_store_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#key_store_password_secret_version}
 
 ---
 
@@ -4769,7 +4769,7 @@ Password *string
 
 Input only. The password for Kafka basic/SASL auth in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -4787,7 +4787,7 @@ The resource name of a secret version in Secret Manager which contains
 the password for Kafka basic/SASL auth.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -4801,7 +4801,7 @@ ProducerPropertiesFile *string
 
 The content of the producer.properties file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#producer_properties_file GoogleOracleDatabaseGoldengateConnection#producer_properties_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#producer_properties_file GoogleOracleDatabaseGoldengateConnection#producer_properties_file}
 
 ---
 
@@ -4815,7 +4815,7 @@ SecurityProtocol *string
 
 Security Type for Kafka. Possible values: SSL SASL_SSL PLAINTEXT SASL_PLAINTEXT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
 
 ---
 
@@ -4829,7 +4829,7 @@ SslKeyPassword *string
 
 Input only. The password for the cert inside of the KeyStore in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password GoogleOracleDatabaseGoldengateConnection#ssl_key_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password GoogleOracleDatabaseGoldengateConnection#ssl_key_password}
 
 ---
 
@@ -4847,7 +4847,7 @@ The resource name of a secret version in Secret Manager which contains
 the password for the cert inside of the KeyStore.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password_secret_version GoogleOracleDatabaseGoldengateConnection#ssl_key_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password_secret_version GoogleOracleDatabaseGoldengateConnection#ssl_key_password_secret_version}
 
 ---
 
@@ -4861,7 +4861,7 @@ StreamPoolId *string
 
 The OCID of the stream pool being referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#stream_pool_id GoogleOracleDatabaseGoldengateConnection#stream_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#stream_pool_id GoogleOracleDatabaseGoldengateConnection#stream_pool_id}
 
 ---
 
@@ -4875,7 +4875,7 @@ TechnologyType *string
 
 The technology type of KafkaConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -4889,7 +4889,7 @@ TrustStoreFile *string
 
 The content of the TrustStore file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_file GoogleOracleDatabaseGoldengateConnection#trust_store_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_file GoogleOracleDatabaseGoldengateConnection#trust_store_file}
 
 ---
 
@@ -4903,7 +4903,7 @@ TrustStorePassword *string
 
 Input only. The TrustStore password in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_password GoogleOracleDatabaseGoldengateConnection#trust_store_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_password GoogleOracleDatabaseGoldengateConnection#trust_store_password}
 
 ---
 
@@ -4917,7 +4917,7 @@ TrustStorePasswordSecretVersion *string
 
 Input only. The resource name of a secret version in Secret Manager which contains the TrustStore password. Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#trust_store_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#trust_store_password_secret_version}
 
 ---
 
@@ -4931,7 +4931,7 @@ UseResourcePrincipal interface{}
 
 Specifies that the user intends to authenticate to the instance using a resource principal. Applicable only for OCI Streaming connections.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#use_resource_principal GoogleOracleDatabaseGoldengateConnection#use_resource_principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#use_resource_principal GoogleOracleDatabaseGoldengateConnection#use_resource_principal}
 
 ---
 
@@ -4945,7 +4945,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect the associated system of the given technology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -4954,7 +4954,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionPropertiesBootstrapServers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionPropertiesBootstrapServers {
 	Host: *string,
@@ -4983,7 +4983,7 @@ Host *string
 
 The name or address of a host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
 
 ---
 
@@ -4997,7 +4997,7 @@ Port *f64
 
 The port of an endpoint usually specified for a connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
 
 ---
 
@@ -5011,7 +5011,7 @@ PrivateIpAddress *string
 
 The private IP address of the connection's endpoint in the customer's VCN, typically a database endpoint or a big data endpoint (e.g. Kafka bootstrap server). In case the privateIp is provided, the subnetId must also be provided. In case the privateIp (and the subnetId) is not provided it is assumed the datasource is publicly accessible. In case the connection is accessible only privately, the lack of privateIp will result in not being able to access the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#private_ip_address GoogleOracleDatabaseGoldengateConnection#private_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#private_ip_address GoogleOracleDatabaseGoldengateConnection#private_ip_address}
 
 ---
 
@@ -5020,7 +5020,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaSchemaRegistryConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaSchemaRegistryConnectionProperties {
 	AuthenticationType: *string,
@@ -5071,7 +5071,7 @@ AuthenticationType *string
 
 Used authentication mechanism to access Schema Registry. Possible values: NONE BASIC MUTUAL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
 
 ---
 
@@ -5085,7 +5085,7 @@ KeyStoreFile *string
 
 The content of the KeyStore file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_file GoogleOracleDatabaseGoldengateConnection#key_store_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_file GoogleOracleDatabaseGoldengateConnection#key_store_file}
 
 ---
 
@@ -5099,7 +5099,7 @@ KeyStorePassword *string
 
 Input only. The KeyStore password in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_password GoogleOracleDatabaseGoldengateConnection#key_store_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_password GoogleOracleDatabaseGoldengateConnection#key_store_password}
 
 ---
 
@@ -5113,7 +5113,7 @@ KeyStorePasswordSecretVersion *string
 
 Input only. The resource name of a secret version in Secret Manager which contains the KeyStore password. Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#key_store_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#key_store_password_secret_version}
 
 ---
 
@@ -5127,7 +5127,7 @@ Password *string
 
 Input only. The password to access Schema Registry in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -5145,7 +5145,7 @@ The resource name of a secret version in Secret Manager which contains
 the password to access Schema Registry using basic authentication.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -5159,7 +5159,7 @@ SslKeyPassword *string
 
 Input only. The password for the cert inside the KeyStore in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password GoogleOracleDatabaseGoldengateConnection#ssl_key_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password GoogleOracleDatabaseGoldengateConnection#ssl_key_password}
 
 ---
 
@@ -5177,7 +5177,7 @@ The resource name of a secret version in Secret Manager which contains
 the password for the cert inside the KeyStore.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password_secret_version GoogleOracleDatabaseGoldengateConnection#ssl_key_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_key_password_secret_version GoogleOracleDatabaseGoldengateConnection#ssl_key_password_secret_version}
 
 ---
 
@@ -5191,7 +5191,7 @@ TechnologyType *string
 
 The technology type of KafkaSchemaRegistryConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -5205,7 +5205,7 @@ TrustStoreFile *string
 
 The content of the TrustStore file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_file GoogleOracleDatabaseGoldengateConnection#trust_store_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_file GoogleOracleDatabaseGoldengateConnection#trust_store_file}
 
 ---
 
@@ -5219,7 +5219,7 @@ TrustStorePassword *string
 
 Input only. The TrustStore password in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_password GoogleOracleDatabaseGoldengateConnection#trust_store_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_password GoogleOracleDatabaseGoldengateConnection#trust_store_password}
 
 ---
 
@@ -5233,7 +5233,7 @@ TrustStorePasswordSecretVersion *string
 
 Input only. The resource name of a secret version in Secret Manager which contains the TrustStore password. Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#trust_store_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#trust_store_password_secret_version}
 
 ---
 
@@ -5247,7 +5247,7 @@ Url *string
 
 Kafka Schema Registry URL. e.g.: 'https://server1.us.oracle.com:8081'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#url GoogleOracleDatabaseGoldengateConnection#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#url GoogleOracleDatabaseGoldengateConnection#url}
 
 ---
 
@@ -5261,7 +5261,7 @@ Username *string
 
 The username to access Schema Registry using basic authentication. This value is injected into 'schema.registry.basic.auth.user.info=user:password' configuration property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -5270,7 +5270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftFabricConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftFabricConnectionProperties {
 	ClientId: *string,
@@ -5303,7 +5303,7 @@ ClientId *string
 
 Azure client ID of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#client_id GoogleOracleDatabaseGoldengateConnection#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#client_id GoogleOracleDatabaseGoldengateConnection#client_id}
 
 ---
 
@@ -5317,7 +5317,7 @@ ClientSecret *string
 
 Client secret associated with the client id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#client_secret GoogleOracleDatabaseGoldengateConnection#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#client_secret GoogleOracleDatabaseGoldengateConnection#client_secret}
 
 ---
 
@@ -5331,7 +5331,7 @@ Endpoint *string
 
 Optional Microsoft Fabric service endpoint. Default value: https://onelake.dfs.fabric.microsoft.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#endpoint GoogleOracleDatabaseGoldengateConnection#endpoint}
 
 ---
 
@@ -5345,7 +5345,7 @@ TechnologyType *string
 
 The technology type of MicrosoftFabricConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -5359,7 +5359,7 @@ TenantId *string
 
 Azure tenant ID of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#tenant_id GoogleOracleDatabaseGoldengateConnection#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#tenant_id GoogleOracleDatabaseGoldengateConnection#tenant_id}
 
 ---
 
@@ -5368,7 +5368,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionProperties {
 	AdditionalAttributes: interface{},
@@ -5413,7 +5413,7 @@ AdditionalAttributes interface{}
 
 additional_attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#additional_attributes GoogleOracleDatabaseGoldengateConnection#additional_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#additional_attributes GoogleOracleDatabaseGoldengateConnection#additional_attributes}
 
 ---
 
@@ -5427,7 +5427,7 @@ Database *string
 
 The name of the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#database GoogleOracleDatabaseGoldengateConnection#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#database GoogleOracleDatabaseGoldengateConnection#database}
 
 ---
 
@@ -5441,7 +5441,7 @@ Host *string
 
 The name or address of a host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
 
 ---
 
@@ -5455,7 +5455,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses for Microsoft SQL Server connection in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -5474,7 +5474,7 @@ the password Oracle Goldengate uses for Microsoft SQL Server
 connection.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -5488,7 +5488,7 @@ Port *f64
 
 The port of an endpoint usually specified for a connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
 
 ---
 
@@ -5502,7 +5502,7 @@ SecurityProtocol *string
 
 Security Type for Microsoft SQL Server. Possible values: PLAIN TLS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
 
 ---
 
@@ -5516,7 +5516,7 @@ ServerCertificateValidationRequired interface{}
 
 If set to true, the driver validates the certificate that is sent by the database server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#server_certificate_validation_required GoogleOracleDatabaseGoldengateConnection#server_certificate_validation_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#server_certificate_validation_required GoogleOracleDatabaseGoldengateConnection#server_certificate_validation_required}
 
 ---
 
@@ -5530,7 +5530,7 @@ SslCaFile *string
 
 Database Certificate - The content of a .pem or .crt file containing the server public key (for 1-way SSL).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_ca_file GoogleOracleDatabaseGoldengateConnection#ssl_ca_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_ca_file GoogleOracleDatabaseGoldengateConnection#ssl_ca_file}
 
 ---
 
@@ -5544,7 +5544,7 @@ TechnologyType *string
 
 The technology type of MicrosoftSqlserverConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -5558,7 +5558,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect to the Microsoft SQL Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -5567,7 +5567,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesAdditionalAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesAdditionalAttributes {
 	Key: *string,
@@ -5594,7 +5594,7 @@ Key *string
 
 The name of the property entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key GoogleOracleDatabaseGoldengateConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key GoogleOracleDatabaseGoldengateConnection#key}
 
 ---
 
@@ -5608,7 +5608,7 @@ Value *string
 
 The value of the property entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#value GoogleOracleDatabaseGoldengateConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#value GoogleOracleDatabaseGoldengateConnection#value}
 
 ---
 
@@ -5617,7 +5617,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMongodbConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMongodbConnectionProperties {
 	ConnectionString: *string,
@@ -5662,7 +5662,7 @@ ConnectionString *string
 
 MongoDB connection string. e.g.: 'mongodb://mongodb0.example.com:27017/recordsrecords'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#connection_string GoogleOracleDatabaseGoldengateConnection#connection_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#connection_string GoogleOracleDatabaseGoldengateConnection#connection_string}
 
 ---
 
@@ -5676,7 +5676,7 @@ DatabaseId *string
 
 The OCID of the Oracle Autonomous Json Database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#database_id GoogleOracleDatabaseGoldengateConnection#database_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#database_id GoogleOracleDatabaseGoldengateConnection#database_id}
 
 ---
 
@@ -5690,7 +5690,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses to connect the Mongodb connection in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -5708,7 +5708,7 @@ The resource name of a secret version in Secret Manager which contains
 the password Oracle Goldengate uses to connect the Mongodb connection.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -5722,7 +5722,7 @@ SecurityProtocol *string
 
 Security Type for MongoDB. Possible values: PLAIN TLS MTLS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
 
 ---
 
@@ -5736,7 +5736,7 @@ TechnologyType *string
 
 The technology type of MongodbConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -5750,7 +5750,7 @@ TlsCaFile *string
 
 Database Certificate - The content of a .pem file, containing the server public key (for 1 and 2-way SSL).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#tls_ca_file GoogleOracleDatabaseGoldengateConnection#tls_ca_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#tls_ca_file GoogleOracleDatabaseGoldengateConnection#tls_ca_file}
 
 ---
 
@@ -5764,7 +5764,7 @@ TlsCertificateKeyFile *string
 
 Client Certificate - The content of a .pem file, containing the client public key (for 2-way SSL).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#tls_certificate_key_file GoogleOracleDatabaseGoldengateConnection#tls_certificate_key_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#tls_certificate_key_file GoogleOracleDatabaseGoldengateConnection#tls_certificate_key_file}
 
 ---
 
@@ -5778,7 +5778,7 @@ TlsCertificateKeyFilePassword *string
 
 Input only. The Client Certificate key file password in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#tls_certificate_key_file_password GoogleOracleDatabaseGoldengateConnection#tls_certificate_key_file_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#tls_certificate_key_file_password GoogleOracleDatabaseGoldengateConnection#tls_certificate_key_file_password}
 
 ---
 
@@ -5796,7 +5796,7 @@ The resource name of a secret version in Secret Manager which contains
 the Client Certificate key file password in Secret Manager.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#tls_certificate_key_file_password_secret_version GoogleOracleDatabaseGoldengateConnection#tls_certificate_key_file_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#tls_certificate_key_file_password_secret_version GoogleOracleDatabaseGoldengateConnection#tls_certificate_key_file_password_secret_version}
 
 ---
 
@@ -5810,7 +5810,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect to the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -5819,7 +5819,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionProperties {
 	AdditionalAttributes: interface{},
@@ -5872,7 +5872,7 @@ AdditionalAttributes interface{}
 
 additional_attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#additional_attributes GoogleOracleDatabaseGoldengateConnection#additional_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#additional_attributes GoogleOracleDatabaseGoldengateConnection#additional_attributes}
 
 ---
 
@@ -5886,7 +5886,7 @@ Database *string
 
 The name of the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#database GoogleOracleDatabaseGoldengateConnection#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#database GoogleOracleDatabaseGoldengateConnection#database}
 
 ---
 
@@ -5900,7 +5900,7 @@ DbSystemId *string
 
 The OCID of the database system being referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#db_system_id GoogleOracleDatabaseGoldengateConnection#db_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#db_system_id GoogleOracleDatabaseGoldengateConnection#db_system_id}
 
 ---
 
@@ -5914,7 +5914,7 @@ Host *string
 
 The name or address of a host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
 
 ---
 
@@ -5928,7 +5928,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses to connect to MySQL in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -5946,7 +5946,7 @@ The resource name of a secret version in Secret Manager which contains
 the password Oracle Goldengate uses to connect to MySQL.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -5960,7 +5960,7 @@ Port *f64
 
 The port of an endpoint usually specified for a connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
 
 ---
 
@@ -5974,7 +5974,7 @@ SecurityProtocol *string
 
 Security Type for MySQL. Possible values: PLAIN TLS MTLS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
 
 ---
 
@@ -5988,7 +5988,7 @@ SslCaFile *string
 
 Database Certificate - The content of a .pem or .crt file containing the server public key (for 1 and 2-way SSL).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_ca_file GoogleOracleDatabaseGoldengateConnection#ssl_ca_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_ca_file GoogleOracleDatabaseGoldengateConnection#ssl_ca_file}
 
 ---
 
@@ -6002,7 +6002,7 @@ SslCertFile *string
 
 Client Certificate - The content of a .pem or .crt file containing the client public key (for 2-way SSL).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_cert_file GoogleOracleDatabaseGoldengateConnection#ssl_cert_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_cert_file GoogleOracleDatabaseGoldengateConnection#ssl_cert_file}
 
 ---
 
@@ -6016,7 +6016,7 @@ SslCrlFile *string
 
 The list of certificates revoked by the trusted certificate authorities (Trusted CA).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_crl_file GoogleOracleDatabaseGoldengateConnection#ssl_crl_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_crl_file GoogleOracleDatabaseGoldengateConnection#ssl_crl_file}
 
 ---
 
@@ -6030,7 +6030,7 @@ SslKeyFile *string
 
 Client Key - The content of a .pem or .crt file containing the client private key (for 2-way SSL).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_key_file GoogleOracleDatabaseGoldengateConnection#ssl_key_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_key_file GoogleOracleDatabaseGoldengateConnection#ssl_key_file}
 
 ---
 
@@ -6044,7 +6044,7 @@ SslMode *string
 
 SSL modes for MySQL. Possible values: DISABLED PREFERRED REQUIRED VERIFY_CA VERIFY_IDENTITY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_mode GoogleOracleDatabaseGoldengateConnection#ssl_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_mode GoogleOracleDatabaseGoldengateConnection#ssl_mode}
 
 ---
 
@@ -6058,7 +6058,7 @@ TechnologyType *string
 
 The technology type of MysqlConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -6072,7 +6072,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect the associated system of the given technology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -6081,7 +6081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionPropertiesAdditionalAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionPropertiesAdditionalAttributes {
 	Key: *string,
@@ -6108,7 +6108,7 @@ Key *string
 
 The name of the property entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key GoogleOracleDatabaseGoldengateConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key GoogleOracleDatabaseGoldengateConnection#key}
 
 ---
 
@@ -6122,7 +6122,7 @@ Value *string
 
 The value of the property entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#value GoogleOracleDatabaseGoldengateConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#value GoogleOracleDatabaseGoldengateConnection#value}
 
 ---
 
@@ -6131,7 +6131,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOciObjectStorageConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOciObjectStorageConnectionProperties {
 	PrivateKeyFile: *string,
@@ -6170,7 +6170,7 @@ PrivateKeyFile *string
 
 The content of the private key file (PEM file) corresponding to the API key of the fingerprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#private_key_file GoogleOracleDatabaseGoldengateConnection#private_key_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#private_key_file GoogleOracleDatabaseGoldengateConnection#private_key_file}
 
 ---
 
@@ -6184,7 +6184,7 @@ PrivateKeyPassphraseSecret *string
 
 The passphrase of the private key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#private_key_passphrase_secret GoogleOracleDatabaseGoldengateConnection#private_key_passphrase_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#private_key_passphrase_secret GoogleOracleDatabaseGoldengateConnection#private_key_passphrase_secret}
 
 ---
 
@@ -6198,7 +6198,7 @@ PublicKeyFingerprint *string
 
 The fingerprint of the API Key of the user specified by the userId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#public_key_fingerprint GoogleOracleDatabaseGoldengateConnection#public_key_fingerprint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#public_key_fingerprint GoogleOracleDatabaseGoldengateConnection#public_key_fingerprint}
 
 ---
 
@@ -6215,7 +6215,7 @@ The name of the region of OCI Object Storage.
 e.g.: us-ashburn-1
 If the region is not provided, backend will default to the default region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#region GoogleOracleDatabaseGoldengateConnection#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#region GoogleOracleDatabaseGoldengateConnection#region}
 
 ---
 
@@ -6229,7 +6229,7 @@ TechnologyType *string
 
 The technology type of OciObjectStorageConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -6243,7 +6243,7 @@ TenancyId *string
 
 The OCID of the related OCI tenancy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#tenancy_id GoogleOracleDatabaseGoldengateConnection#tenancy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#tenancy_id GoogleOracleDatabaseGoldengateConnection#tenancy_id}
 
 ---
 
@@ -6257,7 +6257,7 @@ UseResourcePrincipal interface{}
 
 Specifies that the user intends to authenticate to the instance using a resource principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#use_resource_principal GoogleOracleDatabaseGoldengateConnection#use_resource_principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#use_resource_principal GoogleOracleDatabaseGoldengateConnection#use_resource_principal}
 
 ---
 
@@ -6273,7 +6273,7 @@ The OCID of the OCI user who will access the Object Storage.
 
 The user must have write access to the bucket they want to connect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#user_id GoogleOracleDatabaseGoldengateConnection#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#user_id GoogleOracleDatabaseGoldengateConnection#user_id}
 
 ---
 
@@ -6282,7 +6282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleAiDataPlatformConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleAiDataPlatformConnectionProperties {
 	ConnectionUrl: *string,
@@ -6323,7 +6323,7 @@ ConnectionUrl *string
 
 Connection URL. It must start with 'jdbc:spark://'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#connection_url GoogleOracleDatabaseGoldengateConnection#connection_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#connection_url GoogleOracleDatabaseGoldengateConnection#connection_url}
 
 ---
 
@@ -6337,7 +6337,7 @@ PrivateKeyFile *string
 
 The content of the private key file (PEM file) corresponding to the API key of the fingerprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#private_key_file GoogleOracleDatabaseGoldengateConnection#private_key_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#private_key_file GoogleOracleDatabaseGoldengateConnection#private_key_file}
 
 ---
 
@@ -6351,7 +6351,7 @@ PrivateKeyPassphraseSecret *string
 
 The passphrase of the private key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#private_key_passphrase_secret GoogleOracleDatabaseGoldengateConnection#private_key_passphrase_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#private_key_passphrase_secret GoogleOracleDatabaseGoldengateConnection#private_key_passphrase_secret}
 
 ---
 
@@ -6365,7 +6365,7 @@ PublicKeyFingerprint *string
 
 The fingerprint of the API Key of the user specified by the user_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#public_key_fingerprint GoogleOracleDatabaseGoldengateConnection#public_key_fingerprint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#public_key_fingerprint GoogleOracleDatabaseGoldengateConnection#public_key_fingerprint}
 
 ---
 
@@ -6379,7 +6379,7 @@ Region *string
 
 The name of the region. e.g.: us-ashburn-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#region GoogleOracleDatabaseGoldengateConnection#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#region GoogleOracleDatabaseGoldengateConnection#region}
 
 ---
 
@@ -6393,7 +6393,7 @@ TechnologyType *string
 
 The technology type of OracleAiDataPlatformConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -6407,7 +6407,7 @@ TenancyId *string
 
 The OCID of the related OCI tenancy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#tenancy_id GoogleOracleDatabaseGoldengateConnection#tenancy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#tenancy_id GoogleOracleDatabaseGoldengateConnection#tenancy_id}
 
 ---
 
@@ -6421,7 +6421,7 @@ UseResourcePrincipal interface{}
 
 Specifies that the user intends to authenticate to the instance using a resource principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#use_resource_principal GoogleOracleDatabaseGoldengateConnection#use_resource_principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#use_resource_principal GoogleOracleDatabaseGoldengateConnection#use_resource_principal}
 
 ---
 
@@ -6435,7 +6435,7 @@ UserId *string
 
 The OCID of the OCI user who will access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#user_id GoogleOracleDatabaseGoldengateConnection#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#user_id GoogleOracleDatabaseGoldengateConnection#user_id}
 
 ---
 
@@ -6444,7 +6444,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleConnectionProperties {
 	AuthenticationMode: *string,
@@ -6485,7 +6485,7 @@ AuthenticationMode *string
 
 Authentication mode. Possible values: TLS MTLS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#authentication_mode GoogleOracleDatabaseGoldengateConnection#authentication_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#authentication_mode GoogleOracleDatabaseGoldengateConnection#authentication_mode}
 
 ---
 
@@ -6499,7 +6499,7 @@ ConnectionString *string
 
 Connect descriptor or Easy Connect Naming method used to connect to a database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#connection_string GoogleOracleDatabaseGoldengateConnection#connection_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#connection_string GoogleOracleDatabaseGoldengateConnection#connection_string}
 
 ---
 
@@ -6513,7 +6513,7 @@ GcpOracleDatabaseId *string
 
 Database instance id of database in Oracle Database @ Google Cloud. If gcp_oracle_database_id is provided, connection_string must be empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#gcp_oracle_database_id GoogleOracleDatabaseGoldengateConnection#gcp_oracle_database_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#gcp_oracle_database_id GoogleOracleDatabaseGoldengateConnection#gcp_oracle_database_id}
 
 ---
 
@@ -6527,7 +6527,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -6541,7 +6541,7 @@ PasswordSecretVersion *string
 
 Input only. The resource name of a secret version in Secret Manager which contains the password Oracle Goldengate uses. Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -6555,7 +6555,7 @@ SessionMode *string
 
 The mode of the database connection session to be established by the data client. Possible values: DIRECT REDIRECT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#session_mode GoogleOracleDatabaseGoldengateConnection#session_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#session_mode GoogleOracleDatabaseGoldengateConnection#session_mode}
 
 ---
 
@@ -6569,7 +6569,7 @@ TechnologyType *string
 
 The technology type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -6583,7 +6583,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -6597,7 +6597,7 @@ WalletFile *string
 
 The wallet contents Oracle Goldengate uses to make connections to a database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#wallet_file GoogleOracleDatabaseGoldengateConnection#wallet_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#wallet_file GoogleOracleDatabaseGoldengateConnection#wallet_file}
 
 ---
 
@@ -6606,7 +6606,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleNosqlConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleNosqlConnectionProperties {
 	PrivateKeyFile: *string,
@@ -6645,7 +6645,7 @@ PrivateKeyFile *string
 
 The content of the private key file (PEM file) corresponding to the API key of the fingerprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#private_key_file GoogleOracleDatabaseGoldengateConnection#private_key_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#private_key_file GoogleOracleDatabaseGoldengateConnection#private_key_file}
 
 ---
 
@@ -6659,7 +6659,7 @@ PrivateKeyPassphraseSecret *string
 
 The passphrase of the private key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#private_key_passphrase_secret GoogleOracleDatabaseGoldengateConnection#private_key_passphrase_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#private_key_passphrase_secret GoogleOracleDatabaseGoldengateConnection#private_key_passphrase_secret}
 
 ---
 
@@ -6673,7 +6673,7 @@ PublicKeyFingerprint *string
 
 The fingerprint of the API Key of the user specified by the userId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#public_key_fingerprint GoogleOracleDatabaseGoldengateConnection#public_key_fingerprint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#public_key_fingerprint GoogleOracleDatabaseGoldengateConnection#public_key_fingerprint}
 
 ---
 
@@ -6687,7 +6687,7 @@ Region *string
 
 The name of the region. e.g.: us-ashburn-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#region GoogleOracleDatabaseGoldengateConnection#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#region GoogleOracleDatabaseGoldengateConnection#region}
 
 ---
 
@@ -6701,7 +6701,7 @@ TechnologyType *string
 
 The technology type of OracleNosqlConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -6715,7 +6715,7 @@ TenancyId *string
 
 The OCID of the OCI tenancy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#tenancy_id GoogleOracleDatabaseGoldengateConnection#tenancy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#tenancy_id GoogleOracleDatabaseGoldengateConnection#tenancy_id}
 
 ---
 
@@ -6729,7 +6729,7 @@ UseResourcePrincipal interface{}
 
 Specifies that the user intends to authenticate to the instance using a resource principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#use_resource_principal GoogleOracleDatabaseGoldengateConnection#use_resource_principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#use_resource_principal GoogleOracleDatabaseGoldengateConnection#use_resource_principal}
 
 ---
 
@@ -6743,7 +6743,7 @@ UserId *string
 
 The OCID of the OCI user who will access the Oracle NoSQL database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#user_id GoogleOracleDatabaseGoldengateConnection#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#user_id GoogleOracleDatabaseGoldengateConnection#user_id}
 
 ---
 
@@ -6752,7 +6752,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionProperties {
 	AdditionalAttributes: interface{},
@@ -6805,7 +6805,7 @@ AdditionalAttributes interface{}
 
 additional_attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#additional_attributes GoogleOracleDatabaseGoldengateConnection#additional_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#additional_attributes GoogleOracleDatabaseGoldengateConnection#additional_attributes}
 
 ---
 
@@ -6819,7 +6819,7 @@ Database *string
 
 The name of the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#database GoogleOracleDatabaseGoldengateConnection#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#database GoogleOracleDatabaseGoldengateConnection#database}
 
 ---
 
@@ -6833,7 +6833,7 @@ DbSystemId *string
 
 The OCID of the database system being referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#db_system_id GoogleOracleDatabaseGoldengateConnection#db_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#db_system_id GoogleOracleDatabaseGoldengateConnection#db_system_id}
 
 ---
 
@@ -6847,7 +6847,7 @@ Host *string
 
 The name or address of a host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#host GoogleOracleDatabaseGoldengateConnection#host}
 
 ---
 
@@ -6861,7 +6861,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses for PostgreSQL connection in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -6879,7 +6879,7 @@ The resource name of a secret version in Secret Manager which contains
 the password Oracle Goldengate uses for PostgreSQL connection.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -6893,7 +6893,7 @@ Port *f64
 
 The port of an endpoint usually specified for a connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#port GoogleOracleDatabaseGoldengateConnection#port}
 
 ---
 
@@ -6907,7 +6907,7 @@ SecurityProtocol *string
 
 Security protocol for PostgreSQL. Possible values: PLAIN TLS MTLS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
 
 ---
 
@@ -6921,7 +6921,7 @@ SslCaFile *string
 
 The certificate of the trusted certificate authorities (Trusted CA) for PostgreSQL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_ca_file GoogleOracleDatabaseGoldengateConnection#ssl_ca_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_ca_file GoogleOracleDatabaseGoldengateConnection#ssl_ca_file}
 
 ---
 
@@ -6935,7 +6935,7 @@ SslCertFile *string
 
 The certificate of the PostgreSQL server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_cert_file GoogleOracleDatabaseGoldengateConnection#ssl_cert_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_cert_file GoogleOracleDatabaseGoldengateConnection#ssl_cert_file}
 
 ---
 
@@ -6949,7 +6949,7 @@ SslCrlFile *string
 
 The list of certificates revoked by the trusted certificate authorities (Trusted CA).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_crl_file GoogleOracleDatabaseGoldengateConnection#ssl_crl_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_crl_file GoogleOracleDatabaseGoldengateConnection#ssl_crl_file}
 
 ---
 
@@ -6963,7 +6963,7 @@ SslKeyFile *string
 
 The private key of the PostgreSQL server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_key_file GoogleOracleDatabaseGoldengateConnection#ssl_key_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_key_file GoogleOracleDatabaseGoldengateConnection#ssl_key_file}
 
 ---
 
@@ -6977,7 +6977,7 @@ SslMode *string
 
 SSL modes for PostgreSQL. Possible values: PREFER REQUIRE VERIFY_CA VERIFY_FULL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#ssl_mode GoogleOracleDatabaseGoldengateConnection#ssl_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#ssl_mode GoogleOracleDatabaseGoldengateConnection#ssl_mode}
 
 ---
 
@@ -6991,7 +6991,7 @@ TechnologyType *string
 
 The technology type of PostgresqlConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -7005,7 +7005,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect the associated system of the given technology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -7014,7 +7014,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionPropertiesAdditionalAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionPropertiesAdditionalAttributes {
 	Key: *string,
@@ -7041,7 +7041,7 @@ Key *string
 
 The name of the property entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key GoogleOracleDatabaseGoldengateConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key GoogleOracleDatabaseGoldengateConnection#key}
 
 ---
 
@@ -7055,7 +7055,7 @@ Value *string
 
 The value of the property entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#value GoogleOracleDatabaseGoldengateConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#value GoogleOracleDatabaseGoldengateConnection#value}
 
 ---
 
@@ -7064,7 +7064,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesRedisConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesRedisConnectionProperties {
 	AuthenticationType: *string,
@@ -7115,7 +7115,7 @@ AuthenticationType *string
 
 Authentication type for Redis. Possible values: NONE BASIC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
 
 ---
 
@@ -7129,7 +7129,7 @@ KeyStoreFile *string
 
 The content of the KeyStore file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_file GoogleOracleDatabaseGoldengateConnection#key_store_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_file GoogleOracleDatabaseGoldengateConnection#key_store_file}
 
 ---
 
@@ -7143,7 +7143,7 @@ KeyStorePassword *string
 
 Input only. The KeyStore password in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_password GoogleOracleDatabaseGoldengateConnection#key_store_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_password GoogleOracleDatabaseGoldengateConnection#key_store_password}
 
 ---
 
@@ -7157,7 +7157,7 @@ KeyStorePasswordSecretVersion *string
 
 Input only. The resource name of a secret version in Secret Manager which contains the KeyStore password. Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#key_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#key_store_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#key_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#key_store_password_secret_version}
 
 ---
 
@@ -7171,7 +7171,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses for Redis connection in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -7189,7 +7189,7 @@ The resource name of a secret version in Secret Manager which contains
 the password Oracle Goldengate uses for Redis connection.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -7203,7 +7203,7 @@ RedisClusterId *string
 
 The OCID of the Redis cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#redis_cluster_id GoogleOracleDatabaseGoldengateConnection#redis_cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#redis_cluster_id GoogleOracleDatabaseGoldengateConnection#redis_cluster_id}
 
 ---
 
@@ -7217,7 +7217,7 @@ SecurityProtocol *string
 
 Security protocol for Redis. Possible values: PLAIN TLS MTLS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#security_protocol GoogleOracleDatabaseGoldengateConnection#security_protocol}
 
 ---
 
@@ -7234,7 +7234,7 @@ Comma separated list of Redis server addresses, specified as host:port entries, 
 If port is not specified, it defaults
 to 6379. Example: "server1.example.com:6379,server2.example.com:6379"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#servers GoogleOracleDatabaseGoldengateConnection#servers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#servers GoogleOracleDatabaseGoldengateConnection#servers}
 
 ---
 
@@ -7248,7 +7248,7 @@ TechnologyType *string
 
 The technology type of RedisConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -7262,7 +7262,7 @@ TrustStoreFile *string
 
 The content of the TrustStore file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_file GoogleOracleDatabaseGoldengateConnection#trust_store_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_file GoogleOracleDatabaseGoldengateConnection#trust_store_file}
 
 ---
 
@@ -7276,7 +7276,7 @@ TrustStorePassword *string
 
 Input only. The TrustStore password in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_password GoogleOracleDatabaseGoldengateConnection#trust_store_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_password GoogleOracleDatabaseGoldengateConnection#trust_store_password}
 
 ---
 
@@ -7290,7 +7290,7 @@ TrustStorePasswordSecretVersion *string
 
 Input only. The resource name of a secret version in Secret Manager which contains the TrustStore password. Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#trust_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#trust_store_password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#trust_store_password_secret_version GoogleOracleDatabaseGoldengateConnection#trust_store_password_secret_version}
 
 ---
 
@@ -7304,7 +7304,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect the associated system of the given technology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -7313,7 +7313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesSnowflakeConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionPropertiesSnowflakeConnectionProperties {
 	AuthenticationType: *string,
@@ -7352,7 +7352,7 @@ AuthenticationType *string
 
 Used authentication mechanism to access Snowflake. Possible values: BASIC KEY_PAIR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#authentication_type GoogleOracleDatabaseGoldengateConnection#authentication_type}
 
 ---
 
@@ -7366,7 +7366,7 @@ ConnectionUrl *string
 
 JDBC connection URL. e.g.: 'jdbc:snowflake://.snowflakecomputing.com/?warehouse=&db='.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#connection_url GoogleOracleDatabaseGoldengateConnection#connection_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#connection_url GoogleOracleDatabaseGoldengateConnection#connection_url}
 
 ---
 
@@ -7380,7 +7380,7 @@ Password *string
 
 Input only. The password Oracle Goldengate uses to connect to Snowflake platform in plain text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password GoogleOracleDatabaseGoldengateConnection#password}
 
 ---
 
@@ -7398,7 +7398,7 @@ The resource name of a secret version in Secret Manager which contains
 the password Oracle Goldengate uses to connect to Snowflake platform.
 Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#password_secret_version GoogleOracleDatabaseGoldengateConnection#password_secret_version}
 
 ---
 
@@ -7412,7 +7412,7 @@ PrivateKeyFile *string
 
 The content of private key file in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#private_key_file GoogleOracleDatabaseGoldengateConnection#private_key_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#private_key_file GoogleOracleDatabaseGoldengateConnection#private_key_file}
 
 ---
 
@@ -7426,7 +7426,7 @@ PrivateKeyPassphraseSecret *string
 
 Password if the private key file is encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#private_key_passphrase_secret GoogleOracleDatabaseGoldengateConnection#private_key_passphrase_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#private_key_passphrase_secret GoogleOracleDatabaseGoldengateConnection#private_key_passphrase_secret}
 
 ---
 
@@ -7440,7 +7440,7 @@ TechnologyType *string
 
 The technology type of SnowflakeConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 
 ---
 
@@ -7454,7 +7454,7 @@ Username *string
 
 The username Oracle Goldengate uses to connect to Snowflake.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#username GoogleOracleDatabaseGoldengateConnection#username}
 
 ---
 
@@ -7463,7 +7463,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 &googleoracledatabasegoldengateconnection.GoogleOracleDatabaseGoldengateConnectionTimeouts {
 	Create: *string,
@@ -7476,9 +7476,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleor
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#create GoogleOracleDatabaseGoldengateConnection#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#delete GoogleOracleDatabaseGoldengateConnection#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#update GoogleOracleDatabaseGoldengateConnection#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#create GoogleOracleDatabaseGoldengateConnection#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#delete GoogleOracleDatabaseGoldengateConnection#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#update GoogleOracleDatabaseGoldengateConnection#update}. |
 
 ---
 
@@ -7490,7 +7490,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#create GoogleOracleDatabaseGoldengateConnection#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#create GoogleOracleDatabaseGoldengateConnection#create}.
 
 ---
 
@@ -7502,7 +7502,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#delete GoogleOracleDatabaseGoldengateConnection#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#delete GoogleOracleDatabaseGoldengateConnection#delete}.
 
 ---
 
@@ -7514,7 +7514,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_goldengate_connection#update GoogleOracleDatabaseGoldengateConnection#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_goldengate_connection#update GoogleOracleDatabaseGoldengateConnection#update}.
 
 ---
 
@@ -7525,7 +7525,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonKinesisConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesAmazonKinesisConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonKinesisConnectionPropertiesOutputReference
 ```
@@ -7919,7 +7919,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonKin
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonRedshiftConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesAmazonRedshiftConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonRedshiftConnectionPropertiesOutputReference
 ```
@@ -8313,7 +8313,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonRed
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonS3ConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesAmazonS3ConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonS3ConnectionPropertiesOutputReference
 ```
@@ -8707,7 +8707,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonS3C
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAzureDataLakeStorageConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesAzureDataLakeStorageConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesAzureDataLakeStorageConnectionPropertiesOutputReference
 ```
@@ -9246,7 +9246,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesAzureData
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesAzureSynapseAnalyticsConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesAzureSynapseAnalyticsConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesAzureSynapseAnalyticsConnectionPropertiesOutputReference
 ```
@@ -9640,7 +9640,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesAzureSyna
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDatabricksConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesDatabricksConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesDatabricksConnectionPropertiesOutputReference
 ```
@@ -10121,7 +10121,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesDatabrick
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionPropertiesAdditionalAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionPropertiesAdditionalAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionPropertiesAdditionalAttributesList
 ```
@@ -10281,7 +10281,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionPropertiesAdditionalAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionPropertiesAdditionalAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionPropertiesAdditionalAttributesOutputReference
 ```
@@ -10592,7 +10592,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionPropertiesOutputReference
 ```
@@ -11202,7 +11202,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesDb2Connec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesElasticsearchConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesElasticsearchConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesElasticsearchConnectionPropertiesOutputReference
 ```
@@ -11683,7 +11683,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesElasticse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGenericConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesGenericConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesGenericConnectionPropertiesOutputReference
 ```
@@ -11990,7 +11990,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesGenericCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoldengateConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesGoldengateConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesGoldengateConnectionPropertiesOutputReference
 ```
@@ -12442,7 +12442,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesGoldengat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleBigQueryConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesGoogleBigQueryConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleBigQueryConnectionPropertiesOutputReference
 ```
@@ -12749,7 +12749,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleBig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleCloudStorageConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesGoogleCloudStorageConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleCloudStorageConnectionPropertiesOutputReference
 ```
@@ -13056,7 +13056,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleClo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesGooglePubsubConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesGooglePubsubConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesGooglePubsubConnectionPropertiesOutputReference
 ```
@@ -13363,7 +13363,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesGooglePub
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesHdfsConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesHdfsConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesHdfsConnectionPropertiesOutputReference
 ```
@@ -13670,7 +13670,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesHdfsConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogGlueIcebergCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogGlueIcebergCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogGlueIcebergCatalogOutputReference
 ```
@@ -13941,7 +13941,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogNessieIcebergCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogNessieIcebergCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogNessieIcebergCatalogOutputReference
 ```
@@ -14234,7 +14234,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogOutputReference
 ```
@@ -14673,7 +14673,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogPolarisIcebergCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogPolarisIcebergCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogPolarisIcebergCatalogOutputReference
 ```
@@ -15039,7 +15039,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogRestIcebergCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogRestIcebergCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogRestIcebergCatalogOutputReference
 ```
@@ -15339,7 +15339,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesOutputReference
 ```
@@ -15680,7 +15680,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAmazonS3IcebergStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAmazonS3IcebergStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAmazonS3IcebergStorageOutputReference
 ```
@@ -16075,7 +16075,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAzureDataLakeStorageIcebergStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAzureDataLakeStorageIcebergStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageAzureDataLakeStorageIcebergStorageOutputReference
 ```
@@ -16426,7 +16426,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageGoogleCloudStorageIcebergStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageGoogleCloudStorageIcebergStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageGoogleCloudStorageIcebergStorageOutputReference
 ```
@@ -16748,7 +16748,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageOutputReference
 ```
@@ -17145,7 +17145,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference
 ```
@@ -18032,7 +18032,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionPropertiesBootstrapServersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionPropertiesBootstrapServersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionPropertiesBootstrapServersList
 ```
@@ -18192,7 +18192,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionPropertiesBootstrapServersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionPropertiesBootstrapServersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionPropertiesBootstrapServersOutputReference
 ```
@@ -18539,7 +18539,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionPropertiesOutputReference
 ```
@@ -19352,7 +19352,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaSchemaRegistryConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesKafkaSchemaRegistryConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaSchemaRegistryConnectionPropertiesOutputReference
 ```
@@ -20007,7 +20007,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaSche
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftFabricConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftFabricConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftFabricConnectionPropertiesOutputReference
 ```
@@ -20401,7 +20401,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoft
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesAdditionalAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesAdditionalAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesAdditionalAttributesList
 ```
@@ -20561,7 +20561,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesAdditionalAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesAdditionalAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesAdditionalAttributesOutputReference
 ```
@@ -20872,7 +20872,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesOutputReference
 ```
@@ -21453,7 +21453,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoft
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMongodbConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesMongodbConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesMongodbConnectionPropertiesOutputReference
 ```
@@ -22021,7 +22021,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesMongodbCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionPropertiesAdditionalAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionPropertiesAdditionalAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionPropertiesAdditionalAttributesList
 ```
@@ -22181,7 +22181,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionPropertiesAdditionalAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionPropertiesAdditionalAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionPropertiesAdditionalAttributesOutputReference
 ```
@@ -22492,7 +22492,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionPropertiesOutputReference
 ```
@@ -23189,7 +23189,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOciObjectStorageConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesOciObjectStorageConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesOciObjectStorageConnectionPropertiesOutputReference
 ```
@@ -23670,7 +23670,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesOciObject
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleAiDataPlatformConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesOracleAiDataPlatformConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesOracleAiDataPlatformConnectionPropertiesOutputReference
 ```
@@ -24180,7 +24180,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesOracleAiD
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesOracleConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesOracleConnectionPropertiesOutputReference
 ```
@@ -24690,7 +24690,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesOracleCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOracleNosqlConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesOracleNosqlConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesOracleNosqlConnectionPropertiesOutputReference
 ```
@@ -25171,7 +25171,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesOracleNos
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference
 ```
@@ -26795,7 +26795,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionPropertiesAdditionalAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionPropertiesAdditionalAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionPropertiesAdditionalAttributesList
 ```
@@ -26955,7 +26955,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionPropertiesAdditionalAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionPropertiesAdditionalAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionPropertiesAdditionalAttributesOutputReference
 ```
@@ -27266,7 +27266,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionPropertiesOutputReference
 ```
@@ -27963,7 +27963,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresq
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesRedisConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesRedisConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesRedisConnectionPropertiesOutputReference
 ```
@@ -28618,7 +28618,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesRedisConn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionPropertiesSnowflakeConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionPropertiesSnowflakeConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionPropertiesSnowflakeConnectionPropertiesOutputReference
 ```
@@ -29099,7 +29099,7 @@ func InternalValue() GoogleOracleDatabaseGoldengateConnectionPropertiesSnowflake
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseGoldengateConnection.GoogleOracleDatabaseGoldengateConnectionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasegoldengateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasegoldengateconnection"
 
 googleoracledatabasegoldengateconnection.NewGoogleOracleDatabaseGoldengateConnectionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseGoldengateConnectionTimeoutsOutputReference
 ```

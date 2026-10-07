@@ -4,12 +4,12 @@
 
 ### GoogleAlloydbUser <a name="GoogleAlloydbUser" id="@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user google_alloydb_user}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user google_alloydb_user}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlealloydbuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlealloydbuser"
 
 googlealloydbuser.NewGoogleAlloydbUser(scope Construct, id *string, config GoogleAlloydbUserConfig) GoogleAlloydbUser
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUser.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlealloydbuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlealloydbuser"
 
 googlealloydbuser.GoogleAlloydbUser_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUser.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlealloydbuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlealloydbuser"
 
 googlealloydbuser.GoogleAlloydbUser_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlealloydbuser.GoogleAlloydbUser_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUser.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlealloydbuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlealloydbuser"
 
 googlealloydbuser.GoogleAlloydbUser_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googlealloydbuser.GoogleAlloydbUser_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUser.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlealloydbuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlealloydbuser"
 
 googlealloydbuser.GoogleAlloydbUser_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -551,7 +551,7 @@ The construct id used in the generated config for the GoogleAlloydbUser to impor
 
 The id of the existing GoogleAlloydbUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -984,7 +984,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlealloydbuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlealloydbuser"
 
 &googlealloydbuser.GoogleAlloydbUserConfig {
 	Connection: interface{},
@@ -1003,7 +1003,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleal
 	Password: *string,
 	PasswordWo: *string,
 	PasswordWoVersion: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAlloydbUser.GoogleAlloydbUserTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAlloydbUser.GoogleAlloydbUserTimeouts,
 }
 ```
 
@@ -1020,10 +1020,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleal
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.cluster">Cluster</a></code> | <code>*string</code> | Identifies the alloydb cluster. Must be in the format 'projects/{project}/locations/{location}/clusters/{cluster_id}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.userId">UserId</a></code> | <code>*string</code> | The database role name of the user. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.userType">UserType</a></code> | <code>*string</code> | The type of this user. Possible values: ["ALLOYDB_BUILT_IN", "ALLOYDB_IAM_USER"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.userType">UserType</a></code> | <code>*string</code> | The type of this user. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.databaseRoles">DatabaseRoles</a></code> | <code>*[]*string</code> | List of database roles this database user has. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#id GoogleAlloydbUser#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#id GoogleAlloydbUser#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.password">Password</a></code> | <code>*string</code> | Password for this database user. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.passwordWo">PasswordWo</a></code> | <code>*string</code> | Password for this database user. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig.property.passwordWoVersion">PasswordWoVersion</a></code> | <code>*string</code> | Triggers update of 'password_wo' write-only. |
@@ -1111,7 +1111,7 @@ Cluster *string
 
 Identifies the alloydb cluster. Must be in the format 'projects/{project}/locations/{location}/clusters/{cluster_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#cluster GoogleAlloydbUser#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#cluster GoogleAlloydbUser#cluster}
 
 ---
 
@@ -1125,7 +1125,7 @@ UserId *string
 
 The database role name of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#user_id GoogleAlloydbUser#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#user_id GoogleAlloydbUser#user_id}
 
 ---
 
@@ -1137,9 +1137,14 @@ UserType *string
 
 - *Type:* *string
 
-The type of this user. Possible values: ["ALLOYDB_BUILT_IN", "ALLOYDB_IAM_USER"].
+The type of this user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#user_type GoogleAlloydbUser#user_type}
+Note that 'ALLOYDB_IAM_GROUP' is currently only supported by
+the google-beta provider (which uses the v1beta alloydb API). Only new or Google-whitelisted
+AlloyDB clusters support IAM group authentication. See
+https://docs.cloud.google.com/alloydb/docs/database-users/manage-iam-auth for details. Possible values: ["ALLOYDB_BUILT_IN", "ALLOYDB_IAM_USER", "ALLOYDB_IAM_GROUP"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#user_type GoogleAlloydbUser#user_type}
 
 ---
 
@@ -1153,7 +1158,7 @@ DatabaseRoles *[]*string
 
 List of database roles this database user has.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#database_roles GoogleAlloydbUser#database_roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#database_roles GoogleAlloydbUser#database_roles}
 
 ---
 
@@ -1174,7 +1179,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#deletion_policy GoogleAlloydbUser#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#deletion_policy GoogleAlloydbUser#deletion_policy}
 
 ---
 
@@ -1186,7 +1191,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#id GoogleAlloydbUser#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#id GoogleAlloydbUser#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1203,7 +1208,7 @@ Password *string
 
 Password for this database user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#password GoogleAlloydbUser#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#password GoogleAlloydbUser#password}
 
 ---
 
@@ -1217,7 +1222,7 @@ PasswordWo *string
 
 Password for this database user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#password_wo GoogleAlloydbUser#password_wo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#password_wo GoogleAlloydbUser#password_wo}
 
 ---
 
@@ -1233,7 +1238,7 @@ Triggers update of 'password_wo' write-only.
 
 Increment this value when an update to 'password_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#password_wo_version GoogleAlloydbUser#password_wo_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#password_wo_version GoogleAlloydbUser#password_wo_version}
 
 ---
 
@@ -1247,7 +1252,7 @@ Timeouts GoogleAlloydbUserTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#timeouts GoogleAlloydbUser#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#timeouts GoogleAlloydbUser#timeouts}
 
 ---
 
@@ -1256,7 +1261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlealloydbuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlealloydbuser"
 
 &googlealloydbuser.GoogleAlloydbUserTimeouts {
 	Create: *string,
@@ -1269,9 +1274,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleal
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#create GoogleAlloydbUser#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#delete GoogleAlloydbUser#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#update GoogleAlloydbUser#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#create GoogleAlloydbUser#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#delete GoogleAlloydbUser#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#update GoogleAlloydbUser#update}. |
 
 ---
 
@@ -1283,7 +1288,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#create GoogleAlloydbUser#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#create GoogleAlloydbUser#create}.
 
 ---
 
@@ -1295,7 +1300,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#delete GoogleAlloydbUser#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#delete GoogleAlloydbUser#delete}.
 
 ---
 
@@ -1307,7 +1312,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_alloydb_user#update GoogleAlloydbUser#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_alloydb_user#update GoogleAlloydbUser#update}.
 
 ---
 
@@ -1318,7 +1323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlealloydbuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlealloydbuser"
 
 googlealloydbuser.NewGoogleAlloydbUserTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAlloydbUserTimeoutsOutputReference
 ```

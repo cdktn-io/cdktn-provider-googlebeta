@@ -4,12 +4,12 @@
 
 ### GoogleCesApp <a name="GoogleCesApp" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app google_ces_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app google_ces_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesApp(scope Construct, id *string, config GoogleCesAppConfig) GoogleCesApp
 ```
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putClientCertificateSettings">PutClientCertificateSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putDataStoreSettings">PutDataStoreSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putDefaultChannelProfile">PutDefaultChannelProfile</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putErrorHandlingSettings">PutErrorHandlingSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putEvaluationMetricsThresholds">PutEvaluationMetricsThresholds</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putLanguageSettings">PutLanguageSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putLoggingSettings">PutLoggingSettings</a></code> | *No description.* |
@@ -85,17 +86,20 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putTimeZoneSettings">PutTimeZoneSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putVariableDeclarations">PutVariableDeclarations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putVpcScSettings">PutVpcScSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetAudioProcessingConfig">ResetAudioProcessingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetClientCertificateSettings">ResetClientCertificateSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetDataStoreSettings">ResetDataStoreSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetDefaultChannelProfile">ResetDefaultChannelProfile</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetDescription">ResetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetErrorHandlingSettings">ResetErrorHandlingSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetEvaluationMetricsThresholds">ResetEvaluationMetricsThresholds</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetGlobalInstruction">ResetGlobalInstruction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetGuardrails">ResetGuardrails</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetLanguageSettings">ResetLanguageSettings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetLocked">ResetLocked</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetLoggingSettings">ResetLoggingSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetMetadata">ResetMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetModelSettings">ResetModelSettings</a></code> | *No description.* |
@@ -106,6 +110,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetTimeZoneSettings">ResetTimeZoneSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetToolExecutionMode">ResetToolExecutionMode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetVariableDeclarations">ResetVariableDeclarations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetVpcScSettings">ResetVpcScSettings</a></code> | *No description.* |
 
 ---
 
@@ -466,6 +471,18 @@ func PutDefaultChannelProfile(value GoogleCesAppDefaultChannelProfile)
 
 ---
 
+##### `PutErrorHandlingSettings` <a name="PutErrorHandlingSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putErrorHandlingSettings"></a>
+
+```go
+func PutErrorHandlingSettings(value GoogleCesAppErrorHandlingSettings)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putErrorHandlingSettings.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings">GoogleCesAppErrorHandlingSettings</a>
+
+---
+
 ##### `PutEvaluationMetricsThresholds` <a name="PutEvaluationMetricsThresholds" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putEvaluationMetricsThresholds"></a>
 
 ```go
@@ -550,6 +567,18 @@ func PutVariableDeclarations(value interface{})
 
 ---
 
+##### `PutVpcScSettings` <a name="PutVpcScSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putVpcScSettings"></a>
+
+```go
+func PutVpcScSettings(value GoogleCesAppVpcScSettings)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.putVpcScSettings.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettings">GoogleCesAppVpcScSettings</a>
+
+---
+
 ##### `ResetAudioProcessingConfig` <a name="ResetAudioProcessingConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetAudioProcessingConfig"></a>
 
 ```go
@@ -586,6 +615,12 @@ func ResetDeletionPolicy()
 func ResetDescription()
 ```
 
+##### `ResetErrorHandlingSettings` <a name="ResetErrorHandlingSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetErrorHandlingSettings"></a>
+
+```go
+func ResetErrorHandlingSettings()
+```
+
 ##### `ResetEvaluationMetricsThresholds` <a name="ResetEvaluationMetricsThresholds" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetEvaluationMetricsThresholds"></a>
 
 ```go
@@ -614,6 +649,12 @@ func ResetId()
 
 ```go
 func ResetLanguageSettings()
+```
+
+##### `ResetLocked` <a name="ResetLocked" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetLocked"></a>
+
+```go
+func ResetLocked()
 ```
 
 ##### `ResetLoggingSettings` <a name="ResetLoggingSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetLoggingSettings"></a>
@@ -676,6 +717,12 @@ func ResetToolExecutionMode()
 func ResetVariableDeclarations()
 ```
 
+##### `ResetVpcScSettings` <a name="ResetVpcScSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.resetVpcScSettings"></a>
+
+```go
+func ResetVpcScSettings()
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -690,7 +737,7 @@ func ResetVariableDeclarations()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.GoogleCesApp_IsConstruct(x interface{}) *bool
 ```
@@ -722,7 +769,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.GoogleCesApp_IsTerraformElement(x interface{}) *bool
 ```
@@ -736,7 +783,7 @@ googlecesapp.GoogleCesApp_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.GoogleCesApp_IsTerraformResource(x interface{}) *bool
 ```
@@ -750,7 +797,7 @@ googlecesapp.GoogleCesApp_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.GoogleCesApp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -779,7 +826,7 @@ The construct id used in the generated config for the GoogleCesApp to import.
 
 The id of the existing GoogleCesApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -815,6 +862,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.dataStoreSettings">DataStoreSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDataStoreSettingsOutputReference">GoogleCesAppDataStoreSettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.defaultChannelProfile">DefaultChannelProfile</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference">GoogleCesAppDefaultChannelProfileOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.deploymentCount">DeploymentCount</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.errorHandlingSettings">ErrorHandlingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference">GoogleCesAppErrorHandlingSettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.evaluationMetricsThresholds">EvaluationMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference">GoogleCesAppEvaluationMetricsThresholdsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.languageSettings">LanguageSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLanguageSettingsOutputReference">GoogleCesAppLanguageSettingsOutputReference</a></code> | *No description.* |
@@ -825,6 +873,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.timeZoneSettings">TimeZoneSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeZoneSettingsOutputReference">GoogleCesAppTimeZoneSettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.updateTime">UpdateTime</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.variableDeclarations">VariableDeclarations</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVariableDeclarationsList">GoogleCesAppVariableDeclarationsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.vpcScSettings">VpcScSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference">GoogleCesAppVpcScSettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.appIdInput">AppIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.audioProcessingConfigInput">AudioProcessingConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfig">GoogleCesAppAudioProcessingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.clientCertificateSettingsInput">ClientCertificateSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppClientCertificateSettings">GoogleCesAppClientCertificateSettings</a></code> | *No description.* |
@@ -833,12 +882,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.displayNameInput">DisplayNameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.errorHandlingSettingsInput">ErrorHandlingSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings">GoogleCesAppErrorHandlingSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.evaluationMetricsThresholdsInput">EvaluationMetricsThresholdsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholds">GoogleCesAppEvaluationMetricsThresholds</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.globalInstructionInput">GlobalInstructionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.guardrailsInput">GuardrailsInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.languageSettingsInput">LanguageSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLanguageSettings">GoogleCesAppLanguageSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.locationInput">LocationInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.lockedInput">LockedInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.loggingSettingsInput">LoggingSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettings">GoogleCesAppLoggingSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.metadataInput">MetadataInput</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.modelSettingsInput">ModelSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppModelSettings">GoogleCesAppModelSettings</a></code> | *No description.* |
@@ -849,6 +900,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.timeZoneSettingsInput">TimeZoneSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeZoneSettings">GoogleCesAppTimeZoneSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.toolExecutionModeInput">ToolExecutionModeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.variableDeclarationsInput">VariableDeclarationsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.vpcScSettingsInput">VpcScSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettings">GoogleCesAppVpcScSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.appId">AppId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.description">Description</a></code> | <code>*string</code> | *No description.* |
@@ -857,6 +909,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.guardrails">Guardrails</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.location">Location</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.locked">Locked</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.metadata">Metadata</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.pinned">Pinned</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.project">Project</a></code> | <code>*string</code> | *No description.* |
@@ -1067,6 +1120,16 @@ func DeploymentCount() *f64
 
 ---
 
+##### `ErrorHandlingSettings`<sup>Required</sup> <a name="ErrorHandlingSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.errorHandlingSettings"></a>
+
+```go
+func ErrorHandlingSettings() GoogleCesAppErrorHandlingSettingsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference">GoogleCesAppErrorHandlingSettingsOutputReference</a>
+
+---
+
 ##### `Etag`<sup>Required</sup> <a name="Etag" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.etag"></a>
 
 ```go
@@ -1167,6 +1230,16 @@ func VariableDeclarations() GoogleCesAppVariableDeclarationsList
 
 ---
 
+##### `VpcScSettings`<sup>Required</sup> <a name="VpcScSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.vpcScSettings"></a>
+
+```go
+func VpcScSettings() GoogleCesAppVpcScSettingsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference">GoogleCesAppVpcScSettingsOutputReference</a>
+
+---
+
 ##### `AppIdInput`<sup>Optional</sup> <a name="AppIdInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.appIdInput"></a>
 
 ```go
@@ -1247,6 +1320,16 @@ func DisplayNameInput() *string
 
 ---
 
+##### `ErrorHandlingSettingsInput`<sup>Optional</sup> <a name="ErrorHandlingSettingsInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.errorHandlingSettingsInput"></a>
+
+```go
+func ErrorHandlingSettingsInput() GoogleCesAppErrorHandlingSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings">GoogleCesAppErrorHandlingSettings</a>
+
+---
+
 ##### `EvaluationMetricsThresholdsInput`<sup>Optional</sup> <a name="EvaluationMetricsThresholdsInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.evaluationMetricsThresholdsInput"></a>
 
 ```go
@@ -1304,6 +1387,16 @@ func LocationInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `LockedInput`<sup>Optional</sup> <a name="LockedInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.lockedInput"></a>
+
+```go
+func LockedInput() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -1407,6 +1500,16 @@ func VariableDeclarationsInput() interface{}
 
 ---
 
+##### `VpcScSettingsInput`<sup>Optional</sup> <a name="VpcScSettingsInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.vpcScSettingsInput"></a>
+
+```go
+func VpcScSettingsInput() GoogleCesAppVpcScSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettings">GoogleCesAppVpcScSettings</a>
+
+---
+
 ##### `AppId`<sup>Required</sup> <a name="AppId" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.appId"></a>
 
 ```go
@@ -1487,6 +1590,16 @@ func Location() *string
 
 ---
 
+##### `Locked`<sup>Required</sup> <a name="Locked" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.locked"></a>
+
+```go
+func Locked() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `Metadata`<sup>Required</sup> <a name="Metadata" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesApp.property.metadata"></a>
 
 ```go
@@ -1562,11 +1675,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppAudioProcessingConfig {
-	AmbientSoundConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppAudioProcessingConfigAmbientSoundConfig,
-	BargeInConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppAudioProcessingConfigBargeInConfig,
+	AmbientSoundConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppAudioProcessingConfigAmbientSoundConfig,
+	BargeInConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppAudioProcessingConfigBargeInConfig,
 	InactivityTimeout: *string,
 	SynthesizeSpeechConfigs: interface{},
 }
@@ -1593,7 +1706,7 @@ AmbientSoundConfig GoogleCesAppAudioProcessingConfigAmbientSoundConfig
 
 ambient_sound_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#ambient_sound_config GoogleCesApp#ambient_sound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#ambient_sound_config GoogleCesApp#ambient_sound_config}
 
 ---
 
@@ -1607,7 +1720,7 @@ BargeInConfig GoogleCesAppAudioProcessingConfigBargeInConfig
 
 barge_in_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#barge_in_config GoogleCesApp#barge_in_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#barge_in_config GoogleCesApp#barge_in_config}
 
 ---
 
@@ -1624,7 +1737,7 @@ The duration of user inactivity (no speech or interaction) before the agent prom
 If not set, the agent will not prompt
 the user for reengagement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#inactivity_timeout GoogleCesApp#inactivity_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#inactivity_timeout GoogleCesApp#inactivity_timeout}
 
 ---
 
@@ -1638,7 +1751,7 @@ SynthesizeSpeechConfigs interface{}
 
 synthesize_speech_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#synthesize_speech_configs GoogleCesApp#synthesize_speech_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#synthesize_speech_configs GoogleCesApp#synthesize_speech_configs}
 
 ---
 
@@ -1647,7 +1760,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigAmbientSoundConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppAudioProcessingConfigAmbientSoundConfig {
 	GcsUri: *string,
@@ -1676,7 +1789,7 @@ GcsUri *string
 
 Ambient noise as a mono-channel, 16kHz WAV file stored in [Cloud Storage](https://cloud.google.com/storage). Note: Please make sure the CES service agent 'service-@gcp-sa-ces.iam.gserviceaccount.com' has 'storage.objects.get' permission to the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#gcs_uri GoogleCesApp#gcs_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#gcs_uri GoogleCesApp#gcs_uri}
 
 ---
 
@@ -1695,7 +1808,7 @@ Valid values are: - "coffee_shop" - "keyboard" - "keypad" - "hum"
 -"room_1" - "room_2" - "room_3"
 -"room_4" - "room_5" - "air_conditioner"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#prebuilt_ambient_sound GoogleCesApp#prebuilt_ambient_sound}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#prebuilt_ambient_sound GoogleCesApp#prebuilt_ambient_sound}
 
 ---
 
@@ -1709,7 +1822,7 @@ VolumeGainDb *f64
 
 Volume gain (in dB) of the normal native volume supported by ambient noise, in the range [-96.0, 16.0]. If unset, or set to a value of 0.0 (dB), will play at normal native signal amplitude. A value of -6.0 (dB) will play at approximately half the amplitude of the normal native signal amplitude. A value of +6.0 (dB) will play at approximately twice the amplitude of the normal native signal amplitude. We strongly recommend not to exceed +10 (dB) as there's usually no effective increase in loudness for any value greater than that.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#volume_gain_db GoogleCesApp#volume_gain_db}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#volume_gain_db GoogleCesApp#volume_gain_db}
 
 ---
 
@@ -1718,7 +1831,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigBargeInConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppAudioProcessingConfigBargeInConfig {
 	BargeInAwareness: interface{},
@@ -1746,7 +1859,7 @@ If enabled, the agent will adapt its next response based on the assumption that 
 This should not be used in scenarios where agent responses are displayed
 visually.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#barge_in_awareness GoogleCesApp#barge_in_awareness}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#barge_in_awareness GoogleCesApp#barge_in_awareness}
 
 ---
 
@@ -1755,10 +1868,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs {
 	LanguageCode: *string,
+	Instruction: *string,
+	Model: *string,
 	SpeakingRate: *f64,
 	Voice: *string,
 }
@@ -1768,7 +1883,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs.property.languageCode">LanguageCode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#language_code GoogleCesApp#language_code}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs.property.languageCode">LanguageCode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#language_code GoogleCesApp#language_code}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs.property.instruction">Instruction</a></code> | <code>*string</code> | The instruction used to synthesize speech when using a generative model. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs.property.model">Model</a></code> | <code>*string</code> | The model used to synthesize audio. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs.property.speakingRate">SpeakingRate</a></code> | <code>*f64</code> | The speaking rate/speed in the range [0.25, 2.0]. 1.0 is the normal native speed supported by the specific voice. 2.0 is twice as fast, and 0.5 is half as fast. Values outside of the range [0.25, 2.0] will return an error. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs.property.voice">Voice</a></code> | <code>*string</code> | The name of the voice. |
 
@@ -1782,7 +1899,35 @@ LanguageCode *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#language_code GoogleCesApp#language_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#language_code GoogleCesApp#language_code}.
+
+---
+
+##### `Instruction`<sup>Optional</sup> <a name="Instruction" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs.property.instruction"></a>
+
+```go
+Instruction *string
+```
+
+- *Type:* *string
+
+The instruction used to synthesize speech when using a generative model.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#instruction GoogleCesApp#instruction}
+
+---
+
+##### `Model`<sup>Optional</sup> <a name="Model" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs.property.model"></a>
+
+```go
+Model *string
+```
+
+- *Type:* *string
+
+The model used to synthesize audio.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#model GoogleCesApp#model}
 
 ---
 
@@ -1796,7 +1941,7 @@ SpeakingRate *f64
 
 The speaking rate/speed in the range [0.25, 2.0]. 1.0 is the normal native speed supported by the specific voice. 2.0 is twice as fast, and 0.5 is half as fast. Values outside of the range [0.25, 2.0] will return an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#speaking_rate GoogleCesApp#speaking_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#speaking_rate GoogleCesApp#speaking_rate}
 
 ---
 
@@ -1815,7 +1960,7 @@ voice based on the other parameters such as language_code.
 For the list of available voices, please refer to Supported voices and
 languages from Cloud Text-to-Speech.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#voice GoogleCesApp#voice}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#voice GoogleCesApp#voice}
 
 ---
 
@@ -1824,7 +1969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppClientCertificateSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppClientCertificateSettings {
 	PrivateKey: *string,
@@ -1853,7 +1998,7 @@ PrivateKey *string
 
 The name of the SecretManager secret version resource storing the private key encoded in PEM format. Format: projects/{project}/secrets/{secret}/versions/{version}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#private_key GoogleCesApp#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#private_key GoogleCesApp#private_key}
 
 ---
 
@@ -1867,7 +2012,7 @@ TlsCertificate *string
 
 The TLS certificate encoded in PEM format. This string must include the begin header and end footer lines.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#tls_certificate GoogleCesApp#tls_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#tls_certificate GoogleCesApp#tls_certificate}
 
 ---
 
@@ -1881,7 +2026,7 @@ Passphrase *string
 
 The passphrase to decrypt the private key. Should be left unset if the private key is not encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#passphrase GoogleCesApp#passphrase}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#passphrase GoogleCesApp#passphrase}
 
 ---
 
@@ -1890,7 +2035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppConfig {
 	Connection: interface{},
@@ -1903,27 +2048,30 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 	AppId: *string,
 	DisplayName: *string,
 	Location: *string,
-	AudioProcessingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppAudioProcessingConfig,
-	ClientCertificateSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppClientCertificateSettings,
-	DataStoreSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppDataStoreSettings,
-	DefaultChannelProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppDefaultChannelProfile,
+	AudioProcessingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppAudioProcessingConfig,
+	ClientCertificateSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppClientCertificateSettings,
+	DataStoreSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppDataStoreSettings,
+	DefaultChannelProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppDefaultChannelProfile,
 	DeletionPolicy: *string,
 	Description: *string,
-	EvaluationMetricsThresholds: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppEvaluationMetricsThresholds,
+	ErrorHandlingSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppErrorHandlingSettings,
+	EvaluationMetricsThresholds: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppEvaluationMetricsThresholds,
 	GlobalInstruction: *string,
 	Guardrails: *[]*string,
 	Id: *string,
-	LanguageSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppLanguageSettings,
-	LoggingSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppLoggingSettings,
+	LanguageSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppLanguageSettings,
+	Locked: interface{},
+	LoggingSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppLoggingSettings,
 	Metadata: *map[string]*string,
-	ModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppModelSettings,
+	ModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppModelSettings,
 	Pinned: interface{},
 	Project: *string,
 	RootAgent: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppTimeouts,
-	TimeZoneSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppTimeZoneSettings,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppTimeouts,
+	TimeZoneSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppTimeZoneSettings,
 	ToolExecutionMode: *string,
 	VariableDeclarations: interface{},
+	VpcScSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppVpcScSettings,
 }
 ```
 
@@ -1947,21 +2095,24 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.defaultChannelProfile">DefaultChannelProfile</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfile">GoogleCesAppDefaultChannelProfile</a></code> | default_channel_profile block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.description">Description</a></code> | <code>*string</code> | Human-readable description of the app. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.errorHandlingSettings">ErrorHandlingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings">GoogleCesAppErrorHandlingSettings</a></code> | error_handling_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.evaluationMetricsThresholds">EvaluationMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholds">GoogleCesAppEvaluationMetricsThresholds</a></code> | evaluation_metrics_thresholds block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.globalInstruction">GlobalInstruction</a></code> | <code>*string</code> | Instructions for all the agents in the app. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.guardrails">Guardrails</a></code> | <code>*[]*string</code> | List of guardrails for the app. Format: 'projects/{project}/locations/{location}/apps/{app}/guardrails/{guardrail}'. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#id GoogleCesApp#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#id GoogleCesApp#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.languageSettings">LanguageSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLanguageSettings">GoogleCesAppLanguageSettings</a></code> | language_settings block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.locked">Locked</a></code> | <code>interface{}</code> | Indicates whether the app is locked for changes. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.loggingSettings">LoggingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettings">GoogleCesAppLoggingSettings</a></code> | logging_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.metadata">Metadata</a></code> | <code>*map[string]*string</code> | Metadata about the app. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.modelSettings">ModelSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppModelSettings">GoogleCesAppModelSettings</a></code> | model_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.pinned">Pinned</a></code> | <code>interface{}</code> | Whether the app is pinned in the app list. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#project GoogleCesApp#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#project GoogleCesApp#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.rootAgent">RootAgent</a></code> | <code>*string</code> | The root agent is the entry point of the app. Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeouts">GoogleCesAppTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.timeZoneSettings">TimeZoneSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeZoneSettings">GoogleCesAppTimeZoneSettings</a></code> | time_zone_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.toolExecutionMode">ToolExecutionMode</a></code> | <code>*string</code> | The tool execution mode for the app. See the [API reference](https://docs.cloud.google.com/customer-engagement-ai/conversational-agents/ps/reference/rpc/google.cloud.ces.v1#google.cloud.ces.v1.App.ToolExecutionMode) for more details. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.variableDeclarations">VariableDeclarations</a></code> | <code>interface{}</code> | variable_declarations block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.vpcScSettings">VpcScSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettings">GoogleCesAppVpcScSettings</a></code> | vpc_sc_settings block. |
 
 ---
 
@@ -2048,7 +2199,7 @@ The ID to use for the app, which will become the final component of the app's re
 If not provided, a unique ID will be
 automatically assigned for the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#app_id GoogleCesApp#app_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#app_id GoogleCesApp#app_id}
 
 ---
 
@@ -2062,7 +2213,7 @@ DisplayName *string
 
 Display name of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#display_name GoogleCesApp#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#display_name GoogleCesApp#display_name}
 
 ---
 
@@ -2076,7 +2227,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#location GoogleCesApp#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#location GoogleCesApp#location}
 
 ---
 
@@ -2090,7 +2241,7 @@ AudioProcessingConfig GoogleCesAppAudioProcessingConfig
 
 audio_processing_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#audio_processing_config GoogleCesApp#audio_processing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#audio_processing_config GoogleCesApp#audio_processing_config}
 
 ---
 
@@ -2104,7 +2255,7 @@ ClientCertificateSettings GoogleCesAppClientCertificateSettings
 
 client_certificate_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#client_certificate_settings GoogleCesApp#client_certificate_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#client_certificate_settings GoogleCesApp#client_certificate_settings}
 
 ---
 
@@ -2118,7 +2269,7 @@ DataStoreSettings GoogleCesAppDataStoreSettings
 
 data_store_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#data_store_settings GoogleCesApp#data_store_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#data_store_settings GoogleCesApp#data_store_settings}
 
 ---
 
@@ -2132,7 +2283,7 @@ DefaultChannelProfile GoogleCesAppDefaultChannelProfile
 
 default_channel_profile block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#default_channel_profile GoogleCesApp#default_channel_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#default_channel_profile GoogleCesApp#default_channel_profile}
 
 ---
 
@@ -2153,7 +2304,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#deletion_policy GoogleCesApp#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#deletion_policy GoogleCesApp#deletion_policy}
 
 ---
 
@@ -2167,7 +2318,21 @@ Description *string
 
 Human-readable description of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#description GoogleCesApp#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#description GoogleCesApp#description}
+
+---
+
+##### `ErrorHandlingSettings`<sup>Optional</sup> <a name="ErrorHandlingSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.errorHandlingSettings"></a>
+
+```go
+ErrorHandlingSettings GoogleCesAppErrorHandlingSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings">GoogleCesAppErrorHandlingSettings</a>
+
+error_handling_settings block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#error_handling_settings GoogleCesApp#error_handling_settings}
 
 ---
 
@@ -2181,7 +2346,7 @@ EvaluationMetricsThresholds GoogleCesAppEvaluationMetricsThresholds
 
 evaluation_metrics_thresholds block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#evaluation_metrics_thresholds GoogleCesApp#evaluation_metrics_thresholds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#evaluation_metrics_thresholds GoogleCesApp#evaluation_metrics_thresholds}
 
 ---
 
@@ -2198,7 +2363,7 @@ Instructions for all the agents in the app.
 You can use this instruction to set up a stable identity or personality
 across all the agents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#global_instruction GoogleCesApp#global_instruction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#global_instruction GoogleCesApp#global_instruction}
 
 ---
 
@@ -2212,7 +2377,7 @@ Guardrails *[]*string
 
 List of guardrails for the app. Format: 'projects/{project}/locations/{location}/apps/{app}/guardrails/{guardrail}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#guardrails GoogleCesApp#guardrails}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#guardrails GoogleCesApp#guardrails}
 
 ---
 
@@ -2224,7 +2389,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#id GoogleCesApp#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#id GoogleCesApp#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2241,7 +2406,24 @@ LanguageSettings GoogleCesAppLanguageSettings
 
 language_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#language_settings GoogleCesApp#language_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#language_settings GoogleCesApp#language_settings}
+
+---
+
+##### `Locked`<sup>Optional</sup> <a name="Locked" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.locked"></a>
+
+```go
+Locked interface{}
+```
+
+- *Type:* interface{}
+
+Indicates whether the app is locked for changes.
+
+If the app is locked,
+modifications to the app resources will be rejected.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#locked GoogleCesApp#locked}
 
 ---
 
@@ -2255,7 +2437,7 @@ LoggingSettings GoogleCesAppLoggingSettings
 
 logging_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#logging_settings GoogleCesApp#logging_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#logging_settings GoogleCesApp#logging_settings}
 
 ---
 
@@ -2272,7 +2454,7 @@ Metadata about the app.
 This field can be used to store additional
 information relevant to the app's details or intended usages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#metadata GoogleCesApp#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#metadata GoogleCesApp#metadata}
 
 ---
 
@@ -2286,7 +2468,7 @@ ModelSettings GoogleCesAppModelSettings
 
 model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#model_settings GoogleCesApp#model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#model_settings GoogleCesApp#model_settings}
 
 ---
 
@@ -2300,7 +2482,7 @@ Pinned interface{}
 
 Whether the app is pinned in the app list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#pinned GoogleCesApp#pinned}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#pinned GoogleCesApp#pinned}
 
 ---
 
@@ -2312,7 +2494,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#project GoogleCesApp#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#project GoogleCesApp#project}.
 
 ---
 
@@ -2326,7 +2508,7 @@ RootAgent *string
 
 The root agent is the entry point of the app. Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#root_agent GoogleCesApp#root_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#root_agent GoogleCesApp#root_agent}
 
 ---
 
@@ -2340,7 +2522,7 @@ Timeouts GoogleCesAppTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#timeouts GoogleCesApp#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#timeouts GoogleCesApp#timeouts}
 
 ---
 
@@ -2354,7 +2536,7 @@ TimeZoneSettings GoogleCesAppTimeZoneSettings
 
 time_zone_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#time_zone_settings GoogleCesApp#time_zone_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#time_zone_settings GoogleCesApp#time_zone_settings}
 
 ---
 
@@ -2368,7 +2550,7 @@ ToolExecutionMode *string
 
 The tool execution mode for the app. See the [API reference](https://docs.cloud.google.com/customer-engagement-ai/conversational-agents/ps/reference/rpc/google.cloud.ces.v1#google.cloud.ces.v1.App.ToolExecutionMode) for more details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#tool_execution_mode GoogleCesApp#tool_execution_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#tool_execution_mode GoogleCesApp#tool_execution_mode}
 
 ---
 
@@ -2382,7 +2564,21 @@ VariableDeclarations interface{}
 
 variable_declarations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#variable_declarations GoogleCesApp#variable_declarations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#variable_declarations GoogleCesApp#variable_declarations}
+
+---
+
+##### `VpcScSettings`<sup>Optional</sup> <a name="VpcScSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppConfig.property.vpcScSettings"></a>
+
+```go
+VpcScSettings GoogleCesAppVpcScSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettings">GoogleCesAppVpcScSettings</a>
+
+vpc_sc_settings block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#vpc_sc_settings GoogleCesApp#vpc_sc_settings}
 
 ---
 
@@ -2391,7 +2587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDataStoreSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppDataStoreSettings {
 
@@ -2404,7 +2600,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDataStoreSettingsEngines.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppDataStoreSettingsEngines {
 
@@ -2417,15 +2613,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppDefaultChannelProfile {
 	ChannelType: *string,
 	DisableBargeInControl: interface{},
 	DisableDtmf: interface{},
-	PersonaProperty: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppDefaultChannelProfilePersonaProperty,
+	PersonaProperty: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppDefaultChannelProfilePersonaProperty,
 	ProfileId: *string,
-	WebWidgetConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfig,
+	WebWidgetConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfig,
+	WhatsappConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig,
 }
 ```
 
@@ -2439,6 +2636,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfile.property.personaProperty">PersonaProperty</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfilePersonaProperty">GoogleCesAppDefaultChannelProfilePersonaProperty</a></code> | persona_property block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfile.property.profileId">ProfileId</a></code> | <code>*string</code> | The unique identifier of the channel profile. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfile.property.webWidgetConfig">WebWidgetConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfig">GoogleCesAppDefaultChannelProfileWebWidgetConfig</a></code> | web_widget_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfile.property.whatsappConfig">WhatsappConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig">GoogleCesAppDefaultChannelProfileWhatsappConfig</a></code> | whatsapp_config block. |
 
 ---
 
@@ -2452,7 +2650,7 @@ ChannelType *string
 
 The type of the channel profile. Possible values: UNKNOWN WEB_UI API TWILIO GOOGLE_TELEPHONY_PLATFORM CONTACT_CENTER_AS_A_SERVICE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#channel_type GoogleCesApp#channel_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#channel_type GoogleCesApp#channel_type}
 
 ---
 
@@ -2469,7 +2667,7 @@ Whether to disable user barge-in in the conversation.
 * true: User interruptions are disabled while the agent is speaking.
 * false: The agent retains automatic control over when the user can interrupt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#disable_barge_in_control GoogleCesApp#disable_barge_in_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#disable_barge_in_control GoogleCesApp#disable_barge_in_control}
 
 ---
 
@@ -2483,7 +2681,7 @@ DisableDtmf interface{}
 
 Whether to disable DTMF (dual-tone multi-frequency).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#disable_dtmf GoogleCesApp#disable_dtmf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#disable_dtmf GoogleCesApp#disable_dtmf}
 
 ---
 
@@ -2497,7 +2695,7 @@ PersonaProperty GoogleCesAppDefaultChannelProfilePersonaProperty
 
 persona_property block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#persona_property GoogleCesApp#persona_property}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#persona_property GoogleCesApp#persona_property}
 
 ---
 
@@ -2511,7 +2709,7 @@ ProfileId *string
 
 The unique identifier of the channel profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#profile_id GoogleCesApp#profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#profile_id GoogleCesApp#profile_id}
 
 ---
 
@@ -2525,7 +2723,21 @@ WebWidgetConfig GoogleCesAppDefaultChannelProfileWebWidgetConfig
 
 web_widget_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#web_widget_config GoogleCesApp#web_widget_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#web_widget_config GoogleCesApp#web_widget_config}
+
+---
+
+##### `WhatsappConfig`<sup>Optional</sup> <a name="WhatsappConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfile.property.whatsappConfig"></a>
+
+```go
+WhatsappConfig GoogleCesAppDefaultChannelProfileWhatsappConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig">GoogleCesAppDefaultChannelProfileWhatsappConfig</a>
+
+whatsapp_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#whatsapp_config GoogleCesApp#whatsapp_config}
 
 ---
 
@@ -2534,7 +2746,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfilePersonaProperty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppDefaultChannelProfilePersonaProperty {
 	Persona: *string,
@@ -2559,7 +2771,7 @@ Persona *string
 
 The persona of the channel. Possible values: UNKNOWN CONCISE CHATTY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#persona GoogleCesApp#persona}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#persona GoogleCesApp#persona}
 
 ---
 
@@ -2568,10 +2780,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppDefaultChannelProfileWebWidgetConfig {
 	Modality: *string,
+	SecuritySettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings,
 	Theme: *string,
 	WebWidgetTitle: *string,
 }
@@ -2582,6 +2795,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfig.property.modality">Modality</a></code> | <code>*string</code> | The modality of the web widget. Possible values: UNKNOWN_MODALITY CHAT_AND_VOICE VOICE_ONLY CHAT_ONLY. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfig.property.securitySettings">SecuritySettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings">GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings</a></code> | security_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfig.property.theme">Theme</a></code> | <code>*string</code> | The theme of the web widget. Possible values: UNKNOWN_THEME LIGHT DARK. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfig.property.webWidgetTitle">WebWidgetTitle</a></code> | <code>*string</code> | The title of the web widget. |
 
@@ -2597,7 +2811,21 @@ Modality *string
 
 The modality of the web widget. Possible values: UNKNOWN_MODALITY CHAT_AND_VOICE VOICE_ONLY CHAT_ONLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#modality GoogleCesApp#modality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#modality GoogleCesApp#modality}
+
+---
+
+##### `SecuritySettings`<sup>Optional</sup> <a name="SecuritySettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfig.property.securitySettings"></a>
+
+```go
+SecuritySettings GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings">GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings</a>
+
+security_settings block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#security_settings GoogleCesApp#security_settings}
 
 ---
 
@@ -2611,7 +2839,7 @@ Theme *string
 
 The theme of the web widget. Possible values: UNKNOWN_THEME LIGHT DARK.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#theme GoogleCesApp#theme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#theme GoogleCesApp#theme}
 
 ---
 
@@ -2625,7 +2853,319 @@ WebWidgetTitle *string
 
 The title of the web widget.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#web_widget_title GoogleCesApp#web_widget_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#web_widget_title GoogleCesApp#web_widget_title}
+
+---
+
+### GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings <a name="GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+&googlecesapp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings {
+	AllowedOrigins: *[]*string,
+	EnableOriginCheck: interface{},
+	EnablePublicAccess: interface{},
+	EnableRecaptcha: interface{},
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings.property.allowedOrigins">AllowedOrigins</a></code> | <code>*[]*string</code> | The origins that are allowed to host the web widget. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings.property.enableOriginCheck">EnableOriginCheck</a></code> | <code>interface{}</code> | Indicates whether origin check for the web widget is enabled. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings.property.enablePublicAccess">EnablePublicAccess</a></code> | <code>interface{}</code> | Indicates whether public access to the web widget is enabled. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings.property.enableRecaptcha">EnableRecaptcha</a></code> | <code>interface{}</code> | Indicates whether reCAPTCHA verification for the web widget is enabled. |
+
+---
+
+##### `AllowedOrigins`<sup>Optional</sup> <a name="AllowedOrigins" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings.property.allowedOrigins"></a>
+
+```go
+AllowedOrigins *[]*string
+```
+
+- *Type:* *[]*string
+
+The origins that are allowed to host the web widget.
+
+An origin is
+defined by RFC 6454. If empty, all origins are allowed.
+A maximum of 100 origins is allowed.
+Example: "https://example.com"
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#allowed_origins GoogleCesApp#allowed_origins}
+
+---
+
+##### `EnableOriginCheck`<sup>Optional</sup> <a name="EnableOriginCheck" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings.property.enableOriginCheck"></a>
+
+```go
+EnableOriginCheck interface{}
+```
+
+- *Type:* interface{}
+
+Indicates whether origin check for the web widget is enabled.
+
+If 'true', the web widget will check the origin of the website that
+loads the web widget and only allow it to be loaded in the same origin
+or any of the allowed origins.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#enable_origin_check GoogleCesApp#enable_origin_check}
+
+---
+
+##### `EnablePublicAccess`<sup>Optional</sup> <a name="EnablePublicAccess" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings.property.enablePublicAccess"></a>
+
+```go
+EnablePublicAccess interface{}
+```
+
+- *Type:* interface{}
+
+Indicates whether public access to the web widget is enabled.
+
+If 'true', the web widget will be publicly accessible.
+If 'false', the web widget must be integrated with your own
+authentication and authorization system to return valid credentials for
+accessing the CES agent.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#enable_public_access GoogleCesApp#enable_public_access}
+
+---
+
+##### `EnableRecaptcha`<sup>Optional</sup> <a name="EnableRecaptcha" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings.property.enableRecaptcha"></a>
+
+```go
+EnableRecaptcha interface{}
+```
+
+- *Type:* interface{}
+
+Indicates whether reCAPTCHA verification for the web widget is enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#enable_recaptcha GoogleCesApp#enable_recaptcha}
+
+---
+
+### GoogleCesAppDefaultChannelProfileWhatsappConfig <a name="GoogleCesAppDefaultChannelProfileWhatsappConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+&googlecesapp.GoogleCesAppDefaultChannelProfileWhatsappConfig {
+	PhoneNumberId: *string,
+	WabaId: *string,
+	PhoneNumber: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig.property.phoneNumberId">PhoneNumberId</a></code> | <code>*string</code> | The Meta phone number ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig.property.wabaId">WabaId</a></code> | <code>*string</code> | The WhatsApp Business Account ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig.property.phoneNumber">PhoneNumber</a></code> | <code>*string</code> | The phone number in E.164 format. |
+
+---
+
+##### `PhoneNumberId`<sup>Required</sup> <a name="PhoneNumberId" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig.property.phoneNumberId"></a>
+
+```go
+PhoneNumberId *string
+```
+
+- *Type:* *string
+
+The Meta phone number ID.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#phone_number_id GoogleCesApp#phone_number_id}
+
+---
+
+##### `WabaId`<sup>Required</sup> <a name="WabaId" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig.property.wabaId"></a>
+
+```go
+WabaId *string
+```
+
+- *Type:* *string
+
+The WhatsApp Business Account ID.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#waba_id GoogleCesApp#waba_id}
+
+---
+
+##### `PhoneNumber`<sup>Optional</sup> <a name="PhoneNumber" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig.property.phoneNumber"></a>
+
+```go
+PhoneNumber *string
+```
+
+- *Type:* *string
+
+The phone number in E.164 format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#phone_number GoogleCesApp#phone_number}
+
+---
+
+### GoogleCesAppErrorHandlingSettings <a name="GoogleCesAppErrorHandlingSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+&googlecesapp.GoogleCesAppErrorHandlingSettings {
+	EndSessionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig,
+	ErrorHandlingStrategy: *string,
+	FallbackResponseConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings.property.endSessionConfig">EndSessionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig">GoogleCesAppErrorHandlingSettingsEndSessionConfig</a></code> | end_session_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings.property.errorHandlingStrategy">ErrorHandlingStrategy</a></code> | <code>*string</code> | The strategy to use for error handling. Possible values: NONE FALLBACK_RESPONSE END_SESSION. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings.property.fallbackResponseConfig">FallbackResponseConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig">GoogleCesAppErrorHandlingSettingsFallbackResponseConfig</a></code> | fallback_response_config block. |
+
+---
+
+##### `EndSessionConfig`<sup>Optional</sup> <a name="EndSessionConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings.property.endSessionConfig"></a>
+
+```go
+EndSessionConfig GoogleCesAppErrorHandlingSettingsEndSessionConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig">GoogleCesAppErrorHandlingSettingsEndSessionConfig</a>
+
+end_session_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#end_session_config GoogleCesApp#end_session_config}
+
+---
+
+##### `ErrorHandlingStrategy`<sup>Optional</sup> <a name="ErrorHandlingStrategy" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings.property.errorHandlingStrategy"></a>
+
+```go
+ErrorHandlingStrategy *string
+```
+
+- *Type:* *string
+
+The strategy to use for error handling. Possible values: NONE FALLBACK_RESPONSE END_SESSION.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#error_handling_strategy GoogleCesApp#error_handling_strategy}
+
+---
+
+##### `FallbackResponseConfig`<sup>Optional</sup> <a name="FallbackResponseConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings.property.fallbackResponseConfig"></a>
+
+```go
+FallbackResponseConfig GoogleCesAppErrorHandlingSettingsFallbackResponseConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig">GoogleCesAppErrorHandlingSettingsFallbackResponseConfig</a>
+
+fallback_response_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#fallback_response_config GoogleCesApp#fallback_response_config}
+
+---
+
+### GoogleCesAppErrorHandlingSettingsEndSessionConfig <a name="GoogleCesAppErrorHandlingSettingsEndSessionConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+&googlecesapp.GoogleCesAppErrorHandlingSettingsEndSessionConfig {
+	EscalateSession: interface{},
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig.property.escalateSession">EscalateSession</a></code> | <code>interface{}</code> | Whether to escalate the session in EndSession. If session is escalated, metadata in EndSession will contain session_escalated = true. |
+
+---
+
+##### `EscalateSession`<sup>Optional</sup> <a name="EscalateSession" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig.property.escalateSession"></a>
+
+```go
+EscalateSession interface{}
+```
+
+- *Type:* interface{}
+
+Whether to escalate the session in EndSession. If session is escalated, metadata in EndSession will contain session_escalated = true.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#escalate_session GoogleCesApp#escalate_session}
+
+---
+
+### GoogleCesAppErrorHandlingSettingsFallbackResponseConfig <a name="GoogleCesAppErrorHandlingSettingsFallbackResponseConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+&googlecesapp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig {
+	CustomFallbackMessages: *map[string]*string,
+	MaxFallbackAttempts: *f64,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig.property.customFallbackMessages">CustomFallbackMessages</a></code> | <code>*map[string]*string</code> | The fallback messages in case of system errors (e.g. LLM errors), mapped by supported language code (https://docs.cloud.google.com/customer-engagement-ai/conversational-agents/ps/reference/language). |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig.property.maxFallbackAttempts">MaxFallbackAttempts</a></code> | <code>*f64</code> | The maximum number of fallback attempts to make before the agent emitting EndSession Signal. |
+
+---
+
+##### `CustomFallbackMessages`<sup>Optional</sup> <a name="CustomFallbackMessages" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig.property.customFallbackMessages"></a>
+
+```go
+CustomFallbackMessages *map[string]*string
+```
+
+- *Type:* *map[string]*string
+
+The fallback messages in case of system errors (e.g. LLM errors), mapped by supported language code (https://docs.cloud.google.com/customer-engagement-ai/conversational-agents/ps/reference/language).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#custom_fallback_messages GoogleCesApp#custom_fallback_messages}
+
+---
+
+##### `MaxFallbackAttempts`<sup>Optional</sup> <a name="MaxFallbackAttempts" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig.property.maxFallbackAttempts"></a>
+
+```go
+MaxFallbackAttempts *f64
+```
+
+- *Type:* *f64
+
+The maximum number of fallback attempts to make before the agent emitting EndSession Signal.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#max_fallback_attempts GoogleCesApp#max_fallback_attempts}
 
 ---
 
@@ -2634,10 +3174,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppEvaluationMetricsThresholds {
-	GoldenEvaluationMetricsThresholds: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds,
+	GoldenEvaluationMetricsThresholds: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds,
+	GoldenHallucinationMetricBehavior: *string,
+	ScenarioHallucinationMetricBehavior: *string,
 }
 ```
 
@@ -2646,6 +3188,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholds.property.goldenEvaluationMetricsThresholds">GoldenEvaluationMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds</a></code> | golden_evaluation_metrics_thresholds block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholds.property.goldenHallucinationMetricBehavior">GoldenHallucinationMetricBehavior</a></code> | <code>*string</code> | The hallucination metric behavior for golden evaluations. Possible values: ["DISABLED", "ENABLED"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholds.property.scenarioHallucinationMetricBehavior">ScenarioHallucinationMetricBehavior</a></code> | <code>*string</code> | The hallucination metric behavior for scenario evaluations. Possible values: ["DISABLED", "ENABLED"]. |
 
 ---
 
@@ -2659,7 +3203,35 @@ GoldenEvaluationMetricsThresholds GoogleCesAppEvaluationMetricsThresholdsGoldenE
 
 golden_evaluation_metrics_thresholds block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#golden_evaluation_metrics_thresholds GoogleCesApp#golden_evaluation_metrics_thresholds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#golden_evaluation_metrics_thresholds GoogleCesApp#golden_evaluation_metrics_thresholds}
+
+---
+
+##### `GoldenHallucinationMetricBehavior`<sup>Optional</sup> <a name="GoldenHallucinationMetricBehavior" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholds.property.goldenHallucinationMetricBehavior"></a>
+
+```go
+GoldenHallucinationMetricBehavior *string
+```
+
+- *Type:* *string
+
+The hallucination metric behavior for golden evaluations. Possible values: ["DISABLED", "ENABLED"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#golden_hallucination_metric_behavior GoogleCesApp#golden_hallucination_metric_behavior}
+
+---
+
+##### `ScenarioHallucinationMetricBehavior`<sup>Optional</sup> <a name="ScenarioHallucinationMetricBehavior" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholds.property.scenarioHallucinationMetricBehavior"></a>
+
+```go
+ScenarioHallucinationMetricBehavior *string
+```
+
+- *Type:* *string
+
+The hallucination metric behavior for scenario evaluations. Possible values: ["DISABLED", "ENABLED"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#scenario_hallucination_metric_behavior GoogleCesApp#scenario_hallucination_metric_behavior}
 
 ---
 
@@ -2668,11 +3240,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds {
-	ExpectationLevelMetricsThresholds: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds,
-	TurnLevelMetricsThresholds: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds,
+	ExpectationLevelMetricsThresholds: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds,
+	ToolMatchingSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings,
+	TurnLevelMetricsThresholds: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds,
 }
 ```
 
@@ -2681,6 +3254,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds.property.expectationLevelMetricsThresholds">ExpectationLevelMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds</a></code> | expectation_level_metrics_thresholds block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds.property.toolMatchingSettings">ToolMatchingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings</a></code> | tool_matching_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds.property.turnLevelMetricsThresholds">TurnLevelMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds</a></code> | turn_level_metrics_thresholds block. |
 
 ---
@@ -2695,7 +3269,21 @@ ExpectationLevelMetricsThresholds GoogleCesAppEvaluationMetricsThresholdsGoldenE
 
 expectation_level_metrics_thresholds block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#expectation_level_metrics_thresholds GoogleCesApp#expectation_level_metrics_thresholds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#expectation_level_metrics_thresholds GoogleCesApp#expectation_level_metrics_thresholds}
+
+---
+
+##### `ToolMatchingSettings`<sup>Optional</sup> <a name="ToolMatchingSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds.property.toolMatchingSettings"></a>
+
+```go
+ToolMatchingSettings GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings</a>
+
+tool_matching_settings block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#tool_matching_settings GoogleCesApp#tool_matching_settings}
 
 ---
 
@@ -2709,7 +3297,7 @@ TurnLevelMetricsThresholds GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluati
 
 turn_level_metrics_thresholds block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#turn_level_metrics_thresholds GoogleCesApp#turn_level_metrics_thresholds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#turn_level_metrics_thresholds GoogleCesApp#turn_level_metrics_thresholds}
 
 ---
 
@@ -2718,7 +3306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds {
 	ToolInvocationParameterCorrectnessThreshold: *f64,
@@ -2743,7 +3331,45 @@ ToolInvocationParameterCorrectnessThreshold *f64
 
 The success threshold for individual tool invocation parameter correctness. Must be a float between 0 and 1. Default is 1.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#tool_invocation_parameter_correctness_threshold GoogleCesApp#tool_invocation_parameter_correctness_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#tool_invocation_parameter_correctness_threshold GoogleCesApp#tool_invocation_parameter_correctness_threshold}
+
+---
+
+### GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings <a name="GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+&googlecesapp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings {
+	ExtraToolCallBehavior: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings.property.extraToolCallBehavior">ExtraToolCallBehavior</a></code> | <code>*string</code> | Defines the behavior when an extra tool call is encountered. |
+
+---
+
+##### `ExtraToolCallBehavior`<sup>Optional</sup> <a name="ExtraToolCallBehavior" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings.property.extraToolCallBehavior"></a>
+
+```go
+ExtraToolCallBehavior *string
+```
+
+- *Type:* *string
+
+Defines the behavior when an extra tool call is encountered.
+
+An extra
+tool call is a tool call that is present in the execution but does
+not match any tool call in the golden expectation. Possible values: ["FAIL", "ALLOW"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#extra_tool_call_behavior GoogleCesApp#extra_tool_call_behavior}
 
 ---
 
@@ -2752,10 +3378,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds {
 	OverallToolInvocationCorrectnessThreshold: *f64,
+	SemanticSimilarityChannel: *string,
 	SemanticSimilaritySuccessThreshold: *f64,
 }
 ```
@@ -2765,6 +3392,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds.property.overallToolInvocationCorrectnessThreshold">OverallToolInvocationCorrectnessThreshold</a></code> | <code>*f64</code> | The success threshold for overall tool invocation correctness. Must be a float between 0 and 1. Default is 1.0. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds.property.semanticSimilarityChannel">SemanticSimilarityChannel</a></code> | <code>*string</code> | The semantic similarity channel to use for evaluation. Possible values: SEMANTIC_SIMILARITY_CHANNEL_UNSPECIFIED TEXT AUDIO. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds.property.semanticSimilaritySuccessThreshold">SemanticSimilaritySuccessThreshold</a></code> | <code>*f64</code> | The success threshold for semantic similarity. Must be an integer between 0 and 4. Default is >= 3. |
 
 ---
@@ -2779,7 +3407,21 @@ OverallToolInvocationCorrectnessThreshold *f64
 
 The success threshold for overall tool invocation correctness. Must be a float between 0 and 1. Default is 1.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#overall_tool_invocation_correctness_threshold GoogleCesApp#overall_tool_invocation_correctness_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#overall_tool_invocation_correctness_threshold GoogleCesApp#overall_tool_invocation_correctness_threshold}
+
+---
+
+##### `SemanticSimilarityChannel`<sup>Optional</sup> <a name="SemanticSimilarityChannel" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds.property.semanticSimilarityChannel"></a>
+
+```go
+SemanticSimilarityChannel *string
+```
+
+- *Type:* *string
+
+The semantic similarity channel to use for evaluation. Possible values: SEMANTIC_SIMILARITY_CHANNEL_UNSPECIFIED TEXT AUDIO.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#semantic_similarity_channel GoogleCesApp#semantic_similarity_channel}
 
 ---
 
@@ -2793,7 +3435,7 @@ SemanticSimilaritySuccessThreshold *f64
 
 The success threshold for semantic similarity. Must be an integer between 0 and 4. Default is >= 3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#semantic_similarity_success_threshold GoogleCesApp#semantic_similarity_success_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#semantic_similarity_success_threshold GoogleCesApp#semantic_similarity_success_threshold}
 
 ---
 
@@ -2802,7 +3444,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLanguageSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppLanguageSettings {
 	DefaultLanguageCode: *string,
@@ -2833,7 +3475,7 @@ DefaultLanguageCode *string
 
 The default language code of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#default_language_code GoogleCesApp#default_language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#default_language_code GoogleCesApp#default_language_code}
 
 ---
 
@@ -2847,7 +3489,7 @@ EnableMultilingualSupport interface{}
 
 Enables multilingual support. If true, agents in the app will use pre-built instructions to improve handling of multilingual input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#enable_multilingual_support GoogleCesApp#enable_multilingual_support}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#enable_multilingual_support GoogleCesApp#enable_multilingual_support}
 
 ---
 
@@ -2869,7 +3511,7 @@ Valid values are:
   an EndSession signal with corresponding metadata
   to terminate the conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#fallback_action GoogleCesApp#fallback_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#fallback_action GoogleCesApp#fallback_action}
 
 ---
 
@@ -2883,7 +3525,7 @@ SupportedLanguageCodes *[]*string
 
 List of languages codes supported by the app, in addition to the 'default_language_code'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#supported_language_codes GoogleCesApp#supported_language_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#supported_language_codes GoogleCesApp#supported_language_codes}
 
 ---
 
@@ -2892,14 +3534,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppLoggingSettings {
-	AudioRecordingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppLoggingSettingsAudioRecordingConfig,
-	BigqueryExportSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppLoggingSettingsBigqueryExportSettings,
-	CloudLoggingSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppLoggingSettingsCloudLoggingSettings,
-	ConversationLoggingSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettings,
-	RedactionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppLoggingSettingsRedactionConfig,
+	AudioRecordingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppLoggingSettingsAudioRecordingConfig,
+	BigqueryExportSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppLoggingSettingsBigqueryExportSettings,
+	CloudLoggingSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppLoggingSettingsCloudLoggingSettings,
+	ConversationLoggingSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettings,
+	MetricAnalysisSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings,
+	RedactionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppLoggingSettingsRedactionConfig,
 }
 ```
 
@@ -2911,6 +3554,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettings.property.bigqueryExportSettings">BigqueryExportSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsBigqueryExportSettings">GoogleCesAppLoggingSettingsBigqueryExportSettings</a></code> | bigquery_export_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettings.property.cloudLoggingSettings">CloudLoggingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsCloudLoggingSettings">GoogleCesAppLoggingSettingsCloudLoggingSettings</a></code> | cloud_logging_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettings.property.conversationLoggingSettings">ConversationLoggingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettings">GoogleCesAppLoggingSettingsConversationLoggingSettings</a></code> | conversation_logging_settings block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettings.property.metricAnalysisSettings">MetricAnalysisSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings">GoogleCesAppLoggingSettingsMetricAnalysisSettings</a></code> | metric_analysis_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettings.property.redactionConfig">RedactionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsRedactionConfig">GoogleCesAppLoggingSettingsRedactionConfig</a></code> | redaction_config block. |
 
 ---
@@ -2925,7 +3569,7 @@ AudioRecordingConfig GoogleCesAppLoggingSettingsAudioRecordingConfig
 
 audio_recording_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#audio_recording_config GoogleCesApp#audio_recording_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#audio_recording_config GoogleCesApp#audio_recording_config}
 
 ---
 
@@ -2939,7 +3583,7 @@ BigqueryExportSettings GoogleCesAppLoggingSettingsBigqueryExportSettings
 
 bigquery_export_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#bigquery_export_settings GoogleCesApp#bigquery_export_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#bigquery_export_settings GoogleCesApp#bigquery_export_settings}
 
 ---
 
@@ -2953,7 +3597,7 @@ CloudLoggingSettings GoogleCesAppLoggingSettingsCloudLoggingSettings
 
 cloud_logging_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#cloud_logging_settings GoogleCesApp#cloud_logging_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#cloud_logging_settings GoogleCesApp#cloud_logging_settings}
 
 ---
 
@@ -2967,7 +3611,21 @@ ConversationLoggingSettings GoogleCesAppLoggingSettingsConversationLoggingSettin
 
 conversation_logging_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#conversation_logging_settings GoogleCesApp#conversation_logging_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#conversation_logging_settings GoogleCesApp#conversation_logging_settings}
+
+---
+
+##### `MetricAnalysisSettings`<sup>Optional</sup> <a name="MetricAnalysisSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettings.property.metricAnalysisSettings"></a>
+
+```go
+MetricAnalysisSettings GoogleCesAppLoggingSettingsMetricAnalysisSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings">GoogleCesAppLoggingSettingsMetricAnalysisSettings</a>
+
+metric_analysis_settings block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#metric_analysis_settings GoogleCesApp#metric_analysis_settings}
 
 ---
 
@@ -2981,7 +3639,7 @@ RedactionConfig GoogleCesAppLoggingSettingsRedactionConfig
 
 redaction_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#redaction_config GoogleCesApp#redaction_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#redaction_config GoogleCesApp#redaction_config}
 
 ---
 
@@ -2990,7 +3648,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsAudioRecordingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppLoggingSettingsAudioRecordingConfig {
 	GcsBucket: *string,
@@ -3017,7 +3675,7 @@ GcsBucket *string
 
 The [Cloud Storage](https://cloud.google.com/storage) bucket to store the session audio recordings. The URI must start with "gs://". Note: If the Cloud Storage bucket is in a different project from the app, you should grant 'storage.objects.create' permission to the CES service agent 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#gcs_bucket GoogleCesApp#gcs_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#gcs_bucket GoogleCesApp#gcs_bucket}
 
 ---
 
@@ -3042,7 +3700,7 @@ dynamically substituted at serving time:
   If the path prefix is not specified, the default prefix
   '$project/$location/$app/$date/$session/' will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#gcs_path_prefix GoogleCesApp#gcs_path_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#gcs_path_prefix GoogleCesApp#gcs_path_prefix}
 
 ---
 
@@ -3051,7 +3709,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsBigqueryExportSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppLoggingSettingsBigqueryExportSettings {
 	Dataset: *string,
@@ -3080,7 +3738,7 @@ Dataset *string
 
 The BigQuery dataset to export the data to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#dataset GoogleCesApp#dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#dataset GoogleCesApp#dataset}
 
 ---
 
@@ -3094,7 +3752,7 @@ Enabled interface{}
 
 Indicates whether the BigQuery export is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#enabled GoogleCesApp#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#enabled GoogleCesApp#enabled}
 
 ---
 
@@ -3112,7 +3770,7 @@ Note: If the BigQuery dataset is in a different project from the app, you should
 roles/bigquery.admin role to the CES service agent service-<PROJECT-
 NUMBER>@gcp-sa-ces.iam.gserviceaccount.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#project GoogleCesApp#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#project GoogleCesApp#project}
 
 ---
 
@@ -3121,7 +3779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsCloudLoggingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppLoggingSettingsCloudLoggingSettings {
 	EnableCloudLogging: interface{},
@@ -3146,7 +3804,7 @@ EnableCloudLogging interface{}
 
 Whether to enable Cloud Logging for the sessions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#enable_cloud_logging GoogleCesApp#enable_cloud_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#enable_cloud_logging GoogleCesApp#enable_cloud_logging}
 
 ---
 
@@ -3155,10 +3813,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppLoggingSettingsConversationLoggingSettings {
 	DisableConversationLogging: interface{},
+	RetentionWindow: *string,
 }
 ```
 
@@ -3167,6 +3826,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettings.property.disableConversationLogging">DisableConversationLogging</a></code> | <code>interface{}</code> | Whether to disable conversation logging for the sessions. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettings.property.retentionWindow">RetentionWindow</a></code> | <code>*string</code> | Controls the retention window for the conversation. If not set, the conversation will be retained for 365 days. |
 
 ---
 
@@ -3180,7 +3840,59 @@ DisableConversationLogging interface{}
 
 Whether to disable conversation logging for the sessions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#disable_conversation_logging GoogleCesApp#disable_conversation_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#disable_conversation_logging GoogleCesApp#disable_conversation_logging}
+
+---
+
+##### `RetentionWindow`<sup>Optional</sup> <a name="RetentionWindow" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettings.property.retentionWindow"></a>
+
+```go
+RetentionWindow *string
+```
+
+- *Type:* *string
+
+Controls the retention window for the conversation. If not set, the conversation will be retained for 365 days.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#retention_window GoogleCesApp#retention_window}
+
+---
+
+### GoogleCesAppLoggingSettingsMetricAnalysisSettings <a name="GoogleCesAppLoggingSettingsMetricAnalysisSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+&googlecesapp.GoogleCesAppLoggingSettingsMetricAnalysisSettings {
+	LlmMetricsOptedOut: interface{},
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings.property.llmMetricsOptedOut">LlmMetricsOptedOut</a></code> | <code>interface{}</code> | Whether to collect conversation data for llm analysis metrics. |
+
+---
+
+##### `LlmMetricsOptedOut`<sup>Optional</sup> <a name="LlmMetricsOptedOut" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings.property.llmMetricsOptedOut"></a>
+
+```go
+LlmMetricsOptedOut interface{}
+```
+
+- *Type:* interface{}
+
+Whether to collect conversation data for llm analysis metrics.
+
+If true,
+conversation data will not be collected for llm analysis metrics;
+otherwise, conversation data will be collected.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#llm_metrics_opted_out GoogleCesApp#llm_metrics_opted_out}
 
 ---
 
@@ -3189,7 +3901,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsRedactionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppLoggingSettingsRedactionConfig {
 	DeidentifyTemplate: *string,
@@ -3218,7 +3930,7 @@ DeidentifyTemplate *string
 
 [DLP](https://cloud.google.com/dlp/docs) deidentify template name to instruct on how to de-identify content. Format: 'projects/{project}/locations/{location}/deidentifyTemplates/{deidentify_template}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#deidentify_template GoogleCesApp#deidentify_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#deidentify_template GoogleCesApp#deidentify_template}
 
 ---
 
@@ -3232,7 +3944,7 @@ EnableRedaction interface{}
 
 If true, redaction will be applied in various logging scenarios, including conversation history, Cloud Logging and audio recording.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#enable_redaction GoogleCesApp#enable_redaction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#enable_redaction GoogleCesApp#enable_redaction}
 
 ---
 
@@ -3246,7 +3958,7 @@ InspectTemplate *string
 
 [DLP](https://cloud.google.com/dlp/docs) inspect template name to configure detection of sensitive data types. Format: 'projects/{project}/locations/{location}/inspectTemplates/{inspect_template}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#inspect_template GoogleCesApp#inspect_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#inspect_template GoogleCesApp#inspect_template}
 
 ---
 
@@ -3255,7 +3967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppModelSettings {
 	Model: *string,
@@ -3284,7 +3996,7 @@ The LLM model that the agent should use.
 
 If not set, the agent will inherit the model from its parent agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#model GoogleCesApp#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#model GoogleCesApp#model}
 
 ---
 
@@ -3303,7 +4015,7 @@ controls the randomness of the model's responses. Lower temperatures
 produce responses that are more predictable. Higher temperatures produce
 responses that are more creative.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#temperature GoogleCesApp#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#temperature GoogleCesApp#temperature}
 
 ---
 
@@ -3312,7 +4024,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppTimeouts {
 	Create: *string,
@@ -3325,9 +4037,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#create GoogleCesApp#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#delete GoogleCesApp#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#update GoogleCesApp#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#create GoogleCesApp#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#delete GoogleCesApp#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#update GoogleCesApp#update}. |
 
 ---
 
@@ -3339,7 +4051,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#create GoogleCesApp#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#create GoogleCesApp#create}.
 
 ---
 
@@ -3351,7 +4063,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#delete GoogleCesApp#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#delete GoogleCesApp#delete}.
 
 ---
 
@@ -3363,7 +4075,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#update GoogleCesApp#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#update GoogleCesApp#update}.
 
 ---
 
@@ -3372,7 +4084,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeZoneSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppTimeZoneSettings {
 	TimeZone: *string,
@@ -3397,7 +4109,7 @@ TimeZone *string
 
 The time zone of the app from the time zone database, e.g., America/Los_Angeles, Europe/Paris.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#time_zone GoogleCesApp#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#time_zone GoogleCesApp#time_zone}
 
 ---
 
@@ -3406,12 +4118,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVariableDeclarations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppVariableDeclarations {
 	Description: *string,
 	Name: *string,
-	Schema: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesApp.GoogleCesAppVariableDeclarationsSchema,
+	Schema: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesApp.GoogleCesAppVariableDeclarationsSchema,
 }
 ```
 
@@ -3435,7 +4147,7 @@ Description *string
 
 The description of the variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#description GoogleCesApp#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#description GoogleCesApp#description}
 
 ---
 
@@ -3452,7 +4164,7 @@ The name of the variable.
 The name must start with a letter or underscore
 and contain only letters, numbers, or underscores.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#name GoogleCesApp#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#name GoogleCesApp#name}
 
 ---
 
@@ -3466,7 +4178,7 @@ Schema GoogleCesAppVariableDeclarationsSchema
 
 schema block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#schema GoogleCesApp#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#schema GoogleCesApp#schema}
 
 ---
 
@@ -3475,7 +4187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVariableDeclarationsSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 &googlecesapp.GoogleCesAppVariableDeclarationsSchema {
 	Type: *string,
@@ -3528,7 +4240,7 @@ Type *string
 
 The type of the data. Possible values: STRING INTEGER NUMBER BOOLEAN OBJECT ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#type GoogleCesApp#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#type GoogleCesApp#type}
 
 ---
 
@@ -3546,7 +4258,7 @@ Defines the schema for additional properties allowed in an object.
 The value must be a valid JSON string representing the Schema object.
 (Note: OpenAPI also allows a boolean, this definition expects a Schema JSON).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#additional_properties GoogleCesApp#additional_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#additional_properties GoogleCesApp#additional_properties}
 
 ---
 
@@ -3560,7 +4272,7 @@ AnyOf *string
 
 Optional. The instance value should be valid against at least one of the schemas in this list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#any_of GoogleCesApp#any_of}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#any_of GoogleCesApp#any_of}
 
 ---
 
@@ -3579,7 +4291,7 @@ which can be either null, a number, a string, a boolean, a struct,
 or a list of values. The provided default value must be encoded as a JSON string.
 Use 'jsonencode' in Terraform HCL to encode the default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#default GoogleCesApp#default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#default GoogleCesApp#default}
 
 ---
 
@@ -3593,7 +4305,7 @@ Defs *string
 
 A map of definitions for use by ref. Only allowed at the root of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#defs GoogleCesApp#defs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#defs GoogleCesApp#defs}
 
 ---
 
@@ -3607,7 +4319,7 @@ Description *string
 
 The description of the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#description GoogleCesApp#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#description GoogleCesApp#description}
 
 ---
 
@@ -3628,7 +4340,7 @@ Examples:
 2. We can define apartment number as :
    {type:INTEGER, format:enum, enum:["101", "201", "301"]}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#enum GoogleCesApp#enum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#enum GoogleCesApp#enum}
 
 ---
 
@@ -3642,7 +4354,7 @@ Items *string
 
 Schema of the elements of Type.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#items GoogleCesApp#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#items GoogleCesApp#items}
 
 ---
 
@@ -3656,7 +4368,7 @@ Nullable interface{}
 
 Indicates if the value may be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#nullable GoogleCesApp#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#nullable GoogleCesApp#nullable}
 
 ---
 
@@ -3670,7 +4382,7 @@ PrefixItems *string
 
 Optional. Schemas of initial elements of Type.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#prefix_items GoogleCesApp#prefix_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#prefix_items GoogleCesApp#prefix_items}
 
 ---
 
@@ -3684,7 +4396,7 @@ Properties *string
 
 Properties of Type.OBJECT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#properties GoogleCesApp#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#properties GoogleCesApp#properties}
 
 ---
 
@@ -3717,7 +4429,7 @@ named "Pet".
 See details in
 https://json-schema.org/understanding-json-schema/structuring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#ref GoogleCesApp#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#ref GoogleCesApp#ref}
 
 ---
 
@@ -3731,7 +4443,7 @@ Required *[]*string
 
 Required properties of Type.OBJECT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#required GoogleCesApp#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#required GoogleCesApp#required}
 
 ---
 
@@ -3745,7 +4457,7 @@ Title *string
 
 The title of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#title GoogleCesApp#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#title GoogleCesApp#title}
 
 ---
 
@@ -3759,7 +4471,46 @@ UniqueItems interface{}
 
 Indicate the items in the array must be unique. Only applies to TYPE.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#unique_items GoogleCesApp#unique_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#unique_items GoogleCesApp#unique_items}
+
+---
+
+### GoogleCesAppVpcScSettings <a name="GoogleCesAppVpcScSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettings.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+&googlecesapp.GoogleCesAppVpcScSettings {
+	AllowedOrigins: *[]*string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettings.property.allowedOrigins">AllowedOrigins</a></code> | <code>*[]*string</code> | The allowed HTTP(s) origins that OpenAPI tools in the App are able to directly call when VPC Service Controls are enabled. |
+
+---
+
+##### `AllowedOrigins`<sup>Optional</sup> <a name="AllowedOrigins" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettings.property.allowedOrigins"></a>
+
+```go
+AllowedOrigins *[]*string
+```
+
+- *Type:* *[]*string
+
+The allowed HTTP(s) origins that OpenAPI tools in the App are able to directly call when VPC Service Controls are enabled.
+
+These strings
+must match the origin exactly, including the port if specified. For
+example, "https://example.com" or "https://example.com:443". This list does
+not yet apply to Python tools that may make direct HTTP calls.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#allowed_origins GoogleCesApp#allowed_origins}
 
 ---
 
@@ -3770,7 +4521,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigAmbientSoundConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppAudioProcessingConfigAmbientSoundConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppAudioProcessingConfigAmbientSoundConfigOutputReference
 ```
@@ -4106,7 +4857,7 @@ func InternalValue() GoogleCesAppAudioProcessingConfigAmbientSoundConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigBargeInConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppAudioProcessingConfigBargeInConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppAudioProcessingConfigBargeInConfigOutputReference
 ```
@@ -4384,7 +5135,7 @@ func InternalValue() GoogleCesAppAudioProcessingConfigBargeInConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppAudioProcessingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppAudioProcessingConfigOutputReference
 ```
@@ -4788,7 +5539,7 @@ func InternalValue() GoogleCesAppAudioProcessingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsList
 ```
@@ -4948,7 +5699,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference
 ```
@@ -5011,6 +5762,8 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.resetInstruction">ResetInstruction</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.resetModel">ResetModel</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.resetSpeakingRate">ResetSpeakingRate</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.resetVoice">ResetVoice</a></code> | *No description.* |
 
@@ -5166,6 +5919,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetInstruction` <a name="ResetInstruction" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.resetInstruction"></a>
+
+```go
+func ResetInstruction()
+```
+
+##### `ResetModel` <a name="ResetModel" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.resetModel"></a>
+
+```go
+func ResetModel()
+```
+
 ##### `ResetSpeakingRate` <a name="ResetSpeakingRate" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.resetSpeakingRate"></a>
 
 ```go
@@ -5185,10 +5950,14 @@ func ResetVoice()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.instructionInput">InstructionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.languageCodeInput">LanguageCodeInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.modelInput">ModelInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.speakingRateInput">SpeakingRateInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.voiceInput">VoiceInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.instruction">Instruction</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.languageCode">LanguageCode</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.model">Model</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.speakingRate">SpeakingRate</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.voice">Voice</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
@@ -5219,10 +5988,30 @@ func Fqn() *string
 
 ---
 
+##### `InstructionInput`<sup>Optional</sup> <a name="InstructionInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.instructionInput"></a>
+
+```go
+func InstructionInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `LanguageCodeInput`<sup>Optional</sup> <a name="LanguageCodeInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.languageCodeInput"></a>
 
 ```go
 func LanguageCodeInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ModelInput`<sup>Optional</sup> <a name="ModelInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.modelInput"></a>
+
+```go
+func ModelInput() *string
 ```
 
 - *Type:* *string
@@ -5249,10 +6038,30 @@ func VoiceInput() *string
 
 ---
 
+##### `Instruction`<sup>Required</sup> <a name="Instruction" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.instruction"></a>
+
+```go
+func Instruction() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `LanguageCode`<sup>Required</sup> <a name="LanguageCode" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.languageCode"></a>
 
 ```go
 func LanguageCode() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Model`<sup>Required</sup> <a name="Model" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference.property.model"></a>
+
+```go
+func Model() *string
 ```
 
 - *Type:* *string
@@ -5295,7 +6104,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppClientCertificateSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppClientCertificateSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppClientCertificateSettingsOutputReference
 ```
@@ -5617,7 +6426,7 @@ func InternalValue() GoogleCesAppClientCertificateSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDataStoreSettingsEnginesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppDataStoreSettingsEnginesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppDataStoreSettingsEnginesList
 ```
@@ -5766,7 +6575,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDataStoreSettingsEnginesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppDataStoreSettingsEnginesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppDataStoreSettingsEnginesOutputReference
 ```
@@ -6055,7 +6864,7 @@ func InternalValue() GoogleCesAppDataStoreSettingsEngines
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDataStoreSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppDataStoreSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppDataStoreSettingsOutputReference
 ```
@@ -6315,7 +7124,7 @@ func InternalValue() GoogleCesAppDataStoreSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppDefaultChannelProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppDefaultChannelProfileOutputReference
 ```
@@ -6362,12 +7171,14 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.putPersonaProperty">PutPersonaProperty</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.putWebWidgetConfig">PutWebWidgetConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.putWhatsappConfig">PutWhatsappConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.resetChannelType">ResetChannelType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.resetDisableBargeInControl">ResetDisableBargeInControl</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.resetDisableDtmf">ResetDisableDtmf</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.resetPersonaProperty">ResetPersonaProperty</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.resetProfileId">ResetProfileId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.resetWebWidgetConfig">ResetWebWidgetConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.resetWhatsappConfig">ResetWhatsappConfig</a></code> | *No description.* |
 
 ---
 
@@ -6545,6 +7356,18 @@ func PutWebWidgetConfig(value GoogleCesAppDefaultChannelProfileWebWidgetConfig)
 
 ---
 
+##### `PutWhatsappConfig` <a name="PutWhatsappConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.putWhatsappConfig"></a>
+
+```go
+func PutWhatsappConfig(value GoogleCesAppDefaultChannelProfileWhatsappConfig)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.putWhatsappConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig">GoogleCesAppDefaultChannelProfileWhatsappConfig</a>
+
+---
+
 ##### `ResetChannelType` <a name="ResetChannelType" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.resetChannelType"></a>
 
 ```go
@@ -6581,6 +7404,12 @@ func ResetProfileId()
 func ResetWebWidgetConfig()
 ```
 
+##### `ResetWhatsappConfig` <a name="ResetWhatsappConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.resetWhatsappConfig"></a>
+
+```go
+func ResetWhatsappConfig()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -6590,12 +7419,14 @@ func ResetWebWidgetConfig()
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.personaProperty">PersonaProperty</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfilePersonaPropertyOutputReference">GoogleCesAppDefaultChannelProfilePersonaPropertyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.webWidgetConfig">WebWidgetConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference">GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.whatsappConfig">WhatsappConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference">GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.channelTypeInput">ChannelTypeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.disableBargeInControlInput">DisableBargeInControlInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.disableDtmfInput">DisableDtmfInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.personaPropertyInput">PersonaPropertyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfilePersonaProperty">GoogleCesAppDefaultChannelProfilePersonaProperty</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.profileIdInput">ProfileIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.webWidgetConfigInput">WebWidgetConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfig">GoogleCesAppDefaultChannelProfileWebWidgetConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.whatsappConfigInput">WhatsappConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig">GoogleCesAppDefaultChannelProfileWhatsappConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.channelType">ChannelType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.disableBargeInControl">DisableBargeInControl</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.disableDtmf">DisableDtmf</a></code> | <code>interface{}</code> | *No description.* |
@@ -6645,6 +7476,16 @@ func WebWidgetConfig() GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputRef
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference">GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference</a>
+
+---
+
+##### `WhatsappConfig`<sup>Required</sup> <a name="WhatsappConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.whatsappConfig"></a>
+
+```go
+func WhatsappConfig() GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference">GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference</a>
 
 ---
 
@@ -6708,6 +7549,16 @@ func WebWidgetConfigInput() GoogleCesAppDefaultChannelProfileWebWidgetConfig
 
 ---
 
+##### `WhatsappConfigInput`<sup>Optional</sup> <a name="WhatsappConfigInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.whatsappConfigInput"></a>
+
+```go
+func WhatsappConfigInput() GoogleCesAppDefaultChannelProfileWhatsappConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig">GoogleCesAppDefaultChannelProfileWhatsappConfig</a>
+
+---
+
 ##### `ChannelType`<sup>Required</sup> <a name="ChannelType" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileOutputReference.property.channelType"></a>
 
 ```go
@@ -6764,7 +7615,7 @@ func InternalValue() GoogleCesAppDefaultChannelProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfilePersonaPropertyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppDefaultChannelProfilePersonaPropertyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppDefaultChannelProfilePersonaPropertyOutputReference
 ```
@@ -7042,7 +7893,7 @@ func InternalValue() GoogleCesAppDefaultChannelProfilePersonaProperty
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference
 ```
@@ -7087,7 +7938,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.putSecuritySettings">PutSecuritySettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.resetModality">ResetModality</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.resetSecuritySettings">ResetSecuritySettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.resetTheme">ResetTheme</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.resetWebWidgetTitle">ResetWebWidgetTitle</a></code> | *No description.* |
 
@@ -7243,10 +8096,28 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutSecuritySettings` <a name="PutSecuritySettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.putSecuritySettings"></a>
+
+```go
+func PutSecuritySettings(value GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.putSecuritySettings.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings">GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings</a>
+
+---
+
 ##### `ResetModality` <a name="ResetModality" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.resetModality"></a>
 
 ```go
 func ResetModality()
+```
+
+##### `ResetSecuritySettings` <a name="ResetSecuritySettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.resetSecuritySettings"></a>
+
+```go
+func ResetSecuritySettings()
 ```
 
 ##### `ResetTheme` <a name="ResetTheme" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.resetTheme"></a>
@@ -7268,7 +8139,9 @@ func ResetWebWidgetTitle()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.property.securitySettings">SecuritySettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference">GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.property.modalityInput">ModalityInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.property.securitySettingsInput">SecuritySettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings">GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.property.themeInput">ThemeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.property.webWidgetTitleInput">WebWidgetTitleInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.property.modality">Modality</a></code> | <code>*string</code> | *No description.* |
@@ -7302,6 +8175,16 @@ func Fqn() *string
 
 ---
 
+##### `SecuritySettings`<sup>Required</sup> <a name="SecuritySettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.property.securitySettings"></a>
+
+```go
+func SecuritySettings() GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference">GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference</a>
+
+---
+
 ##### `ModalityInput`<sup>Optional</sup> <a name="ModalityInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.property.modalityInput"></a>
 
 ```go
@@ -7309,6 +8192,16 @@ func ModalityInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `SecuritySettingsInput`<sup>Optional</sup> <a name="SecuritySettingsInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference.property.securitySettingsInput"></a>
+
+```go
+func SecuritySettingsInput() GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings">GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings</a>
 
 ---
 
@@ -7373,12 +8266,1679 @@ func InternalValue() GoogleCesAppDefaultChannelProfileWebWidgetConfig
 ---
 
 
+### GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference <a name="GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+googlecesapp.NewGoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.resetAllowedOrigins">ResetAllowedOrigins</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.resetEnableOriginCheck">ResetEnableOriginCheck</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.resetEnablePublicAccess">ResetEnablePublicAccess</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.resetEnableRecaptcha">ResetEnableRecaptcha</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetAllowedOrigins` <a name="ResetAllowedOrigins" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.resetAllowedOrigins"></a>
+
+```go
+func ResetAllowedOrigins()
+```
+
+##### `ResetEnableOriginCheck` <a name="ResetEnableOriginCheck" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.resetEnableOriginCheck"></a>
+
+```go
+func ResetEnableOriginCheck()
+```
+
+##### `ResetEnablePublicAccess` <a name="ResetEnablePublicAccess" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.resetEnablePublicAccess"></a>
+
+```go
+func ResetEnablePublicAccess()
+```
+
+##### `ResetEnableRecaptcha` <a name="ResetEnableRecaptcha" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.resetEnableRecaptcha"></a>
+
+```go
+func ResetEnableRecaptcha()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.allowedOriginsInput">AllowedOriginsInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enableOriginCheckInput">EnableOriginCheckInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enablePublicAccessInput">EnablePublicAccessInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enableRecaptchaInput">EnableRecaptchaInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.allowedOrigins">AllowedOrigins</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enableOriginCheck">EnableOriginCheck</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enablePublicAccess">EnablePublicAccess</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enableRecaptcha">EnableRecaptcha</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings">GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AllowedOriginsInput`<sup>Optional</sup> <a name="AllowedOriginsInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.allowedOriginsInput"></a>
+
+```go
+func AllowedOriginsInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `EnableOriginCheckInput`<sup>Optional</sup> <a name="EnableOriginCheckInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enableOriginCheckInput"></a>
+
+```go
+func EnableOriginCheckInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `EnablePublicAccessInput`<sup>Optional</sup> <a name="EnablePublicAccessInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enablePublicAccessInput"></a>
+
+```go
+func EnablePublicAccessInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `EnableRecaptchaInput`<sup>Optional</sup> <a name="EnableRecaptchaInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enableRecaptchaInput"></a>
+
+```go
+func EnableRecaptchaInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `AllowedOrigins`<sup>Required</sup> <a name="AllowedOrigins" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.allowedOrigins"></a>
+
+```go
+func AllowedOrigins() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `EnableOriginCheck`<sup>Required</sup> <a name="EnableOriginCheck" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enableOriginCheck"></a>
+
+```go
+func EnableOriginCheck() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `EnablePublicAccess`<sup>Required</sup> <a name="EnablePublicAccess" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enablePublicAccess"></a>
+
+```go
+func EnablePublicAccess() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `EnableRecaptcha`<sup>Required</sup> <a name="EnableRecaptcha" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.enableRecaptcha"></a>
+
+```go
+func EnableRecaptcha() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings">GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings</a>
+
+---
+
+
+### GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference <a name="GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+googlecesapp.NewGoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.resetPhoneNumber">ResetPhoneNumber</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetPhoneNumber` <a name="ResetPhoneNumber" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.resetPhoneNumber"></a>
+
+```go
+func ResetPhoneNumber()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.displayName">DisplayName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.thumbnailUrl">ThumbnailUrl</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumberIdInput">PhoneNumberIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumberInput">PhoneNumberInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.wabaIdInput">WabaIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumber">PhoneNumber</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumberId">PhoneNumberId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.wabaId">WabaId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig">GoogleCesAppDefaultChannelProfileWhatsappConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Description`<sup>Required</sup> <a name="Description" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.description"></a>
+
+```go
+func Description() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DisplayName`<sup>Required</sup> <a name="DisplayName" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.displayName"></a>
+
+```go
+func DisplayName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ThumbnailUrl`<sup>Required</sup> <a name="ThumbnailUrl" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.thumbnailUrl"></a>
+
+```go
+func ThumbnailUrl() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PhoneNumberIdInput`<sup>Optional</sup> <a name="PhoneNumberIdInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumberIdInput"></a>
+
+```go
+func PhoneNumberIdInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PhoneNumberInput`<sup>Optional</sup> <a name="PhoneNumberInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumberInput"></a>
+
+```go
+func PhoneNumberInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `WabaIdInput`<sup>Optional</sup> <a name="WabaIdInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.wabaIdInput"></a>
+
+```go
+func WabaIdInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PhoneNumber`<sup>Required</sup> <a name="PhoneNumber" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumber"></a>
+
+```go
+func PhoneNumber() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PhoneNumberId`<sup>Required</sup> <a name="PhoneNumberId" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.phoneNumberId"></a>
+
+```go
+func PhoneNumberId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `WabaId`<sup>Required</sup> <a name="WabaId" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.wabaId"></a>
+
+```go
+func WabaId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppDefaultChannelProfileWhatsappConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppDefaultChannelProfileWhatsappConfig">GoogleCesAppDefaultChannelProfileWhatsappConfig</a>
+
+---
+
+
+### GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference <a name="GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+googlecesapp.NewGoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.resetEscalateSession">ResetEscalateSession</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetEscalateSession` <a name="ResetEscalateSession" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.resetEscalateSession"></a>
+
+```go
+func ResetEscalateSession()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.property.escalateSessionInput">EscalateSessionInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.property.escalateSession">EscalateSession</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig">GoogleCesAppErrorHandlingSettingsEndSessionConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EscalateSessionInput`<sup>Optional</sup> <a name="EscalateSessionInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.property.escalateSessionInput"></a>
+
+```go
+func EscalateSessionInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `EscalateSession`<sup>Required</sup> <a name="EscalateSession" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.property.escalateSession"></a>
+
+```go
+func EscalateSession() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppErrorHandlingSettingsEndSessionConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig">GoogleCesAppErrorHandlingSettingsEndSessionConfig</a>
+
+---
+
+
+### GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference <a name="GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+googlecesapp.NewGoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.resetCustomFallbackMessages">ResetCustomFallbackMessages</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.resetMaxFallbackAttempts">ResetMaxFallbackAttempts</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetCustomFallbackMessages` <a name="ResetCustomFallbackMessages" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.resetCustomFallbackMessages"></a>
+
+```go
+func ResetCustomFallbackMessages()
+```
+
+##### `ResetMaxFallbackAttempts` <a name="ResetMaxFallbackAttempts" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.resetMaxFallbackAttempts"></a>
+
+```go
+func ResetMaxFallbackAttempts()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.customFallbackMessagesInput">CustomFallbackMessagesInput</a></code> | <code>*map[string]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.maxFallbackAttemptsInput">MaxFallbackAttemptsInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.customFallbackMessages">CustomFallbackMessages</a></code> | <code>*map[string]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.maxFallbackAttempts">MaxFallbackAttempts</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig">GoogleCesAppErrorHandlingSettingsFallbackResponseConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `CustomFallbackMessagesInput`<sup>Optional</sup> <a name="CustomFallbackMessagesInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.customFallbackMessagesInput"></a>
+
+```go
+func CustomFallbackMessagesInput() *map[string]*string
+```
+
+- *Type:* *map[string]*string
+
+---
+
+##### `MaxFallbackAttemptsInput`<sup>Optional</sup> <a name="MaxFallbackAttemptsInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.maxFallbackAttemptsInput"></a>
+
+```go
+func MaxFallbackAttemptsInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `CustomFallbackMessages`<sup>Required</sup> <a name="CustomFallbackMessages" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.customFallbackMessages"></a>
+
+```go
+func CustomFallbackMessages() *map[string]*string
+```
+
+- *Type:* *map[string]*string
+
+---
+
+##### `MaxFallbackAttempts`<sup>Required</sup> <a name="MaxFallbackAttempts" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.maxFallbackAttempts"></a>
+
+```go
+func MaxFallbackAttempts() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppErrorHandlingSettingsFallbackResponseConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig">GoogleCesAppErrorHandlingSettingsFallbackResponseConfig</a>
+
+---
+
+
+### GoogleCesAppErrorHandlingSettingsOutputReference <a name="GoogleCesAppErrorHandlingSettingsOutputReference" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+googlecesapp.NewGoogleCesAppErrorHandlingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppErrorHandlingSettingsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.putEndSessionConfig">PutEndSessionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.putFallbackResponseConfig">PutFallbackResponseConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.resetEndSessionConfig">ResetEndSessionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.resetErrorHandlingStrategy">ResetErrorHandlingStrategy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.resetFallbackResponseConfig">ResetFallbackResponseConfig</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutEndSessionConfig` <a name="PutEndSessionConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.putEndSessionConfig"></a>
+
+```go
+func PutEndSessionConfig(value GoogleCesAppErrorHandlingSettingsEndSessionConfig)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.putEndSessionConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig">GoogleCesAppErrorHandlingSettingsEndSessionConfig</a>
+
+---
+
+##### `PutFallbackResponseConfig` <a name="PutFallbackResponseConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.putFallbackResponseConfig"></a>
+
+```go
+func PutFallbackResponseConfig(value GoogleCesAppErrorHandlingSettingsFallbackResponseConfig)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.putFallbackResponseConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig">GoogleCesAppErrorHandlingSettingsFallbackResponseConfig</a>
+
+---
+
+##### `ResetEndSessionConfig` <a name="ResetEndSessionConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.resetEndSessionConfig"></a>
+
+```go
+func ResetEndSessionConfig()
+```
+
+##### `ResetErrorHandlingStrategy` <a name="ResetErrorHandlingStrategy" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.resetErrorHandlingStrategy"></a>
+
+```go
+func ResetErrorHandlingStrategy()
+```
+
+##### `ResetFallbackResponseConfig` <a name="ResetFallbackResponseConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.resetFallbackResponseConfig"></a>
+
+```go
+func ResetFallbackResponseConfig()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.endSessionConfig">EndSessionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference">GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.fallbackResponseConfig">FallbackResponseConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference">GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.endSessionConfigInput">EndSessionConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig">GoogleCesAppErrorHandlingSettingsEndSessionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.errorHandlingStrategyInput">ErrorHandlingStrategyInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.fallbackResponseConfigInput">FallbackResponseConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig">GoogleCesAppErrorHandlingSettingsFallbackResponseConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.errorHandlingStrategy">ErrorHandlingStrategy</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings">GoogleCesAppErrorHandlingSettings</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EndSessionConfig`<sup>Required</sup> <a name="EndSessionConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.endSessionConfig"></a>
+
+```go
+func EndSessionConfig() GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference">GoogleCesAppErrorHandlingSettingsEndSessionConfigOutputReference</a>
+
+---
+
+##### `FallbackResponseConfig`<sup>Required</sup> <a name="FallbackResponseConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.fallbackResponseConfig"></a>
+
+```go
+func FallbackResponseConfig() GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference">GoogleCesAppErrorHandlingSettingsFallbackResponseConfigOutputReference</a>
+
+---
+
+##### `EndSessionConfigInput`<sup>Optional</sup> <a name="EndSessionConfigInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.endSessionConfigInput"></a>
+
+```go
+func EndSessionConfigInput() GoogleCesAppErrorHandlingSettingsEndSessionConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsEndSessionConfig">GoogleCesAppErrorHandlingSettingsEndSessionConfig</a>
+
+---
+
+##### `ErrorHandlingStrategyInput`<sup>Optional</sup> <a name="ErrorHandlingStrategyInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.errorHandlingStrategyInput"></a>
+
+```go
+func ErrorHandlingStrategyInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `FallbackResponseConfigInput`<sup>Optional</sup> <a name="FallbackResponseConfigInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.fallbackResponseConfigInput"></a>
+
+```go
+func FallbackResponseConfigInput() GoogleCesAppErrorHandlingSettingsFallbackResponseConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsFallbackResponseConfig">GoogleCesAppErrorHandlingSettingsFallbackResponseConfig</a>
+
+---
+
+##### `ErrorHandlingStrategy`<sup>Required</sup> <a name="ErrorHandlingStrategy" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.errorHandlingStrategy"></a>
+
+```go
+func ErrorHandlingStrategy() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettingsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppErrorHandlingSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppErrorHandlingSettings">GoogleCesAppErrorHandlingSettings</a>
+
+---
+
+
 ### GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference <a name="GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference
 ```
@@ -7656,7 +10216,7 @@ func InternalValue() GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetr
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference
 ```
@@ -7702,8 +10262,10 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.putExpectationLevelMetricsThresholds">PutExpectationLevelMetricsThresholds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.putToolMatchingSettings">PutToolMatchingSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.putTurnLevelMetricsThresholds">PutTurnLevelMetricsThresholds</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.resetExpectationLevelMetricsThresholds">ResetExpectationLevelMetricsThresholds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.resetToolMatchingSettings">ResetToolMatchingSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.resetTurnLevelMetricsThresholds">ResetTurnLevelMetricsThresholds</a></code> | *No description.* |
 
 ---
@@ -7870,6 +10432,18 @@ func PutExpectationLevelMetricsThresholds(value GoogleCesAppEvaluationMetricsThr
 
 ---
 
+##### `PutToolMatchingSettings` <a name="PutToolMatchingSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.putToolMatchingSettings"></a>
+
+```go
+func PutToolMatchingSettings(value GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.putToolMatchingSettings.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings</a>
+
+---
+
 ##### `PutTurnLevelMetricsThresholds` <a name="PutTurnLevelMetricsThresholds" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.putTurnLevelMetricsThresholds"></a>
 
 ```go
@@ -7888,6 +10462,12 @@ func PutTurnLevelMetricsThresholds(value GoogleCesAppEvaluationMetricsThresholds
 func ResetExpectationLevelMetricsThresholds()
 ```
 
+##### `ResetToolMatchingSettings` <a name="ResetToolMatchingSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.resetToolMatchingSettings"></a>
+
+```go
+func ResetToolMatchingSettings()
+```
+
 ##### `ResetTurnLevelMetricsThresholds` <a name="ResetTurnLevelMetricsThresholds" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.resetTurnLevelMetricsThresholds"></a>
 
 ```go
@@ -7902,8 +10482,10 @@ func ResetTurnLevelMetricsThresholds()
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.expectationLevelMetricsThresholds">ExpectationLevelMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.toolMatchingSettings">ToolMatchingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.turnLevelMetricsThresholds">TurnLevelMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.expectationLevelMetricsThresholdsInput">ExpectationLevelMetricsThresholdsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.toolMatchingSettingsInput">ToolMatchingSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.turnLevelMetricsThresholdsInput">TurnLevelMetricsThresholdsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds</a></code> | *No description.* |
 
@@ -7943,6 +10525,16 @@ func ExpectationLevelMetricsThresholds() GoogleCesAppEvaluationMetricsThresholds
 
 ---
 
+##### `ToolMatchingSettings`<sup>Required</sup> <a name="ToolMatchingSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.toolMatchingSettings"></a>
+
+```go
+func ToolMatchingSettings() GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference</a>
+
+---
+
 ##### `TurnLevelMetricsThresholds`<sup>Required</sup> <a name="TurnLevelMetricsThresholds" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.turnLevelMetricsThresholds"></a>
 
 ```go
@@ -7960,6 +10552,16 @@ func ExpectationLevelMetricsThresholdsInput() GoogleCesAppEvaluationMetricsThres
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds</a>
+
+---
+
+##### `ToolMatchingSettingsInput`<sup>Optional</sup> <a name="ToolMatchingSettingsInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference.property.toolMatchingSettingsInput"></a>
+
+```go
+func ToolMatchingSettingsInput() GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings</a>
 
 ---
 
@@ -7984,12 +10586,290 @@ func InternalValue() GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetr
 ---
 
 
+### GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference <a name="GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+googlecesapp.NewGoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.resetExtraToolCallBehavior">ResetExtraToolCallBehavior</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetExtraToolCallBehavior` <a name="ResetExtraToolCallBehavior" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.resetExtraToolCallBehavior"></a>
+
+```go
+func ResetExtraToolCallBehavior()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.extraToolCallBehaviorInput">ExtraToolCallBehaviorInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.extraToolCallBehavior">ExtraToolCallBehavior</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExtraToolCallBehaviorInput`<sup>Optional</sup> <a name="ExtraToolCallBehaviorInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.extraToolCallBehaviorInput"></a>
+
+```go
+func ExtraToolCallBehaviorInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExtraToolCallBehavior`<sup>Required</sup> <a name="ExtraToolCallBehavior" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.extraToolCallBehavior"></a>
+
+```go
+func ExtraToolCallBehavior() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings</a>
+
+---
+
+
 ### GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference <a name="GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference
 ```
@@ -8035,6 +10915,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.resetOverallToolInvocationCorrectnessThreshold">ResetOverallToolInvocationCorrectnessThreshold</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.resetSemanticSimilarityChannel">ResetSemanticSimilarityChannel</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.resetSemanticSimilaritySuccessThreshold">ResetSemanticSimilaritySuccessThreshold</a></code> | *No description.* |
 
 ---
@@ -8195,6 +11076,12 @@ Returns a reversible string representation.
 func ResetOverallToolInvocationCorrectnessThreshold()
 ```
 
+##### `ResetSemanticSimilarityChannel` <a name="ResetSemanticSimilarityChannel" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.resetSemanticSimilarityChannel"></a>
+
+```go
+func ResetSemanticSimilarityChannel()
+```
+
 ##### `ResetSemanticSimilaritySuccessThreshold` <a name="ResetSemanticSimilaritySuccessThreshold" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.resetSemanticSimilaritySuccessThreshold"></a>
 
 ```go
@@ -8209,8 +11096,10 @@ func ResetSemanticSimilaritySuccessThreshold()
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.overallToolInvocationCorrectnessThresholdInput">OverallToolInvocationCorrectnessThresholdInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.semanticSimilarityChannelInput">SemanticSimilarityChannelInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.semanticSimilaritySuccessThresholdInput">SemanticSimilaritySuccessThresholdInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.overallToolInvocationCorrectnessThreshold">OverallToolInvocationCorrectnessThreshold</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.semanticSimilarityChannel">SemanticSimilarityChannel</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.semanticSimilaritySuccessThreshold">SemanticSimilaritySuccessThreshold</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds</a></code> | *No description.* |
 
@@ -8250,6 +11139,16 @@ func OverallToolInvocationCorrectnessThresholdInput() *f64
 
 ---
 
+##### `SemanticSimilarityChannelInput`<sup>Optional</sup> <a name="SemanticSimilarityChannelInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.semanticSimilarityChannelInput"></a>
+
+```go
+func SemanticSimilarityChannelInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `SemanticSimilaritySuccessThresholdInput`<sup>Optional</sup> <a name="SemanticSimilaritySuccessThresholdInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.semanticSimilaritySuccessThresholdInput"></a>
 
 ```go
@@ -8267,6 +11166,16 @@ func OverallToolInvocationCorrectnessThreshold() *f64
 ```
 
 - *Type:* *f64
+
+---
+
+##### `SemanticSimilarityChannel`<sup>Required</sup> <a name="SemanticSimilarityChannel" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference.property.semanticSimilarityChannel"></a>
+
+```go
+func SemanticSimilarityChannel() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -8296,7 +11205,7 @@ func InternalValue() GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetr
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppEvaluationMetricsThresholdsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppEvaluationMetricsThresholdsOutputReference
 ```
@@ -8343,6 +11252,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.putGoldenEvaluationMetricsThresholds">PutGoldenEvaluationMetricsThresholds</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.resetGoldenEvaluationMetricsThresholds">ResetGoldenEvaluationMetricsThresholds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.resetGoldenHallucinationMetricBehavior">ResetGoldenHallucinationMetricBehavior</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.resetScenarioHallucinationMetricBehavior">ResetScenarioHallucinationMetricBehavior</a></code> | *No description.* |
 
 ---
 
@@ -8514,6 +11425,18 @@ func PutGoldenEvaluationMetricsThresholds(value GoogleCesAppEvaluationMetricsThr
 func ResetGoldenEvaluationMetricsThresholds()
 ```
 
+##### `ResetGoldenHallucinationMetricBehavior` <a name="ResetGoldenHallucinationMetricBehavior" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.resetGoldenHallucinationMetricBehavior"></a>
+
+```go
+func ResetGoldenHallucinationMetricBehavior()
+```
+
+##### `ResetScenarioHallucinationMetricBehavior` <a name="ResetScenarioHallucinationMetricBehavior" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.resetScenarioHallucinationMetricBehavior"></a>
+
+```go
+func ResetScenarioHallucinationMetricBehavior()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -8523,6 +11446,10 @@ func ResetGoldenEvaluationMetricsThresholds()
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.goldenEvaluationMetricsThresholds">GoldenEvaluationMetricsThresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.goldenEvaluationMetricsThresholdsInput">GoldenEvaluationMetricsThresholdsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds">GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.goldenHallucinationMetricBehaviorInput">GoldenHallucinationMetricBehaviorInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.scenarioHallucinationMetricBehaviorInput">ScenarioHallucinationMetricBehaviorInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.goldenHallucinationMetricBehavior">GoldenHallucinationMetricBehavior</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.scenarioHallucinationMetricBehavior">ScenarioHallucinationMetricBehavior</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholds">GoogleCesAppEvaluationMetricsThresholds</a></code> | *No description.* |
 
 ---
@@ -8571,6 +11498,46 @@ func GoldenEvaluationMetricsThresholdsInput() GoogleCesAppEvaluationMetricsThres
 
 ---
 
+##### `GoldenHallucinationMetricBehaviorInput`<sup>Optional</sup> <a name="GoldenHallucinationMetricBehaviorInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.goldenHallucinationMetricBehaviorInput"></a>
+
+```go
+func GoldenHallucinationMetricBehaviorInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ScenarioHallucinationMetricBehaviorInput`<sup>Optional</sup> <a name="ScenarioHallucinationMetricBehaviorInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.scenarioHallucinationMetricBehaviorInput"></a>
+
+```go
+func ScenarioHallucinationMetricBehaviorInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `GoldenHallucinationMetricBehavior`<sup>Required</sup> <a name="GoldenHallucinationMetricBehavior" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.goldenHallucinationMetricBehavior"></a>
+
+```go
+func GoldenHallucinationMetricBehavior() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ScenarioHallucinationMetricBehavior`<sup>Required</sup> <a name="ScenarioHallucinationMetricBehavior" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.scenarioHallucinationMetricBehavior"></a>
+
+```go
+func ScenarioHallucinationMetricBehavior() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppEvaluationMetricsThresholdsOutputReference.property.internalValue"></a>
 
 ```go
@@ -8587,7 +11554,7 @@ func InternalValue() GoogleCesAppEvaluationMetricsThresholds
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLanguageSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppLanguageSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppLanguageSettingsOutputReference
 ```
@@ -8952,7 +11919,7 @@ func InternalValue() GoogleCesAppLanguageSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsAudioRecordingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppLoggingSettingsAudioRecordingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppLoggingSettingsAudioRecordingConfigOutputReference
 ```
@@ -9259,7 +12226,7 @@ func InternalValue() GoogleCesAppLoggingSettingsAudioRecordingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsBigqueryExportSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppLoggingSettingsBigqueryExportSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppLoggingSettingsBigqueryExportSettingsOutputReference
 ```
@@ -9595,7 +12562,7 @@ func InternalValue() GoogleCesAppLoggingSettingsBigqueryExportSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsCloudLoggingSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppLoggingSettingsCloudLoggingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppLoggingSettingsCloudLoggingSettingsOutputReference
 ```
@@ -9873,7 +12840,7 @@ func InternalValue() GoogleCesAppLoggingSettingsCloudLoggingSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference
 ```
@@ -9919,6 +12886,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.resetDisableConversationLogging">ResetDisableConversationLogging</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.resetRetentionWindow">ResetRetentionWindow</a></code> | *No description.* |
 
 ---
 
@@ -10078,6 +13046,12 @@ Returns a reversible string representation.
 func ResetDisableConversationLogging()
 ```
 
+##### `ResetRetentionWindow` <a name="ResetRetentionWindow" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.resetRetentionWindow"></a>
+
+```go
+func ResetRetentionWindow()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -10086,7 +13060,9 @@ func ResetDisableConversationLogging()
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.property.disableConversationLoggingInput">DisableConversationLoggingInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.property.retentionWindowInput">RetentionWindowInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.property.disableConversationLogging">DisableConversationLogging</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.property.retentionWindow">RetentionWindow</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettings">GoogleCesAppLoggingSettingsConversationLoggingSettings</a></code> | *No description.* |
 
 ---
@@ -10125,6 +13101,16 @@ func DisableConversationLoggingInput() interface{}
 
 ---
 
+##### `RetentionWindowInput`<sup>Optional</sup> <a name="RetentionWindowInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.property.retentionWindowInput"></a>
+
+```go
+func RetentionWindowInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DisableConversationLogging`<sup>Required</sup> <a name="DisableConversationLogging" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.property.disableConversationLogging"></a>
 
 ```go
@@ -10132,6 +13118,16 @@ func DisableConversationLogging() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+##### `RetentionWindow`<sup>Required</sup> <a name="RetentionWindow" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference.property.retentionWindow"></a>
+
+```go
+func RetentionWindow() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -10146,12 +13142,290 @@ func InternalValue() GoogleCesAppLoggingSettingsConversationLoggingSettings
 ---
 
 
+### GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference <a name="GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+googlecesapp.NewGoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.resetLlmMetricsOptedOut">ResetLlmMetricsOptedOut</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetLlmMetricsOptedOut` <a name="ResetLlmMetricsOptedOut" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.resetLlmMetricsOptedOut"></a>
+
+```go
+func ResetLlmMetricsOptedOut()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.llmMetricsOptedOutInput">LlmMetricsOptedOutInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.llmMetricsOptedOut">LlmMetricsOptedOut</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings">GoogleCesAppLoggingSettingsMetricAnalysisSettings</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `LlmMetricsOptedOutInput`<sup>Optional</sup> <a name="LlmMetricsOptedOutInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.llmMetricsOptedOutInput"></a>
+
+```go
+func LlmMetricsOptedOutInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `LlmMetricsOptedOut`<sup>Required</sup> <a name="LlmMetricsOptedOut" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.llmMetricsOptedOut"></a>
+
+```go
+func LlmMetricsOptedOut() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppLoggingSettingsMetricAnalysisSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings">GoogleCesAppLoggingSettingsMetricAnalysisSettings</a>
+
+---
+
+
 ### GoogleCesAppLoggingSettingsOutputReference <a name="GoogleCesAppLoggingSettingsOutputReference" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppLoggingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppLoggingSettingsOutputReference
 ```
@@ -10200,11 +13474,13 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.putBigqueryExportSettings">PutBigqueryExportSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.putCloudLoggingSettings">PutCloudLoggingSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.putConversationLoggingSettings">PutConversationLoggingSettings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.putMetricAnalysisSettings">PutMetricAnalysisSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.putRedactionConfig">PutRedactionConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.resetAudioRecordingConfig">ResetAudioRecordingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.resetBigqueryExportSettings">ResetBigqueryExportSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.resetCloudLoggingSettings">ResetCloudLoggingSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.resetConversationLoggingSettings">ResetConversationLoggingSettings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.resetMetricAnalysisSettings">ResetMetricAnalysisSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.resetRedactionConfig">ResetRedactionConfig</a></code> | *No description.* |
 
 ---
@@ -10407,6 +13683,18 @@ func PutConversationLoggingSettings(value GoogleCesAppLoggingSettingsConversatio
 
 ---
 
+##### `PutMetricAnalysisSettings` <a name="PutMetricAnalysisSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.putMetricAnalysisSettings"></a>
+
+```go
+func PutMetricAnalysisSettings(value GoogleCesAppLoggingSettingsMetricAnalysisSettings)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.putMetricAnalysisSettings.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings">GoogleCesAppLoggingSettingsMetricAnalysisSettings</a>
+
+---
+
 ##### `PutRedactionConfig` <a name="PutRedactionConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.putRedactionConfig"></a>
 
 ```go
@@ -10443,6 +13731,12 @@ func ResetCloudLoggingSettings()
 func ResetConversationLoggingSettings()
 ```
 
+##### `ResetMetricAnalysisSettings` <a name="ResetMetricAnalysisSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.resetMetricAnalysisSettings"></a>
+
+```go
+func ResetMetricAnalysisSettings()
+```
+
 ##### `ResetRedactionConfig` <a name="ResetRedactionConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.resetRedactionConfig"></a>
 
 ```go
@@ -10460,11 +13754,13 @@ func ResetRedactionConfig()
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.bigqueryExportSettings">BigqueryExportSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsBigqueryExportSettingsOutputReference">GoogleCesAppLoggingSettingsBigqueryExportSettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.cloudLoggingSettings">CloudLoggingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsCloudLoggingSettingsOutputReference">GoogleCesAppLoggingSettingsCloudLoggingSettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.conversationLoggingSettings">ConversationLoggingSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference">GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.metricAnalysisSettings">MetricAnalysisSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference">GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.redactionConfig">RedactionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsRedactionConfigOutputReference">GoogleCesAppLoggingSettingsRedactionConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.audioRecordingConfigInput">AudioRecordingConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsAudioRecordingConfig">GoogleCesAppLoggingSettingsAudioRecordingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.bigqueryExportSettingsInput">BigqueryExportSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsBigqueryExportSettings">GoogleCesAppLoggingSettingsBigqueryExportSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.cloudLoggingSettingsInput">CloudLoggingSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsCloudLoggingSettings">GoogleCesAppLoggingSettingsCloudLoggingSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.conversationLoggingSettingsInput">ConversationLoggingSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsConversationLoggingSettings">GoogleCesAppLoggingSettingsConversationLoggingSettings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.metricAnalysisSettingsInput">MetricAnalysisSettingsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings">GoogleCesAppLoggingSettingsMetricAnalysisSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.redactionConfigInput">RedactionConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsRedactionConfig">GoogleCesAppLoggingSettingsRedactionConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettings">GoogleCesAppLoggingSettings</a></code> | *No description.* |
 
@@ -10534,6 +13830,16 @@ func ConversationLoggingSettings() GoogleCesAppLoggingSettingsConversationLoggin
 
 ---
 
+##### `MetricAnalysisSettings`<sup>Required</sup> <a name="MetricAnalysisSettings" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.metricAnalysisSettings"></a>
+
+```go
+func MetricAnalysisSettings() GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference">GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference</a>
+
+---
+
 ##### `RedactionConfig`<sup>Required</sup> <a name="RedactionConfig" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.redactionConfig"></a>
 
 ```go
@@ -10584,6 +13890,16 @@ func ConversationLoggingSettingsInput() GoogleCesAppLoggingSettingsConversationL
 
 ---
 
+##### `MetricAnalysisSettingsInput`<sup>Optional</sup> <a name="MetricAnalysisSettingsInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.metricAnalysisSettingsInput"></a>
+
+```go
+func MetricAnalysisSettingsInput() GoogleCesAppLoggingSettingsMetricAnalysisSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsMetricAnalysisSettings">GoogleCesAppLoggingSettingsMetricAnalysisSettings</a>
+
+---
+
 ##### `RedactionConfigInput`<sup>Optional</sup> <a name="RedactionConfigInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsOutputReference.property.redactionConfigInput"></a>
 
 ```go
@@ -10610,7 +13926,7 @@ func InternalValue() GoogleCesAppLoggingSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppLoggingSettingsRedactionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppLoggingSettingsRedactionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppLoggingSettingsRedactionConfigOutputReference
 ```
@@ -10946,7 +14262,7 @@ func InternalValue() GoogleCesAppLoggingSettingsRedactionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppModelSettingsOutputReference
 ```
@@ -11253,7 +14569,7 @@ func InternalValue() GoogleCesAppModelSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppTimeoutsOutputReference
 ```
@@ -11589,7 +14905,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppTimeZoneSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppTimeZoneSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppTimeZoneSettingsOutputReference
 ```
@@ -11867,7 +15183,7 @@ func InternalValue() GoogleCesAppTimeZoneSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVariableDeclarationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppVariableDeclarationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAppVariableDeclarationsList
 ```
@@ -12027,7 +15343,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVariableDeclarationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppVariableDeclarationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAppVariableDeclarationsOutputReference
 ```
@@ -12373,7 +15689,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVariableDeclarationsSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
 
 googlecesapp.NewGoogleCesAppVariableDeclarationsSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppVariableDeclarationsSchemaOutputReference
 ```
@@ -13041,6 +16357,284 @@ func InternalValue() GoogleCesAppVariableDeclarationsSchema
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVariableDeclarationsSchema">GoogleCesAppVariableDeclarationsSchema</a>
+
+---
+
+
+### GoogleCesAppVpcScSettingsOutputReference <a name="GoogleCesAppVpcScSettingsOutputReference" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp"
+
+googlecesapp.NewGoogleCesAppVpcScSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppVpcScSettingsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.resetAllowedOrigins">ResetAllowedOrigins</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetAllowedOrigins` <a name="ResetAllowedOrigins" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.resetAllowedOrigins"></a>
+
+```go
+func ResetAllowedOrigins()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.property.allowedOriginsInput">AllowedOriginsInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.property.allowedOrigins">AllowedOrigins</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettings">GoogleCesAppVpcScSettings</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AllowedOriginsInput`<sup>Optional</sup> <a name="AllowedOriginsInput" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.property.allowedOriginsInput"></a>
+
+```go
+func AllowedOriginsInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `AllowedOrigins`<sup>Required</sup> <a name="AllowedOrigins" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.property.allowedOrigins"></a>
+
+```go
+func AllowedOrigins() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettingsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCesAppVpcScSettings
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesApp.GoogleCesAppVpcScSettings">GoogleCesAppVpcScSettings</a>
 
 ---
 

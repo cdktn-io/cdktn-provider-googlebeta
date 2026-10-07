@@ -4,12 +4,12 @@
 
 ### GoogleDataCatalogTagTemplate <a name="GoogleDataCatalogTagTemplate" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.NewGoogleDataCatalogTagTemplate(scope Construct, id *string, config GoogleDataCatalogTagTemplateConfig) GoogleDataCatalogTagTemplate
 ```
@@ -475,7 +475,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.GoogleDataCatalogTagTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.GoogleDataCatalogTagTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googledatacatalogtagtemplate.GoogleDataCatalogTagTemplate_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.GoogleDataCatalogTagTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googledatacatalogtagtemplate.GoogleDataCatalogTagTemplate_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.GoogleDataCatalogTagTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -564,7 +564,7 @@ The construct id used in the generated config for the GoogleDataCatalogTagTempla
 
 The id of the existing GoogleDataCatalogTagTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -973,7 +973,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 &googledatacatalogtagtemplate.GoogleDataCatalogTagTemplateConfig {
 	Connection: interface{},
@@ -991,7 +991,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 	Id: *string,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateTimeouts,
 }
 ```
 
@@ -1011,8 +1011,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | The display name for this template. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateConfig.property.forceDelete">ForceDelete</a></code> | <code>interface{}</code> | This confirms the deletion of any possible tags using this template. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#id GoogleDataCatalogTagTemplate#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#project GoogleDataCatalogTagTemplate#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#id GoogleDataCatalogTagTemplate#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#project GoogleDataCatalogTagTemplate#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateConfig.property.region">Region</a></code> | <code>*string</code> | Template location region. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateTimeouts">GoogleDataCatalogTagTemplateTimeouts</a></code> | timeouts block. |
 
@@ -1098,7 +1098,7 @@ Fields interface{}
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#fields GoogleDataCatalogTagTemplate#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#fields GoogleDataCatalogTagTemplate#fields}
 
 ---
 
@@ -1112,7 +1112,7 @@ TagTemplateId *string
 
 The id of the tag template to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#tag_template_id GoogleDataCatalogTagTemplate#tag_template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#tag_template_id GoogleDataCatalogTagTemplate#tag_template_id}
 
 ---
 
@@ -1133,7 +1133,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#deletion_policy GoogleDataCatalogTagTemplate#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#deletion_policy GoogleDataCatalogTagTemplate#deletion_policy}
 
 ---
 
@@ -1147,7 +1147,7 @@ DisplayName *string
 
 The display name for this template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#display_name GoogleDataCatalogTagTemplate#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#display_name GoogleDataCatalogTagTemplate#display_name}
 
 ---
 
@@ -1163,7 +1163,7 @@ This confirms the deletion of any possible tags using this template.
 
 Must be set to true in order to delete the tag template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#force_delete GoogleDataCatalogTagTemplate#force_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#force_delete GoogleDataCatalogTagTemplate#force_delete}
 
 ---
 
@@ -1175,7 +1175,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#id GoogleDataCatalogTagTemplate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#id GoogleDataCatalogTagTemplate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1190,7 +1190,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#project GoogleDataCatalogTagTemplate#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#project GoogleDataCatalogTagTemplate#project}.
 
 ---
 
@@ -1204,7 +1204,7 @@ Region *string
 
 Template location region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#region GoogleDataCatalogTagTemplate#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#region GoogleDataCatalogTagTemplate#region}
 
 ---
 
@@ -1218,7 +1218,7 @@ Timeouts GoogleDataCatalogTagTemplateTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#timeouts GoogleDataCatalogTagTemplate#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#timeouts GoogleDataCatalogTagTemplate#timeouts}
 
 ---
 
@@ -1227,11 +1227,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 &googledatacatalogtagtemplate.GoogleDataCatalogTagTemplateFields {
 	FieldId: *string,
-	Type: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsType,
+	Type: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsType,
 	Description: *string,
 	DisplayName: *string,
 	IsRequired: interface{},
@@ -1243,7 +1243,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFields.property.fieldId">FieldId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#field_id GoogleDataCatalogTagTemplate#field_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFields.property.fieldId">FieldId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#field_id GoogleDataCatalogTagTemplate#field_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFields.property.type">Type</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsType">GoogleDataCatalogTagTemplateFieldsType</a></code> | type block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFields.property.description">Description</a></code> | <code>*string</code> | A description for this field. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFields.property.displayName">DisplayName</a></code> | <code>*string</code> | The display name for this field. |
@@ -1260,7 +1260,7 @@ FieldId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#field_id GoogleDataCatalogTagTemplate#field_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#field_id GoogleDataCatalogTagTemplate#field_id}.
 
 ---
 
@@ -1274,7 +1274,7 @@ Type GoogleDataCatalogTagTemplateFieldsType
 
 type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#type GoogleDataCatalogTagTemplate#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#type GoogleDataCatalogTagTemplate#type}
 
 ---
 
@@ -1288,7 +1288,7 @@ Description *string
 
 A description for this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#description GoogleDataCatalogTagTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#description GoogleDataCatalogTagTemplate#description}
 
 ---
 
@@ -1302,7 +1302,7 @@ DisplayName *string
 
 The display name for this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#display_name GoogleDataCatalogTagTemplate#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#display_name GoogleDataCatalogTagTemplate#display_name}
 
 ---
 
@@ -1316,7 +1316,7 @@ IsRequired interface{}
 
 Whether this is a required field. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#is_required GoogleDataCatalogTagTemplate#is_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#is_required GoogleDataCatalogTagTemplate#is_required}
 
 ---
 
@@ -1333,7 +1333,7 @@ The order of this field with respect to other fields in this tag template.
 A higher value indicates a more important field. The value can be negative.
 Multiple fields can have the same order, and field orders within a tag do not have to be sequential.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#order GoogleDataCatalogTagTemplate#order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#order GoogleDataCatalogTagTemplate#order}
 
 ---
 
@@ -1342,10 +1342,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 &googledatacatalogtagtemplate.GoogleDataCatalogTagTemplateFieldsType {
-	EnumType: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsTypeEnumType,
+	EnumType: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsTypeEnumType,
 	PrimitiveType: *string,
 }
 ```
@@ -1369,7 +1369,7 @@ EnumType GoogleDataCatalogTagTemplateFieldsTypeEnumType
 
 enum_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#enum_type GoogleDataCatalogTagTemplate#enum_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#enum_type GoogleDataCatalogTagTemplate#enum_type}
 
 ---
 
@@ -1385,7 +1385,7 @@ Represents primitive types - string, bool etc.
 
 Exactly one of 'primitive_type' or 'enum_type' must be set Possible values: ["DOUBLE", "STRING", "BOOL", "TIMESTAMP", "RICHTEXT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#primitive_type GoogleDataCatalogTagTemplate#primitive_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#primitive_type GoogleDataCatalogTagTemplate#primitive_type}
 
 ---
 
@@ -1394,7 +1394,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsTypeEnumType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 &googledatacatalogtagtemplate.GoogleDataCatalogTagTemplateFieldsTypeEnumType {
 	AllowedValues: interface{},
@@ -1419,7 +1419,7 @@ AllowedValues interface{}
 
 allowed_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#allowed_values GoogleDataCatalogTagTemplate#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#allowed_values GoogleDataCatalogTagTemplate#allowed_values}
 
 ---
 
@@ -1428,7 +1428,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsTypeEnumTypeAllowedValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 &googledatacatalogtagtemplate.GoogleDataCatalogTagTemplateFieldsTypeEnumTypeAllowedValues {
 	DisplayName: *string,
@@ -1453,7 +1453,7 @@ DisplayName *string
 
 The display name of the enum value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#display_name GoogleDataCatalogTagTemplate#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#display_name GoogleDataCatalogTagTemplate#display_name}
 
 ---
 
@@ -1462,7 +1462,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 &googledatacatalogtagtemplate.GoogleDataCatalogTagTemplateTimeouts {
 	Create: *string,
@@ -1475,9 +1475,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#create GoogleDataCatalogTagTemplate#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#delete GoogleDataCatalogTagTemplate#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#update GoogleDataCatalogTagTemplate#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#create GoogleDataCatalogTagTemplate#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#delete GoogleDataCatalogTagTemplate#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#update GoogleDataCatalogTagTemplate#update}. |
 
 ---
 
@@ -1489,7 +1489,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#create GoogleDataCatalogTagTemplate#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#create GoogleDataCatalogTagTemplate#create}.
 
 ---
 
@@ -1501,7 +1501,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#delete GoogleDataCatalogTagTemplate#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#delete GoogleDataCatalogTagTemplate#delete}.
 
 ---
 
@@ -1513,7 +1513,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template#update GoogleDataCatalogTagTemplate#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template#update GoogleDataCatalogTagTemplate#update}.
 
 ---
 
@@ -1524,7 +1524,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.NewGoogleDataCatalogTagTemplateFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataCatalogTagTemplateFieldsList
 ```
@@ -1684,7 +1684,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.NewGoogleDataCatalogTagTemplateFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataCatalogTagTemplateFieldsOutputReference
 ```
@@ -2135,7 +2135,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsTypeEnumTypeAllowedValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.NewGoogleDataCatalogTagTemplateFieldsTypeEnumTypeAllowedValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataCatalogTagTemplateFieldsTypeEnumTypeAllowedValuesList
 ```
@@ -2295,7 +2295,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsTypeEnumTypeAllowedValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.NewGoogleDataCatalogTagTemplateFieldsTypeEnumTypeAllowedValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataCatalogTagTemplateFieldsTypeEnumTypeAllowedValuesOutputReference
 ```
@@ -2584,7 +2584,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsTypeEnumTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.NewGoogleDataCatalogTagTemplateFieldsTypeEnumTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataCatalogTagTemplateFieldsTypeEnumTypeOutputReference
 ```
@@ -2868,7 +2868,7 @@ func InternalValue() GoogleDataCatalogTagTemplateFieldsTypeEnumType
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateFieldsTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.NewGoogleDataCatalogTagTemplateFieldsTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataCatalogTagTemplateFieldsTypeOutputReference
 ```
@@ -3188,7 +3188,7 @@ func InternalValue() GoogleDataCatalogTagTemplateFieldsType
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplate.GoogleDataCatalogTagTemplateTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate"
 
 googledatacatalogtagtemplate.NewGoogleDataCatalogTagTemplateTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataCatalogTagTemplateTimeoutsOutputReference
 ```

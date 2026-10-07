@@ -4,12 +4,12 @@
 
 ### GoogleNetworkSecuritySacRealm <a name="GoogleNetworkSecuritySacRealm" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealm"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm google_network_security_sac_realm}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealm.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 googlenetworksecuritysacrealm.NewGoogleNetworkSecuritySacRealm(scope Construct, id *string, config GoogleNetworkSecuritySacRealmConfig) GoogleNetworkSecuritySacRealm
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealm.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 googlenetworksecuritysacrealm.GoogleNetworkSecuritySacRealm_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealm.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 googlenetworksecuritysacrealm.GoogleNetworkSecuritySacRealm_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlenetworksecuritysacrealm.GoogleNetworkSecuritySacRealm_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealm.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 googlenetworksecuritysacrealm.GoogleNetworkSecuritySacRealm_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlenetworksecuritysacrealm.GoogleNetworkSecuritySacRealm_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealm.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 googlenetworksecuritysacrealm.GoogleNetworkSecuritySacRealm_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleNetworkSecuritySacRe
 
 The id of the existing GoogleNetworkSecuritySacRealm that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -999,7 +999,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 &googlenetworksecuritysacrealm.GoogleNetworkSecuritySacRealmConfig {
 	Connection: interface{},
@@ -1015,8 +1015,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	SymantecOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmSymantecOptions,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmTimeouts,
+	SymantecOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmSymantecOptions,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmTimeouts,
 }
 ```
 
@@ -1034,9 +1034,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmConfig.property.name">Name</a></code> | <code>*string</code> | Identifier. Resource name. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmConfig.property.securityService">SecurityService</a></code> | <code>*string</code> | SSE service provider associated with the realm. Possible values: ["SECURITY_SERVICE_UNSPECIFIED", "PALO_ALTO_PRISMA_ACCESS", "SYMANTEC_CLOUD_SWG"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#id GoogleNetworkSecuritySacRealm#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#id GoogleNetworkSecuritySacRealm#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Optional labels in key:value format. For more information about labels, see [Requirements for labels](https://docs.cloud.google.com/resource-manager/docs/creating-managing-labels#requirements). |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#project GoogleNetworkSecuritySacRealm#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#project GoogleNetworkSecuritySacRealm#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmConfig.property.symantecOptions">SymantecOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmSymantecOptions">GoogleNetworkSecuritySacRealmSymantecOptions</a></code> | symantec_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmTimeouts">GoogleNetworkSecuritySacRealmTimeouts</a></code> | timeouts block. |
 
@@ -1122,7 +1122,7 @@ Name *string
 
 Identifier. Resource name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#name GoogleNetworkSecuritySacRealm#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#name GoogleNetworkSecuritySacRealm#name}
 
 ---
 
@@ -1136,7 +1136,7 @@ SecurityService *string
 
 SSE service provider associated with the realm. Possible values: ["SECURITY_SERVICE_UNSPECIFIED", "PALO_ALTO_PRISMA_ACCESS", "SYMANTEC_CLOUD_SWG"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#security_service GoogleNetworkSecuritySacRealm#security_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#security_service GoogleNetworkSecuritySacRealm#security_service}
 
 ---
 
@@ -1157,7 +1157,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#deletion_policy GoogleNetworkSecuritySacRealm#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#deletion_policy GoogleNetworkSecuritySacRealm#deletion_policy}
 
 ---
 
@@ -1169,7 +1169,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#id GoogleNetworkSecuritySacRealm#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#id GoogleNetworkSecuritySacRealm#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1189,7 +1189,7 @@ Optional labels in key:value format. For more information about labels, see [Req
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#labels GoogleNetworkSecuritySacRealm#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#labels GoogleNetworkSecuritySacRealm#labels}
 
 ---
 
@@ -1201,7 +1201,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#project GoogleNetworkSecuritySacRealm#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#project GoogleNetworkSecuritySacRealm#project}.
 
 ---
 
@@ -1215,7 +1215,7 @@ SymantecOptions GoogleNetworkSecuritySacRealmSymantecOptions
 
 symantec_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#symantec_options GoogleNetworkSecuritySacRealm#symantec_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#symantec_options GoogleNetworkSecuritySacRealm#symantec_options}
 
 ---
 
@@ -1229,7 +1229,7 @@ Timeouts GoogleNetworkSecuritySacRealmTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#timeouts GoogleNetworkSecuritySacRealm#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#timeouts GoogleNetworkSecuritySacRealm#timeouts}
 
 ---
 
@@ -1238,7 +1238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmPairingKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 &googlenetworksecuritysacrealm.GoogleNetworkSecuritySacRealmPairingKey {
 
@@ -1251,7 +1251,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmSymantecOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 &googlenetworksecuritysacrealm.GoogleNetworkSecuritySacRealmSymantecOptions {
 	SecretPath: *string,
@@ -1279,7 +1279,7 @@ API Key used to call Symantec APIs on the user's behalf.
 Required if using Symantec Cloud SWG. P4SA account needs permissions granted to read this secret.
 A secret ID, secret name, or secret URI can be specified, but it will be parsed and stored as a secret URI in the form projects/{projectNumber}/secrets/my-secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#secret_path GoogleNetworkSecuritySacRealm#secret_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#secret_path GoogleNetworkSecuritySacRealm#secret_path}
 
 ---
 
@@ -1288,7 +1288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 &googlenetworksecuritysacrealm.GoogleNetworkSecuritySacRealmTimeouts {
 	Create: *string,
@@ -1301,9 +1301,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#create GoogleNetworkSecuritySacRealm#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#delete GoogleNetworkSecuritySacRealm#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#update GoogleNetworkSecuritySacRealm#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#create GoogleNetworkSecuritySacRealm#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#delete GoogleNetworkSecuritySacRealm#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#update GoogleNetworkSecuritySacRealm#update}. |
 
 ---
 
@@ -1315,7 +1315,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#create GoogleNetworkSecuritySacRealm#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#create GoogleNetworkSecuritySacRealm#create}.
 
 ---
 
@@ -1327,7 +1327,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#delete GoogleNetworkSecuritySacRealm#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#delete GoogleNetworkSecuritySacRealm#delete}.
 
 ---
 
@@ -1339,7 +1339,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm#update GoogleNetworkSecuritySacRealm#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm#update GoogleNetworkSecuritySacRealm#update}.
 
 ---
 
@@ -1350,7 +1350,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmPairingKeyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 googlenetworksecuritysacrealm.NewGoogleNetworkSecuritySacRealmPairingKeyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecuritySacRealmPairingKeyList
 ```
@@ -1499,7 +1499,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmPairingKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 googlenetworksecuritysacrealm.NewGoogleNetworkSecuritySacRealmPairingKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecuritySacRealmPairingKeyOutputReference
 ```
@@ -1788,7 +1788,7 @@ func InternalValue() GoogleNetworkSecuritySacRealmPairingKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmSymantecOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 googlenetworksecuritysacrealm.NewGoogleNetworkSecuritySacRealmSymantecOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecuritySacRealmSymantecOptionsOutputReference
 ```
@@ -2088,7 +2088,7 @@ func InternalValue() GoogleNetworkSecuritySacRealmSymantecOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecuritySacRealm.GoogleNetworkSecuritySacRealmTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm"
 
 googlenetworksecuritysacrealm.NewGoogleNetworkSecuritySacRealmTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecuritySacRealmTimeoutsOutputReference
 ```

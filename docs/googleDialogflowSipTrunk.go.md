@@ -4,12 +4,12 @@
 
 ### GoogleDialogflowSipTrunk <a name="GoogleDialogflowSipTrunk" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunk"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk google_dialogflow_sip_trunk}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk google_dialogflow_sip_trunk}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 googledialogflowsiptrunk.NewGoogleDialogflowSipTrunk(scope Construct, id *string, config GoogleDialogflowSipTrunkConfig) GoogleDialogflowSipTrunk
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunk.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 googledialogflowsiptrunk.GoogleDialogflowSipTrunk_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunk.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 googledialogflowsiptrunk.GoogleDialogflowSipTrunk_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googledialogflowsiptrunk.GoogleDialogflowSipTrunk_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunk.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 googledialogflowsiptrunk.GoogleDialogflowSipTrunk_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googledialogflowsiptrunk.GoogleDialogflowSipTrunk_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunk.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 googledialogflowsiptrunk.GoogleDialogflowSipTrunk_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleDialogflowSipTrunk t
 
 The id of the existing GoogleDialogflowSipTrunk that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -913,7 +913,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 &googledialogflowsiptrunk.GoogleDialogflowSipTrunkConfig {
 	Connection: interface{},
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkTimeouts,
 }
 ```
 
@@ -948,8 +948,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConfig.property.location">Location</a></code> | <code>*string</code> | The location of the SIP trunk. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | Optional. Human-readable alias for this trunk. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#id GoogleDialogflowSipTrunk#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#project GoogleDialogflowSipTrunk#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#id GoogleDialogflowSipTrunk#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#project GoogleDialogflowSipTrunk#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkTimeouts">GoogleDialogflowSipTrunkTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1034,7 +1034,7 @@ ExpectedHostname *[]*string
 
 Required. The expected hostnames in the peer certificate from the partner that is used for TLS authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#expected_hostname GoogleDialogflowSipTrunk#expected_hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#expected_hostname GoogleDialogflowSipTrunk#expected_hostname}
 
 ---
 
@@ -1048,7 +1048,7 @@ Location *string
 
 The location of the SIP trunk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#location GoogleDialogflowSipTrunk#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#location GoogleDialogflowSipTrunk#location}
 
 ---
 
@@ -1069,7 +1069,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#deletion_policy GoogleDialogflowSipTrunk#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#deletion_policy GoogleDialogflowSipTrunk#deletion_policy}
 
 ---
 
@@ -1083,7 +1083,7 @@ DisplayName *string
 
 Optional. Human-readable alias for this trunk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#display_name GoogleDialogflowSipTrunk#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#display_name GoogleDialogflowSipTrunk#display_name}
 
 ---
 
@@ -1095,7 +1095,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#id GoogleDialogflowSipTrunk#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#id GoogleDialogflowSipTrunk#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1110,7 +1110,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#project GoogleDialogflowSipTrunk#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#project GoogleDialogflowSipTrunk#project}.
 
 ---
 
@@ -1124,7 +1124,7 @@ Timeouts GoogleDialogflowSipTrunkTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#timeouts GoogleDialogflowSipTrunk#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#timeouts GoogleDialogflowSipTrunk#timeouts}
 
 ---
 
@@ -1133,7 +1133,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 &googledialogflowsiptrunk.GoogleDialogflowSipTrunkConnections {
 
@@ -1146,7 +1146,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConnectionsErrorDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 &googledialogflowsiptrunk.GoogleDialogflowSipTrunkConnectionsErrorDetails {
 
@@ -1159,7 +1159,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 &googledialogflowsiptrunk.GoogleDialogflowSipTrunkTimeouts {
 	Create: *string,
@@ -1172,9 +1172,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#create GoogleDialogflowSipTrunk#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#delete GoogleDialogflowSipTrunk#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#update GoogleDialogflowSipTrunk#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#create GoogleDialogflowSipTrunk#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#delete GoogleDialogflowSipTrunk#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#update GoogleDialogflowSipTrunk#update}. |
 
 ---
 
@@ -1186,7 +1186,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#create GoogleDialogflowSipTrunk#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#create GoogleDialogflowSipTrunk#create}.
 
 ---
 
@@ -1198,7 +1198,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#delete GoogleDialogflowSipTrunk#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#delete GoogleDialogflowSipTrunk#delete}.
 
 ---
 
@@ -1210,7 +1210,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk#update GoogleDialogflowSipTrunk#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk#update GoogleDialogflowSipTrunk#update}.
 
 ---
 
@@ -1221,7 +1221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConnectionsErrorDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 googledialogflowsiptrunk.NewGoogleDialogflowSipTrunkConnectionsErrorDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowSipTrunkConnectionsErrorDetailsList
 ```
@@ -1370,7 +1370,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConnectionsErrorDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 googledialogflowsiptrunk.NewGoogleDialogflowSipTrunkConnectionsErrorDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowSipTrunkConnectionsErrorDetailsOutputReference
 ```
@@ -1659,7 +1659,7 @@ func InternalValue() GoogleDialogflowSipTrunkConnectionsErrorDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConnectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 googledialogflowsiptrunk.NewGoogleDialogflowSipTrunkConnectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowSipTrunkConnectionsList
 ```
@@ -1808,7 +1808,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkConnectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 googledialogflowsiptrunk.NewGoogleDialogflowSipTrunkConnectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowSipTrunkConnectionsOutputReference
 ```
@@ -2119,7 +2119,7 @@ func InternalValue() GoogleDialogflowSipTrunkConnections
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowSipTrunk.GoogleDialogflowSipTrunkTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk"
 
 googledialogflowsiptrunk.NewGoogleDialogflowSipTrunkTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowSipTrunkTimeoutsOutputReference
 ```

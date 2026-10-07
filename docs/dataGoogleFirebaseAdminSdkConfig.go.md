@@ -4,12 +4,12 @@
 
 ### DataGoogleFirebaseAdminSdkConfig <a name="DataGoogleFirebaseAdminSdkConfig" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglefirebaseadminsdkconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglefirebaseadminsdkconfig"
 
 datagooglefirebaseadminsdkconfig.NewDataGoogleFirebaseAdminSdkConfig(scope Construct, id *string, config DataGoogleFirebaseAdminSdkConfigConfig) DataGoogleFirebaseAdminSdkConfig
 ```
@@ -305,7 +305,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglefirebaseadminsdkconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglefirebaseadminsdkconfig"
 
 datagooglefirebaseadminsdkconfig.DataGoogleFirebaseAdminSdkConfig_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglefirebaseadminsdkconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglefirebaseadminsdkconfig"
 
 datagooglefirebaseadminsdkconfig.DataGoogleFirebaseAdminSdkConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagooglefirebaseadminsdkconfig.DataGoogleFirebaseAdminSdkConfig_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglefirebaseadminsdkconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglefirebaseadminsdkconfig"
 
 datagooglefirebaseadminsdkconfig.DataGoogleFirebaseAdminSdkConfig_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagooglefirebaseadminsdkconfig.DataGoogleFirebaseAdminSdkConfig_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglefirebaseadminsdkconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglefirebaseadminsdkconfig"
 
 datagooglefirebaseadminsdkconfig.DataGoogleFirebaseAdminSdkConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGoogleFirebaseAdminSdk
 
 The id of the existing DataGoogleFirebaseAdminSdkConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_firebase_admin_sdk_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_firebase_admin_sdk_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -638,7 +638,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglefirebaseadminsdkconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglefirebaseadminsdkconfig"
 
 &datagooglefirebaseadminsdkconfig.DataGoogleFirebaseAdminSdkConfigConfig {
 	Connection: interface{},
@@ -749,7 +749,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_firebase_admin_sdk_config#project DataGoogleFirebaseAdminSdkConfig#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_firebase_admin_sdk_config#project DataGoogleFirebaseAdminSdkConfig#project}
 
 ---
 

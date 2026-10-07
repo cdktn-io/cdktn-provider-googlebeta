@@ -4,12 +4,12 @@
 
 ### GoogleGkeonpremBareMetalNodePool <a name="GoogleGkeonpremBareMetalNodePool" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.NewGoogleGkeonpremBareMetalNodePool(scope Construct, id *string, config GoogleGkeonpremBareMetalNodePoolConfig) GoogleGkeonpremBareMetalNodePool
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePool_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePool_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePool_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePool.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePool_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePool_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleGkeonpremBareMetalNo
 
 The id of the existing GoogleGkeonpremBareMetalNodePool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1076,7 +1076,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 &googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePoolConfig {
 	Connection: interface{},
@@ -1089,13 +1089,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegk
 	BareMetalCluster: *string,
 	Location: *string,
 	Name: *string,
-	NodePoolConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolNodePoolConfig,
+	NodePoolConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolNodePoolConfig,
 	Annotations: *map[string]*string,
 	DeletionPolicy: *string,
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolTimeouts,
 }
 ```
 
@@ -1117,8 +1117,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegk
 | <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolConfig.property.annotations">Annotations</a></code> | <code>*map[string]*string</code> | Annotations on the Bare Metal Node Pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | The display name for the Bare Metal Node Pool. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#id GoogleGkeonpremBareMetalNodePool#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#project GoogleGkeonpremBareMetalNodePool#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#id GoogleGkeonpremBareMetalNodePool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#project GoogleGkeonpremBareMetalNodePool#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolTimeouts">GoogleGkeonpremBareMetalNodePoolTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1203,7 +1203,7 @@ BareMetalCluster *string
 
 The cluster this node pool belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#bare_metal_cluster GoogleGkeonpremBareMetalNodePool#bare_metal_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#bare_metal_cluster GoogleGkeonpremBareMetalNodePool#bare_metal_cluster}
 
 ---
 
@@ -1217,7 +1217,7 @@ Location *string
 
 The location of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#location GoogleGkeonpremBareMetalNodePool#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#location GoogleGkeonpremBareMetalNodePool#location}
 
 ---
 
@@ -1231,7 +1231,7 @@ Name *string
 
 The bare metal node pool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#name GoogleGkeonpremBareMetalNodePool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#name GoogleGkeonpremBareMetalNodePool#name}
 
 ---
 
@@ -1245,7 +1245,7 @@ NodePoolConfig GoogleGkeonpremBareMetalNodePoolNodePoolConfig
 
 node_pool_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#node_pool_config GoogleGkeonpremBareMetalNodePool#node_pool_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#node_pool_config GoogleGkeonpremBareMetalNodePool#node_pool_config}
 
 ---
 
@@ -1270,7 +1270,7 @@ with dashes (-), underscores (_), dots (.), and alphanumerics between.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#annotations GoogleGkeonpremBareMetalNodePool#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#annotations GoogleGkeonpremBareMetalNodePool#annotations}
 
 ---
 
@@ -1291,7 +1291,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#deletion_policy GoogleGkeonpremBareMetalNodePool#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#deletion_policy GoogleGkeonpremBareMetalNodePool#deletion_policy}
 
 ---
 
@@ -1305,7 +1305,7 @@ DisplayName *string
 
 The display name for the Bare Metal Node Pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#display_name GoogleGkeonpremBareMetalNodePool#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#display_name GoogleGkeonpremBareMetalNodePool#display_name}
 
 ---
 
@@ -1317,7 +1317,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#id GoogleGkeonpremBareMetalNodePool#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#id GoogleGkeonpremBareMetalNodePool#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1332,7 +1332,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#project GoogleGkeonpremBareMetalNodePool#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#project GoogleGkeonpremBareMetalNodePool#project}.
 
 ---
 
@@ -1346,7 +1346,7 @@ Timeouts GoogleGkeonpremBareMetalNodePoolTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#timeouts GoogleGkeonpremBareMetalNodePool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#timeouts GoogleGkeonpremBareMetalNodePool#timeouts}
 
 ---
 
@@ -1355,7 +1355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolNodePoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 &googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePoolNodePoolConfig {
 	NodeConfigs: interface{},
@@ -1386,7 +1386,7 @@ NodeConfigs interface{}
 
 node_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#node_configs GoogleGkeonpremBareMetalNodePool#node_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#node_configs GoogleGkeonpremBareMetalNodePool#node_configs}
 
 ---
 
@@ -1411,7 +1411,7 @@ and the valid values, see:
   An object containing a list of "key": value pairs.
   For example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#labels GoogleGkeonpremBareMetalNodePool#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#labels GoogleGkeonpremBareMetalNodePool#labels}
 
 ---
 
@@ -1425,7 +1425,7 @@ OperatingSystem *string
 
 Specifies the nodes operating system (default: LINUX).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#operating_system GoogleGkeonpremBareMetalNodePool#operating_system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#operating_system GoogleGkeonpremBareMetalNodePool#operating_system}
 
 ---
 
@@ -1439,7 +1439,7 @@ Taints interface{}
 
 taints block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#taints GoogleGkeonpremBareMetalNodePool#taints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#taints GoogleGkeonpremBareMetalNodePool#taints}
 
 ---
 
@@ -1448,7 +1448,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 &googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs {
 	Labels: *map[string]*string,
@@ -1486,7 +1486,7 @@ and the valid values, see:
   An object containing a list of "key": value pairs.
   For example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#labels GoogleGkeonpremBareMetalNodePool#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#labels GoogleGkeonpremBareMetalNodePool#labels}
 
 ---
 
@@ -1500,7 +1500,7 @@ NodeIp *string
 
 The default IPv4 address for SSH access and Kubernetes node. Example: 192.168.0.1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#node_ip GoogleGkeonpremBareMetalNodePool#node_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#node_ip GoogleGkeonpremBareMetalNodePool#node_ip}
 
 ---
 
@@ -1509,7 +1509,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 &googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints {
 	Effect: *string,
@@ -1538,7 +1538,7 @@ Effect *string
 
 Specifies the nodes operating system (default: LINUX). Possible values: ["EFFECT_UNSPECIFIED", "PREFER_NO_SCHEDULE", "NO_EXECUTE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#effect GoogleGkeonpremBareMetalNodePool#effect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#effect GoogleGkeonpremBareMetalNodePool#effect}
 
 ---
 
@@ -1552,7 +1552,7 @@ Key *string
 
 Key associated with the effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#key GoogleGkeonpremBareMetalNodePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#key GoogleGkeonpremBareMetalNodePool#key}
 
 ---
 
@@ -1566,7 +1566,7 @@ Value *string
 
 Value associated with the effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#value GoogleGkeonpremBareMetalNodePool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#value GoogleGkeonpremBareMetalNodePool#value}
 
 ---
 
@@ -1575,7 +1575,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 &googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePoolStatus {
 
@@ -1588,7 +1588,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegk
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolStatusConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 &googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePoolStatusConditions {
 
@@ -1601,7 +1601,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegk
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 &googlegkeonprembaremetalnodepool.GoogleGkeonpremBareMetalNodePoolTimeouts {
 	Create: *string,
@@ -1614,9 +1614,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegk
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#create GoogleGkeonpremBareMetalNodePool#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#delete GoogleGkeonpremBareMetalNodePool#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#update GoogleGkeonpremBareMetalNodePool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#create GoogleGkeonpremBareMetalNodePool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#delete GoogleGkeonpremBareMetalNodePool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#update GoogleGkeonpremBareMetalNodePool#update}. |
 
 ---
 
@@ -1628,7 +1628,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#create GoogleGkeonpremBareMetalNodePool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#create GoogleGkeonpremBareMetalNodePool#create}.
 
 ---
 
@@ -1640,7 +1640,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#delete GoogleGkeonpremBareMetalNodePool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#delete GoogleGkeonpremBareMetalNodePool#delete}.
 
 ---
 
@@ -1652,7 +1652,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gkeonprem_bare_metal_node_pool#update GoogleGkeonpremBareMetalNodePool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gkeonprem_bare_metal_node_pool#update GoogleGkeonpremBareMetalNodePool#update}.
 
 ---
 
@@ -1663,7 +1663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.NewGoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsList
 ```
@@ -1823,7 +1823,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.NewGoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputReference
 ```
@@ -2148,7 +2148,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.NewGoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference
 ```
@@ -2532,7 +2532,7 @@ func InternalValue() GoogleGkeonpremBareMetalNodePoolNodePoolConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.NewGoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsList
 ```
@@ -2692,7 +2692,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.NewGoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsOutputReference
 ```
@@ -3046,7 +3046,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolStatusConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.NewGoogleGkeonpremBareMetalNodePoolStatusConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalNodePoolStatusConditionsList
 ```
@@ -3195,7 +3195,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolStatusConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.NewGoogleGkeonpremBareMetalNodePoolStatusConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalNodePoolStatusConditionsOutputReference
 ```
@@ -3517,7 +3517,7 @@ func InternalValue() GoogleGkeonpremBareMetalNodePoolStatusConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.NewGoogleGkeonpremBareMetalNodePoolStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalNodePoolStatusList
 ```
@@ -3666,7 +3666,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.NewGoogleGkeonpremBareMetalNodePoolStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalNodePoolStatusOutputReference
 ```
@@ -3955,7 +3955,7 @@ func InternalValue() GoogleGkeonpremBareMetalNodePoolStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalNodePool.GoogleGkeonpremBareMetalNodePoolTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkeonprembaremetalnodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkeonprembaremetalnodepool"
 
 googlegkeonprembaremetalnodepool.NewGoogleGkeonpremBareMetalNodePoolTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalNodePoolTimeoutsOutputReference
 ```

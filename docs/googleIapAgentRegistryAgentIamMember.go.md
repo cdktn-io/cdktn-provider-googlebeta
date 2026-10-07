@@ -4,12 +4,12 @@
 
 ### GoogleIapAgentRegistryAgentIamMember <a name="GoogleIapAgentRegistryAgentIamMember" id="@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member google_iap_agent_registry_agent_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member google_iap_agent_registry_agent_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistryagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapagentregistryagentiammember"
 
 googleiapagentregistryagentiammember.NewGoogleIapAgentRegistryAgentIamMember(scope Construct, id *string, config GoogleIapAgentRegistryAgentIamMemberConfig) GoogleIapAgentRegistryAgentIamMember
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistryagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapagentregistryagentiammember"
 
 googleiapagentregistryagentiammember.GoogleIapAgentRegistryAgentIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistryagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapagentregistryagentiammember"
 
 googleiapagentregistryagentiammember.GoogleIapAgentRegistryAgentIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleiapagentregistryagentiammember.GoogleIapAgentRegistryAgentIamMember_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistryagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapagentregistryagentiammember"
 
 googleiapagentregistryagentiammember.GoogleIapAgentRegistryAgentIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleiapagentregistryagentiammember.GoogleIapAgentRegistryAgentIamMember_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistryagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapagentregistryagentiammember"
 
 googleiapagentregistryagentiammember.GoogleIapAgentRegistryAgentIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleIapAgentRegistryAgen
 
 The id of the existing GoogleIapAgentRegistryAgentIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistryagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapagentregistryagentiammember"
 
 &googleiapagentregistryagentiammember.GoogleIapAgentRegistryAgentIamMemberCondition {
 	Expression: *string,
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#expression GoogleIapAgentRegistryAgentIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#title GoogleIapAgentRegistryAgentIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#description GoogleIapAgentRegistryAgentIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#expression GoogleIapAgentRegistryAgentIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#title GoogleIapAgentRegistryAgentIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#description GoogleIapAgentRegistryAgentIamMember#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#expression GoogleIapAgentRegistryAgentIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#expression GoogleIapAgentRegistryAgentIamMember#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#title GoogleIapAgentRegistryAgentIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#title GoogleIapAgentRegistryAgentIamMember#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#description GoogleIapAgentRegistryAgentIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#description GoogleIapAgentRegistryAgentIamMember#description}.
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistryagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapagentregistryagentiammember"
 
 &googleiapagentregistryagentiammember.GoogleIapAgentRegistryAgentIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 	AgentId: *string,
 	Member: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.agentId">AgentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#agent_id GoogleIapAgentRegistryAgentIamMember#agent_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#member GoogleIapAgentRegistryAgentIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#role GoogleIapAgentRegistryAgentIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.agentId">AgentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#agent_id GoogleIapAgentRegistryAgentIamMember#agent_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#member GoogleIapAgentRegistryAgentIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#role GoogleIapAgentRegistryAgentIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberCondition">GoogleIapAgentRegistryAgentIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#id GoogleIapAgentRegistryAgentIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#location GoogleIapAgentRegistryAgentIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#project GoogleIapAgentRegistryAgentIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#id GoogleIapAgentRegistryAgentIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#location GoogleIapAgentRegistryAgentIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#project GoogleIapAgentRegistryAgentIamMember#project}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ AgentId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#agent_id GoogleIapAgentRegistryAgentIamMember#agent_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#agent_id GoogleIapAgentRegistryAgentIamMember#agent_id}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#member GoogleIapAgentRegistryAgentIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#member GoogleIapAgentRegistryAgentIamMember#member}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#role GoogleIapAgentRegistryAgentIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#role GoogleIapAgentRegistryAgentIamMember#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleIapAgentRegistryAgentIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#condition GoogleIapAgentRegistryAgentIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#condition GoogleIapAgentRegistryAgentIamMember#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#id GoogleIapAgentRegistryAgentIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#id GoogleIapAgentRegistryAgentIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#location GoogleIapAgentRegistryAgentIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#location GoogleIapAgentRegistryAgentIamMember#location}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_agent_iam_member#project GoogleIapAgentRegistryAgentIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_agent_iam_member#project GoogleIapAgentRegistryAgentIamMember#project}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapAgentRegistryAgentIamMember.GoogleIapAgentRegistryAgentIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistryagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapagentregistryagentiammember"
 
 googleiapagentregistryagentiammember.NewGoogleIapAgentRegistryAgentIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapAgentRegistryAgentIamMemberConditionOutputReference
 ```

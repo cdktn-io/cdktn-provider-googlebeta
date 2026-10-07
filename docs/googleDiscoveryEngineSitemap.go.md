@@ -4,12 +4,12 @@
 
 ### GoogleDiscoveryEngineSitemap <a name="GoogleDiscoveryEngineSitemap" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap google_discovery_engine_sitemap}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap google_discovery_engine_sitemap}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginesitemap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginesitemap"
 
 googlediscoveryenginesitemap.NewGoogleDiscoveryEngineSitemap(scope Construct, id *string, config GoogleDiscoveryEngineSitemapConfig) GoogleDiscoveryEngineSitemap
 ```
@@ -448,7 +448,7 @@ func ResetUri()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginesitemap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginesitemap"
 
 googlediscoveryenginesitemap.GoogleDiscoveryEngineSitemap_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginesitemap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginesitemap"
 
 googlediscoveryenginesitemap.GoogleDiscoveryEngineSitemap_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlediscoveryenginesitemap.GoogleDiscoveryEngineSitemap_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginesitemap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginesitemap"
 
 googlediscoveryenginesitemap.GoogleDiscoveryEngineSitemap_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlediscoveryenginesitemap.GoogleDiscoveryEngineSitemap_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginesitemap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginesitemap"
 
 googlediscoveryenginesitemap.GoogleDiscoveryEngineSitemap_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleDiscoveryEngineSitem
 
 The id of the existing GoogleDiscoveryEngineSitemap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -924,7 +924,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginesitemap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginesitemap"
 
 &googlediscoveryenginesitemap.GoogleDiscoveryEngineSitemapConfig {
 	Connection: interface{},
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts,
 	Uri: *string,
 }
 ```
@@ -958,8 +958,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.dataStoreId">DataStoreId</a></code> | <code>*string</code> | The unique id of the data store. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.location">Location</a></code> | <code>*string</code> | The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu". |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts">GoogleDiscoveryEngineSitemapTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.uri">Uri</a></code> | <code>*string</code> | Public URI for the sitemap, e.g. "www.example.com/sitemap.xml". |
 
@@ -1045,7 +1045,7 @@ DataStoreId *string
 
 The unique id of the data store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#data_store_id GoogleDiscoveryEngineSitemap#data_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#data_store_id GoogleDiscoveryEngineSitemap#data_store_id}
 
 ---
 
@@ -1059,7 +1059,7 @@ Location *string
 
 The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#location GoogleDiscoveryEngineSitemap#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#location GoogleDiscoveryEngineSitemap#location}
 
 ---
 
@@ -1080,7 +1080,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#deletion_policy GoogleDiscoveryEngineSitemap#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#deletion_policy GoogleDiscoveryEngineSitemap#deletion_policy}
 
 ---
 
@@ -1092,7 +1092,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1107,7 +1107,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}.
 
 ---
 
@@ -1121,7 +1121,7 @@ Timeouts GoogleDiscoveryEngineSitemapTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#timeouts GoogleDiscoveryEngineSitemap#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#timeouts GoogleDiscoveryEngineSitemap#timeouts}
 
 ---
 
@@ -1135,7 +1135,7 @@ Uri *string
 
 Public URI for the sitemap, e.g. "www.example.com/sitemap.xml".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#uri GoogleDiscoveryEngineSitemap#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#uri GoogleDiscoveryEngineSitemap#uri}
 
 ---
 
@@ -1144,7 +1144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginesitemap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginesitemap"
 
 &googlediscoveryenginesitemap.GoogleDiscoveryEngineSitemapTimeouts {
 	Create: *string,
@@ -1156,8 +1156,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#create GoogleDiscoveryEngineSitemap#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#delete GoogleDiscoveryEngineSitemap#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#create GoogleDiscoveryEngineSitemap#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#delete GoogleDiscoveryEngineSitemap#delete}. |
 
 ---
 
@@ -1169,7 +1169,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#create GoogleDiscoveryEngineSitemap#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#create GoogleDiscoveryEngineSitemap#create}.
 
 ---
 
@@ -1181,7 +1181,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap#delete GoogleDiscoveryEngineSitemap#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap#delete GoogleDiscoveryEngineSitemap#delete}.
 
 ---
 
@@ -1192,7 +1192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginesitemap"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginesitemap"
 
 googlediscoveryenginesitemap.NewGoogleDiscoveryEngineSitemapTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDiscoveryEngineSitemapTimeoutsOutputReference
 ```

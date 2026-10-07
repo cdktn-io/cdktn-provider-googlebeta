@@ -4,12 +4,12 @@
 
 ### GoogleMemorystoreAclPolicy <a name="GoogleMemorystoreAclPolicy" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy google_memorystore_acl_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy google_memorystore_acl_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy"
 
 googlememorystoreaclpolicy.NewGoogleMemorystoreAclPolicy(scope Construct, id *string, config GoogleMemorystoreAclPolicyConfig) GoogleMemorystoreAclPolicy
 ```
@@ -454,7 +454,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy"
 
 googlememorystoreaclpolicy.GoogleMemorystoreAclPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy"
 
 googlememorystoreaclpolicy.GoogleMemorystoreAclPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ googlememorystoreaclpolicy.GoogleMemorystoreAclPolicy_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy"
 
 googlememorystoreaclpolicy.GoogleMemorystoreAclPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlememorystoreaclpolicy.GoogleMemorystoreAclPolicy_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy"
 
 googlememorystoreaclpolicy.GoogleMemorystoreAclPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the GoogleMemorystoreAclPolicy
 
 The id of the existing GoogleMemorystoreAclPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,7 +930,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy"
 
 &googlememorystoreaclpolicy.GoogleMemorystoreAclPolicyConfig {
 	Connection: interface{},
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleme
 	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyTimeouts,
 }
 ```
 
@@ -965,8 +965,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleme
 | <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyConfig.property.location">Location</a></code> | <code>*string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyConfig.property.rules">Rules</a></code> | <code>interface{}</code> | rules block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#id GoogleMemorystoreAclPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#project GoogleMemorystoreAclPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#id GoogleMemorystoreAclPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#project GoogleMemorystoreAclPolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyTimeouts">GoogleMemorystoreAclPolicyTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1057,7 +1057,7 @@ The logical name of the ACL policy in the customer project with the following re
 * Must end with a number or a letter.
 * Must be unique within the customer project / location
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#acl_policy_id GoogleMemorystoreAclPolicy#acl_policy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#acl_policy_id GoogleMemorystoreAclPolicy#acl_policy_id}
 
 ---
 
@@ -1071,7 +1071,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#location GoogleMemorystoreAclPolicy#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#location GoogleMemorystoreAclPolicy#location}
 
 ---
 
@@ -1085,7 +1085,7 @@ Rules interface{}
 
 rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#rules GoogleMemorystoreAclPolicy#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#rules GoogleMemorystoreAclPolicy#rules}
 
 ---
 
@@ -1106,7 +1106,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#deletion_policy GoogleMemorystoreAclPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#deletion_policy GoogleMemorystoreAclPolicy#deletion_policy}
 
 ---
 
@@ -1118,7 +1118,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#id GoogleMemorystoreAclPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#id GoogleMemorystoreAclPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1133,7 +1133,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#project GoogleMemorystoreAclPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#project GoogleMemorystoreAclPolicy#project}.
 
 ---
 
@@ -1147,7 +1147,7 @@ Timeouts GoogleMemorystoreAclPolicyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#timeouts GoogleMemorystoreAclPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#timeouts GoogleMemorystoreAclPolicy#timeouts}
 
 ---
 
@@ -1156,7 +1156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy"
 
 &googlememorystoreaclpolicy.GoogleMemorystoreAclPolicyRules {
 	Rule: *string,
@@ -1187,7 +1187,7 @@ Ex: "on >password123 ~* +@all"
 The format of the rule is defined by Valkey OSS:
 https://valkey.io/topics/acl/
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#rule GoogleMemorystoreAclPolicy#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#rule GoogleMemorystoreAclPolicy#rule}
 
 ---
 
@@ -1203,7 +1203,7 @@ Specifies the IAM user or service account to be added to the ACL policy.
 
 This username will be directly set on the Valkey OSS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#username GoogleMemorystoreAclPolicy#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#username GoogleMemorystoreAclPolicy#username}
 
 ---
 
@@ -1212,7 +1212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy"
 
 &googlememorystoreaclpolicy.GoogleMemorystoreAclPolicyTimeouts {
 	Create: *string,
@@ -1225,9 +1225,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleme
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#create GoogleMemorystoreAclPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#delete GoogleMemorystoreAclPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#update GoogleMemorystoreAclPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#create GoogleMemorystoreAclPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#delete GoogleMemorystoreAclPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#update GoogleMemorystoreAclPolicy#update}. |
 
 ---
 
@@ -1239,7 +1239,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#create GoogleMemorystoreAclPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#create GoogleMemorystoreAclPolicy#create}.
 
 ---
 
@@ -1251,7 +1251,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#delete GoogleMemorystoreAclPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#delete GoogleMemorystoreAclPolicy#delete}.
 
 ---
 
@@ -1263,7 +1263,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy#update GoogleMemorystoreAclPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy#update GoogleMemorystoreAclPolicy#update}.
 
 ---
 
@@ -1274,7 +1274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy"
 
 googlememorystoreaclpolicy.NewGoogleMemorystoreAclPolicyRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMemorystoreAclPolicyRulesList
 ```
@@ -1434,7 +1434,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy"
 
 googlememorystoreaclpolicy.NewGoogleMemorystoreAclPolicyRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMemorystoreAclPolicyRulesOutputReference
 ```
@@ -1745,7 +1745,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMemorystoreAclPolicy.GoogleMemorystoreAclPolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy"
 
 googlememorystoreaclpolicy.NewGoogleMemorystoreAclPolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMemorystoreAclPolicyTimeoutsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### GoogleMigrationCenterImportJob <a name="GoogleMigrationCenterImportJob" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job google_migration_center_import_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job google_migration_center_import_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJob(scope Construct, id *string, config GoogleMigrationCenterImportJobConfig) GoogleMigrationCenterImportJob
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJob.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.GoogleMigrationCenterImportJob_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJob.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.GoogleMigrationCenterImportJob_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlemigrationcenterimportjob.GoogleMigrationCenterImportJob_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJob.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.GoogleMigrationCenterImportJob_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlemigrationcenterimportjob.GoogleMigrationCenterImportJob_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJob.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.GoogleMigrationCenterImportJob_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleMigrationCenterImpor
 
 The id of the existing GoogleMigrationCenterImportJob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1041,7 +1041,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobConfig {
 	Connection: interface{},
@@ -1059,7 +1059,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobTimeouts,
 }
 ```
 
@@ -1079,9 +1079,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobConfig.property.location">Location</a></code> | <code>*string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | User-friendly display name. Maximum length is 256 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#id GoogleMigrationCenterImportJob#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#id GoogleMigrationCenterImportJob#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Labels as key value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#project GoogleMigrationCenterImportJob#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#project GoogleMigrationCenterImportJob#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobTimeouts">GoogleMigrationCenterImportJobTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1166,7 +1166,7 @@ AssetSource *string
 
 Reference to a source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#asset_source GoogleMigrationCenterImportJob#asset_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#asset_source GoogleMigrationCenterImportJob#asset_source}
 
 ---
 
@@ -1180,7 +1180,7 @@ ImportJobId *string
 
 ID of the import job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#import_job_id GoogleMigrationCenterImportJob#import_job_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#import_job_id GoogleMigrationCenterImportJob#import_job_id}
 
 ---
 
@@ -1194,7 +1194,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#location GoogleMigrationCenterImportJob#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#location GoogleMigrationCenterImportJob#location}
 
 ---
 
@@ -1215,7 +1215,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#deletion_policy GoogleMigrationCenterImportJob#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#deletion_policy GoogleMigrationCenterImportJob#deletion_policy}
 
 ---
 
@@ -1229,7 +1229,7 @@ DisplayName *string
 
 User-friendly display name. Maximum length is 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#display_name GoogleMigrationCenterImportJob#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#display_name GoogleMigrationCenterImportJob#display_name}
 
 ---
 
@@ -1241,7 +1241,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#id GoogleMigrationCenterImportJob#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#id GoogleMigrationCenterImportJob#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1261,7 +1261,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#labels GoogleMigrationCenterImportJob#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#labels GoogleMigrationCenterImportJob#labels}
 
 ---
 
@@ -1273,7 +1273,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#project GoogleMigrationCenterImportJob#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#project GoogleMigrationCenterImportJob#project}.
 
 ---
 
@@ -1287,7 +1287,7 @@ Timeouts GoogleMigrationCenterImportJobTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#timeouts GoogleMigrationCenterImportJob#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#timeouts GoogleMigrationCenterImportJob#timeouts}
 
 ---
 
@@ -1296,7 +1296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobExecutionReport {
 
@@ -1309,7 +1309,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobExecutionReportExecutionErrors {
 
@@ -1322,7 +1322,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidations {
 
@@ -1335,7 +1335,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsFileErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsFileErrors {
 
@@ -1348,7 +1348,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrors {
 
@@ -1361,7 +1361,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveError {
 
@@ -1374,7 +1374,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorCsvError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorCsvError {
 
@@ -1387,7 +1387,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsCsvError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsCsvError {
 
@@ -1400,7 +1400,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsErrors {
 
@@ -1413,7 +1413,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsXlsxError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsXlsxError {
 
@@ -1426,7 +1426,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsJobErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsJobErrors {
 
@@ -1439,7 +1439,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobTimeouts {
 	Create: *string,
@@ -1452,9 +1452,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#create GoogleMigrationCenterImportJob#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#delete GoogleMigrationCenterImportJob#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#update GoogleMigrationCenterImportJob#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#create GoogleMigrationCenterImportJob#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#delete GoogleMigrationCenterImportJob#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#update GoogleMigrationCenterImportJob#update}. |
 
 ---
 
@@ -1466,7 +1466,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#create GoogleMigrationCenterImportJob#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#create GoogleMigrationCenterImportJob#create}.
 
 ---
 
@@ -1478,7 +1478,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#delete GoogleMigrationCenterImportJob#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#delete GoogleMigrationCenterImportJob#delete}.
 
 ---
 
@@ -1490,7 +1490,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_import_job#update GoogleMigrationCenterImportJob#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_import_job#update GoogleMigrationCenterImportJob#update}.
 
 ---
 
@@ -1499,7 +1499,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobValidationReport {
 
@@ -1512,7 +1512,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobValidationReportFileValidations {
 
@@ -1525,7 +1525,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsFileErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobValidationReportFileValidationsFileErrors {
 
@@ -1538,7 +1538,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrors {
 
@@ -1551,7 +1551,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveError {
 
@@ -1564,7 +1564,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorCsvError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorCsvError {
 
@@ -1577,7 +1577,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsCsvError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsCsvError {
 
@@ -1590,7 +1590,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsErrors {
 
@@ -1603,7 +1603,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsXlsxError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsXlsxError {
 
@@ -1616,7 +1616,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportJobErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 &googlemigrationcenterimportjob.GoogleMigrationCenterImportJobValidationReportJobErrors {
 
@@ -1631,7 +1631,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsFileErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsFileErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsFileErrorsList
 ```
@@ -1780,7 +1780,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsFileErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsFileErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsFileErrorsOutputReference
 ```
@@ -2069,7 +2069,7 @@ func InternalValue() GoogleMigrationCenterImportJobExecutionReportExecutionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsList
 ```
@@ -2218,7 +2218,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsOutputReference
 ```
@@ -2529,7 +2529,7 @@ func InternalValue() GoogleMigrationCenterImportJobExecutionReportExecutionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorCsvErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorCsvErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorCsvErrorList
 ```
@@ -2678,7 +2678,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorCsvErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorCsvErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorCsvErrorOutputReference
 ```
@@ -2956,7 +2956,7 @@ func InternalValue() GoogleMigrationCenterImportJobExecutionReportExecutionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorList
 ```
@@ -3105,7 +3105,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsArchiveErrorOutputReference
 ```
@@ -3394,7 +3394,7 @@ func InternalValue() GoogleMigrationCenterImportJobExecutionReportExecutionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsCsvErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsCsvErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsCsvErrorList
 ```
@@ -3543,7 +3543,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsCsvErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsCsvErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsCsvErrorOutputReference
 ```
@@ -3821,7 +3821,7 @@ func InternalValue() GoogleMigrationCenterImportJobExecutionReportExecutionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsErrorsList
 ```
@@ -3970,7 +3970,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsErrorsOutputReference
 ```
@@ -4259,7 +4259,7 @@ func InternalValue() GoogleMigrationCenterImportJobExecutionReportExecutionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsList
 ```
@@ -4408,7 +4408,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsOutputReference
 ```
@@ -4763,7 +4763,7 @@ func InternalValue() GoogleMigrationCenterImportJobExecutionReportExecutionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsXlsxErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsXlsxErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsXlsxErrorList
 ```
@@ -4912,7 +4912,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsXlsxErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsXlsxErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsFileValidationsRowErrorsXlsxErrorOutputReference
 ```
@@ -5201,7 +5201,7 @@ func InternalValue() GoogleMigrationCenterImportJobExecutionReportExecutionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsJobErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsJobErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsJobErrorsList
 ```
@@ -5350,7 +5350,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsJobErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsJobErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsJobErrorsOutputReference
 ```
@@ -5639,7 +5639,7 @@ func InternalValue() GoogleMigrationCenterImportJobExecutionReportExecutionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsList
 ```
@@ -5788,7 +5788,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportExecutionErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportExecutionErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobExecutionReportExecutionErrorsOutputReference
 ```
@@ -6077,7 +6077,7 @@ func InternalValue() GoogleMigrationCenterImportJobExecutionReportExecutionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobExecutionReportList
 ```
@@ -6226,7 +6226,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobExecutionReportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobExecutionReportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobExecutionReportOutputReference
 ```
@@ -6526,7 +6526,7 @@ func InternalValue() GoogleMigrationCenterImportJobExecutionReport
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMigrationCenterImportJobTimeoutsOutputReference
 ```
@@ -6862,7 +6862,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsFileErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsFileErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsFileErrorsList
 ```
@@ -7011,7 +7011,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsFileErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsFileErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsFileErrorsOutputReference
 ```
@@ -7300,7 +7300,7 @@ func InternalValue() GoogleMigrationCenterImportJobValidationReportFileValidatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsList
 ```
@@ -7449,7 +7449,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsOutputReference
 ```
@@ -7760,7 +7760,7 @@ func InternalValue() GoogleMigrationCenterImportJobValidationReportFileValidatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorCsvErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorCsvErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorCsvErrorList
 ```
@@ -7909,7 +7909,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorCsvErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorCsvErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorCsvErrorOutputReference
 ```
@@ -8187,7 +8187,7 @@ func InternalValue() GoogleMigrationCenterImportJobValidationReportFileValidatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorList
 ```
@@ -8336,7 +8336,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsArchiveErrorOutputReference
 ```
@@ -8625,7 +8625,7 @@ func InternalValue() GoogleMigrationCenterImportJobValidationReportFileValidatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsCsvErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsCsvErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsCsvErrorList
 ```
@@ -8774,7 +8774,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsCsvErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsCsvErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsCsvErrorOutputReference
 ```
@@ -9052,7 +9052,7 @@ func InternalValue() GoogleMigrationCenterImportJobValidationReportFileValidatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsErrorsList
 ```
@@ -9201,7 +9201,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsErrorsOutputReference
 ```
@@ -9490,7 +9490,7 @@ func InternalValue() GoogleMigrationCenterImportJobValidationReportFileValidatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsList
 ```
@@ -9639,7 +9639,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsOutputReference
 ```
@@ -9994,7 +9994,7 @@ func InternalValue() GoogleMigrationCenterImportJobValidationReportFileValidatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsXlsxErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsXlsxErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsXlsxErrorList
 ```
@@ -10143,7 +10143,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsXlsxErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsXlsxErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobValidationReportFileValidationsRowErrorsXlsxErrorOutputReference
 ```
@@ -10432,7 +10432,7 @@ func InternalValue() GoogleMigrationCenterImportJobValidationReportFileValidatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportJobErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportJobErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobValidationReportJobErrorsList
 ```
@@ -10581,7 +10581,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportJobErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportJobErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobValidationReportJobErrorsOutputReference
 ```
@@ -10870,7 +10870,7 @@ func InternalValue() GoogleMigrationCenterImportJobValidationReportJobErrors
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterImportJobValidationReportList
 ```
@@ -11019,7 +11019,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportJob.GoogleMigrationCenterImportJobValidationReportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterimportjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterimportjob"
 
 googlemigrationcenterimportjob.NewGoogleMigrationCenterImportJobValidationReportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterImportJobValidationReportOutputReference
 ```

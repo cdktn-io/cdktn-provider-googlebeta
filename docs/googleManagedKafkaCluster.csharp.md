@@ -4,7 +4,7 @@
 
 ### GoogleManagedKafkaCluster <a name="GoogleManagedKafkaCluster" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster google_managed_kafka_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster google_managed_kafka_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.Initializer"></a>
 
@@ -83,6 +83,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.resetBrokerCapacityConfig">ResetBrokerCapacityConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.resetKafkaVersion">ResetKafkaVersion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.resetLabels">ResetLabels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.resetRebalanceConfig">ResetRebalanceConfig</a></code> | *No description.* |
@@ -490,6 +491,12 @@ private void ResetDeletionPolicy()
 private void ResetId()
 ```
 
+##### `ResetKafkaVersion` <a name="ResetKafkaVersion" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.resetKafkaVersion"></a>
+
+```csharp
+private void ResetKafkaVersion()
+```
+
 ##### `ResetLabels` <a name="ResetLabels" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.resetLabels"></a>
 
 ```csharp
@@ -623,7 +630,7 @@ The construct id used in the generated config for the GoogleManagedKafkaCluster 
 
 The id of the existing GoogleManagedKafkaCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,12 +660,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.bootstrapAddress">BootstrapAddress</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.brokerCapacityConfig">BrokerCapacityConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterBrokerCapacityConfigOutputReference">GoogleManagedKafkaClusterBrokerCapacityConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.capacityConfig">CapacityConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterCapacityConfigOutputReference">GoogleManagedKafkaClusterCapacityConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.createTime">CreateTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.effectiveLabels">EffectiveLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.gcpConfig">GcpConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigOutputReference">GoogleManagedKafkaClusterGcpConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.publicClusterDetails">PublicClusterDetails</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList">GoogleManagedKafkaClusterPublicClusterDetailsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.rebalanceConfig">RebalanceConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterRebalanceConfigOutputReference">GoogleManagedKafkaClusterRebalanceConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.state">State</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.terraformLabels">TerraformLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
@@ -671,6 +680,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.gcpConfigInput">GcpConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfig">GoogleManagedKafkaClusterGcpConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.kafkaVersionInput">KafkaVersionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.labelsInput">LabelsInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.locationInput">LocationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
@@ -680,6 +690,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.clusterId">ClusterId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.id">Id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.kafkaVersion">KafkaVersion</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.location">Location</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.project">Project</a></code> | <code>string</code> | *No description.* |
@@ -828,6 +839,16 @@ public (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisione
 
 ---
 
+##### `BootstrapAddress`<sup>Required</sup> <a name="BootstrapAddress" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.bootstrapAddress"></a>
+
+```csharp
+public string BootstrapAddress { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `BrokerCapacityConfig`<sup>Required</sup> <a name="BrokerCapacityConfig" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.brokerCapacityConfig"></a>
 
 ```csharp
@@ -885,6 +906,16 @@ public string Name { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `PublicClusterDetails`<sup>Required</sup> <a name="PublicClusterDetails" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.publicClusterDetails"></a>
+
+```csharp
+public GoogleManagedKafkaClusterPublicClusterDetailsList PublicClusterDetails { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList">GoogleManagedKafkaClusterPublicClusterDetailsList</a>
 
 ---
 
@@ -1008,6 +1039,16 @@ public string IdInput { get; }
 
 ---
 
+##### `KafkaVersionInput`<sup>Optional</sup> <a name="KafkaVersionInput" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.kafkaVersionInput"></a>
+
+```csharp
+public string KafkaVersionInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `LabelsInput`<sup>Optional</sup> <a name="LabelsInput" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.labelsInput"></a>
 
 ```csharp
@@ -1098,6 +1139,16 @@ public string Id { get; }
 
 ---
 
+##### `KafkaVersion`<sup>Required</sup> <a name="KafkaVersion" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.kafkaVersion"></a>
+
+```csharp
+public string KafkaVersion { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `Labels`<sup>Required</sup> <a name="Labels" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.property.labels"></a>
 
 ```csharp
@@ -1178,7 +1229,7 @@ public string DiskSizeGib { get; set; }
 
 The disk to provision for each broker in Gibibytes. Minimum: 100 GiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#disk_size_gib GoogleManagedKafkaCluster#disk_size_gib}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#disk_size_gib GoogleManagedKafkaCluster#disk_size_gib}
 
 ---
 
@@ -1216,7 +1267,7 @@ The memory to provision for the cluster in bytes.
 
 The value must be between 1 GiB and 8 GiB per vCPU. Ex. 1024Mi, 4Gi.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#memory_bytes GoogleManagedKafkaCluster#memory_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#memory_bytes GoogleManagedKafkaCluster#memory_bytes}
 
 ---
 
@@ -1230,7 +1281,7 @@ public string VcpuCount { get; set; }
 
 The number of vCPUs to provision for the cluster. The minimum is 3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#vcpu_count GoogleManagedKafkaCluster#vcpu_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#vcpu_count GoogleManagedKafkaCluster#vcpu_count}
 
 ---
 
@@ -1256,6 +1307,7 @@ new GoogleManagedKafkaClusterConfig {
     GoogleManagedKafkaClusterBrokerCapacityConfig BrokerCapacityConfig = null,
     string DeletionPolicy = null,
     string Id = null,
+    string KafkaVersion = null,
     System.Collections.Generic.IDictionary<string, string> Labels = null,
     string Project = null,
     GoogleManagedKafkaClusterRebalanceConfig RebalanceConfig = null,
@@ -1281,9 +1333,10 @@ new GoogleManagedKafkaClusterConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.location">Location</a></code> | <code>string</code> | ID of the location of the Kafka resource. See https://cloud.google.com/managed-kafka/docs/locations for a list of supported locations. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.brokerCapacityConfig">BrokerCapacityConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterBrokerCapacityConfig">GoogleManagedKafkaClusterBrokerCapacityConfig</a></code> | broker_capacity_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#id GoogleManagedKafkaCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#id GoogleManagedKafkaCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.kafkaVersion">KafkaVersion</a></code> | <code>string</code> | The Apache Kafka version of the cluster (for example, '3.7.x', '4.3.x'). If not specified during cluster creation, defaults to '3.7.x'. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | List of label KEY=VALUE pairs to add. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#project GoogleManagedKafkaCluster#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#project GoogleManagedKafkaCluster#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.rebalanceConfig">RebalanceConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterRebalanceConfig">GoogleManagedKafkaClusterRebalanceConfig</a></code> | rebalance_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts">GoogleManagedKafkaClusterTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.tlsConfig">TlsConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfig">GoogleManagedKafkaClusterTlsConfig</a></code> | tls_config block. |
@@ -1370,7 +1423,7 @@ public GoogleManagedKafkaClusterCapacityConfig CapacityConfig { get; set; }
 
 capacity_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#capacity_config GoogleManagedKafkaCluster#capacity_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#capacity_config GoogleManagedKafkaCluster#capacity_config}
 
 ---
 
@@ -1386,7 +1439,7 @@ The ID to use for the cluster, which will become the final component of the clus
 
 The ID must be 1-63 characters long, and match the regular expression '[a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?' to comply with RFC 1035. This value is structured like: 'my-cluster-id'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#cluster_id GoogleManagedKafkaCluster#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#cluster_id GoogleManagedKafkaCluster#cluster_id}
 
 ---
 
@@ -1400,7 +1453,7 @@ public GoogleManagedKafkaClusterGcpConfig GcpConfig { get; set; }
 
 gcp_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#gcp_config GoogleManagedKafkaCluster#gcp_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#gcp_config GoogleManagedKafkaCluster#gcp_config}
 
 ---
 
@@ -1414,7 +1467,7 @@ public string Location { get; set; }
 
 ID of the location of the Kafka resource. See https://cloud.google.com/managed-kafka/docs/locations for a list of supported locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#location GoogleManagedKafkaCluster#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#location GoogleManagedKafkaCluster#location}
 
 ---
 
@@ -1428,7 +1481,7 @@ public GoogleManagedKafkaClusterBrokerCapacityConfig BrokerCapacityConfig { get;
 
 broker_capacity_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#broker_capacity_config GoogleManagedKafkaCluster#broker_capacity_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#broker_capacity_config GoogleManagedKafkaCluster#broker_capacity_config}
 
 ---
 
@@ -1449,7 +1502,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#deletion_policy GoogleManagedKafkaCluster#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#deletion_policy GoogleManagedKafkaCluster#deletion_policy}
 
 ---
 
@@ -1461,10 +1514,24 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#id GoogleManagedKafkaCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#id GoogleManagedKafkaCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `KafkaVersion`<sup>Optional</sup> <a name="KafkaVersion" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.kafkaVersion"></a>
+
+```csharp
+public string KafkaVersion { get; set; }
+```
+
+- *Type:* string
+
+The Apache Kafka version of the cluster (for example, '3.7.x', '4.3.x'). If not specified during cluster creation, defaults to '3.7.x'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#kafka_version GoogleManagedKafkaCluster#kafka_version}
 
 ---
 
@@ -1483,7 +1550,7 @@ Keys must start with a lowercase character and contain only hyphens (-), undersc
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#labels GoogleManagedKafkaCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#labels GoogleManagedKafkaCluster#labels}
 
 ---
 
@@ -1495,7 +1562,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#project GoogleManagedKafkaCluster#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#project GoogleManagedKafkaCluster#project}.
 
 ---
 
@@ -1509,7 +1576,7 @@ public GoogleManagedKafkaClusterRebalanceConfig RebalanceConfig { get; set; }
 
 rebalance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#rebalance_config GoogleManagedKafkaCluster#rebalance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#rebalance_config GoogleManagedKafkaCluster#rebalance_config}
 
 ---
 
@@ -1523,7 +1590,7 @@ public GoogleManagedKafkaClusterTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#timeouts GoogleManagedKafkaCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#timeouts GoogleManagedKafkaCluster#timeouts}
 
 ---
 
@@ -1537,7 +1604,7 @@ public GoogleManagedKafkaClusterTlsConfig TlsConfig { get; set; }
 
 tls_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#tls_config GoogleManagedKafkaCluster#tls_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#tls_config GoogleManagedKafkaCluster#tls_config}
 
 ---
 
@@ -1573,7 +1640,7 @@ public GoogleManagedKafkaClusterGcpConfigAccessConfig AccessConfig { get; set; }
 
 access_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#access_config GoogleManagedKafkaCluster#access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#access_config GoogleManagedKafkaCluster#access_config}
 
 ---
 
@@ -1589,7 +1656,7 @@ The Cloud KMS Key name to use for encryption.
 
 The key must be located in the same region as the cluster and cannot be changed. Must be in the format 'projects/PROJECT_ID/locations/LOCATION/keyRings/KEY_RING/cryptoKeys/KEY'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#kms_key GoogleManagedKafkaCluster#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#kms_key GoogleManagedKafkaCluster#kms_key}
 
 ---
 
@@ -1601,7 +1668,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.GoogleBeta;
 
 new GoogleManagedKafkaClusterGcpConfigAccessConfig {
-    IResolvable|GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs[] NetworkConfigs
+    IResolvable|GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs[] NetworkConfigs,
+    GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig PublicClusterConfig = null
 };
 ```
 
@@ -1610,6 +1678,7 @@ new GoogleManagedKafkaClusterGcpConfigAccessConfig {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfig.property.networkConfigs">NetworkConfigs</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs">GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs</a>[]</code> | network_configs block. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfig.property.publicClusterConfig">PublicClusterConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig">GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig</a></code> | public_cluster_config block. |
 
 ---
 
@@ -1623,7 +1692,21 @@ public IResolvable|GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs[
 
 network_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#network_configs GoogleManagedKafkaCluster#network_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#network_configs GoogleManagedKafkaCluster#network_configs}
+
+---
+
+##### `PublicClusterConfig`<sup>Optional</sup> <a name="PublicClusterConfig" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfig.property.publicClusterConfig"></a>
+
+```csharp
+public GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig PublicClusterConfig { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig">GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig</a>
+
+public_cluster_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#public_cluster_config GoogleManagedKafkaCluster#public_cluster_config}
 
 ---
 
@@ -1659,9 +1742,58 @@ Name of the VPC subnet from which the cluster is accessible.
 
 Both broker and bootstrap server IP addresses and DNS entries are automatically created in the subnet. There can only be one subnet per network, and the subnet must be located in the same region as the cluster. The project may differ. The name of the subnet must be in the format 'projects/PROJECT_ID/regions/REGION/subnetworks/SUBNET'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#subnet GoogleManagedKafkaCluster#subnet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#subnet GoogleManagedKafkaCluster#subnet}
 
 ---
+
+### GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig <a name="GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig {
+    string[] AllowedSourceIpRanges
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig.property.allowedSourceIpRanges">AllowedSourceIpRanges</a></code> | <code>string[]</code> | A list of IPv4 addresses or CIDR ranges that are allowed to connect to the cluster. |
+
+---
+
+##### `AllowedSourceIpRanges`<sup>Required</sup> <a name="AllowedSourceIpRanges" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig.property.allowedSourceIpRanges"></a>
+
+```csharp
+public string[] AllowedSourceIpRanges { get; set; }
+```
+
+- *Type:* string[]
+
+A list of IPv4 addresses or CIDR ranges that are allowed to connect to the cluster.
+
+To protect your cluster, allow access from only trusted external IP ranges. Don't expose your cluster to untrusted ranges.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#allowed_source_ip_ranges GoogleManagedKafkaCluster#allowed_source_ip_ranges}
+
+---
+
+### GoogleManagedKafkaClusterPublicClusterDetails <a name="GoogleManagedKafkaClusterPublicClusterDetails" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetails"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetails.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleManagedKafkaClusterPublicClusterDetails {
+
+};
+```
+
 
 ### GoogleManagedKafkaClusterRebalanceConfig <a name="GoogleManagedKafkaClusterRebalanceConfig" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterRebalanceConfig"></a>
 
@@ -1693,7 +1825,7 @@ public string Mode { get; set; }
 
 The rebalance behavior for the cluster. When not specified, defaults to 'NO_REBALANCE'. Possible values: 'MODE_UNSPECIFIED', 'NO_REBALANCE', 'AUTO_REBALANCE_ON_SCALE_UP'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#mode GoogleManagedKafkaCluster#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#mode GoogleManagedKafkaCluster#mode}
 
 ---
 
@@ -1715,9 +1847,9 @@ new GoogleManagedKafkaClusterTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#create GoogleManagedKafkaCluster#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#delete GoogleManagedKafkaCluster#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#update GoogleManagedKafkaCluster#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#create GoogleManagedKafkaCluster#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#delete GoogleManagedKafkaCluster#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#update GoogleManagedKafkaCluster#update}. |
 
 ---
 
@@ -1729,7 +1861,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#create GoogleManagedKafkaCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#create GoogleManagedKafkaCluster#create}.
 
 ---
 
@@ -1741,7 +1873,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#delete GoogleManagedKafkaCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#delete GoogleManagedKafkaCluster#delete}.
 
 ---
 
@@ -1753,7 +1885,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#update GoogleManagedKafkaCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#update GoogleManagedKafkaCluster#update}.
 
 ---
 
@@ -1791,7 +1923,7 @@ The rules for mapping mTLS certificate Distinguished Names (DNs) to shortened pr
 
 This field corresponds exactly to the ssl.principal.mapping.rules broker config and matches the format and syntax defined in the Apache Kafka documentation. Setting or modifying this field will trigger a rolling restart of the Kafka brokers to apply the change. An empty string means that the default Kafka behavior is used. Example: 'RULE:^CN=(.?),OU=ServiceUsers.$/$1@example.com/,DEFAULT'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#ssl_principal_mapping_rules GoogleManagedKafkaCluster#ssl_principal_mapping_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#ssl_principal_mapping_rules GoogleManagedKafkaCluster#ssl_principal_mapping_rules}
 
 ---
 
@@ -1805,7 +1937,7 @@ public GoogleManagedKafkaClusterTlsConfigTrustConfig TrustConfig { get; set; }
 
 trust_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#trust_config GoogleManagedKafkaCluster#trust_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#trust_config GoogleManagedKafkaCluster#trust_config}
 
 ---
 
@@ -1839,7 +1971,7 @@ public IResolvable|GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs[] Cas
 
 cas_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#cas_configs GoogleManagedKafkaCluster#cas_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#cas_configs GoogleManagedKafkaCluster#cas_configs}
 
 ---
 
@@ -1875,7 +2007,7 @@ The name of the CA pool to pull CA certificates from.
 
 The CA pool does not need to be in the same project or location as the Kafka cluster. Must be in the format 'projects/PROJECT_ID/locations/LOCATION/caPools/CA_POOL_ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_managed_kafka_cluster#ca_pool GoogleManagedKafkaCluster#ca_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_managed_kafka_cluster#ca_pool GoogleManagedKafkaCluster#ca_pool}
 
 ---
 
@@ -2952,6 +3084,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.putNetworkConfigs">PutNetworkConfigs</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.putPublicClusterConfig">PutPublicClusterConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.resetPublicClusterConfig">ResetPublicClusterConfig</a></code> | *No description.* |
 
 ---
 
@@ -3117,6 +3251,24 @@ private void PutNetworkConfigs(IResolvable|GoogleManagedKafkaClusterGcpConfigAcc
 
 ---
 
+##### `PutPublicClusterConfig` <a name="PutPublicClusterConfig" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.putPublicClusterConfig"></a>
+
+```csharp
+private void PutPublicClusterConfig(GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.putPublicClusterConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig">GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig</a>
+
+---
+
+##### `ResetPublicClusterConfig` <a name="ResetPublicClusterConfig" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.resetPublicClusterConfig"></a>
+
+```csharp
+private void ResetPublicClusterConfig()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -3125,7 +3277,9 @@ private void PutNetworkConfigs(IResolvable|GoogleManagedKafkaClusterGcpConfigAcc
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.property.networkConfigs">NetworkConfigs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList">GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.property.publicClusterConfig">PublicClusterConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference">GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.property.networkConfigsInput">NetworkConfigsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs">GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.property.publicClusterConfigInput">PublicClusterConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig">GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfig">GoogleManagedKafkaClusterGcpConfigAccessConfig</a></code> | *No description.* |
 
 ---
@@ -3164,6 +3318,16 @@ public GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList NetworkC
 
 ---
 
+##### `PublicClusterConfig`<sup>Required</sup> <a name="PublicClusterConfig" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.property.publicClusterConfig"></a>
+
+```csharp
+public GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference PublicClusterConfig { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference">GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference</a>
+
+---
+
 ##### `NetworkConfigsInput`<sup>Optional</sup> <a name="NetworkConfigsInput" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.property.networkConfigsInput"></a>
 
 ```csharp
@@ -3174,6 +3338,16 @@ public IResolvable|GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs[
 
 ---
 
+##### `PublicClusterConfigInput`<sup>Optional</sup> <a name="PublicClusterConfigInput" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.property.publicClusterConfigInput"></a>
+
+```csharp
+public GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig PublicClusterConfigInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig">GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig</a>
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.property.internalValue"></a>
 
 ```csharp
@@ -3181,6 +3355,277 @@ public GoogleManagedKafkaClusterGcpConfigAccessConfig InternalValue { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfig">GoogleManagedKafkaClusterGcpConfigAccessConfig</a>
+
+---
+
+
+### GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference <a name="GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.property.allowedSourceIpRangesInput">AllowedSourceIpRangesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.property.allowedSourceIpRanges">AllowedSourceIpRanges</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig">GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AllowedSourceIpRangesInput`<sup>Optional</sup> <a name="AllowedSourceIpRangesInput" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.property.allowedSourceIpRangesInput"></a>
+
+```csharp
+public string[] AllowedSourceIpRangesInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `AllowedSourceIpRanges`<sup>Required</sup> <a name="AllowedSourceIpRanges" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.property.allowedSourceIpRanges"></a>
+
+```csharp
+public string[] AllowedSourceIpRanges { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig">GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig</a>
 
 ---
 
@@ -3494,6 +3939,444 @@ public GoogleManagedKafkaClusterGcpConfig InternalValue { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfig">GoogleManagedKafkaClusterGcpConfig</a>
+
+---
+
+
+### GoogleManagedKafkaClusterPublicClusterDetailsList <a name="GoogleManagedKafkaClusterPublicClusterDetailsList" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleManagedKafkaClusterPublicClusterDetailsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.get"></a>
+
+```csharp
+private GoogleManagedKafkaClusterPublicClusterDetailsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+
+### GoogleManagedKafkaClusterPublicClusterDetailsOutputReference <a name="GoogleManagedKafkaClusterPublicClusterDetailsOutputReference" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleManagedKafkaClusterPublicClusterDetailsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.property.discoveryDnsRecords">DiscoveryDnsRecords</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.property.externalIpAddresses">ExternalIpAddresses</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetails">GoogleManagedKafkaClusterPublicClusterDetails</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DiscoveryDnsRecords`<sup>Required</sup> <a name="DiscoveryDnsRecords" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.property.discoveryDnsRecords"></a>
+
+```csharp
+public string[] DiscoveryDnsRecords { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `ExternalIpAddresses`<sup>Required</sup> <a name="ExternalIpAddresses" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.property.externalIpAddresses"></a>
+
+```csharp
+public string[] ExternalIpAddresses { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleManagedKafkaClusterPublicClusterDetails InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetails">GoogleManagedKafkaClusterPublicClusterDetails</a>
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### GoogleCesSecuritySettings <a name="GoogleCesSecuritySettings" id="@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings google_ces_security_settings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings google_ces_security_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecessecuritysettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecessecuritysettings"
 
 googlecessecuritysettings.NewGoogleCesSecuritySettings(scope Construct, id *string, config GoogleCesSecuritySettingsConfig) GoogleCesSecuritySettings
 ```
@@ -454,7 +454,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecessecuritysettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecessecuritysettings"
 
 googlecessecuritysettings.GoogleCesSecuritySettings_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecessecuritysettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecessecuritysettings"
 
 googlecessecuritysettings.GoogleCesSecuritySettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ googlecessecuritysettings.GoogleCesSecuritySettings_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecessecuritysettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecessecuritysettings"
 
 googlecessecuritysettings.GoogleCesSecuritySettings_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlecessecuritysettings.GoogleCesSecuritySettings_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecessecuritysettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecessecuritysettings"
 
 googlecessecuritysettings.GoogleCesSecuritySettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the GoogleCesSecuritySettings 
 
 The id of the existing GoogleCesSecuritySettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -897,7 +897,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecessecuritysettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecessecuritysettings"
 
 &googlecessecuritysettings.GoogleCesSecuritySettingsConfig {
 	Connection: interface{},
@@ -908,10 +908,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Location: *string,
-	EndpointControlPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesSecuritySettings.GoogleCesSecuritySettingsEndpointControlPolicy,
+	EndpointControlPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesSecuritySettings.GoogleCesSecuritySettingsEndpointControlPolicy,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesSecuritySettings.GoogleCesSecuritySettingsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleCesSecuritySettings.GoogleCesSecuritySettingsTimeouts,
 }
 ```
 
@@ -928,8 +928,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 | <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsConfig.property.location">Location</a></code> | <code>*string</code> | The location of the security settings. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsConfig.property.endpointControlPolicy">EndpointControlPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsEndpointControlPolicy">GoogleCesSecuritySettingsEndpointControlPolicy</a></code> | endpoint_control_policy block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#id GoogleCesSecuritySettings#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#project GoogleCesSecuritySettings#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#id GoogleCesSecuritySettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#project GoogleCesSecuritySettings#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsTimeouts">GoogleCesSecuritySettingsTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1014,7 +1014,7 @@ Location *string
 
 The location of the security settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#location GoogleCesSecuritySettings#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#location GoogleCesSecuritySettings#location}
 
 ---
 
@@ -1028,7 +1028,7 @@ EndpointControlPolicy GoogleCesSecuritySettingsEndpointControlPolicy
 
 endpoint_control_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#endpoint_control_policy GoogleCesSecuritySettings#endpoint_control_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#endpoint_control_policy GoogleCesSecuritySettings#endpoint_control_policy}
 
 ---
 
@@ -1040,7 +1040,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#id GoogleCesSecuritySettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#id GoogleCesSecuritySettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1055,7 +1055,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#project GoogleCesSecuritySettings#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#project GoogleCesSecuritySettings#project}.
 
 ---
 
@@ -1069,7 +1069,7 @@ Timeouts GoogleCesSecuritySettingsTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#timeouts GoogleCesSecuritySettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#timeouts GoogleCesSecuritySettings#timeouts}
 
 ---
 
@@ -1078,7 +1078,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsEndpointControlPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecessecuritysettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecessecuritysettings"
 
 &googlecessecuritysettings.GoogleCesSecuritySettingsEndpointControlPolicy {
 	AllowedOrigins: *[]*string,
@@ -1105,7 +1105,7 @@ AllowedOrigins *[]*string
 
 Optional. The allowed HTTP(s) origins that tools in the App are able to directly call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#allowed_origins GoogleCesSecuritySettings#allowed_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#allowed_origins GoogleCesSecuritySettings#allowed_origins}
 
 ---
 
@@ -1119,7 +1119,7 @@ EnforcementScope *string
 
 Optional. The scope in which this policy's allowedOrigins list is enforced. Possible values: ["ENFORCEMENT_SCOPE_UNSPECIFIED", "VPCSC_ONLY", "ALWAYS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#enforcement_scope GoogleCesSecuritySettings#enforcement_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#enforcement_scope GoogleCesSecuritySettings#enforcement_scope}
 
 ---
 
@@ -1128,7 +1128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecessecuritysettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecessecuritysettings"
 
 &googlecessecuritysettings.GoogleCesSecuritySettingsTimeouts {
 	Create: *string,
@@ -1141,9 +1141,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#create GoogleCesSecuritySettings#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#delete GoogleCesSecuritySettings#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#update GoogleCesSecuritySettings#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#create GoogleCesSecuritySettings#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#delete GoogleCesSecuritySettings#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#update GoogleCesSecuritySettings#update}. |
 
 ---
 
@@ -1155,7 +1155,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#create GoogleCesSecuritySettings#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#create GoogleCesSecuritySettings#create}.
 
 ---
 
@@ -1167,7 +1167,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#delete GoogleCesSecuritySettings#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#delete GoogleCesSecuritySettings#delete}.
 
 ---
 
@@ -1179,7 +1179,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_security_settings#update GoogleCesSecuritySettings#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_security_settings#update GoogleCesSecuritySettings#update}.
 
 ---
 
@@ -1190,7 +1190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsEndpointControlPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecessecuritysettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecessecuritysettings"
 
 googlecessecuritysettings.NewGoogleCesSecuritySettingsEndpointControlPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesSecuritySettingsEndpointControlPolicyOutputReference
 ```
@@ -1497,7 +1497,7 @@ func InternalValue() GoogleCesSecuritySettingsEndpointControlPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesSecuritySettings.GoogleCesSecuritySettingsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecessecuritysettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecessecuritysettings"
 
 googlecessecuritysettings.NewGoogleCesSecuritySettingsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesSecuritySettingsTimeoutsOutputReference
 ```

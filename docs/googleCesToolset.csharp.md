@@ -4,7 +4,7 @@
 
 ### GoogleCesToolset <a name="GoogleCesToolset" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset google_ces_toolset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset google_ces_toolset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolset.Initializer"></a>
 
@@ -638,7 +638,7 @@ The construct id used in the generated config for the GoogleCesToolset to import
 
 The id of the existing GoogleCesToolset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1259,10 +1259,10 @@ new GoogleCesToolsetConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.description">Description</a></code> | <code>string</code> | The description of the toolset. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.displayName">DisplayName</a></code> | <code>string</code> | The display name of the toolset. Must be unique within the same app. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.executionType">ExecutionType</a></code> | <code>string</code> | Possible values: SYNCHRONOUS ASYNCHRONOUS. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#id GoogleCesToolset#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#id GoogleCesToolset#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.mcpToolset">McpToolset</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolset">GoogleCesToolsetMcpToolset</a></code> | mcp_toolset block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.openApiToolset">OpenApiToolset</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolset">GoogleCesToolsetOpenApiToolset</a></code> | open_api_toolset block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#project GoogleCesToolset#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#project GoogleCesToolset#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.timeout">Timeout</a></code> | <code>string</code> | The timeout for the toolset execution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetTimeouts">GoogleCesToolsetTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.property.toolFakeConfig">ToolFakeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetToolFakeConfig">GoogleCesToolsetToolFakeConfig</a></code> | tool_fake_config block. |
@@ -1349,7 +1349,7 @@ public string App { get; set; }
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#app GoogleCesToolset#app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#app GoogleCesToolset#app}
 
 ---
 
@@ -1363,7 +1363,7 @@ public string Location { get; set; }
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#location GoogleCesToolset#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#location GoogleCesToolset#location}
 
 ---
 
@@ -1380,7 +1380,7 @@ The ID to use for the toolset, which will become the final component of the tool
 If not provided, a unique ID will be
 automatically assigned for the toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#toolset_id GoogleCesToolset#toolset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#toolset_id GoogleCesToolset#toolset_id}
 
 ---
 
@@ -1394,7 +1394,7 @@ public GoogleCesToolsetConnectorToolset ConnectorToolset { get; set; }
 
 connector_toolset block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#connector_toolset GoogleCesToolset#connector_toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#connector_toolset GoogleCesToolset#connector_toolset}
 
 ---
 
@@ -1415,7 +1415,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#deletion_policy GoogleCesToolset#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#deletion_policy GoogleCesToolset#deletion_policy}
 
 ---
 
@@ -1429,7 +1429,7 @@ public string Description { get; set; }
 
 The description of the toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#description GoogleCesToolset#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#description GoogleCesToolset#description}
 
 ---
 
@@ -1443,7 +1443,7 @@ public string DisplayName { get; set; }
 
 The display name of the toolset. Must be unique within the same app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#display_name GoogleCesToolset#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#display_name GoogleCesToolset#display_name}
 
 ---
 
@@ -1457,7 +1457,7 @@ public string ExecutionType { get; set; }
 
 Possible values: SYNCHRONOUS ASYNCHRONOUS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#execution_type GoogleCesToolset#execution_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#execution_type GoogleCesToolset#execution_type}
 
 ---
 
@@ -1469,7 +1469,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#id GoogleCesToolset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#id GoogleCesToolset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1486,7 +1486,7 @@ public GoogleCesToolsetMcpToolset McpToolset { get; set; }
 
 mcp_toolset block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#mcp_toolset GoogleCesToolset#mcp_toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#mcp_toolset GoogleCesToolset#mcp_toolset}
 
 ---
 
@@ -1500,7 +1500,7 @@ public GoogleCesToolsetOpenApiToolset OpenApiToolset { get; set; }
 
 open_api_toolset block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#open_api_toolset GoogleCesToolset#open_api_toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#open_api_toolset GoogleCesToolset#open_api_toolset}
 
 ---
 
@@ -1512,7 +1512,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#project GoogleCesToolset#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#project GoogleCesToolset#project}.
 
 ---
 
@@ -1530,7 +1530,7 @@ If not set, the default timeout is
 30 seconds for 'SYNCHRONOUS' toolsets and 60 seconds for 'ASYNCHRONOUS'
 toolsets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#timeout GoogleCesToolset#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#timeout GoogleCesToolset#timeout}
 
 ---
 
@@ -1544,7 +1544,7 @@ public GoogleCesToolsetTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#timeouts GoogleCesToolset#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#timeouts GoogleCesToolset#timeouts}
 
 ---
 
@@ -1558,7 +1558,7 @@ public GoogleCesToolsetToolFakeConfig ToolFakeConfig { get; set; }
 
 tool_fake_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#tool_fake_config GoogleCesToolset#tool_fake_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#tool_fake_config GoogleCesToolset#tool_fake_config}
 
 ---
 
@@ -1596,7 +1596,7 @@ public string Connection { get; set; }
 
 The full resource name of the referenced Integration Connectors Connection. Format: 'projects/{project}/locations/{location}/connections/{connection}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#connection GoogleCesToolset#connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#connection GoogleCesToolset#connection}
 
 ---
 
@@ -1610,7 +1610,7 @@ public IResolvable|GoogleCesToolsetConnectorToolsetConnectorActions[] ConnectorA
 
 connector_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#connector_actions GoogleCesToolset#connector_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#connector_actions GoogleCesToolset#connector_actions}
 
 ---
 
@@ -1624,7 +1624,7 @@ public GoogleCesToolsetConnectorToolsetAuthConfig AuthConfig { get; set; }
 
 auth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#auth_config GoogleCesToolset#auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#auth_config GoogleCesToolset#auth_config}
 
 ---
 
@@ -1660,7 +1660,7 @@ public GoogleCesToolsetConnectorToolsetAuthConfigOauth2AuthCodeConfig Oauth2Auth
 
 oauth2_auth_code_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#oauth2_auth_code_config GoogleCesToolset#oauth2_auth_code_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#oauth2_auth_code_config GoogleCesToolset#oauth2_auth_code_config}
 
 ---
 
@@ -1674,7 +1674,7 @@ public GoogleCesToolsetConnectorToolsetAuthConfigOauth2JwtBearerConfig Oauth2Jwt
 
 oauth2_jwt_bearer_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#oauth2_jwt_bearer_config GoogleCesToolset#oauth2_jwt_bearer_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#oauth2_jwt_bearer_config GoogleCesToolset#oauth2_jwt_bearer_config}
 
 ---
 
@@ -1708,7 +1708,7 @@ public string OauthToken { get; set; }
 
 Oauth token parameter name to pass through. Must be in the format '$context.variables.<name_of_variable>'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#oauth_token GoogleCesToolset#oauth_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#oauth_token GoogleCesToolset#oauth_token}
 
 ---
 
@@ -1746,7 +1746,7 @@ public string ClientKey { get; set; }
 
 Client parameter name to pass through. Must be in the format '$context.variables.<name_of_variable>'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#client_key GoogleCesToolset#client_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#client_key GoogleCesToolset#client_key}
 
 ---
 
@@ -1760,7 +1760,7 @@ public string Issuer { get; set; }
 
 Issuer parameter name to pass through. Must be in the format '$context.variables.<name_of_variable>'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#issuer GoogleCesToolset#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#issuer GoogleCesToolset#issuer}
 
 ---
 
@@ -1774,7 +1774,7 @@ public string Subject { get; set; }
 
 Subject parameter name to pass through. Must be in the format '$context.variables.<name_of_variable>'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#subject GoogleCesToolset#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#subject GoogleCesToolset#subject}
 
 ---
 
@@ -1814,7 +1814,7 @@ public string ConnectionActionId { get; set; }
 
 ID of a Connection action for the tool to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#connection_action_id GoogleCesToolset#connection_action_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#connection_action_id GoogleCesToolset#connection_action_id}
 
 ---
 
@@ -1828,7 +1828,7 @@ public GoogleCesToolsetConnectorToolsetConnectorActionsEntityOperation EntityOpe
 
 entity_operation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#entity_operation GoogleCesToolset#entity_operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#entity_operation GoogleCesToolset#entity_operation}
 
 ---
 
@@ -1842,7 +1842,7 @@ public string[] InputFields { get; set; }
 
 Entity fields to use as inputs for the operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#input_fields GoogleCesToolset#input_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#input_fields GoogleCesToolset#input_fields}
 
 ---
 
@@ -1856,7 +1856,7 @@ public string[] OutputFields { get; set; }
 
 Entity fields to return from the operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#output_fields GoogleCesToolset#output_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#output_fields GoogleCesToolset#output_fields}
 
 ---
 
@@ -1892,7 +1892,7 @@ public string EntityId { get; set; }
 
 ID of the entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#entity_id GoogleCesToolset#entity_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#entity_id GoogleCesToolset#entity_id}
 
 ---
 
@@ -1906,7 +1906,7 @@ public string Operation { get; set; }
 
 Operation to perform on the entity. Possible values: LIST GET CREATE UPDATE DELETE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#operation GoogleCesToolset#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#operation GoogleCesToolset#operation}
 
 ---
 
@@ -1922,7 +1922,8 @@ new GoogleCesToolsetMcpToolset {
     GoogleCesToolsetMcpToolsetApiAuthentication ApiAuthentication = null,
     System.Collections.Generic.IDictionary<string, string> CustomHeaders = null,
     GoogleCesToolsetMcpToolsetServiceDirectoryConfig ServiceDirectoryConfig = null,
-    GoogleCesToolsetMcpToolsetTlsConfig TlsConfig = null
+    GoogleCesToolsetMcpToolsetTlsConfig TlsConfig = null,
+    IResolvable|GoogleCesToolsetMcpToolsetToolOverrides[] ToolOverrides = null
 };
 ```
 
@@ -1935,6 +1936,7 @@ new GoogleCesToolsetMcpToolset {
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolset.property.customHeaders">CustomHeaders</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | The custom headers to send in the request to the MCP server. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolset.property.serviceDirectoryConfig">ServiceDirectoryConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetServiceDirectoryConfig">GoogleCesToolsetMcpToolsetServiceDirectoryConfig</a></code> | service_directory_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolset.property.tlsConfig">TlsConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfig">GoogleCesToolsetMcpToolsetTlsConfig</a></code> | tls_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolset.property.toolOverrides">ToolOverrides</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides">GoogleCesToolsetMcpToolsetToolOverrides</a>[]</code> | tool_overrides block. |
 
 ---
 
@@ -1948,7 +1950,7 @@ public string ServerAddress { get; set; }
 
 The address of the MCP server, for example, "https://example.com/mcp/". If the server is built with the MCP SDK, the url should be suffixed with "/mcp/". Only Streamable HTTP transport based servers are supported. See https://modelcontextprotocol.io/specification/2025-03-26/basic/transports#streamable-http for more details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#server_address GoogleCesToolset#server_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#server_address GoogleCesToolset#server_address}
 
 ---
 
@@ -1962,7 +1964,7 @@ public GoogleCesToolsetMcpToolsetApiAuthentication ApiAuthentication { get; set;
 
 api_authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#api_authentication GoogleCesToolset#api_authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#api_authentication GoogleCesToolset#api_authentication}
 
 ---
 
@@ -1982,7 +1984,7 @@ set in the session variables. See
 https://docs.cloud.google.com/customer-engagement-ai/conversational-agents/ps/tool/open-api#openapi-injection
 for more details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#custom_headers GoogleCesToolset#custom_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#custom_headers GoogleCesToolset#custom_headers}
 
 ---
 
@@ -1996,7 +1998,7 @@ public GoogleCesToolsetMcpToolsetServiceDirectoryConfig ServiceDirectoryConfig {
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#service_directory_config GoogleCesToolset#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#service_directory_config GoogleCesToolset#service_directory_config}
 
 ---
 
@@ -2010,7 +2012,21 @@ public GoogleCesToolsetMcpToolsetTlsConfig TlsConfig { get; set; }
 
 tls_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#tls_config GoogleCesToolset#tls_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#tls_config GoogleCesToolset#tls_config}
+
+---
+
+##### `ToolOverrides`<sup>Optional</sup> <a name="ToolOverrides" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolset.property.toolOverrides"></a>
+
+```csharp
+public IResolvable|GoogleCesToolsetMcpToolsetToolOverrides[] ToolOverrides { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides">GoogleCesToolsetMcpToolsetToolOverrides</a>[]
+
+tool_overrides block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#tool_overrides GoogleCesToolset#tool_overrides}
 
 ---
 
@@ -2052,7 +2068,7 @@ public GoogleCesToolsetMcpToolsetApiAuthenticationApiKeyConfig ApiKeyConfig { ge
 
 api_key_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#api_key_config GoogleCesToolset#api_key_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#api_key_config GoogleCesToolset#api_key_config}
 
 ---
 
@@ -2066,7 +2082,7 @@ public GoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfig BearerTokenC
 
 bearer_token_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#bearer_token_config GoogleCesToolset#bearer_token_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#bearer_token_config GoogleCesToolset#bearer_token_config}
 
 ---
 
@@ -2080,7 +2096,7 @@ public GoogleCesToolsetMcpToolsetApiAuthenticationOauthConfig OauthConfig { get;
 
 oauth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#oauth_config GoogleCesToolset#oauth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#oauth_config GoogleCesToolset#oauth_config}
 
 ---
 
@@ -2094,7 +2110,7 @@ public GoogleCesToolsetMcpToolsetApiAuthenticationServiceAccountAuthConfig Servi
 
 service_account_auth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#service_account_auth_config GoogleCesToolset#service_account_auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#service_account_auth_config GoogleCesToolset#service_account_auth_config}
 
 ---
 
@@ -2108,7 +2124,7 @@ public GoogleCesToolsetMcpToolsetApiAuthenticationServiceAgentIdTokenAuthConfig 
 
 service_agent_id_token_auth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#service_agent_id_token_auth_config GoogleCesToolset#service_agent_id_token_auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#service_agent_id_token_auth_config GoogleCesToolset#service_agent_id_token_auth_config}
 
 ---
 
@@ -2151,7 +2167,7 @@ Note: You should grant 'roles/secretmanager.secretAccessor' role to the CES
 service agent
 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#api_key_secret_version GoogleCesToolset#api_key_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#api_key_secret_version GoogleCesToolset#api_key_secret_version}
 
 ---
 
@@ -2167,7 +2183,7 @@ The parameter name or the header name of the API key.
 
 E.g., If the API request is "https://example.com/act?X-Api-Key=", "X-Api-Key" would be the parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#key_name GoogleCesToolset#key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#key_name GoogleCesToolset#key_name}
 
 ---
 
@@ -2186,7 +2202,7 @@ the API key can only be sent in the request header.
 Possible values:
 HEADER
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#request_location GoogleCesToolset#request_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#request_location GoogleCesToolset#request_location}
 
 ---
 
@@ -2206,7 +2222,7 @@ new GoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfig.property.token">Token</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#token GoogleCesToolset#token}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfig.property.token">Token</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#token GoogleCesToolset#token}. |
 
 ---
 
@@ -2218,7 +2234,7 @@ public string Token { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#token GoogleCesToolset#token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#token GoogleCesToolset#token}.
 
 ---
 
@@ -2260,7 +2276,7 @@ public string ClientId { get; set; }
 
 The client ID from the OAuth provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#client_id GoogleCesToolset#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#client_id GoogleCesToolset#client_id}
 
 ---
 
@@ -2278,7 +2294,7 @@ Note: You should grant 'roles/secretmanager.secretAccessor' role to the CES
 service agent
 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#client_secret_version GoogleCesToolset#client_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#client_secret_version GoogleCesToolset#client_secret_version}
 
 ---
 
@@ -2292,7 +2308,7 @@ public string OauthGrantType { get; set; }
 
 OAuth grant types. Possible values: CLIENT_CREDENTIAL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#oauth_grant_type GoogleCesToolset#oauth_grant_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#oauth_grant_type GoogleCesToolset#oauth_grant_type}
 
 ---
 
@@ -2306,7 +2322,7 @@ public string TokenEndpoint { get; set; }
 
 The token endpoint in the OAuth provider to exchange for an access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#token_endpoint GoogleCesToolset#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#token_endpoint GoogleCesToolset#token_endpoint}
 
 ---
 
@@ -2320,7 +2336,7 @@ public string[] Scopes { get; set; }
 
 The OAuth scopes to grant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#scopes GoogleCesToolset#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#scopes GoogleCesToolset#scopes}
 
 ---
 
@@ -2365,7 +2381,7 @@ The service account must have the
 CES service agent
 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#service_account GoogleCesToolset#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#service_account GoogleCesToolset#service_account}
 
 ---
 
@@ -2379,7 +2395,7 @@ public string[] Scopes { get; set; }
 
 The OAuth scopes to grant. If not specified, the default scope 'https://www.googleapis.com/auth/cloud-platform' is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#scopes GoogleCesToolset#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#scopes GoogleCesToolset#scopes}
 
 ---
 
@@ -2426,7 +2442,7 @@ public string Service { get; set; }
 
 The name of [Service Directory](https://cloud.google.com/service-directory) service. Format: 'projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}'. Location of the service directory must be the same as the location of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#service GoogleCesToolset#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#service GoogleCesToolset#service}
 
 ---
 
@@ -2460,7 +2476,7 @@ public IResolvable|GoogleCesToolsetMcpToolsetTlsConfigCaCerts[] CaCerts { get; s
 
 ca_certs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#ca_certs GoogleCesToolset#ca_certs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#ca_certs GoogleCesToolset#ca_certs}
 
 ---
 
@@ -2506,7 +2522,7 @@ openssl x509 -req -days 200 -in example.com.csr \
 -out example.com.crt \
 -extfile <(printf "\nsubjectAltName='DNS:www.example.com'")
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#cert GoogleCesToolset#cert}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#cert GoogleCesToolset#cert}
 
 ---
 
@@ -2520,7 +2536,73 @@ public string DisplayName { get; set; }
 
 The name of the allowed custom CA certificates. This can be used to disambiguate the custom CA certificates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#display_name GoogleCesToolset#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#display_name GoogleCesToolset#display_name}
+
+---
+
+### GoogleCesToolsetMcpToolsetToolOverrides <a name="GoogleCesToolsetMcpToolsetToolOverrides" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleCesToolsetMcpToolsetToolOverrides {
+    string Tool,
+    string DescriptionOverride = null,
+    string NameOverride = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides.property.tool">Tool</a></code> | <code>string</code> | The name of the tool to be overridden. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides.property.descriptionOverride">DescriptionOverride</a></code> | <code>string</code> | The description override for the tool. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides.property.nameOverride">NameOverride</a></code> | <code>string</code> | The name override for the tool. |
+
+---
+
+##### `Tool`<sup>Required</sup> <a name="Tool" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides.property.tool"></a>
+
+```csharp
+public string Tool { get; set; }
+```
+
+- *Type:* string
+
+The name of the tool to be overridden.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#tool GoogleCesToolset#tool}
+
+---
+
+##### `DescriptionOverride`<sup>Optional</sup> <a name="DescriptionOverride" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides.property.descriptionOverride"></a>
+
+```csharp
+public string DescriptionOverride { get; set; }
+```
+
+- *Type:* string
+
+The description override for the tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#description_override GoogleCesToolset#description_override}
+
+---
+
+##### `NameOverride`<sup>Optional</sup> <a name="NameOverride" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides.property.nameOverride"></a>
+
+```csharp
+public string NameOverride { get; set; }
+```
+
+- *Type:* string
+
+The name override for the tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#name_override GoogleCesToolset#name_override}
 
 ---
 
@@ -2562,7 +2644,7 @@ public string OpenApiSchema { get; set; }
 
 The OpenAPI schema of the toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#open_api_schema GoogleCesToolset#open_api_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#open_api_schema GoogleCesToolset#open_api_schema}
 
 ---
 
@@ -2576,7 +2658,7 @@ public GoogleCesToolsetOpenApiToolsetApiAuthentication ApiAuthentication { get; 
 
 api_authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#api_authentication GoogleCesToolset#api_authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#api_authentication GoogleCesToolset#api_authentication}
 
 ---
 
@@ -2590,7 +2672,7 @@ public bool|IResolvable IgnoreUnknownFields { get; set; }
 
 If true, the agent will ignore unknown fields in the API response for all operations defined in the OpenAPI schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#ignore_unknown_fields GoogleCesToolset#ignore_unknown_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#ignore_unknown_fields GoogleCesToolset#ignore_unknown_fields}
 
 ---
 
@@ -2604,7 +2686,7 @@ public GoogleCesToolsetOpenApiToolsetServiceDirectoryConfig ServiceDirectoryConf
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#service_directory_config GoogleCesToolset#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#service_directory_config GoogleCesToolset#service_directory_config}
 
 ---
 
@@ -2618,7 +2700,7 @@ public GoogleCesToolsetOpenApiToolsetTlsConfig TlsConfig { get; set; }
 
 tls_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#tls_config GoogleCesToolset#tls_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#tls_config GoogleCesToolset#tls_config}
 
 ---
 
@@ -2660,7 +2742,7 @@ public GoogleCesToolsetOpenApiToolsetApiAuthenticationApiKeyConfig ApiKeyConfig 
 
 api_key_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#api_key_config GoogleCesToolset#api_key_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#api_key_config GoogleCesToolset#api_key_config}
 
 ---
 
@@ -2674,7 +2756,7 @@ public GoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenConfig BearerTo
 
 bearer_token_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#bearer_token_config GoogleCesToolset#bearer_token_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#bearer_token_config GoogleCesToolset#bearer_token_config}
 
 ---
 
@@ -2688,7 +2770,7 @@ public GoogleCesToolsetOpenApiToolsetApiAuthenticationOauthConfig OauthConfig { 
 
 oauth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#oauth_config GoogleCesToolset#oauth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#oauth_config GoogleCesToolset#oauth_config}
 
 ---
 
@@ -2702,7 +2784,7 @@ public GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAccountAuthConfig S
 
 service_account_auth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#service_account_auth_config GoogleCesToolset#service_account_auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#service_account_auth_config GoogleCesToolset#service_account_auth_config}
 
 ---
 
@@ -2716,7 +2798,7 @@ public GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthCon
 
 service_agent_id_token_auth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#service_agent_id_token_auth_config GoogleCesToolset#service_agent_id_token_auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#service_agent_id_token_auth_config GoogleCesToolset#service_agent_id_token_auth_config}
 
 ---
 
@@ -2759,7 +2841,7 @@ Note: You should grant 'roles/secretmanager.secretAccessor' role to the CES
 service agent
 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#api_key_secret_version GoogleCesToolset#api_key_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#api_key_secret_version GoogleCesToolset#api_key_secret_version}
 
 ---
 
@@ -2775,7 +2857,7 @@ The parameter name or the header name of the API key.
 
 E.g., If the API request is "https://example.com/act?X-Api-Key=", "X-Api-Key" would be the parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#key_name GoogleCesToolset#key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#key_name GoogleCesToolset#key_name}
 
 ---
 
@@ -2789,7 +2871,7 @@ public string RequestLocation { get; set; }
 
 Key location in the request. Possible values: HEADER QUERY_STRING.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#request_location GoogleCesToolset#request_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#request_location GoogleCesToolset#request_location}
 
 ---
 
@@ -2809,7 +2891,7 @@ new GoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenConfig.property.token">Token</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#token GoogleCesToolset#token}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenConfig.property.token">Token</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#token GoogleCesToolset#token}. |
 
 ---
 
@@ -2821,7 +2903,7 @@ public string Token { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#token GoogleCesToolset#token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#token GoogleCesToolset#token}.
 
 ---
 
@@ -2863,7 +2945,7 @@ public string ClientId { get; set; }
 
 The client ID from the OAuth provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#client_id GoogleCesToolset#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#client_id GoogleCesToolset#client_id}
 
 ---
 
@@ -2881,7 +2963,7 @@ Note: You should grant 'roles/secretmanager.secretAccessor' role to the CES
 service agent
 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#client_secret_version GoogleCesToolset#client_secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#client_secret_version GoogleCesToolset#client_secret_version}
 
 ---
 
@@ -2895,7 +2977,7 @@ public string OauthGrantType { get; set; }
 
 OAuth grant types. Possible values: CLIENT_CREDENTIAL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#oauth_grant_type GoogleCesToolset#oauth_grant_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#oauth_grant_type GoogleCesToolset#oauth_grant_type}
 
 ---
 
@@ -2909,7 +2991,7 @@ public string TokenEndpoint { get; set; }
 
 The token endpoint in the OAuth provider to exchange for an access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#token_endpoint GoogleCesToolset#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#token_endpoint GoogleCesToolset#token_endpoint}
 
 ---
 
@@ -2923,7 +3005,7 @@ public string[] Scopes { get; set; }
 
 The OAuth scopes to grant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#scopes GoogleCesToolset#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#scopes GoogleCesToolset#scopes}
 
 ---
 
@@ -2968,7 +3050,7 @@ The service account must have the
 CES service agent
 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#service_account GoogleCesToolset#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#service_account GoogleCesToolset#service_account}
 
 ---
 
@@ -2982,7 +3064,7 @@ public string[] Scopes { get; set; }
 
 The OAuth scopes to grant. If not specified, the default scope 'https://www.googleapis.com/auth/cloud-platform' is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#scopes GoogleCesToolset#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#scopes GoogleCesToolset#scopes}
 
 ---
 
@@ -3029,7 +3111,7 @@ public string Service { get; set; }
 
 The name of [Service Directory](https://cloud.google.com/service-directory) service. Format: 'projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}'. Location of the service directory must be the same as the location of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#service GoogleCesToolset#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#service GoogleCesToolset#service}
 
 ---
 
@@ -3063,7 +3145,7 @@ public IResolvable|GoogleCesToolsetOpenApiToolsetTlsConfigCaCerts[] CaCerts { ge
 
 ca_certs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#ca_certs GoogleCesToolset#ca_certs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#ca_certs GoogleCesToolset#ca_certs}
 
 ---
 
@@ -3109,7 +3191,7 @@ openssl x509 -req -days 200 -in example.com.csr \
 -out example.com.crt \
 -extfile <(printf "\nsubjectAltName='DNS:www.example.com'")
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#cert GoogleCesToolset#cert}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#cert GoogleCesToolset#cert}
 
 ---
 
@@ -3123,7 +3205,7 @@ public string DisplayName { get; set; }
 
 The name of the allowed custom CA certificates. This can be used to disambiguate the custom CA certificates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#display_name GoogleCesToolset#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#display_name GoogleCesToolset#display_name}
 
 ---
 
@@ -3145,9 +3227,9 @@ new GoogleCesToolsetTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#create GoogleCesToolset#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#delete GoogleCesToolset#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#update GoogleCesToolset#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#create GoogleCesToolset#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#delete GoogleCesToolset#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#update GoogleCesToolset#update}. |
 
 ---
 
@@ -3159,7 +3241,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#create GoogleCesToolset#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#create GoogleCesToolset#create}.
 
 ---
 
@@ -3171,7 +3253,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#delete GoogleCesToolset#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#delete GoogleCesToolset#delete}.
 
 ---
 
@@ -3183,7 +3265,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#update GoogleCesToolset#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#update GoogleCesToolset#update}.
 
 ---
 
@@ -3219,7 +3301,7 @@ public GoogleCesToolsetToolFakeConfigCodeBlock CodeBlock { get; set; }
 
 code_block block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#code_block GoogleCesToolset#code_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#code_block GoogleCesToolset#code_block}
 
 ---
 
@@ -3233,7 +3315,7 @@ public bool|IResolvable EnableFakeMode { get; set; }
 
 Whether the tool is using fake mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#enable_fake_mode GoogleCesToolset#enable_fake_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#enable_fake_mode GoogleCesToolset#enable_fake_mode}
 
 ---
 
@@ -3267,7 +3349,7 @@ public string PythonCode { get; set; }
 
 Python code which will be invoked in tool fake mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset#python_code GoogleCesToolset#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset#python_code GoogleCesToolset#python_code}
 
 ---
 
@@ -7409,10 +7491,12 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.putApiAuthentication">PutApiAuthentication</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.putServiceDirectoryConfig">PutServiceDirectoryConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.putTlsConfig">PutTlsConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.putToolOverrides">PutToolOverrides</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.resetApiAuthentication">ResetApiAuthentication</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.resetCustomHeaders">ResetCustomHeaders</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.resetServiceDirectoryConfig">ResetServiceDirectoryConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.resetTlsConfig">ResetTlsConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.resetToolOverrides">ResetToolOverrides</a></code> | *No description.* |
 
 ---
 
@@ -7602,6 +7686,18 @@ private void PutTlsConfig(GoogleCesToolsetMcpToolsetTlsConfig Value)
 
 ---
 
+##### `PutToolOverrides` <a name="PutToolOverrides" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.putToolOverrides"></a>
+
+```csharp
+private void PutToolOverrides(IResolvable|GoogleCesToolsetMcpToolsetToolOverrides[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.putToolOverrides.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides">GoogleCesToolsetMcpToolsetToolOverrides</a>[]
+
+---
+
 ##### `ResetApiAuthentication` <a name="ResetApiAuthentication" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.resetApiAuthentication"></a>
 
 ```csharp
@@ -7626,6 +7722,12 @@ private void ResetServiceDirectoryConfig()
 private void ResetTlsConfig()
 ```
 
+##### `ResetToolOverrides` <a name="ResetToolOverrides" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.resetToolOverrides"></a>
+
+```csharp
+private void ResetToolOverrides()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -7636,11 +7738,13 @@ private void ResetTlsConfig()
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.apiAuthentication">ApiAuthentication</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationOutputReference">GoogleCesToolsetMcpToolsetApiAuthenticationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.serviceDirectoryConfig">ServiceDirectoryConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetServiceDirectoryConfigOutputReference">GoogleCesToolsetMcpToolsetServiceDirectoryConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.tlsConfig">TlsConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfigOutputReference">GoogleCesToolsetMcpToolsetTlsConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.toolOverrides">ToolOverrides</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList">GoogleCesToolsetMcpToolsetToolOverridesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.apiAuthenticationInput">ApiAuthenticationInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthentication">GoogleCesToolsetMcpToolsetApiAuthentication</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.customHeadersInput">CustomHeadersInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.serverAddressInput">ServerAddressInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.serviceDirectoryConfigInput">ServiceDirectoryConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetServiceDirectoryConfig">GoogleCesToolsetMcpToolsetServiceDirectoryConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.tlsConfigInput">TlsConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfig">GoogleCesToolsetMcpToolsetTlsConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.toolOverridesInput">ToolOverridesInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides">GoogleCesToolsetMcpToolsetToolOverrides</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.customHeaders">CustomHeaders</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.serverAddress">ServerAddress</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolset">GoogleCesToolsetMcpToolset</a></code> | *No description.* |
@@ -7701,6 +7805,16 @@ public GoogleCesToolsetMcpToolsetTlsConfigOutputReference TlsConfig { get; }
 
 ---
 
+##### `ToolOverrides`<sup>Required</sup> <a name="ToolOverrides" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.toolOverrides"></a>
+
+```csharp
+public GoogleCesToolsetMcpToolsetToolOverridesList ToolOverrides { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList">GoogleCesToolsetMcpToolsetToolOverridesList</a>
+
+---
+
 ##### `ApiAuthenticationInput`<sup>Optional</sup> <a name="ApiAuthenticationInput" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.apiAuthenticationInput"></a>
 
 ```csharp
@@ -7748,6 +7862,16 @@ public GoogleCesToolsetMcpToolsetTlsConfig TlsConfigInput { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfig">GoogleCesToolsetMcpToolsetTlsConfig</a>
+
+---
+
+##### `ToolOverridesInput`<sup>Optional</sup> <a name="ToolOverridesInput" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.property.toolOverridesInput"></a>
+
+```csharp
+public IResolvable|GoogleCesToolsetMcpToolsetToolOverrides[] ToolOverridesInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides">GoogleCesToolsetMcpToolsetToolOverrides</a>[]
 
 ---
 
@@ -8804,6 +8928,513 @@ public GoogleCesToolsetMcpToolsetTlsConfig InternalValue { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfig">GoogleCesToolsetMcpToolsetTlsConfig</a>
+
+---
+
+
+### GoogleCesToolsetMcpToolsetToolOverridesList <a name="GoogleCesToolsetMcpToolsetToolOverridesList" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleCesToolsetMcpToolsetToolOverridesList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.get"></a>
+
+```csharp
+private GoogleCesToolsetMcpToolsetToolOverridesOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides">GoogleCesToolsetMcpToolsetToolOverrides</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleCesToolsetMcpToolsetToolOverrides[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides">GoogleCesToolsetMcpToolsetToolOverrides</a>[]
+
+---
+
+
+### GoogleCesToolsetMcpToolsetToolOverridesOutputReference <a name="GoogleCesToolsetMcpToolsetToolOverridesOutputReference" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleCesToolsetMcpToolsetToolOverridesOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.resetDescriptionOverride">ResetDescriptionOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.resetNameOverride">ResetNameOverride</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetDescriptionOverride` <a name="ResetDescriptionOverride" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.resetDescriptionOverride"></a>
+
+```csharp
+private void ResetDescriptionOverride()
+```
+
+##### `ResetNameOverride` <a name="ResetNameOverride" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.resetNameOverride"></a>
+
+```csharp
+private void ResetNameOverride()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.descriptionOverrideInput">DescriptionOverrideInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.nameOverrideInput">NameOverrideInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.toolInput">ToolInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.descriptionOverride">DescriptionOverride</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.nameOverride">NameOverride</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.tool">Tool</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides">GoogleCesToolsetMcpToolsetToolOverrides</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DescriptionOverrideInput`<sup>Optional</sup> <a name="DescriptionOverrideInput" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.descriptionOverrideInput"></a>
+
+```csharp
+public string DescriptionOverrideInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `NameOverrideInput`<sup>Optional</sup> <a name="NameOverrideInput" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.nameOverrideInput"></a>
+
+```csharp
+public string NameOverrideInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ToolInput`<sup>Optional</sup> <a name="ToolInput" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.toolInput"></a>
+
+```csharp
+public string ToolInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DescriptionOverride`<sup>Required</sup> <a name="DescriptionOverride" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.descriptionOverride"></a>
+
+```csharp
+public string DescriptionOverride { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `NameOverride`<sup>Required</sup> <a name="NameOverride" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.nameOverride"></a>
+
+```csharp
+public string NameOverride { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Tool`<sup>Required</sup> <a name="Tool" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.tool"></a>
+
+```csharp
+public string Tool { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleCesToolsetMcpToolsetToolOverrides InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides">GoogleCesToolsetMcpToolsetToolOverrides</a>
 
 ---
 

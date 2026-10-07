@@ -4,12 +4,12 @@
 
 ### GoogleNetworkSecurityAuthzPolicy <a name="GoogleNetworkSecurityAuthzPolicy" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy google_network_security_authz_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicy(scope Construct, id *string, config GoogleNetworkSecurityAuthzPolicyConfig) GoogleNetworkSecurityAuthzPolicy
 ```
@@ -535,7 +535,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicy_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -595,7 +595,7 @@ googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicy_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -624,7 +624,7 @@ The construct id used in the generated config for the GoogleNetworkSecurityAuthz
 
 The id of the existing GoogleNetworkSecurityAuthzPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1176,7 +1176,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyConfig {
 	Connection: interface{},
@@ -1189,8 +1189,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 	Action: *string,
 	Location: *string,
 	Name: *string,
-	Target: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTarget,
-	CustomProvider: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProvider,
+	Target: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTarget,
+	CustomProvider: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProvider,
 	DeletionPolicy: *string,
 	Description: *string,
 	HttpRules: interface{},
@@ -1199,7 +1199,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 	NetworkRules: interface{},
 	PolicyProfile: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTimeouts,
 }
 ```
 
@@ -1222,11 +1222,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.property.description">Description</a></code> | <code>*string</code> | A human-readable description of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.property.httpRules">HttpRules</a></code> | <code>interface{}</code> | http_rules block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#id GoogleNetworkSecurityAuthzPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#id GoogleNetworkSecurityAuthzPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Set of labels associated with the AuthzExtension resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.property.networkRules">NetworkRules</a></code> | <code>interface{}</code> | network_rules block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.property.policyProfile">PolicyProfile</a></code> | <code>*string</code> | Defines the type of authorization being performed. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#project GoogleNetworkSecurityAuthzPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#project GoogleNetworkSecurityAuthzPolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTimeouts">GoogleNetworkSecurityAuthzPolicyTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1321,7 +1321,7 @@ When a request arrives, the policies are evaluated in the following order:
 3. If there are no ALLOW policies for the resource or if any of the ALLOW policies match the request, the request is allowed.
 4. Else the request is denied by default if none of the configured AuthzPolicies with ALLOW action match the request. Possible values: ["ALLOW", "DENY", "CUSTOM"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#action GoogleNetworkSecurityAuthzPolicy#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#action GoogleNetworkSecurityAuthzPolicy#action}
 
 ---
 
@@ -1335,7 +1335,7 @@ Location *string
 
 The location of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#location GoogleNetworkSecurityAuthzPolicy#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#location GoogleNetworkSecurityAuthzPolicy#location}
 
 ---
 
@@ -1349,7 +1349,7 @@ Name *string
 
 Identifier. Name of the AuthzPolicy resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#name GoogleNetworkSecurityAuthzPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#name GoogleNetworkSecurityAuthzPolicy#name}
 
 ---
 
@@ -1363,7 +1363,7 @@ Target GoogleNetworkSecurityAuthzPolicyTarget
 
 target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#target GoogleNetworkSecurityAuthzPolicy#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#target GoogleNetworkSecurityAuthzPolicy#target}
 
 ---
 
@@ -1377,7 +1377,7 @@ CustomProvider GoogleNetworkSecurityAuthzPolicyCustomProvider
 
 custom_provider block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#custom_provider GoogleNetworkSecurityAuthzPolicy#custom_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#custom_provider GoogleNetworkSecurityAuthzPolicy#custom_provider}
 
 ---
 
@@ -1398,7 +1398,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#deletion_policy GoogleNetworkSecurityAuthzPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#deletion_policy GoogleNetworkSecurityAuthzPolicy#deletion_policy}
 
 ---
 
@@ -1412,7 +1412,7 @@ Description *string
 
 A human-readable description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#description GoogleNetworkSecurityAuthzPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#description GoogleNetworkSecurityAuthzPolicy#description}
 
 ---
 
@@ -1426,7 +1426,7 @@ HttpRules interface{}
 
 http_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#http_rules GoogleNetworkSecurityAuthzPolicy#http_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#http_rules GoogleNetworkSecurityAuthzPolicy#http_rules}
 
 ---
 
@@ -1438,7 +1438,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#id GoogleNetworkSecurityAuthzPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#id GoogleNetworkSecurityAuthzPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1458,7 +1458,7 @@ Set of labels associated with the AuthzExtension resource.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#labels GoogleNetworkSecurityAuthzPolicy#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#labels GoogleNetworkSecurityAuthzPolicy#labels}
 
 ---
 
@@ -1472,7 +1472,7 @@ NetworkRules interface{}
 
 network_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#network_rules GoogleNetworkSecurityAuthzPolicy#network_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#network_rules GoogleNetworkSecurityAuthzPolicy#network_rules}
 
 ---
 
@@ -1493,7 +1493,7 @@ Only CUSTOM action is allowed in this policy profile. AuthzExtensions in the cus
 protocol and be capable of receiving all ext_proc events (REQUEST_HEADERS, REQUEST_BODY, REQUEST_TRAILERS,
 RESPONSE_HEADERS, RESPONSE_BODY, RESPONSE_TRAILERS) with FULL_DUPLEX_STREAMED body send mode. Possible values: ["REQUEST_AUTHZ", "CONTENT_AUTHZ"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#policy_profile GoogleNetworkSecurityAuthzPolicy#policy_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#policy_profile GoogleNetworkSecurityAuthzPolicy#policy_profile}
 
 ---
 
@@ -1505,7 +1505,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#project GoogleNetworkSecurityAuthzPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#project GoogleNetworkSecurityAuthzPolicy#project}.
 
 ---
 
@@ -1519,7 +1519,7 @@ Timeouts GoogleNetworkSecurityAuthzPolicyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#timeouts GoogleNetworkSecurityAuthzPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#timeouts GoogleNetworkSecurityAuthzPolicy#timeouts}
 
 ---
 
@@ -1528,11 +1528,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyCustomProvider {
-	AuthzExtension: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProviderAuthzExtension,
-	CloudIap: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProviderCloudIap,
+	AuthzExtension: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProviderAuthzExtension,
+	CloudIap: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProviderCloudIap,
 }
 ```
 
@@ -1555,7 +1555,7 @@ AuthzExtension GoogleNetworkSecurityAuthzPolicyCustomProviderAuthzExtension
 
 authz_extension block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#authz_extension GoogleNetworkSecurityAuthzPolicy#authz_extension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#authz_extension GoogleNetworkSecurityAuthzPolicy#authz_extension}
 
 ---
 
@@ -1569,7 +1569,7 @@ CloudIap GoogleNetworkSecurityAuthzPolicyCustomProviderCloudIap
 
 cloud_iap block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#cloud_iap GoogleNetworkSecurityAuthzPolicy#cloud_iap}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#cloud_iap GoogleNetworkSecurityAuthzPolicy#cloud_iap}
 
 ---
 
@@ -1578,7 +1578,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProviderAuthzExtension.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyCustomProviderAuthzExtension {
 	Resources: *[]*string,
@@ -1605,7 +1605,7 @@ A list of references to authorization extensions that will be invoked for reques
 
 Limited to 1 custom provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#resources GoogleNetworkSecurityAuthzPolicy#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#resources GoogleNetworkSecurityAuthzPolicy#resources}
 
 ---
 
@@ -1614,7 +1614,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProviderCloudIap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyCustomProviderCloudIap {
 	Enabled: interface{},
@@ -1639,7 +1639,7 @@ Enabled interface{}
 
 Enable Cloud IAP at the AuthzPolicy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#enabled GoogleNetworkSecurityAuthzPolicy#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#enabled GoogleNetworkSecurityAuthzPolicy#enabled}
 
 ---
 
@@ -1648,11 +1648,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRules {
-	From: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFrom,
-	To: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesTo,
+	From: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFrom,
+	To: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesTo,
 	When: *string,
 }
 ```
@@ -1677,7 +1677,7 @@ From GoogleNetworkSecurityAuthzPolicyHttpRulesFrom
 
 from block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#from GoogleNetworkSecurityAuthzPolicy#from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#from GoogleNetworkSecurityAuthzPolicy#from}
 
 ---
 
@@ -1691,7 +1691,7 @@ To GoogleNetworkSecurityAuthzPolicyHttpRulesTo
 
 to block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#to GoogleNetworkSecurityAuthzPolicy#to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#to GoogleNetworkSecurityAuthzPolicy#to}
 
 ---
 
@@ -1707,7 +1707,7 @@ CEL expression that describes the conditions to be satisfied for the action.
 
 The result of the CEL expression is ANDed with the from and to. Refer to the CEL language reference for a list of available attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#when GoogleNetworkSecurityAuthzPolicy#when}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#when GoogleNetworkSecurityAuthzPolicy#when}
 
 ---
 
@@ -1716,7 +1716,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFrom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFrom {
 	NotSources: interface{},
@@ -1743,7 +1743,7 @@ NotSources interface{}
 
 not_sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#not_sources GoogleNetworkSecurityAuthzPolicy#not_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#not_sources GoogleNetworkSecurityAuthzPolicy#not_sources}
 
 ---
 
@@ -1757,7 +1757,7 @@ Sources interface{}
 
 sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#sources GoogleNetworkSecurityAuthzPolicy#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#sources GoogleNetworkSecurityAuthzPolicy#sources}
 
 ---
 
@@ -1766,7 +1766,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSources {
 	IpBlocks: interface{},
@@ -1795,7 +1795,7 @@ IpBlocks interface{}
 
 ip_blocks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ip_blocks GoogleNetworkSecurityAuthzPolicy#ip_blocks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ip_blocks GoogleNetworkSecurityAuthzPolicy#ip_blocks}
 
 ---
 
@@ -1809,7 +1809,7 @@ Principals interface{}
 
 principals block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principals GoogleNetworkSecurityAuthzPolicy#principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principals GoogleNetworkSecurityAuthzPolicy#principals}
 
 ---
 
@@ -1823,7 +1823,7 @@ Resources interface{}
 
 resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#resources GoogleNetworkSecurityAuthzPolicy#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#resources GoogleNetworkSecurityAuthzPolicy#resources}
 
 ---
 
@@ -1832,7 +1832,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesIpBlocks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesIpBlocks {
 	Length: *f64,
@@ -1859,7 +1859,7 @@ Length *f64
 
 The length of the address range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#length GoogleNetworkSecurityAuthzPolicy#length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#length GoogleNetworkSecurityAuthzPolicy#length}
 
 ---
 
@@ -1873,7 +1873,7 @@ Prefix *string
 
 The address prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -1882,14 +1882,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipals {
 	Contains: *string,
 	Exact: *string,
 	IgnoreCase: interface{},
 	Prefix: *string,
-	Principal: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipal,
+	Principal: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipal,
 	PrincipalSelector: *string,
 	Suffix: *string,
 }
@@ -1924,7 +1924,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -1938,7 +1938,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -1954,7 +1954,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -1973,7 +1973,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -1987,7 +1987,7 @@ Principal GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrinc
 
 principal block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principal GoogleNetworkSecurityAuthzPolicy#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principal GoogleNetworkSecurityAuthzPolicy#principal}
 
 ---
 
@@ -2003,7 +2003,7 @@ An enum to decide what principal value the principal rule will match against.
 
 If not specified, the PrincipalSelector is CLIENT_CERT_URI_SAN. Default value: "CLIENT_CERT_URI_SAN" Possible values: ["PRINCIPAL_SELECTOR_UNSPECIFIED", "CLIENT_CERT_URI_SAN", "CLIENT_CERT_DNS_NAME_SAN", "CLIENT_CERT_COMMON_NAME"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principal_selector GoogleNetworkSecurityAuthzPolicy#principal_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principal_selector GoogleNetworkSecurityAuthzPolicy#principal_selector}
 
 ---
 
@@ -2022,7 +2022,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -2031,7 +2031,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipal {
 	Contains: *string,
@@ -2069,7 +2069,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -2083,7 +2083,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -2099,7 +2099,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -2118,7 +2118,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -2137,7 +2137,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -2146,11 +2146,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResources {
-	IamServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesIamServiceAccount,
-	TagValueIdSet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesTagValueIdSet,
+	IamServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesIamServiceAccount,
+	TagValueIdSet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesTagValueIdSet,
 }
 ```
 
@@ -2173,7 +2173,7 @@ IamServiceAccount GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourc
 
 iam_service_account block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#iam_service_account GoogleNetworkSecurityAuthzPolicy#iam_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#iam_service_account GoogleNetworkSecurityAuthzPolicy#iam_service_account}
 
 ---
 
@@ -2187,7 +2187,7 @@ TagValueIdSet GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesTa
 
 tag_value_id_set block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#tag_value_id_set GoogleNetworkSecurityAuthzPolicy#tag_value_id_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#tag_value_id_set GoogleNetworkSecurityAuthzPolicy#tag_value_id_set}
 
 ---
 
@@ -2196,7 +2196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesIamServiceAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesIamServiceAccount {
 	Contains: *string,
@@ -2234,7 +2234,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -2248,7 +2248,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -2264,7 +2264,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -2283,7 +2283,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -2302,7 +2302,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -2311,7 +2311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesTagValueIdSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesTagValueIdSet {
 	Ids: *[]*string,
@@ -2339,7 +2339,7 @@ A list of resource tag value permanent IDs to match against the resource manager
 The match follows AND semantics which means all the ids must match.
 Limited to 5 matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ids GoogleNetworkSecurityAuthzPolicy#ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ids GoogleNetworkSecurityAuthzPolicy#ids}
 
 ---
 
@@ -2348,7 +2348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSources {
 	IpBlocks: interface{},
@@ -2377,7 +2377,7 @@ IpBlocks interface{}
 
 ip_blocks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ip_blocks GoogleNetworkSecurityAuthzPolicy#ip_blocks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ip_blocks GoogleNetworkSecurityAuthzPolicy#ip_blocks}
 
 ---
 
@@ -2391,7 +2391,7 @@ Principals interface{}
 
 principals block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principals GoogleNetworkSecurityAuthzPolicy#principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principals GoogleNetworkSecurityAuthzPolicy#principals}
 
 ---
 
@@ -2405,7 +2405,7 @@ Resources interface{}
 
 resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#resources GoogleNetworkSecurityAuthzPolicy#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#resources GoogleNetworkSecurityAuthzPolicy#resources}
 
 ---
 
@@ -2414,7 +2414,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesIpBlocks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesIpBlocks {
 	Length: *f64,
@@ -2441,7 +2441,7 @@ Length *f64
 
 The length of the address range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#length GoogleNetworkSecurityAuthzPolicy#length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#length GoogleNetworkSecurityAuthzPolicy#length}
 
 ---
 
@@ -2455,7 +2455,7 @@ Prefix *string
 
 The address prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -2464,14 +2464,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipals {
 	Contains: *string,
 	Exact: *string,
 	IgnoreCase: interface{},
 	Prefix: *string,
-	Principal: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsPrincipal,
+	Principal: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsPrincipal,
 	PrincipalSelector: *string,
 	Suffix: *string,
 }
@@ -2506,7 +2506,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -2520,7 +2520,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -2536,7 +2536,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -2555,7 +2555,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -2569,7 +2569,7 @@ Principal GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsPrincipa
 
 principal block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principal GoogleNetworkSecurityAuthzPolicy#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principal GoogleNetworkSecurityAuthzPolicy#principal}
 
 ---
 
@@ -2585,7 +2585,7 @@ An enum to decide what principal value the principal rule will match against.
 
 If not specified, the PrincipalSelector is CLIENT_CERT_URI_SAN. Default value: "CLIENT_CERT_URI_SAN" Possible values: ["PRINCIPAL_SELECTOR_UNSPECIFIED", "CLIENT_CERT_URI_SAN", "CLIENT_CERT_DNS_NAME_SAN", "CLIENT_CERT_COMMON_NAME"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principal_selector GoogleNetworkSecurityAuthzPolicy#principal_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principal_selector GoogleNetworkSecurityAuthzPolicy#principal_selector}
 
 ---
 
@@ -2604,7 +2604,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -2613,7 +2613,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsPrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsPrincipal {
 	Contains: *string,
@@ -2651,7 +2651,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -2665,7 +2665,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -2681,7 +2681,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -2700,7 +2700,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -2719,7 +2719,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -2728,11 +2728,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResources {
-	IamServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesIamServiceAccount,
-	TagValueIdSet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesTagValueIdSet,
+	IamServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesIamServiceAccount,
+	TagValueIdSet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesTagValueIdSet,
 }
 ```
 
@@ -2755,7 +2755,7 @@ IamServiceAccount GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesI
 
 iam_service_account block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#iam_service_account GoogleNetworkSecurityAuthzPolicy#iam_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#iam_service_account GoogleNetworkSecurityAuthzPolicy#iam_service_account}
 
 ---
 
@@ -2769,7 +2769,7 @@ TagValueIdSet GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesTagVa
 
 tag_value_id_set block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#tag_value_id_set GoogleNetworkSecurityAuthzPolicy#tag_value_id_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#tag_value_id_set GoogleNetworkSecurityAuthzPolicy#tag_value_id_set}
 
 ---
 
@@ -2778,7 +2778,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesIamServiceAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesIamServiceAccount {
 	Contains: *string,
@@ -2816,7 +2816,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -2830,7 +2830,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -2846,7 +2846,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -2865,7 +2865,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -2884,7 +2884,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -2893,7 +2893,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesTagValueIdSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesTagValueIdSet {
 	Ids: *[]*string,
@@ -2921,7 +2921,7 @@ A list of resource tag value permanent IDs to match against the resource manager
 The match follows AND semantics which means all the ids must match.
 Limited to 5 matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ids GoogleNetworkSecurityAuthzPolicy#ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ids GoogleNetworkSecurityAuthzPolicy#ids}
 
 ---
 
@@ -2930,7 +2930,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesTo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesTo {
 	NotOperations: interface{},
@@ -2957,7 +2957,7 @@ NotOperations interface{}
 
 not_operations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#not_operations GoogleNetworkSecurityAuthzPolicy#not_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#not_operations GoogleNetworkSecurityAuthzPolicy#not_operations}
 
 ---
 
@@ -2971,7 +2971,7 @@ Operations interface{}
 
 operations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#operations GoogleNetworkSecurityAuthzPolicy#operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#operations GoogleNetworkSecurityAuthzPolicy#operations}
 
 ---
 
@@ -2980,10 +2980,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperations {
-	HeaderSet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSet,
+	HeaderSet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSet,
 	Hosts: interface{},
 	Methods: *[]*string,
 	Paths: interface{},
@@ -3011,7 +3011,7 @@ HeaderSet GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSet
 
 header_set block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#header_set GoogleNetworkSecurityAuthzPolicy#header_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#header_set GoogleNetworkSecurityAuthzPolicy#header_set}
 
 ---
 
@@ -3025,7 +3025,7 @@ Hosts interface{}
 
 hosts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#hosts GoogleNetworkSecurityAuthzPolicy#hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#hosts GoogleNetworkSecurityAuthzPolicy#hosts}
 
 ---
 
@@ -3041,7 +3041,7 @@ A list of HTTP methods to match against.
 
 Each entry must be a valid HTTP method name (GET, PUT, POST, HEAD, PATCH, DELETE, OPTIONS). It only allows exact match and is always case sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#methods GoogleNetworkSecurityAuthzPolicy#methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#methods GoogleNetworkSecurityAuthzPolicy#methods}
 
 ---
 
@@ -3055,7 +3055,7 @@ Paths interface{}
 
 paths block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#paths GoogleNetworkSecurityAuthzPolicy#paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#paths GoogleNetworkSecurityAuthzPolicy#paths}
 
 ---
 
@@ -3064,7 +3064,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSet {
 	Headers: interface{},
@@ -3089,7 +3089,7 @@ Headers interface{}
 
 headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#headers GoogleNetworkSecurityAuthzPolicy#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#headers GoogleNetworkSecurityAuthzPolicy#headers}
 
 ---
 
@@ -3098,11 +3098,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeaders {
 	Name: *string,
-	Value: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersValue,
+	Value: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersValue,
 }
 ```
 
@@ -3125,7 +3125,7 @@ Name *string
 
 Specifies the name of the header in the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#name GoogleNetworkSecurityAuthzPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#name GoogleNetworkSecurityAuthzPolicy#name}
 
 ---
 
@@ -3139,7 +3139,7 @@ Value GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersVa
 
 value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#value GoogleNetworkSecurityAuthzPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#value GoogleNetworkSecurityAuthzPolicy#value}
 
 ---
 
@@ -3148,7 +3148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersValue {
 	Contains: *string,
@@ -3186,7 +3186,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -3200,7 +3200,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -3216,7 +3216,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -3235,7 +3235,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -3254,7 +3254,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -3263,7 +3263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHosts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHosts {
 	Contains: *string,
@@ -3301,7 +3301,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -3315,7 +3315,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -3331,7 +3331,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -3350,7 +3350,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -3369,7 +3369,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -3378,7 +3378,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsPaths.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsPaths {
 	Contains: *string,
@@ -3416,7 +3416,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -3430,7 +3430,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -3446,7 +3446,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -3465,7 +3465,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -3484,7 +3484,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -3493,12 +3493,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperations {
-	HeaderSet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSet,
+	HeaderSet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSet,
 	Hosts: interface{},
-	Mcp: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcp,
+	Mcp: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcp,
 	Methods: *[]*string,
 	Paths: interface{},
 }
@@ -3526,7 +3526,7 @@ HeaderSet GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSet
 
 header_set block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#header_set GoogleNetworkSecurityAuthzPolicy#header_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#header_set GoogleNetworkSecurityAuthzPolicy#header_set}
 
 ---
 
@@ -3540,7 +3540,7 @@ Hosts interface{}
 
 hosts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#hosts GoogleNetworkSecurityAuthzPolicy#hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#hosts GoogleNetworkSecurityAuthzPolicy#hosts}
 
 ---
 
@@ -3554,7 +3554,7 @@ Mcp GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcp
 
 mcp block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#mcp GoogleNetworkSecurityAuthzPolicy#mcp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#mcp GoogleNetworkSecurityAuthzPolicy#mcp}
 
 ---
 
@@ -3570,7 +3570,7 @@ A list of HTTP methods to match against.
 
 Each entry must be a valid HTTP method name (GET, PUT, POST, HEAD, PATCH, DELETE, OPTIONS). It only allows exact match and is always case sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#methods GoogleNetworkSecurityAuthzPolicy#methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#methods GoogleNetworkSecurityAuthzPolicy#methods}
 
 ---
 
@@ -3584,7 +3584,7 @@ Paths interface{}
 
 paths block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#paths GoogleNetworkSecurityAuthzPolicy#paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#paths GoogleNetworkSecurityAuthzPolicy#paths}
 
 ---
 
@@ -3593,7 +3593,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSet {
 	Headers: interface{},
@@ -3618,7 +3618,7 @@ Headers interface{}
 
 headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#headers GoogleNetworkSecurityAuthzPolicy#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#headers GoogleNetworkSecurityAuthzPolicy#headers}
 
 ---
 
@@ -3627,11 +3627,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeaders {
 	Name: *string,
-	Value: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersValue,
+	Value: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersValue,
 }
 ```
 
@@ -3654,7 +3654,7 @@ Name *string
 
 Specifies the name of the header in the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#name GoogleNetworkSecurityAuthzPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#name GoogleNetworkSecurityAuthzPolicy#name}
 
 ---
 
@@ -3668,7 +3668,7 @@ Value GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersValue
 
 value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#value GoogleNetworkSecurityAuthzPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#value GoogleNetworkSecurityAuthzPolicy#value}
 
 ---
 
@@ -3677,7 +3677,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersValue {
 	Contains: *string,
@@ -3715,7 +3715,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -3729,7 +3729,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -3745,7 +3745,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -3764,7 +3764,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -3783,7 +3783,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -3792,7 +3792,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHosts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHosts {
 	Contains: *string,
@@ -3830,7 +3830,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -3844,7 +3844,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -3860,7 +3860,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -3879,7 +3879,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -3898,7 +3898,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -3907,7 +3907,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcp {
 	BaseProtocolMethodsOption: *string,
@@ -3934,7 +3934,7 @@ BaseProtocolMethodsOption *string
 
 If specified, matches on the MCP protocol’s non-access specific methods namely: * initialize/ * completion/ * logging/ * notifications/ * ping Default value: "SKIP_BASE_PROTOCOL_METHODS" Possible values: ["SKIP_BASE_PROTOCOL_METHODS", "MATCH_BASE_PROTOCOL_METHODS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#base_protocol_methods_option GoogleNetworkSecurityAuthzPolicy#base_protocol_methods_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#base_protocol_methods_option GoogleNetworkSecurityAuthzPolicy#base_protocol_methods_option}
 
 ---
 
@@ -3948,7 +3948,7 @@ Methods interface{}
 
 methods block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#methods GoogleNetworkSecurityAuthzPolicy#methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#methods GoogleNetworkSecurityAuthzPolicy#methods}
 
 ---
 
@@ -3957,7 +3957,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethods.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethods {
 	Name: *string,
@@ -3991,7 +3991,7 @@ Allowed values are as follows:
 3) “prompts/get”, “tools/call”, “resources/subscribe”, “resources/unsubscribe”, “resources/read”
    Params cannot be specified for categories 1) and 2).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#name GoogleNetworkSecurityAuthzPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#name GoogleNetworkSecurityAuthzPolicy#name}
 
 ---
 
@@ -4005,7 +4005,7 @@ Params interface{}
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#params GoogleNetworkSecurityAuthzPolicy#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#params GoogleNetworkSecurityAuthzPolicy#params}
 
 ---
 
@@ -4014,7 +4014,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsParams {
 	Contains: *string,
@@ -4047,7 +4047,7 @@ Contains *string
 
 A substring match on the MCP method parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -4061,7 +4061,7 @@ Exact *string
 
 An exact match on the MCP method parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -4075,7 +4075,7 @@ IgnoreCase interface{}
 
 Specifies that the string match should be case insensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -4089,7 +4089,7 @@ Prefix *string
 
 A prefix match on the MCP method parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -4103,7 +4103,7 @@ Suffix *string
 
 A suffix match on the MCP method parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -4112,7 +4112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsPaths.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsPaths {
 	Contains: *string,
@@ -4150,7 +4150,7 @@ Examples:
 
 * abc matches the value xyz.abc.def
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#contains GoogleNetworkSecurityAuthzPolicy#contains}
 
 ---
 
@@ -4164,7 +4164,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -4180,7 +4180,7 @@ If true, indicates the exact/prefix/suffix/contains matching should be case inse
 
 For example, the matcher data will match both input string Data and data if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ignore_case GoogleNetworkSecurityAuthzPolicy#ignore_case}
 
 ---
 
@@ -4199,7 +4199,7 @@ Examples:
 
 * abc matches the value abc.xyz
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -4218,7 +4218,7 @@ Examples:
 
 * abc matches the value xyz.abc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#suffix GoogleNetworkSecurityAuthzPolicy#suffix}
 
 ---
 
@@ -4227,11 +4227,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRules {
-	From: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFrom,
-	To: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesTo,
+	From: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFrom,
+	To: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesTo,
 }
 ```
 
@@ -4254,7 +4254,7 @@ From GoogleNetworkSecurityAuthzPolicyNetworkRulesFrom
 
 from block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#from GoogleNetworkSecurityAuthzPolicy#from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#from GoogleNetworkSecurityAuthzPolicy#from}
 
 ---
 
@@ -4268,7 +4268,7 @@ To GoogleNetworkSecurityAuthzPolicyNetworkRulesTo
 
 to block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#to GoogleNetworkSecurityAuthzPolicy#to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#to GoogleNetworkSecurityAuthzPolicy#to}
 
 ---
 
@@ -4277,7 +4277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFrom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFrom {
 	NotSources: interface{},
@@ -4304,7 +4304,7 @@ NotSources interface{}
 
 not_sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#not_sources GoogleNetworkSecurityAuthzPolicy#not_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#not_sources GoogleNetworkSecurityAuthzPolicy#not_sources}
 
 ---
 
@@ -4318,7 +4318,7 @@ Sources interface{}
 
 sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#sources GoogleNetworkSecurityAuthzPolicy#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#sources GoogleNetworkSecurityAuthzPolicy#sources}
 
 ---
 
@@ -4327,7 +4327,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSources {
 	IpBlocks: interface{},
@@ -4354,7 +4354,7 @@ IpBlocks interface{}
 
 ip_blocks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ip_blocks GoogleNetworkSecurityAuthzPolicy#ip_blocks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ip_blocks GoogleNetworkSecurityAuthzPolicy#ip_blocks}
 
 ---
 
@@ -4368,7 +4368,7 @@ Principals interface{}
 
 principals block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principals GoogleNetworkSecurityAuthzPolicy#principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principals GoogleNetworkSecurityAuthzPolicy#principals}
 
 ---
 
@@ -4377,7 +4377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesIpBlocks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesIpBlocks {
 	Length: *f64,
@@ -4404,7 +4404,7 @@ Length *f64
 
 The length of the address range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#length GoogleNetworkSecurityAuthzPolicy#length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#length GoogleNetworkSecurityAuthzPolicy#length}
 
 ---
 
@@ -4418,7 +4418,7 @@ Prefix *string
 
 The address prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -4427,10 +4427,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipals {
-	Principal: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipal,
+	Principal: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipal,
 	PrincipalSelector: *string,
 }
 ```
@@ -4454,7 +4454,7 @@ Principal GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPr
 
 principal block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principal GoogleNetworkSecurityAuthzPolicy#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principal GoogleNetworkSecurityAuthzPolicy#principal}
 
 ---
 
@@ -4470,7 +4470,7 @@ An enum to decide what principal value the principal rule will match against.
 
 If not specified, the PrincipalSelector is CLIENT_CERT_URI_SAN. Default value: "CLIENT_CERT_URI_SAN" Possible values: ["PRINCIPAL_SELECTOR_UNSPECIFIED", "CLIENT_CERT_URI_SAN", "CLIENT_CERT_DNS_NAME_SAN", "CLIENT_CERT_COMMON_NAME"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principal_selector GoogleNetworkSecurityAuthzPolicy#principal_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principal_selector GoogleNetworkSecurityAuthzPolicy#principal_selector}
 
 ---
 
@@ -4479,7 +4479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipal {
 	Exact: *string,
@@ -4504,7 +4504,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -4513,7 +4513,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSources {
 	IpBlocks: interface{},
@@ -4540,7 +4540,7 @@ IpBlocks interface{}
 
 ip_blocks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#ip_blocks GoogleNetworkSecurityAuthzPolicy#ip_blocks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#ip_blocks GoogleNetworkSecurityAuthzPolicy#ip_blocks}
 
 ---
 
@@ -4554,7 +4554,7 @@ Principals interface{}
 
 principals block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principals GoogleNetworkSecurityAuthzPolicy#principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principals GoogleNetworkSecurityAuthzPolicy#principals}
 
 ---
 
@@ -4563,7 +4563,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesIpBlocks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesIpBlocks {
 	Length: *f64,
@@ -4590,7 +4590,7 @@ Length *f64
 
 The length of the address range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#length GoogleNetworkSecurityAuthzPolicy#length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#length GoogleNetworkSecurityAuthzPolicy#length}
 
 ---
 
@@ -4604,7 +4604,7 @@ Prefix *string
 
 The address prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#prefix GoogleNetworkSecurityAuthzPolicy#prefix}
 
 ---
 
@@ -4613,10 +4613,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipals {
-	Principal: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipal,
+	Principal: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipal,
 	PrincipalSelector: *string,
 }
 ```
@@ -4640,7 +4640,7 @@ Principal GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrinc
 
 principal block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principal GoogleNetworkSecurityAuthzPolicy#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principal GoogleNetworkSecurityAuthzPolicy#principal}
 
 ---
 
@@ -4656,7 +4656,7 @@ An enum to decide what principal value the principal rule will match against.
 
 If not specified, the PrincipalSelector is CLIENT_CERT_URI_SAN. Default value: "CLIENT_CERT_URI_SAN" Possible values: ["PRINCIPAL_SELECTOR_UNSPECIFIED", "CLIENT_CERT_URI_SAN", "CLIENT_CERT_DNS_NAME_SAN", "CLIENT_CERT_COMMON_NAME"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#principal_selector GoogleNetworkSecurityAuthzPolicy#principal_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#principal_selector GoogleNetworkSecurityAuthzPolicy#principal_selector}
 
 ---
 
@@ -4665,7 +4665,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipal {
 	Exact: *string,
@@ -4690,7 +4690,7 @@ Exact *string
 
 The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}
 
 ---
 
@@ -4699,7 +4699,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesTo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesTo {
 	Operations: interface{},
@@ -4724,7 +4724,7 @@ Operations interface{}
 
 operations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#operations GoogleNetworkSecurityAuthzPolicy#operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#operations GoogleNetworkSecurityAuthzPolicy#operations}
 
 ---
 
@@ -4733,7 +4733,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperations {
 	Snis: interface{},
@@ -4758,7 +4758,7 @@ Snis interface{}
 
 snis block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#snis GoogleNetworkSecurityAuthzPolicy#snis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#snis GoogleNetworkSecurityAuthzPolicy#snis}
 
 ---
 
@@ -4767,7 +4767,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsSnis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsSnis {
 	Exact: *string,
@@ -4778,7 +4778,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsSnis.property.exact">Exact</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsSnis.property.exact">Exact</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}. |
 
 ---
 
@@ -4790,7 +4790,7 @@ Exact *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#exact GoogleNetworkSecurityAuthzPolicy#exact}.
 
 ---
 
@@ -4799,7 +4799,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyTarget {
 	LoadBalancingScheme: *string,
@@ -4830,7 +4830,7 @@ Must not be specified when targeting Agent
 Gateway. All resources referenced by this policy and extensions must share the same load balancing scheme.
 For more information, refer to [Backend services overview](https://cloud.google.com/load-balancing/docs/backend-service). Possible values: ["INTERNAL_MANAGED", "EXTERNAL_MANAGED", "INTERNAL_SELF_MANAGED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#load_balancing_scheme GoogleNetworkSecurityAuthzPolicy#load_balancing_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#load_balancing_scheme GoogleNetworkSecurityAuthzPolicy#load_balancing_scheme}
 
 ---
 
@@ -4844,7 +4844,7 @@ Resources *[]*string
 
 A list of references to the Forwarding Rules or Secure Web Proxy Gateways or Agent Gateways on which this policy will be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#resources GoogleNetworkSecurityAuthzPolicy#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#resources GoogleNetworkSecurityAuthzPolicy#resources}
 
 ---
 
@@ -4853,7 +4853,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 &googlenetworksecurityauthzpolicy.GoogleNetworkSecurityAuthzPolicyTimeouts {
 	Create: *string,
@@ -4866,9 +4866,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#create GoogleNetworkSecurityAuthzPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#delete GoogleNetworkSecurityAuthzPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#update GoogleNetworkSecurityAuthzPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#create GoogleNetworkSecurityAuthzPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#delete GoogleNetworkSecurityAuthzPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#update GoogleNetworkSecurityAuthzPolicy#update}. |
 
 ---
 
@@ -4880,7 +4880,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#create GoogleNetworkSecurityAuthzPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#create GoogleNetworkSecurityAuthzPolicy#create}.
 
 ---
 
@@ -4892,7 +4892,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#delete GoogleNetworkSecurityAuthzPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#delete GoogleNetworkSecurityAuthzPolicy#delete}.
 
 ---
 
@@ -4904,7 +4904,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_authz_policy#update GoogleNetworkSecurityAuthzPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_authz_policy#update GoogleNetworkSecurityAuthzPolicy#update}.
 
 ---
 
@@ -4915,7 +4915,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProviderAuthzExtensionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyCustomProviderAuthzExtensionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyCustomProviderAuthzExtensionOutputReference
 ```
@@ -5186,7 +5186,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyCustomProviderAuthzExtensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProviderCloudIapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyCustomProviderCloudIapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyCustomProviderCloudIapOutputReference
 ```
@@ -5457,7 +5457,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyCustomProviderCloudIap
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyCustomProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyCustomProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyCustomProviderOutputReference
 ```
@@ -5790,7 +5790,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyCustomProvider
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesIpBlocksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesIpBlocksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesIpBlocksList
 ```
@@ -5950,7 +5950,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesIpBlocksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesIpBlocksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesIpBlocksOutputReference
 ```
@@ -6261,7 +6261,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesList
 ```
@@ -6421,7 +6421,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference
 ```
@@ -6814,7 +6814,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsList
 ```
@@ -6974,7 +6974,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference
 ```
@@ -7457,7 +7457,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipalOutputReference
 ```
@@ -7851,7 +7851,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrin
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesIamServiceAccountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesIamServiceAccountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesIamServiceAccountOutputReference
 ```
@@ -8245,7 +8245,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesList
 ```
@@ -8405,7 +8405,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesOutputReference
 ```
@@ -8756,7 +8756,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesTagValueIdSetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesTagValueIdSetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesTagValueIdSetOutputReference
 ```
@@ -9034,7 +9034,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesReso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesFromOutputReference
 ```
@@ -9367,7 +9367,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesFrom
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesIpBlocksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesIpBlocksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesIpBlocksList
 ```
@@ -9527,7 +9527,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesIpBlocksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesIpBlocksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesIpBlocksOutputReference
 ```
@@ -9838,7 +9838,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesList
 ```
@@ -9998,7 +9998,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesOutputReference
 ```
@@ -10391,7 +10391,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsList
 ```
@@ -10551,7 +10551,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsOutputReference
 ```
@@ -11034,7 +11034,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsPrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsPrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincipalsPrincipalOutputReference
 ```
@@ -11428,7 +11428,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesPrincip
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesIamServiceAccountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesIamServiceAccountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesIamServiceAccountOutputReference
 ```
@@ -11822,7 +11822,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesList
 ```
@@ -11982,7 +11982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesOutputReference
 ```
@@ -12333,7 +12333,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesTagValueIdSetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesTagValueIdSetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourcesTagValueIdSetOutputReference
 ```
@@ -12611,7 +12611,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesFromSourcesResourc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesList
 ```
@@ -12771,7 +12771,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesOutputReference
 ```
@@ -13151,7 +13151,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList
 ```
@@ -13311,7 +13311,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersOutputReference
 ```
@@ -13649,7 +13649,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersValueOutputReference
 ```
@@ -14043,7 +14043,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHea
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetOutputReference
 ```
@@ -14334,7 +14334,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHea
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHostsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHostsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHostsList
 ```
@@ -14494,7 +14494,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHostsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHostsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHostsOutputReference
 ```
@@ -14906,7 +14906,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsList
 ```
@@ -15066,7 +15066,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsOutputReference
 ```
@@ -15488,7 +15488,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsPathsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsPathsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsPathsList
 ```
@@ -15648,7 +15648,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsPathsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsPathsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToNotOperationsPathsOutputReference
 ```
@@ -16060,7 +16060,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersList
 ```
@@ -16220,7 +16220,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersOutputReference
 ```
@@ -16558,7 +16558,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetHeadersValueOutputReference
 ```
@@ -16952,7 +16952,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeader
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetOutputReference
 ```
@@ -17243,7 +17243,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHeader
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHostsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHostsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHostsList
 ```
@@ -17403,7 +17403,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHostsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHostsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsHostsOutputReference
 ```
@@ -17815,7 +17815,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsList
 ```
@@ -17975,7 +17975,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsList
 ```
@@ -18135,7 +18135,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsOutputReference
 ```
@@ -18466,7 +18466,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsParamsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsParamsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsParamsList
 ```
@@ -18626,7 +18626,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethodsParamsOutputReference
 ```
@@ -19038,7 +19038,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcpOutputReference
 ```
@@ -19358,7 +19358,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsMcp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReference
 ```
@@ -19822,7 +19822,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsPathsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsPathsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsPathsList
 ```
@@ -19982,7 +19982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsPathsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsPathsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyHttpRulesToOperationsPathsOutputReference
 ```
@@ -20394,7 +20394,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyHttpRulesToOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyHttpRulesToOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyHttpRulesToOutputReference
 ```
@@ -20727,7 +20727,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyHttpRulesTo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesIpBlocksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesIpBlocksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesIpBlocksList
 ```
@@ -20887,7 +20887,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesIpBlocksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesIpBlocksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesIpBlocksOutputReference
 ```
@@ -21198,7 +21198,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesList
 ```
@@ -21358,7 +21358,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference
 ```
@@ -21709,7 +21709,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsList
 ```
@@ -21869,7 +21869,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsOutputReference
 ```
@@ -22207,7 +22207,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipalOutputReference
 ```
@@ -22485,7 +22485,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesP
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromOutputReference
 ```
@@ -22818,7 +22818,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyNetworkRulesFrom
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesIpBlocksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesIpBlocksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesIpBlocksList
 ```
@@ -22978,7 +22978,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesIpBlocksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesIpBlocksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesIpBlocksOutputReference
 ```
@@ -23289,7 +23289,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesList
 ```
@@ -23449,7 +23449,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference
 ```
@@ -23800,7 +23800,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsList
 ```
@@ -23960,7 +23960,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsOutputReference
 ```
@@ -24298,7 +24298,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipalOutputReference
 ```
@@ -24576,7 +24576,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrin
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesList
 ```
@@ -24736,7 +24736,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference
 ```
@@ -25087,7 +25087,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsList
 ```
@@ -25247,7 +25247,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsOutputReference
 ```
@@ -25556,7 +25556,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisList
 ```
@@ -25716,7 +25716,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference
 ```
@@ -26012,7 +26012,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference
 ```
@@ -26303,7 +26303,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyNetworkRulesTo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyTargetOutputReference
 ```
@@ -26610,7 +26610,7 @@ func InternalValue() GoogleNetworkSecurityAuthzPolicyTarget
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAuthzPolicy.GoogleNetworkSecurityAuthzPolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityauthzpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityauthzpolicy"
 
 googlenetworksecurityauthzpolicy.NewGoogleNetworkSecurityAuthzPolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityAuthzPolicyTimeoutsOutputReference
 ```

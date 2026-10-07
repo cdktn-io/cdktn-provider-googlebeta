@@ -4,12 +4,12 @@
 
 ### GoogleOrganizationServiceIdentity <a name="GoogleOrganizationServiceIdentity" id="@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentity"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity google_organization_service_identity}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity google_organization_service_identity}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleorganizationserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleorganizationserviceidentity"
 
 googleorganizationserviceidentity.NewGoogleOrganizationServiceIdentity(scope Construct, id *string, config GoogleOrganizationServiceIdentityConfig) GoogleOrganizationServiceIdentity
 ```
@@ -427,7 +427,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentity.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleorganizationserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleorganizationserviceidentity"
 
 googleorganizationserviceidentity.GoogleOrganizationServiceIdentity_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentity.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleorganizationserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleorganizationserviceidentity"
 
 googleorganizationserviceidentity.GoogleOrganizationServiceIdentity_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ googleorganizationserviceidentity.GoogleOrganizationServiceIdentity_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentity.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleorganizationserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleorganizationserviceidentity"
 
 googleorganizationserviceidentity.GoogleOrganizationServiceIdentity_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleorganizationserviceidentity.GoogleOrganizationServiceIdentity_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentity.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleorganizationserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleorganizationserviceidentity"
 
 googleorganizationserviceidentity.GoogleOrganizationServiceIdentity_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GoogleOrganizationServiceI
 
 The id of the existing GoogleOrganizationServiceIdentity that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -826,7 +826,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleorganizationserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleorganizationserviceidentity"
 
 &googleorganizationserviceidentity.GoogleOrganizationServiceIdentityConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleor
 	Organization: *string,
 	Service: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityTimeouts,
 }
 ```
 
@@ -854,9 +854,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleor
 | <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityConfig.property.organization">Organization</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#organization GoogleOrganizationServiceIdentity#organization}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityConfig.property.service">Service</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#service GoogleOrganizationServiceIdentity#service}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#id GoogleOrganizationServiceIdentity#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityConfig.property.organization">Organization</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#organization GoogleOrganizationServiceIdentity#organization}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityConfig.property.service">Service</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#service GoogleOrganizationServiceIdentity#service}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#id GoogleOrganizationServiceIdentity#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityTimeouts">GoogleOrganizationServiceIdentityTimeouts</a></code> | timeouts block. |
 
 ---
@@ -939,7 +939,7 @@ Organization *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#organization GoogleOrganizationServiceIdentity#organization}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#organization GoogleOrganizationServiceIdentity#organization}.
 
 ---
 
@@ -951,7 +951,7 @@ Service *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#service GoogleOrganizationServiceIdentity#service}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#service GoogleOrganizationServiceIdentity#service}.
 
 ---
 
@@ -963,7 +963,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#id GoogleOrganizationServiceIdentity#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#id GoogleOrganizationServiceIdentity#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -980,7 +980,7 @@ Timeouts GoogleOrganizationServiceIdentityTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#timeouts GoogleOrganizationServiceIdentity#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#timeouts GoogleOrganizationServiceIdentity#timeouts}
 
 ---
 
@@ -989,7 +989,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleorganizationserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleorganizationserviceidentity"
 
 &googleorganizationserviceidentity.GoogleOrganizationServiceIdentityTimeouts {
 	Create: *string,
@@ -1002,9 +1002,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleor
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#create GoogleOrganizationServiceIdentity#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#delete GoogleOrganizationServiceIdentity#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityTimeouts.property.read">Read</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#read GoogleOrganizationServiceIdentity#read}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#create GoogleOrganizationServiceIdentity#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#delete GoogleOrganizationServiceIdentity#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityTimeouts.property.read">Read</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#read GoogleOrganizationServiceIdentity#read}. |
 
 ---
 
@@ -1016,7 +1016,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#create GoogleOrganizationServiceIdentity#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#create GoogleOrganizationServiceIdentity#create}.
 
 ---
 
@@ -1028,7 +1028,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#delete GoogleOrganizationServiceIdentity#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#delete GoogleOrganizationServiceIdentity#delete}.
 
 ---
 
@@ -1040,7 +1040,7 @@ Read *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_service_identity#read GoogleOrganizationServiceIdentity#read}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_service_identity#read GoogleOrganizationServiceIdentity#read}.
 
 ---
 
@@ -1051,7 +1051,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOrganizationServiceIdentity.GoogleOrganizationServiceIdentityTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleorganizationserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleorganizationserviceidentity"
 
 googleorganizationserviceidentity.NewGoogleOrganizationServiceIdentityTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOrganizationServiceIdentityTimeoutsOutputReference
 ```

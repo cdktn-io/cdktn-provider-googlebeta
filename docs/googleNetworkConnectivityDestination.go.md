@@ -4,12 +4,12 @@
 
 ### GoogleNetworkConnectivityDestination <a name="GoogleNetworkConnectivityDestination" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination google_network_connectivity_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination google_network_connectivity_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.NewGoogleNetworkConnectivityDestination(scope Construct, id *string, config GoogleNetworkConnectivityDestinationConfig) GoogleNetworkConnectivityDestination
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestination.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.GoogleNetworkConnectivityDestination_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestination.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.GoogleNetworkConnectivityDestination_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlenetworkconnectivitydestination.GoogleNetworkConnectivityDestination_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestination.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.GoogleNetworkConnectivityDestination_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlenetworkconnectivitydestination.GoogleNetworkConnectivityDestination_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestination.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.GoogleNetworkConnectivityDestination_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleNetworkConnectivityD
 
 The id of the existing GoogleNetworkConnectivityDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1076,7 +1076,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 &googlenetworkconnectivitydestination.GoogleNetworkConnectivityDestinationConfig {
 	Connection: interface{},
@@ -1096,7 +1096,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationTimeouts,
 }
 ```
 
@@ -1118,9 +1118,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationConfig.property.name">Name</a></code> | <code>*string</code> | The name of the destination. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationConfig.property.description">Description</a></code> | <code>*string</code> | A description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#id GoogleNetworkConnectivityDestination#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#id GoogleNetworkConnectivityDestination#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | User-defined labels. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#project GoogleNetworkConnectivityDestination#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#project GoogleNetworkConnectivityDestination#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationTimeouts">GoogleNetworkConnectivityDestinationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1205,7 +1205,7 @@ Endpoints interface{}
 
 endpoints block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#endpoints GoogleNetworkConnectivityDestination#endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#endpoints GoogleNetworkConnectivityDestination#endpoints}
 
 ---
 
@@ -1219,7 +1219,7 @@ IpPrefix *string
 
 The IP prefix that represents your workload on another CSP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#ip_prefix GoogleNetworkConnectivityDestination#ip_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#ip_prefix GoogleNetworkConnectivityDestination#ip_prefix}
 
 ---
 
@@ -1233,7 +1233,7 @@ Location *string
 
 The location of the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#location GoogleNetworkConnectivityDestination#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#location GoogleNetworkConnectivityDestination#location}
 
 ---
 
@@ -1247,7 +1247,7 @@ MulticloudDataTransferConfig *string
 
 The multicloud data transfer config of the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#multicloud_data_transfer_config GoogleNetworkConnectivityDestination#multicloud_data_transfer_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#multicloud_data_transfer_config GoogleNetworkConnectivityDestination#multicloud_data_transfer_config}
 
 ---
 
@@ -1261,7 +1261,7 @@ Name *string
 
 The name of the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#name GoogleNetworkConnectivityDestination#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#name GoogleNetworkConnectivityDestination#name}
 
 ---
 
@@ -1282,7 +1282,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#deletion_policy GoogleNetworkConnectivityDestination#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#deletion_policy GoogleNetworkConnectivityDestination#deletion_policy}
 
 ---
 
@@ -1296,7 +1296,7 @@ Description *string
 
 A description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#description GoogleNetworkConnectivityDestination#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#description GoogleNetworkConnectivityDestination#description}
 
 ---
 
@@ -1308,7 +1308,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#id GoogleNetworkConnectivityDestination#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#id GoogleNetworkConnectivityDestination#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1328,7 +1328,7 @@ User-defined labels.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#labels GoogleNetworkConnectivityDestination#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#labels GoogleNetworkConnectivityDestination#labels}
 
 ---
 
@@ -1340,7 +1340,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#project GoogleNetworkConnectivityDestination#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#project GoogleNetworkConnectivityDestination#project}.
 
 ---
 
@@ -1354,7 +1354,7 @@ Timeouts GoogleNetworkConnectivityDestinationTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#timeouts GoogleNetworkConnectivityDestination#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#timeouts GoogleNetworkConnectivityDestination#timeouts}
 
 ---
 
@@ -1363,7 +1363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 &googlenetworkconnectivitydestination.GoogleNetworkConnectivityDestinationEndpoints {
 	Asn: *string,
@@ -1390,7 +1390,7 @@ Asn *string
 
 The ASN of the remote IP prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#asn GoogleNetworkConnectivityDestination#asn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#asn GoogleNetworkConnectivityDestination#asn}
 
 ---
 
@@ -1404,7 +1404,7 @@ Csp *string
 
 The CSP of the remote IP prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#csp GoogleNetworkConnectivityDestination#csp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#csp GoogleNetworkConnectivityDestination#csp}
 
 ---
 
@@ -1413,7 +1413,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationStateTimeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 &googlenetworkconnectivitydestination.GoogleNetworkConnectivityDestinationStateTimeline {
 
@@ -1426,7 +1426,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationStateTimelineStates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 &googlenetworkconnectivitydestination.GoogleNetworkConnectivityDestinationStateTimelineStates {
 
@@ -1439,7 +1439,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 &googlenetworkconnectivitydestination.GoogleNetworkConnectivityDestinationTimeouts {
 	Create: *string,
@@ -1452,9 +1452,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#create GoogleNetworkConnectivityDestination#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#delete GoogleNetworkConnectivityDestination#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#update GoogleNetworkConnectivityDestination#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#create GoogleNetworkConnectivityDestination#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#delete GoogleNetworkConnectivityDestination#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#update GoogleNetworkConnectivityDestination#update}. |
 
 ---
 
@@ -1466,7 +1466,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#create GoogleNetworkConnectivityDestination#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#create GoogleNetworkConnectivityDestination#create}.
 
 ---
 
@@ -1478,7 +1478,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#delete GoogleNetworkConnectivityDestination#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#delete GoogleNetworkConnectivityDestination#delete}.
 
 ---
 
@@ -1490,7 +1490,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_destination#update GoogleNetworkConnectivityDestination#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_destination#update GoogleNetworkConnectivityDestination#update}.
 
 ---
 
@@ -1501,7 +1501,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.NewGoogleNetworkConnectivityDestinationEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkConnectivityDestinationEndpointsList
 ```
@@ -1661,7 +1661,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.NewGoogleNetworkConnectivityDestinationEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkConnectivityDestinationEndpointsOutputReference
 ```
@@ -1994,7 +1994,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationStateTimelineList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.NewGoogleNetworkConnectivityDestinationStateTimelineList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkConnectivityDestinationStateTimelineList
 ```
@@ -2143,7 +2143,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationStateTimelineOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.NewGoogleNetworkConnectivityDestinationStateTimelineOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkConnectivityDestinationStateTimelineOutputReference
 ```
@@ -2421,7 +2421,7 @@ func InternalValue() GoogleNetworkConnectivityDestinationStateTimeline
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationStateTimelineStatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.NewGoogleNetworkConnectivityDestinationStateTimelineStatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkConnectivityDestinationStateTimelineStatesList
 ```
@@ -2570,7 +2570,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationStateTimelineStatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.NewGoogleNetworkConnectivityDestinationStateTimelineStatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkConnectivityDestinationStateTimelineStatesOutputReference
 ```
@@ -2859,7 +2859,7 @@ func InternalValue() GoogleNetworkConnectivityDestinationStateTimelineStates
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityDestination.GoogleNetworkConnectivityDestinationTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitydestination"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitydestination"
 
 googlenetworkconnectivitydestination.NewGoogleNetworkConnectivityDestinationTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkConnectivityDestinationTimeoutsOutputReference
 ```

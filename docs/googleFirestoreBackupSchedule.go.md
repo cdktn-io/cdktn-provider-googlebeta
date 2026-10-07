@@ -4,12 +4,12 @@
 
 ### GoogleFirestoreBackupSchedule <a name="GoogleFirestoreBackupSchedule" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule google_firestore_backup_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule google_firestore_backup_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 googlefirestorebackupschedule.NewGoogleFirestoreBackupSchedule(scope Construct, id *string, config GoogleFirestoreBackupScheduleConfig) GoogleFirestoreBackupSchedule
 ```
@@ -488,7 +488,7 @@ func ResetWeeklyRecurrence()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 googlefirestorebackupschedule.GoogleFirestoreBackupSchedule_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 googlefirestorebackupschedule.GoogleFirestoreBackupSchedule_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googlefirestorebackupschedule.GoogleFirestoreBackupSchedule_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 googlefirestorebackupschedule.GoogleFirestoreBackupSchedule_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googlefirestorebackupschedule.GoogleFirestoreBackupSchedule_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 googlefirestorebackupschedule.GoogleFirestoreBackupSchedule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the GoogleFirestoreBackupSched
 
 The id of the existing GoogleFirestoreBackupSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -964,7 +964,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 &googlefirestorebackupschedule.GoogleFirestoreBackupScheduleConfig {
 	Connection: interface{},
@@ -975,13 +975,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Retention: *string,
-	DailyRecurrence: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleDailyRecurrence,
+	DailyRecurrence: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleDailyRecurrence,
 	Database: *string,
 	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleTimeouts,
-	WeeklyRecurrence: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleWeeklyRecurrence,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleTimeouts,
+	WeeklyRecurrence: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleWeeklyRecurrence,
 }
 ```
 
@@ -1000,8 +1000,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleConfig.property.dailyRecurrence">DailyRecurrence</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleDailyRecurrence">GoogleFirestoreBackupScheduleDailyRecurrence</a></code> | daily_recurrence block. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleConfig.property.database">Database</a></code> | <code>*string</code> | The Firestore database id. Defaults to '"(default)"'. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#id GoogleFirestoreBackupSchedule#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#project GoogleFirestoreBackupSchedule#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#id GoogleFirestoreBackupSchedule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#project GoogleFirestoreBackupSchedule#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleTimeouts">GoogleFirestoreBackupScheduleTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleConfig.property.weeklyRecurrence">WeeklyRecurrence</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleWeeklyRecurrence">GoogleFirestoreBackupScheduleWeeklyRecurrence</a></code> | weekly_recurrence block. |
 
@@ -1089,7 +1089,7 @@ At what relative time in the future, compared to its creation time, the backup s
 
 You can set this to a value up to 14 weeks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#retention GoogleFirestoreBackupSchedule#retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#retention GoogleFirestoreBackupSchedule#retention}
 
 ---
 
@@ -1103,7 +1103,7 @@ DailyRecurrence GoogleFirestoreBackupScheduleDailyRecurrence
 
 daily_recurrence block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#daily_recurrence GoogleFirestoreBackupSchedule#daily_recurrence}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#daily_recurrence GoogleFirestoreBackupSchedule#daily_recurrence}
 
 ---
 
@@ -1117,7 +1117,7 @@ Database *string
 
 The Firestore database id. Defaults to '"(default)"'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#database GoogleFirestoreBackupSchedule#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#database GoogleFirestoreBackupSchedule#database}
 
 ---
 
@@ -1138,7 +1138,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#deletion_policy GoogleFirestoreBackupSchedule#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#deletion_policy GoogleFirestoreBackupSchedule#deletion_policy}
 
 ---
 
@@ -1150,7 +1150,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#id GoogleFirestoreBackupSchedule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#id GoogleFirestoreBackupSchedule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1165,7 +1165,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#project GoogleFirestoreBackupSchedule#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#project GoogleFirestoreBackupSchedule#project}.
 
 ---
 
@@ -1179,7 +1179,7 @@ Timeouts GoogleFirestoreBackupScheduleTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#timeouts GoogleFirestoreBackupSchedule#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#timeouts GoogleFirestoreBackupSchedule#timeouts}
 
 ---
 
@@ -1193,7 +1193,7 @@ WeeklyRecurrence GoogleFirestoreBackupScheduleWeeklyRecurrence
 
 weekly_recurrence block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#weekly_recurrence GoogleFirestoreBackupSchedule#weekly_recurrence}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#weekly_recurrence GoogleFirestoreBackupSchedule#weekly_recurrence}
 
 ---
 
@@ -1202,7 +1202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleDailyRecurrence.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 &googlefirestorebackupschedule.GoogleFirestoreBackupScheduleDailyRecurrence {
 
@@ -1215,7 +1215,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 &googlefirestorebackupschedule.GoogleFirestoreBackupScheduleTimeouts {
 	Create: *string,
@@ -1228,9 +1228,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#create GoogleFirestoreBackupSchedule#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#delete GoogleFirestoreBackupSchedule#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#update GoogleFirestoreBackupSchedule#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#create GoogleFirestoreBackupSchedule#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#delete GoogleFirestoreBackupSchedule#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#update GoogleFirestoreBackupSchedule#update}. |
 
 ---
 
@@ -1242,7 +1242,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#create GoogleFirestoreBackupSchedule#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#create GoogleFirestoreBackupSchedule#create}.
 
 ---
 
@@ -1254,7 +1254,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#delete GoogleFirestoreBackupSchedule#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#delete GoogleFirestoreBackupSchedule#delete}.
 
 ---
 
@@ -1266,7 +1266,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#update GoogleFirestoreBackupSchedule#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#update GoogleFirestoreBackupSchedule#update}.
 
 ---
 
@@ -1275,7 +1275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleWeeklyRecurrence.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 &googlefirestorebackupschedule.GoogleFirestoreBackupScheduleWeeklyRecurrence {
 	Day: *string,
@@ -1300,7 +1300,7 @@ Day *string
 
 The day of week to run. Possible values: ["DAY_OF_WEEK_UNSPECIFIED", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_backup_schedule#day GoogleFirestoreBackupSchedule#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firestore_backup_schedule#day GoogleFirestoreBackupSchedule#day}
 
 ---
 
@@ -1311,7 +1311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleDailyRecurrenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 googlefirestorebackupschedule.NewGoogleFirestoreBackupScheduleDailyRecurrenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirestoreBackupScheduleDailyRecurrenceOutputReference
 ```
@@ -1560,7 +1560,7 @@ func InternalValue() GoogleFirestoreBackupScheduleDailyRecurrence
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 googlefirestorebackupschedule.NewGoogleFirestoreBackupScheduleTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirestoreBackupScheduleTimeoutsOutputReference
 ```
@@ -1896,7 +1896,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupScheduleWeeklyRecurrenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestorebackupschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirestorebackupschedule"
 
 googlefirestorebackupschedule.NewGoogleFirestoreBackupScheduleWeeklyRecurrenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirestoreBackupScheduleWeeklyRecurrenceOutputReference
 ```

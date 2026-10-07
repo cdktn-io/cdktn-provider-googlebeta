@@ -4,12 +4,12 @@
 
 ### DataGoogleKmsCryptoKey <a name="DataGoogleKmsCryptoKey" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_kms_crypto_key google_kms_crypto_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_kms_crypto_key google_kms_crypto_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 datagooglekmscryptokey.NewDataGoogleKmsCryptoKey(scope Construct, id *string, config DataGoogleKmsCryptoKeyConfig) DataGoogleKmsCryptoKey
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 datagooglekmscryptokey.DataGoogleKmsCryptoKey_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 datagooglekmscryptokey.DataGoogleKmsCryptoKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagooglekmscryptokey.DataGoogleKmsCryptoKey_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKey.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 datagooglekmscryptokey.DataGoogleKmsCryptoKey_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagooglekmscryptokey.DataGoogleKmsCryptoKey_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 datagooglekmscryptokey.DataGoogleKmsCryptoKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGoogleKmsCryptoKey to 
 
 The id of the existing DataGoogleKmsCryptoKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_kms_crypto_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_kms_crypto_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -781,7 +781,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 &datagooglekmscryptokey.DataGoogleKmsCryptoKeyConfig {
 	Connection: interface{},
@@ -810,7 +810,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyConfig.property.keyRing">KeyRing</a></code> | <code>*string</code> | The KeyRing that this key belongs to. Format: ''projects/{{project}}/locations/{{location}}/keyRings/{{keyRing}}''. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyConfig.property.name">Name</a></code> | <code>*string</code> | The resource name for the CryptoKey. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_kms_crypto_key#id DataGoogleKmsCryptoKey#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_kms_crypto_key#id DataGoogleKmsCryptoKey#id}. |
 
 ---
 
@@ -894,7 +894,7 @@ KeyRing *string
 
 The KeyRing that this key belongs to. Format: ''projects/{{project}}/locations/{{location}}/keyRings/{{keyRing}}''.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_kms_crypto_key#key_ring DataGoogleKmsCryptoKey#key_ring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_kms_crypto_key#key_ring DataGoogleKmsCryptoKey#key_ring}
 
 ---
 
@@ -908,7 +908,7 @@ Name *string
 
 The resource name for the CryptoKey.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_kms_crypto_key#name DataGoogleKmsCryptoKey#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_kms_crypto_key#name DataGoogleKmsCryptoKey#name}
 
 ---
 
@@ -920,7 +920,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_kms_crypto_key#id DataGoogleKmsCryptoKey#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_kms_crypto_key#id DataGoogleKmsCryptoKey#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -932,7 +932,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 &datagooglekmscryptokey.DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicy {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyPrimary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 &datagooglekmscryptokey.DataGoogleKmsCryptoKeyPrimary {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyVersionTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 &datagooglekmscryptokey.DataGoogleKmsCryptoKeyVersionTemplate {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 datagooglekmscryptokey.NewDataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyList
 ```
@@ -1122,7 +1122,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 datagooglekmscryptokey.NewDataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference
 ```
@@ -1400,7 +1400,7 @@ func InternalValue() DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyPrimaryList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 datagooglekmscryptokey.NewDataGoogleKmsCryptoKeyPrimaryList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleKmsCryptoKeyPrimaryList
 ```
@@ -1549,7 +1549,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyPrimaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 datagooglekmscryptokey.NewDataGoogleKmsCryptoKeyPrimaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleKmsCryptoKeyPrimaryOutputReference
 ```
@@ -1838,7 +1838,7 @@ func InternalValue() DataGoogleKmsCryptoKeyPrimary
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyVersionTemplateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 datagooglekmscryptokey.NewDataGoogleKmsCryptoKeyVersionTemplateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleKmsCryptoKeyVersionTemplateList
 ```
@@ -1987,7 +1987,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyVersionTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmscryptokey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmscryptokey"
 
 datagooglekmscryptokey.NewDataGoogleKmsCryptoKeyVersionTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleKmsCryptoKeyVersionTemplateOutputReference
 ```

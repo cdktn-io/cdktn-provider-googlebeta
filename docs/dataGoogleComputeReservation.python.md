@@ -4,7 +4,7 @@
 
 ### DataGoogleComputeReservation <a name="DataGoogleComputeReservation" id="@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation google_compute_reservation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation google_compute_reservation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.Initializer"></a>
 
@@ -40,7 +40,7 @@ dataGoogleComputeReservation.DataGoogleComputeReservation(
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.Initializer.parameter.name">name</a></code> | <code>str</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.Initializer.parameter.zone">zone</a></code> | <code>str</code> | The zone where the reservation is made. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}. |
 
 ---
 
@@ -118,7 +118,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#name DataGoogleComputeReservation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation#name DataGoogleComputeReservation#name}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The zone where the reservation is made.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#zone DataGoogleComputeReservation#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation#zone DataGoogleComputeReservation#zone}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}.
 
 ---
 
@@ -526,7 +526,7 @@ The construct id used in the generated config for the DataGoogleComputeReservati
 
 The id of the existing DataGoogleComputeReservation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -566,7 +566,6 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.property.kind">kind</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.property.linkedCommitments">linked_commitments</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservationParamsList">DataGoogleComputeReservationParamsList</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.property.reservationBlockCount">reservation_block_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.property.reservationSharingPolicy">reservation_sharing_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservationReservationSharingPolicyList">DataGoogleComputeReservationReservationSharingPolicyList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.property.resourceStatus">resource_status</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservationResourceStatusList">DataGoogleComputeReservationResourceStatusList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.property.satisfiesPzs">satisfies_pzs</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
@@ -826,16 +825,6 @@ params: DataGoogleComputeReservationParamsList
 
 ---
 
-##### `reservation_block_count`<sup>Required</sup> <a name="reservation_block_count" id="@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.property.reservationBlockCount"></a>
-
-```python
-reservation_block_count: typing.Union[int, float]
-```
-
-- *Type:* typing.Union[int, float]
-
----
-
 ##### `reservation_sharing_policy`<sup>Required</sup> <a name="reservation_sharing_policy" id="@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation.property.reservationSharingPolicy"></a>
 
 ```python
@@ -1030,7 +1019,7 @@ dataGoogleComputeReservation.DataGoogleComputeReservationConfig(
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservationConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservationConfig.property.name">name</a></code> | <code>str</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservationConfig.property.zone">zone</a></code> | <code>str</code> | The zone where the reservation is made. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservationConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservationConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}. |
 
 ---
 
@@ -1122,7 +1111,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#name DataGoogleComputeReservation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation#name DataGoogleComputeReservation#name}
 
 ---
 
@@ -1136,7 +1125,7 @@ zone: str
 
 The zone where the reservation is made.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#zone DataGoogleComputeReservation#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation#zone DataGoogleComputeReservation#zone}
 
 ---
 
@@ -1148,7 +1137,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}.
 
 ---
 

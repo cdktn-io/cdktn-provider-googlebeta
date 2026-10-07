@@ -4,12 +4,12 @@
 
 ### GoogleApigeeEnvKeystore <a name="GoogleApigeeEnvKeystore" id="@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore google_apigee_env_keystore}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvkeystore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvkeystore"
 
 googleapigeeenvkeystore.NewGoogleApigeeEnvKeystore(scope Construct, id *string, config GoogleApigeeEnvKeystoreConfig) GoogleApigeeEnvKeystore
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvkeystore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvkeystore"
 
 googleapigeeenvkeystore.GoogleApigeeEnvKeystore_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvkeystore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvkeystore"
 
 googleapigeeenvkeystore.GoogleApigeeEnvKeystore_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googleapigeeenvkeystore.GoogleApigeeEnvKeystore_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystore.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvkeystore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvkeystore"
 
 googleapigeeenvkeystore.GoogleApigeeEnvKeystore_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googleapigeeenvkeystore.GoogleApigeeEnvKeystore_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvkeystore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvkeystore"
 
 googleapigeeenvkeystore.GoogleApigeeEnvKeystore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleApigeeEnvKeystore to
 
 The id of the existing GoogleApigeeEnvKeystore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -844,7 +844,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvkeystore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvkeystore"
 
 &googleapigeeenvkeystore.GoogleApigeeEnvKeystoreConfig {
 	Connection: interface{},
@@ -858,7 +858,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 	Name: *string,
 	DeletionPolicy: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeouts,
 }
 ```
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreConfig.property.envId">EnvId</a></code> | <code>*string</code> | The Apigee environment group associated with the Apigee environment, in the format 'organizations/{{org_name}}/environments/{{env_name}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreConfig.property.name">Name</a></code> | <code>*string</code> | The name of the newly created keystore. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore#id GoogleApigeeEnvKeystore#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore#id GoogleApigeeEnvKeystore#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeouts">GoogleApigeeEnvKeystoreTimeouts</a></code> | timeouts block. |
 
 ---
@@ -961,7 +961,7 @@ EnvId *string
 
 The Apigee environment group associated with the Apigee environment, in the format 'organizations/{{org_name}}/environments/{{env_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore#env_id GoogleApigeeEnvKeystore#env_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore#env_id GoogleApigeeEnvKeystore#env_id}
 
 ---
 
@@ -975,7 +975,7 @@ Name *string
 
 The name of the newly created keystore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore#name GoogleApigeeEnvKeystore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore#name GoogleApigeeEnvKeystore#name}
 
 ---
 
@@ -996,7 +996,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore#deletion_policy GoogleApigeeEnvKeystore#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore#deletion_policy GoogleApigeeEnvKeystore#deletion_policy}
 
 ---
 
@@ -1008,7 +1008,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore#id GoogleApigeeEnvKeystore#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore#id GoogleApigeeEnvKeystore#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1025,7 +1025,7 @@ Timeouts GoogleApigeeEnvKeystoreTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore#timeouts GoogleApigeeEnvKeystore#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore#timeouts GoogleApigeeEnvKeystore#timeouts}
 
 ---
 
@@ -1034,7 +1034,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvkeystore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvkeystore"
 
 &googleapigeeenvkeystore.GoogleApigeeEnvKeystoreTimeouts {
 	Create: *string,
@@ -1046,8 +1046,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore#create GoogleApigeeEnvKeystore#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore#delete GoogleApigeeEnvKeystore#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore#create GoogleApigeeEnvKeystore#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore#delete GoogleApigeeEnvKeystore#delete}. |
 
 ---
 
@@ -1059,7 +1059,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore#create GoogleApigeeEnvKeystore#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore#create GoogleApigeeEnvKeystore#create}.
 
 ---
 
@@ -1071,7 +1071,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_env_keystore#delete GoogleApigeeEnvKeystore#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_env_keystore#delete GoogleApigeeEnvKeystore#delete}.
 
 ---
 
@@ -1082,7 +1082,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvkeystore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvkeystore"
 
 googleapigeeenvkeystore.NewGoogleApigeeEnvKeystoreTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeEnvKeystoreTimeoutsOutputReference
 ```

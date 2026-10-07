@@ -4,12 +4,12 @@
 
 ### GoogleVertexAiCacheConfig <a name="GoogleVertexAiCacheConfig" id="@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config google_vertex_ai_cache_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config google_vertex_ai_cache_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaicacheconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaicacheconfig"
 
 googlevertexaicacheconfig.NewGoogleVertexAiCacheConfig(scope Construct, id *string, config GoogleVertexAiCacheConfigConfig) GoogleVertexAiCacheConfig
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaicacheconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaicacheconfig"
 
 googlevertexaicacheconfig.GoogleVertexAiCacheConfig_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaicacheconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaicacheconfig"
 
 googlevertexaicacheconfig.GoogleVertexAiCacheConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlevertexaicacheconfig.GoogleVertexAiCacheConfig_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaicacheconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaicacheconfig"
 
 googlevertexaicacheconfig.GoogleVertexAiCacheConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlevertexaicacheconfig.GoogleVertexAiCacheConfig_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaicacheconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaicacheconfig"
 
 googlevertexaicacheconfig.GoogleVertexAiCacheConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleVertexAiCacheConfig 
 
 The id of the existing GoogleVertexAiCacheConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -822,7 +822,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaicacheconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaicacheconfig"
 
 &googlevertexaicacheconfig.GoogleVertexAiCacheConfigConfig {
 	Connection: interface{},
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleve
 	DisableCache: interface{},
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigTimeouts,
 }
 ```
 
@@ -851,8 +851,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleve
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigConfig.property.disableCache">DisableCache</a></code> | <code>interface{}</code> | If set to true, disables GenAI caching. Otherwise caching is enabled. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#id GoogleVertexAiCacheConfig#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#project GoogleVertexAiCacheConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#id GoogleVertexAiCacheConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#project GoogleVertexAiCacheConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigTimeouts">GoogleVertexAiCacheConfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -937,7 +937,7 @@ DisableCache interface{}
 
 If set to true, disables GenAI caching. Otherwise caching is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#disable_cache GoogleVertexAiCacheConfig#disable_cache}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#disable_cache GoogleVertexAiCacheConfig#disable_cache}
 
 ---
 
@@ -949,7 +949,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#id GoogleVertexAiCacheConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#id GoogleVertexAiCacheConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -964,7 +964,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#project GoogleVertexAiCacheConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#project GoogleVertexAiCacheConfig#project}.
 
 ---
 
@@ -978,7 +978,7 @@ Timeouts GoogleVertexAiCacheConfigTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#timeouts GoogleVertexAiCacheConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#timeouts GoogleVertexAiCacheConfig#timeouts}
 
 ---
 
@@ -987,7 +987,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaicacheconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaicacheconfig"
 
 &googlevertexaicacheconfig.GoogleVertexAiCacheConfigTimeouts {
 	Create: *string,
@@ -1000,9 +1000,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleve
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#create GoogleVertexAiCacheConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#delete GoogleVertexAiCacheConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#update GoogleVertexAiCacheConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#create GoogleVertexAiCacheConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#delete GoogleVertexAiCacheConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#update GoogleVertexAiCacheConfig#update}. |
 
 ---
 
@@ -1014,7 +1014,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#create GoogleVertexAiCacheConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#create GoogleVertexAiCacheConfig#create}.
 
 ---
 
@@ -1026,7 +1026,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#delete GoogleVertexAiCacheConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#delete GoogleVertexAiCacheConfig#delete}.
 
 ---
 
@@ -1038,7 +1038,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config#update GoogleVertexAiCacheConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config#update GoogleVertexAiCacheConfig#update}.
 
 ---
 
@@ -1049,7 +1049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiCacheConfig.GoogleVertexAiCacheConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaicacheconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaicacheconfig"
 
 googlevertexaicacheconfig.NewGoogleVertexAiCacheConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiCacheConfigTimeoutsOutputReference
 ```

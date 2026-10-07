@@ -4,12 +4,12 @@
 
 ### GoogleBigqueryDataset <a name="GoogleBigqueryDataset" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset google_bigquery_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset google_bigquery_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDataset(scope Construct, id *string, config GoogleBigqueryDatasetConfig) GoogleBigqueryDataset
 ```
@@ -605,7 +605,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.GoogleBigqueryDataset_IsConstruct(x interface{}) *bool
 ```
@@ -637,7 +637,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.GoogleBigqueryDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -651,7 +651,7 @@ googlebigquerydataset.GoogleBigqueryDataset_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.GoogleBigqueryDataset_IsTerraformResource(x interface{}) *bool
 ```
@@ -665,7 +665,7 @@ googlebigquerydataset.GoogleBigqueryDataset_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.GoogleBigqueryDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -694,7 +694,7 @@ The construct id used in the generated config for the GoogleBigqueryDataset to i
 
 The id of the existing GoogleBigqueryDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1422,19 +1422,19 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 &googlebigquerydataset.GoogleBigqueryDatasetAccess {
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDataset.GoogleBigqueryDatasetAccessCondition,
-	Dataset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDataset.GoogleBigqueryDatasetAccessDataset,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDataset.GoogleBigqueryDatasetAccessCondition,
+	Dataset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDataset.GoogleBigqueryDatasetAccessDataset,
 	Domain: *string,
 	GroupByEmail: *string,
 	IamMember: *string,
 	Role: *string,
-	Routine: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDataset.GoogleBigqueryDatasetAccessRoutine,
+	Routine: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDataset.GoogleBigqueryDatasetAccessRoutine,
 	SpecialGroup: *string,
 	UserByEmail: *string,
-	View: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDataset.GoogleBigqueryDatasetAccessView,
+	View: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDataset.GoogleBigqueryDatasetAccessView,
 }
 ```
 
@@ -1465,7 +1465,7 @@ Condition GoogleBigqueryDatasetAccessCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#condition GoogleBigqueryDataset#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#condition GoogleBigqueryDataset#condition}
 
 ---
 
@@ -1479,7 +1479,7 @@ Dataset GoogleBigqueryDatasetAccessDataset
 
 dataset block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#dataset GoogleBigqueryDataset#dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#dataset GoogleBigqueryDataset#dataset}
 
 ---
 
@@ -1493,7 +1493,7 @@ Domain *string
 
 A domain to grant access to. Any users signed in with the domain specified will be granted the specified access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#domain GoogleBigqueryDataset#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#domain GoogleBigqueryDataset#domain}
 
 ---
 
@@ -1507,7 +1507,7 @@ GroupByEmail *string
 
 An email address of a Google Group to grant access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#group_by_email GoogleBigqueryDataset#group_by_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#group_by_email GoogleBigqueryDataset#group_by_email}
 
 ---
 
@@ -1523,7 +1523,7 @@ Some other type of member that appears in the IAM Policy but isn't a user, group
 
 For example: 'allUsers'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#iam_member GoogleBigqueryDataset#iam_member}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#iam_member GoogleBigqueryDataset#iam_member}
 
 ---
 
@@ -1542,7 +1542,7 @@ are supported. Predefined roles that have equivalent basic roles
 are swapped by the API to their basic counterparts. See
 [official docs](https://cloud.google.com/bigquery/docs/access-control).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#role GoogleBigqueryDataset#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#role GoogleBigqueryDataset#role}
 
 ---
 
@@ -1556,7 +1556,7 @@ Routine GoogleBigqueryDatasetAccessRoutine
 
 routine block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#routine GoogleBigqueryDataset#routine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#routine GoogleBigqueryDataset#routine}
 
 ---
 
@@ -1577,7 +1577,7 @@ Possible values include:
 * 'projectWriters': Writers of the enclosing project.
 * 'allAuthenticatedUsers': All authenticated BigQuery users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#special_group GoogleBigqueryDataset#special_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#special_group GoogleBigqueryDataset#special_group}
 
 ---
 
@@ -1591,7 +1591,7 @@ UserByEmail *string
 
 An email address of a user to grant access to. For example: fred@example.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#user_by_email GoogleBigqueryDataset#user_by_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#user_by_email GoogleBigqueryDataset#user_by_email}
 
 ---
 
@@ -1605,7 +1605,7 @@ View GoogleBigqueryDatasetAccessView
 
 view block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#view GoogleBigqueryDataset#view}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#view GoogleBigqueryDataset#view}
 
 ---
 
@@ -1614,7 +1614,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 &googlebigquerydataset.GoogleBigqueryDatasetAccessCondition {
 	Expression: *string,
@@ -1645,7 +1645,7 @@ Expression *string
 
 Textual representation of an expression in Common Expression Language syntax.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#expression GoogleBigqueryDataset#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#expression GoogleBigqueryDataset#expression}
 
 ---
 
@@ -1662,7 +1662,7 @@ Description of the expression.
 This is a longer text which describes the expression,
 e.g. when hovered over it in a UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#description GoogleBigqueryDataset#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#description GoogleBigqueryDataset#description}
 
 ---
 
@@ -1676,7 +1676,7 @@ Location *string
 
 String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#location GoogleBigqueryDataset#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#location GoogleBigqueryDataset#location}
 
 ---
 
@@ -1690,7 +1690,7 @@ Title *string
 
 Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#title GoogleBigqueryDataset#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#title GoogleBigqueryDataset#title}
 
 ---
 
@@ -1699,10 +1699,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 &googlebigquerydataset.GoogleBigqueryDatasetAccessDataset {
-	Dataset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDataset.GoogleBigqueryDatasetAccessDatasetDataset,
+	Dataset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDataset.GoogleBigqueryDatasetAccessDatasetDataset,
 	TargetTypes: *[]*string,
 }
 ```
@@ -1726,7 +1726,7 @@ Dataset GoogleBigqueryDatasetAccessDatasetDataset
 
 dataset block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#dataset GoogleBigqueryDataset#dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#dataset GoogleBigqueryDataset#dataset}
 
 ---
 
@@ -1743,7 +1743,7 @@ Which resources in the dataset this entry applies to.
 Currently, only views are supported,
 but additional target types may be added in the future. Possible values: VIEWS
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#target_types GoogleBigqueryDataset#target_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#target_types GoogleBigqueryDataset#target_types}
 
 ---
 
@@ -1752,7 +1752,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessDatasetDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 &googlebigquerydataset.GoogleBigqueryDatasetAccessDatasetDataset {
 	DatasetId: *string,
@@ -1779,7 +1779,7 @@ DatasetId *string
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#dataset_id GoogleBigqueryDataset#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#dataset_id GoogleBigqueryDataset#dataset_id}
 
 ---
 
@@ -1793,7 +1793,7 @@ ProjectId *string
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#project_id GoogleBigqueryDataset#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#project_id GoogleBigqueryDataset#project_id}
 
 ---
 
@@ -1802,7 +1802,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessRoutine.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 &googlebigquerydataset.GoogleBigqueryDatasetAccessRoutine {
 	DatasetId: *string,
@@ -1831,7 +1831,7 @@ DatasetId *string
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#dataset_id GoogleBigqueryDataset#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#dataset_id GoogleBigqueryDataset#dataset_id}
 
 ---
 
@@ -1845,7 +1845,7 @@ ProjectId *string
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#project_id GoogleBigqueryDataset#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#project_id GoogleBigqueryDataset#project_id}
 
 ---
 
@@ -1863,7 +1863,7 @@ The ID must contain only letters (a-z,
 A-Z), numbers (0-9), or underscores (_). The maximum length
 is 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#routine_id GoogleBigqueryDataset#routine_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#routine_id GoogleBigqueryDataset#routine_id}
 
 ---
 
@@ -1872,7 +1872,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessView.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 &googlebigquerydataset.GoogleBigqueryDatasetAccessView {
 	DatasetId: *string,
@@ -1901,7 +1901,7 @@ DatasetId *string
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#dataset_id GoogleBigqueryDataset#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#dataset_id GoogleBigqueryDataset#dataset_id}
 
 ---
 
@@ -1915,7 +1915,7 @@ ProjectId *string
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#project_id GoogleBigqueryDataset#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#project_id GoogleBigqueryDataset#project_id}
 
 ---
 
@@ -1933,7 +1933,7 @@ The ID must contain only letters (a-z,
 A-Z), numbers (0-9), or underscores (_). The maximum length
 is 1,024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#table_id GoogleBigqueryDataset#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#table_id GoogleBigqueryDataset#table_id}
 
 ---
 
@@ -1942,7 +1942,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 &googlebigquerydataset.GoogleBigqueryDatasetConfig {
 	Connection: interface{},
@@ -1955,14 +1955,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 	DatasetId: *string,
 	Access: interface{},
 	DefaultCollation: *string,
-	DefaultEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDataset.GoogleBigqueryDatasetDefaultEncryptionConfiguration,
+	DefaultEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDataset.GoogleBigqueryDatasetDefaultEncryptionConfiguration,
 	DefaultPartitionExpirationMs: *f64,
 	DefaultTableExpirationMs: *f64,
 	DeleteContentsOnDestroy: interface{},
 	DeletionPolicy: *string,
 	Description: *string,
-	ExternalCatalogDatasetOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDataset.GoogleBigqueryDatasetExternalCatalogDatasetOptions,
-	ExternalDatasetReference: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDataset.GoogleBigqueryDatasetExternalDatasetReference,
+	ExternalCatalogDatasetOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDataset.GoogleBigqueryDatasetExternalCatalogDatasetOptions,
+	ExternalDatasetReference: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDataset.GoogleBigqueryDatasetExternalDatasetReference,
 	FriendlyName: *string,
 	Id: *string,
 	IsCaseInsensitive: interface{},
@@ -1972,7 +1972,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 	Project: *string,
 	ResourceTags: *map[string]*string,
 	StorageBillingModel: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDataset.GoogleBigqueryDatasetTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryDataset.GoogleBigqueryDatasetTimeouts,
 }
 ```
 
@@ -1999,12 +1999,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.externalCatalogDatasetOptions">ExternalCatalogDatasetOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetExternalCatalogDatasetOptions">GoogleBigqueryDatasetExternalCatalogDatasetOptions</a></code> | external_catalog_dataset_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.externalDatasetReference">ExternalDatasetReference</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetExternalDatasetReference">GoogleBigqueryDatasetExternalDatasetReference</a></code> | external_dataset_reference block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.friendlyName">FriendlyName</a></code> | <code>*string</code> | A descriptive name for the dataset. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#id GoogleBigqueryDataset#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#id GoogleBigqueryDataset#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.isCaseInsensitive">IsCaseInsensitive</a></code> | <code>interface{}</code> | TRUE if the dataset and its table names are case-insensitive, otherwise FALSE. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | The labels associated with this dataset. You can use these to organize and group your datasets. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.location">Location</a></code> | <code>*string</code> | The geographic location where the dataset should reside. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.maxTimeTravelHours">MaxTimeTravelHours</a></code> | <code>*string</code> | Defines the time travel window in hours. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#project GoogleBigqueryDataset#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#project GoogleBigqueryDataset#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.resourceTags">ResourceTags</a></code> | <code>*map[string]*string</code> | The tags attached to this table. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.storageBillingModel">StorageBillingModel</a></code> | <code>*string</code> | Specifies the storage billing model for the dataset. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetTimeouts">GoogleBigqueryDatasetTimeouts</a></code> | timeouts block. |
@@ -2095,7 +2095,7 @@ The ID
 must contain only letters (a-z, A-Z), numbers (0-9), or
 underscores (_). The maximum length is 1,024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#dataset_id GoogleBigqueryDataset#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#dataset_id GoogleBigqueryDataset#dataset_id}
 
 ---
 
@@ -2109,7 +2109,7 @@ Access interface{}
 
 access block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#access GoogleBigqueryDataset#access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#access GoogleBigqueryDataset#access}
 
 ---
 
@@ -2134,7 +2134,7 @@ The following values are supported:
 * 'und:ci': undetermined locale, case insensitive.
 * '': empty string. Default to case-sensitive behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#default_collation GoogleBigqueryDataset#default_collation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#default_collation GoogleBigqueryDataset#default_collation}
 
 ---
 
@@ -2148,7 +2148,7 @@ DefaultEncryptionConfiguration GoogleBigqueryDatasetDefaultEncryptionConfigurati
 
 default_encryption_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#default_encryption_configuration GoogleBigqueryDataset#default_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#default_encryption_configuration GoogleBigqueryDataset#default_encryption_configuration}
 
 ---
 
@@ -2174,7 +2174,7 @@ table. If you provide an explicit 'timePartitioning.expirationMs' when
 creating or updating a partitioned table, that value takes precedence
 over the default partition expiration time indicated by this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#default_partition_expiration_ms GoogleBigqueryDataset#default_partition_expiration_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#default_partition_expiration_ms GoogleBigqueryDataset#default_partition_expiration_ms}
 
 ---
 
@@ -2199,7 +2199,7 @@ table expires, or if you provide an explicit 'expirationTime' when
 creating a table, that value takes precedence over the default
 expiration time indicated by this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#default_table_expiration_ms GoogleBigqueryDataset#default_table_expiration_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#default_table_expiration_ms GoogleBigqueryDataset#default_table_expiration_ms}
 
 ---
 
@@ -2216,7 +2216,7 @@ If set to 'true', delete all the tables in the dataset when destroying the resou
 otherwise,
 destroying the resource will fail if tables are present.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#delete_contents_on_destroy GoogleBigqueryDataset#delete_contents_on_destroy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#delete_contents_on_destroy GoogleBigqueryDataset#delete_contents_on_destroy}
 
 ---
 
@@ -2237,7 +2237,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#deletion_policy GoogleBigqueryDataset#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#deletion_policy GoogleBigqueryDataset#deletion_policy}
 
 ---
 
@@ -2251,7 +2251,7 @@ Description *string
 
 A user-friendly description of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#description GoogleBigqueryDataset#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#description GoogleBigqueryDataset#description}
 
 ---
 
@@ -2265,7 +2265,7 @@ ExternalCatalogDatasetOptions GoogleBigqueryDatasetExternalCatalogDatasetOptions
 
 external_catalog_dataset_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#external_catalog_dataset_options GoogleBigqueryDataset#external_catalog_dataset_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#external_catalog_dataset_options GoogleBigqueryDataset#external_catalog_dataset_options}
 
 ---
 
@@ -2279,7 +2279,7 @@ ExternalDatasetReference GoogleBigqueryDatasetExternalDatasetReference
 
 external_dataset_reference block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#external_dataset_reference GoogleBigqueryDataset#external_dataset_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#external_dataset_reference GoogleBigqueryDataset#external_dataset_reference}
 
 ---
 
@@ -2293,7 +2293,7 @@ FriendlyName *string
 
 A descriptive name for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#friendly_name GoogleBigqueryDataset#friendly_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#friendly_name GoogleBigqueryDataset#friendly_name}
 
 ---
 
@@ -2305,7 +2305,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#id GoogleBigqueryDataset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#id GoogleBigqueryDataset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2325,7 +2325,7 @@ TRUE if the dataset and its table names are case-insensitive, otherwise FALSE.
 By default, this is FALSE, which means the dataset and its table names are
 case-sensitive. This field does not affect routine references.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#is_case_insensitive GoogleBigqueryDataset#is_case_insensitive}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#is_case_insensitive GoogleBigqueryDataset#is_case_insensitive}
 
 ---
 
@@ -2342,7 +2342,7 @@ The labels associated with this dataset. You can use these to organize and group
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#labels GoogleBigqueryDataset#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#labels GoogleBigqueryDataset#labels}
 
 ---
 
@@ -2364,7 +2364,7 @@ contains at least two geographic places.
 The default value is multi-regional location 'US'.
 Changing this forces a new resource to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#location GoogleBigqueryDataset#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#location GoogleBigqueryDataset#location}
 
 ---
 
@@ -2380,7 +2380,7 @@ Defines the time travel window in hours.
 
 The value can be from 48 to 168 hours (2 to 7 days).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#max_time_travel_hours GoogleBigqueryDataset#max_time_travel_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#max_time_travel_hours GoogleBigqueryDataset#max_time_travel_hours}
 
 ---
 
@@ -2392,7 +2392,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#project GoogleBigqueryDataset#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#project GoogleBigqueryDataset#project}.
 
 ---
 
@@ -2412,7 +2412,7 @@ ID of the parent organization or project resource for this tag key. Tag value is
 to be the short name, for example "Production". See [Tag definitions](https://cloud.google.com/iam/docs/tags-access-control#definitions)
 for more details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#resource_tags GoogleBigqueryDataset#resource_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#resource_tags GoogleBigqueryDataset#resource_tags}
 
 ---
 
@@ -2431,7 +2431,7 @@ or to PHYSICAL to use physical bytes instead.
 
 LOGICAL is the default if this flag isn't specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#storage_billing_model GoogleBigqueryDataset#storage_billing_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#storage_billing_model GoogleBigqueryDataset#storage_billing_model}
 
 ---
 
@@ -2445,7 +2445,7 @@ Timeouts GoogleBigqueryDatasetTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#timeouts GoogleBigqueryDataset#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#timeouts GoogleBigqueryDataset#timeouts}
 
 ---
 
@@ -2454,7 +2454,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetDefaultEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 &googlebigquerydataset.GoogleBigqueryDatasetDefaultEncryptionConfiguration {
 	KmsKeyName: *string,
@@ -2482,7 +2482,7 @@ Describes the Cloud KMS encryption key that will be used to protect destination 
 The BigQuery Service Account associated with your project requires
 access to this encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#kms_key_name GoogleBigqueryDataset#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#kms_key_name GoogleBigqueryDataset#kms_key_name}
 
 ---
 
@@ -2491,7 +2491,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetExternalCatalogDatasetOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 &googlebigquerydataset.GoogleBigqueryDatasetExternalCatalogDatasetOptions {
 	DefaultStorageLocationUri: *string,
@@ -2521,7 +2521,7 @@ The storage location URI for all tables in the dataset.
 Equivalent to hive metastore's
 database locationUri. Maximum length of 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#default_storage_location_uri GoogleBigqueryDataset#default_storage_location_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#default_storage_location_uri GoogleBigqueryDataset#default_storage_location_uri}
 
 ---
 
@@ -2535,7 +2535,7 @@ Parameters *map[string]*string
 
 A map of key value pairs defining the parameters and properties of the open source schema. Maximum size of 2Mib.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#parameters GoogleBigqueryDataset#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#parameters GoogleBigqueryDataset#parameters}
 
 ---
 
@@ -2544,7 +2544,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetExternalDatasetReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 &googlebigquerydataset.GoogleBigqueryDatasetExternalDatasetReference {
 	Connection: *string,
@@ -2571,7 +2571,7 @@ Connection *string
 
 The connection id that is used to access the externalSource. Format: projects/{projectId}/locations/{locationId}/connections/{connectionId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#connection GoogleBigqueryDataset#connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#connection GoogleBigqueryDataset#connection}
 
 ---
 
@@ -2585,7 +2585,7 @@ ExternalSource *string
 
 External source that backs this dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#external_source GoogleBigqueryDataset#external_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#external_source GoogleBigqueryDataset#external_source}
 
 ---
 
@@ -2594,7 +2594,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 &googlebigquerydataset.GoogleBigqueryDatasetTimeouts {
 	Create: *string,
@@ -2607,9 +2607,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#create GoogleBigqueryDataset#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#delete GoogleBigqueryDataset#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#update GoogleBigqueryDataset#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#create GoogleBigqueryDataset#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#delete GoogleBigqueryDataset#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#update GoogleBigqueryDataset#update}. |
 
 ---
 
@@ -2621,7 +2621,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#create GoogleBigqueryDataset#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#create GoogleBigqueryDataset#create}.
 
 ---
 
@@ -2633,7 +2633,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#delete GoogleBigqueryDataset#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#delete GoogleBigqueryDataset#delete}.
 
 ---
 
@@ -2645,7 +2645,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_dataset#update GoogleBigqueryDataset#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_dataset#update GoogleBigqueryDataset#update}.
 
 ---
 
@@ -2656,7 +2656,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDatasetAccessConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatasetAccessConditionOutputReference
 ```
@@ -3014,7 +3014,7 @@ func InternalValue() GoogleBigqueryDatasetAccessCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessDatasetDatasetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDatasetAccessDatasetDatasetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatasetAccessDatasetDatasetOutputReference
 ```
@@ -3307,7 +3307,7 @@ func InternalValue() GoogleBigqueryDatasetAccessDatasetDataset
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessDatasetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDatasetAccessDatasetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatasetAccessDatasetOutputReference
 ```
@@ -3613,7 +3613,7 @@ func InternalValue() GoogleBigqueryDatasetAccessDataset
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDatasetAccessList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBigqueryDatasetAccessList
 ```
@@ -3773,7 +3773,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDatasetAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBigqueryDatasetAccessOutputReference
 ```
@@ -4382,7 +4382,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessRoutineOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDatasetAccessRoutineOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatasetAccessRoutineOutputReference
 ```
@@ -4697,7 +4697,7 @@ func InternalValue() GoogleBigqueryDatasetAccessRoutine
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetAccessViewOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDatasetAccessViewOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatasetAccessViewOutputReference
 ```
@@ -5012,7 +5012,7 @@ func InternalValue() GoogleBigqueryDatasetAccessView
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetDefaultEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDatasetDefaultEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatasetDefaultEncryptionConfigurationOutputReference
 ```
@@ -5283,7 +5283,7 @@ func InternalValue() GoogleBigqueryDatasetDefaultEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetExternalCatalogDatasetOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDatasetExternalCatalogDatasetOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatasetExternalCatalogDatasetOptionsOutputReference
 ```
@@ -5590,7 +5590,7 @@ func InternalValue() GoogleBigqueryDatasetExternalCatalogDatasetOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetExternalDatasetReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDatasetExternalDatasetReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatasetExternalDatasetReferenceOutputReference
 ```
@@ -5883,7 +5883,7 @@ func InternalValue() GoogleBigqueryDatasetExternalDatasetReference
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDatasetTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydataset"
 
 googlebigquerydataset.NewGoogleBigqueryDatasetTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatasetTimeoutsOutputReference
 ```

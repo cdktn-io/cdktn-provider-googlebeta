@@ -4,12 +4,12 @@
 
 ### GoogleIamFolderAccessPolicy <a name="GoogleIamFolderAccessPolicy" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicy(scope Construct, id *string, config GoogleIamFolderAccessPolicyConfig) GoogleIamFolderAccessPolicy
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleIamFolderAccessPolic
 
 The id of the existing GoogleIamFolderAccessPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1021,7 +1021,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyConfig {
 	Connection: interface{},
@@ -1036,10 +1036,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 	Location: *string,
 	Annotations: *map[string]*string,
 	DeletionPolicy: *string,
-	Details: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetails,
+	Details: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetails,
 	DisplayName: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts,
 }
 ```
 
@@ -1061,7 +1061,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 | <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyConfig.property.details">Details</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetails">GoogleIamFolderAccessPolicyDetails</a></code> | details block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | The description of the access policy. Must be less than or equal to 63 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#id GoogleIamFolderAccessPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#id GoogleIamFolderAccessPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts">GoogleIamFolderAccessPolicyTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1151,7 +1151,7 @@ lowercase letters, numbers, hyphens, or dots. Pattern,
 /a-z{2,62}/.
 This value must be unique among all access policies with the same parent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#access_policy_id GoogleIamFolderAccessPolicy#access_policy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#access_policy_id GoogleIamFolderAccessPolicy#access_policy_id}
 
 ---
 
@@ -1165,7 +1165,7 @@ Folder *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#folder GoogleIamFolderAccessPolicy#folder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#folder GoogleIamFolderAccessPolicy#folder}
 
 ---
 
@@ -1179,7 +1179,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#location GoogleIamFolderAccessPolicy#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#location GoogleIamFolderAccessPolicy#location}
 
 ---
 
@@ -1196,7 +1196,7 @@ User defined annotations. See https://google.aip.dev/148#annotations for more de
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#annotations GoogleIamFolderAccessPolicy#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#annotations GoogleIamFolderAccessPolicy#annotations}
 
 ---
 
@@ -1217,7 +1217,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#deletion_policy GoogleIamFolderAccessPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#deletion_policy GoogleIamFolderAccessPolicy#deletion_policy}
 
 ---
 
@@ -1231,7 +1231,7 @@ Details GoogleIamFolderAccessPolicyDetails
 
 details block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#details GoogleIamFolderAccessPolicy#details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#details GoogleIamFolderAccessPolicy#details}
 
 ---
 
@@ -1245,7 +1245,7 @@ DisplayName *string
 
 The description of the access policy. Must be less than or equal to 63 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#display_name GoogleIamFolderAccessPolicy#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#display_name GoogleIamFolderAccessPolicy#display_name}
 
 ---
 
@@ -1257,7 +1257,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#id GoogleIamFolderAccessPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#id GoogleIamFolderAccessPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1274,7 +1274,7 @@ Timeouts GoogleIamFolderAccessPolicyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#timeouts GoogleIamFolderAccessPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#timeouts GoogleIamFolderAccessPolicy#timeouts}
 
 ---
 
@@ -1283,7 +1283,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyDetails {
 	Rules: interface{},
@@ -1308,7 +1308,7 @@ Rules interface{}
 
 rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#rules GoogleIamFolderAccessPolicy#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#rules GoogleIamFolderAccessPolicy#rules}
 
 ---
 
@@ -1317,11 +1317,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyDetailsRules {
 	Effect: *string,
-	Operation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesOperation,
+	Operation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesOperation,
 	Principals: *[]*string,
 	Conditions: interface{},
 	Description: *string,
@@ -1352,7 +1352,7 @@ Effect *string
 
 The effect of the rule. Possible values: DENY ALLOW Possible values: ["DENY", "ALLOW"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#effect GoogleIamFolderAccessPolicy#effect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#effect GoogleIamFolderAccessPolicy#effect}
 
 ---
 
@@ -1366,7 +1366,7 @@ Operation GoogleIamFolderAccessPolicyDetailsRulesOperation
 
 operation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#operation GoogleIamFolderAccessPolicy#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#operation GoogleIamFolderAccessPolicy#operation}
 
 ---
 
@@ -1414,7 +1414,7 @@ following values:
   If the service account is undeleted, this identifier reverts to the
   standard identifier for a service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#principals GoogleIamFolderAccessPolicy#principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#principals GoogleIamFolderAccessPolicy#principals}
 
 ---
 
@@ -1428,7 +1428,7 @@ Conditions interface{}
 
 conditions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#conditions GoogleIamFolderAccessPolicy#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#conditions GoogleIamFolderAccessPolicy#conditions}
 
 ---
 
@@ -1442,7 +1442,7 @@ Description *string
 
 Customer specified description of the rule. Must be less than or equal to 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#description GoogleIamFolderAccessPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#description GoogleIamFolderAccessPolicy#description}
 
 ---
 
@@ -1460,7 +1460,7 @@ For example, you could add a Google
 group to the 'principals', then exclude specific users who belong to
 that group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#excluded_principals GoogleIamFolderAccessPolicy#excluded_principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#excluded_principals GoogleIamFolderAccessPolicy#excluded_principals}
 
 ---
 
@@ -1469,7 +1469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyDetailsRulesConditions {
 	Service: *string,
@@ -1481,7 +1481,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesConditions.property.service">Service</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#service GoogleIamFolderAccessPolicy#service}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesConditions.property.service">Service</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#service GoogleIamFolderAccessPolicy#service}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesConditions.property.expression">Expression</a></code> | <code>*string</code> | Textual representation of an expression in Common Expression Language syntax. |
 
 ---
@@ -1494,7 +1494,7 @@ Service *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#service GoogleIamFolderAccessPolicy#service}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#service GoogleIamFolderAccessPolicy#service}.
 
 ---
 
@@ -1508,7 +1508,7 @@ Expression *string
 
 Textual representation of an expression in Common Expression Language syntax.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#expression GoogleIamFolderAccessPolicy#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#expression GoogleIamFolderAccessPolicy#expression}
 
 ---
 
@@ -1517,7 +1517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesOperation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyDetailsRulesOperation {
 	Permissions: *[]*string,
@@ -1551,7 +1551,7 @@ Currently supported permissions are as follows:
 
 * 'eventarc.googleapis.com/messageBuses.publish'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#permissions GoogleIamFolderAccessPolicy#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#permissions GoogleIamFolderAccessPolicy#permissions}
 
 ---
 
@@ -1571,7 +1571,7 @@ subject to the policy effect.
 The excluded permissions can be specified using the same syntax as
 'permissions'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#excluded_permissions GoogleIamFolderAccessPolicy#excluded_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#excluded_permissions GoogleIamFolderAccessPolicy#excluded_permissions}
 
 ---
 
@@ -1580,7 +1580,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyTimeouts {
 	Create: *string,
@@ -1593,9 +1593,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#create GoogleIamFolderAccessPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#delete GoogleIamFolderAccessPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#update GoogleIamFolderAccessPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#create GoogleIamFolderAccessPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#delete GoogleIamFolderAccessPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#update GoogleIamFolderAccessPolicy#update}. |
 
 ---
 
@@ -1607,7 +1607,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#create GoogleIamFolderAccessPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#create GoogleIamFolderAccessPolicy#create}.
 
 ---
 
@@ -1619,7 +1619,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#delete GoogleIamFolderAccessPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#delete GoogleIamFolderAccessPolicy#delete}.
 
 ---
 
@@ -1631,7 +1631,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy#update GoogleIamFolderAccessPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy#update GoogleIamFolderAccessPolicy#update}.
 
 ---
 
@@ -1642,7 +1642,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamFolderAccessPolicyDetailsOutputReference
 ```
@@ -1926,7 +1926,7 @@ func InternalValue() GoogleIamFolderAccessPolicyDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsRulesConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleIamFolderAccessPolicyDetailsRulesConditionsList
 ```
@@ -2086,7 +2086,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsRulesConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleIamFolderAccessPolicyDetailsRulesConditionsOutputReference
 ```
@@ -2404,7 +2404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleIamFolderAccessPolicyDetailsRulesList
 ```
@@ -2564,7 +2564,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesOperationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsRulesOperationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamFolderAccessPolicyDetailsRulesOperationOutputReference
 ```
@@ -2864,7 +2864,7 @@ func InternalValue() GoogleIamFolderAccessPolicyDetailsRulesOperation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleIamFolderAccessPolicyDetailsRulesOutputReference
 ```
@@ -3310,7 +3310,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamFolderAccessPolicyTimeoutsOutputReference
 ```

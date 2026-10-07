@@ -4,12 +4,12 @@
 
 ### GoogleApigeeDataCollector <a name="GoogleApigeeDataCollector" id="@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector google_apigee_data_collector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector google_apigee_data_collector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeedatacollector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeedatacollector"
 
 googleapigeedatacollector.NewGoogleApigeeDataCollector(scope Construct, id *string, config GoogleApigeeDataCollectorConfig) GoogleApigeeDataCollector
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeedatacollector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeedatacollector"
 
 googleapigeedatacollector.GoogleApigeeDataCollector_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeedatacollector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeedatacollector"
 
 googleapigeedatacollector.GoogleApigeeDataCollector_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleapigeedatacollector.GoogleApigeeDataCollector_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollector.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeedatacollector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeedatacollector"
 
 googleapigeedatacollector.GoogleApigeeDataCollector_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleapigeedatacollector.GoogleApigeeDataCollector_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeedatacollector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeedatacollector"
 
 googleapigeedatacollector.GoogleApigeeDataCollector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleApigeeDataCollector 
 
 The id of the existing GoogleApigeeDataCollector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -917,7 +917,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeedatacollector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeedatacollector"
 
 &googleapigeedatacollector.GoogleApigeeDataCollectorConfig {
 	Connection: interface{},
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApigeeDataCollector.GoogleApigeeDataCollectorTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleApigeeDataCollector.GoogleApigeeDataCollectorTimeouts,
 }
 ```
 
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorConfig.property.type">Type</a></code> | <code>*string</code> | The type of data this data collector will collect. Possible values: ["BOOLEAN", "DATETIME", "FLOAT", "INTEGER", "STRING"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorConfig.property.description">Description</a></code> | <code>*string</code> | A description of the data collector. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#id GoogleApigeeDataCollector#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#id GoogleApigeeDataCollector#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorTimeouts">GoogleApigeeDataCollectorTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1038,7 +1038,7 @@ DataCollectorId *string
 
 The ID for the data collector. Must begin with 'dc_'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#data_collector_id GoogleApigeeDataCollector#data_collector_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#data_collector_id GoogleApigeeDataCollector#data_collector_id}
 
 ---
 
@@ -1052,7 +1052,7 @@ OrgId *string
 
 The Apigee Organization associated with the Apigee data collector, in the format 'organizations/{{org_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#org_id GoogleApigeeDataCollector#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#org_id GoogleApigeeDataCollector#org_id}
 
 ---
 
@@ -1066,7 +1066,7 @@ Type *string
 
 The type of data this data collector will collect. Possible values: ["BOOLEAN", "DATETIME", "FLOAT", "INTEGER", "STRING"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#type GoogleApigeeDataCollector#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#type GoogleApigeeDataCollector#type}
 
 ---
 
@@ -1087,7 +1087,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#deletion_policy GoogleApigeeDataCollector#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#deletion_policy GoogleApigeeDataCollector#deletion_policy}
 
 ---
 
@@ -1101,7 +1101,7 @@ Description *string
 
 A description of the data collector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#description GoogleApigeeDataCollector#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#description GoogleApigeeDataCollector#description}
 
 ---
 
@@ -1113,7 +1113,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#id GoogleApigeeDataCollector#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#id GoogleApigeeDataCollector#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1130,7 +1130,7 @@ Timeouts GoogleApigeeDataCollectorTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#timeouts GoogleApigeeDataCollector#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#timeouts GoogleApigeeDataCollector#timeouts}
 
 ---
 
@@ -1139,7 +1139,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeedatacollector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeedatacollector"
 
 &googleapigeedatacollector.GoogleApigeeDataCollectorTimeouts {
 	Create: *string,
@@ -1152,9 +1152,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#create GoogleApigeeDataCollector#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#delete GoogleApigeeDataCollector#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#update GoogleApigeeDataCollector#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#create GoogleApigeeDataCollector#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#delete GoogleApigeeDataCollector#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#update GoogleApigeeDataCollector#update}. |
 
 ---
 
@@ -1166,7 +1166,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#create GoogleApigeeDataCollector#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#create GoogleApigeeDataCollector#create}.
 
 ---
 
@@ -1178,7 +1178,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#delete GoogleApigeeDataCollector#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#delete GoogleApigeeDataCollector#delete}.
 
 ---
 
@@ -1190,7 +1190,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector#update GoogleApigeeDataCollector#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector#update GoogleApigeeDataCollector#update}.
 
 ---
 
@@ -1201,7 +1201,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDataCollector.GoogleApigeeDataCollectorTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeedatacollector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeedatacollector"
 
 googleapigeedatacollector.NewGoogleApigeeDataCollectorTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeDataCollectorTimeoutsOutputReference
 ```

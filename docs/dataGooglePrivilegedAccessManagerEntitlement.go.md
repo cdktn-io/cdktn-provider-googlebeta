@@ -4,12 +4,12 @@
 
 ### DataGooglePrivilegedAccessManagerEntitlement <a name="DataGooglePrivilegedAccessManagerEntitlement" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlement(scope Construct, id *string, config DataGooglePrivilegedAccessManagerEntitlementConfig) DataGooglePrivilegedAccessManagerEntitlement
 ```
@@ -326,7 +326,7 @@ func ResetParent()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlement.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlement_IsConstruct(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlement.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlement_IsTerraformElement(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEn
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlement.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlement_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -386,7 +386,7 @@ datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEn
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlement.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlement_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -415,7 +415,7 @@ The construct id used in the generated config for the DataGooglePrivilegedAccess
 
 The id of the existing DataGooglePrivilegedAccessManagerEntitlement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_privileged_access_manager_entitlement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_privileged_access_manager_entitlement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -813,7 +813,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargets {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflow {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovals {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsSteps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsSteps {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApprovers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApprovers {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementConfig {
 	Connection: interface{},
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementConfig.property.entitlementId">EntitlementId</a></code> | <code>*string</code> | The ID to use for this Entitlement. |
-| <code><a href="#@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_privileged_access_manager_entitlement#id DataGooglePrivilegedAccessManagerEntitlement#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_privileged_access_manager_entitlement#id DataGooglePrivilegedAccessManagerEntitlement#id}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementConfig.property.location">Location</a></code> | <code>*string</code> | The region of the Entitlement resource. |
 | <code><a href="#@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementConfig.property.parent">Parent</a></code> | <code>*string</code> | Format: projects/{project-id\|project-number} or organizations/{organization-number} or folders/{folder-number}. |
 
@@ -997,7 +997,7 @@ This will become the last part of the resource name.
 This value should be 4-63 characters, and valid characters are "[a-z]", "[0-9]", and "-". The first character should be from [a-z].
 This value should be unique among all other Entitlements under the specified 'parent'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_privileged_access_manager_entitlement#entitlement_id DataGooglePrivilegedAccessManagerEntitlement#entitlement_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_privileged_access_manager_entitlement#entitlement_id DataGooglePrivilegedAccessManagerEntitlement#entitlement_id}
 
 ---
 
@@ -1009,7 +1009,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_privileged_access_manager_entitlement#id DataGooglePrivilegedAccessManagerEntitlement#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_privileged_access_manager_entitlement#id DataGooglePrivilegedAccessManagerEntitlement#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1026,7 +1026,7 @@ Location *string
 
 The region of the Entitlement resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_privileged_access_manager_entitlement#location DataGooglePrivilegedAccessManagerEntitlement#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_privileged_access_manager_entitlement#location DataGooglePrivilegedAccessManagerEntitlement#location}
 
 ---
 
@@ -1040,7 +1040,7 @@ Parent *string
 
 Format: projects/{project-id|project-number} or organizations/{organization-number} or folders/{folder-number}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_privileged_access_manager_entitlement#parent DataGooglePrivilegedAccessManagerEntitlement#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_privileged_access_manager_entitlement#parent DataGooglePrivilegedAccessManagerEntitlement#parent}
 
 ---
 
@@ -1049,7 +1049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementEligibleUsers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementEligibleUsers {
 
@@ -1062,7 +1062,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccess {
 
@@ -1075,7 +1075,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccess {
 
@@ -1088,7 +1088,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindings {
 
@@ -1101,7 +1101,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfig {
 
@@ -1114,7 +1114,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatory {
 
@@ -1127,7 +1127,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructured.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 &datagoogleprivilegedaccessmanagerentitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructured {
 
@@ -1142,7 +1142,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargetsList
 ```
@@ -1291,7 +1291,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargetsOutputReference
 ```
@@ -1580,7 +1580,7 @@ func InternalValue() DataGooglePrivilegedAccessManagerEntitlementAdditionalNotif
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowList
 ```
@@ -1729,7 +1729,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsList
 ```
@@ -1878,7 +1878,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsOutputReference
 ```
@@ -2167,7 +2167,7 @@ func InternalValue() DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApproversList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApproversList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApproversList
 ```
@@ -2316,7 +2316,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApproversOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApproversOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApproversOutputReference
 ```
@@ -2594,7 +2594,7 @@ func InternalValue() DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsList
 ```
@@ -2743,7 +2743,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsOutputReference
 ```
@@ -3054,7 +3054,7 @@ func InternalValue() DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflowOutputReference
 ```
@@ -3332,7 +3332,7 @@ func InternalValue() DataGooglePrivilegedAccessManagerEntitlementApprovalWorkflo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementEligibleUsersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementEligibleUsersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementEligibleUsersList
 ```
@@ -3481,7 +3481,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementEligibleUsersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementEligibleUsersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementEligibleUsersOutputReference
 ```
@@ -3759,7 +3759,7 @@ func InternalValue() DataGooglePrivilegedAccessManagerEntitlementEligibleUsers
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessList
 ```
@@ -3908,7 +3908,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReference
 ```
@@ -4208,7 +4208,7 @@ func InternalValue() DataGooglePrivilegedAccessManagerEntitlementPrivilegedAcces
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindingsList
 ```
@@ -4357,7 +4357,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindingsOutputReference
 ```
@@ -4657,7 +4657,7 @@ func InternalValue() DataGooglePrivilegedAccessManagerEntitlementPrivilegedAcces
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessList
 ```
@@ -4806,7 +4806,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementPrivilegedAccessOutputReference
 ```
@@ -5084,7 +5084,7 @@ func InternalValue() DataGooglePrivilegedAccessManagerEntitlementPrivilegedAcces
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigList
 ```
@@ -5233,7 +5233,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryList
 ```
@@ -5382,7 +5382,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReference
 ```
@@ -5649,7 +5649,7 @@ func InternalValue() DataGooglePrivilegedAccessManagerEntitlementRequesterJustif
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigOutputReference
 ```
@@ -5938,7 +5938,7 @@ func InternalValue() DataGooglePrivilegedAccessManagerEntitlementRequesterJustif
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredList
 ```
@@ -6087,7 +6087,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGooglePrivilegedAccessManagerEntitlement.DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleprivilegedaccessmanagerentitlement"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleprivilegedaccessmanagerentitlement"
 
 datagoogleprivilegedaccessmanagerentitlement.NewDataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReference
 ```

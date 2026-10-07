@@ -4,12 +4,12 @@
 
 ### GoogleColabSchedule <a name="GoogleColabSchedule" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule google_colab_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule google_colab_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabSchedule(scope Construct, id *string, config GoogleColabScheduleConfig) GoogleColabSchedule
 ```
@@ -523,7 +523,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.GoogleColabSchedule_IsConstruct(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.GoogleColabSchedule_IsTerraformElement(x interface{}) *bool
 ```
@@ -569,7 +569,7 @@ googlecolabschedule.GoogleColabSchedule_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.GoogleColabSchedule_IsTerraformResource(x interface{}) *bool
 ```
@@ -583,7 +583,7 @@ googlecolabschedule.GoogleColabSchedule_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.GoogleColabSchedule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -612,7 +612,7 @@ The construct id used in the generated config for the GoogleColabSchedule to imp
 
 The id of the existing GoogleColabSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1274,7 +1274,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleConfig {
 	Connection: interface{},
@@ -1289,8 +1289,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 	Location: *string,
 	MaxConcurrentRunCount: *string,
 	AllowQueueing: interface{},
-	CreateNotebookExecutionJobRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequest,
-	CreatePipelineJobRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequest,
+	CreateNotebookExecutionJobRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequest,
+	CreatePipelineJobRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequest,
 	DeletionPolicy: *string,
 	DesiredState: *string,
 	EndTime: *string,
@@ -1299,7 +1299,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 	MaxRunCount: *string,
 	Project: *string,
 	StartTime: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleTimeouts,
 }
 ```
 
@@ -1324,10 +1324,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.property.desiredState">DesiredState</a></code> | <code>*string</code> | Desired state of the Colab Schedule. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.property.endTime">EndTime</a></code> | <code>*string</code> | Timestamp after which no new runs can be scheduled. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#id GoogleColabSchedule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#id GoogleColabSchedule#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.property.maxConcurrentActiveRunCount">MaxConcurrentActiveRunCount</a></code> | <code>*string</code> | Specifies the maximum number of active runs that can be executed concurrently for this Schedule. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.property.maxRunCount">MaxRunCount</a></code> | <code>*string</code> | Maximum run count of the schedule. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#project GoogleColabSchedule#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#project GoogleColabSchedule#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.property.startTime">StartTime</a></code> | <code>*string</code> | The timestamp after which the first run can be scheduled. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleTimeouts">GoogleColabScheduleTimeouts</a></code> | timeouts block. |
 
@@ -1413,7 +1413,7 @@ Cron *string
 
 Cron schedule (https://en.wikipedia.org/wiki/Cron) to launch scheduled runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#cron GoogleColabSchedule#cron}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#cron GoogleColabSchedule#cron}
 
 ---
 
@@ -1427,7 +1427,7 @@ DisplayName *string
 
 Required. The display name of the Schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#display_name GoogleColabSchedule#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#display_name GoogleColabSchedule#display_name}
 
 ---
 
@@ -1441,7 +1441,7 @@ Location *string
 
 The location for the resource: https://cloud.google.com/colab/docs/locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#location GoogleColabSchedule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#location GoogleColabSchedule#location}
 
 ---
 
@@ -1457,7 +1457,7 @@ Maximum number of runs that can be started concurrently for this Schedule.
 
 This is the limit for starting the scheduled requests and not the execution of the notebook execution jobs created by the requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#max_concurrent_run_count GoogleColabSchedule#max_concurrent_run_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#max_concurrent_run_count GoogleColabSchedule#max_concurrent_run_count}
 
 ---
 
@@ -1473,7 +1473,7 @@ Whether new scheduled runs can be queued when max_concurrent_runs limit is reach
 
 If set to true, new runs will be queued instead of skipped. Default to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#allow_queueing GoogleColabSchedule#allow_queueing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#allow_queueing GoogleColabSchedule#allow_queueing}
 
 ---
 
@@ -1487,7 +1487,7 @@ CreateNotebookExecutionJobRequest GoogleColabScheduleCreateNotebookExecutionJobR
 
 create_notebook_execution_job_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#create_notebook_execution_job_request GoogleColabSchedule#create_notebook_execution_job_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#create_notebook_execution_job_request GoogleColabSchedule#create_notebook_execution_job_request}
 
 ---
 
@@ -1501,7 +1501,7 @@ CreatePipelineJobRequest GoogleColabScheduleCreatePipelineJobRequest
 
 create_pipeline_job_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#create_pipeline_job_request GoogleColabSchedule#create_pipeline_job_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#create_pipeline_job_request GoogleColabSchedule#create_pipeline_job_request}
 
 ---
 
@@ -1522,7 +1522,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#deletion_policy GoogleColabSchedule#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#deletion_policy GoogleColabSchedule#deletion_policy}
 
 ---
 
@@ -1538,7 +1538,7 @@ Desired state of the Colab Schedule.
 
 Set this field to 'ACTIVE' to start/resume the schedule, and 'PAUSED' to pause the schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#desired_state GoogleColabSchedule#desired_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#desired_state GoogleColabSchedule#desired_state}
 
 ---
 
@@ -1554,7 +1554,7 @@ Timestamp after which no new runs can be scheduled.
 
 If specified, the schedule will be completed when either end_time is reached or when scheduled_run_count >= max_run_count. Must be in the RFC 3339 (https://www.ietf.org/rfc/rfc3339.txt) format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#end_time GoogleColabSchedule#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#end_time GoogleColabSchedule#end_time}
 
 ---
 
@@ -1566,7 +1566,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#id GoogleColabSchedule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#id GoogleColabSchedule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1585,7 +1585,7 @@ Specifies the maximum number of active runs that can be executed concurrently fo
 
 This limits the number of runs that can be in a non-terminal state at the same time. Currently, this field is only supported for requests of type CreatePipelineJobRequest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#max_concurrent_active_run_count GoogleColabSchedule#max_concurrent_active_run_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#max_concurrent_active_run_count GoogleColabSchedule#max_concurrent_active_run_count}
 
 ---
 
@@ -1601,7 +1601,7 @@ Maximum run count of the schedule.
 
 If specified, The schedule will be completed when either startedRunCount >= maxRunCount or when endTime is reached. If not specified, new runs will keep getting scheduled until this Schedule is paused or deleted. Already scheduled runs will be allowed to complete. Unset if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#max_run_count GoogleColabSchedule#max_run_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#max_run_count GoogleColabSchedule#max_run_count}
 
 ---
 
@@ -1613,7 +1613,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#project GoogleColabSchedule#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#project GoogleColabSchedule#project}.
 
 ---
 
@@ -1629,7 +1629,7 @@ The timestamp after which the first run can be scheduled.
 
 Defaults to the schedule creation time. Must be in the RFC 3339 (https://www.ietf.org/rfc/rfc3339.txt) format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#start_time GoogleColabSchedule#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#start_time GoogleColabSchedule#start_time}
 
 ---
 
@@ -1643,7 +1643,7 @@ Timeouts GoogleColabScheduleTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#timeouts GoogleColabSchedule#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#timeouts GoogleColabSchedule#timeouts}
 
 ---
 
@@ -1652,10 +1652,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreateNotebookExecutionJobRequest {
-	NotebookExecutionJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob,
+	NotebookExecutionJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob,
 	Parent: *string,
 }
 ```
@@ -1679,7 +1679,7 @@ NotebookExecutionJob GoogleColabScheduleCreateNotebookExecutionJobRequestNoteboo
 
 notebook_execution_job block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#notebook_execution_job GoogleColabSchedule#notebook_execution_job}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#notebook_execution_job GoogleColabSchedule#notebook_execution_job}
 
 ---
 
@@ -1693,7 +1693,7 @@ Parent *string
 
 The resource name of the Location to create the NotebookExecutionJob. Format: 'projects/{project}/locations/{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#parent GoogleColabSchedule#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#parent GoogleColabSchedule#parent}
 
 ---
 
@@ -1702,22 +1702,22 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob {
 	DisplayName: *string,
 	GcsOutputUri: *string,
-	CustomEnvironmentSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec,
-	DataformRepositorySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource,
-	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec,
+	CustomEnvironmentSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec,
+	DataformRepositorySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource,
+	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec,
 	ExecutionTimeout: *string,
 	ExecutionUser: *string,
-	GcsNotebookSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource,
+	GcsNotebookSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource,
 	KernelName: *string,
 	Labels: *map[string]*string,
 	NotebookRuntimeTemplateResourceName: *string,
 	ServiceAccount: *string,
-	WorkbenchRuntime: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime,
+	WorkbenchRuntime: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime,
 }
 ```
 
@@ -1751,7 +1751,7 @@ DisplayName *string
 
 Required. The display name of the Notebook Execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#display_name GoogleColabSchedule#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#display_name GoogleColabSchedule#display_name}
 
 ---
 
@@ -1765,7 +1765,7 @@ GcsOutputUri *string
 
 The Cloud Storage location to upload the result to. Format:'gs://bucket-name'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#gcs_output_uri GoogleColabSchedule#gcs_output_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#gcs_output_uri GoogleColabSchedule#gcs_output_uri}
 
 ---
 
@@ -1779,7 +1779,7 @@ CustomEnvironmentSpec GoogleColabScheduleCreateNotebookExecutionJobRequestNotebo
 
 custom_environment_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#custom_environment_spec GoogleColabSchedule#custom_environment_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#custom_environment_spec GoogleColabSchedule#custom_environment_spec}
 
 ---
 
@@ -1793,7 +1793,7 @@ DataformRepositorySource GoogleColabScheduleCreateNotebookExecutionJobRequestNot
 
 dataform_repository_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#dataform_repository_source GoogleColabSchedule#dataform_repository_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#dataform_repository_source GoogleColabSchedule#dataform_repository_source}
 
 ---
 
@@ -1807,7 +1807,7 @@ EncryptionSpec GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecu
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#encryption_spec GoogleColabSchedule#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#encryption_spec GoogleColabSchedule#encryption_spec}
 
 ---
 
@@ -1823,7 +1823,7 @@ Max running time of the execution job in seconds (default 86400s / 24 hrs).
 
 A duration in seconds with up to nine fractional digits, ending with "s". Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#execution_timeout GoogleColabSchedule#execution_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#execution_timeout GoogleColabSchedule#execution_timeout}
 
 ---
 
@@ -1837,7 +1837,7 @@ ExecutionUser *string
 
 The user email to run the execution as.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#execution_user GoogleColabSchedule#execution_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#execution_user GoogleColabSchedule#execution_user}
 
 ---
 
@@ -1851,7 +1851,7 @@ GcsNotebookSource GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookEx
 
 gcs_notebook_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#gcs_notebook_source GoogleColabSchedule#gcs_notebook_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#gcs_notebook_source GoogleColabSchedule#gcs_notebook_source}
 
 ---
 
@@ -1865,7 +1865,7 @@ KernelName *string
 
 The name of the kernel to use during notebook execution. If unset, the default kernel is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#kernel_name GoogleColabSchedule#kernel_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#kernel_name GoogleColabSchedule#kernel_name}
 
 ---
 
@@ -1879,7 +1879,7 @@ Labels *map[string]*string
 
 The labels with user-defined metadata to organize NotebookExecutionJobs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#labels GoogleColabSchedule#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#labels GoogleColabSchedule#labels}
 
 ---
 
@@ -1893,7 +1893,7 @@ NotebookRuntimeTemplateResourceName *string
 
 The NotebookRuntimeTemplate to source compute configuration from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#notebook_runtime_template_resource_name GoogleColabSchedule#notebook_runtime_template_resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#notebook_runtime_template_resource_name GoogleColabSchedule#notebook_runtime_template_resource_name}
 
 ---
 
@@ -1907,7 +1907,7 @@ ServiceAccount *string
 
 The service account to run the execution as.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#service_account GoogleColabSchedule#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#service_account GoogleColabSchedule#service_account}
 
 ---
 
@@ -1921,7 +1921,7 @@ WorkbenchRuntime GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExe
 
 workbench_runtime block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#workbench_runtime GoogleColabSchedule#workbench_runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#workbench_runtime GoogleColabSchedule#workbench_runtime}
 
 ---
 
@@ -1930,12 +1930,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec {
-	MachineSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpec,
-	NetworkSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpec,
-	PersistentDiskSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpec,
+	MachineSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpec,
+	NetworkSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpec,
+	PersistentDiskSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpec,
 }
 ```
 
@@ -1959,7 +1959,7 @@ MachineSpec GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutio
 
 machine_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#machine_spec GoogleColabSchedule#machine_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#machine_spec GoogleColabSchedule#machine_spec}
 
 ---
 
@@ -1973,7 +1973,7 @@ NetworkSpec GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutio
 
 network_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#network_spec GoogleColabSchedule#network_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#network_spec GoogleColabSchedule#network_spec}
 
 ---
 
@@ -1987,7 +1987,7 @@ PersistentDiskSpec GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 
 persistent_disk_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#persistent_disk_spec GoogleColabSchedule#persistent_disk_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#persistent_disk_spec GoogleColabSchedule#persistent_disk_spec}
 
 ---
 
@@ -1996,14 +1996,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpec {
 	AcceleratorCount: *f64,
 	AcceleratorType: *string,
 	GpuPartitionSize: *string,
 	MachineType: *string,
-	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinity,
+	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinity,
 	TpuTopology: *string,
 }
 ```
@@ -2033,7 +2033,7 @@ The number of accelerators to attach to the machine.
 
 For accelerator optimized machine types (https://cloud.google.com/compute/docs/accelerator-optimized-machines), One may set the accelerator_count from 1 to N for machine with N GPUs. If accelerator_count is less than or equal to N / 2, Vertex will co-schedule the replicas of the model into the same VM to save cost. For example, if the machine type is a3-highgpu-8g, which has 8 H100 GPUs, one can set accelerator_count to 1 to 8. If accelerator_count is 1, 2, 3, or 4, Vertex will co-schedule 8, 4, 2, or 2 replicas of the model into the same VM to save cost. When co-scheduling, CPU, memory and storage on the VM will be distributed to replicas on the VM. For example, one can expect a co-scheduled replica requesting 2 GPUs out of a 8-GPU VM will receive 25% of the CPU, memory and storage of the VM. Note that the feature is not compatible with multihost_gpu_node_count. When multihost_gpu_node_count is set, the co-scheduling will not be enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#accelerator_count GoogleColabSchedule#accelerator_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#accelerator_count GoogleColabSchedule#accelerator_count}
 
 ---
 
@@ -2047,7 +2047,7 @@ AcceleratorType *string
 
 Possible values: NVIDIA_TESLA_K80 NVIDIA_TESLA_P100 NVIDIA_TESLA_V100 NVIDIA_TESLA_P4 NVIDIA_TESLA_T4 NVIDIA_TESLA_A100 NVIDIA_A100_80GB NVIDIA_L4 NVIDIA_H100_80GB NVIDIA_H100_MEGA_80GB NVIDIA_H200_141GB NVIDIA_B200 NVIDIA_GB200 NVIDIA_RTX_PRO_6000 TPU_V2 TPU_V3 TPU_V4_POD TPU_V5_LITEPOD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#accelerator_type GoogleColabSchedule#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#accelerator_type GoogleColabSchedule#accelerator_type}
 
 ---
 
@@ -2063,7 +2063,7 @@ The Nvidia GPU partition size.
 
 When specified, the requested accelerators will be partitioned into smaller GPU partitions. For example, if the request is for 8 units of NVIDIA A100 GPUs, and gpu_partition_size="1g.10gb", the service will create 8 * 7 = 56 partitioned MIG instances. The partition size must be a value supported by the requested accelerator. Refer to [Nvidia GPU Partitioning](https://cloud.google.com/kubernetes-engine/docs/how-to/gpus-multi#multi-instance_gpu_partitions) for the available partition sizes. If set, the accelerator_count should be set to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#gpu_partition_size GoogleColabSchedule#gpu_partition_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#gpu_partition_size GoogleColabSchedule#gpu_partition_size}
 
 ---
 
@@ -2079,7 +2079,7 @@ The type of the machine.
 
 See the [list of machine types supported for prediction](https://cloud.google.com/vertex-ai/docs/predictions/configure-compute#machine-types) See the [list of machine types supported for custom training](https://cloud.google.com/vertex-ai/docs/training/configure-compute#machine-types). For DeployedModel this field is optional, and the default value is 'n1-standard-2'. For BatchPredictionJob or as part of WorkerPoolSpec this field is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#machine_type GoogleColabSchedule#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#machine_type GoogleColabSchedule#machine_type}
 
 ---
 
@@ -2093,7 +2093,7 @@ ReservationAffinity GoogleColabScheduleCreateNotebookExecutionJobRequestNotebook
 
 reservation_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#reservation_affinity GoogleColabSchedule#reservation_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#reservation_affinity GoogleColabSchedule#reservation_affinity}
 
 ---
 
@@ -2107,7 +2107,7 @@ TpuTopology *string
 
 The topology of the TPUs. Corresponds to the TPU topologies available from GKE. (Example: tpu_topology: "2x2x1").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#tpu_topology GoogleColabSchedule#tpu_topology}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#tpu_topology GoogleColabSchedule#tpu_topology}
 
 ---
 
@@ -2116,7 +2116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinity {
 	ReservationAffinityType: *string,
@@ -2147,7 +2147,7 @@ ReservationAffinityType *string
 
 Specifies the reservation affinity type. Possible values: NO_RESERVATION ANY_RESERVATION SPECIFIC_RESERVATION SPECIFIC_THEN_ANY_RESERVATION SPECIFIC_THEN_NO_RESERVATION.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#reservation_affinity_type GoogleColabSchedule#reservation_affinity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#reservation_affinity_type GoogleColabSchedule#reservation_affinity_type}
 
 ---
 
@@ -2163,7 +2163,7 @@ Corresponds to the label key of a reservation resource.
 
 To target a SPECIFIC_RESERVATION by name, use 'compute.googleapis.com/reservation-name' as the key and specify the name of your reservation as its value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#key GoogleColabSchedule#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#key GoogleColabSchedule#key}
 
 ---
 
@@ -2177,7 +2177,7 @@ UseReservationPool interface{}
 
 When set to true, resources will be drawn from go/cloud-ai-gcp-pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#use_reservation_pool GoogleColabSchedule#use_reservation_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#use_reservation_pool GoogleColabSchedule#use_reservation_pool}
 
 ---
 
@@ -2193,7 +2193,7 @@ Corresponds to the label values of a reservation resource.
 
 This must be the full resource name of the reservation or reservation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#values GoogleColabSchedule#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#values GoogleColabSchedule#values}
 
 ---
 
@@ -2202,7 +2202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpec {
 	EnableInternetAccess: interface{},
@@ -2231,7 +2231,7 @@ EnableInternetAccess interface{}
 
 Whether to enable public internet access. Default false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#enable_internet_access GoogleColabSchedule#enable_internet_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#enable_internet_access GoogleColabSchedule#enable_internet_access}
 
 ---
 
@@ -2245,7 +2245,7 @@ Network *string
 
 The full name of the Google Compute Engine [network](https://cloud.google.com//compute/docs/networks-and-firewalls#networks).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#network GoogleColabSchedule#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#network GoogleColabSchedule#network}
 
 ---
 
@@ -2259,7 +2259,7 @@ Subnetwork *string
 
 The name of the subnet that this instance is in. Format: 'projects/{project_id_or_number}/regions/{region}/subnetworks/{subnetwork_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#subnetwork GoogleColabSchedule#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#subnetwork GoogleColabSchedule#subnetwork}
 
 ---
 
@@ -2268,7 +2268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpec {
 	DiskSizeGb: *string,
@@ -2295,7 +2295,7 @@ DiskSizeGb *string
 
 Size in GB of the disk (default is 100GB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#disk_size_gb GoogleColabSchedule#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#disk_size_gb GoogleColabSchedule#disk_size_gb}
 
 ---
 
@@ -2311,7 +2311,7 @@ Type of the disk (default is "pd-standard").
 
 Valid values: "pd-ssd" (Persistent Disk Solid State Drive) "pd-standard" (Persistent Disk Hard Disk Drive) "pd-balanced" (Balanced Persistent Disk) "pd-extreme" (Extreme Persistent Disk)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#disk_type GoogleColabSchedule#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#disk_type GoogleColabSchedule#disk_type}
 
 ---
 
@@ -2320,7 +2320,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource {
 	DataformRepositoryResourceName: *string,
@@ -2347,7 +2347,7 @@ DataformRepositoryResourceName *string
 
 The resource name of the Dataform Repository. Format: 'projects/{project_id}/locations/{location}/repositories/{repository_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#dataform_repository_resource_name GoogleColabSchedule#dataform_repository_resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#dataform_repository_resource_name GoogleColabSchedule#dataform_repository_resource_name}
 
 ---
 
@@ -2361,7 +2361,7 @@ CommitSha *string
 
 The commit SHA to read repository with. If unset, the file will be read at HEAD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#commit_sha GoogleColabSchedule#commit_sha}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#commit_sha GoogleColabSchedule#commit_sha}
 
 ---
 
@@ -2370,7 +2370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec {
 	KmsKeyName: *string,
@@ -2397,7 +2397,7 @@ Resource name of the Cloud KMS key used to protect the resource.
 
 The Cloud KMS key must be in the same region as the resource. It must have the format 'projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{crypto_key}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#kms_key_name GoogleColabSchedule#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#kms_key_name GoogleColabSchedule#kms_key_name}
 
 ---
 
@@ -2406,7 +2406,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource {
 	Uri: *string,
@@ -2433,7 +2433,7 @@ Uri *string
 
 The Cloud Storage uri pointing to the ipynb file. Format: gs://bucket/notebook_file.ipynb.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#uri GoogleColabSchedule#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#uri GoogleColabSchedule#uri}
 
 ---
 
@@ -2449,7 +2449,7 @@ The version of the Cloud Storage object to read.
 
 If unset, the current version of the object is read. See https://cloud.google.com/storage/docs/metadata#generation-number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#generation GoogleColabSchedule#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#generation GoogleColabSchedule#generation}
 
 ---
 
@@ -2458,7 +2458,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime {
 
@@ -2471,10 +2471,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreatePipelineJobRequest {
-	PipelineJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJob,
+	PipelineJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJob,
 	Parent: *string,
 }
 ```
@@ -2498,7 +2498,7 @@ PipelineJob GoogleColabScheduleCreatePipelineJobRequestPipelineJob
 
 pipeline_job block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#pipeline_job GoogleColabSchedule#pipeline_job}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#pipeline_job GoogleColabSchedule#pipeline_job}
 
 ---
 
@@ -2512,7 +2512,7 @@ Parent *string
 
 The resource name of the Location to create the PipelineJob in. Format: 'projects/{project}/locations/{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#parent GoogleColabSchedule#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#parent GoogleColabSchedule#parent}
 
 ---
 
@@ -2521,18 +2521,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJob {
 	DisplayName: *string,
-	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobEncryptionSpec,
+	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobEncryptionSpec,
 	Labels: *map[string]*string,
 	Network: *string,
 	PipelineSpec: *string,
 	PreflightValidations: interface{},
-	PscInterfaceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfig,
+	PscInterfaceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfig,
 	ReservedIpRanges: *[]*string,
-	RuntimeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobRuntimeConfig,
+	RuntimeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobRuntimeConfig,
 	ServiceAccount: *string,
 	TemplateUri: *string,
 }
@@ -2568,7 +2568,7 @@ The display name of the Pipeline.
 
 The name can be up to 128 characters long and can consist of any UTF-8 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#display_name GoogleColabSchedule#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#display_name GoogleColabSchedule#display_name}
 
 ---
 
@@ -2582,7 +2582,7 @@ EncryptionSpec GoogleColabScheduleCreatePipelineJobRequestPipelineJobEncryptionS
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#encryption_spec GoogleColabSchedule#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#encryption_spec GoogleColabSchedule#encryption_spec}
 
 ---
 
@@ -2598,7 +2598,7 @@ The labels with user-defined metadata to organize PipelineJob.
 
 Label keys and values can be no longer than 64 characters (Unicode codepoints), can only contain lowercase letters, numeric characters, underscores and dashes. International characters are allowed. See https://goo.gl/xmQnxf for more information and examples of labels. Note there is some reserved label key for Vertex AI Pipelines. - 'vertex-ai-pipelines-run-billing-id', user set value will get overrided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#labels GoogleColabSchedule#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#labels GoogleColabSchedule#labels}
 
 ---
 
@@ -2614,7 +2614,7 @@ The full name of the Compute Engine [network](/compute/docs/networks-and-firewal
 
 For example, 'projects/12345/global/networks/myVPC'. [Format](/compute/docs/reference/rest/v1/networks/insert) is of the form 'projects/{project}/global/networks/{network}'. Where {project} is a project number, as in '12345', and {network} is a network name. Private services access must already be configured for the network. Pipeline job will apply the network configuration to the Google Cloud resources being launched, if applied, such as Vertex AI Training or Dataflow job. If left unspecified, the workload is not peered with any network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#network GoogleColabSchedule#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#network GoogleColabSchedule#network}
 
 ---
 
@@ -2630,7 +2630,7 @@ A compiled definition of a pipeline, represented as a 'JSON' object.
 
 Defines the structure of the pipeline, including its components, tasks, and parameters. This specification is generated by compiling a pipeline function defined in 'Python' using the 'Kubeflow Pipelines SDK'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#pipeline_spec GoogleColabSchedule#pipeline_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#pipeline_spec GoogleColabSchedule#pipeline_spec}
 
 ---
 
@@ -2644,7 +2644,7 @@ PreflightValidations interface{}
 
 Whether to do component level validations before job creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#preflight_validations GoogleColabSchedule#preflight_validations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#preflight_validations GoogleColabSchedule#preflight_validations}
 
 ---
 
@@ -2658,7 +2658,7 @@ PscInterfaceConfig GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInte
 
 psc_interface_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#psc_interface_config GoogleColabSchedule#psc_interface_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#psc_interface_config GoogleColabSchedule#psc_interface_config}
 
 ---
 
@@ -2674,7 +2674,7 @@ A list of names for the reserved ip ranges under the VPC network that can be use
 
 If set, we will deploy the Pipeline Job's workload within the provided ip ranges. Otherwise, the job will be deployed to any ip ranges under the provided VPC network. Example: ['vertex-ai-ip-range'].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#reserved_ip_ranges GoogleColabSchedule#reserved_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#reserved_ip_ranges GoogleColabSchedule#reserved_ip_ranges}
 
 ---
 
@@ -2688,7 +2688,7 @@ RuntimeConfig GoogleColabScheduleCreatePipelineJobRequestPipelineJobRuntimeConfi
 
 runtime_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#runtime_config GoogleColabSchedule#runtime_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#runtime_config GoogleColabSchedule#runtime_config}
 
 ---
 
@@ -2704,7 +2704,7 @@ The service account that the pipeline workload runs as.
 
 If not specified, the Compute Engine default service account in the project will be used. See https://cloud.google.com/compute/docs/access/service-accounts#default_service_account Users starting the pipeline must have the 'iam.serviceAccounts.actAs' permission on this service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#service_account GoogleColabSchedule#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#service_account GoogleColabSchedule#service_account}
 
 ---
 
@@ -2718,7 +2718,7 @@ TemplateUri *string
 
 A template uri from where the PipelineJob.pipeline_spec, if empty, will be downloaded. Currently, only uri from Vertex Template Registry & Gallery is supported. Reference to https://cloud.google.com/vertex-ai/docs/pipelines/create-pipeline-template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#template_uri GoogleColabSchedule#template_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#template_uri GoogleColabSchedule#template_uri}
 
 ---
 
@@ -2727,7 +2727,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobEncryptionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobEncryptionSpec {
 	KmsKeyName: *string,
@@ -2754,7 +2754,7 @@ Resource name of the Cloud KMS key used to protect the resource.
 
 The Cloud KMS key must be in the same region as the resource. It must have the format 'projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{crypto_key}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#kms_key_name GoogleColabSchedule#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#kms_key_name GoogleColabSchedule#kms_key_name}
 
 ---
 
@@ -2763,7 +2763,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfig {
 	DnsPeeringConfigs: interface{},
@@ -2790,7 +2790,7 @@ DnsPeeringConfigs interface{}
 
 dns_peering_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#dns_peering_configs GoogleColabSchedule#dns_peering_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#dns_peering_configs GoogleColabSchedule#dns_peering_configs}
 
 ---
 
@@ -2804,7 +2804,7 @@ NetworkAttachment *string
 
 The name of the Compute Engine [network attachment](https://cloud.google.com/vpc/docs/about-network-attachments) to attach to the resource within the region and user project. To specify this field, you must have already [created a network attachment] (https://cloud.google.com/vpc/docs/create-manage-network-attachments#create-network-attachments). This field is only used for resources using PSC-I.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#network_attachment GoogleColabSchedule#network_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#network_attachment GoogleColabSchedule#network_attachment}
 
 ---
 
@@ -2813,7 +2813,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigs {
 	Domain: *string,
@@ -2842,7 +2842,7 @@ Domain *string
 
 The DNS name suffix of the zone being peered to, e.g., "my-internal-domain.corp.". Must end with a dot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#domain GoogleColabSchedule#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#domain GoogleColabSchedule#domain}
 
 ---
 
@@ -2856,7 +2856,7 @@ TargetNetwork *string
 
 The VPC network name in the target_project where the DNS zone specified by 'domain' is visible.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#target_network GoogleColabSchedule#target_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#target_network GoogleColabSchedule#target_network}
 
 ---
 
@@ -2872,7 +2872,7 @@ The project ID hosting the Cloud DNS managed zone that contains the 'domain'.
 
 The Vertex AI Service Agent requires the dns.peer role on this project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#target_project GoogleColabSchedule#target_project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#target_project GoogleColabSchedule#target_project}
 
 ---
 
@@ -2881,7 +2881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobRuntimeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobRuntimeConfig {
 	GcsOutputDirectory: *string,
@@ -2912,7 +2912,7 @@ A path in a Cloud Storage bucket, which will be treated as the root output direc
 
 It is used by the system to generate the paths of output artifacts. The artifact paths are generated with a sub-path pattern '{job_id}/{task_id}/{output_key}' under the specified output directory. The service account specified in this pipeline must have the 'storage.objects.get' and 'storage.objects.create' permissions for this bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#gcs_output_directory GoogleColabSchedule#gcs_output_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#gcs_output_directory GoogleColabSchedule#gcs_output_directory}
 
 ---
 
@@ -2926,7 +2926,7 @@ FailurePolicy *string
 
 Possible values: PIPELINE_FAILURE_POLICY_FAIL_SLOW PIPELINE_FAILURE_POLICY_FAIL_FAST.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#failure_policy GoogleColabSchedule#failure_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#failure_policy GoogleColabSchedule#failure_policy}
 
 ---
 
@@ -2942,7 +2942,7 @@ The runtime parameters of the PipelineJob.
 
 The parameters will be passed into PipelineJob.pipeline_spec to replace the placeholders at runtime. This field is used by pipelines built using 'PipelineJob.pipeline_spec.schema_version' 2.1.0, such as pipelines built using Kubeflow Pipelines SDK 1.9 or higher and the v2 DSL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#parameter_values GoogleColabSchedule#parameter_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#parameter_values GoogleColabSchedule#parameter_values}
 
 ---
 
@@ -2951,7 +2951,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobTemplateMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobTemplateMetadata {
 
@@ -2964,7 +2964,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleLastScheduledRunResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleLastScheduledRunResponse {
 
@@ -2977,7 +2977,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 &googlecolabschedule.GoogleColabScheduleTimeouts {
 	Create: *string,
@@ -2990,9 +2990,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#create GoogleColabSchedule#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#delete GoogleColabSchedule#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#update GoogleColabSchedule#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#create GoogleColabSchedule#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#delete GoogleColabSchedule#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#update GoogleColabSchedule#update}. |
 
 ---
 
@@ -3004,7 +3004,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#create GoogleColabSchedule#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#create GoogleColabSchedule#create}.
 
 ---
 
@@ -3016,7 +3016,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#delete GoogleColabSchedule#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#delete GoogleColabSchedule#delete}.
 
 ---
 
@@ -3028,7 +3028,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_schedule#update GoogleColabSchedule#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_schedule#update GoogleColabSchedule#update}.
 
 ---
 
@@ -3039,7 +3039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecOutputReference
 ```
@@ -3475,7 +3475,7 @@ func InternalValue() GoogleColabScheduleCreateNotebookExecutionJobRequestNoteboo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecMachineSpecReservationAffinityOutputReference
 ```
@@ -3833,7 +3833,7 @@ func InternalValue() GoogleColabScheduleCreateNotebookExecutionJobRequestNoteboo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecNetworkSpecOutputReference
 ```
@@ -4169,7 +4169,7 @@ func InternalValue() GoogleColabScheduleCreateNotebookExecutionJobRequestNoteboo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference
 ```
@@ -4544,7 +4544,7 @@ func InternalValue() GoogleColabScheduleCreateNotebookExecutionJobRequestNoteboo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecPersistentDiskSpecOutputReference
 ```
@@ -4851,7 +4851,7 @@ func InternalValue() GoogleColabScheduleCreateNotebookExecutionJobRequestNoteboo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceOutputReference
 ```
@@ -5151,7 +5151,7 @@ func InternalValue() GoogleColabScheduleCreateNotebookExecutionJobRequestNoteboo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference
 ```
@@ -5422,7 +5422,7 @@ func InternalValue() GoogleColabScheduleCreateNotebookExecutionJobRequestNoteboo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSourceOutputReference
 ```
@@ -5722,7 +5722,7 @@ func InternalValue() GoogleColabScheduleCreateNotebookExecutionJobRequestNoteboo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference
 ```
@@ -6454,7 +6454,7 @@ func InternalValue() GoogleColabScheduleCreateNotebookExecutionJobRequestNoteboo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference
 ```
@@ -6703,7 +6703,7 @@ func InternalValue() GoogleColabScheduleCreateNotebookExecutionJobRequestNoteboo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference
 ```
@@ -7027,7 +7027,7 @@ func InternalValue() GoogleColabScheduleCreateNotebookExecutionJobRequest
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreatePipelineJobRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreatePipelineJobRequestOutputReference
 ```
@@ -7351,7 +7351,7 @@ func InternalValue() GoogleColabScheduleCreatePipelineJobRequest
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobEncryptionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreatePipelineJobRequestPipelineJobEncryptionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreatePipelineJobRequestPipelineJobEncryptionSpecOutputReference
 ```
@@ -7622,7 +7622,7 @@ func InternalValue() GoogleColabScheduleCreatePipelineJobRequestPipelineJobEncry
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreatePipelineJobRequestPipelineJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreatePipelineJobRequestPipelineJobOutputReference
 ```
@@ -8317,7 +8317,7 @@ func InternalValue() GoogleColabScheduleCreatePipelineJobRequestPipelineJob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsList
 ```
@@ -8477,7 +8477,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigDnsPeeringConfigsOutputReference
 ```
@@ -8810,7 +8810,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscInterfaceConfigOutputReference
 ```
@@ -9130,7 +9130,7 @@ func InternalValue() GoogleColabScheduleCreatePipelineJobRequestPipelineJobPscIn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobRuntimeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreatePipelineJobRequestPipelineJobRuntimeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleCreatePipelineJobRequestPipelineJobRuntimeConfigOutputReference
 ```
@@ -9459,7 +9459,7 @@ func InternalValue() GoogleColabScheduleCreatePipelineJobRequestPipelineJobRunti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleColabScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataList
 ```
@@ -9608,7 +9608,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleColabScheduleCreatePipelineJobRequestPipelineJobTemplateMetadataOutputReference
 ```
@@ -9886,7 +9886,7 @@ func InternalValue() GoogleColabScheduleCreatePipelineJobRequestPipelineJobTempl
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleLastScheduledRunResponseList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleLastScheduledRunResponseList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleColabScheduleLastScheduledRunResponseList
 ```
@@ -10035,7 +10035,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleLastScheduledRunResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleLastScheduledRunResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleColabScheduleLastScheduledRunResponseOutputReference
 ```
@@ -10324,7 +10324,7 @@ func InternalValue() GoogleColabScheduleLastScheduledRunResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabSchedule.GoogleColabScheduleTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabschedule"
 
 googlecolabschedule.NewGoogleColabScheduleTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleColabScheduleTimeoutsOutputReference
 ```

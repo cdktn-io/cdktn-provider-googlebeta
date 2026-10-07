@@ -4,12 +4,12 @@
 
 ### GoogleFirebaseExtensionsInstance <a name="GoogleFirebaseExtensionsInstance" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.NewGoogleFirebaseExtensionsInstance(scope Construct, id *string, config GoogleFirebaseExtensionsInstanceConfig) GoogleFirebaseExtensionsInstance
 ```
@@ -454,7 +454,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstance_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstance_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstance_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the GoogleFirebaseExtensionsIn
 
 The id of the existing GoogleFirebaseExtensionsInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -985,7 +985,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 &googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstanceConfig {
 	Connection: interface{},
@@ -995,12 +995,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfigA,
+	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfigA,
 	InstanceId: *string,
 	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceTimeouts,
 }
 ```
 
@@ -1018,8 +1018,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfig.property.config">Config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfigA">GoogleFirebaseExtensionsInstanceConfigA</a></code> | config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfig.property.instanceId">InstanceId</a></code> | <code>*string</code> | The ID to use for the Extension Instance, which will become the final component of the instance's name. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#id GoogleFirebaseExtensionsInstance#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#project GoogleFirebaseExtensionsInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#id GoogleFirebaseExtensionsInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#project GoogleFirebaseExtensionsInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceTimeouts">GoogleFirebaseExtensionsInstanceTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1104,7 +1104,7 @@ Config GoogleFirebaseExtensionsInstanceConfigA
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#config GoogleFirebaseExtensionsInstance#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#config GoogleFirebaseExtensionsInstance#config}
 
 ---
 
@@ -1118,7 +1118,7 @@ InstanceId *string
 
 The ID to use for the Extension Instance, which will become the final component of the instance's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#instance_id GoogleFirebaseExtensionsInstance#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#instance_id GoogleFirebaseExtensionsInstance#instance_id}
 
 ---
 
@@ -1139,7 +1139,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#deletion_policy GoogleFirebaseExtensionsInstance#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#deletion_policy GoogleFirebaseExtensionsInstance#deletion_policy}
 
 ---
 
@@ -1151,7 +1151,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#id GoogleFirebaseExtensionsInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#id GoogleFirebaseExtensionsInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1166,7 +1166,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#project GoogleFirebaseExtensionsInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#project GoogleFirebaseExtensionsInstance#project}.
 
 ---
 
@@ -1180,7 +1180,7 @@ Timeouts GoogleFirebaseExtensionsInstanceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#timeouts GoogleFirebaseExtensionsInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#timeouts GoogleFirebaseExtensionsInstance#timeouts}
 
 ---
 
@@ -1189,7 +1189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfigA.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 &googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstanceConfigA {
 	ExtensionRef: *string,
@@ -1224,7 +1224,7 @@ ExtensionRef *string
 
 The ref of the Extension from the Registry (e.g. publisher-id/awesome-extension).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#extension_ref GoogleFirebaseExtensionsInstance#extension_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#extension_ref GoogleFirebaseExtensionsInstance#extension_ref}
 
 ---
 
@@ -1238,7 +1238,7 @@ Params *map[string]*string
 
 Environment variables that may be configured for the Extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#params GoogleFirebaseExtensionsInstance#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#params GoogleFirebaseExtensionsInstance#params}
 
 ---
 
@@ -1252,7 +1252,7 @@ AllowedEventTypes *[]*string
 
 List of extension events selected by consumer that extension is allowed to emit, identified by their types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#allowed_event_types GoogleFirebaseExtensionsInstance#allowed_event_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#allowed_event_types GoogleFirebaseExtensionsInstance#allowed_event_types}
 
 ---
 
@@ -1266,7 +1266,7 @@ EventarcChannel *string
 
 Fully qualified Eventarc resource name that consumers should use for event triggers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#eventarc_channel GoogleFirebaseExtensionsInstance#eventarc_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#eventarc_channel GoogleFirebaseExtensionsInstance#eventarc_channel}
 
 ---
 
@@ -1280,7 +1280,7 @@ ExtensionVersion *string
 
 The version of the Extension from the Registry (e.g. 1.0.3). If left blank, latest is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#extension_version GoogleFirebaseExtensionsInstance#extension_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#extension_version GoogleFirebaseExtensionsInstance#extension_version}
 
 ---
 
@@ -1298,7 +1298,7 @@ Unlike other params, these will not be set as environment variables on
 functions. See a full list of system parameters at
 https://firebase.google.com/docs/extensions/publishers/parameters#system_parameters
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#system_params GoogleFirebaseExtensionsInstance#system_params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#system_params GoogleFirebaseExtensionsInstance#system_params}
 
 ---
 
@@ -1307,7 +1307,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceErrorStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 &googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstanceErrorStatus {
 
@@ -1320,7 +1320,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceRuntimeData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 &googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstanceRuntimeData {
 
@@ -1333,7 +1333,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceRuntimeDataFatalError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 &googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstanceRuntimeDataFatalError {
 
@@ -1346,7 +1346,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceRuntimeDataProcessingState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 &googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstanceRuntimeDataProcessingState {
 
@@ -1359,7 +1359,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 &googlefirebaseextensionsinstance.GoogleFirebaseExtensionsInstanceTimeouts {
 	Create: *string,
@@ -1372,9 +1372,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#create GoogleFirebaseExtensionsInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#delete GoogleFirebaseExtensionsInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#update GoogleFirebaseExtensionsInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#create GoogleFirebaseExtensionsInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#delete GoogleFirebaseExtensionsInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#update GoogleFirebaseExtensionsInstance#update}. |
 
 ---
 
@@ -1386,7 +1386,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#create GoogleFirebaseExtensionsInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#create GoogleFirebaseExtensionsInstance#create}.
 
 ---
 
@@ -1398,7 +1398,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#delete GoogleFirebaseExtensionsInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#delete GoogleFirebaseExtensionsInstance#delete}.
 
 ---
 
@@ -1410,7 +1410,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_extensions_instance#update GoogleFirebaseExtensionsInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_extensions_instance#update GoogleFirebaseExtensionsInstance#update}.
 
 ---
 
@@ -1421,7 +1421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceConfigAOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.NewGoogleFirebaseExtensionsInstanceConfigAOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseExtensionsInstanceConfigAOutputReference
 ```
@@ -1863,7 +1863,7 @@ func InternalValue() GoogleFirebaseExtensionsInstanceConfigA
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceErrorStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.NewGoogleFirebaseExtensionsInstanceErrorStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseExtensionsInstanceErrorStatusList
 ```
@@ -2012,7 +2012,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceErrorStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.NewGoogleFirebaseExtensionsInstanceErrorStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseExtensionsInstanceErrorStatusOutputReference
 ```
@@ -2312,7 +2312,7 @@ func InternalValue() GoogleFirebaseExtensionsInstanceErrorStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceRuntimeDataFatalErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.NewGoogleFirebaseExtensionsInstanceRuntimeDataFatalErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseExtensionsInstanceRuntimeDataFatalErrorList
 ```
@@ -2461,7 +2461,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceRuntimeDataFatalErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.NewGoogleFirebaseExtensionsInstanceRuntimeDataFatalErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseExtensionsInstanceRuntimeDataFatalErrorOutputReference
 ```
@@ -2739,7 +2739,7 @@ func InternalValue() GoogleFirebaseExtensionsInstanceRuntimeDataFatalError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceRuntimeDataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.NewGoogleFirebaseExtensionsInstanceRuntimeDataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseExtensionsInstanceRuntimeDataList
 ```
@@ -2888,7 +2888,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceRuntimeDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.NewGoogleFirebaseExtensionsInstanceRuntimeDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseExtensionsInstanceRuntimeDataOutputReference
 ```
@@ -3188,7 +3188,7 @@ func InternalValue() GoogleFirebaseExtensionsInstanceRuntimeData
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceRuntimeDataProcessingStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.NewGoogleFirebaseExtensionsInstanceRuntimeDataProcessingStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirebaseExtensionsInstanceRuntimeDataProcessingStateList
 ```
@@ -3337,7 +3337,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceRuntimeDataProcessingStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.NewGoogleFirebaseExtensionsInstanceRuntimeDataProcessingStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirebaseExtensionsInstanceRuntimeDataProcessingStateOutputReference
 ```
@@ -3626,7 +3626,7 @@ func InternalValue() GoogleFirebaseExtensionsInstanceRuntimeDataProcessingState
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseExtensionsInstance.GoogleFirebaseExtensionsInstanceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseextensionsinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseextensionsinstance"
 
 googlefirebaseextensionsinstance.NewGoogleFirebaseExtensionsInstanceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseExtensionsInstanceTimeoutsOutputReference
 ```

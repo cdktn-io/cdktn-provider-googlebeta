@@ -4,12 +4,12 @@
 
 ### GoogleDatastreamStream <a name="GoogleDatastreamStream" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream google_datastream_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream google_datastream_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStream(scope Construct, id *string, config GoogleDatastreamStreamConfig) GoogleDatastreamStream
 ```
@@ -555,7 +555,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.GoogleDatastreamStream_IsConstruct(x interface{}) *bool
 ```
@@ -587,7 +587,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.GoogleDatastreamStream_IsTerraformElement(x interface{}) *bool
 ```
@@ -601,7 +601,7 @@ googledatastreamstream.GoogleDatastreamStream_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.GoogleDatastreamStream_IsTerraformResource(x interface{}) *bool
 ```
@@ -615,7 +615,7 @@ googledatastreamstream.GoogleDatastreamStream_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.GoogleDatastreamStream_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -644,7 +644,7 @@ The construct id used in the generated config for the GoogleDatastreamStream to 
 
 The id of the existing GoogleDatastreamStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1240,16 +1240,16 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAll.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAll {
-	MongodbExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjects,
-	MysqlExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjects,
-	OracleExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjects,
-	PostgresqlExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects,
-	SalesforceExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects,
-	SpannerExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjects,
-	SqlServerExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects,
+	MongodbExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjects,
+	MysqlExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjects,
+	OracleExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjects,
+	PostgresqlExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects,
+	SalesforceExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects,
+	SpannerExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjects,
+	SqlServerExcludedObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects,
 }
 ```
 
@@ -1277,7 +1277,7 @@ MongodbExcludedObjects GoogleDatastreamStreamBackfillAllMongodbExcludedObjects
 
 mongodb_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mongodb_excluded_objects GoogleDatastreamStream#mongodb_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mongodb_excluded_objects GoogleDatastreamStream#mongodb_excluded_objects}
 
 ---
 
@@ -1291,7 +1291,7 @@ MysqlExcludedObjects GoogleDatastreamStreamBackfillAllMysqlExcludedObjects
 
 mysql_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_excluded_objects GoogleDatastreamStream#mysql_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_excluded_objects GoogleDatastreamStream#mysql_excluded_objects}
 
 ---
 
@@ -1305,7 +1305,7 @@ OracleExcludedObjects GoogleDatastreamStreamBackfillAllOracleExcludedObjects
 
 oracle_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_excluded_objects GoogleDatastreamStream#oracle_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_excluded_objects GoogleDatastreamStream#oracle_excluded_objects}
 
 ---
 
@@ -1319,7 +1319,7 @@ PostgresqlExcludedObjects GoogleDatastreamStreamBackfillAllPostgresqlExcludedObj
 
 postgresql_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_excluded_objects GoogleDatastreamStream#postgresql_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_excluded_objects GoogleDatastreamStream#postgresql_excluded_objects}
 
 ---
 
@@ -1333,7 +1333,7 @@ SalesforceExcludedObjects GoogleDatastreamStreamBackfillAllSalesforceExcludedObj
 
 salesforce_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#salesforce_excluded_objects GoogleDatastreamStream#salesforce_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#salesforce_excluded_objects GoogleDatastreamStream#salesforce_excluded_objects}
 
 ---
 
@@ -1347,7 +1347,7 @@ SpannerExcludedObjects GoogleDatastreamStreamBackfillAllSpannerExcludedObjects
 
 spanner_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#spanner_excluded_objects GoogleDatastreamStream#spanner_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#spanner_excluded_objects GoogleDatastreamStream#spanner_excluded_objects}
 
 ---
 
@@ -1361,7 +1361,7 @@ SqlServerExcludedObjects GoogleDatastreamStreamBackfillAllSqlServerExcludedObjec
 
 sql_server_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#sql_server_excluded_objects GoogleDatastreamStream#sql_server_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#sql_server_excluded_objects GoogleDatastreamStream#sql_server_excluded_objects}
 
 ---
 
@@ -1370,7 +1370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjects {
 	Databases: interface{},
@@ -1395,7 +1395,7 @@ Databases interface{}
 
 databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
 
 ---
 
@@ -1404,7 +1404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabases {
 	Database: *string,
@@ -1431,7 +1431,7 @@ Database *string
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -1445,7 +1445,7 @@ Collections interface{}
 
 collections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
 
 ---
 
@@ -1454,7 +1454,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollections {
 	Collection: *string,
@@ -1481,7 +1481,7 @@ Collection *string
 
 Collection name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
 
 ---
 
@@ -1495,7 +1495,7 @@ Fields interface{}
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -1504,7 +1504,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFields {
 	Field: *string,
@@ -1529,7 +1529,7 @@ Field *string
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
 
 ---
 
@@ -1538,7 +1538,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjects {
 	MysqlDatabases: interface{},
@@ -1563,7 +1563,7 @@ MysqlDatabases interface{}
 
 mysql_databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
 
 ---
 
@@ -1572,7 +1572,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases {
 	Database: *string,
@@ -1599,7 +1599,7 @@ Database *string
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -1613,7 +1613,7 @@ MysqlTables interface{}
 
 mysql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
 
 ---
 
@@ -1622,7 +1622,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables {
 	Table: *string,
@@ -1649,7 +1649,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -1663,7 +1663,7 @@ MysqlColumns interface{}
 
 mysql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
 
 ---
 
@@ -1672,7 +1672,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns {
 	Collation: *string,
@@ -1707,7 +1707,7 @@ Collation *string
 
 Column collation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
 
 ---
 
@@ -1721,7 +1721,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -1735,7 +1735,7 @@ DataType *string
 
 The MySQL data type. Full data types list can be found here: https://dev.mysql.com/doc/refman/8.0/en/data-types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -1749,7 +1749,7 @@ Nullable interface{}
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -1763,7 +1763,7 @@ OrdinalPosition *f64
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -1777,7 +1777,7 @@ PrimaryKey interface{}
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -1786,7 +1786,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllOracleExcludedObjects {
 	OracleSchemas: interface{},
@@ -1811,7 +1811,7 @@ OracleSchemas interface{}
 
 oracle_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
 
 ---
 
@@ -1820,7 +1820,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas {
 	Schema: *string,
@@ -1847,7 +1847,7 @@ Schema *string
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -1861,7 +1861,7 @@ OracleTables interface{}
 
 oracle_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
 
 ---
 
@@ -1870,7 +1870,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables {
 	Table: *string,
@@ -1897,7 +1897,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -1911,7 +1911,7 @@ OracleColumns interface{}
 
 oracle_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
 
 ---
 
@@ -1920,7 +1920,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns {
 	Column: *string,
@@ -1947,7 +1947,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -1961,7 +1961,7 @@ DataType *string
 
 The Oracle data type. Full data types list can be found here: https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Data-Types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -1970,7 +1970,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects {
 	PostgresqlSchemas: interface{},
@@ -1995,7 +1995,7 @@ PostgresqlSchemas interface{}
 
 postgresql_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
 
 ---
 
@@ -2004,7 +2004,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas {
 	Schema: *string,
@@ -2031,7 +2031,7 @@ Schema *string
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -2045,7 +2045,7 @@ PostgresqlTables interface{}
 
 postgresql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
 
 ---
 
@@ -2054,7 +2054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables {
 	Table: *string,
@@ -2081,7 +2081,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -2095,7 +2095,7 @@ PostgresqlColumns interface{}
 
 postgresql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
 
 ---
 
@@ -2104,7 +2104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns {
 	Column: *string,
@@ -2137,7 +2137,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -2151,7 +2151,7 @@ DataType *string
 
 The PostgreSQL data type. Full data types list can be found here: https://www.postgresql.org/docs/current/datatype.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -2165,7 +2165,7 @@ Nullable interface{}
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -2179,7 +2179,7 @@ OrdinalPosition *f64
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -2193,7 +2193,7 @@ PrimaryKey interface{}
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -2202,7 +2202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects {
 	Objects: interface{},
@@ -2227,7 +2227,7 @@ Objects interface{}
 
 objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
 
 ---
 
@@ -2236,7 +2236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects {
 	Fields: interface{},
@@ -2263,7 +2263,7 @@ Fields interface{}
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -2277,7 +2277,7 @@ ObjectName *string
 
 Name of object in Salesforce Org.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
 
 ---
 
@@ -2286,7 +2286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields {
 	Name: *string,
@@ -2311,7 +2311,7 @@ Name *string
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
 
 ---
 
@@ -2320,7 +2320,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjects {
 	Schemas: interface{},
@@ -2345,7 +2345,7 @@ Schemas interface{}
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -2354,7 +2354,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemas {
 	Schema: *string,
@@ -2381,7 +2381,7 @@ Schema *string
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -2395,7 +2395,7 @@ Tables interface{}
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -2404,7 +2404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTables {
 	Table: *string,
@@ -2431,7 +2431,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -2445,7 +2445,7 @@ Columns interface{}
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -2454,7 +2454,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumns {
 	Column: *string,
@@ -2479,7 +2479,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -2488,7 +2488,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects {
 	Schemas: interface{},
@@ -2513,7 +2513,7 @@ Schemas interface{}
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -2522,7 +2522,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas {
 	Schema: *string,
@@ -2549,7 +2549,7 @@ Schema *string
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -2563,7 +2563,7 @@ Tables interface{}
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -2572,7 +2572,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables {
 	Table: *string,
@@ -2599,7 +2599,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -2613,7 +2613,7 @@ Columns interface{}
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -2622,7 +2622,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns {
 	Column: *string,
@@ -2649,7 +2649,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -2663,7 +2663,7 @@ DataType *string
 
 The SQL Server data type. Full data types list can be found here: https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -2672,7 +2672,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillNone.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamBackfillNone {
 
@@ -2685,7 +2685,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamConfig {
 	Connection: interface{},
@@ -2695,13 +2695,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	DestinationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamDestinationConfig,
+	DestinationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamDestinationConfig,
 	DisplayName: *string,
 	Location: *string,
-	SourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfig,
+	SourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfig,
 	StreamId: *string,
-	BackfillAll: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamBackfillAll,
-	BackfillNone: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamBackfillNone,
+	BackfillAll: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamBackfillAll,
+	BackfillNone: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamBackfillNone,
 	CreateWithoutValidation: interface{},
 	CustomerManagedEncryptionKey: *string,
 	DeletionPolicy: *string,
@@ -2710,7 +2710,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 	Labels: *map[string]*string,
 	Project: *string,
 	RuleSets: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamTimeouts,
 }
 ```
 
@@ -2736,9 +2736,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.customerManagedEncryptionKey">CustomerManagedEncryptionKey</a></code> | <code>*string</code> | A reference to a KMS encryption key. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.desiredState">DesiredState</a></code> | <code>*string</code> | Desired state of the Stream. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#id GoogleDatastreamStream#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#id GoogleDatastreamStream#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Labels. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#project GoogleDatastreamStream#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#project GoogleDatastreamStream#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.ruleSets">RuleSets</a></code> | <code>interface{}</code> | rule_sets block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts">GoogleDatastreamStreamTimeouts</a></code> | timeouts block. |
 
@@ -2824,7 +2824,7 @@ DestinationConfig GoogleDatastreamStreamDestinationConfig
 
 destination_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#destination_config GoogleDatastreamStream#destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#destination_config GoogleDatastreamStream#destination_config}
 
 ---
 
@@ -2838,7 +2838,7 @@ DisplayName *string
 
 Display name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#display_name GoogleDatastreamStream#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#display_name GoogleDatastreamStream#display_name}
 
 ---
 
@@ -2852,7 +2852,7 @@ Location *string
 
 The name of the location this stream is located in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#location GoogleDatastreamStream#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#location GoogleDatastreamStream#location}
 
 ---
 
@@ -2866,7 +2866,7 @@ SourceConfig GoogleDatastreamStreamSourceConfig
 
 source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#source_config GoogleDatastreamStream#source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#source_config GoogleDatastreamStream#source_config}
 
 ---
 
@@ -2880,7 +2880,7 @@ StreamId *string
 
 The stream identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#stream_id GoogleDatastreamStream#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#stream_id GoogleDatastreamStream#stream_id}
 
 ---
 
@@ -2894,7 +2894,7 @@ BackfillAll GoogleDatastreamStreamBackfillAll
 
 backfill_all block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#backfill_all GoogleDatastreamStream#backfill_all}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#backfill_all GoogleDatastreamStream#backfill_all}
 
 ---
 
@@ -2908,7 +2908,7 @@ BackfillNone GoogleDatastreamStreamBackfillNone
 
 backfill_none block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#backfill_none GoogleDatastreamStream#backfill_none}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#backfill_none GoogleDatastreamStream#backfill_none}
 
 ---
 
@@ -2922,7 +2922,7 @@ CreateWithoutValidation interface{}
 
 Create the stream without validating it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#create_without_validation GoogleDatastreamStream#create_without_validation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#create_without_validation GoogleDatastreamStream#create_without_validation}
 
 ---
 
@@ -2939,7 +2939,7 @@ A reference to a KMS encryption key.
 If provided, it will be used to encrypt the data. If left blank, data
 will be encrypted using an internal Stream-specific encryption key provisioned through KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#customer_managed_encryption_key GoogleDatastreamStream#customer_managed_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#customer_managed_encryption_key GoogleDatastreamStream#customer_managed_encryption_key}
 
 ---
 
@@ -2960,7 +2960,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#deletion_policy GoogleDatastreamStream#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#deletion_policy GoogleDatastreamStream#deletion_policy}
 
 ---
 
@@ -2979,7 +2979,7 @@ Set this field to 'RUNNING' to start the stream,
 the stream from a 'RUNNING' state.
 Possible values: NOT_STARTED, RUNNING, PAUSED. Default: NOT_STARTED
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#desired_state GoogleDatastreamStream#desired_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#desired_state GoogleDatastreamStream#desired_state}
 
 ---
 
@@ -2991,7 +2991,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#id GoogleDatastreamStream#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#id GoogleDatastreamStream#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3011,7 +3011,7 @@ Labels.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#labels GoogleDatastreamStream#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#labels GoogleDatastreamStream#labels}
 
 ---
 
@@ -3023,7 +3023,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#project GoogleDatastreamStream#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#project GoogleDatastreamStream#project}.
 
 ---
 
@@ -3037,7 +3037,7 @@ RuleSets interface{}
 
 rule_sets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#rule_sets GoogleDatastreamStream#rule_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#rule_sets GoogleDatastreamStream#rule_sets}
 
 ---
 
@@ -3051,7 +3051,7 @@ Timeouts GoogleDatastreamStreamTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#timeouts GoogleDatastreamStream#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#timeouts GoogleDatastreamStream#timeouts}
 
 ---
 
@@ -3060,12 +3060,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamDestinationConfig {
 	DestinationConnectionProfile: *string,
-	BigqueryDestinationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfig,
-	GcsDestinationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfig,
+	BigqueryDestinationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfig,
+	GcsDestinationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfig,
 }
 ```
 
@@ -3089,7 +3089,7 @@ DestinationConnectionProfile *string
 
 Destination connection profile resource. Format: projects/{project}/locations/{location}/connectionProfiles/{name}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#destination_connection_profile GoogleDatastreamStream#destination_connection_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#destination_connection_profile GoogleDatastreamStream#destination_connection_profile}
 
 ---
 
@@ -3103,7 +3103,7 @@ BigqueryDestinationConfig GoogleDatastreamStreamDestinationConfigBigqueryDestina
 
 bigquery_destination_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#bigquery_destination_config GoogleDatastreamStream#bigquery_destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#bigquery_destination_config GoogleDatastreamStream#bigquery_destination_config}
 
 ---
 
@@ -3117,7 +3117,7 @@ GcsDestinationConfig GoogleDatastreamStreamDestinationConfigGcsDestinationConfig
 
 gcs_destination_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#gcs_destination_config GoogleDatastreamStream#gcs_destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#gcs_destination_config GoogleDatastreamStream#gcs_destination_config}
 
 ---
 
@@ -3126,15 +3126,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfig {
-	AppendOnly: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnly,
-	BlmtConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfig,
+	AppendOnly: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnly,
+	BlmtConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfig,
 	DataFreshness: *string,
-	Merge: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMerge,
-	SingleTargetDataset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDataset,
-	SourceHierarchyDatasets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasets,
+	Merge: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMerge,
+	SingleTargetDataset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDataset,
+	SourceHierarchyDatasets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasets,
 }
 ```
 
@@ -3161,7 +3161,7 @@ AppendOnly GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppen
 
 append_only block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#append_only GoogleDatastreamStream#append_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#append_only GoogleDatastreamStream#append_only}
 
 ---
 
@@ -3175,7 +3175,7 @@ BlmtConfig GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtC
 
 blmt_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#blmt_config GoogleDatastreamStream#blmt_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#blmt_config GoogleDatastreamStream#blmt_config}
 
 ---
 
@@ -3193,7 +3193,7 @@ Editing this field will only affect new tables created in the future, but existi
 will not be impacted. Lower values mean that queries will return fresher data, but may result in higher cost.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s". Defaults to 900s.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_freshness GoogleDatastreamStream#data_freshness}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_freshness GoogleDatastreamStream#data_freshness}
 
 ---
 
@@ -3207,7 +3207,7 @@ Merge GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMerge
 
 merge block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#merge GoogleDatastreamStream#merge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#merge GoogleDatastreamStream#merge}
 
 ---
 
@@ -3221,7 +3221,7 @@ SingleTargetDataset GoogleDatastreamStreamDestinationConfigBigqueryDestinationCo
 
 single_target_dataset block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#single_target_dataset GoogleDatastreamStream#single_target_dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#single_target_dataset GoogleDatastreamStream#single_target_dataset}
 
 ---
 
@@ -3235,7 +3235,7 @@ SourceHierarchyDatasets GoogleDatastreamStreamDestinationConfigBigqueryDestinati
 
 source_hierarchy_datasets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#source_hierarchy_datasets GoogleDatastreamStream#source_hierarchy_datasets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#source_hierarchy_datasets GoogleDatastreamStream#source_hierarchy_datasets}
 
 ---
 
@@ -3244,7 +3244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnly.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnly {
 
@@ -3257,7 +3257,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfig {
 	Bucket: *string,
@@ -3290,7 +3290,7 @@ Bucket *string
 
 The Cloud Storage bucket name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#bucket GoogleDatastreamStream#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#bucket GoogleDatastreamStream#bucket}
 
 ---
 
@@ -3304,7 +3304,7 @@ ConnectionName *string
 
 The bigquery connection. Format: '{project}.{location}.{name}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#connection_name GoogleDatastreamStream#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#connection_name GoogleDatastreamStream#connection_name}
 
 ---
 
@@ -3318,7 +3318,7 @@ FileFormat *string
 
 The file format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#file_format GoogleDatastreamStream#file_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#file_format GoogleDatastreamStream#file_format}
 
 ---
 
@@ -3332,7 +3332,7 @@ TableFormat *string
 
 The table format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table_format GoogleDatastreamStream#table_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table_format GoogleDatastreamStream#table_format}
 
 ---
 
@@ -3346,7 +3346,7 @@ RootPath *string
 
 The root path inside the Cloud Storage bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#root_path GoogleDatastreamStream#root_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#root_path GoogleDatastreamStream#root_path}
 
 ---
 
@@ -3355,7 +3355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMerge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMerge {
 
@@ -3368,7 +3368,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDataset {
 	DatasetId: *string,
@@ -3393,7 +3393,7 @@ DatasetId *string
 
 Dataset ID in the format projects/{project}/datasets/{dataset_id} or {project}:{dataset_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#dataset_id GoogleDatastreamStream#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#dataset_id GoogleDatastreamStream#dataset_id}
 
 ---
 
@@ -3402,10 +3402,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasets {
-	DatasetTemplate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplate,
+	DatasetTemplate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplate,
 	ProjectId: *string,
 }
 ```
@@ -3429,7 +3429,7 @@ DatasetTemplate GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 
 dataset_template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#dataset_template GoogleDatastreamStream#dataset_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#dataset_template GoogleDatastreamStream#dataset_template}
 
 ---
 
@@ -3445,7 +3445,7 @@ Optional.
 
 The project id of the BigQuery dataset. If not specified, the project will be inferred from the stream resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#project_id GoogleDatastreamStream#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#project_id GoogleDatastreamStream#project_id}
 
 ---
 
@@ -3454,7 +3454,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplate {
 	Location: *string,
@@ -3483,7 +3483,7 @@ Location *string
 
 The geographic location where the dataset should reside. See https://cloud.google.com/bigquery/docs/locations for supported locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#location GoogleDatastreamStream#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#location GoogleDatastreamStream#location}
 
 ---
 
@@ -3499,7 +3499,7 @@ If supplied, every created dataset will have its name prefixed by the provided v
 
 The prefix and name will be separated by an underscore. i.e. _.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#dataset_id_prefix GoogleDatastreamStream#dataset_id_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#dataset_id_prefix GoogleDatastreamStream#dataset_id_prefix}
 
 ---
 
@@ -3517,7 +3517,7 @@ The BigQuery Service Account associated with your project requires access to thi
 encryption key. i.e. projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{cryptoKey}.
 See https://cloud.google.com/bigquery/docs/customer-managed-encryption for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#kms_key_name GoogleDatastreamStream#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#kms_key_name GoogleDatastreamStream#kms_key_name}
 
 ---
 
@@ -3526,13 +3526,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfig {
-	AvroFileFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormat,
+	AvroFileFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormat,
 	FileRotationInterval: *string,
 	FileRotationMb: *f64,
-	JsonFileFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormat,
+	JsonFileFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormat,
 	Path: *string,
 }
 ```
@@ -3559,7 +3559,7 @@ AvroFileFormat GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFi
 
 avro_file_format block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#avro_file_format GoogleDatastreamStream#avro_file_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#avro_file_format GoogleDatastreamStream#avro_file_format}
 
 ---
 
@@ -3576,7 +3576,7 @@ The maximum duration for which new events are added before a file is closed and 
 Values within the range of 15-60 seconds are allowed.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#file_rotation_interval GoogleDatastreamStream#file_rotation_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#file_rotation_interval GoogleDatastreamStream#file_rotation_interval}
 
 ---
 
@@ -3590,7 +3590,7 @@ FileRotationMb *f64
 
 The maximum file size to be saved in the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#file_rotation_mb GoogleDatastreamStream#file_rotation_mb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#file_rotation_mb GoogleDatastreamStream#file_rotation_mb}
 
 ---
 
@@ -3604,7 +3604,7 @@ JsonFileFormat GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFi
 
 json_file_format block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#json_file_format GoogleDatastreamStream#json_file_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#json_file_format GoogleDatastreamStream#json_file_format}
 
 ---
 
@@ -3618,7 +3618,7 @@ Path *string
 
 Path inside the Cloud Storage bucket to write data to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#path GoogleDatastreamStream#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#path GoogleDatastreamStream#path}
 
 ---
 
@@ -3627,7 +3627,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormat {
 
@@ -3640,7 +3640,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormat {
 	Compression: *string,
@@ -3667,7 +3667,7 @@ Compression *string
 
 Compression of the loaded JSON file. Possible values: ["NO_COMPRESSION", "GZIP"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#compression GoogleDatastreamStream#compression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#compression GoogleDatastreamStream#compression}
 
 ---
 
@@ -3681,7 +3681,7 @@ SchemaFileFormat *string
 
 The schema file format along JSON data files. Possible values: ["NO_SCHEMA_FILE", "AVRO_SCHEMA_FILE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema_file_format GoogleDatastreamStream#schema_file_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema_file_format GoogleDatastreamStream#schema_file_format}
 
 ---
 
@@ -3690,11 +3690,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSets {
 	CustomizationRules: interface{},
-	ObjectFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilter,
+	ObjectFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilter,
 }
 ```
 
@@ -3717,7 +3717,7 @@ CustomizationRules interface{}
 
 customization_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#customization_rules GoogleDatastreamStream#customization_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#customization_rules GoogleDatastreamStream#customization_rules}
 
 ---
 
@@ -3731,7 +3731,7 @@ ObjectFilter GoogleDatastreamStreamRuleSetsObjectFilter
 
 object_filter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#object_filter GoogleDatastreamStream#object_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#object_filter GoogleDatastreamStream#object_filter}
 
 ---
 
@@ -3740,11 +3740,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsCustomizationRules {
-	BigqueryClustering: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClustering,
-	BigqueryPartitioning: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioning,
+	BigqueryClustering: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClustering,
+	BigqueryPartitioning: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioning,
 }
 ```
 
@@ -3767,7 +3767,7 @@ BigqueryClustering GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClust
 
 bigquery_clustering block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#bigquery_clustering GoogleDatastreamStream#bigquery_clustering}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#bigquery_clustering GoogleDatastreamStream#bigquery_clustering}
 
 ---
 
@@ -3781,7 +3781,7 @@ BigqueryPartitioning GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPar
 
 bigquery_partitioning block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#bigquery_partitioning GoogleDatastreamStream#bigquery_partitioning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#bigquery_partitioning GoogleDatastreamStream#bigquery_partitioning}
 
 ---
 
@@ -3790,7 +3790,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClustering.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClustering {
 	Columns: *[]*string,
@@ -3815,7 +3815,7 @@ Columns *[]*string
 
 Column names to set as clustering columns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -3824,13 +3824,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioning.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioning {
-	IngestionTimePartition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartition,
-	IntegerRangePartition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartition,
+	IngestionTimePartition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartition,
+	IntegerRangePartition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartition,
 	RequirePartitionFilter: interface{},
-	TimeUnitPartition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartition,
+	TimeUnitPartition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartition,
 }
 ```
 
@@ -3855,7 +3855,7 @@ IngestionTimePartition GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryP
 
 ingestion_time_partition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#ingestion_time_partition GoogleDatastreamStream#ingestion_time_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#ingestion_time_partition GoogleDatastreamStream#ingestion_time_partition}
 
 ---
 
@@ -3869,7 +3869,7 @@ IntegerRangePartition GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPa
 
 integer_range_partition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#integer_range_partition GoogleDatastreamStream#integer_range_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#integer_range_partition GoogleDatastreamStream#integer_range_partition}
 
 ---
 
@@ -3883,7 +3883,7 @@ RequirePartitionFilter interface{}
 
 If true, queries over the table require a partition filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#require_partition_filter GoogleDatastreamStream#require_partition_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#require_partition_filter GoogleDatastreamStream#require_partition_filter}
 
 ---
 
@@ -3897,7 +3897,7 @@ TimeUnitPartition GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartit
 
 time_unit_partition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#time_unit_partition GoogleDatastreamStream#time_unit_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#time_unit_partition GoogleDatastreamStream#time_unit_partition}
 
 ---
 
@@ -3906,7 +3906,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartition {
 	PartitioningTimeGranularity: *string,
@@ -3931,7 +3931,7 @@ PartitioningTimeGranularity *string
 
 Partition granularity. Possible values: ["PARTITIONING_TIME_GRANULARITY_UNSPECIFIED", "PARTITIONING_TIME_GRANULARITY_HOUR", "PARTITIONING_TIME_GRANULARITY_DAY", "PARTITIONING_TIME_GRANULARITY_MONTH", "PARTITIONING_TIME_GRANULARITY_YEAR"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
 
 ---
 
@@ -3940,7 +3940,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartition {
 	Column: *string,
@@ -3971,7 +3971,7 @@ Column *string
 
 The partitioning column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -3985,7 +3985,7 @@ End *f64
 
 The ending value for range partitioning (exclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#end GoogleDatastreamStream#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#end GoogleDatastreamStream#end}
 
 ---
 
@@ -3999,7 +3999,7 @@ Interval *f64
 
 The interval of each range within the partition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#interval GoogleDatastreamStream#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#interval GoogleDatastreamStream#interval}
 
 ---
 
@@ -4013,7 +4013,7 @@ Start *f64
 
 The starting value for range partitioning (inclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#start GoogleDatastreamStream#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#start GoogleDatastreamStream#start}
 
 ---
 
@@ -4022,7 +4022,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartition {
 	Column: *string,
@@ -4049,7 +4049,7 @@ Column *string
 
 The partitioning column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -4063,7 +4063,7 @@ PartitioningTimeGranularity *string
 
 Partition granularity. Possible values: ["PARTITIONING_TIME_GRANULARITY_UNSPECIFIED", "PARTITIONING_TIME_GRANULARITY_HOUR", "PARTITIONING_TIME_GRANULARITY_DAY", "PARTITIONING_TIME_GRANULARITY_MONTH", "PARTITIONING_TIME_GRANULARITY_YEAR"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
 
 ---
 
@@ -4072,10 +4072,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsObjectFilter {
-	SourceObjectIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier,
+	SourceObjectIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier,
 }
 ```
 
@@ -4097,7 +4097,7 @@ SourceObjectIdentifier GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIde
 
 source_object_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#source_object_identifier GoogleDatastreamStream#source_object_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#source_object_identifier GoogleDatastreamStream#source_object_identifier}
 
 ---
 
@@ -4106,16 +4106,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier {
-	MongodbIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifier,
-	MysqlIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifier,
-	OracleIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifier,
-	PostgresqlIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifier,
-	SalesforceIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifier,
-	SpannerIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifier,
-	SqlServerIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifier,
+	MongodbIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifier,
+	MysqlIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifier,
+	OracleIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifier,
+	PostgresqlIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifier,
+	SalesforceIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifier,
+	SpannerIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifier,
+	SqlServerIdentifier: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifier,
 }
 ```
 
@@ -4143,7 +4143,7 @@ MongodbIdentifier GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifi
 
 mongodb_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mongodb_identifier GoogleDatastreamStream#mongodb_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mongodb_identifier GoogleDatastreamStream#mongodb_identifier}
 
 ---
 
@@ -4157,7 +4157,7 @@ MysqlIdentifier GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier
 
 mysql_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_identifier GoogleDatastreamStream#mysql_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_identifier GoogleDatastreamStream#mysql_identifier}
 
 ---
 
@@ -4171,7 +4171,7 @@ OracleIdentifier GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
 
 oracle_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_identifier GoogleDatastreamStream#oracle_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_identifier GoogleDatastreamStream#oracle_identifier}
 
 ---
 
@@ -4185,7 +4185,7 @@ PostgresqlIdentifier GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdent
 
 postgresql_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_identifier GoogleDatastreamStream#postgresql_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_identifier GoogleDatastreamStream#postgresql_identifier}
 
 ---
 
@@ -4199,7 +4199,7 @@ SalesforceIdentifier GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdent
 
 salesforce_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#salesforce_identifier GoogleDatastreamStream#salesforce_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#salesforce_identifier GoogleDatastreamStream#salesforce_identifier}
 
 ---
 
@@ -4213,7 +4213,7 @@ SpannerIdentifier GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifi
 
 spanner_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#spanner_identifier GoogleDatastreamStream#spanner_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#spanner_identifier GoogleDatastreamStream#spanner_identifier}
 
 ---
 
@@ -4227,7 +4227,7 @@ SqlServerIdentifier GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdenti
 
 sql_server_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#sql_server_identifier GoogleDatastreamStream#sql_server_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#sql_server_identifier GoogleDatastreamStream#sql_server_identifier}
 
 ---
 
@@ -4236,7 +4236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifier {
 	Collection: *string,
@@ -4263,7 +4263,7 @@ Collection *string
 
 The MongoDB collection name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
 
 ---
 
@@ -4277,7 +4277,7 @@ Database *string
 
 The MongoDB database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -4286,7 +4286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifier {
 	Database: *string,
@@ -4313,7 +4313,7 @@ Database *string
 
 The database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -4327,7 +4327,7 @@ Table *string
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -4336,7 +4336,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifier {
 	Schema: *string,
@@ -4363,7 +4363,7 @@ Schema *string
 
 The schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -4377,7 +4377,7 @@ Table *string
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -4386,7 +4386,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifier {
 	Schema: *string,
@@ -4413,7 +4413,7 @@ Schema *string
 
 The schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -4427,7 +4427,7 @@ Table *string
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -4436,7 +4436,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifier {
 	ObjectName: *string,
@@ -4461,7 +4461,7 @@ ObjectName *string
 
 The Salesforce object name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
 
 ---
 
@@ -4470,7 +4470,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifier {
 	Table: *string,
@@ -4497,7 +4497,7 @@ Table *string
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -4511,7 +4511,7 @@ Schema *string
 
 The schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -4520,7 +4520,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifier {
 	Schema: *string,
@@ -4547,7 +4547,7 @@ Schema *string
 
 The schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -4561,7 +4561,7 @@ Table *string
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -4570,17 +4570,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfig {
 	SourceConnectionProfile: *string,
-	MongodbSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfig,
-	MysqlSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfig,
-	OracleSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfig,
-	PostgresqlSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig,
-	SalesforceSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfig,
-	SpannerSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfig,
-	SqlServerSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfig,
+	MongodbSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfig,
+	MysqlSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfig,
+	OracleSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfig,
+	PostgresqlSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig,
+	SalesforceSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfig,
+	SpannerSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfig,
+	SqlServerSourceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfig,
 }
 ```
 
@@ -4609,7 +4609,7 @@ SourceConnectionProfile *string
 
 Source connection profile resource. Format: projects/{project}/locations/{location}/connectionProfiles/{name}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#source_connection_profile GoogleDatastreamStream#source_connection_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#source_connection_profile GoogleDatastreamStream#source_connection_profile}
 
 ---
 
@@ -4623,7 +4623,7 @@ MongodbSourceConfig GoogleDatastreamStreamSourceConfigMongodbSourceConfig
 
 mongodb_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mongodb_source_config GoogleDatastreamStream#mongodb_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mongodb_source_config GoogleDatastreamStream#mongodb_source_config}
 
 ---
 
@@ -4637,7 +4637,7 @@ MysqlSourceConfig GoogleDatastreamStreamSourceConfigMysqlSourceConfig
 
 mysql_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_source_config GoogleDatastreamStream#mysql_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_source_config GoogleDatastreamStream#mysql_source_config}
 
 ---
 
@@ -4651,7 +4651,7 @@ OracleSourceConfig GoogleDatastreamStreamSourceConfigOracleSourceConfig
 
 oracle_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_source_config GoogleDatastreamStream#oracle_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_source_config GoogleDatastreamStream#oracle_source_config}
 
 ---
 
@@ -4665,7 +4665,7 @@ PostgresqlSourceConfig GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig
 
 postgresql_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_source_config GoogleDatastreamStream#postgresql_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_source_config GoogleDatastreamStream#postgresql_source_config}
 
 ---
 
@@ -4679,7 +4679,7 @@ SalesforceSourceConfig GoogleDatastreamStreamSourceConfigSalesforceSourceConfig
 
 salesforce_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#salesforce_source_config GoogleDatastreamStream#salesforce_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#salesforce_source_config GoogleDatastreamStream#salesforce_source_config}
 
 ---
 
@@ -4693,7 +4693,7 @@ SpannerSourceConfig GoogleDatastreamStreamSourceConfigSpannerSourceConfig
 
 spanner_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#spanner_source_config GoogleDatastreamStream#spanner_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#spanner_source_config GoogleDatastreamStream#spanner_source_config}
 
 ---
 
@@ -4707,7 +4707,7 @@ SqlServerSourceConfig GoogleDatastreamStreamSourceConfigSqlServerSourceConfig
 
 sql_server_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#sql_server_source_config GoogleDatastreamStream#sql_server_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#sql_server_source_config GoogleDatastreamStream#sql_server_source_config}
 
 ---
 
@@ -4716,11 +4716,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMongodbSourceConfig {
-	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjects,
-	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjects,
+	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjects,
+	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjects,
 	MaxConcurrentBackfillTasks: *f64,
 }
 ```
@@ -4745,7 +4745,7 @@ ExcludeObjects GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjec
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -4759,7 +4759,7 @@ IncludeObjects GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjec
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -4777,7 +4777,7 @@ Maximum number of concurrent backfill tasks. The number
 should be non-negative and less than or equal to 50. If not set
 (or set to 0), the system''s default value is used
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -4786,7 +4786,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjects {
 	Databases: interface{},
@@ -4811,7 +4811,7 @@ Databases interface{}
 
 databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
 
 ---
 
@@ -4820,7 +4820,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabases {
 	Collections: interface{},
@@ -4847,7 +4847,7 @@ Collections interface{}
 
 collections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
 
 ---
 
@@ -4861,7 +4861,7 @@ Database *string
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -4870,7 +4870,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollections {
 	Collection: *string,
@@ -4897,7 +4897,7 @@ Collection *string
 
 Collection name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
 
 ---
 
@@ -4911,7 +4911,7 @@ Fields interface{}
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -4920,7 +4920,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFields {
 	Field: *string,
@@ -4945,7 +4945,7 @@ Field *string
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
 
 ---
 
@@ -4954,7 +4954,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjects {
 	Databases: interface{},
@@ -4979,7 +4979,7 @@ Databases interface{}
 
 databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
 
 ---
 
@@ -4988,7 +4988,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabases {
 	Collections: interface{},
@@ -5015,7 +5015,7 @@ Collections interface{}
 
 collections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
 
 ---
 
@@ -5029,7 +5029,7 @@ Database *string
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -5038,7 +5038,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollections {
 	Collection: *string,
@@ -5065,7 +5065,7 @@ Collection *string
 
 Collection name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
 
 ---
 
@@ -5079,7 +5079,7 @@ Fields interface{}
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -5088,7 +5088,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFields {
 	Field: *string,
@@ -5113,7 +5113,7 @@ Field *string
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
 
 ---
 
@@ -5122,13 +5122,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMysqlSourceConfig {
-	BinaryLogPosition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosition,
-	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjects,
-	Gtid: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid,
-	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjects,
+	BinaryLogPosition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosition,
+	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjects,
+	Gtid: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid,
+	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjects,
 	MaxConcurrentBackfillTasks: *f64,
 	MaxConcurrentCdcTasks: *f64,
 }
@@ -5157,7 +5157,7 @@ BinaryLogPosition GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPo
 
 binary_log_position block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#binary_log_position GoogleDatastreamStream#binary_log_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#binary_log_position GoogleDatastreamStream#binary_log_position}
 
 ---
 
@@ -5171,7 +5171,7 @@ ExcludeObjects GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjects
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -5185,7 +5185,7 @@ Gtid GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid
 
 gtid block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#gtid GoogleDatastreamStream#gtid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#gtid GoogleDatastreamStream#gtid}
 
 ---
 
@@ -5199,7 +5199,7 @@ IncludeObjects GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjects
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -5216,7 +5216,7 @@ Maximum number of concurrent backfill tasks.
 The number should be non negative.
 If not set (or set to 0), the system's default value will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -5233,7 +5233,7 @@ Maximum number of concurrent CDC tasks.
 The number should be non negative.
 If not set (or set to 0), the system's default value will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
 
 ---
 
@@ -5242,7 +5242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosition {
 
@@ -5255,7 +5255,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjects {
 	MysqlDatabases: interface{},
@@ -5280,7 +5280,7 @@ MysqlDatabases interface{}
 
 mysql_databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
 
 ---
 
@@ -5289,7 +5289,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases {
 	Database: *string,
@@ -5316,7 +5316,7 @@ Database *string
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -5330,7 +5330,7 @@ MysqlTables interface{}
 
 mysql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
 
 ---
 
@@ -5339,7 +5339,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables {
 	Table: *string,
@@ -5366,7 +5366,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -5380,7 +5380,7 @@ MysqlColumns interface{}
 
 mysql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
 
 ---
 
@@ -5389,7 +5389,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns {
 	Collation: *string,
@@ -5424,7 +5424,7 @@ Collation *string
 
 Column collation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
 
 ---
 
@@ -5438,7 +5438,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -5452,7 +5452,7 @@ DataType *string
 
 The MySQL data type. Full data types list can be found here: https://dev.mysql.com/doc/refman/8.0/en/data-types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -5466,7 +5466,7 @@ Nullable interface{}
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -5480,7 +5480,7 @@ OrdinalPosition *f64
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -5494,7 +5494,7 @@ PrimaryKey interface{}
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -5503,7 +5503,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid {
 
@@ -5516,7 +5516,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjects {
 	MysqlDatabases: interface{},
@@ -5541,7 +5541,7 @@ MysqlDatabases interface{}
 
 mysql_databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
 
 ---
 
@@ -5550,7 +5550,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases {
 	Database: *string,
@@ -5577,7 +5577,7 @@ Database *string
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -5591,7 +5591,7 @@ MysqlTables interface{}
 
 mysql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
 
 ---
 
@@ -5600,7 +5600,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables {
 	Table: *string,
@@ -5627,7 +5627,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -5641,7 +5641,7 @@ MysqlColumns interface{}
 
 mysql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
 
 ---
 
@@ -5650,7 +5650,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns {
 	Collation: *string,
@@ -5685,7 +5685,7 @@ Collation *string
 
 Column collation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
 
 ---
 
@@ -5699,7 +5699,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -5713,7 +5713,7 @@ DataType *string
 
 The MySQL data type. Full data types list can be found here: https://dev.mysql.com/doc/refman/8.0/en/data-types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -5727,7 +5727,7 @@ Nullable interface{}
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -5741,7 +5741,7 @@ OrdinalPosition *f64
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -5755,7 +5755,7 @@ PrimaryKey interface{}
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -5764,15 +5764,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigOracleSourceConfig {
-	DropLargeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjects,
-	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjects,
-	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjects,
+	DropLargeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjects,
+	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjects,
+	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjects,
 	MaxConcurrentBackfillTasks: *f64,
 	MaxConcurrentCdcTasks: *f64,
-	StreamLargeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjects,
+	StreamLargeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjects,
 }
 ```
 
@@ -5799,7 +5799,7 @@ DropLargeObjects GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeOb
 
 drop_large_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#drop_large_objects GoogleDatastreamStream#drop_large_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#drop_large_objects GoogleDatastreamStream#drop_large_objects}
 
 ---
 
@@ -5813,7 +5813,7 @@ ExcludeObjects GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObject
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -5827,7 +5827,7 @@ IncludeObjects GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObject
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -5844,7 +5844,7 @@ Maximum number of concurrent backfill tasks.
 The number should be non negative.
 If not set (or set to 0), the system's default value will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -5861,7 +5861,7 @@ Maximum number of concurrent CDC tasks.
 The number should be non negative.
 If not set (or set to 0), the system's default value will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
 
 ---
 
@@ -5875,7 +5875,7 @@ StreamLargeObjects GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLar
 
 stream_large_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#stream_large_objects GoogleDatastreamStream#stream_large_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#stream_large_objects GoogleDatastreamStream#stream_large_objects}
 
 ---
 
@@ -5884,7 +5884,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjects {
 
@@ -5897,7 +5897,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjects {
 	OracleSchemas: interface{},
@@ -5922,7 +5922,7 @@ OracleSchemas interface{}
 
 oracle_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
 
 ---
 
@@ -5931,7 +5931,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas {
 	Schema: *string,
@@ -5958,7 +5958,7 @@ Schema *string
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -5972,7 +5972,7 @@ OracleTables interface{}
 
 oracle_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
 
 ---
 
@@ -5981,7 +5981,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables {
 	Table: *string,
@@ -6008,7 +6008,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -6022,7 +6022,7 @@ OracleColumns interface{}
 
 oracle_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
 
 ---
 
@@ -6031,7 +6031,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns {
 	Column: *string,
@@ -6058,7 +6058,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -6072,7 +6072,7 @@ DataType *string
 
 The Oracle data type. Full data types list can be found here: https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Data-Types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -6081,7 +6081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjects {
 	OracleSchemas: interface{},
@@ -6106,7 +6106,7 @@ OracleSchemas interface{}
 
 oracle_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
 
 ---
 
@@ -6115,7 +6115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas {
 	Schema: *string,
@@ -6142,7 +6142,7 @@ Schema *string
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -6156,7 +6156,7 @@ OracleTables interface{}
 
 oracle_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
 
 ---
 
@@ -6165,7 +6165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables {
 	Table: *string,
@@ -6192,7 +6192,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -6206,7 +6206,7 @@ OracleColumns interface{}
 
 oracle_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
 
 ---
 
@@ -6215,7 +6215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns {
 	Column: *string,
@@ -6242,7 +6242,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -6256,7 +6256,7 @@ DataType *string
 
 The Oracle data type. Full data types list can be found here: https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Data-Types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -6265,7 +6265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjects {
 
@@ -6278,13 +6278,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig {
 	Publication: *string,
 	ReplicationSlot: *string,
-	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjects,
-	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjects,
+	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjects,
+	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjects,
 	MaxConcurrentBackfillTasks: *f64,
 }
 ```
@@ -6311,7 +6311,7 @@ Publication *string
 
 The name of the publication that includes the set of all tables that are defined in the stream's include_objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#publication GoogleDatastreamStream#publication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#publication GoogleDatastreamStream#publication}
 
 ---
 
@@ -6325,7 +6325,7 @@ ReplicationSlot *string
 
 The name of the logical replication slot that's configured with the pgoutput plugin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#replication_slot GoogleDatastreamStream#replication_slot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#replication_slot GoogleDatastreamStream#replication_slot}
 
 ---
 
@@ -6339,7 +6339,7 @@ ExcludeObjects GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeOb
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -6353,7 +6353,7 @@ IncludeObjects GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeOb
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -6370,7 +6370,7 @@ Maximum number of concurrent backfill tasks.
 The number should be non
 negative. If not set (or set to 0), the system's default value will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -6379,7 +6379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjects {
 	PostgresqlSchemas: interface{},
@@ -6404,7 +6404,7 @@ PostgresqlSchemas interface{}
 
 postgresql_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
 
 ---
 
@@ -6413,7 +6413,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas {
 	Schema: *string,
@@ -6440,7 +6440,7 @@ Schema *string
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -6454,7 +6454,7 @@ PostgresqlTables interface{}
 
 postgresql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
 
 ---
 
@@ -6463,7 +6463,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables {
 	Table: *string,
@@ -6490,7 +6490,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -6504,7 +6504,7 @@ PostgresqlColumns interface{}
 
 postgresql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
 
 ---
 
@@ -6513,7 +6513,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns {
 	Column: *string,
@@ -6546,7 +6546,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -6560,7 +6560,7 @@ DataType *string
 
 The PostgreSQL data type. Full data types list can be found here: https://www.postgresql.org/docs/current/datatype.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -6574,7 +6574,7 @@ Nullable interface{}
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -6588,7 +6588,7 @@ OrdinalPosition *f64
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -6602,7 +6602,7 @@ PrimaryKey interface{}
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -6611,7 +6611,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjects {
 	PostgresqlSchemas: interface{},
@@ -6636,7 +6636,7 @@ PostgresqlSchemas interface{}
 
 postgresql_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
 
 ---
 
@@ -6645,7 +6645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas {
 	Schema: *string,
@@ -6672,7 +6672,7 @@ Schema *string
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -6686,7 +6686,7 @@ PostgresqlTables interface{}
 
 postgresql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
 
 ---
 
@@ -6695,7 +6695,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables {
 	Table: *string,
@@ -6722,7 +6722,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -6736,7 +6736,7 @@ PostgresqlColumns interface{}
 
 postgresql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
 
 ---
 
@@ -6745,7 +6745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns {
 	Column: *string,
@@ -6778,7 +6778,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -6792,7 +6792,7 @@ DataType *string
 
 The PostgreSQL data type. Full data types list can be found here: https://www.postgresql.org/docs/current/datatype.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -6806,7 +6806,7 @@ Nullable interface{}
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -6820,7 +6820,7 @@ OrdinalPosition *f64
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -6834,7 +6834,7 @@ PrimaryKey interface{}
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -6843,12 +6843,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfig {
 	PollingInterval: *string,
-	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjects,
-	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjects,
+	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjects,
+	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjects,
 }
 ```
 
@@ -6874,7 +6874,7 @@ Salesforce objects polling interval.
 
 The interval at which new changes will be polled for each object. The duration must be between 5 minutes and 24 hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#polling_interval GoogleDatastreamStream#polling_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#polling_interval GoogleDatastreamStream#polling_interval}
 
 ---
 
@@ -6888,7 +6888,7 @@ ExcludeObjects GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeOb
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -6902,7 +6902,7 @@ IncludeObjects GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeOb
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -6911,7 +6911,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjects {
 	Objects: interface{},
@@ -6936,7 +6936,7 @@ Objects interface{}
 
 objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
 
 ---
 
@@ -6945,7 +6945,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects {
 	Fields: interface{},
@@ -6972,7 +6972,7 @@ Fields interface{}
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -6986,7 +6986,7 @@ ObjectName *string
 
 Name of object in Salesforce Org.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
 
 ---
 
@@ -6995,7 +6995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields {
 	Name: *string,
@@ -7020,7 +7020,7 @@ Name *string
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
 
 ---
 
@@ -7029,7 +7029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjects {
 	Objects: interface{},
@@ -7054,7 +7054,7 @@ Objects interface{}
 
 objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
 
 ---
 
@@ -7063,7 +7063,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects {
 	Fields: interface{},
@@ -7090,7 +7090,7 @@ Fields interface{}
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -7104,7 +7104,7 @@ ObjectName *string
 
 Name of object in Salesforce Org.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
 
 ---
 
@@ -7113,7 +7113,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields {
 	Name: *string,
@@ -7138,7 +7138,7 @@ Name *string
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
 
 ---
 
@@ -7147,14 +7147,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSpannerSourceConfig {
 	BackfillDataBoostEnabled: interface{},
 	ChangeStreamName: *string,
-	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjects,
+	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjects,
 	FgacRole: *string,
-	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjects,
+	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjects,
 	MaxConcurrentBackfillTasks: *f64,
 	MaxConcurrentCdcTasks: *f64,
 	SpannerRpcPriority: *string,
@@ -7186,7 +7186,7 @@ BackfillDataBoostEnabled interface{}
 
 Whether to use DataBoost for backfill queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#backfill_data_boost_enabled GoogleDatastreamStream#backfill_data_boost_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#backfill_data_boost_enabled GoogleDatastreamStream#backfill_data_boost_enabled}
 
 ---
 
@@ -7200,7 +7200,7 @@ ChangeStreamName *string
 
 The Spanner change stream name to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#change_stream_name GoogleDatastreamStream#change_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#change_stream_name GoogleDatastreamStream#change_stream_name}
 
 ---
 
@@ -7214,7 +7214,7 @@ ExcludeObjects GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjec
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -7228,7 +7228,7 @@ FgacRole *string
 
 The FGAC role to use for Spanner queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#fgac_role GoogleDatastreamStream#fgac_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#fgac_role GoogleDatastreamStream#fgac_role}
 
 ---
 
@@ -7242,7 +7242,7 @@ IncludeObjects GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjec
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -7256,7 +7256,7 @@ MaxConcurrentBackfillTasks *f64
 
 Max concurrent backfill tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -7270,7 +7270,7 @@ MaxConcurrentCdcTasks *f64
 
 Max concurrent CDC tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
 
 ---
 
@@ -7284,7 +7284,7 @@ SpannerRpcPriority *string
 
 The RPC priority to use for Spanner queries. Possible values: ["LOW", "MEDIUM", "HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#spanner_rpc_priority GoogleDatastreamStream#spanner_rpc_priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#spanner_rpc_priority GoogleDatastreamStream#spanner_rpc_priority}
 
 ---
 
@@ -7293,7 +7293,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjects {
 	Schemas: interface{},
@@ -7318,7 +7318,7 @@ Schemas interface{}
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -7327,7 +7327,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemas {
 	Schema: *string,
@@ -7354,7 +7354,7 @@ Schema *string
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -7368,7 +7368,7 @@ Tables interface{}
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -7377,7 +7377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTables {
 	Table: *string,
@@ -7404,7 +7404,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -7418,7 +7418,7 @@ Columns interface{}
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -7427,7 +7427,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumns {
 	Column: *string,
@@ -7452,7 +7452,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -7461,7 +7461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjects {
 	Schemas: interface{},
@@ -7486,7 +7486,7 @@ Schemas interface{}
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -7495,7 +7495,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemas {
 	Schema: *string,
@@ -7522,7 +7522,7 @@ Schema *string
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -7536,7 +7536,7 @@ Tables interface{}
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -7545,7 +7545,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTables {
 	Table: *string,
@@ -7572,7 +7572,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -7586,7 +7586,7 @@ Columns interface{}
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -7595,7 +7595,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumns {
 	Column: *string,
@@ -7620,7 +7620,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -7629,15 +7629,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfig {
-	ChangeTables: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTables,
-	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjects,
-	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjects,
+	ChangeTables: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTables,
+	ExcludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjects,
+	IncludeObjects: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjects,
 	MaxConcurrentBackfillTasks: *f64,
 	MaxConcurrentCdcTasks: *f64,
-	TransactionLogs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogs,
+	TransactionLogs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogs,
 }
 ```
 
@@ -7664,7 +7664,7 @@ ChangeTables GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTables
 
 change_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#change_tables GoogleDatastreamStream#change_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#change_tables GoogleDatastreamStream#change_tables}
 
 ---
 
@@ -7678,7 +7678,7 @@ ExcludeObjects GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObj
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -7692,7 +7692,7 @@ IncludeObjects GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObj
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -7706,7 +7706,7 @@ MaxConcurrentBackfillTasks *f64
 
 Max concurrent backfill tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -7720,7 +7720,7 @@ MaxConcurrentCdcTasks *f64
 
 Max concurrent CDC tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
 
 ---
 
@@ -7734,7 +7734,7 @@ TransactionLogs GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransacti
 
 transaction_logs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#transaction_logs GoogleDatastreamStream#transaction_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#transaction_logs GoogleDatastreamStream#transaction_logs}
 
 ---
 
@@ -7743,7 +7743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTables {
 
@@ -7756,7 +7756,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjects {
 	Schemas: interface{},
@@ -7781,7 +7781,7 @@ Schemas interface{}
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -7790,7 +7790,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas {
 	Schema: *string,
@@ -7817,7 +7817,7 @@ Schema *string
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -7831,7 +7831,7 @@ Tables interface{}
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -7840,7 +7840,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables {
 	Table: *string,
@@ -7867,7 +7867,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -7881,7 +7881,7 @@ Columns interface{}
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -7890,7 +7890,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns {
 	Column: *string,
@@ -7917,7 +7917,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -7931,7 +7931,7 @@ DataType *string
 
 The SQL Server data type. Full data types list can be found here: https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -7940,7 +7940,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjects {
 	Schemas: interface{},
@@ -7965,7 +7965,7 @@ Schemas interface{}
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -7974,7 +7974,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas {
 	Schema: *string,
@@ -8001,7 +8001,7 @@ Schema *string
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -8015,7 +8015,7 @@ Tables interface{}
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -8024,7 +8024,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables {
 	Table: *string,
@@ -8051,7 +8051,7 @@ Table *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -8065,7 +8065,7 @@ Columns interface{}
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -8074,7 +8074,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns {
 	Column: *string,
@@ -8101,7 +8101,7 @@ Column *string
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -8115,7 +8115,7 @@ DataType *string
 
 The SQL Server data type. Full data types list can be found here: https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -8124,7 +8124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogs {
 
@@ -8137,7 +8137,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 &googledatastreamstream.GoogleDatastreamStreamTimeouts {
 	Create: *string,
@@ -8150,9 +8150,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#create GoogleDatastreamStream#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#delete GoogleDatastreamStream#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#update GoogleDatastreamStream#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#create GoogleDatastreamStream#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#delete GoogleDatastreamStream#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#update GoogleDatastreamStream#update}. |
 
 ---
 
@@ -8164,7 +8164,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#create GoogleDatastreamStream#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#create GoogleDatastreamStream#create}.
 
 ---
 
@@ -8176,7 +8176,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#delete GoogleDatastreamStream#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#delete GoogleDatastreamStream#delete}.
 
 ---
 
@@ -8188,7 +8188,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_datastream_stream#update GoogleDatastreamStream#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_datastream_stream#update GoogleDatastreamStream#update}.
 
 ---
 
@@ -8199,7 +8199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFieldsList
 ```
@@ -8359,7 +8359,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFieldsOutputReference
 ```
@@ -8655,7 +8655,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsList
 ```
@@ -8815,7 +8815,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsOutputReference
 ```
@@ -9146,7 +9146,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesList
 ```
@@ -9306,7 +9306,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesOutputReference
 ```
@@ -9637,7 +9637,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMongodbExcludedObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsOutputReference
 ```
@@ -9921,7 +9921,7 @@ func InternalValue() GoogleDatastreamStreamBackfillAllMongodbExcludedObjects
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesList
 ```
@@ -10081,7 +10081,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesList
 ```
@@ -10241,7 +10241,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsList
 ```
@@ -10401,7 +10401,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference
 ```
@@ -10853,7 +10853,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesOutputReference
 ```
@@ -11184,7 +11184,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesOutputReference
 ```
@@ -11515,7 +11515,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllMysqlExcludedObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsOutputReference
 ```
@@ -11799,7 +11799,7 @@ func InternalValue() GoogleDatastreamStreamBackfillAllMysqlExcludedObjects
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasList
 ```
@@ -11959,7 +11959,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesList
 ```
@@ -12119,7 +12119,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsList
 ```
@@ -12279,7 +12279,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsOutputReference
 ```
@@ -12681,7 +12681,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOutputReference
 ```
@@ -13012,7 +13012,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOutputReference
 ```
@@ -13343,7 +13343,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference
 ```
@@ -13627,7 +13627,7 @@ func InternalValue() GoogleDatastreamStreamBackfillAllOracleExcludedObjects
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamBackfillAllOutputReference
 ```
@@ -14170,7 +14170,7 @@ func InternalValue() GoogleDatastreamStreamBackfillAll
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsOutputReference
 ```
@@ -14454,7 +14454,7 @@ func InternalValue() GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasList
 ```
@@ -14614,7 +14614,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasOutputReference
 ```
@@ -14945,7 +14945,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesList
 ```
@@ -15105,7 +15105,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesOutputReference
 ```
@@ -15436,7 +15436,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList
 ```
@@ -15596,7 +15596,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference
 ```
@@ -16041,7 +16041,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsList
 ```
@@ -16201,7 +16201,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsOutputReference
 ```
@@ -16497,7 +16497,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsList
 ```
@@ -16657,7 +16657,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsOutputReference
 ```
@@ -16995,7 +16995,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference
 ```
@@ -17279,7 +17279,7 @@ func InternalValue() GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSpannerExcludedObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsOutputReference
 ```
@@ -17563,7 +17563,7 @@ func InternalValue() GoogleDatastreamStreamBackfillAllSpannerExcludedObjects
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasList
 ```
@@ -17723,7 +17723,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasOutputReference
 ```
@@ -18054,7 +18054,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumnsList
 ```
@@ -18214,7 +18214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumnsOutputReference
 ```
@@ -18536,7 +18536,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesList
 ```
@@ -18696,7 +18696,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesOutputReference
 ```
@@ -19027,7 +19027,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsOutputReference
 ```
@@ -19311,7 +19311,7 @@ func InternalValue() GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasList
 ```
@@ -19471,7 +19471,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasOutputReference
 ```
@@ -19802,7 +19802,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList
 ```
@@ -19962,7 +19962,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsOutputReference
 ```
@@ -20353,7 +20353,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesList
 ```
@@ -20513,7 +20513,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesOutputReference
 ```
@@ -20844,7 +20844,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillNoneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamBackfillNoneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamBackfillNoneOutputReference
 ```
@@ -21093,7 +21093,7 @@ func InternalValue() GoogleDatastreamStreamBackfillNone
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference
 ```
@@ -21342,7 +21342,7 @@ func InternalValue() GoogleDatastreamStreamDestinationConfigBigqueryDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigOutputReference
 ```
@@ -21708,7 +21708,7 @@ func InternalValue() GoogleDatastreamStreamDestinationConfigBigqueryDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeOutputReference
 ```
@@ -21957,7 +21957,7 @@ func InternalValue() GoogleDatastreamStreamDestinationConfigBigqueryDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference
 ```
@@ -22445,7 +22445,7 @@ func InternalValue() GoogleDatastreamStreamDestinationConfigBigqueryDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetOutputReference
 ```
@@ -22716,7 +22716,7 @@ func InternalValue() GoogleDatastreamStreamDestinationConfigBigqueryDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateOutputReference
 ```
@@ -23045,7 +23045,7 @@ func InternalValue() GoogleDatastreamStreamDestinationConfigBigqueryDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference
 ```
@@ -23358,7 +23358,7 @@ func InternalValue() GoogleDatastreamStreamDestinationConfigBigqueryDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference
 ```
@@ -23607,7 +23607,7 @@ func InternalValue() GoogleDatastreamStreamDestinationConfigGcsDestinationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference
 ```
@@ -23914,7 +23914,7 @@ func InternalValue() GoogleDatastreamStreamDestinationConfigGcsDestinationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigGcsDestinationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamDestinationConfigGcsDestinationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamDestinationConfigGcsDestinationConfigOutputReference
 ```
@@ -24334,7 +24334,7 @@ func InternalValue() GoogleDatastreamStreamDestinationConfigGcsDestinationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamDestinationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamDestinationConfigOutputReference
 ```
@@ -24689,7 +24689,7 @@ func InternalValue() GoogleDatastreamStreamDestinationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClusteringOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClusteringOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClusteringOutputReference
 ```
@@ -24960,7 +24960,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartitionOutputReference
 ```
@@ -25238,7 +25238,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPar
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartitionOutputReference
 ```
@@ -25575,7 +25575,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPar
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningOutputReference
 ```
@@ -25979,7 +25979,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPar
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartitionOutputReference
 ```
@@ -26279,7 +26279,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPar
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsCustomizationRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamRuleSetsCustomizationRulesList
 ```
@@ -26439,7 +26439,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsCustomizationRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsCustomizationRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamRuleSetsCustomizationRulesOutputReference
 ```
@@ -26790,7 +26790,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamRuleSetsList
 ```
@@ -26950,7 +26950,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsObjectFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsObjectFilterOutputReference
 ```
@@ -27241,7 +27241,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsObjectFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifierOutputReference
 ```
@@ -27534,7 +27534,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifierOutputReference
 ```
@@ -27827,7 +27827,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifierOutputReference
 ```
@@ -28120,7 +28120,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOutputReference
 ```
@@ -28663,7 +28663,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifierOutputReference
 ```
@@ -28956,7 +28956,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifierOutputReference
 ```
@@ -29227,7 +29227,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifierOutputReference
 ```
@@ -29527,7 +29527,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifierOutputReference
 ```
@@ -29820,7 +29820,7 @@ func InternalValue() GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamRuleSetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamRuleSetsOutputReference
 ```
@@ -30157,7 +30157,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFieldsList
 ```
@@ -30317,7 +30317,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFieldsOutputReference
 ```
@@ -30613,7 +30613,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsList
 ```
@@ -30773,7 +30773,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsOutputReference
 ```
@@ -31111,7 +31111,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesList
 ```
@@ -31271,7 +31271,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesOutputReference
 ```
@@ -31609,7 +31609,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsOutputReference
 ```
@@ -31900,7 +31900,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigMongodbSourceConfigExclud
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFieldsList
 ```
@@ -32060,7 +32060,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFieldsOutputReference
 ```
@@ -32356,7 +32356,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsList
 ```
@@ -32516,7 +32516,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsOutputReference
 ```
@@ -32854,7 +32854,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesList
 ```
@@ -33014,7 +33014,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesOutputReference
 ```
@@ -33352,7 +33352,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsOutputReference
 ```
@@ -33643,7 +33643,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigMongodbSourceConfigInclud
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMongodbSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMongodbSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigMongodbSourceConfigOutputReference
 ```
@@ -34005,7 +34005,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigMongodbSourceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference
 ```
@@ -34254,7 +34254,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesList
 ```
@@ -34414,7 +34414,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesList
 ```
@@ -34574,7 +34574,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList
 ```
@@ -34734,7 +34734,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference
 ```
@@ -35186,7 +35186,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesOutputReference
 ```
@@ -35517,7 +35517,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesOutputReference
 ```
@@ -35848,7 +35848,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsOutputReference
 ```
@@ -36132,7 +36132,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeO
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtidOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigGtidOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtidOutputReference
 ```
@@ -36381,7 +36381,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesList
 ```
@@ -36541,7 +36541,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesList
 ```
@@ -36701,7 +36701,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList
 ```
@@ -36861,7 +36861,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference
 ```
@@ -37313,7 +37313,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesOutputReference
 ```
@@ -37644,7 +37644,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesOutputReference
 ```
@@ -37975,7 +37975,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference
 ```
@@ -38259,7 +38259,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeO
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigMysqlSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigMysqlSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigMysqlSourceConfigOutputReference
 ```
@@ -38734,7 +38734,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigMysqlSourceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsOutputReference
 ```
@@ -38983,7 +38983,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLar
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasList
 ```
@@ -39143,7 +39143,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesList
 ```
@@ -39303,7 +39303,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsList
 ```
@@ -39463,7 +39463,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsOutputReference
 ```
@@ -39865,7 +39865,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOutputReference
 ```
@@ -40196,7 +40196,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOutputReference
 ```
@@ -40527,7 +40527,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOutputReference
 ```
@@ -40811,7 +40811,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigOracleSourceConfigExclude
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasList
 ```
@@ -40971,7 +40971,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesList
 ```
@@ -41131,7 +41131,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsList
 ```
@@ -41291,7 +41291,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsOutputReference
 ```
@@ -41693,7 +41693,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOutputReference
 ```
@@ -42024,7 +42024,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOutputReference
 ```
@@ -42355,7 +42355,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOutputReference
 ```
@@ -42639,7 +42639,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigOracleSourceConfigInclude
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigOracleSourceConfigOutputReference
 ```
@@ -43114,7 +43114,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigOracleSourceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsOutputReference
 ```
@@ -43363,7 +43363,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamL
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigOutputReference
 ```
@@ -43928,7 +43928,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsOutputReference
 ```
@@ -44212,7 +44212,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasList
 ```
@@ -44372,7 +44372,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasOutputReference
 ```
@@ -44703,7 +44703,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesList
 ```
@@ -44863,7 +44863,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesOutputReference
 ```
@@ -45194,7 +45194,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList
 ```
@@ -45354,7 +45354,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference
 ```
@@ -45799,7 +45799,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsOutputReference
 ```
@@ -46083,7 +46083,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasList
 ```
@@ -46243,7 +46243,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasOutputReference
 ```
@@ -46574,7 +46574,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesList
 ```
@@ -46734,7 +46734,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesOutputReference
 ```
@@ -47065,7 +47065,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList
 ```
@@ -47225,7 +47225,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference
 ```
@@ -47670,7 +47670,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigPostgresqlSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigOutputReference
 ```
@@ -48076,7 +48076,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsList
 ```
@@ -48236,7 +48236,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsOutputReference
 ```
@@ -48532,7 +48532,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsList
 ```
@@ -48692,7 +48692,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsOutputReference
 ```
@@ -49030,7 +49030,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsOutputReference
 ```
@@ -49314,7 +49314,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsList
 ```
@@ -49474,7 +49474,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsOutputReference
 ```
@@ -49770,7 +49770,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsList
 ```
@@ -49930,7 +49930,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsOutputReference
 ```
@@ -50268,7 +50268,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsOutputReference
 ```
@@ -50552,7 +50552,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSalesforceSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSalesforceSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigSalesforceSourceConfigOutputReference
 ```
@@ -50907,7 +50907,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigSalesforceSourceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsOutputReference
 ```
@@ -51191,7 +51191,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigSpannerSourceConfigExclud
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasList
 ```
@@ -51351,7 +51351,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasOutputReference
 ```
@@ -51682,7 +51682,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumnsList
 ```
@@ -51842,7 +51842,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumnsOutputReference
 ```
@@ -52171,7 +52171,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesList
 ```
@@ -52331,7 +52331,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesOutputReference
 ```
@@ -52662,7 +52662,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsOutputReference
 ```
@@ -52946,7 +52946,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigSpannerSourceConfigInclud
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasList
 ```
@@ -53106,7 +53106,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasOutputReference
 ```
@@ -53437,7 +53437,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumnsList
 ```
@@ -53597,7 +53597,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumnsOutputReference
 ```
@@ -53926,7 +53926,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesList
 ```
@@ -54086,7 +54086,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesOutputReference
 ```
@@ -54417,7 +54417,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSpannerSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSpannerSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigSpannerSourceConfigOutputReference
 ```
@@ -54924,7 +54924,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigSpannerSourceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesOutputReference
 ```
@@ -55173,7 +55173,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChan
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReference
 ```
@@ -55457,7 +55457,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcl
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasList
 ```
@@ -55617,7 +55617,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasOutputReference
 ```
@@ -55948,7 +55948,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsList
 ```
@@ -56108,7 +56108,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsOutputReference
 ```
@@ -56499,7 +56499,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesList
 ```
@@ -56659,7 +56659,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesOutputReference
 ```
@@ -56990,7 +56990,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsOutputReference
 ```
@@ -57274,7 +57274,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncl
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasList
 ```
@@ -57434,7 +57434,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasOutputReference
 ```
@@ -57765,7 +57765,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsList
 ```
@@ -57925,7 +57925,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsOutputReference
 ```
@@ -58316,7 +58316,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesList
 ```
@@ -58476,7 +58476,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesOutputReference
 ```
@@ -58807,7 +58807,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigOutputReference
 ```
@@ -59282,7 +59282,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigSqlServerSourceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogsOutputReference
 ```
@@ -59531,7 +59531,7 @@ func InternalValue() GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTran
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamstream"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatastreamstream"
 
 googledatastreamstream.NewGoogleDatastreamStreamTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamTimeoutsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### GoogleAgenticApplicationsAnalystAgentPersona <a name="GoogleAgenticApplicationsAnalystAgentPersona" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersona(scope Construct, id *string, config GoogleAgenticApplicationsAnalystAgentPersonaConfig) GoogleAgenticApplicationsAnalystAgentPersona
 ```
@@ -82,6 +82,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.putSkills">PutSkills</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.putTables">PutTables</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.putWebSearchConfig">PutWebSearchConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetArtifactExamples">ResetArtifactExamples</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetArtifactsConfig">ResetArtifactsConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetCustomerContext">ResetCustomerContext</a></code> | *No description.* |
@@ -90,6 +91,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetExternalDataSources">ResetExternalDataSources</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetGeminiEnterpriseEngine">ResetGeminiEnterpriseEngine</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetMathRenderingMode">ResetMathRenderingMode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetMcpDataSources">ResetMcpDataSources</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetModelDescription">ResetModelDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetProject">ResetProject</a></code> | *No description.* |
@@ -98,6 +100,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetSkills">ResetSkills</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetTables">ResetTables</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetWebSearchConfig">ResetWebSearchConfig</a></code> | *No description.* |
 
 ---
 
@@ -506,6 +509,18 @@ func PutTimeouts(value GoogleAgenticApplicationsAnalystAgentPersonaTimeouts)
 
 ---
 
+##### `PutWebSearchConfig` <a name="PutWebSearchConfig" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.putWebSearchConfig"></a>
+
+```go
+func PutWebSearchConfig(value GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.putWebSearchConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig">GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig</a>
+
+---
+
 ##### `ResetArtifactExamples` <a name="ResetArtifactExamples" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetArtifactExamples"></a>
 
 ```go
@@ -552,6 +567,12 @@ func ResetGeminiEnterpriseEngine()
 
 ```go
 func ResetId()
+```
+
+##### `ResetMathRenderingMode` <a name="ResetMathRenderingMode" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetMathRenderingMode"></a>
+
+```go
+func ResetMathRenderingMode()
 ```
 
 ##### `ResetMcpDataSources` <a name="ResetMcpDataSources" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetMcpDataSources"></a>
@@ -602,6 +623,12 @@ func ResetTables()
 func ResetTimeouts()
 ```
 
+##### `ResetWebSearchConfig` <a name="ResetWebSearchConfig" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.resetWebSearchConfig"></a>
+
+```go
+func ResetWebSearchConfig()
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -616,7 +643,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersona_IsConstruct(x interface{}) *bool
 ```
@@ -648,7 +675,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersona_IsTerraformElement(x interface{}) *bool
 ```
@@ -662,7 +689,7 @@ googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAge
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersona_IsTerraformResource(x interface{}) *bool
 ```
@@ -676,7 +703,7 @@ googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAge
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersona_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -705,7 +732,7 @@ The construct id used in the generated config for the GoogleAgenticApplicationsA
 
 The id of the existing GoogleAgenticApplicationsAnalystAgentPersona that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -746,6 +773,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.tables">Tables</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTablesList">GoogleAgenticApplicationsAnalystAgentPersonaTablesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeoutsOutputReference">GoogleAgenticApplicationsAnalystAgentPersonaTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.updateTime">UpdateTime</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.webSearchConfig">WebSearchConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference">GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.analystAgentPersonaIdInput">AnalystAgentPersonaIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.artifactExamplesInput">ArtifactExamplesInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.artifactsConfigInput">ArtifactsConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig</a></code> | *No description.* |
@@ -757,6 +785,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.geminiEnterpriseEngineInput">GeminiEnterpriseEngineInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.locationInput">LocationInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.mathRenderingModeInput">MathRenderingModeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.mcpDataSourcesInput">McpDataSourcesInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.modelDescriptionInput">ModelDescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
@@ -765,6 +794,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.skillsInput">SkillsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.tablesInput">TablesInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.webSearchConfigInput">WebSearchConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig">GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.analystAgentPersonaId">AnalystAgentPersonaId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.customerContext">CustomerContext</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
@@ -773,6 +803,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.geminiEnterpriseEngine">GeminiEnterpriseEngine</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.location">Location</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.mathRenderingMode">MathRenderingMode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.modelDescription">ModelDescription</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.project">Project</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.role">Role</a></code> | <code>*string</code> | *No description.* |
@@ -1031,6 +1062,16 @@ func UpdateTime() *string
 
 ---
 
+##### `WebSearchConfig`<sup>Required</sup> <a name="WebSearchConfig" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.webSearchConfig"></a>
+
+```go
+func WebSearchConfig() GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference">GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference</a>
+
+---
+
 ##### `AnalystAgentPersonaIdInput`<sup>Optional</sup> <a name="AnalystAgentPersonaIdInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.analystAgentPersonaIdInput"></a>
 
 ```go
@@ -1141,6 +1182,16 @@ func LocationInput() *string
 
 ---
 
+##### `MathRenderingModeInput`<sup>Optional</sup> <a name="MathRenderingModeInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.mathRenderingModeInput"></a>
+
+```go
+func MathRenderingModeInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `McpDataSourcesInput`<sup>Optional</sup> <a name="McpDataSourcesInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.mcpDataSourcesInput"></a>
 
 ```go
@@ -1218,6 +1269,16 @@ func TimeoutsInput() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+##### `WebSearchConfigInput`<sup>Optional</sup> <a name="WebSearchConfigInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.webSearchConfigInput"></a>
+
+```go
+func WebSearchConfigInput() GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig">GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig</a>
 
 ---
 
@@ -1301,6 +1362,16 @@ func Location() *string
 
 ---
 
+##### `MathRenderingMode`<sup>Required</sup> <a name="MathRenderingMode" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.mathRenderingMode"></a>
+
+```go
+func MathRenderingMode() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `ModelDescription`<sup>Required</sup> <a name="ModelDescription" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersona.property.modelDescription"></a>
 
 ```go
@@ -1356,10 +1427,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamples.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamples {
-	Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResource,
+	Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResource,
 }
 ```
 
@@ -1381,7 +1452,7 @@ Resource GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResource
 
 resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#resource GoogleAgenticApplicationsAnalystAgentPersona#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#resource GoogleAgenticApplicationsAnalystAgentPersona#resource}
 
 ---
 
@@ -1390,16 +1461,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResource {
-	BigqueryResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceBigqueryResource,
+	BigqueryResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceBigqueryResource,
 	DisplayLabel: *string,
-	F1Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceF1Resource,
-	GoogleCloudStorageResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleCloudStorageResource,
-	GoogleDriveResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleDriveResource,
+	F1Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceF1Resource,
+	GoogleCloudStorageResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleCloudStorageResource,
+	GoogleDriveResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleDriveResource,
 	ModelDescription: *string,
-	RawFileResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceRawFileResource,
+	RawFileResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceRawFileResource,
 	UseRag: interface{},
 }
 ```
@@ -1429,7 +1500,7 @@ BigqueryResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesRes
 
 bigquery_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_resource GoogleAgenticApplicationsAnalystAgentPersona#bigquery_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_resource GoogleAgenticApplicationsAnalystAgentPersona#bigquery_resource}
 
 ---
 
@@ -1443,7 +1514,7 @@ DisplayLabel *string
 
 A user-friendly name for this resource. This can be shown to the user and used by the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#display_label GoogleAgenticApplicationsAnalystAgentPersona#display_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#display_label GoogleAgenticApplicationsAnalystAgentPersona#display_label}
 
 ---
 
@@ -1457,7 +1528,7 @@ F1Resource GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceF
 
 f1_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#f1_resource GoogleAgenticApplicationsAnalystAgentPersona#f1_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#f1_resource GoogleAgenticApplicationsAnalystAgentPersona#f1_resource}
 
 ---
 
@@ -1471,7 +1542,7 @@ GoogleCloudStorageResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactE
 
 google_cloud_storage_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_resource GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_resource GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_resource}
 
 ---
 
@@ -1485,7 +1556,7 @@ GoogleDriveResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamples
 
 google_drive_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_drive_resource GoogleAgenticApplicationsAnalystAgentPersona#google_drive_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_drive_resource GoogleAgenticApplicationsAnalystAgentPersona#google_drive_resource}
 
 ---
 
@@ -1499,7 +1570,7 @@ ModelDescription *string
 
 A description of the resource. The model may use this, it will not be shown to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
 
 ---
 
@@ -1513,7 +1584,7 @@ RawFileResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesReso
 
 raw_file_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#raw_file_resource GoogleAgenticApplicationsAnalystAgentPersona#raw_file_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#raw_file_resource GoogleAgenticApplicationsAnalystAgentPersona#raw_file_resource}
 
 ---
 
@@ -1529,7 +1600,7 @@ If true, use RAG to retrieve relevant information from the resources.
 
 Must only be set for file-based resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#use_rag GoogleAgenticApplicationsAnalystAgentPersona#use_rag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#use_rag GoogleAgenticApplicationsAnalystAgentPersona#use_rag}
 
 ---
 
@@ -1538,7 +1609,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceBigqueryResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceBigqueryResource {
 	BigqueryDataset: *string,
@@ -1570,7 +1641,7 @@ Points to a bigquery dataset to use.
 Expected Format:
 projects/{project_id_or_number}/datasets/{dataset_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_dataset GoogleAgenticApplicationsAnalystAgentPersona#bigquery_dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_dataset GoogleAgenticApplicationsAnalystAgentPersona#bigquery_dataset}
 
 ---
 
@@ -1587,7 +1658,7 @@ Points to a bigquery table to use.
 Expected Format:
 projects/{project_id_or_number}/datasets/{dataset_id}/tables/{table_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_table GoogleAgenticApplicationsAnalystAgentPersona#bigquery_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_table GoogleAgenticApplicationsAnalystAgentPersona#bigquery_table}
 
 ---
 
@@ -1601,7 +1672,7 @@ ColumnDescriptions *map[string]*string
 
 A map of column names to column descriptions for the bigquery_table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#column_descriptions GoogleAgenticApplicationsAnalystAgentPersona#column_descriptions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#column_descriptions GoogleAgenticApplicationsAnalystAgentPersona#column_descriptions}
 
 ---
 
@@ -1610,7 +1681,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceF1Resource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceF1Resource {
 	F1Table: *string,
@@ -1638,7 +1709,7 @@ F1Table *string
 * Expected Format:
 * {group}.{table_name}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
 
 ---
 
@@ -1647,7 +1718,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleCloudStorageResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleCloudStorageResource {
 	GoogleCloudStorageObject: *string,
@@ -1679,7 +1750,7 @@ or: //
 
 Note that to refer to a folder, it *must* end in a slash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_object GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_object GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_object}
 
 ---
 
@@ -1693,7 +1764,7 @@ FileExtensionRestrictions *[]*string
 
 If non-empty, only files with these extensions are included when expanding the resource.  If empty, all files are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
 
 ---
 
@@ -1702,7 +1773,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleDriveResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleDriveResource {
 	FileExtensionRestrictions: *[]*string,
@@ -1729,7 +1800,7 @@ FileExtensionRestrictions *[]*string
 
 If non-empty, only files with these extensions are included when expanding the resource.  If empty, all files are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
 
 ---
 
@@ -1750,7 +1821,7 @@ as well.  If folder is specifically, all files in the folder
 Expected Format:
 files/{file_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_reference GoogleAgenticApplicationsAnalystAgentPersona#file_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_reference GoogleAgenticApplicationsAnalystAgentPersona#file_reference}
 
 ---
 
@@ -1759,7 +1830,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceRawFileResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceRawFileResource {
 	FileContent: *string,
@@ -1788,7 +1859,7 @@ FileContent *string
 
 The raw file content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_content GoogleAgenticApplicationsAnalystAgentPersona#file_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_content GoogleAgenticApplicationsAnalystAgentPersona#file_content}
 
 ---
 
@@ -1802,7 +1873,7 @@ FileTitle *string
 
 The title of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_title GoogleAgenticApplicationsAnalystAgentPersona#file_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_title GoogleAgenticApplicationsAnalystAgentPersona#file_title}
 
 ---
 
@@ -1816,7 +1887,7 @@ MimeType *string
 
 The mime type of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#mime_type GoogleAgenticApplicationsAnalystAgentPersona#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#mime_type GoogleAgenticApplicationsAnalystAgentPersona#mime_type}
 
 ---
 
@@ -1825,12 +1896,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig {
-	DocumentGenerationOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions,
-	SlideGenerationOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions,
-	VisualizationOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions,
+	DocumentGenerationOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions,
+	MethodologyExportOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions,
+	SlideGenerationOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions,
+	VisualizationOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions,
 }
 ```
 
@@ -1839,6 +1911,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig.property.documentGenerationOptions">DocumentGenerationOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions</a></code> | document_generation_options block. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig.property.methodologyExportOptions">MethodologyExportOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions</a></code> | methodology_export_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig.property.slideGenerationOptions">SlideGenerationOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions</a></code> | slide_generation_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig.property.visualizationOptions">VisualizationOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions</a></code> | visualization_options block. |
 
@@ -1854,7 +1927,21 @@ DocumentGenerationOptions GoogleAgenticApplicationsAnalystAgentPersonaArtifactsC
 
 document_generation_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#document_generation_options GoogleAgenticApplicationsAnalystAgentPersona#document_generation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#document_generation_options GoogleAgenticApplicationsAnalystAgentPersona#document_generation_options}
+
+---
+
+##### `MethodologyExportOptions`<sup>Optional</sup> <a name="MethodologyExportOptions" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig.property.methodologyExportOptions"></a>
+
+```go
+MethodologyExportOptions GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions</a>
+
+methodology_export_options block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#methodology_export_options GoogleAgenticApplicationsAnalystAgentPersona#methodology_export_options}
 
 ---
 
@@ -1868,7 +1955,7 @@ SlideGenerationOptions GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConf
 
 slide_generation_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#slide_generation_options GoogleAgenticApplicationsAnalystAgentPersona#slide_generation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#slide_generation_options GoogleAgenticApplicationsAnalystAgentPersona#slide_generation_options}
 
 ---
 
@@ -1882,7 +1969,7 @@ VisualizationOptions GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 
 visualization_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#visualization_options GoogleAgenticApplicationsAnalystAgentPersona#visualization_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#visualization_options GoogleAgenticApplicationsAnalystAgentPersona#visualization_options}
 
 ---
 
@@ -1891,7 +1978,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions {
 	DocumentExamples: interface{},
@@ -1918,7 +2005,7 @@ DocumentExamples interface{}
 
 document_examples block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#document_examples GoogleAgenticApplicationsAnalystAgentPersona#document_examples}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#document_examples GoogleAgenticApplicationsAnalystAgentPersona#document_examples}
 
 ---
 
@@ -1932,7 +2019,7 @@ ExportFormat *string
 
 Format for document export. Possible values: PDF DOCX GOOGLE_DOCS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#export_format GoogleAgenticApplicationsAnalystAgentPersona#export_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#export_format GoogleAgenticApplicationsAnalystAgentPersona#export_format}
 
 ---
 
@@ -1941,10 +2028,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamples.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamples {
-	Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResource,
+	Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResource,
 }
 ```
 
@@ -1966,7 +2053,7 @@ Resource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGene
 
 resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#resource GoogleAgenticApplicationsAnalystAgentPersona#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#resource GoogleAgenticApplicationsAnalystAgentPersona#resource}
 
 ---
 
@@ -1975,16 +2062,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResource {
-	BigqueryResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceBigqueryResource,
+	BigqueryResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceBigqueryResource,
 	DisplayLabel: *string,
-	F1Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceF1Resource,
-	GoogleCloudStorageResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleCloudStorageResource,
-	GoogleDriveResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleDriveResource,
+	F1Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceF1Resource,
+	GoogleCloudStorageResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleCloudStorageResource,
+	GoogleDriveResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleDriveResource,
 	ModelDescription: *string,
-	RawFileResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceRawFileResource,
+	RawFileResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceRawFileResource,
 	UseRag: interface{},
 }
 ```
@@ -2014,7 +2101,7 @@ BigqueryResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocu
 
 bigquery_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_resource GoogleAgenticApplicationsAnalystAgentPersona#bigquery_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_resource GoogleAgenticApplicationsAnalystAgentPersona#bigquery_resource}
 
 ---
 
@@ -2028,7 +2115,7 @@ DisplayLabel *string
 
 A user-friendly name for this resource. This can be shown to the user and used by the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#display_label GoogleAgenticApplicationsAnalystAgentPersona#display_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#display_label GoogleAgenticApplicationsAnalystAgentPersona#display_label}
 
 ---
 
@@ -2042,7 +2129,7 @@ F1Resource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGe
 
 f1_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#f1_resource GoogleAgenticApplicationsAnalystAgentPersona#f1_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#f1_resource GoogleAgenticApplicationsAnalystAgentPersona#f1_resource}
 
 ---
 
@@ -2056,7 +2143,7 @@ GoogleCloudStorageResource GoogleAgenticApplicationsAnalystAgentPersonaArtifacts
 
 google_cloud_storage_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_resource GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_resource GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_resource}
 
 ---
 
@@ -2070,7 +2157,7 @@ GoogleDriveResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigD
 
 google_drive_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_drive_resource GoogleAgenticApplicationsAnalystAgentPersona#google_drive_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_drive_resource GoogleAgenticApplicationsAnalystAgentPersona#google_drive_resource}
 
 ---
 
@@ -2084,7 +2171,7 @@ ModelDescription *string
 
 A description of the resource. The model may use this, it will not be shown to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
 
 ---
 
@@ -2098,7 +2185,7 @@ RawFileResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocum
 
 raw_file_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#raw_file_resource GoogleAgenticApplicationsAnalystAgentPersona#raw_file_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#raw_file_resource GoogleAgenticApplicationsAnalystAgentPersona#raw_file_resource}
 
 ---
 
@@ -2114,7 +2201,7 @@ If true, use RAG to retrieve relevant information from the resources.
 
 Must only be set for file-based resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#use_rag GoogleAgenticApplicationsAnalystAgentPersona#use_rag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#use_rag GoogleAgenticApplicationsAnalystAgentPersona#use_rag}
 
 ---
 
@@ -2123,7 +2210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceBigqueryResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceBigqueryResource {
 	BigqueryDataset: *string,
@@ -2155,7 +2242,7 @@ Points to a bigquery dataset to use.
 Expected Format:
 projects/{project_id_or_number}/datasets/{dataset_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_dataset GoogleAgenticApplicationsAnalystAgentPersona#bigquery_dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_dataset GoogleAgenticApplicationsAnalystAgentPersona#bigquery_dataset}
 
 ---
 
@@ -2172,7 +2259,7 @@ Points to a bigquery table to use.
 Expected Format:
 projects/{project_id_or_number}/datasets/{dataset_id}/tables/{table_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_table GoogleAgenticApplicationsAnalystAgentPersona#bigquery_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_table GoogleAgenticApplicationsAnalystAgentPersona#bigquery_table}
 
 ---
 
@@ -2186,7 +2273,7 @@ ColumnDescriptions *map[string]*string
 
 A map of column names to column descriptions for the bigquery_table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#column_descriptions GoogleAgenticApplicationsAnalystAgentPersona#column_descriptions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#column_descriptions GoogleAgenticApplicationsAnalystAgentPersona#column_descriptions}
 
 ---
 
@@ -2195,7 +2282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceF1Resource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceF1Resource {
 	F1Table: *string,
@@ -2223,7 +2310,7 @@ F1Table *string
 * Expected Format:
 * {group}.{table_name}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
 
 ---
 
@@ -2232,7 +2319,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleCloudStorageResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleCloudStorageResource {
 	GoogleCloudStorageObject: *string,
@@ -2264,7 +2351,7 @@ or: //
 
 Note that to refer to a folder, it *must* end in a slash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_object GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_object GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_object}
 
 ---
 
@@ -2278,7 +2365,7 @@ FileExtensionRestrictions *[]*string
 
 If non-empty, only files with these extensions are included when expanding the resource.  If empty, all files are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
 
 ---
 
@@ -2287,7 +2374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleDriveResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleDriveResource {
 	FileExtensionRestrictions: *[]*string,
@@ -2314,7 +2401,7 @@ FileExtensionRestrictions *[]*string
 
 If non-empty, only files with these extensions are included when expanding the resource.  If empty, all files are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
 
 ---
 
@@ -2335,7 +2422,7 @@ as well.  If folder is specifically, all files in the folder
 Expected Format:
 files/{file_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_reference GoogleAgenticApplicationsAnalystAgentPersona#file_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_reference GoogleAgenticApplicationsAnalystAgentPersona#file_reference}
 
 ---
 
@@ -2344,7 +2431,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceRawFileResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceRawFileResource {
 	FileContent: *string,
@@ -2373,7 +2460,7 @@ FileContent *string
 
 The raw file content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_content GoogleAgenticApplicationsAnalystAgentPersona#file_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_content GoogleAgenticApplicationsAnalystAgentPersona#file_content}
 
 ---
 
@@ -2387,7 +2474,7 @@ FileTitle *string
 
 The title of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_title GoogleAgenticApplicationsAnalystAgentPersona#file_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_title GoogleAgenticApplicationsAnalystAgentPersona#file_title}
 
 ---
 
@@ -2401,7 +2488,73 @@ MimeType *string
 
 The mime type of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#mime_type GoogleAgenticApplicationsAnalystAgentPersona#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#mime_type GoogleAgenticApplicationsAnalystAgentPersona#mime_type}
+
+---
+
+### GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions <a name="GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
+
+&googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions {
+	AppendMethodology: interface{},
+	ExportFormat: *string,
+	ExportMethodologyArtifact: interface{},
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions.property.appendMethodology">AppendMethodology</a></code> | <code>interface{}</code> | If true, append the detailed methodology to the final response. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions.property.exportFormat">ExportFormat</a></code> | <code>*string</code> | Format for methodology export. Possible values: MARKDOWN HTML PDF. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions.property.exportMethodologyArtifact">ExportMethodologyArtifact</a></code> | <code>interface{}</code> | If true, export the detailed methodology as a separate artifact. |
+
+---
+
+##### `AppendMethodology`<sup>Optional</sup> <a name="AppendMethodology" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions.property.appendMethodology"></a>
+
+```go
+AppendMethodology interface{}
+```
+
+- *Type:* interface{}
+
+If true, append the detailed methodology to the final response.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#append_methodology GoogleAgenticApplicationsAnalystAgentPersona#append_methodology}
+
+---
+
+##### `ExportFormat`<sup>Optional</sup> <a name="ExportFormat" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions.property.exportFormat"></a>
+
+```go
+ExportFormat *string
+```
+
+- *Type:* *string
+
+Format for methodology export. Possible values: MARKDOWN HTML PDF.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#export_format GoogleAgenticApplicationsAnalystAgentPersona#export_format}
+
+---
+
+##### `ExportMethodologyArtifact`<sup>Optional</sup> <a name="ExportMethodologyArtifact" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions.property.exportMethodologyArtifact"></a>
+
+```go
+ExportMethodologyArtifact interface{}
+```
+
+- *Type:* interface{}
+
+If true, export the detailed methodology as a separate artifact.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#export_methodology_artifact GoogleAgenticApplicationsAnalystAgentPersona#export_methodology_artifact}
 
 ---
 
@@ -2410,7 +2563,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions {
 	ExportFormat: *string,
@@ -2437,7 +2590,7 @@ ExportFormat *string
 
 Format for slide export. Possible values: PDF PNG PPTX GOOGLE_SLIDES.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#export_format GoogleAgenticApplicationsAnalystAgentPersona#export_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#export_format GoogleAgenticApplicationsAnalystAgentPersona#export_format}
 
 ---
 
@@ -2451,7 +2604,7 @@ SlideExamples interface{}
 
 slide_examples block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#slide_examples GoogleAgenticApplicationsAnalystAgentPersona#slide_examples}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#slide_examples GoogleAgenticApplicationsAnalystAgentPersona#slide_examples}
 
 ---
 
@@ -2460,10 +2613,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamples.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamples {
-	Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResource,
+	Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResource,
 }
 ```
 
@@ -2485,7 +2638,7 @@ Resource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerat
 
 resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#resource GoogleAgenticApplicationsAnalystAgentPersona#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#resource GoogleAgenticApplicationsAnalystAgentPersona#resource}
 
 ---
 
@@ -2494,16 +2647,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResource {
-	BigqueryResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceBigqueryResource,
+	BigqueryResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceBigqueryResource,
 	DisplayLabel: *string,
-	F1Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceF1Resource,
-	GoogleCloudStorageResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleCloudStorageResource,
-	GoogleDriveResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleDriveResource,
+	F1Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceF1Resource,
+	GoogleCloudStorageResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleCloudStorageResource,
+	GoogleDriveResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleDriveResource,
 	ModelDescription: *string,
-	RawFileResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceRawFileResource,
+	RawFileResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceRawFileResource,
 	UseRag: interface{},
 }
 ```
@@ -2533,7 +2686,7 @@ BigqueryResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlid
 
 bigquery_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_resource GoogleAgenticApplicationsAnalystAgentPersona#bigquery_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_resource GoogleAgenticApplicationsAnalystAgentPersona#bigquery_resource}
 
 ---
 
@@ -2547,7 +2700,7 @@ DisplayLabel *string
 
 A user-friendly name for this resource. This can be shown to the user and used by the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#display_label GoogleAgenticApplicationsAnalystAgentPersona#display_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#display_label GoogleAgenticApplicationsAnalystAgentPersona#display_label}
 
 ---
 
@@ -2561,7 +2714,7 @@ F1Resource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGener
 
 f1_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#f1_resource GoogleAgenticApplicationsAnalystAgentPersona#f1_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#f1_resource GoogleAgenticApplicationsAnalystAgentPersona#f1_resource}
 
 ---
 
@@ -2575,7 +2728,7 @@ GoogleCloudStorageResource GoogleAgenticApplicationsAnalystAgentPersonaArtifacts
 
 google_cloud_storage_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_resource GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_resource GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_resource}
 
 ---
 
@@ -2589,7 +2742,7 @@ GoogleDriveResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigS
 
 google_drive_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_drive_resource GoogleAgenticApplicationsAnalystAgentPersona#google_drive_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_drive_resource GoogleAgenticApplicationsAnalystAgentPersona#google_drive_resource}
 
 ---
 
@@ -2603,7 +2756,7 @@ ModelDescription *string
 
 A description of the resource. The model may use this, it will not be shown to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
 
 ---
 
@@ -2617,7 +2770,7 @@ RawFileResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlide
 
 raw_file_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#raw_file_resource GoogleAgenticApplicationsAnalystAgentPersona#raw_file_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#raw_file_resource GoogleAgenticApplicationsAnalystAgentPersona#raw_file_resource}
 
 ---
 
@@ -2633,7 +2786,7 @@ If true, use RAG to retrieve relevant information from the resources.
 
 Must only be set for file-based resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#use_rag GoogleAgenticApplicationsAnalystAgentPersona#use_rag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#use_rag GoogleAgenticApplicationsAnalystAgentPersona#use_rag}
 
 ---
 
@@ -2642,7 +2795,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceBigqueryResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceBigqueryResource {
 	BigqueryDataset: *string,
@@ -2674,7 +2827,7 @@ Points to a bigquery dataset to use.
 Expected Format:
 projects/{project_id_or_number}/datasets/{dataset_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_dataset GoogleAgenticApplicationsAnalystAgentPersona#bigquery_dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_dataset GoogleAgenticApplicationsAnalystAgentPersona#bigquery_dataset}
 
 ---
 
@@ -2691,7 +2844,7 @@ Points to a bigquery table to use.
 Expected Format:
 projects/{project_id_or_number}/datasets/{dataset_id}/tables/{table_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_table GoogleAgenticApplicationsAnalystAgentPersona#bigquery_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_table GoogleAgenticApplicationsAnalystAgentPersona#bigquery_table}
 
 ---
 
@@ -2705,7 +2858,7 @@ ColumnDescriptions *map[string]*string
 
 A map of column names to column descriptions for the bigquery_table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#column_descriptions GoogleAgenticApplicationsAnalystAgentPersona#column_descriptions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#column_descriptions GoogleAgenticApplicationsAnalystAgentPersona#column_descriptions}
 
 ---
 
@@ -2714,7 +2867,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceF1Resource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceF1Resource {
 	F1Table: *string,
@@ -2742,7 +2895,7 @@ F1Table *string
 * Expected Format:
 * {group}.{table_name}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
 
 ---
 
@@ -2751,7 +2904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleCloudStorageResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleCloudStorageResource {
 	GoogleCloudStorageObject: *string,
@@ -2783,7 +2936,7 @@ or: //
 
 Note that to refer to a folder, it *must* end in a slash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_object GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_object GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_object}
 
 ---
 
@@ -2797,7 +2950,7 @@ FileExtensionRestrictions *[]*string
 
 If non-empty, only files with these extensions are included when expanding the resource.  If empty, all files are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
 
 ---
 
@@ -2806,7 +2959,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleDriveResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleDriveResource {
 	FileExtensionRestrictions: *[]*string,
@@ -2833,7 +2986,7 @@ FileExtensionRestrictions *[]*string
 
 If non-empty, only files with these extensions are included when expanding the resource.  If empty, all files are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
 
 ---
 
@@ -2854,7 +3007,7 @@ as well.  If folder is specifically, all files in the folder
 Expected Format:
 files/{file_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_reference GoogleAgenticApplicationsAnalystAgentPersona#file_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_reference GoogleAgenticApplicationsAnalystAgentPersona#file_reference}
 
 ---
 
@@ -2863,7 +3016,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceRawFileResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceRawFileResource {
 	FileContent: *string,
@@ -2892,7 +3045,7 @@ FileContent *string
 
 The raw file content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_content GoogleAgenticApplicationsAnalystAgentPersona#file_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_content GoogleAgenticApplicationsAnalystAgentPersona#file_content}
 
 ---
 
@@ -2906,7 +3059,7 @@ FileTitle *string
 
 The title of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_title GoogleAgenticApplicationsAnalystAgentPersona#file_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_title GoogleAgenticApplicationsAnalystAgentPersona#file_title}
 
 ---
 
@@ -2920,7 +3073,7 @@ MimeType *string
 
 The mime type of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#mime_type GoogleAgenticApplicationsAnalystAgentPersona#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#mime_type GoogleAgenticApplicationsAnalystAgentPersona#mime_type}
 
 ---
 
@@ -2929,10 +3082,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions {
 	VisualizationExamples: interface{},
+	VisualizationMode: *string,
 }
 ```
 
@@ -2941,6 +3095,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions.property.visualizationExamples">VisualizationExamples</a></code> | <code>interface{}</code> | visualization_examples block. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions.property.visualizationMode">VisualizationMode</a></code> | <code>*string</code> | Mode for generating visualizations. Possible values: VISUALIZATION_MODE_EXPLICIT_ONLY VISUALIZATION_MODE_WHEN_NECESSARY VISUALIZATION_MODE_WHEN_HELPFUL VISUALIZATION_MODE_ALWAYS. |
 
 ---
 
@@ -2954,7 +3109,21 @@ VisualizationExamples interface{}
 
 visualization_examples block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#visualization_examples GoogleAgenticApplicationsAnalystAgentPersona#visualization_examples}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#visualization_examples GoogleAgenticApplicationsAnalystAgentPersona#visualization_examples}
+
+---
+
+##### `VisualizationMode`<sup>Optional</sup> <a name="VisualizationMode" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions.property.visualizationMode"></a>
+
+```go
+VisualizationMode *string
+```
+
+- *Type:* *string
+
+Mode for generating visualizations. Possible values: VISUALIZATION_MODE_EXPLICIT_ONLY VISUALIZATION_MODE_WHEN_NECESSARY VISUALIZATION_MODE_WHEN_HELPFUL VISUALIZATION_MODE_ALWAYS.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#visualization_mode GoogleAgenticApplicationsAnalystAgentPersona#visualization_mode}
 
 ---
 
@@ -2963,10 +3132,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamples.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamples {
-	Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResource,
+	Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResource,
 	VisualizationType: *string,
 }
 ```
@@ -2990,7 +3159,7 @@ Resource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizatio
 
 resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#resource GoogleAgenticApplicationsAnalystAgentPersona#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#resource GoogleAgenticApplicationsAnalystAgentPersona#resource}
 
 ---
 
@@ -3004,7 +3173,7 @@ VisualizationType *string
 
 The type of the visualization (e.g. "Bar Chart", "Line Chart").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#visualization_type GoogleAgenticApplicationsAnalystAgentPersona#visualization_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#visualization_type GoogleAgenticApplicationsAnalystAgentPersona#visualization_type}
 
 ---
 
@@ -3013,16 +3182,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResource {
-	BigqueryResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceBigqueryResource,
+	BigqueryResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceBigqueryResource,
 	DisplayLabel: *string,
-	F1Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceF1Resource,
-	GoogleCloudStorageResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleCloudStorageResource,
-	GoogleDriveResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleDriveResource,
+	F1Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceF1Resource,
+	GoogleCloudStorageResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleCloudStorageResource,
+	GoogleDriveResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleDriveResource,
 	ModelDescription: *string,
-	RawFileResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceRawFileResource,
+	RawFileResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceRawFileResource,
 	UseRag: interface{},
 }
 ```
@@ -3052,7 +3221,7 @@ BigqueryResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisu
 
 bigquery_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_resource GoogleAgenticApplicationsAnalystAgentPersona#bigquery_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_resource GoogleAgenticApplicationsAnalystAgentPersona#bigquery_resource}
 
 ---
 
@@ -3066,7 +3235,7 @@ DisplayLabel *string
 
 A user-friendly name for this resource. This can be shown to the user and used by the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#display_label GoogleAgenticApplicationsAnalystAgentPersona#display_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#display_label GoogleAgenticApplicationsAnalystAgentPersona#display_label}
 
 ---
 
@@ -3080,7 +3249,7 @@ F1Resource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizat
 
 f1_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#f1_resource GoogleAgenticApplicationsAnalystAgentPersona#f1_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#f1_resource GoogleAgenticApplicationsAnalystAgentPersona#f1_resource}
 
 ---
 
@@ -3094,7 +3263,7 @@ GoogleCloudStorageResource GoogleAgenticApplicationsAnalystAgentPersonaArtifacts
 
 google_cloud_storage_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_resource GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_resource GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_resource}
 
 ---
 
@@ -3108,7 +3277,7 @@ GoogleDriveResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigV
 
 google_drive_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_drive_resource GoogleAgenticApplicationsAnalystAgentPersona#google_drive_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_drive_resource GoogleAgenticApplicationsAnalystAgentPersona#google_drive_resource}
 
 ---
 
@@ -3122,7 +3291,7 @@ ModelDescription *string
 
 A description of the resource. The model may use this, it will not be shown to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
 
 ---
 
@@ -3136,7 +3305,7 @@ RawFileResource GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisua
 
 raw_file_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#raw_file_resource GoogleAgenticApplicationsAnalystAgentPersona#raw_file_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#raw_file_resource GoogleAgenticApplicationsAnalystAgentPersona#raw_file_resource}
 
 ---
 
@@ -3152,7 +3321,7 @@ If true, use RAG to retrieve relevant information from the resources.
 
 Must only be set for file-based resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#use_rag GoogleAgenticApplicationsAnalystAgentPersona#use_rag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#use_rag GoogleAgenticApplicationsAnalystAgentPersona#use_rag}
 
 ---
 
@@ -3161,7 +3330,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceBigqueryResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceBigqueryResource {
 	BigqueryDataset: *string,
@@ -3193,7 +3362,7 @@ Points to a bigquery dataset to use.
 Expected Format:
 projects/{project_id_or_number}/datasets/{dataset_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_dataset GoogleAgenticApplicationsAnalystAgentPersona#bigquery_dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_dataset GoogleAgenticApplicationsAnalystAgentPersona#bigquery_dataset}
 
 ---
 
@@ -3210,7 +3379,7 @@ Points to a bigquery table to use.
 Expected Format:
 projects/{project_id_or_number}/datasets/{dataset_id}/tables/{table_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_table GoogleAgenticApplicationsAnalystAgentPersona#bigquery_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_table GoogleAgenticApplicationsAnalystAgentPersona#bigquery_table}
 
 ---
 
@@ -3224,7 +3393,7 @@ ColumnDescriptions *map[string]*string
 
 A map of column names to column descriptions for the bigquery_table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#column_descriptions GoogleAgenticApplicationsAnalystAgentPersona#column_descriptions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#column_descriptions GoogleAgenticApplicationsAnalystAgentPersona#column_descriptions}
 
 ---
 
@@ -3233,7 +3402,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceF1Resource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceF1Resource {
 	F1Table: *string,
@@ -3261,7 +3430,7 @@ F1Table *string
 * Expected Format:
 * {group}.{table_name}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
 
 ---
 
@@ -3270,7 +3439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleCloudStorageResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleCloudStorageResource {
 	GoogleCloudStorageObject: *string,
@@ -3302,7 +3471,7 @@ or: //
 
 Note that to refer to a folder, it *must* end in a slash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_object GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_object GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_object}
 
 ---
 
@@ -3316,7 +3485,7 @@ FileExtensionRestrictions *[]*string
 
 If non-empty, only files with these extensions are included when expanding the resource.  If empty, all files are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
 
 ---
 
@@ -3325,7 +3494,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleDriveResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleDriveResource {
 	FileExtensionRestrictions: *[]*string,
@@ -3352,7 +3521,7 @@ FileExtensionRestrictions *[]*string
 
 If non-empty, only files with these extensions are included when expanding the resource.  If empty, all files are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
 
 ---
 
@@ -3373,7 +3542,7 @@ as well.  If folder is specifically, all files in the folder
 Expected Format:
 files/{file_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_reference GoogleAgenticApplicationsAnalystAgentPersona#file_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_reference GoogleAgenticApplicationsAnalystAgentPersona#file_reference}
 
 ---
 
@@ -3382,7 +3551,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceRawFileResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceRawFileResource {
 	FileContent: *string,
@@ -3411,7 +3580,7 @@ FileContent *string
 
 The raw file content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_content GoogleAgenticApplicationsAnalystAgentPersona#file_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_content GoogleAgenticApplicationsAnalystAgentPersona#file_content}
 
 ---
 
@@ -3425,7 +3594,7 @@ FileTitle *string
 
 The title of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_title GoogleAgenticApplicationsAnalystAgentPersona#file_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_title GoogleAgenticApplicationsAnalystAgentPersona#file_title}
 
 ---
 
@@ -3439,7 +3608,7 @@ MimeType *string
 
 The mime type of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#mime_type GoogleAgenticApplicationsAnalystAgentPersona#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#mime_type GoogleAgenticApplicationsAnalystAgentPersona#mime_type}
 
 ---
 
@@ -3448,7 +3617,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig {
 	Connection: interface{},
@@ -3462,13 +3631,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 	DisplayName: *string,
 	Location: *string,
 	ArtifactExamples: interface{},
-	ArtifactsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig,
+	ArtifactsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig,
 	CustomerContext: *[]*string,
 	DeletionPolicy: *string,
 	DisplayDescription: *string,
 	ExternalDataSources: interface{},
 	GeminiEnterpriseEngine: *string,
 	Id: *string,
+	MathRenderingMode: *string,
 	McpDataSources: interface{},
 	ModelDescription: *string,
 	Project: *string,
@@ -3476,7 +3646,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 	Role: *string,
 	Skills: interface{},
 	Tables: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeouts,
+	WebSearchConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig,
 }
 ```
 
@@ -3501,15 +3672,17 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.displayDescription">DisplayDescription</a></code> | <code>*string</code> | The description of the persona, shown to users. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.externalDataSources">ExternalDataSources</a></code> | <code>interface{}</code> | external_data_sources block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.geminiEnterpriseEngine">GeminiEnterpriseEngine</a></code> | <code>*string</code> | The Gemini Enterprise Engine ID associated with this persona. |
-| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#id GoogleAgenticApplicationsAnalystAgentPersona#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#id GoogleAgenticApplicationsAnalystAgentPersona#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.mathRenderingMode">MathRenderingMode</a></code> | <code>*string</code> | The math rendering mode selected for this persona. Possible values: MATH_RENDERING_MODE_LATEX MATH_RENDERING_MODE_PLAIN_TEXT. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.mcpDataSources">McpDataSources</a></code> | <code>interface{}</code> | mcp_data_sources block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.modelDescription">ModelDescription</a></code> | <code>*string</code> | The description of the persona review, used by the model. |
-| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#project GoogleAgenticApplicationsAnalystAgentPersona#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#project GoogleAgenticApplicationsAnalystAgentPersona#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.resources">Resources</a></code> | <code>interface{}</code> | resources block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.role">Role</a></code> | <code>*string</code> | Possible values: ANALYST_ROLE_GENERIC_FINANCE_ANALYST ANALYST_ROLE_CORPORATE_FINANCE_ANALYST ANALYST_ROLE_CROSS_ASSET_DERIVATIVES_STRATEGIST ANALYST_ROLE_KYC_ANALYST ANALYST_ROLE_SALES_TRADER ANALYST_ROLE_QUANT_ANALYST ANALYST_ROLE_EXCHANGE_MANAGER ANALYST_ROLE_PORTFOLIO_MANAGER ANALYST_ROLE_WEALTH_MANAGER ANALYST_ROLE_INSTITUTIONAL_PORTFOLIO_STRATEGIST ANALYST_ROLE_MNA_EXECUTION_ANALYST ANALYST_ROLE_ECM_ORIGINATION_STRATEGIST ANALYST_ROLE_LEVERAGED_FINANCE_SPECIALIST ANALYST_ROLE_INVESTMENT_RESEARCH_ANALYST ANALYST_ROLE_CORPORATE_BANKING_ANALYST ANALYST_ROLE_CREDIT_RISK_STRATEGIST ANALYST_ROLE_BEHAVIORAL_FINANCIAL_STRATEGIST ANALYST_ROLE_FUND_ACCOUNTANT ANALYST_ROLE_MODEL_VALIDATION_AUDITOR ANALYST_ROLE_PRIVATE_EQUITY_SPECIALIST ANALYST_ROLE_TREASURY_ANALYST ANALYST_ROLE_VENTURE_CAPITAL_ANALYST ANALYST_ROLE_AML_INVESTIGATOR ANALYST_ROLE_DUE_DILIGENCE_ANALYST ANALYST_ROLE_INSURANCE_CLAIMS_ANALYST ANALYST_ROLE_SPECIALTY_LIABILITY_UNDERWRITER ANALYST_ROLE_CATASTROPHE_EXPOSURE_MODELER. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.skills">Skills</a></code> | <code>interface{}</code> | skills block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.tables">Tables</a></code> | <code>interface{}</code> | tables block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeouts">GoogleAgenticApplicationsAnalystAgentPersonaTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.webSearchConfig">WebSearchConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig">GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig</a></code> | web_search_config block. |
 
 ---
 
@@ -3593,7 +3766,7 @@ AnalystAgentPersonaId *string
 
 Id of the requesting object If auto-generating Id server-side, remove this field and analyst_agent_persona_id from the method_signature of Create RPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#analyst_agent_persona_id GoogleAgenticApplicationsAnalystAgentPersona#analyst_agent_persona_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#analyst_agent_persona_id GoogleAgenticApplicationsAnalystAgentPersona#analyst_agent_persona_id}
 
 ---
 
@@ -3607,7 +3780,7 @@ DisplayName *string
 
 The display name of the persona, shown to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#display_name GoogleAgenticApplicationsAnalystAgentPersona#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#display_name GoogleAgenticApplicationsAnalystAgentPersona#display_name}
 
 ---
 
@@ -3621,7 +3794,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#location GoogleAgenticApplicationsAnalystAgentPersona#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#location GoogleAgenticApplicationsAnalystAgentPersona#location}
 
 ---
 
@@ -3635,7 +3808,7 @@ ArtifactExamples interface{}
 
 artifact_examples block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#artifact_examples GoogleAgenticApplicationsAnalystAgentPersona#artifact_examples}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#artifact_examples GoogleAgenticApplicationsAnalystAgentPersona#artifact_examples}
 
 ---
 
@@ -3649,7 +3822,7 @@ ArtifactsConfig GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 
 artifacts_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#artifacts_config GoogleAgenticApplicationsAnalystAgentPersona#artifacts_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#artifacts_config GoogleAgenticApplicationsAnalystAgentPersona#artifacts_config}
 
 ---
 
@@ -3663,7 +3836,7 @@ CustomerContext *[]*string
 
 The customer-specific context to be used by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#customer_context GoogleAgenticApplicationsAnalystAgentPersona#customer_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#customer_context GoogleAgenticApplicationsAnalystAgentPersona#customer_context}
 
 ---
 
@@ -3684,7 +3857,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#deletion_policy GoogleAgenticApplicationsAnalystAgentPersona#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#deletion_policy GoogleAgenticApplicationsAnalystAgentPersona#deletion_policy}
 
 ---
 
@@ -3698,7 +3871,7 @@ DisplayDescription *string
 
 The description of the persona, shown to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#display_description GoogleAgenticApplicationsAnalystAgentPersona#display_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#display_description GoogleAgenticApplicationsAnalystAgentPersona#display_description}
 
 ---
 
@@ -3712,7 +3885,7 @@ ExternalDataSources interface{}
 
 external_data_sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#external_data_sources GoogleAgenticApplicationsAnalystAgentPersona#external_data_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#external_data_sources GoogleAgenticApplicationsAnalystAgentPersona#external_data_sources}
 
 ---
 
@@ -3731,7 +3904,7 @@ persona.
 If not set, requests from GE will only be routed to this persona if its
 name ends in "/default".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#gemini_enterprise_engine GoogleAgenticApplicationsAnalystAgentPersona#gemini_enterprise_engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#gemini_enterprise_engine GoogleAgenticApplicationsAnalystAgentPersona#gemini_enterprise_engine}
 
 ---
 
@@ -3743,10 +3916,24 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#id GoogleAgenticApplicationsAnalystAgentPersona#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#id GoogleAgenticApplicationsAnalystAgentPersona#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `MathRenderingMode`<sup>Optional</sup> <a name="MathRenderingMode" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.mathRenderingMode"></a>
+
+```go
+MathRenderingMode *string
+```
+
+- *Type:* *string
+
+The math rendering mode selected for this persona. Possible values: MATH_RENDERING_MODE_LATEX MATH_RENDERING_MODE_PLAIN_TEXT.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#math_rendering_mode GoogleAgenticApplicationsAnalystAgentPersona#math_rendering_mode}
 
 ---
 
@@ -3760,7 +3947,7 @@ McpDataSources interface{}
 
 mcp_data_sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#mcp_data_sources GoogleAgenticApplicationsAnalystAgentPersona#mcp_data_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#mcp_data_sources GoogleAgenticApplicationsAnalystAgentPersona#mcp_data_sources}
 
 ---
 
@@ -3774,7 +3961,7 @@ ModelDescription *string
 
 The description of the persona review, used by the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
 
 ---
 
@@ -3786,7 +3973,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#project GoogleAgenticApplicationsAnalystAgentPersona#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#project GoogleAgenticApplicationsAnalystAgentPersona#project}.
 
 ---
 
@@ -3800,7 +3987,7 @@ Resources interface{}
 
 resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#resources GoogleAgenticApplicationsAnalystAgentPersona#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#resources GoogleAgenticApplicationsAnalystAgentPersona#resources}
 
 ---
 
@@ -3814,7 +4001,7 @@ Role *string
 
 Possible values: ANALYST_ROLE_GENERIC_FINANCE_ANALYST ANALYST_ROLE_CORPORATE_FINANCE_ANALYST ANALYST_ROLE_CROSS_ASSET_DERIVATIVES_STRATEGIST ANALYST_ROLE_KYC_ANALYST ANALYST_ROLE_SALES_TRADER ANALYST_ROLE_QUANT_ANALYST ANALYST_ROLE_EXCHANGE_MANAGER ANALYST_ROLE_PORTFOLIO_MANAGER ANALYST_ROLE_WEALTH_MANAGER ANALYST_ROLE_INSTITUTIONAL_PORTFOLIO_STRATEGIST ANALYST_ROLE_MNA_EXECUTION_ANALYST ANALYST_ROLE_ECM_ORIGINATION_STRATEGIST ANALYST_ROLE_LEVERAGED_FINANCE_SPECIALIST ANALYST_ROLE_INVESTMENT_RESEARCH_ANALYST ANALYST_ROLE_CORPORATE_BANKING_ANALYST ANALYST_ROLE_CREDIT_RISK_STRATEGIST ANALYST_ROLE_BEHAVIORAL_FINANCIAL_STRATEGIST ANALYST_ROLE_FUND_ACCOUNTANT ANALYST_ROLE_MODEL_VALIDATION_AUDITOR ANALYST_ROLE_PRIVATE_EQUITY_SPECIALIST ANALYST_ROLE_TREASURY_ANALYST ANALYST_ROLE_VENTURE_CAPITAL_ANALYST ANALYST_ROLE_AML_INVESTIGATOR ANALYST_ROLE_DUE_DILIGENCE_ANALYST ANALYST_ROLE_INSURANCE_CLAIMS_ANALYST ANALYST_ROLE_SPECIALTY_LIABILITY_UNDERWRITER ANALYST_ROLE_CATASTROPHE_EXPOSURE_MODELER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#role GoogleAgenticApplicationsAnalystAgentPersona#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#role GoogleAgenticApplicationsAnalystAgentPersona#role}
 
 ---
 
@@ -3828,7 +4015,7 @@ Skills interface{}
 
 skills block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#skills GoogleAgenticApplicationsAnalystAgentPersona#skills}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#skills GoogleAgenticApplicationsAnalystAgentPersona#skills}
 
 ---
 
@@ -3842,7 +4029,7 @@ Tables interface{}
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#tables GoogleAgenticApplicationsAnalystAgentPersona#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#tables GoogleAgenticApplicationsAnalystAgentPersona#tables}
 
 ---
 
@@ -3856,7 +4043,21 @@ Timeouts GoogleAgenticApplicationsAnalystAgentPersonaTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#timeouts GoogleAgenticApplicationsAnalystAgentPersona#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#timeouts GoogleAgenticApplicationsAnalystAgentPersona#timeouts}
+
+---
+
+##### `WebSearchConfig`<sup>Optional</sup> <a name="WebSearchConfig" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaConfig.property.webSearchConfig"></a>
+
+```go
+WebSearchConfig GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig">GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig</a>
+
+web_search_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#web_search_config GoogleAgenticApplicationsAnalystAgentPersona#web_search_config}
 
 ---
 
@@ -3865,18 +4066,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSources {
 	Enabled: interface{},
-	AirQuality: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesAirQuality,
-	BureauLaborStatistics: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesBureauLaborStatistics,
-	Coindesk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesCoindesk,
-	Finnhub: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFinnhub,
-	Fred: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFred,
-	SecEdgar: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesSecEdgar,
-	TreasurySecuritiesAuctions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesTreasurySecuritiesAuctions,
-	Usda: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesUsda,
+	AirQuality: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesAirQuality,
+	BureauLaborStatistics: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesBureauLaborStatistics,
+	Coindesk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesCoindesk,
+	Finnhub: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFinnhub,
+	Fred: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFred,
+	SecEdgar: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesSecEdgar,
+	TreasurySecuritiesAuctions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesTreasurySecuritiesAuctions,
+	Usda: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesUsda,
 }
 ```
 
@@ -3906,7 +4107,7 @@ Enabled interface{}
 
 Whether this external data source is enabled for the current analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#enabled GoogleAgenticApplicationsAnalystAgentPersona#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#enabled GoogleAgenticApplicationsAnalystAgentPersona#enabled}
 
 ---
 
@@ -3920,7 +4121,7 @@ AirQuality GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesAirQua
 
 air_quality block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#air_quality GoogleAgenticApplicationsAnalystAgentPersona#air_quality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#air_quality GoogleAgenticApplicationsAnalystAgentPersona#air_quality}
 
 ---
 
@@ -3934,7 +4135,7 @@ BureauLaborStatistics GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSo
 
 bureau_labor_statistics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bureau_labor_statistics GoogleAgenticApplicationsAnalystAgentPersona#bureau_labor_statistics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bureau_labor_statistics GoogleAgenticApplicationsAnalystAgentPersona#bureau_labor_statistics}
 
 ---
 
@@ -3948,7 +4149,7 @@ Coindesk GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesCoindesk
 
 coindesk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#coindesk GoogleAgenticApplicationsAnalystAgentPersona#coindesk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#coindesk GoogleAgenticApplicationsAnalystAgentPersona#coindesk}
 
 ---
 
@@ -3962,7 +4163,7 @@ Finnhub GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFinnhub
 
 finnhub block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#finnhub GoogleAgenticApplicationsAnalystAgentPersona#finnhub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#finnhub GoogleAgenticApplicationsAnalystAgentPersona#finnhub}
 
 ---
 
@@ -3976,7 +4177,7 @@ Fred GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFred
 
 fred block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#fred GoogleAgenticApplicationsAnalystAgentPersona#fred}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#fred GoogleAgenticApplicationsAnalystAgentPersona#fred}
 
 ---
 
@@ -3990,7 +4191,7 @@ SecEdgar GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesSecEdgar
 
 sec_edgar block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#sec_edgar GoogleAgenticApplicationsAnalystAgentPersona#sec_edgar}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#sec_edgar GoogleAgenticApplicationsAnalystAgentPersona#sec_edgar}
 
 ---
 
@@ -4004,7 +4205,7 @@ TreasurySecuritiesAuctions GoogleAgenticApplicationsAnalystAgentPersonaExternalD
 
 treasury_securities_auctions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#treasury_securities_auctions GoogleAgenticApplicationsAnalystAgentPersona#treasury_securities_auctions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#treasury_securities_auctions GoogleAgenticApplicationsAnalystAgentPersona#treasury_securities_auctions}
 
 ---
 
@@ -4018,7 +4219,7 @@ Usda GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesUsda
 
 usda block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#usda GoogleAgenticApplicationsAnalystAgentPersona#usda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#usda GoogleAgenticApplicationsAnalystAgentPersona#usda}
 
 ---
 
@@ -4027,7 +4228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesAirQuality.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesAirQuality {
 
@@ -4040,7 +4241,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesBureauLaborStatistics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesBureauLaborStatistics {
 
@@ -4053,7 +4254,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesCoindesk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesCoindesk {
 
@@ -4066,7 +4267,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFinnhub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFinnhub {
 
@@ -4079,7 +4280,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFred.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFred {
 
@@ -4092,7 +4293,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesSecEdgar.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesSecEdgar {
 
@@ -4105,7 +4306,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesTreasurySecuritiesAuctions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesTreasurySecuritiesAuctions {
 
@@ -4118,7 +4319,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesUsda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesUsda {
 
@@ -4131,7 +4332,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSources {
 	Description: *string,
@@ -4139,6 +4340,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 	Enabled: interface{},
 	ServerUrl: *string,
 	ApiKey: *string,
+	ApiKeyHeader: *string,
 	ApiKeyName: *string,
 	ClientId: *string,
 	ClientSecret: *string,
@@ -4156,6 +4358,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSources.property.enabled">Enabled</a></code> | <code>interface{}</code> | Whether this external data source is enabled for the current analysis. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSources.property.serverUrl">ServerUrl</a></code> | <code>*string</code> | The URL of the MCP server. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSources.property.apiKey">ApiKey</a></code> | <code>*string</code> | Input only. The API key of the MCP server. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSources.property.apiKeyHeader">ApiKeyHeader</a></code> | <code>*string</code> | The HTTP header when the API key is passed in a request header (e.g. 'x-api-key', 'api-key', 'X-Auth-Token'). |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSources.property.apiKeyName">ApiKeyName</a></code> | <code>*string</code> | The API key parameter name. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSources.property.clientId">ClientId</a></code> | <code>*string</code> | The client ID for authentication. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSources.property.clientSecret">ClientSecret</a></code> | <code>*string</code> | Input only. The client secret for authentication. |
@@ -4174,7 +4377,7 @@ Description *string
 
 The description of the MCP agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#description GoogleAgenticApplicationsAnalystAgentPersona#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#description GoogleAgenticApplicationsAnalystAgentPersona#description}
 
 ---
 
@@ -4191,7 +4394,7 @@ The display name of the MCP server.
 Must be no longer than 63 characters
 and can only contain letters, numbers, spaces, underscores, and hyphens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#display_name GoogleAgenticApplicationsAnalystAgentPersona#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#display_name GoogleAgenticApplicationsAnalystAgentPersona#display_name}
 
 ---
 
@@ -4205,7 +4408,7 @@ Enabled interface{}
 
 Whether this external data source is enabled for the current analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#enabled GoogleAgenticApplicationsAnalystAgentPersona#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#enabled GoogleAgenticApplicationsAnalystAgentPersona#enabled}
 
 ---
 
@@ -4219,7 +4422,7 @@ ServerUrl *string
 
 The URL of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#server_url GoogleAgenticApplicationsAnalystAgentPersona#server_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#server_url GoogleAgenticApplicationsAnalystAgentPersona#server_url}
 
 ---
 
@@ -4233,7 +4436,21 @@ ApiKey *string
 
 Input only. The API key of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#api_key GoogleAgenticApplicationsAnalystAgentPersona#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#api_key GoogleAgenticApplicationsAnalystAgentPersona#api_key}
+
+---
+
+##### `ApiKeyHeader`<sup>Optional</sup> <a name="ApiKeyHeader" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSources.property.apiKeyHeader"></a>
+
+```go
+ApiKeyHeader *string
+```
+
+- *Type:* *string
+
+The HTTP header when the API key is passed in a request header (e.g. 'x-api-key', 'api-key', 'X-Auth-Token').
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#api_key_header GoogleAgenticApplicationsAnalystAgentPersona#api_key_header}
 
 ---
 
@@ -4247,7 +4464,7 @@ ApiKeyName *string
 
 The API key parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#api_key_name GoogleAgenticApplicationsAnalystAgentPersona#api_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#api_key_name GoogleAgenticApplicationsAnalystAgentPersona#api_key_name}
 
 ---
 
@@ -4261,7 +4478,7 @@ ClientId *string
 
 The client ID for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#client_id GoogleAgenticApplicationsAnalystAgentPersona#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#client_id GoogleAgenticApplicationsAnalystAgentPersona#client_id}
 
 ---
 
@@ -4275,7 +4492,7 @@ ClientSecret *string
 
 Input only. The client secret for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#client_secret GoogleAgenticApplicationsAnalystAgentPersona#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#client_secret GoogleAgenticApplicationsAnalystAgentPersona#client_secret}
 
 ---
 
@@ -4289,7 +4506,7 @@ OauthTokenUrl *string
 
 The URL to use for retrieving the OAuth token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#oauth_token_url GoogleAgenticApplicationsAnalystAgentPersona#oauth_token_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#oauth_token_url GoogleAgenticApplicationsAnalystAgentPersona#oauth_token_url}
 
 ---
 
@@ -4303,7 +4520,7 @@ Prompt *string
 
 The custom prompt for the MCP agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#prompt GoogleAgenticApplicationsAnalystAgentPersona#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#prompt GoogleAgenticApplicationsAnalystAgentPersona#prompt}
 
 ---
 
@@ -4312,16 +4529,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaResources {
-	BigqueryResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesBigqueryResource,
+	BigqueryResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesBigqueryResource,
 	DisplayLabel: *string,
-	F1Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesF1Resource,
-	GoogleCloudStorageResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleCloudStorageResource,
-	GoogleDriveResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleDriveResource,
+	F1Resource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesF1Resource,
+	GoogleCloudStorageResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleCloudStorageResource,
+	GoogleDriveResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleDriveResource,
 	ModelDescription: *string,
-	RawFileResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesRawFileResource,
+	RawFileResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesRawFileResource,
 	UseRag: interface{},
 }
 ```
@@ -4351,7 +4568,7 @@ BigqueryResource GoogleAgenticApplicationsAnalystAgentPersonaResourcesBigqueryRe
 
 bigquery_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_resource GoogleAgenticApplicationsAnalystAgentPersona#bigquery_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_resource GoogleAgenticApplicationsAnalystAgentPersona#bigquery_resource}
 
 ---
 
@@ -4365,7 +4582,7 @@ DisplayLabel *string
 
 A user-friendly name for this resource. This can be shown to the user and used by the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#display_label GoogleAgenticApplicationsAnalystAgentPersona#display_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#display_label GoogleAgenticApplicationsAnalystAgentPersona#display_label}
 
 ---
 
@@ -4379,7 +4596,7 @@ F1Resource GoogleAgenticApplicationsAnalystAgentPersonaResourcesF1Resource
 
 f1_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#f1_resource GoogleAgenticApplicationsAnalystAgentPersona#f1_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#f1_resource GoogleAgenticApplicationsAnalystAgentPersona#f1_resource}
 
 ---
 
@@ -4393,7 +4610,7 @@ GoogleCloudStorageResource GoogleAgenticApplicationsAnalystAgentPersonaResources
 
 google_cloud_storage_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_resource GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_resource GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_resource}
 
 ---
 
@@ -4407,7 +4624,7 @@ GoogleDriveResource GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleD
 
 google_drive_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_drive_resource GoogleAgenticApplicationsAnalystAgentPersona#google_drive_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_drive_resource GoogleAgenticApplicationsAnalystAgentPersona#google_drive_resource}
 
 ---
 
@@ -4421,7 +4638,7 @@ ModelDescription *string
 
 A description of the resource. The model may use this, it will not be shown to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#model_description GoogleAgenticApplicationsAnalystAgentPersona#model_description}
 
 ---
 
@@ -4435,7 +4652,7 @@ RawFileResource GoogleAgenticApplicationsAnalystAgentPersonaResourcesRawFileReso
 
 raw_file_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#raw_file_resource GoogleAgenticApplicationsAnalystAgentPersona#raw_file_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#raw_file_resource GoogleAgenticApplicationsAnalystAgentPersona#raw_file_resource}
 
 ---
 
@@ -4451,7 +4668,7 @@ If true, use RAG to retrieve relevant information from the resources.
 
 Must only be set for file-based resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#use_rag GoogleAgenticApplicationsAnalystAgentPersona#use_rag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#use_rag GoogleAgenticApplicationsAnalystAgentPersona#use_rag}
 
 ---
 
@@ -4460,7 +4677,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesBigqueryResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesBigqueryResource {
 	BigqueryDataset: *string,
@@ -4492,7 +4709,7 @@ Points to a bigquery dataset to use.
 Expected Format:
 projects/{project_id_or_number}/datasets/{dataset_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_dataset GoogleAgenticApplicationsAnalystAgentPersona#bigquery_dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_dataset GoogleAgenticApplicationsAnalystAgentPersona#bigquery_dataset}
 
 ---
 
@@ -4509,7 +4726,7 @@ Points to a bigquery table to use.
 Expected Format:
 projects/{project_id_or_number}/datasets/{dataset_id}/tables/{table_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_table GoogleAgenticApplicationsAnalystAgentPersona#bigquery_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#bigquery_table GoogleAgenticApplicationsAnalystAgentPersona#bigquery_table}
 
 ---
 
@@ -4523,7 +4740,7 @@ ColumnDescriptions *map[string]*string
 
 A map of column names to column descriptions for the bigquery_table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#column_descriptions GoogleAgenticApplicationsAnalystAgentPersona#column_descriptions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#column_descriptions GoogleAgenticApplicationsAnalystAgentPersona#column_descriptions}
 
 ---
 
@@ -4532,7 +4749,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesF1Resource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesF1Resource {
 	F1Table: *string,
@@ -4560,7 +4777,7 @@ F1Table *string
 * Expected Format:
 * {group}.{table_name}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
 
 ---
 
@@ -4569,7 +4786,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleCloudStorageResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleCloudStorageResource {
 	GoogleCloudStorageObject: *string,
@@ -4601,7 +4818,7 @@ or: //
 
 Note that to refer to a folder, it *must* end in a slash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_object GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#google_cloud_storage_object GoogleAgenticApplicationsAnalystAgentPersona#google_cloud_storage_object}
 
 ---
 
@@ -4615,7 +4832,7 @@ FileExtensionRestrictions *[]*string
 
 If non-empty, only files with these extensions are included when expanding the resource.  If empty, all files are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
 
 ---
 
@@ -4624,7 +4841,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleDriveResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleDriveResource {
 	FileExtensionRestrictions: *[]*string,
@@ -4651,7 +4868,7 @@ FileExtensionRestrictions *[]*string
 
 If non-empty, only files with these extensions are included when expanding the resource.  If empty, all files are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_extension_restrictions GoogleAgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
 
 ---
 
@@ -4672,7 +4889,7 @@ as well.  If folder is specifically, all files in the folder
 Expected Format:
 files/{file_id}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_reference GoogleAgenticApplicationsAnalystAgentPersona#file_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_reference GoogleAgenticApplicationsAnalystAgentPersona#file_reference}
 
 ---
 
@@ -4681,7 +4898,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesRawFileResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesRawFileResource {
 	FileContent: *string,
@@ -4710,7 +4927,7 @@ FileContent *string
 
 The raw file content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_content GoogleAgenticApplicationsAnalystAgentPersona#file_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_content GoogleAgenticApplicationsAnalystAgentPersona#file_content}
 
 ---
 
@@ -4724,7 +4941,7 @@ FileTitle *string
 
 The title of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#file_title GoogleAgenticApplicationsAnalystAgentPersona#file_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#file_title GoogleAgenticApplicationsAnalystAgentPersona#file_title}
 
 ---
 
@@ -4738,7 +4955,7 @@ MimeType *string
 
 The mime type of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#mime_type GoogleAgenticApplicationsAnalystAgentPersona#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#mime_type GoogleAgenticApplicationsAnalystAgentPersona#mime_type}
 
 ---
 
@@ -4747,7 +4964,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaSkills.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaSkills {
 	Content: *string,
@@ -4778,7 +4995,7 @@ Content *string
 
 The markdown text content of the skill.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#content GoogleAgenticApplicationsAnalystAgentPersona#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#content GoogleAgenticApplicationsAnalystAgentPersona#content}
 
 ---
 
@@ -4792,7 +5009,7 @@ SkillId *string
 
 The identifier of the skill. Use a descriptive string that reflects the skill's function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#skill_id GoogleAgenticApplicationsAnalystAgentPersona#skill_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#skill_id GoogleAgenticApplicationsAnalystAgentPersona#skill_id}
 
 ---
 
@@ -4806,7 +5023,7 @@ Description *string
 
 The description of the skill.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#description GoogleAgenticApplicationsAnalystAgentPersona#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#description GoogleAgenticApplicationsAnalystAgentPersona#description}
 
 ---
 
@@ -4820,7 +5037,7 @@ References interface{}
 
 references block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#references GoogleAgenticApplicationsAnalystAgentPersona#references}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#references GoogleAgenticApplicationsAnalystAgentPersona#references}
 
 ---
 
@@ -4829,7 +5046,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaSkillsReferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaSkillsReferences {
 	Content: *string,
@@ -4856,7 +5073,7 @@ Content *string
 
 The content of the reference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#content GoogleAgenticApplicationsAnalystAgentPersona#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#content GoogleAgenticApplicationsAnalystAgentPersona#content}
 
 ---
 
@@ -4870,7 +5087,7 @@ ReferenceId *string
 
 The identifier of the reference within the skill. Use a descriptive string that reflects the reference's function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#reference_id GoogleAgenticApplicationsAnalystAgentPersona#reference_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#reference_id GoogleAgenticApplicationsAnalystAgentPersona#reference_id}
 
 ---
 
@@ -4879,7 +5096,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaTables {
 	Name: *string,
@@ -4908,7 +5125,7 @@ Name *string
 
 The name of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#name GoogleAgenticApplicationsAnalystAgentPersona#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#name GoogleAgenticApplicationsAnalystAgentPersona#name}
 
 ---
 
@@ -4922,7 +5139,7 @@ Columns interface{}
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#columns GoogleAgenticApplicationsAnalystAgentPersona#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#columns GoogleAgenticApplicationsAnalystAgentPersona#columns}
 
 ---
 
@@ -4936,7 +5153,7 @@ Description *string
 
 The description of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#description GoogleAgenticApplicationsAnalystAgentPersona#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#description GoogleAgenticApplicationsAnalystAgentPersona#description}
 
 ---
 
@@ -4945,7 +5162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTablesColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaTablesColumns {
 	DataType: *string,
@@ -4978,7 +5195,7 @@ This should be a GoogleSQL data type.
 Parameterized types such as PROTO, ENUM, ARRAY, STRUCT<...>, and
 RANGE are not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#data_type GoogleAgenticApplicationsAnalystAgentPersona#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#data_type GoogleAgenticApplicationsAnalystAgentPersona#data_type}
 
 ---
 
@@ -4992,7 +5209,7 @@ Name *string
 
 The name of the column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#name GoogleAgenticApplicationsAnalystAgentPersona#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#name GoogleAgenticApplicationsAnalystAgentPersona#name}
 
 ---
 
@@ -5006,7 +5223,7 @@ Description *string
 
 The description of the column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#description GoogleAgenticApplicationsAnalystAgentPersona#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#description GoogleAgenticApplicationsAnalystAgentPersona#description}
 
 ---
 
@@ -5015,7 +5232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 &googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeouts {
 	Create: *string,
@@ -5028,9 +5245,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#create GoogleAgenticApplicationsAnalystAgentPersona#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#delete GoogleAgenticApplicationsAnalystAgentPersona#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#update GoogleAgenticApplicationsAnalystAgentPersona#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#create GoogleAgenticApplicationsAnalystAgentPersona#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#delete GoogleAgenticApplicationsAnalystAgentPersona#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#update GoogleAgenticApplicationsAnalystAgentPersona#update}. |
 
 ---
 
@@ -5042,7 +5259,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#create GoogleAgenticApplicationsAnalystAgentPersona#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#create GoogleAgenticApplicationsAnalystAgentPersona#create}.
 
 ---
 
@@ -5054,7 +5271,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#delete GoogleAgenticApplicationsAnalystAgentPersona#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#delete GoogleAgenticApplicationsAnalystAgentPersona#delete}.
 
 ---
 
@@ -5066,7 +5283,59 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#update GoogleAgenticApplicationsAnalystAgentPersona#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#update GoogleAgenticApplicationsAnalystAgentPersona#update}.
+
+---
+
+### GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig <a name="GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
+
+&googleagenticapplicationsanalystagentpersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig {
+	Disabled: interface{},
+	ExcludedDomains: *[]*string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig.property.disabled">Disabled</a></code> | <code>interface{}</code> | Whether web search grounding is disabled for the analyst agent. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig.property.excludedDomains">ExcludedDomains</a></code> | <code>*[]*string</code> | List of domains to be excluded from Google Search / Enterprise Web Search grounding. |
+
+---
+
+##### `Disabled`<sup>Optional</sup> <a name="Disabled" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig.property.disabled"></a>
+
+```go
+Disabled interface{}
+```
+
+- *Type:* interface{}
+
+Whether web search grounding is disabled for the analyst agent.
+
+Defaults to false if not specified (i.e. web search grounding is enabled).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#disabled GoogleAgenticApplicationsAnalystAgentPersona#disabled}
+
+---
+
+##### `ExcludedDomains`<sup>Optional</sup> <a name="ExcludedDomains" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig.property.excludedDomains"></a>
+
+```go
+ExcludedDomains *[]*string
+```
+
+- *Type:* *[]*string
+
+List of domains to be excluded from Google Search / Enterprise Web Search grounding.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agentic_applications_analyst_agent_persona#excluded_domains GoogleAgenticApplicationsAnalystAgentPersona#excluded_domains}
 
 ---
 
@@ -5077,7 +5346,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesList
 ```
@@ -5237,7 +5506,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesOutputReference
 ```
@@ -5539,7 +5808,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceBigqueryResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceBigqueryResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceBigqueryResourceOutputReference
 ```
@@ -5875,7 +6144,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactExample
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceF1ResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceF1ResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceF1ResourceOutputReference
 ```
@@ -6153,7 +6422,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactExample
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleCloudStorageResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleCloudStorageResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleCloudStorageResourceOutputReference
 ```
@@ -6453,7 +6722,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactExample
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleDriveResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleDriveResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceGoogleDriveResourceOutputReference
 ```
@@ -6760,7 +7029,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactExample
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceOutputReference
 ```
@@ -7306,7 +7575,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactExample
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceRawFileResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceRawFileResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResourceRawFileResourceOutputReference
 ```
@@ -7621,7 +7890,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactExample
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesList
 ```
@@ -7781,7 +8050,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesOutputReference
 ```
@@ -8083,7 +8352,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceBigqueryResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceBigqueryResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceBigqueryResourceOutputReference
 ```
@@ -8419,7 +8688,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceF1ResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceF1ResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceF1ResourceOutputReference
 ```
@@ -8697,7 +8966,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleCloudStorageResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleCloudStorageResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleCloudStorageResourceOutputReference
 ```
@@ -8997,7 +9266,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleDriveResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleDriveResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceGoogleDriveResourceOutputReference
 ```
@@ -9304,7 +9573,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceOutputReference
 ```
@@ -9850,7 +10119,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceRawFileResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceRawFileResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsDocumentExamplesResourceRawFileResourceOutputReference
 ```
@@ -10165,7 +10434,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsOutputReference
 ```
@@ -10480,12 +10749,348 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 ---
 
 
+### GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference <a name="GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
+
+googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.resetAppendMethodology">ResetAppendMethodology</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.resetExportFormat">ResetExportFormat</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.resetExportMethodologyArtifact">ResetExportMethodologyArtifact</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetAppendMethodology` <a name="ResetAppendMethodology" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.resetAppendMethodology"></a>
+
+```go
+func ResetAppendMethodology()
+```
+
+##### `ResetExportFormat` <a name="ResetExportFormat" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.resetExportFormat"></a>
+
+```go
+func ResetExportFormat()
+```
+
+##### `ResetExportMethodologyArtifact` <a name="ResetExportMethodologyArtifact" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.resetExportMethodologyArtifact"></a>
+
+```go
+func ResetExportMethodologyArtifact()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.appendMethodologyInput">AppendMethodologyInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.exportFormatInput">ExportFormatInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.exportMethodologyArtifactInput">ExportMethodologyArtifactInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.appendMethodology">AppendMethodology</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.exportFormat">ExportFormat</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.exportMethodologyArtifact">ExportMethodologyArtifact</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AppendMethodologyInput`<sup>Optional</sup> <a name="AppendMethodologyInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.appendMethodologyInput"></a>
+
+```go
+func AppendMethodologyInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `ExportFormatInput`<sup>Optional</sup> <a name="ExportFormatInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.exportFormatInput"></a>
+
+```go
+func ExportFormatInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExportMethodologyArtifactInput`<sup>Optional</sup> <a name="ExportMethodologyArtifactInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.exportMethodologyArtifactInput"></a>
+
+```go
+func ExportMethodologyArtifactInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `AppendMethodology`<sup>Required</sup> <a name="AppendMethodology" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.appendMethodology"></a>
+
+```go
+func AppendMethodology() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `ExportFormat`<sup>Required</sup> <a name="ExportFormat" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.exportFormat"></a>
+
+```go
+func ExportFormat() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExportMethodologyArtifact`<sup>Required</sup> <a name="ExportMethodologyArtifact" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.exportMethodologyArtifact"></a>
+
+```go
+func ExportMethodologyArtifact() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions</a>
+
+---
+
+
 ### GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference <a name="GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference
 ```
@@ -10531,9 +11136,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.putDocumentGenerationOptions">PutDocumentGenerationOptions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.putMethodologyExportOptions">PutMethodologyExportOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.putSlideGenerationOptions">PutSlideGenerationOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.putVisualizationOptions">PutVisualizationOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.resetDocumentGenerationOptions">ResetDocumentGenerationOptions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.resetMethodologyExportOptions">ResetMethodologyExportOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.resetSlideGenerationOptions">ResetSlideGenerationOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.resetVisualizationOptions">ResetVisualizationOptions</a></code> | *No description.* |
 
@@ -10701,6 +11308,18 @@ func PutDocumentGenerationOptions(value GoogleAgenticApplicationsAnalystAgentPer
 
 ---
 
+##### `PutMethodologyExportOptions` <a name="PutMethodologyExportOptions" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.putMethodologyExportOptions"></a>
+
+```go
+func PutMethodologyExportOptions(value GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.putMethodologyExportOptions.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions</a>
+
+---
+
 ##### `PutSlideGenerationOptions` <a name="PutSlideGenerationOptions" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.putSlideGenerationOptions"></a>
 
 ```go
@@ -10731,6 +11350,12 @@ func PutVisualizationOptions(value GoogleAgenticApplicationsAnalystAgentPersonaA
 func ResetDocumentGenerationOptions()
 ```
 
+##### `ResetMethodologyExportOptions` <a name="ResetMethodologyExportOptions" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.resetMethodologyExportOptions"></a>
+
+```go
+func ResetMethodologyExportOptions()
+```
+
 ##### `ResetSlideGenerationOptions` <a name="ResetSlideGenerationOptions" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.resetSlideGenerationOptions"></a>
 
 ```go
@@ -10751,9 +11376,11 @@ func ResetVisualizationOptions()
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.documentGenerationOptions">DocumentGenerationOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsOutputReference">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptionsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.methodologyExportOptions">MethodologyExportOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.slideGenerationOptions">SlideGenerationOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsOutputReference">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.visualizationOptions">VisualizationOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.documentGenerationOptionsInput">DocumentGenerationOptionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.methodologyExportOptionsInput">MethodologyExportOptionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.slideGenerationOptionsInput">SlideGenerationOptionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.visualizationOptionsInput">VisualizationOptionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig</a></code> | *No description.* |
@@ -10794,6 +11421,16 @@ func DocumentGenerationOptions() GoogleAgenticApplicationsAnalystAgentPersonaArt
 
 ---
 
+##### `MethodologyExportOptions`<sup>Required</sup> <a name="MethodologyExportOptions" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.methodologyExportOptions"></a>
+
+```go
+func MethodologyExportOptions() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference</a>
+
+---
+
 ##### `SlideGenerationOptions`<sup>Required</sup> <a name="SlideGenerationOptions" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.slideGenerationOptions"></a>
 
 ```go
@@ -10821,6 +11458,16 @@ func DocumentGenerationOptionsInput() GoogleAgenticApplicationsAnalystAgentPerso
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions</a>
+
+---
+
+##### `MethodologyExportOptionsInput`<sup>Optional</sup> <a name="MethodologyExportOptionsInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference.property.methodologyExportOptionsInput"></a>
+
+```go
+func MethodologyExportOptionsInput() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions</a>
 
 ---
 
@@ -10860,7 +11507,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsOutputReference
 ```
@@ -11180,7 +11827,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesList
 ```
@@ -11340,7 +11987,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesOutputReference
 ```
@@ -11642,7 +12289,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceBigqueryResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceBigqueryResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceBigqueryResourceOutputReference
 ```
@@ -11978,7 +12625,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceF1ResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceF1ResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceF1ResourceOutputReference
 ```
@@ -12256,7 +12903,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleCloudStorageResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleCloudStorageResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleCloudStorageResourceOutputReference
 ```
@@ -12556,7 +13203,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleDriveResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleDriveResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceGoogleDriveResourceOutputReference
 ```
@@ -12863,7 +13510,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceOutputReference
 ```
@@ -13409,7 +14056,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceRawFileResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceRawFileResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsSlideExamplesResourceRawFileResourceOutputReference
 ```
@@ -13724,7 +14371,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference
 ```
@@ -13771,6 +14418,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.putVisualizationExamples">PutVisualizationExamples</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.resetVisualizationExamples">ResetVisualizationExamples</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.resetVisualizationMode">ResetVisualizationMode</a></code> | *No description.* |
 
 ---
 
@@ -13942,6 +14590,12 @@ func PutVisualizationExamples(value interface{})
 func ResetVisualizationExamples()
 ```
 
+##### `ResetVisualizationMode` <a name="ResetVisualizationMode" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.resetVisualizationMode"></a>
+
+```go
+func ResetVisualizationMode()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -13951,6 +14605,8 @@ func ResetVisualizationExamples()
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.property.visualizationExamples">VisualizationExamples</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesList">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.property.visualizationExamplesInput">VisualizationExamplesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.property.visualizationModeInput">VisualizationModeInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.property.visualizationMode">VisualizationMode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions">GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions</a></code> | *No description.* |
 
 ---
@@ -13999,6 +14655,26 @@ func VisualizationExamplesInput() interface{}
 
 ---
 
+##### `VisualizationModeInput`<sup>Optional</sup> <a name="VisualizationModeInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.property.visualizationModeInput"></a>
+
+```go
+func VisualizationModeInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `VisualizationMode`<sup>Required</sup> <a name="VisualizationMode" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.property.visualizationMode"></a>
+
+```go
+func VisualizationMode() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference.property.internalValue"></a>
 
 ```go
@@ -14015,7 +14691,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesList
 ```
@@ -14175,7 +14851,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesOutputReference
 ```
@@ -14499,7 +15175,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceBigqueryResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceBigqueryResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceBigqueryResourceOutputReference
 ```
@@ -14835,7 +15511,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceF1ResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceF1ResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceF1ResourceOutputReference
 ```
@@ -15113,7 +15789,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleCloudStorageResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleCloudStorageResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleCloudStorageResourceOutputReference
 ```
@@ -15413,7 +16089,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleDriveResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleDriveResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceGoogleDriveResourceOutputReference
 ```
@@ -15720,7 +16396,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceOutputReference
 ```
@@ -16266,7 +16942,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceRawFileResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceRawFileResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesResourceRawFileResourceOutputReference
 ```
@@ -16581,7 +17257,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesAirQualityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesAirQualityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesAirQualityOutputReference
 ```
@@ -16830,7 +17506,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesBureauLaborStatisticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesBureauLaborStatisticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesBureauLaborStatisticsOutputReference
 ```
@@ -17079,7 +17755,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesCoindeskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesCoindeskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesCoindeskOutputReference
 ```
@@ -17328,7 +18004,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFinnhubOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFinnhubOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFinnhubOutputReference
 ```
@@ -17577,7 +18253,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFredOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFredOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesFredOutputReference
 ```
@@ -17826,7 +18502,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesList
 ```
@@ -17986,7 +18662,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesOutputReference
 ```
@@ -18622,7 +19298,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesSecEdgarOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesSecEdgarOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesSecEdgarOutputReference
 ```
@@ -18871,7 +19547,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesTreasurySecuritiesAuctionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesTreasurySecuritiesAuctionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesTreasurySecuritiesAuctionsOutputReference
 ```
@@ -19120,7 +19796,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesUsdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesUsdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSourcesUsdaOutputReference
 ```
@@ -19369,7 +20045,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaExternalDataSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesList
 ```
@@ -19529,7 +20205,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference
 ```
@@ -19593,6 +20269,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.resetApiKey">ResetApiKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.resetApiKeyHeader">ResetApiKeyHeader</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.resetApiKeyName">ResetApiKeyName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.resetClientId">ResetClientId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.resetClientSecret">ResetClientSecret</a></code> | *No description.* |
@@ -19757,6 +20434,12 @@ Returns a reversible string representation.
 func ResetApiKey()
 ```
 
+##### `ResetApiKeyHeader` <a name="ResetApiKeyHeader" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.resetApiKeyHeader"></a>
+
+```go
+func ResetApiKeyHeader()
+```
+
 ##### `ResetApiKeyName` <a name="ResetApiKeyName" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.resetApiKeyName"></a>
 
 ```go
@@ -19794,6 +20477,7 @@ func ResetPrompt()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.apiKeyHeaderInput">ApiKeyHeaderInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.apiKeyInput">ApiKeyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.apiKeyNameInput">ApiKeyNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.clientIdInput">ClientIdInput</a></code> | <code>*string</code> | *No description.* |
@@ -19805,6 +20489,7 @@ func ResetPrompt()
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.promptInput">PromptInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.serverUrlInput">ServerUrlInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.apiKey">ApiKey</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.apiKeyHeader">ApiKeyHeader</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.apiKeyName">ApiKeyName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.clientId">ClientId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.clientSecret">ClientSecret</a></code> | <code>*string</code> | *No description.* |
@@ -19836,6 +20521,16 @@ If this returns an empty array the stack will not be attached.
 
 ```go
 func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ApiKeyHeaderInput`<sup>Optional</sup> <a name="ApiKeyHeaderInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.apiKeyHeaderInput"></a>
+
+```go
+func ApiKeyHeaderInput() *string
 ```
 
 - *Type:* *string
@@ -19952,6 +20647,16 @@ func ApiKey() *string
 
 ---
 
+##### `ApiKeyHeader`<sup>Required</sup> <a name="ApiKeyHeader" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.apiKeyHeader"></a>
+
+```go
+func ApiKeyHeader() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `ApiKeyName`<sup>Required</sup> <a name="ApiKeyName" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference.property.apiKeyName"></a>
 
 ```go
@@ -20058,7 +20763,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesBigqueryResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaResourcesBigqueryResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaResourcesBigqueryResourceOutputReference
 ```
@@ -20394,7 +21099,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaResourcesBigque
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesF1ResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaResourcesF1ResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaResourcesF1ResourceOutputReference
 ```
@@ -20672,7 +21377,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaResourcesF1Reso
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleCloudStorageResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleCloudStorageResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleCloudStorageResourceOutputReference
 ```
@@ -20972,7 +21677,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogle
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleDriveResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleDriveResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogleDriveResourceOutputReference
 ```
@@ -21279,7 +21984,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaResourcesGoogle
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaResourcesList
 ```
@@ -21439,7 +22144,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaResourcesOutputReference
 ```
@@ -22003,7 +22708,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaResourcesRawFileResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaResourcesRawFileResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaResourcesRawFileResourceOutputReference
 ```
@@ -22318,7 +23023,7 @@ func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaResourcesRawFil
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaSkillsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaSkillsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaSkillsList
 ```
@@ -22478,7 +23183,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaSkillsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaSkillsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaSkillsOutputReference
 ```
@@ -22860,7 +23565,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaSkillsReferencesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaSkillsReferencesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaSkillsReferencesList
 ```
@@ -23020,7 +23725,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaSkillsReferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaSkillsReferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaSkillsReferencesOutputReference
 ```
@@ -23331,7 +24036,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTablesColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaTablesColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaTablesColumnsList
 ```
@@ -23491,7 +24196,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTablesColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaTablesColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaTablesColumnsOutputReference
 ```
@@ -23831,7 +24536,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaTablesList
 ```
@@ -23991,7 +24696,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgenticApplicationsAnalystAgentPersonaTablesOutputReference
 ```
@@ -24351,7 +25056,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
 
 googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaTimeoutsOutputReference
 ```
@@ -24678,6 +25383,313 @@ func InternalValue() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+
+### GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference <a name="GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona"
+
+googleagenticapplicationsanalystagentpersona.NewGoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.resetDisabled">ResetDisabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.resetExcludedDomains">ResetExcludedDomains</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetDisabled` <a name="ResetDisabled" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.resetDisabled"></a>
+
+```go
+func ResetDisabled()
+```
+
+##### `ResetExcludedDomains` <a name="ResetExcludedDomains" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.resetExcludedDomains"></a>
+
+```go
+func ResetExcludedDomains()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.disabledInput">DisabledInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.excludedDomainsInput">ExcludedDomainsInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.disabled">Disabled</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.excludedDomains">ExcludedDomains</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig">GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DisabledInput`<sup>Optional</sup> <a name="DisabledInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.disabledInput"></a>
+
+```go
+func DisabledInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `ExcludedDomainsInput`<sup>Optional</sup> <a name="ExcludedDomainsInput" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.excludedDomainsInput"></a>
+
+```go
+func ExcludedDomainsInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `Disabled`<sup>Required</sup> <a name="Disabled" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.disabled"></a>
+
+```go
+func Disabled() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `ExcludedDomains`<sup>Required</sup> <a name="ExcludedDomains" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.excludedDomains"></a>
+
+```go
+func ExcludedDomains() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig">GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig</a>
 
 ---
 

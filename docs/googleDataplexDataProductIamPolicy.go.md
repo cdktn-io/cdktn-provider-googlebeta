@@ -4,12 +4,12 @@
 
 ### GoogleDataplexDataProductIamPolicy <a name="GoogleDataplexDataProductIamPolicy" id="@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy google_dataplex_data_product_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy google_dataplex_data_product_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexdataproductiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexdataproductiampolicy"
 
 googledataplexdataproductiampolicy.NewGoogleDataplexDataProductIamPolicy(scope Construct, id *string, config GoogleDataplexDataProductIamPolicyConfig) GoogleDataplexDataProductIamPolicy
 ```
@@ -421,7 +421,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexdataproductiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexdataproductiampolicy"
 
 googledataplexdataproductiampolicy.GoogleDataplexDataProductIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexdataproductiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexdataproductiampolicy"
 
 googledataplexdataproductiampolicy.GoogleDataplexDataProductIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ googledataplexdataproductiampolicy.GoogleDataplexDataProductIamPolicy_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexdataproductiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexdataproductiampolicy"
 
 googledataplexdataproductiampolicy.GoogleDataplexDataProductIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ googledataplexdataproductiampolicy.GoogleDataplexDataProductIamPolicy_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexdataproductiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexdataproductiampolicy"
 
 googledataplexdataproductiampolicy.GoogleDataplexDataProductIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the GoogleDataplexDataProductI
 
 The id of the existing GoogleDataplexDataProductIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -831,7 +831,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexdataproductiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexdataproductiampolicy"
 
 &googledataplexdataproductiampolicy.GoogleDataplexDataProductIamPolicyConfig {
 	Connection: interface{},
@@ -860,11 +860,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.dataProductId">DataProductId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy#data_product_id GoogleDataplexDataProductIamPolicy#data_product_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy#policy_data GoogleDataplexDataProductIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy#id GoogleDataplexDataProductIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy#location GoogleDataplexDataProductIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy#project GoogleDataplexDataProductIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.dataProductId">DataProductId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy#data_product_id GoogleDataplexDataProductIamPolicy#data_product_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy#policy_data GoogleDataplexDataProductIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy#id GoogleDataplexDataProductIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy#location GoogleDataplexDataProductIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamPolicy.GoogleDataplexDataProductIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy#project GoogleDataplexDataProductIamPolicy#project}. |
 
 ---
 
@@ -946,7 +946,7 @@ DataProductId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy#data_product_id GoogleDataplexDataProductIamPolicy#data_product_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy#data_product_id GoogleDataplexDataProductIamPolicy#data_product_id}.
 
 ---
 
@@ -958,7 +958,7 @@ PolicyData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy#policy_data GoogleDataplexDataProductIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy#policy_data GoogleDataplexDataProductIamPolicy#policy_data}.
 
 ---
 
@@ -970,7 +970,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy#id GoogleDataplexDataProductIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy#id GoogleDataplexDataProductIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -985,7 +985,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy#location GoogleDataplexDataProductIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy#location GoogleDataplexDataProductIamPolicy#location}.
 
 ---
 
@@ -997,7 +997,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_policy#project GoogleDataplexDataProductIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_policy#project GoogleDataplexDataProductIamPolicy#project}.
 
 ---
 

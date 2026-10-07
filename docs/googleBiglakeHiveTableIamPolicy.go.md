@@ -4,12 +4,12 @@
 
 ### GoogleBiglakeHiveTableIamPolicy <a name="GoogleBiglakeHiveTableIamPolicy" id="@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy google_biglake_hive_table_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy google_biglake_hive_table_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetableiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivetableiampolicy"
 
 googlebiglakehivetableiampolicy.NewGoogleBiglakeHiveTableIamPolicy(scope Construct, id *string, config GoogleBiglakeHiveTableIamPolicyConfig) GoogleBiglakeHiveTableIamPolicy
 ```
@@ -414,7 +414,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetableiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivetableiampolicy"
 
 googlebiglakehivetableiampolicy.GoogleBiglakeHiveTableIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetableiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivetableiampolicy"
 
 googlebiglakehivetableiampolicy.GoogleBiglakeHiveTableIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ googlebiglakehivetableiampolicy.GoogleBiglakeHiveTableIamPolicy_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetableiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivetableiampolicy"
 
 googlebiglakehivetableiampolicy.GoogleBiglakeHiveTableIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ googlebiglakehivetableiampolicy.GoogleBiglakeHiveTableIamPolicy_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetableiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivetableiampolicy"
 
 googlebiglakehivetableiampolicy.GoogleBiglakeHiveTableIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the GoogleBiglakeHiveTableIamP
 
 The id of the existing GoogleBiglakeHiveTableIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -846,7 +846,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetableiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivetableiampolicy"
 
 &googlebiglakehivetableiampolicy.GoogleBiglakeHiveTableIamPolicyConfig {
 	Connection: interface{},
@@ -876,12 +876,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.catalog">Catalog</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#catalog GoogleBiglakeHiveTableIamPolicy#catalog}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.database">Database</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#database GoogleBiglakeHiveTableIamPolicy#database}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#name GoogleBiglakeHiveTableIamPolicy#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#policy_data GoogleBiglakeHiveTableIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#id GoogleBiglakeHiveTableIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#project GoogleBiglakeHiveTableIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.catalog">Catalog</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#catalog GoogleBiglakeHiveTableIamPolicy#catalog}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.database">Database</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#database GoogleBiglakeHiveTableIamPolicy#database}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#name GoogleBiglakeHiveTableIamPolicy#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#policy_data GoogleBiglakeHiveTableIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#id GoogleBiglakeHiveTableIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeHiveTableIamPolicy.GoogleBiglakeHiveTableIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#project GoogleBiglakeHiveTableIamPolicy#project}. |
 
 ---
 
@@ -963,7 +963,7 @@ Catalog *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#catalog GoogleBiglakeHiveTableIamPolicy#catalog}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#catalog GoogleBiglakeHiveTableIamPolicy#catalog}.
 
 ---
 
@@ -975,7 +975,7 @@ Database *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#database GoogleBiglakeHiveTableIamPolicy#database}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#database GoogleBiglakeHiveTableIamPolicy#database}.
 
 ---
 
@@ -987,7 +987,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#name GoogleBiglakeHiveTableIamPolicy#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#name GoogleBiglakeHiveTableIamPolicy#name}.
 
 ---
 
@@ -999,7 +999,7 @@ PolicyData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#policy_data GoogleBiglakeHiveTableIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#policy_data GoogleBiglakeHiveTableIamPolicy#policy_data}.
 
 ---
 
@@ -1011,7 +1011,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#id GoogleBiglakeHiveTableIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#id GoogleBiglakeHiveTableIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1026,7 +1026,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table_iam_policy#project GoogleBiglakeHiveTableIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table_iam_policy#project GoogleBiglakeHiveTableIamPolicy#project}.
 
 ---
 

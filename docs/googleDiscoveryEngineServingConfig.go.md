@@ -4,12 +4,12 @@
 
 ### GoogleDiscoveryEngineServingConfig <a name="GoogleDiscoveryEngineServingConfig" id="@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config google_discovery_engine_serving_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config google_discovery_engine_serving_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineservingconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryengineservingconfig"
 
 googlediscoveryengineservingconfig.NewGoogleDiscoveryEngineServingConfig(scope Construct, id *string, config GoogleDiscoveryEngineServingConfigConfig) GoogleDiscoveryEngineServingConfig
 ```
@@ -483,7 +483,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineservingconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryengineservingconfig"
 
 googlediscoveryengineservingconfig.GoogleDiscoveryEngineServingConfig_IsConstruct(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineservingconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryengineservingconfig"
 
 googlediscoveryengineservingconfig.GoogleDiscoveryEngineServingConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -529,7 +529,7 @@ googlediscoveryengineservingconfig.GoogleDiscoveryEngineServingConfig_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineservingconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryengineservingconfig"
 
 googlediscoveryengineservingconfig.GoogleDiscoveryEngineServingConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -543,7 +543,7 @@ googlediscoveryengineservingconfig.GoogleDiscoveryEngineServingConfig_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineservingconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryengineservingconfig"
 
 googlediscoveryengineservingconfig.GoogleDiscoveryEngineServingConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -572,7 +572,7 @@ The construct id used in the generated config for the GoogleDiscoveryEngineServi
 
 The id of the existing GoogleDiscoveryEngineServingConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1047,7 +1047,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineservingconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryengineservingconfig"
 
 &googlediscoveryengineservingconfig.GoogleDiscoveryEngineServingConfigConfig {
 	Connection: interface{},
@@ -1068,7 +1068,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 	RedirectControlIds: *[]*string,
 	ServingConfigId: *string,
 	SynonymsControlIds: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigTimeouts,
 }
 ```
 
@@ -1088,8 +1088,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigConfig.property.boostControlIds">BoostControlIds</a></code> | <code>*[]*string</code> | The resource IDs of the boost controls to be applied. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigConfig.property.collectionId">CollectionId</a></code> | <code>*string</code> | The collection ID. Currently only accepts "default_collection". |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigConfig.property.filterControlIds">FilterControlIds</a></code> | <code>*[]*string</code> | The resource IDs of the filter controls to be applied. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#id GoogleDiscoveryEngineServingConfig#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#project GoogleDiscoveryEngineServingConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#id GoogleDiscoveryEngineServingConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#project GoogleDiscoveryEngineServingConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigConfig.property.promoteControlIds">PromoteControlIds</a></code> | <code>*[]*string</code> | The resource IDs of the promote controls to be applied. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigConfig.property.redirectControlIds">RedirectControlIds</a></code> | <code>*[]*string</code> | The resource IDs of the redirect controls to be applied. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigConfig.property.servingConfigId">ServingConfigId</a></code> | <code>*string</code> | 'The unique ID of the serving config. Currently only accepts "default_search".'. |
@@ -1178,7 +1178,7 @@ EngineId *string
 
 The ID of the engine associated with the serving config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#engine_id GoogleDiscoveryEngineServingConfig#engine_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#engine_id GoogleDiscoveryEngineServingConfig#engine_id}
 
 ---
 
@@ -1192,7 +1192,7 @@ Location *string
 
 The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#location GoogleDiscoveryEngineServingConfig#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#location GoogleDiscoveryEngineServingConfig#location}
 
 ---
 
@@ -1206,7 +1206,7 @@ BoostControlIds *[]*string
 
 The resource IDs of the boost controls to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#boost_control_ids GoogleDiscoveryEngineServingConfig#boost_control_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#boost_control_ids GoogleDiscoveryEngineServingConfig#boost_control_ids}
 
 ---
 
@@ -1220,7 +1220,7 @@ CollectionId *string
 
 The collection ID. Currently only accepts "default_collection".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#collection_id GoogleDiscoveryEngineServingConfig#collection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#collection_id GoogleDiscoveryEngineServingConfig#collection_id}
 
 ---
 
@@ -1234,7 +1234,7 @@ FilterControlIds *[]*string
 
 The resource IDs of the filter controls to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#filter_control_ids GoogleDiscoveryEngineServingConfig#filter_control_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#filter_control_ids GoogleDiscoveryEngineServingConfig#filter_control_ids}
 
 ---
 
@@ -1246,7 +1246,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#id GoogleDiscoveryEngineServingConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#id GoogleDiscoveryEngineServingConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1261,7 +1261,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#project GoogleDiscoveryEngineServingConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#project GoogleDiscoveryEngineServingConfig#project}.
 
 ---
 
@@ -1275,7 +1275,7 @@ PromoteControlIds *[]*string
 
 The resource IDs of the promote controls to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#promote_control_ids GoogleDiscoveryEngineServingConfig#promote_control_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#promote_control_ids GoogleDiscoveryEngineServingConfig#promote_control_ids}
 
 ---
 
@@ -1289,7 +1289,7 @@ RedirectControlIds *[]*string
 
 The resource IDs of the redirect controls to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#redirect_control_ids GoogleDiscoveryEngineServingConfig#redirect_control_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#redirect_control_ids GoogleDiscoveryEngineServingConfig#redirect_control_ids}
 
 ---
 
@@ -1303,7 +1303,7 @@ ServingConfigId *string
 
 'The unique ID of the serving config. Currently only accepts "default_search".'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#serving_config_id GoogleDiscoveryEngineServingConfig#serving_config_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#serving_config_id GoogleDiscoveryEngineServingConfig#serving_config_id}
 
 ---
 
@@ -1317,7 +1317,7 @@ SynonymsControlIds *[]*string
 
 The resource IDs of the synonyms controls to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#synonyms_control_ids GoogleDiscoveryEngineServingConfig#synonyms_control_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#synonyms_control_ids GoogleDiscoveryEngineServingConfig#synonyms_control_ids}
 
 ---
 
@@ -1331,7 +1331,7 @@ Timeouts GoogleDiscoveryEngineServingConfigTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#timeouts GoogleDiscoveryEngineServingConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#timeouts GoogleDiscoveryEngineServingConfig#timeouts}
 
 ---
 
@@ -1340,7 +1340,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineservingconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryengineservingconfig"
 
 &googlediscoveryengineservingconfig.GoogleDiscoveryEngineServingConfigTimeouts {
 	Create: *string,
@@ -1353,9 +1353,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#create GoogleDiscoveryEngineServingConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#delete GoogleDiscoveryEngineServingConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#update GoogleDiscoveryEngineServingConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#create GoogleDiscoveryEngineServingConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#delete GoogleDiscoveryEngineServingConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#update GoogleDiscoveryEngineServingConfig#update}. |
 
 ---
 
@@ -1367,7 +1367,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#create GoogleDiscoveryEngineServingConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#create GoogleDiscoveryEngineServingConfig#create}.
 
 ---
 
@@ -1379,7 +1379,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#delete GoogleDiscoveryEngineServingConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#delete GoogleDiscoveryEngineServingConfig#delete}.
 
 ---
 
@@ -1391,7 +1391,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config#update GoogleDiscoveryEngineServingConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config#update GoogleDiscoveryEngineServingConfig#update}.
 
 ---
 
@@ -1402,7 +1402,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineServingConfig.GoogleDiscoveryEngineServingConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineservingconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryengineservingconfig"
 
 googlediscoveryengineservingconfig.NewGoogleDiscoveryEngineServingConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDiscoveryEngineServingConfigTimeoutsOutputReference
 ```

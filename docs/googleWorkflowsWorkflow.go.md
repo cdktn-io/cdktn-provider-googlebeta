@@ -4,12 +4,12 @@
 
 ### GoogleWorkflowsWorkflow <a name="GoogleWorkflowsWorkflow" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow google_workflows_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow google_workflows_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkflowsworkflow"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleworkflowsworkflow"
 
 googleworkflowsworkflow.NewGoogleWorkflowsWorkflow(scope Construct, id *string, config GoogleWorkflowsWorkflowConfig) GoogleWorkflowsWorkflow
 ```
@@ -40,7 +40,7 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Optional</sup> <a name="config" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.Initializer.parameter.config"></a>
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig">GoogleWorkflowsWorkflowConfig</a>
 
@@ -88,7 +88,6 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.resetRegion">ResetRegion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.resetServiceAccount">ResetServiceAccount</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.resetSourceContents">ResetSourceContents</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.resetTags">ResetTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.resetUserEnvVars">ResetUserEnvVars</a></code> | *No description.* |
@@ -494,12 +493,6 @@ func ResetRegion()
 func ResetServiceAccount()
 ```
 
-##### `ResetSourceContents` <a name="ResetSourceContents" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.resetSourceContents"></a>
-
-```go
-func ResetSourceContents()
-```
-
 ##### `ResetTags` <a name="ResetTags" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.resetTags"></a>
 
 ```go
@@ -532,7 +525,7 @@ func ResetUserEnvVars()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkflowsworkflow"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleworkflowsworkflow"
 
 googleworkflowsworkflow.GoogleWorkflowsWorkflow_IsConstruct(x interface{}) *bool
 ```
@@ -564,7 +557,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkflowsworkflow"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleworkflowsworkflow"
 
 googleworkflowsworkflow.GoogleWorkflowsWorkflow_IsTerraformElement(x interface{}) *bool
 ```
@@ -578,7 +571,7 @@ googleworkflowsworkflow.GoogleWorkflowsWorkflow_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkflowsworkflow"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleworkflowsworkflow"
 
 googleworkflowsworkflow.GoogleWorkflowsWorkflow_IsTerraformResource(x interface{}) *bool
 ```
@@ -592,7 +585,7 @@ googleworkflowsworkflow.GoogleWorkflowsWorkflow_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkflowsworkflow"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleworkflowsworkflow"
 
 googleworkflowsworkflow.GoogleWorkflowsWorkflow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -621,7 +614,7 @@ The construct id used in the generated config for the GoogleWorkflowsWorkflow to
 
 The id of the existing GoogleWorkflowsWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1261,7 +1254,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkflowsworkflow"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleworkflowsworkflow"
 
 &googleworkflowsworkflow.GoogleWorkflowsWorkflowConfig {
 	Connection: interface{},
@@ -1271,6 +1264,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlewo
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
+	SourceContents: *string,
 	CallLogLevel: *string,
 	CryptoKeyName: *string,
 	DeletionPolicy: *string,
@@ -1284,9 +1278,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlewo
 	Project: *string,
 	Region: *string,
 	ServiceAccount: *string,
-	SourceContents: *string,
 	Tags: *map[string]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowTimeouts,
 	UserEnvVars: *map[string]*string,
 }
 ```
@@ -1302,20 +1295,20 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlewo
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.sourceContents">SourceContents</a></code> | <code>*string</code> | Workflow code to be executed. The size limit is 128KB. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.callLogLevel">CallLogLevel</a></code> | <code>*string</code> | Describes the level of platform logging to apply to calls and call responses during executions of this workflow. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.cryptoKeyName">CryptoKeyName</a></code> | <code>*string</code> | The KMS key used to encrypt workflow and execution data. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.deletionProtection">DeletionProtection</a></code> | <code>interface{}</code> | Whether Terraform will be prevented from destroying the workflow. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.description">Description</a></code> | <code>*string</code> | Description of the workflow provided by the user. Must be at most 1000 unicode characters long. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.executionHistoryLevel">ExecutionHistoryLevel</a></code> | <code>*string</code> | Describes the level of execution history to be stored for this workflow. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#id GoogleWorkflowsWorkflow#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#id GoogleWorkflowsWorkflow#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | A set of key/value label pairs to assign to this Workflow. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.name">Name</a></code> | <code>*string</code> | Name of the Workflow. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.namePrefix">NamePrefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#name_prefix GoogleWorkflowsWorkflow#name_prefix}. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#project GoogleWorkflowsWorkflow#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.namePrefix">NamePrefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#name_prefix GoogleWorkflowsWorkflow#name_prefix}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#project GoogleWorkflowsWorkflow#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.region">Region</a></code> | <code>*string</code> | The region of the workflow. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.serviceAccount">ServiceAccount</a></code> | <code>*string</code> | Name of the service account associated with the latest workflow version. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.sourceContents">SourceContents</a></code> | <code>*string</code> | Workflow code to be executed. The size limit is 128KB. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | A map of resource manager tags. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowTimeouts">GoogleWorkflowsWorkflowTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.userEnvVars">UserEnvVars</a></code> | <code>*map[string]*string</code> | User-defined environment variables associated with this workflow revision. |
@@ -1392,6 +1385,22 @@ Provisioners *[]interface{}
 
 ---
 
+##### `SourceContents`<sup>Required</sup> <a name="SourceContents" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.sourceContents"></a>
+
+```go
+SourceContents *string
+```
+
+- *Type:* *string
+
+Workflow code to be executed. The size limit is 128KB.
+
+~> **Warning:** This field is currently optional but **will become REQUIRED** in version 8.0.0 of the provider to align with API constraints.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#source_contents GoogleWorkflowsWorkflow#source_contents}
+
+---
+
 ##### `CallLogLevel`<sup>Optional</sup> <a name="CallLogLevel" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.callLogLevel"></a>
 
 ```go
@@ -1405,7 +1414,7 @@ Describes the level of platform logging to apply to calls and call responses dur
 If both the workflow and the execution specify a logging level,
 the execution level takes precedence. Possible values: ["CALL_LOG_LEVEL_UNSPECIFIED", "LOG_ALL_CALLS", "LOG_ERRORS_ONLY", "LOG_NONE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#call_log_level GoogleWorkflowsWorkflow#call_log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#call_log_level GoogleWorkflowsWorkflow#call_log_level}
 
 ---
 
@@ -1421,7 +1430,7 @@ The KMS key used to encrypt workflow and execution data.
 
 Format: projects/{project}/locations/{location}/keyRings/{keyRing}/cryptoKeys/{cryptoKey}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#crypto_key_name GoogleWorkflowsWorkflow#crypto_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#crypto_key_name GoogleWorkflowsWorkflow#crypto_key_name}
 
 ---
 
@@ -1442,7 +1451,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#deletion_policy GoogleWorkflowsWorkflow#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#deletion_policy GoogleWorkflowsWorkflow#deletion_policy}
 
 ---
 
@@ -1463,7 +1472,7 @@ When the field is set to true or unset in Terraform state, a 'terraform apply'
 or 'terraform destroy' that would delete the workflow will fail.
 When the field is set to false, deleting the workflow is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#deletion_protection GoogleWorkflowsWorkflow#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#deletion_protection GoogleWorkflowsWorkflow#deletion_protection}
 
 ---
 
@@ -1477,7 +1486,7 @@ Description *string
 
 Description of the workflow provided by the user. Must be at most 1000 unicode characters long.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#description GoogleWorkflowsWorkflow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#description GoogleWorkflowsWorkflow#description}
 
 ---
 
@@ -1495,7 +1504,7 @@ This configuration
 determines how much information about workflow executions is preserved. If not specified,
 defaults to EXECUTION_HISTORY_LEVEL_UNSPECIFIED. Possible values: ["EXECUTION_HISTORY_LEVEL_UNSPECIFIED", "EXECUTION_HISTORY_BASIC", "EXECUTION_HISTORY_DETAILED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#execution_history_level GoogleWorkflowsWorkflow#execution_history_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#execution_history_level GoogleWorkflowsWorkflow#execution_history_level}
 
 ---
 
@@ -1507,7 +1516,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#id GoogleWorkflowsWorkflow#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#id GoogleWorkflowsWorkflow#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1527,7 +1536,7 @@ A set of key/value label pairs to assign to this Workflow.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#labels GoogleWorkflowsWorkflow#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#labels GoogleWorkflowsWorkflow#labels}
 
 ---
 
@@ -1541,7 +1550,7 @@ Name *string
 
 Name of the Workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#name GoogleWorkflowsWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#name GoogleWorkflowsWorkflow#name}
 
 ---
 
@@ -1553,7 +1562,7 @@ NamePrefix *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#name_prefix GoogleWorkflowsWorkflow#name_prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#name_prefix GoogleWorkflowsWorkflow#name_prefix}.
 
 ---
 
@@ -1565,7 +1574,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#project GoogleWorkflowsWorkflow#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#project GoogleWorkflowsWorkflow#project}.
 
 ---
 
@@ -1579,7 +1588,7 @@ Region *string
 
 The region of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#region GoogleWorkflowsWorkflow#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#region GoogleWorkflowsWorkflow#region}
 
 ---
 
@@ -1601,23 +1610,7 @@ The {account} value can be the email address or the unique_id of the service acc
 If not provided, workflow will use the project's default service account.
 Modifying this field for an existing workflow results in a new workflow revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#service_account GoogleWorkflowsWorkflow#service_account}
-
----
-
-##### `SourceContents`<sup>Optional</sup> <a name="SourceContents" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowConfig.property.sourceContents"></a>
-
-```go
-SourceContents *string
-```
-
-- *Type:* *string
-
-Workflow code to be executed. The size limit is 128KB.
-
-~> **Warning:** This field is currently optional but **will become REQUIRED** in version 8.0.0 of the provider to align with API constraints.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#source_contents GoogleWorkflowsWorkflow#source_contents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#service_account GoogleWorkflowsWorkflow#service_account}
 
 ---
 
@@ -1635,7 +1628,7 @@ Resource manager tag keys and values have the same definition
 as resource manager tags. Keys must be in the format tagKeys/{tag_key_id}, and values are in
 the format tagValues/456. The field is ignored (both PUT & PATCH) when empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#tags GoogleWorkflowsWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#tags GoogleWorkflowsWorkflow#tags}
 
 ---
 
@@ -1649,7 +1642,7 @@ Timeouts GoogleWorkflowsWorkflowTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#timeouts GoogleWorkflowsWorkflow#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#timeouts GoogleWorkflowsWorkflow#timeouts}
 
 ---
 
@@ -1665,7 +1658,7 @@ User-defined environment variables associated with this workflow revision.
 
 This map has a maximum length of 20. Each string can take up to 4KiB. Keys cannot be empty strings and cannot start with "GOOGLE" or "WORKFLOWS".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#user_env_vars GoogleWorkflowsWorkflow#user_env_vars}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#user_env_vars GoogleWorkflowsWorkflow#user_env_vars}
 
 ---
 
@@ -1674,7 +1667,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkflowsworkflow"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleworkflowsworkflow"
 
 &googleworkflowsworkflow.GoogleWorkflowsWorkflowTimeouts {
 	Create: *string,
@@ -1687,9 +1680,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlewo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#create GoogleWorkflowsWorkflow#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#delete GoogleWorkflowsWorkflow#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#update GoogleWorkflowsWorkflow#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#create GoogleWorkflowsWorkflow#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#delete GoogleWorkflowsWorkflow#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#update GoogleWorkflowsWorkflow#update}. |
 
 ---
 
@@ -1701,7 +1694,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#create GoogleWorkflowsWorkflow#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#create GoogleWorkflowsWorkflow#create}.
 
 ---
 
@@ -1713,7 +1706,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#delete GoogleWorkflowsWorkflow#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#delete GoogleWorkflowsWorkflow#delete}.
 
 ---
 
@@ -1725,7 +1718,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workflows_workflow#update GoogleWorkflowsWorkflow#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workflows_workflow#update GoogleWorkflowsWorkflow#update}.
 
 ---
 
@@ -1736,7 +1729,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleWorkflowsWorkflow.GoogleWorkflowsWorkflowTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkflowsworkflow"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleworkflowsworkflow"
 
 googleworkflowsworkflow.NewGoogleWorkflowsWorkflowTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleWorkflowsWorkflowTimeoutsOutputReference
 ```

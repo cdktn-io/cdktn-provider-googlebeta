@@ -4,12 +4,12 @@
 
 ### GoogleNetworkSecurityUllMirroringCollectorRule <a name="GoogleNetworkSecurityUllMirroringCollectorRule" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule"
 
 googlenetworksecurityullmirroringcollectorrule.NewGoogleNetworkSecurityUllMirroringCollectorRule(scope Construct, id *string, config GoogleNetworkSecurityUllMirroringCollectorRuleConfig) GoogleNetworkSecurityUllMirroringCollectorRule
 ```
@@ -461,7 +461,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule"
 
 googlenetworksecurityullmirroringcollectorrule.GoogleNetworkSecurityUllMirroringCollectorRule_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule"
 
 googlenetworksecurityullmirroringcollectorrule.GoogleNetworkSecurityUllMirroringCollectorRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googlenetworksecurityullmirroringcollectorrule.GoogleNetworkSecurityUllMirroring
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule"
 
 googlenetworksecurityullmirroringcollectorrule.GoogleNetworkSecurityUllMirroringCollectorRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googlenetworksecurityullmirroringcollectorrule.GoogleNetworkSecurityUllMirroring
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule"
 
 googlenetworksecurityullmirroringcollectorrule.GoogleNetworkSecurityUllMirroringCollectorRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the GoogleNetworkSecurityUllMi
 
 The id of the existing GoogleNetworkSecurityUllMirroringCollectorRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1014,7 +1014,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule"
 
 &googlenetworksecurityullmirroringcollectorrule.GoogleNetworkSecurityUllMirroringCollectorRuleConfig {
 	Connection: interface{},
@@ -1025,14 +1025,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Location: *string,
-	Match: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatch,
+	Match: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatch,
 	UllMirroringCollector: *string,
 	UllMirroringCollectorRuleId: *string,
 	DeletionPolicy: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts,
 }
 ```
 
@@ -1052,9 +1052,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleConfig.property.ullMirroringCollector">UllMirroringCollector</a></code> | <code>*string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleConfig.property.ullMirroringCollectorRuleId">UllMirroringCollectorRuleId</a></code> | <code>*string</code> | ID for the new UllMirroringCollectorRule. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#id GoogleNetworkSecurityUllMirroringCollectorRule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#id GoogleNetworkSecurityUllMirroringCollectorRule#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Labels as key value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#project GoogleNetworkSecurityUllMirroringCollectorRule#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#project GoogleNetworkSecurityUllMirroringCollectorRule#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts">GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1139,7 +1139,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#location GoogleNetworkSecurityUllMirroringCollectorRule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#location GoogleNetworkSecurityUllMirroringCollectorRule#location}
 
 ---
 
@@ -1153,7 +1153,7 @@ Match GoogleNetworkSecurityUllMirroringCollectorRuleMatch
 
 match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#match GoogleNetworkSecurityUllMirroringCollectorRule#match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#match GoogleNetworkSecurityUllMirroringCollectorRule#match}
 
 ---
 
@@ -1167,7 +1167,7 @@ UllMirroringCollector *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#ull_mirroring_collector GoogleNetworkSecurityUllMirroringCollectorRule#ull_mirroring_collector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#ull_mirroring_collector GoogleNetworkSecurityUllMirroringCollectorRule#ull_mirroring_collector}
 
 ---
 
@@ -1181,7 +1181,7 @@ UllMirroringCollectorRuleId *string
 
 ID for the new UllMirroringCollectorRule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#ull_mirroring_collector_rule_id GoogleNetworkSecurityUllMirroringCollectorRule#ull_mirroring_collector_rule_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#ull_mirroring_collector_rule_id GoogleNetworkSecurityUllMirroringCollectorRule#ull_mirroring_collector_rule_id}
 
 ---
 
@@ -1202,7 +1202,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#deletion_policy GoogleNetworkSecurityUllMirroringCollectorRule#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#deletion_policy GoogleNetworkSecurityUllMirroringCollectorRule#deletion_policy}
 
 ---
 
@@ -1214,7 +1214,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#id GoogleNetworkSecurityUllMirroringCollectorRule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#id GoogleNetworkSecurityUllMirroringCollectorRule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1234,7 +1234,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#labels GoogleNetworkSecurityUllMirroringCollectorRule#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#labels GoogleNetworkSecurityUllMirroringCollectorRule#labels}
 
 ---
 
@@ -1246,7 +1246,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#project GoogleNetworkSecurityUllMirroringCollectorRule#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#project GoogleNetworkSecurityUllMirroringCollectorRule#project}.
 
 ---
 
@@ -1260,7 +1260,7 @@ Timeouts GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#timeouts GoogleNetworkSecurityUllMirroringCollectorRule#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#timeouts GoogleNetworkSecurityUllMirroringCollectorRule#timeouts}
 
 ---
 
@@ -1269,12 +1269,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule"
 
 &googlenetworksecurityullmirroringcollectorrule.GoogleNetworkSecurityUllMirroringCollectorRuleMatch {
 	Direction: *string,
 	DstIpRanges: *[]*string,
 	IpProtocols: *[]*string,
+	PrimaryIpRanges: *[]*string,
 	SrcIpRanges: *[]*string,
 }
 ```
@@ -1286,6 +1287,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatch.property.direction">Direction</a></code> | <code>*string</code> | Direction of traffic to match. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatch.property.dstIpRanges">DstIpRanges</a></code> | <code>*[]*string</code> | Destination IP ranges to match. When unset, matches any destination IP range. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatch.property.ipProtocols">IpProtocols</a></code> | <code>*[]*string</code> | IP protocols to match. When unset, matches any IP protocol. Examples: "tcp", "udp", "icmp". If unset, matches any IP protocol. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatch.property.primaryIpRanges">PrimaryIpRanges</a></code> | <code>*[]*string</code> | Primary IP ranges to match (for the capture point). When unset, matches any primary IP. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatch.property.srcIpRanges">SrcIpRanges</a></code> | <code>*[]*string</code> | Source IP ranges to match. When unset, matches any source IP range. |
 
 ---
@@ -1305,7 +1307,7 @@ Possible values:
 INGRESS: Traffic inbound to the capture point.
 EGRESS: Traffic outbound from the capture point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#direction GoogleNetworkSecurityUllMirroringCollectorRule#direction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#direction GoogleNetworkSecurityUllMirroringCollectorRule#direction}
 
 ---
 
@@ -1319,7 +1321,7 @@ DstIpRanges *[]*string
 
 Destination IP ranges to match. When unset, matches any destination IP range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#dst_ip_ranges GoogleNetworkSecurityUllMirroringCollectorRule#dst_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#dst_ip_ranges GoogleNetworkSecurityUllMirroringCollectorRule#dst_ip_ranges}
 
 ---
 
@@ -1333,7 +1335,21 @@ IpProtocols *[]*string
 
 IP protocols to match. When unset, matches any IP protocol. Examples: "tcp", "udp", "icmp". If unset, matches any IP protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#ip_protocols GoogleNetworkSecurityUllMirroringCollectorRule#ip_protocols}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#ip_protocols GoogleNetworkSecurityUllMirroringCollectorRule#ip_protocols}
+
+---
+
+##### `PrimaryIpRanges`<sup>Optional</sup> <a name="PrimaryIpRanges" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatch.property.primaryIpRanges"></a>
+
+```go
+PrimaryIpRanges *[]*string
+```
+
+- *Type:* *[]*string
+
+Primary IP ranges to match (for the capture point). When unset, matches any primary IP.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#primary_ip_ranges GoogleNetworkSecurityUllMirroringCollectorRule#primary_ip_ranges}
 
 ---
 
@@ -1347,7 +1363,7 @@ SrcIpRanges *[]*string
 
 Source IP ranges to match. When unset, matches any source IP range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#src_ip_ranges GoogleNetworkSecurityUllMirroringCollectorRule#src_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#src_ip_ranges GoogleNetworkSecurityUllMirroringCollectorRule#src_ip_ranges}
 
 ---
 
@@ -1356,7 +1372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule"
 
 &googlenetworksecurityullmirroringcollectorrule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts {
 	Create: *string,
@@ -1369,9 +1385,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#create GoogleNetworkSecurityUllMirroringCollectorRule#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#delete GoogleNetworkSecurityUllMirroringCollectorRule#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#update GoogleNetworkSecurityUllMirroringCollectorRule#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#create GoogleNetworkSecurityUllMirroringCollectorRule#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#delete GoogleNetworkSecurityUllMirroringCollectorRule#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#update GoogleNetworkSecurityUllMirroringCollectorRule#update}. |
 
 ---
 
@@ -1383,7 +1399,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#create GoogleNetworkSecurityUllMirroringCollectorRule#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#create GoogleNetworkSecurityUllMirroringCollectorRule#create}.
 
 ---
 
@@ -1395,7 +1411,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#delete GoogleNetworkSecurityUllMirroringCollectorRule#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#delete GoogleNetworkSecurityUllMirroringCollectorRule#delete}.
 
 ---
 
@@ -1407,7 +1423,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule#update GoogleNetworkSecurityUllMirroringCollectorRule#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule#update GoogleNetworkSecurityUllMirroringCollectorRule#update}.
 
 ---
 
@@ -1418,7 +1434,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule"
 
 googlenetworksecurityullmirroringcollectorrule.NewGoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference
 ```
@@ -1466,6 +1482,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.resetDirection">ResetDirection</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.resetDstIpRanges">ResetDstIpRanges</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.resetIpProtocols">ResetIpProtocols</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.resetPrimaryIpRanges">ResetPrimaryIpRanges</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.resetSrcIpRanges">ResetSrcIpRanges</a></code> | *No description.* |
 
 ---
@@ -1638,6 +1655,12 @@ func ResetDstIpRanges()
 func ResetIpProtocols()
 ```
 
+##### `ResetPrimaryIpRanges` <a name="ResetPrimaryIpRanges" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.resetPrimaryIpRanges"></a>
+
+```go
+func ResetPrimaryIpRanges()
+```
+
 ##### `ResetSrcIpRanges` <a name="ResetSrcIpRanges" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.resetSrcIpRanges"></a>
 
 ```go
@@ -1654,10 +1677,12 @@ func ResetSrcIpRanges()
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.directionInput">DirectionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.dstIpRangesInput">DstIpRangesInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.ipProtocolsInput">IpProtocolsInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.primaryIpRangesInput">PrimaryIpRangesInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.srcIpRangesInput">SrcIpRangesInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.direction">Direction</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.dstIpRanges">DstIpRanges</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.ipProtocols">IpProtocols</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.primaryIpRanges">PrimaryIpRanges</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.srcIpRanges">SrcIpRanges</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatch">GoogleNetworkSecurityUllMirroringCollectorRuleMatch</a></code> | *No description.* |
 
@@ -1717,6 +1742,16 @@ func IpProtocolsInput() *[]*string
 
 ---
 
+##### `PrimaryIpRangesInput`<sup>Optional</sup> <a name="PrimaryIpRangesInput" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.primaryIpRangesInput"></a>
+
+```go
+func PrimaryIpRangesInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `SrcIpRangesInput`<sup>Optional</sup> <a name="SrcIpRangesInput" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.srcIpRangesInput"></a>
 
 ```go
@@ -1757,6 +1792,16 @@ func IpProtocols() *[]*string
 
 ---
 
+##### `PrimaryIpRanges`<sup>Required</sup> <a name="PrimaryIpRanges" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.primaryIpRanges"></a>
+
+```go
+func PrimaryIpRanges() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `SrcIpRanges`<sup>Required</sup> <a name="SrcIpRanges" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference.property.srcIpRanges"></a>
 
 ```go
@@ -1783,7 +1828,7 @@ func InternalValue() GoogleNetworkSecurityUllMirroringCollectorRuleMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityUllMirroringCollectorRule.GoogleNetworkSecurityUllMirroringCollectorRuleTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule"
 
 googlenetworksecurityullmirroringcollectorrule.NewGoogleNetworkSecurityUllMirroringCollectorRuleTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityUllMirroringCollectorRuleTimeoutsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### GoogleBiglakeTable <a name="GoogleBiglakeTable" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table google_biglake_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table google_biglake_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 googlebiglaketable.NewGoogleBiglakeTable(scope Construct, id *string, config GoogleBiglakeTableConfig) GoogleBiglakeTable
 ```
@@ -468,7 +468,7 @@ func ResetType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 googlebiglaketable.GoogleBiglakeTable_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 googlebiglaketable.GoogleBiglakeTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlebiglaketable.GoogleBiglakeTable_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 googlebiglaketable.GoogleBiglakeTable_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlebiglaketable.GoogleBiglakeTable_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 googlebiglaketable.GoogleBiglakeTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleBiglakeTable to impo
 
 The id of the existing GoogleBiglakeTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -966,7 +966,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 &googlebiglaketable.GoogleBiglakeTableConfig {
 	Connection: interface{},
@@ -979,9 +979,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 	Name: *string,
 	Database: *string,
 	DeletionPolicy: *string,
-	HiveOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeTable.GoogleBiglakeTableHiveOptions,
+	HiveOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBiglakeTable.GoogleBiglakeTableHiveOptions,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeTable.GoogleBiglakeTableTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBiglakeTable.GoogleBiglakeTableTimeouts,
 	Type: *string,
 }
 ```
@@ -1001,7 +1001,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableConfig.property.database">Database</a></code> | <code>*string</code> | The id of the parent database. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableConfig.property.hiveOptions">HiveOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptions">GoogleBiglakeTableHiveOptions</a></code> | hive_options block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#id GoogleBiglakeTable#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#id GoogleBiglakeTable#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeouts">GoogleBiglakeTableTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableConfig.property.type">Type</a></code> | <code>*string</code> | The database type. Possible values: ["HIVE"]. |
 
@@ -1087,7 +1087,7 @@ Name *string
 
 Output only. The name of the Table. Format: projects/{project_id_or_number}/locations/{locationId}/catalogs/{catalogId}/databases/{databaseId}/tables/{tableId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#name GoogleBiglakeTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#name GoogleBiglakeTable#name}
 
 ---
 
@@ -1101,7 +1101,7 @@ Database *string
 
 The id of the parent database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#database GoogleBiglakeTable#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#database GoogleBiglakeTable#database}
 
 ---
 
@@ -1122,7 +1122,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#deletion_policy GoogleBiglakeTable#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#deletion_policy GoogleBiglakeTable#deletion_policy}
 
 ---
 
@@ -1136,7 +1136,7 @@ HiveOptions GoogleBiglakeTableHiveOptions
 
 hive_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#hive_options GoogleBiglakeTable#hive_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#hive_options GoogleBiglakeTable#hive_options}
 
 ---
 
@@ -1148,7 +1148,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#id GoogleBiglakeTable#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#id GoogleBiglakeTable#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1165,7 +1165,7 @@ Timeouts GoogleBiglakeTableTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#timeouts GoogleBiglakeTable#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#timeouts GoogleBiglakeTable#timeouts}
 
 ---
 
@@ -1179,7 +1179,7 @@ Type *string
 
 The database type. Possible values: ["HIVE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#type GoogleBiglakeTable#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#type GoogleBiglakeTable#type}
 
 ---
 
@@ -1188,11 +1188,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 &googlebiglaketable.GoogleBiglakeTableHiveOptions {
 	Parameters: *map[string]*string,
-	StorageDescriptor: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptor,
+	StorageDescriptor: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptor,
 	TableType: *string,
 }
 ```
@@ -1221,7 +1221,7 @@ An object containing a
 list of "key": value pairs.
 Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#parameters GoogleBiglakeTable#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#parameters GoogleBiglakeTable#parameters}
 
 ---
 
@@ -1235,7 +1235,7 @@ StorageDescriptor GoogleBiglakeTableHiveOptionsStorageDescriptor
 
 storage_descriptor block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#storage_descriptor GoogleBiglakeTable#storage_descriptor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#storage_descriptor GoogleBiglakeTable#storage_descriptor}
 
 ---
 
@@ -1249,7 +1249,7 @@ TableType *string
 
 Hive table type. For example, MANAGED_TABLE, EXTERNAL_TABLE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#table_type GoogleBiglakeTable#table_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#table_type GoogleBiglakeTable#table_type}
 
 ---
 
@@ -1258,13 +1258,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 &googlebiglaketable.GoogleBiglakeTableHiveOptionsStorageDescriptor {
 	InputFormat: *string,
 	LocationUri: *string,
 	OutputFormat: *string,
-	SerdeInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo,
+	SerdeInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo,
 }
 ```
 
@@ -1289,7 +1289,7 @@ InputFormat *string
 
 The fully qualified Java class name of the input format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#input_format GoogleBiglakeTable#input_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#input_format GoogleBiglakeTable#input_format}
 
 ---
 
@@ -1303,7 +1303,7 @@ LocationUri *string
 
 Cloud Storage folder URI where the table data is stored, starting with "gs://".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#location_uri GoogleBiglakeTable#location_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#location_uri GoogleBiglakeTable#location_uri}
 
 ---
 
@@ -1317,7 +1317,7 @@ OutputFormat *string
 
 The fully qualified Java class name of the output format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#output_format GoogleBiglakeTable#output_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#output_format GoogleBiglakeTable#output_format}
 
 ---
 
@@ -1331,7 +1331,7 @@ SerdeInfo GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo
 
 serde_info block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#serde_info GoogleBiglakeTable#serde_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#serde_info GoogleBiglakeTable#serde_info}
 
 ---
 
@@ -1340,7 +1340,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 &googlebiglaketable.GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo {
 	SerializationLib: *string,
@@ -1365,7 +1365,7 @@ SerializationLib *string
 
 The fully qualified Java class name of the serialization library.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#serialization_lib GoogleBiglakeTable#serialization_lib}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#serialization_lib GoogleBiglakeTable#serialization_lib}
 
 ---
 
@@ -1374,7 +1374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 &googlebiglaketable.GoogleBiglakeTableTimeouts {
 	Create: *string,
@@ -1387,9 +1387,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#create GoogleBiglakeTable#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#delete GoogleBiglakeTable#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#update GoogleBiglakeTable#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#create GoogleBiglakeTable#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#delete GoogleBiglakeTable#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#update GoogleBiglakeTable#update}. |
 
 ---
 
@@ -1401,7 +1401,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#create GoogleBiglakeTable#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#create GoogleBiglakeTable#create}.
 
 ---
 
@@ -1413,7 +1413,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#delete GoogleBiglakeTable#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#delete GoogleBiglakeTable#delete}.
 
 ---
 
@@ -1425,7 +1425,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_table#update GoogleBiglakeTable#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_table#update GoogleBiglakeTable#update}.
 
 ---
 
@@ -1436,7 +1436,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 googlebiglaketable.NewGoogleBiglakeTableHiveOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeTableHiveOptionsOutputReference
 ```
@@ -1785,7 +1785,7 @@ func InternalValue() GoogleBiglakeTableHiveOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 googlebiglaketable.NewGoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference
 ```
@@ -2163,7 +2163,7 @@ func InternalValue() GoogleBiglakeTableHiveOptionsStorageDescriptor
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 googlebiglaketable.NewGoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfoOutputReference
 ```
@@ -2441,7 +2441,7 @@ func InternalValue() GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglaketable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglaketable"
 
 googlebiglaketable.NewGoogleBiglakeTableTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeTableTimeoutsOutputReference
 ```

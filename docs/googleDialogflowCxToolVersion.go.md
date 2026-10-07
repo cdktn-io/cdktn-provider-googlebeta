@@ -4,12 +4,12 @@
 
 ### GoogleDialogflowCxToolVersion <a name="GoogleDialogflowCxToolVersion" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version google_dialogflow_cx_tool_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version google_dialogflow_cx_tool_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersion(scope Construct, id *string, config GoogleDialogflowCxToolVersionConfig) GoogleDialogflowCxToolVersion
 ```
@@ -447,7 +447,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.GoogleDialogflowCxToolVersion_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.GoogleDialogflowCxToolVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googledialogflowcxtoolversion.GoogleDialogflowCxToolVersion_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.GoogleDialogflowCxToolVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googledialogflowcxtoolversion.GoogleDialogflowCxToolVersion_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.GoogleDialogflowCxToolVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the GoogleDialogflowCxToolVers
 
 The id of the existing GoogleDialogflowCxToolVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -901,7 +901,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionConfig {
 	Connection: interface{},
@@ -913,10 +913,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 	Provisioners: *[]interface{},
 	DisplayName: *string,
 	Parent: *string,
-	Tool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTool,
+	Tool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTool,
 	DeletionPolicy: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTimeouts,
 }
 ```
 
@@ -935,7 +935,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionConfig.property.parent">Parent</a></code> | <code>*string</code> | The tool to create a Version for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/tools/<Tool ID>. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionConfig.property.tool">Tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTool">GoogleDialogflowCxToolVersionTool</a></code> | tool block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#id GoogleDialogflowCxToolVersion#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#id GoogleDialogflowCxToolVersion#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTimeouts">GoogleDialogflowCxToolVersionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1020,7 +1020,7 @@ DisplayName *string
 
 The display name of the tool version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#display_name GoogleDialogflowCxToolVersion#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#display_name GoogleDialogflowCxToolVersion#display_name}
 
 ---
 
@@ -1034,7 +1034,7 @@ Parent *string
 
 The tool to create a Version for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>/tools/<Tool ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#parent GoogleDialogflowCxToolVersion#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#parent GoogleDialogflowCxToolVersion#parent}
 
 ---
 
@@ -1048,7 +1048,7 @@ Tool GoogleDialogflowCxToolVersionTool
 
 tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#tool GoogleDialogflowCxToolVersion#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#tool GoogleDialogflowCxToolVersion#tool}
 
 ---
 
@@ -1069,7 +1069,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#deletion_policy GoogleDialogflowCxToolVersion#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#deletion_policy GoogleDialogflowCxToolVersion#deletion_policy}
 
 ---
 
@@ -1081,7 +1081,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#id GoogleDialogflowCxToolVersion#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#id GoogleDialogflowCxToolVersion#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1098,7 +1098,7 @@ Timeouts GoogleDialogflowCxToolVersionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#timeouts GoogleDialogflowCxToolVersion#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#timeouts GoogleDialogflowCxToolVersion#timeouts}
 
 ---
 
@@ -1107,7 +1107,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionTimeouts {
 	Create: *string,
@@ -1119,8 +1119,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#create GoogleDialogflowCxToolVersion#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#delete GoogleDialogflowCxToolVersion#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#create GoogleDialogflowCxToolVersion#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#delete GoogleDialogflowCxToolVersion#delete}. |
 
 ---
 
@@ -1132,7 +1132,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#create GoogleDialogflowCxToolVersion#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#create GoogleDialogflowCxToolVersion#create}.
 
 ---
 
@@ -1144,7 +1144,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#delete GoogleDialogflowCxToolVersion#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#delete GoogleDialogflowCxToolVersion#delete}.
 
 ---
 
@@ -1153,15 +1153,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionTool {
 	Description: *string,
 	DisplayName: *string,
-	ConnectorSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpec,
-	DataStoreSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolDataStoreSpec,
-	FunctionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolFunctionSpec,
-	OpenApiSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpec,
+	ConnectorSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpec,
+	DataStoreSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolDataStoreSpec,
+	FunctionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolFunctionSpec,
+	OpenApiSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpec,
 }
 ```
 
@@ -1188,7 +1188,7 @@ Description *string
 
 High level description of the Tool and its usage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#description GoogleDialogflowCxToolVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#description GoogleDialogflowCxToolVersion#description}
 
 ---
 
@@ -1202,7 +1202,7 @@ DisplayName *string
 
 The human-readable name of the tool, unique within the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#display_name GoogleDialogflowCxToolVersion#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#display_name GoogleDialogflowCxToolVersion#display_name}
 
 ---
 
@@ -1216,7 +1216,7 @@ ConnectorSpec GoogleDialogflowCxToolVersionToolConnectorSpec
 
 connector_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#connector_spec GoogleDialogflowCxToolVersion#connector_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#connector_spec GoogleDialogflowCxToolVersion#connector_spec}
 
 ---
 
@@ -1230,7 +1230,7 @@ DataStoreSpec GoogleDialogflowCxToolVersionToolDataStoreSpec
 
 data_store_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#data_store_spec GoogleDialogflowCxToolVersion#data_store_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#data_store_spec GoogleDialogflowCxToolVersion#data_store_spec}
 
 ---
 
@@ -1244,7 +1244,7 @@ FunctionSpec GoogleDialogflowCxToolVersionToolFunctionSpec
 
 function_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#function_spec GoogleDialogflowCxToolVersion#function_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#function_spec GoogleDialogflowCxToolVersion#function_spec}
 
 ---
 
@@ -1258,7 +1258,7 @@ OpenApiSpec GoogleDialogflowCxToolVersionToolOpenApiSpec
 
 open_api_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#open_api_spec GoogleDialogflowCxToolVersion#open_api_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#open_api_spec GoogleDialogflowCxToolVersion#open_api_spec}
 
 ---
 
@@ -1267,12 +1267,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolConnectorSpec {
 	Actions: interface{},
 	Name: *string,
-	EndUserAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfig,
+	EndUserAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfig,
 }
 ```
 
@@ -1296,7 +1296,7 @@ Actions interface{}
 
 actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#actions GoogleDialogflowCxToolVersion#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#actions GoogleDialogflowCxToolVersion#actions}
 
 ---
 
@@ -1310,7 +1310,7 @@ Name *string
 
 The full resource name of the referenced Integration Connectors Connection. Format: projects/* /locations/* /connections/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#name GoogleDialogflowCxToolVersion#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#name GoogleDialogflowCxToolVersion#name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1326,7 +1326,7 @@ EndUserAuthConfig GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfi
 
 end_user_auth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#end_user_auth_config GoogleDialogflowCxToolVersion#end_user_auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#end_user_auth_config GoogleDialogflowCxToolVersion#end_user_auth_config}
 
 ---
 
@@ -1335,11 +1335,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolConnectorSpecActions {
 	ConnectionActionId: *string,
-	EntityOperation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecActionsEntityOperation,
+	EntityOperation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecActionsEntityOperation,
 	InputFields: *[]*string,
 	OutputFields: *[]*string,
 }
@@ -1368,7 +1368,7 @@ ID of a Connection action for the tool to use.
 
 This field is part of a required union field 'action_spec'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#connection_action_id GoogleDialogflowCxToolVersion#connection_action_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#connection_action_id GoogleDialogflowCxToolVersion#connection_action_id}
 
 ---
 
@@ -1382,7 +1382,7 @@ EntityOperation GoogleDialogflowCxToolVersionToolConnectorSpecActionsEntityOpera
 
 entity_operation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#entity_operation GoogleDialogflowCxToolVersion#entity_operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#entity_operation GoogleDialogflowCxToolVersion#entity_operation}
 
 ---
 
@@ -1398,7 +1398,7 @@ Entity fields to use as inputs for the operation.
 
 If no fields are specified, all fields of the Entity will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#input_fields GoogleDialogflowCxToolVersion#input_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#input_fields GoogleDialogflowCxToolVersion#input_fields}
 
 ---
 
@@ -1412,7 +1412,7 @@ OutputFields *[]*string
 
 Entity fields to return from the operation. If no fields are specified, all fields of the Entity will be returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#output_fields GoogleDialogflowCxToolVersion#output_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#output_fields GoogleDialogflowCxToolVersion#output_fields}
 
 ---
 
@@ -1421,7 +1421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecActionsEntityOperation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolConnectorSpecActionsEntityOperation {
 	EntityId: *string,
@@ -1448,7 +1448,7 @@ EntityId *string
 
 ID of the entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#entity_id GoogleDialogflowCxToolVersion#entity_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#entity_id GoogleDialogflowCxToolVersion#entity_id}
 
 ---
 
@@ -1462,7 +1462,7 @@ Operation *string
 
 The operation to perform on the entity. Possible values: ["LIST", "CREATE", "UPDATE", "DELETE", "GET"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#operation GoogleDialogflowCxToolVersion#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#operation GoogleDialogflowCxToolVersion#operation}
 
 ---
 
@@ -1471,11 +1471,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfig {
-	Oauth2AuthCodeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig,
-	Oauth2JwtBearerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig,
+	Oauth2AuthCodeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig,
+	Oauth2JwtBearerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig,
 }
 ```
 
@@ -1498,7 +1498,7 @@ Oauth2AuthCodeConfig GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthCo
 
 oauth2_auth_code_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#oauth2_auth_code_config GoogleDialogflowCxToolVersion#oauth2_auth_code_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#oauth2_auth_code_config GoogleDialogflowCxToolVersion#oauth2_auth_code_config}
 
 ---
 
@@ -1512,7 +1512,7 @@ Oauth2JwtBearerConfig GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthC
 
 oauth2_jwt_bearer_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#oauth2_jwt_bearer_config GoogleDialogflowCxToolVersion#oauth2_jwt_bearer_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#oauth2_jwt_bearer_config GoogleDialogflowCxToolVersion#oauth2_jwt_bearer_config}
 
 ---
 
@@ -1521,7 +1521,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig {
 	OauthToken: *string,
@@ -1546,7 +1546,7 @@ OauthToken *string
 
 Oauth token value or parameter name to pass it through.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#oauth_token GoogleDialogflowCxToolVersion#oauth_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#oauth_token GoogleDialogflowCxToolVersion#oauth_token}
 
 ---
 
@@ -1555,7 +1555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig {
 	ClientKey: *string,
@@ -1584,7 +1584,7 @@ ClientKey *string
 
 Client key value or parameter name to pass it through.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#client_key GoogleDialogflowCxToolVersion#client_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#client_key GoogleDialogflowCxToolVersion#client_key}
 
 ---
 
@@ -1598,7 +1598,7 @@ Issuer *string
 
 Issuer value or parameter name to pass it through.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#issuer GoogleDialogflowCxToolVersion#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#issuer GoogleDialogflowCxToolVersion#issuer}
 
 ---
 
@@ -1612,7 +1612,7 @@ Subject *string
 
 Subject value or parameter name to pass it through.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#subject GoogleDialogflowCxToolVersion#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#subject GoogleDialogflowCxToolVersion#subject}
 
 ---
 
@@ -1621,11 +1621,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolDataStoreSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolDataStoreSpec {
 	DataStoreConnections: interface{},
-	FallbackPrompt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolDataStoreSpecFallbackPrompt,
+	FallbackPrompt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolDataStoreSpecFallbackPrompt,
 }
 ```
 
@@ -1648,7 +1648,7 @@ DataStoreConnections interface{}
 
 data_store_connections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#data_store_connections GoogleDialogflowCxToolVersion#data_store_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#data_store_connections GoogleDialogflowCxToolVersion#data_store_connections}
 
 ---
 
@@ -1662,7 +1662,7 @@ FallbackPrompt GoogleDialogflowCxToolVersionToolDataStoreSpecFallbackPrompt
 
 fallback_prompt block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#fallback_prompt GoogleDialogflowCxToolVersion#fallback_prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#fallback_prompt GoogleDialogflowCxToolVersion#fallback_prompt}
 
 ---
 
@@ -1671,7 +1671,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolDataStoreSpecDataStoreConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolDataStoreSpecDataStoreConnections {
 	DataStore: *string,
@@ -1700,7 +1700,7 @@ DataStore *string
 
 The full name of the referenced data store. Formats: projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore} projects/{project}/locations/{location}/dataStores/{dataStore}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#data_store GoogleDialogflowCxToolVersion#data_store}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#data_store GoogleDialogflowCxToolVersion#data_store}
 
 ---
 
@@ -1714,7 +1714,7 @@ DataStoreType *string
 
 The type of the connected data store. See [DataStoreType](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/DataStoreConnection#datastoretype) for valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#data_store_type GoogleDialogflowCxToolVersion#data_store_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#data_store_type GoogleDialogflowCxToolVersion#data_store_type}
 
 ---
 
@@ -1731,7 +1731,7 @@ The document processing mode for the data store connection.
 Should only be set for PUBLIC_WEB and UNSTRUCTURED data stores. If not set it is considered as DOCUMENTS, as this is the legacy mode.
 See [DocumentProcessingMode](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/DataStoreConnection#documentprocessingmode) for valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#document_processing_mode GoogleDialogflowCxToolVersion#document_processing_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#document_processing_mode GoogleDialogflowCxToolVersion#document_processing_mode}
 
 ---
 
@@ -1740,7 +1740,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolDataStoreSpecFallbackPrompt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolDataStoreSpecFallbackPrompt {
 
@@ -1753,7 +1753,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolFunctionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolFunctionSpec {
 	InputSchema: *string,
@@ -1783,7 +1783,7 @@ Optional.
 The JSON schema is encapsulated in a [google.protobuf.Struct](https://protobuf.dev/reference/protobuf/google.protobuf/#struct) to describe the input of the function.
 This input is a JSON object that contains the function's parameters as properties of the object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#input_schema GoogleDialogflowCxToolVersion#input_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#input_schema GoogleDialogflowCxToolVersion#input_schema}
 
 ---
 
@@ -1800,7 +1800,7 @@ Optional.
 The JSON schema is encapsulated in a [google.protobuf.Struct](https://protobuf.dev/reference/protobuf/google.protobuf/#struct) to describe the output of the function.
 This output is a JSON object that contains the function's parameters as properties of the object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#output_schema GoogleDialogflowCxToolVersion#output_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#output_schema GoogleDialogflowCxToolVersion#output_schema}
 
 ---
 
@@ -1809,13 +1809,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolOpenApiSpec {
 	TextSchema: *string,
-	Authentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthentication,
-	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecServiceDirectoryConfig,
-	TlsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfig,
+	Authentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthentication,
+	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecServiceDirectoryConfig,
+	TlsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfig,
 }
 ```
 
@@ -1842,7 +1842,7 @@ The OpenAPI schema specified as a text.
 
 This field is part of a union field 'schema': only one of 'textSchema' may be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#text_schema GoogleDialogflowCxToolVersion#text_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#text_schema GoogleDialogflowCxToolVersion#text_schema}
 
 ---
 
@@ -1856,7 +1856,7 @@ Authentication GoogleDialogflowCxToolVersionToolOpenApiSpecAuthentication
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#authentication GoogleDialogflowCxToolVersion#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#authentication GoogleDialogflowCxToolVersion#authentication}
 
 ---
 
@@ -1870,7 +1870,7 @@ ServiceDirectoryConfig GoogleDialogflowCxToolVersionToolOpenApiSpecServiceDirect
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#service_directory_config GoogleDialogflowCxToolVersion#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#service_directory_config GoogleDialogflowCxToolVersion#service_directory_config}
 
 ---
 
@@ -1884,7 +1884,7 @@ TlsConfig GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfig
 
 tls_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#tls_config GoogleDialogflowCxToolVersion#tls_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#tls_config GoogleDialogflowCxToolVersion#tls_config}
 
 ---
 
@@ -1893,13 +1893,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthentication {
-	ApiKeyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationApiKeyConfig,
-	BearerTokenConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationBearerTokenConfig,
-	OauthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationOauthConfig,
-	ServiceAgentAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationServiceAgentAuthConfig,
+	ApiKeyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationApiKeyConfig,
+	BearerTokenConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationBearerTokenConfig,
+	OauthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationOauthConfig,
+	ServiceAgentAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationServiceAgentAuthConfig,
 }
 ```
 
@@ -1924,7 +1924,7 @@ ApiKeyConfig GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationApiKeyCon
 
 api_key_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#api_key_config GoogleDialogflowCxToolVersion#api_key_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#api_key_config GoogleDialogflowCxToolVersion#api_key_config}
 
 ---
 
@@ -1938,7 +1938,7 @@ BearerTokenConfig GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationBear
 
 bearer_token_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#bearer_token_config GoogleDialogflowCxToolVersion#bearer_token_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#bearer_token_config GoogleDialogflowCxToolVersion#bearer_token_config}
 
 ---
 
@@ -1952,7 +1952,7 @@ OauthConfig GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationOauthConfi
 
 oauth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#oauth_config GoogleDialogflowCxToolVersion#oauth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#oauth_config GoogleDialogflowCxToolVersion#oauth_config}
 
 ---
 
@@ -1966,7 +1966,7 @@ ServiceAgentAuthConfig GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticatio
 
 service_agent_auth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#service_agent_auth_config GoogleDialogflowCxToolVersion#service_agent_auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#service_agent_auth_config GoogleDialogflowCxToolVersion#service_agent_auth_config}
 
 ---
 
@@ -1975,7 +1975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationApiKeyConfig {
 	KeyName: *string,
@@ -2008,7 +2008,7 @@ The parameter name or the header name of the API key.
 
 E.g., If the API request is "https://example.com/act?X-Api-Key=", "X-Api-Key" would be the parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#key_name GoogleDialogflowCxToolVersion#key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#key_name GoogleDialogflowCxToolVersion#key_name}
 
 ---
 
@@ -2022,7 +2022,7 @@ RequestLocation *string
 
 Key location in the request. See [RequestLocation](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/projects.locations.agents.tools#requestlocation) for valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#request_location GoogleDialogflowCxToolVersion#request_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#request_location GoogleDialogflowCxToolVersion#request_location}
 
 ---
 
@@ -2036,7 +2036,7 @@ ApiKey *string
 
 Optional. The API key. If the 'secretVersionForApiKey'' field is set, this field will be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#api_key GoogleDialogflowCxToolVersion#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#api_key GoogleDialogflowCxToolVersion#api_key}
 
 ---
 
@@ -2054,7 +2054,7 @@ The name of the SecretManager secret version resource storing the API key.
 If this field is set, the apiKey field will be ignored.
 Format: projects/{project}/secrets/{secret}/versions/{version}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#secret_version_for_api_key GoogleDialogflowCxToolVersion#secret_version_for_api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#secret_version_for_api_key GoogleDialogflowCxToolVersion#secret_version_for_api_key}
 
 ---
 
@@ -2063,7 +2063,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationBearerTokenConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationBearerTokenConfig {
 	SecretVersionForToken: *string,
@@ -2093,7 +2093,7 @@ Optional.
 The name of the SecretManager secret version resource storing the Bearer token. If this field is set, the 'token' field will be ignored.
 Format: projects/{project}/secrets/{secret}/versions/{version}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#secret_version_for_token GoogleDialogflowCxToolVersion#secret_version_for_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#secret_version_for_token GoogleDialogflowCxToolVersion#secret_version_for_token}
 
 ---
 
@@ -2110,7 +2110,7 @@ Optional.
 The text token appended to the text Bearer to the request Authorization header.
 [Session parameters reference](https://cloud.google.com/dialogflow/cx/docs/concept/parameter#session-ref) can be used to pass the token dynamically, e.g. '$session.params.parameter-id'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#token GoogleDialogflowCxToolVersion#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#token GoogleDialogflowCxToolVersion#token}
 
 ---
 
@@ -2119,7 +2119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationOauthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationOauthConfig {
 	ClientId: *string,
@@ -2154,7 +2154,7 @@ ClientId *string
 
 The client ID from the OAuth provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#client_id GoogleDialogflowCxToolVersion#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#client_id GoogleDialogflowCxToolVersion#client_id}
 
 ---
 
@@ -2168,7 +2168,7 @@ OauthGrantType *string
 
 OAuth grant types. See [OauthGrantType](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/projects.locations.agents.tools#oauthgranttype) for valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#oauth_grant_type GoogleDialogflowCxToolVersion#oauth_grant_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#oauth_grant_type GoogleDialogflowCxToolVersion#oauth_grant_type}
 
 ---
 
@@ -2182,7 +2182,7 @@ TokenEndpoint *string
 
 The token endpoint in the OAuth provider to exchange for an access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#token_endpoint GoogleDialogflowCxToolVersion#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#token_endpoint GoogleDialogflowCxToolVersion#token_endpoint}
 
 ---
 
@@ -2196,7 +2196,7 @@ ClientSecret *string
 
 Optional. The client secret from the OAuth provider. If the 'secretVersionForClientSecret' field is set, this field will be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#client_secret GoogleDialogflowCxToolVersion#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#client_secret GoogleDialogflowCxToolVersion#client_secret}
 
 ---
 
@@ -2210,7 +2210,7 @@ Scopes *[]*string
 
 Optional. The OAuth scopes to grant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#scopes GoogleDialogflowCxToolVersion#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#scopes GoogleDialogflowCxToolVersion#scopes}
 
 ---
 
@@ -2228,7 +2228,7 @@ The name of the SecretManager secret version resource storing the client secret.
 If this field is set, the clientSecret field will be ignored.
 Format: projects/{project}/secrets/{secret}/versions/{version}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#secret_version_for_client_secret GoogleDialogflowCxToolVersion#secret_version_for_client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#secret_version_for_client_secret GoogleDialogflowCxToolVersion#secret_version_for_client_secret}
 
 ---
 
@@ -2237,7 +2237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationServiceAgentAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationServiceAgentAuthConfig {
 	ServiceAgentAuth: *string,
@@ -2266,7 +2266,7 @@ Indicate the auth token type generated from the Diglogflow service agent.
 The generated token is sent in the Authorization header.
 See [ServiceAgentAuth](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/projects.locations.agents.tools#serviceagentauth) for valid values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#service_agent_auth GoogleDialogflowCxToolVersion#service_agent_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#service_agent_auth GoogleDialogflowCxToolVersion#service_agent_auth}
 
 ---
 
@@ -2275,7 +2275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolOpenApiSpecServiceDirectoryConfig {
 	Service: *string,
@@ -2300,7 +2300,7 @@ Service *string
 
 The name of [Service Directory](https://cloud.google.com/service-directory/docs) service. Format: projects/<ProjectID>/locations/<LocationID>/namespaces/<NamespaceID>/services/<ServiceID>. LocationID of the service directory must be the same as the location of the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#service GoogleDialogflowCxToolVersion#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#service GoogleDialogflowCxToolVersion#service}
 
 ---
 
@@ -2309,7 +2309,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfig {
 	CaCerts: interface{},
@@ -2334,7 +2334,7 @@ CaCerts interface{}
 
 ca_certs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#ca_certs GoogleDialogflowCxToolVersion#ca_certs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#ca_certs GoogleDialogflowCxToolVersion#ca_certs}
 
 ---
 
@@ -2343,7 +2343,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfigCaCerts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 &googledialogflowcxtoolversion.GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfigCaCerts {
 	Cert: *string,
@@ -2384,7 +2384,7 @@ For instance a certificate can be self-signed using the following command:
 
 A base64-encoded string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#cert GoogleDialogflowCxToolVersion#cert}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#cert GoogleDialogflowCxToolVersion#cert}
 
 ---
 
@@ -2398,7 +2398,7 @@ DisplayName *string
 
 The name of the allowed custom CA certificates. This can be used to disambiguate the custom CA certificates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_tool_version#display_name GoogleDialogflowCxToolVersion#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_tool_version#display_name GoogleDialogflowCxToolVersion#display_name}
 
 ---
 
@@ -2409,7 +2409,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionTimeoutsOutputReference
 ```
@@ -2716,7 +2716,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecActionsEntityOperationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolConnectorSpecActionsEntityOperationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolConnectorSpecActionsEntityOperationOutputReference
 ```
@@ -3009,7 +3009,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolConnectorSpecActionsEntity
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolConnectorSpecActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxToolVersionToolConnectorSpecActionsList
 ```
@@ -3169,7 +3169,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolConnectorSpecActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxToolVersionToolConnectorSpecActionsOutputReference
 ```
@@ -3565,7 +3565,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference
 ```
@@ -3836,7 +3836,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference
 ```
@@ -4151,7 +4151,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthConfigOutputReference
 ```
@@ -4484,7 +4484,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolConnectorSpecEndUserAuthCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolConnectorSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolConnectorSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolConnectorSpecOutputReference
 ```
@@ -4832,7 +4832,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolConnectorSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolDataStoreSpecDataStoreConnectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolDataStoreSpecDataStoreConnectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxToolVersionToolDataStoreSpecDataStoreConnectionsList
 ```
@@ -4992,7 +4992,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolDataStoreSpecDataStoreConnectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolDataStoreSpecDataStoreConnectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxToolVersionToolDataStoreSpecDataStoreConnectionsOutputReference
 ```
@@ -5346,7 +5346,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolDataStoreSpecFallbackPromptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolDataStoreSpecFallbackPromptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolDataStoreSpecFallbackPromptOutputReference
 ```
@@ -5595,7 +5595,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolDataStoreSpecFallbackPromp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolDataStoreSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolDataStoreSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolDataStoreSpecOutputReference
 ```
@@ -5914,7 +5914,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolDataStoreSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolFunctionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolFunctionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolFunctionSpecOutputReference
 ```
@@ -6221,7 +6221,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolFunctionSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationApiKeyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationApiKeyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationApiKeyConfigOutputReference
 ```
@@ -6572,7 +6572,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationA
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference
 ```
@@ -6879,7 +6879,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationB
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationOauthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationOauthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationOauthConfigOutputReference
 ```
@@ -7281,7 +7281,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationO
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationOutputReference
 ```
@@ -7698,7 +7698,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolOpenApiSpecAuthentication
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationServiceAgentAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationServiceAgentAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationServiceAgentAuthConfigOutputReference
 ```
@@ -7976,7 +7976,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolOpenApiSpecAuthenticationS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolOpenApiSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolOpenApiSpecOutputReference
 ```
@@ -8373,7 +8373,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolOpenApiSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolOpenApiSpecServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolOpenApiSpecServiceDirectoryConfigOutputReference
 ```
@@ -8644,7 +8644,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolOpenApiSpecServiceDirector
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfigCaCertsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfigCaCertsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfigCaCertsList
 ```
@@ -8804,7 +8804,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfigCaCertsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfigCaCertsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfigCaCertsOutputReference
 ```
@@ -9115,7 +9115,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfigOutputReference
 ```
@@ -9399,7 +9399,7 @@ func InternalValue() GoogleDialogflowCxToolVersionToolOpenApiSpecTlsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxToolVersion.GoogleDialogflowCxToolVersionToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxtoolversion"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxtoolversion"
 
 googledialogflowcxtoolversion.NewGoogleDialogflowCxToolVersionToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxToolVersionToolOutputReference
 ```

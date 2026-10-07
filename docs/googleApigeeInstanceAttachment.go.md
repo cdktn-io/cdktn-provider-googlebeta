@@ -4,12 +4,12 @@
 
 ### GoogleApigeeInstanceAttachment <a name="GoogleApigeeInstanceAttachment" id="@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment google_apigee_instance_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment google_apigee_instance_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeinstanceattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeinstanceattachment"
 
 googleapigeeinstanceattachment.NewGoogleApigeeInstanceAttachment(scope Construct, id *string, config GoogleApigeeInstanceAttachmentConfig) GoogleApigeeInstanceAttachment
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeinstanceattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeinstanceattachment"
 
 googleapigeeinstanceattachment.GoogleApigeeInstanceAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeinstanceattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeinstanceattachment"
 
 googleapigeeinstanceattachment.GoogleApigeeInstanceAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googleapigeeinstanceattachment.GoogleApigeeInstanceAttachment_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeinstanceattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeinstanceattachment"
 
 googleapigeeinstanceattachment.GoogleApigeeInstanceAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googleapigeeinstanceattachment.GoogleApigeeInstanceAttachment_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeinstanceattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeinstanceattachment"
 
 googleapigeeinstanceattachment.GoogleApigeeInstanceAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleApigeeInstanceAttach
 
 The id of the existing GoogleApigeeInstanceAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -844,7 +844,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeinstanceattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeinstanceattachment"
 
 &googleapigeeinstanceattachment.GoogleApigeeInstanceAttachmentConfig {
 	Connection: interface{},
@@ -858,7 +858,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 	InstanceId: *string,
 	DeletionPolicy: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentTimeouts,
 }
 ```
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentConfig.property.environment">Environment</a></code> | <code>*string</code> | The resource ID of the environment. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentConfig.property.instanceId">InstanceId</a></code> | <code>*string</code> | The Apigee instance associated with the Apigee environment, in the format 'organizations/{{org_name}}/instances/{{instance_name}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment#id GoogleApigeeInstanceAttachment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment#id GoogleApigeeInstanceAttachment#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentTimeouts">GoogleApigeeInstanceAttachmentTimeouts</a></code> | timeouts block. |
 
 ---
@@ -961,7 +961,7 @@ Environment *string
 
 The resource ID of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment#environment GoogleApigeeInstanceAttachment#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment#environment GoogleApigeeInstanceAttachment#environment}
 
 ---
 
@@ -975,7 +975,7 @@ InstanceId *string
 
 The Apigee instance associated with the Apigee environment, in the format 'organizations/{{org_name}}/instances/{{instance_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment#instance_id GoogleApigeeInstanceAttachment#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment#instance_id GoogleApigeeInstanceAttachment#instance_id}
 
 ---
 
@@ -996,7 +996,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment#deletion_policy GoogleApigeeInstanceAttachment#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment#deletion_policy GoogleApigeeInstanceAttachment#deletion_policy}
 
 ---
 
@@ -1008,7 +1008,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment#id GoogleApigeeInstanceAttachment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment#id GoogleApigeeInstanceAttachment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1025,7 +1025,7 @@ Timeouts GoogleApigeeInstanceAttachmentTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment#timeouts GoogleApigeeInstanceAttachment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment#timeouts GoogleApigeeInstanceAttachment#timeouts}
 
 ---
 
@@ -1034,7 +1034,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeinstanceattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeinstanceattachment"
 
 &googleapigeeinstanceattachment.GoogleApigeeInstanceAttachmentTimeouts {
 	Create: *string,
@@ -1046,8 +1046,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment#create GoogleApigeeInstanceAttachment#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment#delete GoogleApigeeInstanceAttachment#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment#create GoogleApigeeInstanceAttachment#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment#delete GoogleApigeeInstanceAttachment#delete}. |
 
 ---
 
@@ -1059,7 +1059,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment#create GoogleApigeeInstanceAttachment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment#create GoogleApigeeInstanceAttachment#create}.
 
 ---
 
@@ -1071,7 +1071,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_instance_attachment#delete GoogleApigeeInstanceAttachment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_instance_attachment#delete GoogleApigeeInstanceAttachment#delete}.
 
 ---
 
@@ -1082,7 +1082,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeInstanceAttachment.GoogleApigeeInstanceAttachmentTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeinstanceattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeinstanceattachment"
 
 googleapigeeinstanceattachment.NewGoogleApigeeInstanceAttachmentTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeInstanceAttachmentTimeoutsOutputReference
 ```

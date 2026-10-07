@@ -4,12 +4,12 @@
 
 ### GoogleIamFoldersPolicyBinding <a name="GoogleIamFoldersPolicyBinding" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding google_iam_folders_policy_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding google_iam_folders_policy_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 googleiamfolderspolicybinding.NewGoogleIamFoldersPolicyBinding(scope Construct, id *string, config GoogleIamFoldersPolicyBindingConfig) GoogleIamFoldersPolicyBinding
 ```
@@ -488,7 +488,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 googleiamfolderspolicybinding.GoogleIamFoldersPolicyBinding_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 googleiamfolderspolicybinding.GoogleIamFoldersPolicyBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googleiamfolderspolicybinding.GoogleIamFoldersPolicyBinding_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 googleiamfolderspolicybinding.GoogleIamFoldersPolicyBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googleiamfolderspolicybinding.GoogleIamFoldersPolicyBinding_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 googleiamfolderspolicybinding.GoogleIamFoldersPolicyBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the GoogleIamFoldersPolicyBind
 
 The id of the existing GoogleIamFoldersPolicyBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1118,7 +1118,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 &googleiamfolderspolicybinding.GoogleIamFoldersPolicyBindingCondition {
 	Description: *string,
@@ -1151,7 +1151,7 @@ Optional.
 
 Description of the expression. This is a longer text which describes the expression, e.g. when hovered over it in a UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#description GoogleIamFoldersPolicyBinding#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#description GoogleIamFoldersPolicyBinding#description}
 
 ---
 
@@ -1165,7 +1165,7 @@ Expression *string
 
 Textual representation of an expression in Common Expression Language syntax.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#expression GoogleIamFoldersPolicyBinding#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#expression GoogleIamFoldersPolicyBinding#expression}
 
 ---
 
@@ -1181,7 +1181,7 @@ Optional.
 
 String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#location GoogleIamFoldersPolicyBinding#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#location GoogleIamFoldersPolicyBinding#location}
 
 ---
 
@@ -1197,7 +1197,7 @@ Optional.
 
 Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#title GoogleIamFoldersPolicyBinding#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#title GoogleIamFoldersPolicyBinding#title}
 
 ---
 
@@ -1206,7 +1206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 &googleiamfolderspolicybinding.GoogleIamFoldersPolicyBindingConfig {
 	Connection: interface{},
@@ -1220,14 +1220,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 	Location: *string,
 	Policy: *string,
 	PolicyBindingId: *string,
-	Target: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTarget,
+	Target: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTarget,
 	Annotations: *map[string]*string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingCondition,
 	DeletionPolicy: *string,
 	DisplayName: *string,
 	Id: *string,
 	PolicyKind: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTimeouts,
 }
 ```
 
@@ -1251,7 +1251,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingCondition">GoogleIamFoldersPolicyBindingCondition</a></code> | condition block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | Optional. The description of the policy binding. Must be less than or equal to 63 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#id GoogleIamFoldersPolicyBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#id GoogleIamFoldersPolicyBinding#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingConfig.property.policyKind">PolicyKind</a></code> | <code>*string</code> | Immutable. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTimeouts">GoogleIamFoldersPolicyBindingTimeouts</a></code> | timeouts block. |
 
@@ -1337,7 +1337,7 @@ Folder *string
 
 The parent folder for the PolicyBinding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#folder GoogleIamFoldersPolicyBinding#folder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#folder GoogleIamFoldersPolicyBinding#folder}
 
 ---
 
@@ -1351,7 +1351,7 @@ Location *string
 
 The location of the PolicyBinding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#location GoogleIamFoldersPolicyBinding#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#location GoogleIamFoldersPolicyBinding#location}
 
 ---
 
@@ -1367,7 +1367,7 @@ Required.
 
 Immutable. The resource name of the policy to be bound. The binding parent and policy must belong to the same Organization (or Project).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#policy GoogleIamFoldersPolicyBinding#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#policy GoogleIamFoldersPolicyBinding#policy}
 
 ---
 
@@ -1381,7 +1381,7 @@ PolicyBindingId *string
 
 The Policy Binding ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#policy_binding_id GoogleIamFoldersPolicyBinding#policy_binding_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#policy_binding_id GoogleIamFoldersPolicyBinding#policy_binding_id}
 
 ---
 
@@ -1395,7 +1395,7 @@ Target GoogleIamFoldersPolicyBindingTarget
 
 target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#target GoogleIamFoldersPolicyBinding#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#target GoogleIamFoldersPolicyBinding#target}
 
 ---
 
@@ -1412,7 +1412,7 @@ Optional. User defined annotations. See https://google.aip.dev/148#annotations f
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#annotations GoogleIamFoldersPolicyBinding#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#annotations GoogleIamFoldersPolicyBinding#annotations}
 
 ---
 
@@ -1426,7 +1426,7 @@ Condition GoogleIamFoldersPolicyBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#condition GoogleIamFoldersPolicyBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#condition GoogleIamFoldersPolicyBinding#condition}
 
 ---
 
@@ -1447,7 +1447,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#deletion_policy GoogleIamFoldersPolicyBinding#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#deletion_policy GoogleIamFoldersPolicyBinding#deletion_policy}
 
 ---
 
@@ -1461,7 +1461,7 @@ DisplayName *string
 
 Optional. The description of the policy binding. Must be less than or equal to 63 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#display_name GoogleIamFoldersPolicyBinding#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#display_name GoogleIamFoldersPolicyBinding#display_name}
 
 ---
 
@@ -1473,7 +1473,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#id GoogleIamFoldersPolicyBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#id GoogleIamFoldersPolicyBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1494,7 +1494,7 @@ The kind of the policy to attach in this binding. This
 field must be one of the following:  - Left empty (will be automatically set
 to the policy kind) - The input policy kind   Possible values:  POLICY_KIND_UNSPECIFIED PRINCIPAL_ACCESS_BOUNDARY ACCESS
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#policy_kind GoogleIamFoldersPolicyBinding#policy_kind}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#policy_kind GoogleIamFoldersPolicyBinding#policy_kind}
 
 ---
 
@@ -1508,7 +1508,7 @@ Timeouts GoogleIamFoldersPolicyBindingTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#timeouts GoogleIamFoldersPolicyBinding#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#timeouts GoogleIamFoldersPolicyBinding#timeouts}
 
 ---
 
@@ -1517,10 +1517,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 &googleiamfolderspolicybinding.GoogleIamFoldersPolicyBindingTarget {
 	PrincipalSet: *string,
+	Resource: *string,
 }
 ```
 
@@ -1528,7 +1529,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTarget.property.principalSet">PrincipalSet</a></code> | <code>*string</code> | Required. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTarget.property.principalSet">PrincipalSet</a></code> | <code>*string</code> | Immutable. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTarget.property.resource">Resource</a></code> | <code>*string</code> | Immutable. |
 
 ---
 
@@ -1540,15 +1542,35 @@ PrincipalSet *string
 
 - *Type:* *string
 
-Required.
+Immutable.
 
-Immutable. Full Resource Name of the principal set used for principal access boundary policy bindings.
+Full Resource Name of the principal set used for principal access boundary policy bindings.
 Examples for each one of the following supported principal set types:
 
 * Folder: '//cloudresourcemanager.googleapis.com/folders/FOLDER_ID'
   It must be parent by the policy binding's parent (the folder).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#principal_set GoogleIamFoldersPolicyBinding#principal_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#principal_set GoogleIamFoldersPolicyBinding#principal_set}
+
+---
+
+##### `Resource`<sup>Optional</sup> <a name="Resource" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTarget.property.resource"></a>
+
+```go
+Resource *string
+```
+
+- *Type:* *string
+
+Immutable.
+
+Full Resource Name of the resource used for access policy bindings.
+Use this together with 'policy_kind = "ACCESS"'. Examples:
+
+* Folder: '//cloudresourcemanager.googleapis.com/folders/FOLDER_ID'
+  It must be the policy binding's parent (the folder).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#resource GoogleIamFoldersPolicyBinding#resource}
 
 ---
 
@@ -1557,7 +1579,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 &googleiamfolderspolicybinding.GoogleIamFoldersPolicyBindingTimeouts {
 	Create: *string,
@@ -1570,9 +1592,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleia
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#create GoogleIamFoldersPolicyBinding#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#delete GoogleIamFoldersPolicyBinding#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#update GoogleIamFoldersPolicyBinding#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#create GoogleIamFoldersPolicyBinding#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#delete GoogleIamFoldersPolicyBinding#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#update GoogleIamFoldersPolicyBinding#update}. |
 
 ---
 
@@ -1584,7 +1606,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#create GoogleIamFoldersPolicyBinding#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#create GoogleIamFoldersPolicyBinding#create}.
 
 ---
 
@@ -1596,7 +1618,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#delete GoogleIamFoldersPolicyBinding#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#delete GoogleIamFoldersPolicyBinding#delete}.
 
 ---
 
@@ -1608,7 +1630,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folders_policy_binding#update GoogleIamFoldersPolicyBinding#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folders_policy_binding#update GoogleIamFoldersPolicyBinding#update}.
 
 ---
 
@@ -1619,7 +1641,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 googleiamfolderspolicybinding.NewGoogleIamFoldersPolicyBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamFoldersPolicyBindingConditionOutputReference
 ```
@@ -1984,7 +2006,7 @@ func InternalValue() GoogleIamFoldersPolicyBindingCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 googleiamfolderspolicybinding.NewGoogleIamFoldersPolicyBindingTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamFoldersPolicyBindingTargetOutputReference
 ```
@@ -2030,6 +2052,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.resetPrincipalSet">ResetPrincipalSet</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.resetResource">ResetResource</a></code> | *No description.* |
 
 ---
 
@@ -2189,6 +2212,12 @@ Returns a reversible string representation.
 func ResetPrincipalSet()
 ```
 
+##### `ResetResource` <a name="ResetResource" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.resetResource"></a>
+
+```go
+func ResetResource()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -2197,7 +2226,9 @@ func ResetPrincipalSet()
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.property.principalSetInput">PrincipalSetInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.property.resourceInput">ResourceInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.property.principalSet">PrincipalSet</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.property.resource">Resource</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTarget">GoogleIamFoldersPolicyBindingTarget</a></code> | *No description.* |
 
 ---
@@ -2236,10 +2267,30 @@ func PrincipalSetInput() *string
 
 ---
 
+##### `ResourceInput`<sup>Optional</sup> <a name="ResourceInput" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.property.resourceInput"></a>
+
+```go
+func ResourceInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `PrincipalSet`<sup>Required</sup> <a name="PrincipalSet" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.property.principalSet"></a>
 
 ```go
 func PrincipalSet() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Resource`<sup>Required</sup> <a name="Resource" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTargetOutputReference.property.resource"></a>
+
+```go
+func Resource() *string
 ```
 
 - *Type:* *string
@@ -2262,7 +2313,7 @@ func InternalValue() GoogleIamFoldersPolicyBindingTarget
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFoldersPolicyBinding.GoogleIamFoldersPolicyBindingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderspolicybinding"
 
 googleiamfolderspolicybinding.NewGoogleIamFoldersPolicyBindingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamFoldersPolicyBindingTimeoutsOutputReference
 ```

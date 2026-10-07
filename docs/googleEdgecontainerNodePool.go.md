@@ -4,12 +4,12 @@
 
 ### GoogleEdgecontainerNodePool <a name="GoogleEdgecontainerNodePool" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool google_edgecontainer_node_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool google_edgecontainer_node_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 googleedgecontainernodepool.NewGoogleEdgecontainerNodePool(scope Construct, id *string, config GoogleEdgecontainerNodePoolConfig) GoogleEdgecontainerNodePool
 ```
@@ -495,7 +495,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 googleedgecontainernodepool.GoogleEdgecontainerNodePool_IsConstruct(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 googleedgecontainernodepool.GoogleEdgecontainerNodePool_IsTerraformElement(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ googleedgecontainernodepool.GoogleEdgecontainerNodePool_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePool.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 googleedgecontainernodepool.GoogleEdgecontainerNodePool_IsTerraformResource(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ googleedgecontainernodepool.GoogleEdgecontainerNodePool_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 googleedgecontainernodepool.GoogleEdgecontainerNodePool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -584,7 +584,7 @@ The construct id used in the generated config for the GoogleEdgecontainerNodePoo
 
 The id of the existing GoogleEdgecontainerNodePool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1125,7 +1125,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 &googleedgecontainernodepool.GoogleEdgecontainerNodePoolConfig {
 	Connection: interface{},
@@ -1143,11 +1143,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleed
 	DeletionPolicy: *string,
 	Id: *string,
 	Labels: *map[string]*string,
-	LocalDiskEncryption: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolLocalDiskEncryption,
+	LocalDiskEncryption: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolLocalDiskEncryption,
 	MachineFilter: *string,
-	NodeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolNodeConfig,
+	NodeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolNodeConfig,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolTimeouts,
 }
 ```
 
@@ -1168,12 +1168,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleed
 | <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.nodeCount">NodeCount</a></code> | <code>*f64</code> | The number of nodes in the pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.nodeLocation">NodeLocation</a></code> | <code>*string</code> | Name of the Google Distributed Cloud Edge zone where this node pool will be created. For example: 'us-central1-edge-customer-a'. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#id GoogleEdgecontainerNodePool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#id GoogleEdgecontainerNodePool#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Labels associated with this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.localDiskEncryption">LocalDiskEncryption</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolLocalDiskEncryption">GoogleEdgecontainerNodePoolLocalDiskEncryption</a></code> | local_disk_encryption block. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.machineFilter">MachineFilter</a></code> | <code>*string</code> | Only machines matching this filter will be allowed to join the node pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.nodeConfig">NodeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolNodeConfig">GoogleEdgecontainerNodePoolNodeConfig</a></code> | node_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#project GoogleEdgecontainerNodePool#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#project GoogleEdgecontainerNodePool#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolTimeouts">GoogleEdgecontainerNodePoolTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1258,7 +1258,7 @@ Cluster *string
 
 The name of the target Distributed Cloud Edge Cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#cluster GoogleEdgecontainerNodePool#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#cluster GoogleEdgecontainerNodePool#cluster}
 
 ---
 
@@ -1272,7 +1272,7 @@ Location *string
 
 The location of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#location GoogleEdgecontainerNodePool#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#location GoogleEdgecontainerNodePool#location}
 
 ---
 
@@ -1286,7 +1286,7 @@ Name *string
 
 The resource name of the node pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#name GoogleEdgecontainerNodePool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#name GoogleEdgecontainerNodePool#name}
 
 ---
 
@@ -1300,7 +1300,7 @@ NodeCount *f64
 
 The number of nodes in the pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#node_count GoogleEdgecontainerNodePool#node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#node_count GoogleEdgecontainerNodePool#node_count}
 
 ---
 
@@ -1314,7 +1314,7 @@ NodeLocation *string
 
 Name of the Google Distributed Cloud Edge zone where this node pool will be created. For example: 'us-central1-edge-customer-a'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#node_location GoogleEdgecontainerNodePool#node_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#node_location GoogleEdgecontainerNodePool#node_location}
 
 ---
 
@@ -1335,7 +1335,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#deletion_policy GoogleEdgecontainerNodePool#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#deletion_policy GoogleEdgecontainerNodePool#deletion_policy}
 
 ---
 
@@ -1347,7 +1347,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#id GoogleEdgecontainerNodePool#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#id GoogleEdgecontainerNodePool#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1367,7 +1367,7 @@ Labels associated with this resource.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#labels GoogleEdgecontainerNodePool#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#labels GoogleEdgecontainerNodePool#labels}
 
 ---
 
@@ -1381,7 +1381,7 @@ LocalDiskEncryption GoogleEdgecontainerNodePoolLocalDiskEncryption
 
 local_disk_encryption block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#local_disk_encryption GoogleEdgecontainerNodePool#local_disk_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#local_disk_encryption GoogleEdgecontainerNodePool#local_disk_encryption}
 
 ---
 
@@ -1398,7 +1398,7 @@ Only machines matching this filter will be allowed to join the node pool.
 The filtering language accepts strings like "name=<name>", and is
 documented in more detail in [AIP-160](https://google.aip.dev/160).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#machine_filter GoogleEdgecontainerNodePool#machine_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#machine_filter GoogleEdgecontainerNodePool#machine_filter}
 
 ---
 
@@ -1412,7 +1412,7 @@ NodeConfig GoogleEdgecontainerNodePoolNodeConfig
 
 node_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#node_config GoogleEdgecontainerNodePool#node_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#node_config GoogleEdgecontainerNodePool#node_config}
 
 ---
 
@@ -1424,7 +1424,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#project GoogleEdgecontainerNodePool#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#project GoogleEdgecontainerNodePool#project}.
 
 ---
 
@@ -1438,7 +1438,7 @@ Timeouts GoogleEdgecontainerNodePoolTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#timeouts GoogleEdgecontainerNodePool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#timeouts GoogleEdgecontainerNodePool#timeouts}
 
 ---
 
@@ -1447,7 +1447,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolLocalDiskEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 &googleedgecontainernodepool.GoogleEdgecontainerNodePoolLocalDiskEncryption {
 	KmsKey: *string,
@@ -1472,7 +1472,7 @@ KmsKey *string
 
 The Cloud KMS CryptoKey e.g. projects/{project}/locations/{location}/keyRings/{keyRing}/cryptoKeys/{cryptoKey} to use for protecting node local disks. If not specified, a Google-managed key will be used instead.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#kms_key GoogleEdgecontainerNodePool#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#kms_key GoogleEdgecontainerNodePool#kms_key}
 
 ---
 
@@ -1481,7 +1481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolNodeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 &googleedgecontainernodepool.GoogleEdgecontainerNodePoolNodeConfig {
 	Labels: *map[string]*string,
@@ -1506,7 +1506,7 @@ Labels *map[string]*string
 
 "The Kubernetes node labels".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#labels GoogleEdgecontainerNodePool#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#labels GoogleEdgecontainerNodePool#labels}
 
 ---
 
@@ -1515,7 +1515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 &googleedgecontainernodepool.GoogleEdgecontainerNodePoolTimeouts {
 	Create: *string,
@@ -1528,9 +1528,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleed
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#create GoogleEdgecontainerNodePool#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#delete GoogleEdgecontainerNodePool#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#update GoogleEdgecontainerNodePool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#create GoogleEdgecontainerNodePool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#delete GoogleEdgecontainerNodePool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#update GoogleEdgecontainerNodePool#update}. |
 
 ---
 
@@ -1542,7 +1542,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#create GoogleEdgecontainerNodePool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#create GoogleEdgecontainerNodePool#create}.
 
 ---
 
@@ -1554,7 +1554,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#delete GoogleEdgecontainerNodePool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#delete GoogleEdgecontainerNodePool#delete}.
 
 ---
 
@@ -1566,7 +1566,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool#update GoogleEdgecontainerNodePool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool#update GoogleEdgecontainerNodePool#update}.
 
 ---
 
@@ -1577,7 +1577,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolLocalDiskEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 googleedgecontainernodepool.NewGoogleEdgecontainerNodePoolLocalDiskEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEdgecontainerNodePoolLocalDiskEncryptionOutputReference
 ```
@@ -1877,7 +1877,7 @@ func InternalValue() GoogleEdgecontainerNodePoolLocalDiskEncryption
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolNodeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 googleedgecontainernodepool.NewGoogleEdgecontainerNodePoolNodeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEdgecontainerNodePoolNodeConfigOutputReference
 ```
@@ -2155,7 +2155,7 @@ func InternalValue() GoogleEdgecontainerNodePoolNodeConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEdgecontainerNodePool.GoogleEdgecontainerNodePoolTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool"
 
 googleedgecontainernodepool.NewGoogleEdgecontainerNodePoolTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEdgecontainerNodePoolTimeoutsOutputReference
 ```

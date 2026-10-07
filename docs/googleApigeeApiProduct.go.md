@@ -4,12 +4,12 @@
 
 ### GoogleApigeeApiProduct <a name="GoogleApigeeApiProduct" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProduct"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product google_apigee_api_product}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product google_apigee_api_product}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProduct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProduct(scope Construct, id *string, config GoogleApigeeApiProductConfig) GoogleApigeeApiProduct
 ```
@@ -591,7 +591,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProduct.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.GoogleApigeeApiProduct_IsConstruct(x interface{}) *bool
 ```
@@ -623,7 +623,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProduct.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.GoogleApigeeApiProduct_IsTerraformElement(x interface{}) *bool
 ```
@@ -637,7 +637,7 @@ googleapigeeapiproduct.GoogleApigeeApiProduct_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProduct.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.GoogleApigeeApiProduct_IsTerraformResource(x interface{}) *bool
 ```
@@ -651,7 +651,7 @@ googleapigeeapiproduct.GoogleApigeeApiProduct_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProduct.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.GoogleApigeeApiProduct_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -680,7 +680,7 @@ The construct id used in the generated config for the GoogleApigeeApiProduct to 
 
 The id of the existing GoogleApigeeApiProduct that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1364,7 +1364,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductAttributes {
 	Name: *string,
@@ -1391,7 +1391,7 @@ Name *string
 
 Key of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#name GoogleApigeeApiProduct#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#name GoogleApigeeApiProduct#name}
 
 ---
 
@@ -1405,7 +1405,7 @@ Value *string
 
 Value of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#value GoogleApigeeApiProduct#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#value GoogleApigeeApiProduct#value}
 
 ---
 
@@ -1414,7 +1414,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductConfig {
 	Connection: interface{},
@@ -1433,10 +1433,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 	DeletionPolicy: *string,
 	Description: *string,
 	Environments: *[]*string,
-	GraphqlOperationGroup: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroup,
-	GrpcOperationGroup: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroup,
+	GraphqlOperationGroup: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroup,
+	GrpcOperationGroup: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroup,
 	Id: *string,
-	OperationGroup: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroup,
+	OperationGroup: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroup,
 	Proxies: *[]*string,
 	Quota: *string,
 	QuotaCounterScope: *string,
@@ -1444,7 +1444,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 	QuotaTimeUnit: *string,
 	Scopes: *[]*string,
 	Space: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApigeeApiProduct.GoogleApigeeApiProductTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleApigeeApiProduct.GoogleApigeeApiProductTimeouts,
 }
 ```
 
@@ -1470,7 +1470,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductConfig.property.environments">Environments</a></code> | <code>*[]*string</code> | Comma-separated list of environment names to which the API product is bound. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductConfig.property.graphqlOperationGroup">GraphqlOperationGroup</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroup">GoogleApigeeApiProductGraphqlOperationGroup</a></code> | graphql_operation_group block. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductConfig.property.grpcOperationGroup">GrpcOperationGroup</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroup">GoogleApigeeApiProductGrpcOperationGroup</a></code> | grpc_operation_group block. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#id GoogleApigeeApiProduct#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#id GoogleApigeeApiProduct#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductConfig.property.operationGroup">OperationGroup</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroup">GoogleApigeeApiProductOperationGroup</a></code> | operation_group block. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductConfig.property.proxies">Proxies</a></code> | <code>*[]*string</code> | Comma-separated list of API proxy names to which this API product is bound. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductConfig.property.quota">Quota</a></code> | <code>*string</code> | Number of request messages permitted per app by this API product for the specified quotaInterval and quotaTimeUnit. |
@@ -1563,7 +1563,7 @@ DisplayName *string
 
 Name displayed in the UI or developer portal to developers registering for API access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#display_name GoogleApigeeApiProduct#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#display_name GoogleApigeeApiProduct#display_name}
 
 ---
 
@@ -1577,7 +1577,7 @@ Name *string
 
 Internal name of the API product.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#name GoogleApigeeApiProduct#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#name GoogleApigeeApiProduct#name}
 
 ---
 
@@ -1591,7 +1591,7 @@ OrgId *string
 
 The Apigee Organization associated with the Apigee API product, in the format 'organizations/{{org_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#org_id GoogleApigeeApiProduct#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#org_id GoogleApigeeApiProduct#org_id}
 
 ---
 
@@ -1608,7 +1608,7 @@ Comma-separated list of API resources to be bundled in the API product.
 By default, the resource paths are mapped from the proxy.pathsuffix variable.
 The proxy path suffix is defined as the URI fragment following the ProxyEndpoint base path. For example, if the apiResources element is defined to be /forecastrss and the base path defined for the API proxy is /weather, then only requests to /weather/forecastrss are permitted by the API product.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#api_resources GoogleApigeeApiProduct#api_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#api_resources GoogleApigeeApiProduct#api_resources}
 
 ---
 
@@ -1624,7 +1624,7 @@ Flag that specifies how API keys are approved to access the APIs defined by the 
 
 Valid values are 'auto' or 'manual'. Possible values: ["auto", "manual"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#approval_type GoogleApigeeApiProduct#approval_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#approval_type GoogleApigeeApiProduct#approval_type}
 
 ---
 
@@ -1638,7 +1638,7 @@ Attributes interface{}
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#attributes GoogleApigeeApiProduct#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#attributes GoogleApigeeApiProduct#attributes}
 
 ---
 
@@ -1659,7 +1659,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#deletion_policy GoogleApigeeApiProduct#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#deletion_policy GoogleApigeeApiProduct#deletion_policy}
 
 ---
 
@@ -1673,7 +1673,7 @@ Description *string
 
 Description of the API product. Include key information about the API product that is not captured by other fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#description GoogleApigeeApiProduct#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#description GoogleApigeeApiProduct#description}
 
 ---
 
@@ -1690,7 +1690,7 @@ Comma-separated list of environment names to which the API product is bound.
 Requests to environments that are not listed are rejected.
 By specifying one or more environments, you can bind the resources listed in the API product to a specific environment, preventing developers from accessing those resources through API proxies deployed in another environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#environments GoogleApigeeApiProduct#environments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#environments GoogleApigeeApiProduct#environments}
 
 ---
 
@@ -1704,7 +1704,7 @@ GraphqlOperationGroup GoogleApigeeApiProductGraphqlOperationGroup
 
 graphql_operation_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#graphql_operation_group GoogleApigeeApiProduct#graphql_operation_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#graphql_operation_group GoogleApigeeApiProduct#graphql_operation_group}
 
 ---
 
@@ -1718,7 +1718,7 @@ GrpcOperationGroup GoogleApigeeApiProductGrpcOperationGroup
 
 grpc_operation_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#grpc_operation_group GoogleApigeeApiProduct#grpc_operation_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#grpc_operation_group GoogleApigeeApiProduct#grpc_operation_group}
 
 ---
 
@@ -1730,7 +1730,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#id GoogleApigeeApiProduct#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#id GoogleApigeeApiProduct#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1747,7 +1747,7 @@ OperationGroup GoogleApigeeApiProductOperationGroup
 
 operation_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#operation_group GoogleApigeeApiProduct#operation_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#operation_group GoogleApigeeApiProduct#operation_group}
 
 ---
 
@@ -1764,7 +1764,7 @@ Comma-separated list of API proxy names to which this API product is bound.
 By specifying API proxies, you can associate resources in the API product with specific API proxies, preventing developers from accessing those resources through other API proxies.
 Apigee rejects requests to API proxies that are not listed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#proxies GoogleApigeeApiProduct#proxies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#proxies GoogleApigeeApiProduct#proxies}
 
 ---
 
@@ -1780,7 +1780,7 @@ Number of request messages permitted per app by this API product for the specifi
 
 For example, a quota of 50, for a quotaInterval of 12 and a quotaTimeUnit of hours means 50 requests are allowed every 12 hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#quota GoogleApigeeApiProduct#quota}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#quota GoogleApigeeApiProduct#quota}
 
 ---
 
@@ -1796,7 +1796,7 @@ Scope of the quota decides how the quota counter gets applied and evaluate for q
 
 If the Scope is set as PROXY, then all the operations defined for the APIproduct that are associated with the same proxy will share the same quota counter set at the APIproduct level, making it a global counter at a proxy level. If the Scope is set as OPERATION, then each operations get the counter set at the API product dedicated, making it a local counter. Note that, the QuotaCounterScope applies only when an operation does not have dedicated quota set for itself. Possible values: ["QUOTA_COUNTER_SCOPE_UNSPECIFIED", "PROXY", "OPERATION"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#quota_counter_scope GoogleApigeeApiProduct#quota_counter_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#quota_counter_scope GoogleApigeeApiProduct#quota_counter_scope}
 
 ---
 
@@ -1810,7 +1810,7 @@ QuotaInterval *string
 
 Time interval over which the number of request messages is calculated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#quota_interval GoogleApigeeApiProduct#quota_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#quota_interval GoogleApigeeApiProduct#quota_interval}
 
 ---
 
@@ -1824,7 +1824,7 @@ QuotaTimeUnit *string
 
 Time unit defined for the quotaInterval. Valid values include second, minute, hour, day, month or year.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#quota_time_unit GoogleApigeeApiProduct#quota_time_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#quota_time_unit GoogleApigeeApiProduct#quota_time_unit}
 
 ---
 
@@ -1840,7 +1840,7 @@ Comma-separated list of OAuth scopes that are validated at runtime.
 
 Apigee validates that the scopes in any access token presented match the scopes defined in the OAuth policy associated with the API product.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#scopes GoogleApigeeApiProduct#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#scopes GoogleApigeeApiProduct#scopes}
 
 ---
 
@@ -1854,7 +1854,7 @@ Space *string
 
 Optional. The resource ID of the parent Space. If not set, the parent resource will be the Organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#space GoogleApigeeApiProduct#space}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#space GoogleApigeeApiProduct#space}
 
 ---
 
@@ -1868,7 +1868,7 @@ Timeouts GoogleApigeeApiProductTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#timeouts GoogleApigeeApiProduct#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#timeouts GoogleApigeeApiProduct#timeouts}
 
 ---
 
@@ -1877,7 +1877,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductGraphqlOperationGroup {
 	OperationConfigs: interface{},
@@ -1904,7 +1904,7 @@ OperationConfigs interface{}
 
 operation_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#operation_configs GoogleApigeeApiProduct#operation_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#operation_configs GoogleApigeeApiProduct#operation_configs}
 
 ---
 
@@ -1920,7 +1920,7 @@ Flag that specifes whether the configuration is for Apigee API proxy or a remote
 
 Valid values include proxy or remoteservice. Defaults to proxy. Set to proxy when Apigee API proxies are associated with the API product. Set to remoteservice when non-Apigee proxies like Istio-Envoy are associated with the API product. Possible values: ["proxy", "remoteservice"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#operation_config_type GoogleApigeeApiProduct#operation_config_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#operation_config_type GoogleApigeeApiProduct#operation_config_type}
 
 ---
 
@@ -1929,13 +1929,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigs {
 	ApiSource: *string,
 	Attributes: interface{},
 	Operations: interface{},
-	Quota: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsQuota,
+	Quota: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsQuota,
 }
 ```
 
@@ -1960,7 +1960,7 @@ ApiSource *string
 
 Required. Name of the API proxy endpoint or remote service with which the GraphQL operation and quota are associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#api_source GoogleApigeeApiProduct#api_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#api_source GoogleApigeeApiProduct#api_source}
 
 ---
 
@@ -1974,7 +1974,7 @@ Attributes interface{}
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#attributes GoogleApigeeApiProduct#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#attributes GoogleApigeeApiProduct#attributes}
 
 ---
 
@@ -1988,7 +1988,7 @@ Operations interface{}
 
 operations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#operations GoogleApigeeApiProduct#operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#operations GoogleApigeeApiProduct#operations}
 
 ---
 
@@ -2002,7 +2002,7 @@ Quota GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsQuota
 
 quota block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#quota GoogleApigeeApiProduct#quota}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#quota GoogleApigeeApiProduct#quota}
 
 ---
 
@@ -2011,7 +2011,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsAttributes {
 	Name: *string,
@@ -2038,7 +2038,7 @@ Name *string
 
 Key of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#name GoogleApigeeApiProduct#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#name GoogleApigeeApiProduct#name}
 
 ---
 
@@ -2052,7 +2052,7 @@ Value *string
 
 Value of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#value GoogleApigeeApiProduct#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#value GoogleApigeeApiProduct#value}
 
 ---
 
@@ -2061,7 +2061,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsOperations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsOperations {
 	Operation: *string,
@@ -2090,7 +2090,7 @@ GraphQL operation name.
 
 The name and operation type will be used to apply quotas. If no name is specified, the quota will be applied to all GraphQL operations irrespective of their operation names in the payload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#operation GoogleApigeeApiProduct#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#operation GoogleApigeeApiProduct#operation}
 
 ---
 
@@ -2104,7 +2104,7 @@ OperationTypes *[]*string
 
 Required. GraphQL operation types. Valid values include query or mutation. Note: Apigee does not currently support subscription types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#operation_types GoogleApigeeApiProduct#operation_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#operation_types GoogleApigeeApiProduct#operation_types}
 
 ---
 
@@ -2113,7 +2113,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsQuota.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsQuota {
 	Interval: *string,
@@ -2142,7 +2142,7 @@ Interval *string
 
 Required. Time interval over which the number of request messages is calculated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#interval GoogleApigeeApiProduct#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#interval GoogleApigeeApiProduct#interval}
 
 ---
 
@@ -2156,7 +2156,7 @@ Limit *string
 
 Required. Upper limit allowed for the time interval and time unit specified. Requests exceeding this limit will be rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#limit GoogleApigeeApiProduct#limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#limit GoogleApigeeApiProduct#limit}
 
 ---
 
@@ -2172,7 +2172,7 @@ Time unit defined for the interval.
 
 Valid values include second, minute, hour, day, month or year. If limit and interval are valid, the default value is hour; otherwise, the default is null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#time_unit GoogleApigeeApiProduct#time_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#time_unit GoogleApigeeApiProduct#time_unit}
 
 ---
 
@@ -2181,7 +2181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductGrpcOperationGroup {
 	OperationConfigs: interface{},
@@ -2206,7 +2206,7 @@ OperationConfigs interface{}
 
 operation_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#operation_configs GoogleApigeeApiProduct#operation_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#operation_configs GoogleApigeeApiProduct#operation_configs}
 
 ---
 
@@ -2215,13 +2215,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigs {
 	ApiSource: *string,
 	Attributes: interface{},
 	Methods: *[]*string,
-	Quota: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigsQuota,
+	Quota: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigsQuota,
 	Service: *string,
 }
 ```
@@ -2248,7 +2248,7 @@ ApiSource *string
 
 Required. Name of the API proxy with which the gRPC operation and quota are associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#api_source GoogleApigeeApiProduct#api_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#api_source GoogleApigeeApiProduct#api_source}
 
 ---
 
@@ -2262,7 +2262,7 @@ Attributes interface{}
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#attributes GoogleApigeeApiProduct#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#attributes GoogleApigeeApiProduct#attributes}
 
 ---
 
@@ -2282,7 +2282,7 @@ Example: Given a proxy that is configured to serve com.petstore.PetService, the 
 
 Note: Currently, you can specify only a single GraphQLOperation. Specifying more than one will cause the operation to fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#methods GoogleApigeeApiProduct#methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#methods GoogleApigeeApiProduct#methods}
 
 ---
 
@@ -2296,7 +2296,7 @@ Quota GoogleApigeeApiProductGrpcOperationGroupOperationConfigsQuota
 
 quota block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#quota GoogleApigeeApiProduct#quota}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#quota GoogleApigeeApiProduct#quota}
 
 ---
 
@@ -2312,7 +2312,7 @@ Required.
 
 gRPC Service name associated to be associated with the API proxy, on which quota rules can be applied upon.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#service GoogleApigeeApiProduct#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#service GoogleApigeeApiProduct#service}
 
 ---
 
@@ -2321,7 +2321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigsAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigsAttributes {
 	Name: *string,
@@ -2348,7 +2348,7 @@ Name *string
 
 Key of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#name GoogleApigeeApiProduct#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#name GoogleApigeeApiProduct#name}
 
 ---
 
@@ -2362,7 +2362,7 @@ Value *string
 
 Value of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#value GoogleApigeeApiProduct#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#value GoogleApigeeApiProduct#value}
 
 ---
 
@@ -2371,7 +2371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigsQuota.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigsQuota {
 	Interval: *string,
@@ -2400,7 +2400,7 @@ Interval *string
 
 Required. Time interval over which the number of request messages is calculated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#interval GoogleApigeeApiProduct#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#interval GoogleApigeeApiProduct#interval}
 
 ---
 
@@ -2414,7 +2414,7 @@ Limit *string
 
 Required. Upper limit allowed for the time interval and time unit specified. Requests exceeding this limit will be rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#limit GoogleApigeeApiProduct#limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#limit GoogleApigeeApiProduct#limit}
 
 ---
 
@@ -2430,7 +2430,7 @@ Time unit defined for the interval.
 
 Valid values include second, minute, hour, day, month or year. If limit and interval are valid, the default value is hour; otherwise, the default is null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#time_unit GoogleApigeeApiProduct#time_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#time_unit GoogleApigeeApiProduct#time_unit}
 
 ---
 
@@ -2439,7 +2439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductOperationGroup {
 	OperationConfigs: interface{},
@@ -2466,7 +2466,7 @@ OperationConfigs interface{}
 
 operation_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#operation_configs GoogleApigeeApiProduct#operation_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#operation_configs GoogleApigeeApiProduct#operation_configs}
 
 ---
 
@@ -2482,7 +2482,7 @@ Flag that specifes whether the configuration is for Apigee API proxy or a remote
 
 Valid values include proxy or remoteservice. Defaults to proxy. Set to proxy when Apigee API proxies are associated with the API product. Set to remoteservice when non-Apigee proxies like Istio-Envoy are associated with the API product. Possible values: ["proxy", "remoteservice"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#operation_config_type GoogleApigeeApiProduct#operation_config_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#operation_config_type GoogleApigeeApiProduct#operation_config_type}
 
 ---
 
@@ -2491,13 +2491,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductOperationGroupOperationConfigs {
 	ApiSource: *string,
 	Attributes: interface{},
 	Operations: interface{},
-	Quota: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsQuota,
+	Quota: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsQuota,
 }
 ```
 
@@ -2522,7 +2522,7 @@ ApiSource *string
 
 Required. Name of the API proxy or remote service with which the resources, methods, and quota are associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#api_source GoogleApigeeApiProduct#api_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#api_source GoogleApigeeApiProduct#api_source}
 
 ---
 
@@ -2536,7 +2536,7 @@ Attributes interface{}
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#attributes GoogleApigeeApiProduct#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#attributes GoogleApigeeApiProduct#attributes}
 
 ---
 
@@ -2550,7 +2550,7 @@ Operations interface{}
 
 operations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#operations GoogleApigeeApiProduct#operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#operations GoogleApigeeApiProduct#operations}
 
 ---
 
@@ -2564,7 +2564,7 @@ Quota GoogleApigeeApiProductOperationGroupOperationConfigsQuota
 
 quota block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#quota GoogleApigeeApiProduct#quota}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#quota GoogleApigeeApiProduct#quota}
 
 ---
 
@@ -2573,7 +2573,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductOperationGroupOperationConfigsAttributes {
 	Name: *string,
@@ -2600,7 +2600,7 @@ Name *string
 
 Key of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#name GoogleApigeeApiProduct#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#name GoogleApigeeApiProduct#name}
 
 ---
 
@@ -2614,7 +2614,7 @@ Value *string
 
 Value of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#value GoogleApigeeApiProduct#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#value GoogleApigeeApiProduct#value}
 
 ---
 
@@ -2623,7 +2623,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsOperations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductOperationGroupOperationConfigsOperations {
 	Methods: *[]*string,
@@ -2650,7 +2650,7 @@ Methods *[]*string
 
 Methods refers to the REST verbs, when none specified, all verb types are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#methods GoogleApigeeApiProduct#methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#methods GoogleApigeeApiProduct#methods}
 
 ---
 
@@ -2664,7 +2664,7 @@ Resource *string
 
 Required. REST resource path associated with the API proxy or remote service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#resource GoogleApigeeApiProduct#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#resource GoogleApigeeApiProduct#resource}
 
 ---
 
@@ -2673,7 +2673,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsQuota.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductOperationGroupOperationConfigsQuota {
 	Interval: *string,
@@ -2702,7 +2702,7 @@ Interval *string
 
 Required. Time interval over which the number of request messages is calculated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#interval GoogleApigeeApiProduct#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#interval GoogleApigeeApiProduct#interval}
 
 ---
 
@@ -2716,7 +2716,7 @@ Limit *string
 
 Required. Upper limit allowed for the time interval and time unit specified. Requests exceeding this limit will be rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#limit GoogleApigeeApiProduct#limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#limit GoogleApigeeApiProduct#limit}
 
 ---
 
@@ -2732,7 +2732,7 @@ Time unit defined for the interval.
 
 Valid values include second, minute, hour, day, month or year. If limit and interval are valid, the default value is hour; otherwise, the default is null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#time_unit GoogleApigeeApiProduct#time_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#time_unit GoogleApigeeApiProduct#time_unit}
 
 ---
 
@@ -2741,7 +2741,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 &googleapigeeapiproduct.GoogleApigeeApiProductTimeouts {
 	Create: *string,
@@ -2754,9 +2754,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#create GoogleApigeeApiProduct#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#delete GoogleApigeeApiProduct#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#update GoogleApigeeApiProduct#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#create GoogleApigeeApiProduct#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#delete GoogleApigeeApiProduct#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#update GoogleApigeeApiProduct#update}. |
 
 ---
 
@@ -2768,7 +2768,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#create GoogleApigeeApiProduct#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#create GoogleApigeeApiProduct#create}.
 
 ---
 
@@ -2780,7 +2780,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#delete GoogleApigeeApiProduct#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#delete GoogleApigeeApiProduct#delete}.
 
 ---
 
@@ -2792,7 +2792,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product#update GoogleApigeeApiProduct#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product#update GoogleApigeeApiProduct#update}.
 
 ---
 
@@ -2803,7 +2803,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeApiProductAttributesList
 ```
@@ -2963,7 +2963,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeApiProductAttributesOutputReference
 ```
@@ -3288,7 +3288,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGraphqlOperationGroupOperationConfigsAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsAttributesList
 ```
@@ -3448,7 +3448,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGraphqlOperationGroupOperationConfigsAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsAttributesOutputReference
 ```
@@ -3773,7 +3773,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGraphqlOperationGroupOperationConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsList
 ```
@@ -3933,7 +3933,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsOperationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGraphqlOperationGroupOperationConfigsOperationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsOperationsList
 ```
@@ -4093,7 +4093,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsOperationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGraphqlOperationGroupOperationConfigsOperationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsOperationsOutputReference
 ```
@@ -4418,7 +4418,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGraphqlOperationGroupOperationConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsOutputReference
 ```
@@ -4840,7 +4840,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsQuotaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGraphqlOperationGroupOperationConfigsQuotaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeApiProductGraphqlOperationGroupOperationConfigsQuotaOutputReference
 ```
@@ -5176,7 +5176,7 @@ func InternalValue() GoogleApigeeApiProductGraphqlOperationGroupOperationConfigs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGraphqlOperationGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGraphqlOperationGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeApiProductGraphqlOperationGroupOutputReference
 ```
@@ -5496,7 +5496,7 @@ func InternalValue() GoogleApigeeApiProductGraphqlOperationGroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigsAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGrpcOperationGroupOperationConfigsAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeApiProductGrpcOperationGroupOperationConfigsAttributesList
 ```
@@ -5656,7 +5656,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigsAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGrpcOperationGroupOperationConfigsAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeApiProductGrpcOperationGroupOperationConfigsAttributesOutputReference
 ```
@@ -5981,7 +5981,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGrpcOperationGroupOperationConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeApiProductGrpcOperationGroupOperationConfigsList
 ```
@@ -6141,7 +6141,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGrpcOperationGroupOperationConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeApiProductGrpcOperationGroupOperationConfigsOutputReference
 ```
@@ -6579,7 +6579,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroupOperationConfigsQuotaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGrpcOperationGroupOperationConfigsQuotaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeApiProductGrpcOperationGroupOperationConfigsQuotaOutputReference
 ```
@@ -6915,7 +6915,7 @@ func InternalValue() GoogleApigeeApiProductGrpcOperationGroupOperationConfigsQuo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductGrpcOperationGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductGrpcOperationGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeApiProductGrpcOperationGroupOutputReference
 ```
@@ -7206,7 +7206,7 @@ func InternalValue() GoogleApigeeApiProductGrpcOperationGroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductOperationGroupOperationConfigsAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeApiProductOperationGroupOperationConfigsAttributesList
 ```
@@ -7366,7 +7366,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductOperationGroupOperationConfigsAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeApiProductOperationGroupOperationConfigsAttributesOutputReference
 ```
@@ -7691,7 +7691,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductOperationGroupOperationConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeApiProductOperationGroupOperationConfigsList
 ```
@@ -7851,7 +7851,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsOperationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductOperationGroupOperationConfigsOperationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeApiProductOperationGroupOperationConfigsOperationsList
 ```
@@ -8011,7 +8011,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsOperationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductOperationGroupOperationConfigsOperationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeApiProductOperationGroupOperationConfigsOperationsOutputReference
 ```
@@ -8336,7 +8336,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductOperationGroupOperationConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeApiProductOperationGroupOperationConfigsOutputReference
 ```
@@ -8758,7 +8758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOperationConfigsQuotaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductOperationGroupOperationConfigsQuotaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeApiProductOperationGroupOperationConfigsQuotaOutputReference
 ```
@@ -9094,7 +9094,7 @@ func InternalValue() GoogleApigeeApiProductOperationGroupOperationConfigsQuota
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductOperationGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductOperationGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeApiProductOperationGroupOutputReference
 ```
@@ -9414,7 +9414,7 @@ func InternalValue() GoogleApigeeApiProductOperationGroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiProduct.GoogleApigeeApiProductTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct"
 
 googleapigeeapiproduct.NewGoogleApigeeApiProductTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeApiProductTimeoutsOutputReference
 ```

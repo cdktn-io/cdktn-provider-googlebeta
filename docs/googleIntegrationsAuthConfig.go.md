@@ -4,12 +4,12 @@
 
 ### GoogleIntegrationsAuthConfig <a name="GoogleIntegrationsAuthConfig" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config google_integrations_auth_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config google_integrations_auth_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfig(scope Construct, id *string, config GoogleIntegrationsAuthConfigConfig) GoogleIntegrationsAuthConfig
 ```
@@ -509,7 +509,7 @@ func ResetVisibility()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.GoogleIntegrationsAuthConfig_IsConstruct(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.GoogleIntegrationsAuthConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ googleintegrationsauthconfig.GoogleIntegrationsAuthConfig_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.GoogleIntegrationsAuthConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -569,7 +569,7 @@ googleintegrationsauthconfig.GoogleIntegrationsAuthConfig_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.GoogleIntegrationsAuthConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -598,7 +598,7 @@ The construct id used in the generated config for the GoogleIntegrationsAuthConf
 
 The id of the existing GoogleIntegrationsAuthConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1183,7 +1183,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigClientCertificate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigClientCertificate {
 	EncryptedPrivateKey: *string,
@@ -1212,7 +1212,7 @@ EncryptedPrivateKey *string
 
 The ssl certificate encoded in PEM format. This string must include the begin header and end footer lines.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#encrypted_private_key GoogleIntegrationsAuthConfig#encrypted_private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#encrypted_private_key GoogleIntegrationsAuthConfig#encrypted_private_key}
 
 ---
 
@@ -1226,7 +1226,7 @@ SslCertificate *string
 
 The ssl certificate encoded in PEM format. This string must include the begin header and end footer lines.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#ssl_certificate GoogleIntegrationsAuthConfig#ssl_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#ssl_certificate GoogleIntegrationsAuthConfig#ssl_certificate}
 
 ---
 
@@ -1242,7 +1242,7 @@ Passphrase *string
 
 Note that 'passphrase' is not the password for web server, but an extra layer of security to protected private key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#passphrase GoogleIntegrationsAuthConfig#passphrase}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#passphrase GoogleIntegrationsAuthConfig#passphrase}
 
 ---
 
@@ -1251,7 +1251,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigConfig {
 	Connection: interface{},
@@ -1263,15 +1263,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlein
 	Provisioners: *[]interface{},
 	DisplayName: *string,
 	Location: *string,
-	ClientCertificate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigClientCertificate,
-	DecryptedCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredential,
+	ClientCertificate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigClientCertificate,
+	DecryptedCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredential,
 	DeletionPolicy: *string,
 	Description: *string,
 	ExpiryNotificationDuration: *[]*string,
 	Id: *string,
 	OverrideValidTime: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigTimeouts,
 	Visibility: *string,
 }
 ```
@@ -1294,9 +1294,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlein
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigConfig.property.description">Description</a></code> | <code>*string</code> | A description of the auth config. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigConfig.property.expiryNotificationDuration">ExpiryNotificationDuration</a></code> | <code>*[]*string</code> | User can define the time to receive notification after which the auth config becomes invalid. |
-| <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#id GoogleIntegrationsAuthConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#id GoogleIntegrationsAuthConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigConfig.property.overrideValidTime">OverrideValidTime</a></code> | <code>*string</code> | User provided expiry time to override. |
-| <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#project GoogleIntegrationsAuthConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#project GoogleIntegrationsAuthConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigTimeouts">GoogleIntegrationsAuthConfigTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigConfig.property.visibility">Visibility</a></code> | <code>*string</code> | The visibility of the auth config. Possible values: ["PRIVATE", "CLIENT_VISIBLE"]. |
 
@@ -1382,7 +1382,7 @@ DisplayName *string
 
 The name of the auth config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#display_name GoogleIntegrationsAuthConfig#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#display_name GoogleIntegrationsAuthConfig#display_name}
 
 ---
 
@@ -1396,7 +1396,7 @@ Location *string
 
 Location in which client needs to be provisioned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#location GoogleIntegrationsAuthConfig#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#location GoogleIntegrationsAuthConfig#location}
 
 ---
 
@@ -1410,7 +1410,7 @@ ClientCertificate GoogleIntegrationsAuthConfigClientCertificate
 
 client_certificate block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#client_certificate GoogleIntegrationsAuthConfig#client_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#client_certificate GoogleIntegrationsAuthConfig#client_certificate}
 
 ---
 
@@ -1424,7 +1424,7 @@ DecryptedCredential GoogleIntegrationsAuthConfigDecryptedCredential
 
 decrypted_credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#decrypted_credential GoogleIntegrationsAuthConfig#decrypted_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#decrypted_credential GoogleIntegrationsAuthConfig#decrypted_credential}
 
 ---
 
@@ -1445,7 +1445,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#deletion_policy GoogleIntegrationsAuthConfig#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#deletion_policy GoogleIntegrationsAuthConfig#deletion_policy}
 
 ---
 
@@ -1459,7 +1459,7 @@ Description *string
 
 A description of the auth config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#description GoogleIntegrationsAuthConfig#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#description GoogleIntegrationsAuthConfig#description}
 
 ---
 
@@ -1477,7 +1477,7 @@ Support up to 30 days. Support granularity in hours.
 
 A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#expiry_notification_duration GoogleIntegrationsAuthConfig#expiry_notification_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#expiry_notification_duration GoogleIntegrationsAuthConfig#expiry_notification_duration}
 
 ---
 
@@ -1489,7 +1489,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#id GoogleIntegrationsAuthConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#id GoogleIntegrationsAuthConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1510,7 +1510,7 @@ For the example of Salesforce, username/password credentials can be valid for 6 
 
 A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#override_valid_time GoogleIntegrationsAuthConfig#override_valid_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#override_valid_time GoogleIntegrationsAuthConfig#override_valid_time}
 
 ---
 
@@ -1522,7 +1522,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#project GoogleIntegrationsAuthConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#project GoogleIntegrationsAuthConfig#project}.
 
 ---
 
@@ -1536,7 +1536,7 @@ Timeouts GoogleIntegrationsAuthConfigTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#timeouts GoogleIntegrationsAuthConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#timeouts GoogleIntegrationsAuthConfig#timeouts}
 
 ---
 
@@ -1550,7 +1550,7 @@ Visibility *string
 
 The visibility of the auth config. Possible values: ["PRIVATE", "CLIENT_VISIBLE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#visibility GoogleIntegrationsAuthConfig#visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#visibility GoogleIntegrationsAuthConfig#visibility}
 
 ---
 
@@ -1559,17 +1559,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredential {
 	CredentialType: *string,
-	AuthToken: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialAuthToken,
-	Jwt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialJwt,
-	Oauth2AuthorizationCode: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode,
-	Oauth2ClientCredentials: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentials,
-	OidcToken: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOidcToken,
-	ServiceAccountCredentials: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentials,
-	UsernameAndPassword: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPassword,
+	AuthToken: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialAuthToken,
+	Jwt: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialJwt,
+	Oauth2AuthorizationCode: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode,
+	Oauth2ClientCredentials: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentials,
+	OidcToken: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOidcToken,
+	ServiceAccountCredentials: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentials,
+	UsernameAndPassword: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPassword,
 }
 ```
 
@@ -1598,7 +1598,7 @@ CredentialType *string
 
 Credential type associated with auth configs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#credential_type GoogleIntegrationsAuthConfig#credential_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#credential_type GoogleIntegrationsAuthConfig#credential_type}
 
 ---
 
@@ -1612,7 +1612,7 @@ AuthToken GoogleIntegrationsAuthConfigDecryptedCredentialAuthToken
 
 auth_token block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#auth_token GoogleIntegrationsAuthConfig#auth_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#auth_token GoogleIntegrationsAuthConfig#auth_token}
 
 ---
 
@@ -1626,7 +1626,7 @@ Jwt GoogleIntegrationsAuthConfigDecryptedCredentialJwt
 
 jwt block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#jwt GoogleIntegrationsAuthConfig#jwt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#jwt GoogleIntegrationsAuthConfig#jwt}
 
 ---
 
@@ -1640,7 +1640,7 @@ Oauth2AuthorizationCode GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Aut
 
 oauth2_authorization_code block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#oauth2_authorization_code GoogleIntegrationsAuthConfig#oauth2_authorization_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#oauth2_authorization_code GoogleIntegrationsAuthConfig#oauth2_authorization_code}
 
 ---
 
@@ -1654,7 +1654,7 @@ Oauth2ClientCredentials GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Cli
 
 oauth2_client_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#oauth2_client_credentials GoogleIntegrationsAuthConfig#oauth2_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#oauth2_client_credentials GoogleIntegrationsAuthConfig#oauth2_client_credentials}
 
 ---
 
@@ -1668,7 +1668,7 @@ OidcToken GoogleIntegrationsAuthConfigDecryptedCredentialOidcToken
 
 oidc_token block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#oidc_token GoogleIntegrationsAuthConfig#oidc_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#oidc_token GoogleIntegrationsAuthConfig#oidc_token}
 
 ---
 
@@ -1682,7 +1682,7 @@ ServiceAccountCredentials GoogleIntegrationsAuthConfigDecryptedCredentialService
 
 service_account_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#service_account_credentials GoogleIntegrationsAuthConfig#service_account_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#service_account_credentials GoogleIntegrationsAuthConfig#service_account_credentials}
 
 ---
 
@@ -1696,7 +1696,7 @@ UsernameAndPassword GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPa
 
 username_and_password block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#username_and_password GoogleIntegrationsAuthConfig#username_and_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#username_and_password GoogleIntegrationsAuthConfig#username_and_password}
 
 ---
 
@@ -1705,7 +1705,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialAuthToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialAuthToken {
 	Token: *string,
@@ -1732,7 +1732,7 @@ Token *string
 
 The token for the auth type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#token GoogleIntegrationsAuthConfig#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#token GoogleIntegrationsAuthConfig#token}
 
 ---
 
@@ -1746,7 +1746,7 @@ Type *string
 
 Authentication type, e.g. "Basic", "Bearer", etc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#type GoogleIntegrationsAuthConfig#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#type GoogleIntegrationsAuthConfig#type}
 
 ---
 
@@ -1755,7 +1755,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialJwt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialJwt {
 	JwtHeader: *string,
@@ -1784,7 +1784,7 @@ JwtHeader *string
 
 Identifies which algorithm is used to generate the signature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#jwt_header GoogleIntegrationsAuthConfig#jwt_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#jwt_header GoogleIntegrationsAuthConfig#jwt_header}
 
 ---
 
@@ -1800,7 +1800,7 @@ Contains a set of claims.
 
 The JWT specification defines seven Registered Claim Names which are the standard fields commonly included in tokens. Custom claims are usually also included, depending on the purpose of the token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#jwt_payload GoogleIntegrationsAuthConfig#jwt_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#jwt_payload GoogleIntegrationsAuthConfig#jwt_payload}
 
 ---
 
@@ -1814,7 +1814,7 @@ Secret *string
 
 User's pre-shared secret to sign the token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#secret GoogleIntegrationsAuthConfig#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#secret GoogleIntegrationsAuthConfig#secret}
 
 ---
 
@@ -1823,7 +1823,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode {
 	AuthEndpoint: *string,
@@ -1856,7 +1856,7 @@ AuthEndpoint *string
 
 The auth url endpoint to send the auth code request to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#auth_endpoint GoogleIntegrationsAuthConfig#auth_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#auth_endpoint GoogleIntegrationsAuthConfig#auth_endpoint}
 
 ---
 
@@ -1870,7 +1870,7 @@ ClientId *string
 
 The client's id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#client_id GoogleIntegrationsAuthConfig#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#client_id GoogleIntegrationsAuthConfig#client_id}
 
 ---
 
@@ -1884,7 +1884,7 @@ ClientSecret *string
 
 The client's secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#client_secret GoogleIntegrationsAuthConfig#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#client_secret GoogleIntegrationsAuthConfig#client_secret}
 
 ---
 
@@ -1898,7 +1898,7 @@ Scope *string
 
 A space-delimited list of requested scope permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
 
 ---
 
@@ -1912,7 +1912,7 @@ TokenEndpoint *string
 
 The token url endpoint to send the token request to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#token_endpoint GoogleIntegrationsAuthConfig#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#token_endpoint GoogleIntegrationsAuthConfig#token_endpoint}
 
 ---
 
@@ -1921,7 +1921,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentials {
 	ClientId: *string,
@@ -1929,7 +1929,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlein
 	RequestType: *string,
 	Scope: *string,
 	TokenEndpoint: *string,
-	TokenParams: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParams,
+	TokenParams: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParams,
 }
 ```
 
@@ -1956,7 +1956,7 @@ ClientId *string
 
 The client's ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#client_id GoogleIntegrationsAuthConfig#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#client_id GoogleIntegrationsAuthConfig#client_id}
 
 ---
 
@@ -1970,7 +1970,7 @@ ClientSecret *string
 
 The client's secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#client_secret GoogleIntegrationsAuthConfig#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#client_secret GoogleIntegrationsAuthConfig#client_secret}
 
 ---
 
@@ -1984,7 +1984,7 @@ RequestType *string
 
 Represent how to pass parameters to fetch access token Possible values: ["REQUEST_TYPE_UNSPECIFIED", "REQUEST_BODY", "QUERY_PARAMETERS", "ENCODED_HEADER"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#request_type GoogleIntegrationsAuthConfig#request_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#request_type GoogleIntegrationsAuthConfig#request_type}
 
 ---
 
@@ -1998,7 +1998,7 @@ Scope *string
 
 A space-delimited list of requested scope permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
 
 ---
 
@@ -2012,7 +2012,7 @@ TokenEndpoint *string
 
 The token endpoint is used by the client to obtain an access token by presenting its authorization grant or refresh token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#token_endpoint GoogleIntegrationsAuthConfig#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#token_endpoint GoogleIntegrationsAuthConfig#token_endpoint}
 
 ---
 
@@ -2026,7 +2026,7 @@ TokenParams GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentia
 
 token_params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#token_params GoogleIntegrationsAuthConfig#token_params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#token_params GoogleIntegrationsAuthConfig#token_params}
 
 ---
 
@@ -2035,7 +2035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParams {
 	Entries: interface{},
@@ -2060,7 +2060,7 @@ Entries interface{}
 
 entries block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#entries GoogleIntegrationsAuthConfig#entries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#entries GoogleIntegrationsAuthConfig#entries}
 
 ---
 
@@ -2069,11 +2069,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries {
-	Key: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKey,
-	Value: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValue,
+	Key: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKey,
+	Value: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValue,
 }
 ```
 
@@ -2096,7 +2096,7 @@ Key GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenP
 
 key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#key GoogleIntegrationsAuthConfig#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#key GoogleIntegrationsAuthConfig#key}
 
 ---
 
@@ -2110,7 +2110,7 @@ Value GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsToke
 
 value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#value GoogleIntegrationsAuthConfig#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#value GoogleIntegrationsAuthConfig#value}
 
 ---
 
@@ -2119,10 +2119,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKey {
-	LiteralValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValue,
+	LiteralValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValue,
 }
 ```
 
@@ -2144,7 +2144,7 @@ LiteralValue GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredenti
 
 literal_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
 
 ---
 
@@ -2153,7 +2153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValue {
 	StringValue: *string,
@@ -2178,7 +2178,7 @@ StringValue *string
 
 String.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
 
 ---
 
@@ -2187,10 +2187,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValue {
-	LiteralValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValue,
+	LiteralValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValue,
 }
 ```
 
@@ -2212,7 +2212,7 @@ LiteralValue GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredenti
 
 literal_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
 
 ---
 
@@ -2221,7 +2221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValue {
 	StringValue: *string,
@@ -2246,7 +2246,7 @@ StringValue *string
 
 String.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
 
 ---
 
@@ -2255,7 +2255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOidcToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialOidcToken {
 	Audience: *string,
@@ -2284,7 +2284,7 @@ Audience to be used when generating OIDC token.
 
 The audience claim identifies the recipients that the JWT is intended for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#audience GoogleIntegrationsAuthConfig#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#audience GoogleIntegrationsAuthConfig#audience}
 
 ---
 
@@ -2298,7 +2298,7 @@ ServiceAccountEmail *string
 
 The service account email to be used as the identity for the token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#service_account_email GoogleIntegrationsAuthConfig#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#service_account_email GoogleIntegrationsAuthConfig#service_account_email}
 
 ---
 
@@ -2307,7 +2307,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentials {
 	Scope: *string,
@@ -2334,7 +2334,7 @@ Scope *string
 
 A space-delimited list of requested scope permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
 
 ---
 
@@ -2348,7 +2348,7 @@ ServiceAccount *string
 
 Name of the service account that has the permission to make the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#service_account GoogleIntegrationsAuthConfig#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#service_account GoogleIntegrationsAuthConfig#service_account}
 
 ---
 
@@ -2357,7 +2357,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPassword.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPassword {
 	Password: *string,
@@ -2384,7 +2384,7 @@ Password *string
 
 Password to be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#password GoogleIntegrationsAuthConfig#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#password GoogleIntegrationsAuthConfig#password}
 
 ---
 
@@ -2398,7 +2398,7 @@ Username *string
 
 Username to be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#username GoogleIntegrationsAuthConfig#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#username GoogleIntegrationsAuthConfig#username}
 
 ---
 
@@ -2407,7 +2407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 &googleintegrationsauthconfig.GoogleIntegrationsAuthConfigTimeouts {
 	Create: *string,
@@ -2420,9 +2420,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlein
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#create GoogleIntegrationsAuthConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#delete GoogleIntegrationsAuthConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#update GoogleIntegrationsAuthConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#create GoogleIntegrationsAuthConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#delete GoogleIntegrationsAuthConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#update GoogleIntegrationsAuthConfig#update}. |
 
 ---
 
@@ -2434,7 +2434,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#create GoogleIntegrationsAuthConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#create GoogleIntegrationsAuthConfig#create}.
 
 ---
 
@@ -2446,7 +2446,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#delete GoogleIntegrationsAuthConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#delete GoogleIntegrationsAuthConfig#delete}.
 
 ---
 
@@ -2458,7 +2458,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_auth_config#update GoogleIntegrationsAuthConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_auth_config#update GoogleIntegrationsAuthConfig#update}.
 
 ---
 
@@ -2469,7 +2469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigClientCertificateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigClientCertificateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigClientCertificateOutputReference
 ```
@@ -2791,7 +2791,7 @@ func InternalValue() GoogleIntegrationsAuthConfigClientCertificate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialAuthTokenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialAuthTokenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialAuthTokenOutputReference
 ```
@@ -3098,7 +3098,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialAuthToken
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialJwtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialJwtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialJwtOutputReference
 ```
@@ -3445,7 +3445,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialJwt
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference
 ```
@@ -3839,7 +3839,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Author
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsOutputReference
 ```
@@ -4275,7 +4275,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Client
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValueOutputReference
 ```
@@ -4553,7 +4553,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Client
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyOutputReference
 ```
@@ -4844,7 +4844,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Client
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesList
 ```
@@ -5004,7 +5004,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference
 ```
@@ -5355,7 +5355,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValueOutputReference
 ```
@@ -5633,7 +5633,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Client
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueOutputReference
 ```
@@ -5924,7 +5924,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Client
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsOutputReference
 ```
@@ -6215,7 +6215,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Client
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOidcTokenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialOidcTokenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialOidcTokenOutputReference
 ```
@@ -6544,7 +6544,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialOidcToken
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialOutputReference
 ```
@@ -7109,7 +7109,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredential
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference
 ```
@@ -7416,7 +7416,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPasswordOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPasswordOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPasswordOutputReference
 ```
@@ -7723,7 +7723,7 @@ func InternalValue() GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndP
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsAuthConfig.GoogleIntegrationsAuthConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsauthconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsauthconfig"
 
 googleintegrationsauthconfig.NewGoogleIntegrationsAuthConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigTimeoutsOutputReference
 ```

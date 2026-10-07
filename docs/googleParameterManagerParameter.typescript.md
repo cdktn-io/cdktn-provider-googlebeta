@@ -4,7 +4,7 @@
 
 ### GoogleParameterManagerParameter <a name="GoogleParameterManagerParameter" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter google_parameter_manager_parameter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter google_parameter_manager_parameter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.Initializer"></a>
 
@@ -81,6 +81,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.resetKmsKey">resetKmsKey</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.resetLabels">resetLabels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.resetTags">resetTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 
 ---
@@ -442,6 +443,12 @@ public resetLabels(): void
 public resetProject(): void
 ```
 
+##### `resetTags` <a name="resetTags" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.resetTags"></a>
+
+```typescript
+public resetTags(): void
+```
+
 ##### `resetTimeouts` <a name="resetTimeouts" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.resetTimeouts"></a>
 
 ```typescript
@@ -551,7 +558,7 @@ The construct id used in the generated config for the GoogleParameterManagerPara
 
 The id of the existing GoogleParameterManagerParameter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -595,6 +602,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.labelsInput">labelsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.parameterIdInput">parameterIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.tagsInput">tagsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterTimeouts">GoogleParameterManagerParameterTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.format">format</a></code> | <code>string</code> | *No description.* |
@@ -603,6 +611,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.parameterId">parameterId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.project">project</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 
 ---
 
@@ -888,6 +897,16 @@ public readonly projectInput: string;
 
 ---
 
+##### `tagsInput`<sup>Optional</sup> <a name="tagsInput" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.tagsInput"></a>
+
+```typescript
+public readonly tagsInput: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
 ##### `timeoutsInput`<sup>Optional</sup> <a name="timeoutsInput" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.timeoutsInput"></a>
 
 ```typescript
@@ -968,6 +987,16 @@ public readonly project: string;
 
 ---
 
+##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.property.tags"></a>
+
+```typescript
+public readonly tags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
 #### Constants <a name="Constants" id="Constants"></a>
 
 | **Name** | **Type** | **Description** |
@@ -1012,10 +1041,11 @@ const googleParameterManagerParameterConfig: googleParameterManagerParameter.Goo
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.parameterId">parameterId</a></code> | <code>string</code> | This must be unique within the project. |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.format">format</a></code> | <code>string</code> | The format type of the parameter resource. Default value: "UNFORMATTED" Possible values: ["UNFORMATTED", "YAML", "JSON"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#id GoogleParameterManagerParameter#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#id GoogleParameterManagerParameter#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.kmsKey">kmsKey</a></code> | <code>string</code> | The resource name of the Cloud KMS CryptoKey used to encrypt parameter version payload. Format 'projects/{{project}}/locations/global/keyRings/{{key_ring}}/cryptoKeys/{{crypto_key}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | The labels assigned to this Parameter. |
-| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#project GoogleParameterManagerParameter#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#project GoogleParameterManagerParameter#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | A map of resource manager tags. |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterTimeouts">GoogleParameterManagerParameterTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1100,7 +1130,7 @@ public readonly parameterId: string;
 
 This must be unique within the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#parameter_id GoogleParameterManagerParameter#parameter_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#parameter_id GoogleParameterManagerParameter#parameter_id}
 
 ---
 
@@ -1122,7 +1152,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#deletion_policy GoogleParameterManagerParameter#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#deletion_policy GoogleParameterManagerParameter#deletion_policy}
 
 ---
 
@@ -1136,7 +1166,7 @@ public readonly format: string;
 
 The format type of the parameter resource. Default value: "UNFORMATTED" Possible values: ["UNFORMATTED", "YAML", "JSON"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#format GoogleParameterManagerParameter#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#format GoogleParameterManagerParameter#format}
 
 ---
 
@@ -1148,7 +1178,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#id GoogleParameterManagerParameter#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#id GoogleParameterManagerParameter#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1165,7 +1195,7 @@ public readonly kmsKey: string;
 
 The resource name of the Cloud KMS CryptoKey used to encrypt parameter version payload. Format 'projects/{{project}}/locations/global/keyRings/{{key_ring}}/cryptoKeys/{{crypto_key}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#kms_key GoogleParameterManagerParameter#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#kms_key GoogleParameterManagerParameter#kms_key}
 
 ---
 
@@ -1194,7 +1224,7 @@ An object containing a list of "key": value pairs. Example:
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#labels GoogleParameterManagerParameter#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#labels GoogleParameterManagerParameter#labels}
 
 ---
 
@@ -1206,7 +1236,24 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#project GoogleParameterManagerParameter#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#project GoogleParameterManagerParameter#project}.
+
+---
+
+##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.property.tags"></a>
+
+```typescript
+public readonly tags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+A map of resource manager tags.
+
+Resource manager tag keys and values have the same definition as resource manager tags.
+Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/{tag_value_id}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#tags GoogleParameterManagerParameter#tags}
 
 ---
 
@@ -1220,7 +1267,7 @@ public readonly timeouts: GoogleParameterManagerParameterTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#timeouts GoogleParameterManagerParameter#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#timeouts GoogleParameterManagerParameter#timeouts}
 
 ---
 
@@ -1249,9 +1296,9 @@ const googleParameterManagerParameterTimeouts: googleParameterManagerParameter.G
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#create GoogleParameterManagerParameter#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#delete GoogleParameterManagerParameter#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#update GoogleParameterManagerParameter#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#create GoogleParameterManagerParameter#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#delete GoogleParameterManagerParameter#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#update GoogleParameterManagerParameter#update}. |
 
 ---
 
@@ -1263,7 +1310,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#create GoogleParameterManagerParameter#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#create GoogleParameterManagerParameter#create}.
 
 ---
 
@@ -1275,7 +1322,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#delete GoogleParameterManagerParameter#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#delete GoogleParameterManagerParameter#delete}.
 
 ---
 
@@ -1287,7 +1334,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter#update GoogleParameterManagerParameter#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter#update GoogleParameterManagerParameter#update}.
 
 ---
 

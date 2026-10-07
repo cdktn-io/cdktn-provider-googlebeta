@@ -4,12 +4,12 @@
 
 ### GoogleRedisCluster <a name="GoogleRedisCluster" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster google_redis_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster google_redis_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisCluster(scope Construct, id *string, config GoogleRedisClusterConfig) GoogleRedisCluster
 ```
@@ -699,7 +699,7 @@ func ResetZoneDistributionConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.GoogleRedisCluster_IsConstruct(x interface{}) *bool
 ```
@@ -731,7 +731,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.GoogleRedisCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -745,7 +745,7 @@ googlerediscluster.GoogleRedisCluster_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.GoogleRedisCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -759,7 +759,7 @@ googlerediscluster.GoogleRedisCluster_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.GoogleRedisCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -788,7 +788,7 @@ The construct id used in the generated config for the GoogleRedisCluster to impo
 
 The id of the existing GoogleRedisCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1769,10 +1769,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterAutomatedBackupConfig {
-	FixedFrequencySchedule: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfigFixedFrequencySchedule,
+	FixedFrequencySchedule: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfigFixedFrequencySchedule,
 	Retention: *string,
 }
 ```
@@ -1796,7 +1796,7 @@ FixedFrequencySchedule GoogleRedisClusterAutomatedBackupConfigFixedFrequencySche
 
 fixed_frequency_schedule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#fixed_frequency_schedule GoogleRedisCluster#fixed_frequency_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#fixed_frequency_schedule GoogleRedisCluster#fixed_frequency_schedule}
 
 ---
 
@@ -1813,7 +1813,7 @@ How long to keep automated backups before the backups are deleted.
 The value should be between 1 day and 365 days. If not specified, the default value is 35 days.
 A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#retention GoogleRedisCluster#retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#retention GoogleRedisCluster#retention}
 
 ---
 
@@ -1822,10 +1822,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfigFixedFrequencySchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterAutomatedBackupConfigFixedFrequencySchedule {
-	StartTime: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleStartTime,
+	StartTime: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleStartTime,
 }
 ```
 
@@ -1847,7 +1847,7 @@ StartTime GoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleStartTime
 
 start_time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#start_time GoogleRedisCluster#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#start_time GoogleRedisCluster#start_time}
 
 ---
 
@@ -1856,7 +1856,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleStartTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleStartTime {
 	Hours: *f64,
@@ -1884,7 +1884,7 @@ Hours of a day in 24 hour format.
 Must be greater than or equal to 0 and typically must be less than or equal to 23.
 An API may choose to allow the value "24:00:00" for scenarios like business closing time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#hours GoogleRedisCluster#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#hours GoogleRedisCluster#hours}
 
 ---
 
@@ -1893,7 +1893,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterConfig {
 	Connection: interface{},
@@ -1906,20 +1906,20 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 	ShardCount: *f64,
 	AclPolicy: *string,
 	AuthorizationMode: *string,
-	AutomatedBackupConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfig,
-	CrossClusterReplicationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfig,
+	AutomatedBackupConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfig,
+	CrossClusterReplicationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfig,
 	DeletionPolicy: *string,
 	DeletionProtectionEnabled: interface{},
-	GcsSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterGcsSource,
+	GcsSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterGcsSource,
 	Id: *string,
 	KmsKey: *string,
 	Labels: *map[string]*string,
-	MaintenancePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterMaintenancePolicy,
+	MaintenancePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterMaintenancePolicy,
 	MaintenanceVersion: *string,
-	ManagedBackupSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterManagedBackupSource,
+	ManagedBackupSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterManagedBackupSource,
 	Name: *string,
 	NodeType: *string,
-	PersistenceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterPersistenceConfig,
+	PersistenceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterPersistenceConfig,
 	Project: *string,
 	PscConfigs: interface{},
 	RedisConfigs: *map[string]*string,
@@ -1927,9 +1927,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 	ReplicaCount: *f64,
 	ServerCaMode: *string,
 	ServerCaPool: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterTimeouts,
 	TransitEncryptionMode: *string,
-	ZoneDistributionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterZoneDistributionConfig,
+	ZoneDistributionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterZoneDistributionConfig,
 }
 ```
 
@@ -1952,7 +1952,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.deletionProtectionEnabled">DeletionProtectionEnabled</a></code> | <code>interface{}</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.gcsSource">GcsSource</a></code> | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterGcsSource">GoogleRedisClusterGcsSource</a></code> | gcs_source block. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#id GoogleRedisCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#id GoogleRedisCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.kmsKey">KmsKey</a></code> | <code>*string</code> | The KMS key used to encrypt the at-rest data of the cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Resource labels to represent user provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.maintenancePolicy">MaintenancePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterMaintenancePolicy">GoogleRedisClusterMaintenancePolicy</a></code> | maintenance_policy block. |
@@ -1961,7 +1961,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.name">Name</a></code> | <code>*string</code> | Unique name of the resource in this scope including project and location using the form: projects/{projectId}/locations/{locationId}/clusters/{clusterId}. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.nodeType">NodeType</a></code> | <code>*string</code> | The nodeType for the Redis cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.persistenceConfig">PersistenceConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPersistenceConfig">GoogleRedisClusterPersistenceConfig</a></code> | persistence_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#project GoogleRedisCluster#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#project GoogleRedisCluster#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.pscConfigs">PscConfigs</a></code> | <code>interface{}</code> | psc_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.redisConfigs">RedisConfigs</a></code> | <code>*map[string]*string</code> | Configure Redis Cluster behavior using a subset of native Redis configuration parameters. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterConfig.property.region">Region</a></code> | <code>*string</code> | The name of the region of the Redis cluster. |
@@ -2054,7 +2054,7 @@ ShardCount *f64
 
 Required. Number of shards for the Redis cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#shard_count GoogleRedisCluster#shard_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#shard_count GoogleRedisCluster#shard_count}
 
 ---
 
@@ -2068,7 +2068,7 @@ AclPolicy *string
 
 Optional. The name of the ACL policy to attach to the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#acl_policy GoogleRedisCluster#acl_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#acl_policy GoogleRedisCluster#acl_policy}
 
 ---
 
@@ -2084,7 +2084,7 @@ Optional.
 
 The authorization mode of the Redis cluster. If not provided, auth feature is disabled for the cluster. Default value: "AUTH_MODE_DISABLED" Possible values: ["AUTH_MODE_UNSPECIFIED", "AUTH_MODE_IAM_AUTH", "AUTH_MODE_DISABLED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#authorization_mode GoogleRedisCluster#authorization_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#authorization_mode GoogleRedisCluster#authorization_mode}
 
 ---
 
@@ -2098,7 +2098,7 @@ AutomatedBackupConfig GoogleRedisClusterAutomatedBackupConfig
 
 automated_backup_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#automated_backup_config GoogleRedisCluster#automated_backup_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#automated_backup_config GoogleRedisCluster#automated_backup_config}
 
 ---
 
@@ -2112,7 +2112,7 @@ CrossClusterReplicationConfig GoogleRedisClusterCrossClusterReplicationConfig
 
 cross_cluster_replication_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#cross_cluster_replication_config GoogleRedisCluster#cross_cluster_replication_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#cross_cluster_replication_config GoogleRedisCluster#cross_cluster_replication_config}
 
 ---
 
@@ -2133,7 +2133,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#deletion_policy GoogleRedisCluster#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#deletion_policy GoogleRedisCluster#deletion_policy}
 
 ---
 
@@ -2151,7 +2151,7 @@ Indicates if the cluster is deletion protected or not.
 If the value if set to true, any delete cluster operation will fail.
 Default value is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#deletion_protection_enabled GoogleRedisCluster#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#deletion_protection_enabled GoogleRedisCluster#deletion_protection_enabled}
 
 ---
 
@@ -2165,7 +2165,7 @@ GcsSource GoogleRedisClusterGcsSource
 
 gcs_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#gcs_source GoogleRedisCluster#gcs_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#gcs_source GoogleRedisCluster#gcs_source}
 
 ---
 
@@ -2177,7 +2177,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#id GoogleRedisCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#id GoogleRedisCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2194,7 +2194,7 @@ KmsKey *string
 
 The KMS key used to encrypt the at-rest data of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#kms_key GoogleRedisCluster#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#kms_key GoogleRedisCluster#kms_key}
 
 ---
 
@@ -2211,7 +2211,7 @@ Resource labels to represent user provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#labels GoogleRedisCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#labels GoogleRedisCluster#labels}
 
 ---
 
@@ -2225,7 +2225,7 @@ MaintenancePolicy GoogleRedisClusterMaintenancePolicy
 
 maintenance_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#maintenance_policy GoogleRedisCluster#maintenance_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#maintenance_policy GoogleRedisCluster#maintenance_policy}
 
 ---
 
@@ -2242,7 +2242,7 @@ This field can be used to trigger self service update to indicate the desired ma
 The input to this field can be determined by the available_maintenance_versions field.
 *Note*: This field can only be specified when updating an existing cluster to a newer version. Downgrades are currently not supported!
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#maintenance_version GoogleRedisCluster#maintenance_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#maintenance_version GoogleRedisCluster#maintenance_version}
 
 ---
 
@@ -2256,7 +2256,7 @@ ManagedBackupSource GoogleRedisClusterManagedBackupSource
 
 managed_backup_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#managed_backup_source GoogleRedisCluster#managed_backup_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#managed_backup_source GoogleRedisCluster#managed_backup_source}
 
 ---
 
@@ -2270,7 +2270,7 @@ Name *string
 
 Unique name of the resource in this scope including project and location using the form: projects/{projectId}/locations/{locationId}/clusters/{clusterId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#name GoogleRedisCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#name GoogleRedisCluster#name}
 
 ---
 
@@ -2286,7 +2286,7 @@ The nodeType for the Redis cluster.
 
 If not provided, REDIS_HIGHMEM_MEDIUM will be used as default Possible values: ["REDIS_SHARED_CORE_NANO", "REDIS_HIGHMEM_MEDIUM", "REDIS_HIGHCPU_MEDIUM", "REDIS_STANDARD_LARGE", "REDIS_HIGHMEM_XLARGE", "REDIS_HIGHMEM_2XLARGE", "REDIS_STANDARD_SMALL"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#node_type GoogleRedisCluster#node_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#node_type GoogleRedisCluster#node_type}
 
 ---
 
@@ -2300,7 +2300,7 @@ PersistenceConfig GoogleRedisClusterPersistenceConfig
 
 persistence_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#persistence_config GoogleRedisCluster#persistence_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#persistence_config GoogleRedisCluster#persistence_config}
 
 ---
 
@@ -2312,7 +2312,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#project GoogleRedisCluster#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#project GoogleRedisCluster#project}.
 
 ---
 
@@ -2326,7 +2326,7 @@ PscConfigs interface{}
 
 psc_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#psc_configs GoogleRedisCluster#psc_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#psc_configs GoogleRedisCluster#psc_configs}
 
 ---
 
@@ -2343,7 +2343,7 @@ Configure Redis Cluster behavior using a subset of native Redis configuration pa
 Please check Memorystore documentation for the list of supported parameters:
 https://cloud.google.com/memorystore/docs/cluster/supported-instance-configurations
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#redis_configs GoogleRedisCluster#redis_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#redis_configs GoogleRedisCluster#redis_configs}
 
 ---
 
@@ -2357,7 +2357,7 @@ Region *string
 
 The name of the region of the Redis cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#region GoogleRedisCluster#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#region GoogleRedisCluster#region}
 
 ---
 
@@ -2371,7 +2371,7 @@ ReplicaCount *f64
 
 Optional. The number of replica nodes per shard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#replica_count GoogleRedisCluster#replica_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#replica_count GoogleRedisCluster#replica_count}
 
 ---
 
@@ -2387,7 +2387,7 @@ The serverCaMode for the TLS enabled Redis cluster.
 
 If not provided, SERVER_CA_MODE_GOOGLE_MANAGED_PER_INSTANCE_CA will be used as default Possible values: ["SERVER_CA_MODE_GOOGLE_MANAGED_PER_INSTANCE_CA", "SERVER_CA_MODE_GOOGLE_MANAGED_SHARED_CA", "SERVER_CA_MODE_CUSTOMER_MANAGED_CAS_CA", "SERVER_CA_MODE_UNSPECIFIED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#server_ca_mode GoogleRedisCluster#server_ca_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#server_ca_mode GoogleRedisCluster#server_ca_mode}
 
 ---
 
@@ -2401,7 +2401,7 @@ ServerCaPool *string
 
 The resource name of the server CA pool for an instance with SERVER_CA_MODE_CUSTOMER_MANAGED_CAS_CA as the server_ca_mode. Format: projects/{project}/locations/{region}/caPools/{caPoolId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#server_ca_pool GoogleRedisCluster#server_ca_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#server_ca_pool GoogleRedisCluster#server_ca_pool}
 
 ---
 
@@ -2415,7 +2415,7 @@ Timeouts GoogleRedisClusterTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#timeouts GoogleRedisCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#timeouts GoogleRedisCluster#timeouts}
 
 ---
 
@@ -2432,7 +2432,7 @@ Optional.
 The in-transit encryption for the Redis cluster.
 If not provided, encryption is disabled for the cluster. Default value: "TRANSIT_ENCRYPTION_MODE_DISABLED" Possible values: ["TRANSIT_ENCRYPTION_MODE_UNSPECIFIED", "TRANSIT_ENCRYPTION_MODE_DISABLED", "TRANSIT_ENCRYPTION_MODE_SERVER_AUTHENTICATION"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#transit_encryption_mode GoogleRedisCluster#transit_encryption_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#transit_encryption_mode GoogleRedisCluster#transit_encryption_mode}
 
 ---
 
@@ -2446,7 +2446,7 @@ ZoneDistributionConfig GoogleRedisClusterZoneDistributionConfig
 
 zone_distribution_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#zone_distribution_config GoogleRedisCluster#zone_distribution_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#zone_distribution_config GoogleRedisCluster#zone_distribution_config}
 
 ---
 
@@ -2455,11 +2455,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterCrossClusterReplicationConfig {
 	ClusterRole: *string,
-	PrimaryCluster: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigPrimaryCluster,
+	PrimaryCluster: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigPrimaryCluster,
 	SecondaryClusters: interface{},
 }
 ```
@@ -2489,7 +2489,7 @@ The role of the cluster in cross cluster replication. Supported values are:.
 3. 'PRIMARY': This cluster serves as the replication source for secondary clusters that are replicating from it. Any data written to it is automatically replicated to its secondary clusters. It allows both reads and writes.
 4. 'SECONDARY': This cluster replicates data from the primary cluster. It allows only reads. Possible values: ["CLUSTER_ROLE_UNSPECIFIED", "NONE", "PRIMARY", "SECONDARY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#cluster_role GoogleRedisCluster#cluster_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#cluster_role GoogleRedisCluster#cluster_role}
 
 ---
 
@@ -2503,7 +2503,7 @@ PrimaryCluster GoogleRedisClusterCrossClusterReplicationConfigPrimaryCluster
 
 primary_cluster block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#primary_cluster GoogleRedisCluster#primary_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#primary_cluster GoogleRedisCluster#primary_cluster}
 
 ---
 
@@ -2517,7 +2517,7 @@ SecondaryClusters interface{}
 
 secondary_clusters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#secondary_clusters GoogleRedisCluster#secondary_clusters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#secondary_clusters GoogleRedisCluster#secondary_clusters}
 
 ---
 
@@ -2526,7 +2526,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigMembership.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterCrossClusterReplicationConfigMembership {
 
@@ -2539,7 +2539,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigMembershipPrimaryCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterCrossClusterReplicationConfigMembershipPrimaryCluster {
 
@@ -2552,7 +2552,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigMembershipSecondaryClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterCrossClusterReplicationConfigMembershipSecondaryClusters {
 
@@ -2565,7 +2565,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigPrimaryCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterCrossClusterReplicationConfigPrimaryCluster {
 	Cluster: *string,
@@ -2590,7 +2590,7 @@ Cluster *string
 
 The full resource path of the primary cluster in the format: projects/{project}/locations/{region}/clusters/{cluster-id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#cluster GoogleRedisCluster#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#cluster GoogleRedisCluster#cluster}
 
 ---
 
@@ -2599,7 +2599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigSecondaryClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterCrossClusterReplicationConfigSecondaryClusters {
 	Cluster: *string,
@@ -2624,7 +2624,7 @@ Cluster *string
 
 The full resource path of the secondary cluster in the format: projects/{project}/locations/{region}/clusters/{cluster-id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#cluster GoogleRedisCluster#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#cluster GoogleRedisCluster#cluster}
 
 ---
 
@@ -2633,7 +2633,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterDiscoveryEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterDiscoveryEndpoints {
 
@@ -2646,7 +2646,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterDiscoveryEndpointsPscConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterDiscoveryEndpointsPscConfig {
 
@@ -2659,7 +2659,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterGcsSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterGcsSource {
 	Uris: *[]*string,
@@ -2684,7 +2684,7 @@ Uris *[]*string
 
 URIs of the GCS objects to import. Example: gs://bucket1/object1, gs://bucket2/folder2/object2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#uris GoogleRedisCluster#uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#uris GoogleRedisCluster#uris}
 
 ---
 
@@ -2693,7 +2693,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterMaintenancePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterMaintenancePolicy {
 	WeeklyMaintenanceWindow: interface{},
@@ -2718,7 +2718,7 @@ WeeklyMaintenanceWindow interface{}
 
 weekly_maintenance_window block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#weekly_maintenance_window GoogleRedisCluster#weekly_maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#weekly_maintenance_window GoogleRedisCluster#weekly_maintenance_window}
 
 ---
 
@@ -2727,11 +2727,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindow {
 	Day: *string,
-	StartTime: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowStartTime,
+	StartTime: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowStartTime,
 }
 ```
 
@@ -2763,7 +2763,7 @@ Required. The day of week that maintenance updates occur.
 * SATURDAY: Saturday
 * SUNDAY: Sunday Possible values: ["DAY_OF_WEEK_UNSPECIFIED", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#day GoogleRedisCluster#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#day GoogleRedisCluster#day}
 
 ---
 
@@ -2777,7 +2777,7 @@ StartTime GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowStartTime
 
 start_time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#start_time GoogleRedisCluster#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#start_time GoogleRedisCluster#start_time}
 
 ---
 
@@ -2786,7 +2786,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowStartTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowStartTime {
 	Hours: *f64,
@@ -2820,7 +2820,7 @@ Hours of day in 24 hour format.
 Should be from 0 to 23.
 An API may choose to allow the value "24:00:00" for scenarios like business closing time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#hours GoogleRedisCluster#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#hours GoogleRedisCluster#hours}
 
 ---
 
@@ -2834,7 +2834,7 @@ Minutes *f64
 
 Minutes of hour of day. Must be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#minutes GoogleRedisCluster#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#minutes GoogleRedisCluster#minutes}
 
 ---
 
@@ -2848,7 +2848,7 @@ Nanos *f64
 
 Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#nanos GoogleRedisCluster#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#nanos GoogleRedisCluster#nanos}
 
 ---
 
@@ -2865,7 +2865,7 @@ Seconds of minutes of the time.
 Must normally be from 0 to 59.
 An API may allow the value 60 if it allows leap-seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#seconds GoogleRedisCluster#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#seconds GoogleRedisCluster#seconds}
 
 ---
 
@@ -2874,7 +2874,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterMaintenanceSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterMaintenanceSchedule {
 
@@ -2887,7 +2887,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterManagedBackupSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterManagedBackupSource {
 	Backup: *string,
@@ -2912,7 +2912,7 @@ Backup *string
 
 Example: 'projects/{project}/locations/{location}/backupCollections/{collection}/backups/{backup}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#backup GoogleRedisCluster#backup}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#backup GoogleRedisCluster#backup}
 
 ---
 
@@ -2921,7 +2921,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterManagedServerCa.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterManagedServerCa {
 
@@ -2934,7 +2934,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterManagedServerCaCaCerts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterManagedServerCaCaCerts {
 
@@ -2947,12 +2947,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPersistenceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterPersistenceConfig {
-	AofConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterPersistenceConfigAofConfig,
+	AofConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterPersistenceConfigAofConfig,
 	Mode: *string,
-	RdbConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleRedisCluster.GoogleRedisClusterPersistenceConfigRdbConfig,
+	RdbConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleRedisCluster.GoogleRedisClusterPersistenceConfigRdbConfig,
 }
 ```
 
@@ -2976,7 +2976,7 @@ AofConfig GoogleRedisClusterPersistenceConfigAofConfig
 
 aof_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#aof_config GoogleRedisCluster#aof_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#aof_config GoogleRedisCluster#aof_config}
 
 ---
 
@@ -2994,7 +2994,7 @@ Optional. Controls whether Persistence features are enabled. If not provided, th
 * RDB: RDB based Persistence is enabled.
 * AOF: AOF based Persistence is enabled. Possible values: ["PERSISTENCE_MODE_UNSPECIFIED", "DISABLED", "RDB", "AOF"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#mode GoogleRedisCluster#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#mode GoogleRedisCluster#mode}
 
 ---
 
@@ -3008,7 +3008,7 @@ RdbConfig GoogleRedisClusterPersistenceConfigRdbConfig
 
 rdb_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#rdb_config GoogleRedisCluster#rdb_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#rdb_config GoogleRedisCluster#rdb_config}
 
 ---
 
@@ -3017,7 +3017,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPersistenceConfigAofConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterPersistenceConfigAofConfig {
 	AppendFsync: *string,
@@ -3046,7 +3046,7 @@ Optional. Available fsync modes.
 * EVERYSEC - Call fsync() once per second in a background thread. A balance between performance and durability.
 * ALWAYS - Call fsync() for earch write command. Possible values: ["APPEND_FSYNC_UNSPECIFIED", "NO", "EVERYSEC", "ALWAYS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#append_fsync GoogleRedisCluster#append_fsync}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#append_fsync GoogleRedisCluster#append_fsync}
 
 ---
 
@@ -3055,7 +3055,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPersistenceConfigRdbConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterPersistenceConfigRdbConfig {
 	RdbSnapshotPeriod: *string,
@@ -3087,7 +3087,7 @@ Optional. Available snapshot periods for scheduling.
 * TWELVE_HOURS:	Snapshot every 12 hours.
 * TWENTY_FOUR_HOURS:	Snapshot every 24 hours. Possible values: ["SNAPSHOT_PERIOD_UNSPECIFIED", "ONE_HOUR", "SIX_HOURS", "TWELVE_HOURS", "TWENTY_FOUR_HOURS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#rdb_snapshot_period GoogleRedisCluster#rdb_snapshot_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#rdb_snapshot_period GoogleRedisCluster#rdb_snapshot_period}
 
 ---
 
@@ -3103,7 +3103,7 @@ The time that the first snapshot was/will be attempted, and to which future snap
 
 If not provided, the current time will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#rdb_snapshot_start_time GoogleRedisCluster#rdb_snapshot_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#rdb_snapshot_start_time GoogleRedisCluster#rdb_snapshot_start_time}
 
 ---
 
@@ -3112,7 +3112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPscConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterPscConfigs {
 	Network: *string,
@@ -3137,7 +3137,7 @@ Network *string
 
 Required. The consumer network where the network address of the discovery endpoint will be reserved, in the form of projects/{network_project_id_or_number}/global/networks/{network_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#network GoogleRedisCluster#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#network GoogleRedisCluster#network}
 
 ---
 
@@ -3146,7 +3146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPscConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterPscConnections {
 
@@ -3159,7 +3159,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPscServiceAttachments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterPscServiceAttachments {
 
@@ -3172,7 +3172,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterStateInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterStateInfo {
 
@@ -3185,7 +3185,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterStateInfoUpdateInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterStateInfoUpdateInfo {
 
@@ -3198,7 +3198,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterTimeouts {
 	Create: *string,
@@ -3211,9 +3211,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#create GoogleRedisCluster#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#delete GoogleRedisCluster#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#update GoogleRedisCluster#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#create GoogleRedisCluster#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#delete GoogleRedisCluster#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#update GoogleRedisCluster#update}. |
 
 ---
 
@@ -3225,7 +3225,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#create GoogleRedisCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#create GoogleRedisCluster#create}.
 
 ---
 
@@ -3237,7 +3237,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#delete GoogleRedisCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#delete GoogleRedisCluster#delete}.
 
 ---
 
@@ -3249,7 +3249,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#update GoogleRedisCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#update GoogleRedisCluster#update}.
 
 ---
 
@@ -3258,7 +3258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterZoneDistributionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 &googlerediscluster.GoogleRedisClusterZoneDistributionConfig {
 	Mode: *string,
@@ -3288,7 +3288,7 @@ Immutable.
 The mode for zone distribution for Memorystore Redis cluster.
 If not provided, MULTI_ZONE will be used as default Possible values: ["MULTI_ZONE", "SINGLE_ZONE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#mode GoogleRedisCluster#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#mode GoogleRedisCluster#mode}
 
 ---
 
@@ -3302,7 +3302,7 @@ Zone *string
 
 Immutable. The zone for single zone Memorystore Redis cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster#zone GoogleRedisCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster#zone GoogleRedisCluster#zone}
 
 ---
 
@@ -3313,7 +3313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleOutputReference
 ```
@@ -3597,7 +3597,7 @@ func InternalValue() GoogleRedisClusterAutomatedBackupConfigFixedFrequencySchedu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleStartTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleStartTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleStartTimeOutputReference
 ```
@@ -3868,7 +3868,7 @@ func InternalValue() GoogleRedisClusterAutomatedBackupConfigFixedFrequencySchedu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterAutomatedBackupConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterAutomatedBackupConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterAutomatedBackupConfigOutputReference
 ```
@@ -4174,7 +4174,7 @@ func InternalValue() GoogleRedisClusterAutomatedBackupConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigMembershipList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterCrossClusterReplicationConfigMembershipList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterCrossClusterReplicationConfigMembershipList
 ```
@@ -4323,7 +4323,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigMembershipOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterCrossClusterReplicationConfigMembershipOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterCrossClusterReplicationConfigMembershipOutputReference
 ```
@@ -4612,7 +4612,7 @@ func InternalValue() GoogleRedisClusterCrossClusterReplicationConfigMembership
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigMembershipPrimaryClusterList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterCrossClusterReplicationConfigMembershipPrimaryClusterList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterCrossClusterReplicationConfigMembershipPrimaryClusterList
 ```
@@ -4761,7 +4761,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigMembershipPrimaryClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterCrossClusterReplicationConfigMembershipPrimaryClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterCrossClusterReplicationConfigMembershipPrimaryClusterOutputReference
 ```
@@ -5050,7 +5050,7 @@ func InternalValue() GoogleRedisClusterCrossClusterReplicationConfigMembershipPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersList
 ```
@@ -5199,7 +5199,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersOutputReference
 ```
@@ -5488,7 +5488,7 @@ func InternalValue() GoogleRedisClusterCrossClusterReplicationConfigMembershipSe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterCrossClusterReplicationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterCrossClusterReplicationConfigOutputReference
 ```
@@ -5872,7 +5872,7 @@ func InternalValue() GoogleRedisClusterCrossClusterReplicationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigPrimaryClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterCrossClusterReplicationConfigPrimaryClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterCrossClusterReplicationConfigPrimaryClusterOutputReference
 ```
@@ -6161,7 +6161,7 @@ func InternalValue() GoogleRedisClusterCrossClusterReplicationConfigPrimaryClust
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersList
 ```
@@ -6321,7 +6321,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersOutputReference
 ```
@@ -6628,7 +6628,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterDiscoveryEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterDiscoveryEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterDiscoveryEndpointsList
 ```
@@ -6777,7 +6777,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterDiscoveryEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterDiscoveryEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterDiscoveryEndpointsOutputReference
 ```
@@ -7077,7 +7077,7 @@ func InternalValue() GoogleRedisClusterDiscoveryEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterDiscoveryEndpointsPscConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterDiscoveryEndpointsPscConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterDiscoveryEndpointsPscConfigList
 ```
@@ -7226,7 +7226,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterDiscoveryEndpointsPscConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterDiscoveryEndpointsPscConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterDiscoveryEndpointsPscConfigOutputReference
 ```
@@ -7504,7 +7504,7 @@ func InternalValue() GoogleRedisClusterDiscoveryEndpointsPscConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterGcsSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterGcsSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterGcsSourceOutputReference
 ```
@@ -7775,7 +7775,7 @@ func InternalValue() GoogleRedisClusterGcsSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterMaintenancePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterMaintenancePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterMaintenancePolicyOutputReference
 ```
@@ -8088,7 +8088,7 @@ func InternalValue() GoogleRedisClusterMaintenancePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowList
 ```
@@ -8248,7 +8248,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowOutputReference
 ```
@@ -8583,7 +8583,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference
 ```
@@ -8948,7 +8948,7 @@ func InternalValue() GoogleRedisClusterMaintenancePolicyWeeklyMaintenanceWindowS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterMaintenanceScheduleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterMaintenanceScheduleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterMaintenanceScheduleList
 ```
@@ -9097,7 +9097,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterMaintenanceScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterMaintenanceScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterMaintenanceScheduleOutputReference
 ```
@@ -9397,7 +9397,7 @@ func InternalValue() GoogleRedisClusterMaintenanceSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterManagedBackupSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterManagedBackupSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterManagedBackupSourceOutputReference
 ```
@@ -9668,7 +9668,7 @@ func InternalValue() GoogleRedisClusterManagedBackupSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterManagedServerCaCaCertsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterManagedServerCaCaCertsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterManagedServerCaCaCertsList
 ```
@@ -9817,7 +9817,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterManagedServerCaCaCertsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterManagedServerCaCaCertsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterManagedServerCaCaCertsOutputReference
 ```
@@ -10095,7 +10095,7 @@ func InternalValue() GoogleRedisClusterManagedServerCaCaCerts
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterManagedServerCaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterManagedServerCaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterManagedServerCaList
 ```
@@ -10244,7 +10244,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterManagedServerCaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterManagedServerCaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterManagedServerCaOutputReference
 ```
@@ -10522,7 +10522,7 @@ func InternalValue() GoogleRedisClusterManagedServerCa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPersistenceConfigAofConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterPersistenceConfigAofConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterPersistenceConfigAofConfigOutputReference
 ```
@@ -10800,7 +10800,7 @@ func InternalValue() GoogleRedisClusterPersistenceConfigAofConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPersistenceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterPersistenceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterPersistenceConfigOutputReference
 ```
@@ -11162,7 +11162,7 @@ func InternalValue() GoogleRedisClusterPersistenceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPersistenceConfigRdbConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterPersistenceConfigRdbConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterPersistenceConfigRdbConfigOutputReference
 ```
@@ -11469,7 +11469,7 @@ func InternalValue() GoogleRedisClusterPersistenceConfigRdbConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPscConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterPscConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterPscConfigsList
 ```
@@ -11629,7 +11629,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPscConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterPscConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterPscConfigsOutputReference
 ```
@@ -11918,7 +11918,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPscConnectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterPscConnectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterPscConnectionsList
 ```
@@ -12067,7 +12067,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPscConnectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterPscConnectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterPscConnectionsOutputReference
 ```
@@ -12389,7 +12389,7 @@ func InternalValue() GoogleRedisClusterPscConnections
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPscServiceAttachmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterPscServiceAttachmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterPscServiceAttachmentsList
 ```
@@ -12538,7 +12538,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterPscServiceAttachmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterPscServiceAttachmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterPscServiceAttachmentsOutputReference
 ```
@@ -12827,7 +12827,7 @@ func InternalValue() GoogleRedisClusterPscServiceAttachments
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterStateInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterStateInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterStateInfoList
 ```
@@ -12976,7 +12976,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterStateInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterStateInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterStateInfoOutputReference
 ```
@@ -13254,7 +13254,7 @@ func InternalValue() GoogleRedisClusterStateInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterStateInfoUpdateInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterStateInfoUpdateInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleRedisClusterStateInfoUpdateInfoList
 ```
@@ -13403,7 +13403,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterStateInfoUpdateInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterStateInfoUpdateInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleRedisClusterStateInfoUpdateInfoOutputReference
 ```
@@ -13692,7 +13692,7 @@ func InternalValue() GoogleRedisClusterStateInfoUpdateInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterTimeoutsOutputReference
 ```
@@ -14028,7 +14028,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisClusterZoneDistributionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlerediscluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlerediscluster"
 
 googlerediscluster.NewGoogleRedisClusterZoneDistributionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleRedisClusterZoneDistributionConfigOutputReference
 ```

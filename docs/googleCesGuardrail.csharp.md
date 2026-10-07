@@ -4,7 +4,7 @@
 
 ### GoogleCesGuardrail <a name="GoogleCesGuardrail" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail google_ces_guardrail}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail google_ces_guardrail}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.Initializer"></a>
 
@@ -664,7 +664,7 @@ The construct id used in the generated config for the GoogleCesGuardrail to impo
 
 The id of the existing GoogleCesGuardrail that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1289,7 +1289,7 @@ public GoogleCesGuardrailActionGenerativeAnswer GenerativeAnswer { get; set; }
 
 generative_answer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#generative_answer GoogleCesGuardrail#generative_answer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#generative_answer GoogleCesGuardrail#generative_answer}
 
 ---
 
@@ -1303,7 +1303,7 @@ public GoogleCesGuardrailActionRespondImmediately RespondImmediately { get; set;
 
 respond_immediately block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#respond_immediately GoogleCesGuardrail#respond_immediately}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#respond_immediately GoogleCesGuardrail#respond_immediately}
 
 ---
 
@@ -1317,7 +1317,7 @@ public GoogleCesGuardrailActionTransferAgent TransferAgent { get; set; }
 
 transfer_agent block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#transfer_agent GoogleCesGuardrail#transfer_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#transfer_agent GoogleCesGuardrail#transfer_agent}
 
 ---
 
@@ -1351,7 +1351,7 @@ public string Prompt { get; set; }
 
 The prompt to use for the generative answer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
 
 ---
 
@@ -1385,7 +1385,7 @@ public IResolvable|GoogleCesGuardrailActionRespondImmediatelyResponses[] Respons
 
 responses block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#responses GoogleCesGuardrail#responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#responses GoogleCesGuardrail#responses}
 
 ---
 
@@ -1421,7 +1421,7 @@ public string Text { get; set; }
 
 Text for the agent to respond with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#text GoogleCesGuardrail#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#text GoogleCesGuardrail#text}
 
 ---
 
@@ -1435,7 +1435,7 @@ public bool|IResolvable Disabled { get; set; }
 
 Whether the response is disabled. Disabled responses are not used by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
 
 ---
 
@@ -1474,7 +1474,7 @@ in the same app as the current agent.
 Format:
 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#agent GoogleCesGuardrail#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#agent GoogleCesGuardrail#agent}
 
 ---
 
@@ -1514,7 +1514,7 @@ public GoogleCesGuardrailCodeCallbackAfterAgentCallback AfterAgentCallback { get
 
 after_agent_callback block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#after_agent_callback GoogleCesGuardrail#after_agent_callback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#after_agent_callback GoogleCesGuardrail#after_agent_callback}
 
 ---
 
@@ -1528,7 +1528,7 @@ public GoogleCesGuardrailCodeCallbackAfterModelCallback AfterModelCallback { get
 
 after_model_callback block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#after_model_callback GoogleCesGuardrail#after_model_callback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#after_model_callback GoogleCesGuardrail#after_model_callback}
 
 ---
 
@@ -1542,7 +1542,7 @@ public GoogleCesGuardrailCodeCallbackBeforeAgentCallback BeforeAgentCallback { g
 
 before_agent_callback block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#before_agent_callback GoogleCesGuardrail#before_agent_callback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#before_agent_callback GoogleCesGuardrail#before_agent_callback}
 
 ---
 
@@ -1556,7 +1556,7 @@ public GoogleCesGuardrailCodeCallbackBeforeModelCallback BeforeModelCallback { g
 
 before_model_callback block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#before_model_callback GoogleCesGuardrail#before_model_callback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#before_model_callback GoogleCesGuardrail#before_model_callback}
 
 ---
 
@@ -1570,7 +1570,8 @@ using Io.Cdktn.Providers.GoogleBeta;
 new GoogleCesGuardrailCodeCallbackAfterAgentCallback {
     string PythonCode,
     string Description = null,
-    bool|IResolvable Disabled = null
+    bool|IResolvable Disabled = null,
+    bool|IResolvable ProactiveExecutionEnabled = null
 };
 ```
 
@@ -1581,6 +1582,7 @@ new GoogleCesGuardrailCodeCallbackAfterAgentCallback {
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallback.property.pythonCode">PythonCode</a></code> | <code>string</code> | The python code to execute for the callback. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallback.property.description">Description</a></code> | <code>string</code> | Human-readable description of the callback. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallback.property.disabled">Disabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether the callback is disabled. Disabled callbacks are ignored by the agent. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallback.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If enabled, the callback will also be executed on intermediate model outputs. |
 
 ---
 
@@ -1594,7 +1596,7 @@ public string PythonCode { get; set; }
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
 
 ---
 
@@ -1608,7 +1610,7 @@ public string Description { get; set; }
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
 
 ---
 
@@ -1622,7 +1624,27 @@ public bool|IResolvable Disabled { get; set; }
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+
+---
+
+##### `ProactiveExecutionEnabled`<sup>Optional</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallback.property.proactiveExecutionEnabled"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabled { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+If enabled, the callback will also be executed on intermediate model outputs.
+
+This setting only affects after model callback.
+**ENABLE WITH CAUTION**. Typically after model callback only needs to be
+executed after receiving all model responses. Enabling proactive execution
+may have negative implication on the execution cost and latency, and
+should only be enabled in rare situations.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#proactive_execution_enabled GoogleCesGuardrail#proactive_execution_enabled}
 
 ---
 
@@ -1636,7 +1658,8 @@ using Io.Cdktn.Providers.GoogleBeta;
 new GoogleCesGuardrailCodeCallbackAfterModelCallback {
     string PythonCode,
     string Description = null,
-    bool|IResolvable Disabled = null
+    bool|IResolvable Disabled = null,
+    bool|IResolvable ProactiveExecutionEnabled = null
 };
 ```
 
@@ -1647,6 +1670,7 @@ new GoogleCesGuardrailCodeCallbackAfterModelCallback {
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallback.property.pythonCode">PythonCode</a></code> | <code>string</code> | The python code to execute for the callback. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallback.property.description">Description</a></code> | <code>string</code> | Human-readable description of the callback. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallback.property.disabled">Disabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether the callback is disabled. Disabled callbacks are ignored by the agent. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallback.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If enabled, the callback will also be executed on intermediate model outputs. |
 
 ---
 
@@ -1660,7 +1684,7 @@ public string PythonCode { get; set; }
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
 
 ---
 
@@ -1674,7 +1698,7 @@ public string Description { get; set; }
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
 
 ---
 
@@ -1688,7 +1712,27 @@ public bool|IResolvable Disabled { get; set; }
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+
+---
+
+##### `ProactiveExecutionEnabled`<sup>Optional</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallback.property.proactiveExecutionEnabled"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabled { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+If enabled, the callback will also be executed on intermediate model outputs.
+
+This setting only affects after model callback.
+**ENABLE WITH CAUTION**. Typically after model callback only needs to be
+executed after receiving all model responses. Enabling proactive execution
+may have negative implication on the execution cost and latency, and
+should only be enabled in rare situations.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#proactive_execution_enabled GoogleCesGuardrail#proactive_execution_enabled}
 
 ---
 
@@ -1702,7 +1746,8 @@ using Io.Cdktn.Providers.GoogleBeta;
 new GoogleCesGuardrailCodeCallbackBeforeAgentCallback {
     string PythonCode,
     string Description = null,
-    bool|IResolvable Disabled = null
+    bool|IResolvable Disabled = null,
+    bool|IResolvable ProactiveExecutionEnabled = null
 };
 ```
 
@@ -1713,6 +1758,7 @@ new GoogleCesGuardrailCodeCallbackBeforeAgentCallback {
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallback.property.pythonCode">PythonCode</a></code> | <code>string</code> | The python code to execute for the callback. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallback.property.description">Description</a></code> | <code>string</code> | Human-readable description of the callback. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallback.property.disabled">Disabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether the callback is disabled. Disabled callbacks are ignored by the agent. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallback.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If enabled, the callback will also be executed on intermediate model outputs. |
 
 ---
 
@@ -1726,7 +1772,7 @@ public string PythonCode { get; set; }
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
 
 ---
 
@@ -1740,7 +1786,7 @@ public string Description { get; set; }
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
 
 ---
 
@@ -1754,7 +1800,27 @@ public bool|IResolvable Disabled { get; set; }
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+
+---
+
+##### `ProactiveExecutionEnabled`<sup>Optional</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallback.property.proactiveExecutionEnabled"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabled { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+If enabled, the callback will also be executed on intermediate model outputs.
+
+This setting only affects after model callback.
+**ENABLE WITH CAUTION**. Typically after model callback only needs to be
+executed after receiving all model responses. Enabling proactive execution
+may have negative implication on the execution cost and latency, and
+should only be enabled in rare situations.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#proactive_execution_enabled GoogleCesGuardrail#proactive_execution_enabled}
 
 ---
 
@@ -1768,7 +1834,8 @@ using Io.Cdktn.Providers.GoogleBeta;
 new GoogleCesGuardrailCodeCallbackBeforeModelCallback {
     string PythonCode,
     string Description = null,
-    bool|IResolvable Disabled = null
+    bool|IResolvable Disabled = null,
+    bool|IResolvable ProactiveExecutionEnabled = null
 };
 ```
 
@@ -1779,6 +1846,7 @@ new GoogleCesGuardrailCodeCallbackBeforeModelCallback {
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallback.property.pythonCode">PythonCode</a></code> | <code>string</code> | The python code to execute for the callback. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallback.property.description">Description</a></code> | <code>string</code> | Human-readable description of the callback. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallback.property.disabled">Disabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether the callback is disabled. Disabled callbacks are ignored by the agent. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallback.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If enabled, the callback will also be executed on intermediate model outputs. |
 
 ---
 
@@ -1792,7 +1860,7 @@ public string PythonCode { get; set; }
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
 
 ---
 
@@ -1806,7 +1874,7 @@ public string Description { get; set; }
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
 
 ---
 
@@ -1820,7 +1888,27 @@ public bool|IResolvable Disabled { get; set; }
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+
+---
+
+##### `ProactiveExecutionEnabled`<sup>Optional</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallback.property.proactiveExecutionEnabled"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabled { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+If enabled, the callback will also be executed on intermediate model outputs.
+
+This setting only affects after model callback.
+**ENABLE WITH CAUTION**. Typically after model callback only needs to be
+executed after receiving all model responses. Enabling proactive execution
+may have negative implication on the execution cost and latency, and
+should only be enabled in rare situations.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#proactive_execution_enabled GoogleCesGuardrail#proactive_execution_enabled}
 
 ---
 
@@ -1879,11 +1967,11 @@ new GoogleCesGuardrailConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.description">Description</a></code> | <code>string</code> | Description of the guardrail. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether the guardrail is enabled. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#id GoogleCesGuardrail#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#id GoogleCesGuardrail#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.llmPolicy">LlmPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailLlmPolicy">GoogleCesGuardrailLlmPolicy</a></code> | llm_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.llmPromptSecurity">LlmPromptSecurity</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailLlmPromptSecurity">GoogleCesGuardrailLlmPromptSecurity</a></code> | llm_prompt_security block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.modelSafety">ModelSafety</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailModelSafety">GoogleCesGuardrailModelSafety</a></code> | model_safety block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#project GoogleCesGuardrail#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#project GoogleCesGuardrail#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts">GoogleCesGuardrailTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1968,7 +2056,7 @@ public string App { get; set; }
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#app GoogleCesGuardrail#app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#app GoogleCesGuardrail#app}
 
 ---
 
@@ -1982,7 +2070,7 @@ public string DisplayName { get; set; }
 
 Display name of the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#display_name GoogleCesGuardrail#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#display_name GoogleCesGuardrail#display_name}
 
 ---
 
@@ -1999,7 +2087,7 @@ The ID to use for the guardrail, which will become the final component of the gu
 If not provided, a unique ID will be
 automatically assigned for the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#guardrail_id GoogleCesGuardrail#guardrail_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#guardrail_id GoogleCesGuardrail#guardrail_id}
 
 ---
 
@@ -2013,7 +2101,7 @@ public string Location { get; set; }
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#location GoogleCesGuardrail#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#location GoogleCesGuardrail#location}
 
 ---
 
@@ -2027,7 +2115,7 @@ public GoogleCesGuardrailAction Action { get; set; }
 
 action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#action GoogleCesGuardrail#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#action GoogleCesGuardrail#action}
 
 ---
 
@@ -2041,7 +2129,7 @@ public GoogleCesGuardrailCodeCallback CodeCallback { get; set; }
 
 code_callback block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#code_callback GoogleCesGuardrail#code_callback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#code_callback GoogleCesGuardrail#code_callback}
 
 ---
 
@@ -2055,7 +2143,7 @@ public GoogleCesGuardrailContentFilter ContentFilter { get; set; }
 
 content_filter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#content_filter GoogleCesGuardrail#content_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#content_filter GoogleCesGuardrail#content_filter}
 
 ---
 
@@ -2076,7 +2164,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#deletion_policy GoogleCesGuardrail#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#deletion_policy GoogleCesGuardrail#deletion_policy}
 
 ---
 
@@ -2090,7 +2178,7 @@ public string Description { get; set; }
 
 Description of the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
 
 ---
 
@@ -2104,7 +2192,7 @@ public bool|IResolvable Enabled { get; set; }
 
 Whether the guardrail is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#enabled GoogleCesGuardrail#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#enabled GoogleCesGuardrail#enabled}
 
 ---
 
@@ -2116,7 +2204,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#id GoogleCesGuardrail#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#id GoogleCesGuardrail#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2133,7 +2221,7 @@ public GoogleCesGuardrailLlmPolicy LlmPolicy { get; set; }
 
 llm_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#llm_policy GoogleCesGuardrail#llm_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#llm_policy GoogleCesGuardrail#llm_policy}
 
 ---
 
@@ -2147,7 +2235,7 @@ public GoogleCesGuardrailLlmPromptSecurity LlmPromptSecurity { get; set; }
 
 llm_prompt_security block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#llm_prompt_security GoogleCesGuardrail#llm_prompt_security}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#llm_prompt_security GoogleCesGuardrail#llm_prompt_security}
 
 ---
 
@@ -2161,7 +2249,7 @@ public GoogleCesGuardrailModelSafety ModelSafety { get; set; }
 
 model_safety block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#model_safety GoogleCesGuardrail#model_safety}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#model_safety GoogleCesGuardrail#model_safety}
 
 ---
 
@@ -2173,7 +2261,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#project GoogleCesGuardrail#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#project GoogleCesGuardrail#project}.
 
 ---
 
@@ -2187,7 +2275,7 @@ public GoogleCesGuardrailTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#timeouts GoogleCesGuardrail#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#timeouts GoogleCesGuardrail#timeouts}
 
 ---
 
@@ -2229,7 +2317,7 @@ public string MatchType { get; set; }
 
 Match type for the content filter. Possible values: SIMPLE_STRING_MATCH WORD_BOUNDARY_STRING_MATCH REGEXP_MATCH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#match_type GoogleCesGuardrail#match_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#match_type GoogleCesGuardrail#match_type}
 
 ---
 
@@ -2243,7 +2331,7 @@ public string[] BannedContents { get; set; }
 
 List of banned phrases. Applies to both user inputs and agent responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#banned_contents GoogleCesGuardrail#banned_contents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#banned_contents GoogleCesGuardrail#banned_contents}
 
 ---
 
@@ -2257,7 +2345,7 @@ public string[] BannedContentsInAgentResponse { get; set; }
 
 List of banned phrases. Applies only to agent responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#banned_contents_in_agent_response GoogleCesGuardrail#banned_contents_in_agent_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#banned_contents_in_agent_response GoogleCesGuardrail#banned_contents_in_agent_response}
 
 ---
 
@@ -2271,7 +2359,7 @@ public string[] BannedContentsInUserInput { get; set; }
 
 List of banned phrases. Applies only to user inputs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#banned_contents_in_user_input GoogleCesGuardrail#banned_contents_in_user_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#banned_contents_in_user_input GoogleCesGuardrail#banned_contents_in_user_input}
 
 ---
 
@@ -2285,7 +2373,7 @@ public bool|IResolvable DisregardDiacritics { get; set; }
 
 If true, diacritics are ignored during matching.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#disregard_diacritics GoogleCesGuardrail#disregard_diacritics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#disregard_diacritics GoogleCesGuardrail#disregard_diacritics}
 
 ---
 
@@ -2338,7 +2426,7 @@ USER_QUERY
 AGENT_RESPONSE
 USER_QUERY_AND_AGENT_RESPONSE Possible values: ["USER_QUERY", "AGENT_RESPONSE", "USER_QUERY_AND_AGENT_RESPONSE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#policy_scope GoogleCesGuardrail#policy_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#policy_scope GoogleCesGuardrail#policy_scope}
 
 ---
 
@@ -2352,7 +2440,7 @@ public string Prompt { get; set; }
 
 Policy prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
 
 ---
 
@@ -2369,7 +2457,7 @@ By default, the LLM policy check is bypassed for short utterances.
 Enabling this setting applies the policy check to all utterances,
 including those that would normally be skipped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#allow_short_utterance GoogleCesGuardrail#allow_short_utterance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#allow_short_utterance GoogleCesGuardrail#allow_short_utterance}
 
 ---
 
@@ -2383,7 +2471,7 @@ public bool|IResolvable FailOpen { get; set; }
 
 If an error occurs during the policy check, fail open and do not trigger the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#fail_open GoogleCesGuardrail#fail_open}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#fail_open GoogleCesGuardrail#fail_open}
 
 ---
 
@@ -2399,7 +2487,7 @@ When checking this policy, consider the last 'n' messages in the conversation.
 
 When not set a default value of 10 will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#max_conversation_messages GoogleCesGuardrail#max_conversation_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#max_conversation_messages GoogleCesGuardrail#max_conversation_messages}
 
 ---
 
@@ -2413,7 +2501,7 @@ public GoogleCesGuardrailLlmPolicyModelSettings ModelSettings { get; set; }
 
 model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#model_settings GoogleCesGuardrail#model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#model_settings GoogleCesGuardrail#model_settings}
 
 ---
 
@@ -2451,7 +2539,7 @@ The LLM model that the agent should use.
 
 If not set, the agent will inherit the model from its parent agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#model GoogleCesGuardrail#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#model GoogleCesGuardrail#model}
 
 ---
 
@@ -2470,7 +2558,7 @@ controls the randomness of the model's responses. Lower temperatures
 produce responses that are more predictable. Higher temperatures produce
 responses that are more creative.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#temperature GoogleCesGuardrail#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#temperature GoogleCesGuardrail#temperature}
 
 ---
 
@@ -2508,7 +2596,7 @@ public GoogleCesGuardrailLlmPromptSecurityCustomPolicy CustomPolicy { get; set; 
 
 custom_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#custom_policy GoogleCesGuardrail#custom_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#custom_policy GoogleCesGuardrail#custom_policy}
 
 ---
 
@@ -2522,7 +2610,7 @@ public GoogleCesGuardrailLlmPromptSecurityDefaultSettings DefaultSettings { get;
 
 default_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#default_settings GoogleCesGuardrail#default_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#default_settings GoogleCesGuardrail#default_settings}
 
 ---
 
@@ -2541,7 +2629,7 @@ Determines the behavior when the guardrail encounters an LLM error.
   Note: If a custom policy is provided, this field is ignored in favor of
   the policy's 'failOpen' configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#fail_open GoogleCesGuardrail#fail_open}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#fail_open GoogleCesGuardrail#fail_open}
 
 ---
 
@@ -2594,7 +2682,7 @@ USER_QUERY
 AGENT_RESPONSE
 USER_QUERY_AND_AGENT_RESPONSE
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#policy_scope GoogleCesGuardrail#policy_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#policy_scope GoogleCesGuardrail#policy_scope}
 
 ---
 
@@ -2608,7 +2696,7 @@ public string Prompt { get; set; }
 
 Policy prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
 
 ---
 
@@ -2625,7 +2713,7 @@ By default, the LLM policy check is bypassed for short utterances.
 Enabling this setting applies the policy check to all utterances,
 including those that would normally be skipped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#allow_short_utterance GoogleCesGuardrail#allow_short_utterance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#allow_short_utterance GoogleCesGuardrail#allow_short_utterance}
 
 ---
 
@@ -2639,7 +2727,7 @@ public bool|IResolvable FailOpen { get; set; }
 
 If an error occurs during the policy check, fail open and do not trigger the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#fail_open GoogleCesGuardrail#fail_open}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#fail_open GoogleCesGuardrail#fail_open}
 
 ---
 
@@ -2655,7 +2743,7 @@ When checking this policy, consider the last 'n' messages in the conversation.
 
 When not set a default value of 10 will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#max_conversation_messages GoogleCesGuardrail#max_conversation_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#max_conversation_messages GoogleCesGuardrail#max_conversation_messages}
 
 ---
 
@@ -2669,7 +2757,7 @@ public GoogleCesGuardrailLlmPromptSecurityCustomPolicyModelSettings ModelSetting
 
 model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#model_settings GoogleCesGuardrail#model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#model_settings GoogleCesGuardrail#model_settings}
 
 ---
 
@@ -2707,7 +2795,7 @@ The LLM model that the agent should use.
 
 If not set, the agent will inherit the model from its parent agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#model GoogleCesGuardrail#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#model GoogleCesGuardrail#model}
 
 ---
 
@@ -2726,7 +2814,7 @@ controls the randomness of the model's responses. Lower temperatures
 produce responses that are more predictable. Higher temperatures produce
 responses that are more creative.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#temperature GoogleCesGuardrail#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#temperature GoogleCesGuardrail#temperature}
 
 ---
 
@@ -2773,7 +2861,7 @@ public IResolvable|GoogleCesGuardrailModelSafetySafetySettings[] SafetySettings 
 
 safety_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#safety_settings GoogleCesGuardrail#safety_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#safety_settings GoogleCesGuardrail#safety_settings}
 
 ---
 
@@ -2809,7 +2897,7 @@ public string Category { get; set; }
 
 The harm category. Possible values: HARM_CATEGORY_HATE_SPEECH HARM_CATEGORY_DANGEROUS_CONTENT HARM_CATEGORY_HARASSMENT HARM_CATEGORY_SEXUALLY_EXPLICIT Possible values: ["HARM_CATEGORY_HATE_SPEECH", "HARM_CATEGORY_DANGEROUS_CONTENT", "HARM_CATEGORY_HARASSMENT", "HARM_CATEGORY_SEXUALLY_EXPLICIT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#category GoogleCesGuardrail#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#category GoogleCesGuardrail#category}
 
 ---
 
@@ -2823,7 +2911,7 @@ public string Threshold { get; set; }
 
 The harm block threshold. Possible values: BLOCK_LOW_AND_ABOVE BLOCK_MEDIUM_AND_ABOVE BLOCK_ONLY_HIGH BLOCK_NONE OFF Possible values: ["BLOCK_LOW_AND_ABOVE", "BLOCK_MEDIUM_AND_ABOVE", "BLOCK_ONLY_HIGH", "BLOCK_NONE", "OFF"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#threshold GoogleCesGuardrail#threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#threshold GoogleCesGuardrail#threshold}
 
 ---
 
@@ -2845,9 +2933,9 @@ new GoogleCesGuardrailTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#create GoogleCesGuardrail#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#delete GoogleCesGuardrail#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#update GoogleCesGuardrail#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#create GoogleCesGuardrail#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#delete GoogleCesGuardrail#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#update GoogleCesGuardrail#update}. |
 
 ---
 
@@ -2859,7 +2947,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#create GoogleCesGuardrail#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#create GoogleCesGuardrail#create}.
 
 ---
 
@@ -2871,7 +2959,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#delete GoogleCesGuardrail#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#delete GoogleCesGuardrail#delete}.
 
 ---
 
@@ -2883,7 +2971,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail#update GoogleCesGuardrail#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail#update GoogleCesGuardrail#update}.
 
 ---
 
@@ -4620,6 +4708,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.resetDisabled">ResetDisabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.resetProactiveExecutionEnabled">ResetProactiveExecutionEnabled</a></code> | *No description.* |
 
 ---
 
@@ -4785,6 +4874,12 @@ private void ResetDescription()
 private void ResetDisabled()
 ```
 
+##### `ResetProactiveExecutionEnabled` <a name="ResetProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.resetProactiveExecutionEnabled"></a>
+
+```csharp
+private void ResetProactiveExecutionEnabled()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -4794,9 +4889,11 @@ private void ResetDisabled()
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.disabledInput">DisabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.proactiveExecutionEnabledInput">ProactiveExecutionEnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.pythonCodeInput">PythonCodeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.description">Description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.disabled">Disabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.pythonCode">PythonCode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallback">GoogleCesGuardrailCodeCallbackAfterAgentCallback</a></code> | *No description.* |
 
@@ -4846,6 +4943,16 @@ public bool|IResolvable DisabledInput { get; }
 
 ---
 
+##### `ProactiveExecutionEnabledInput`<sup>Optional</sup> <a name="ProactiveExecutionEnabledInput" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.proactiveExecutionEnabledInput"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabledInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
 ##### `PythonCodeInput`<sup>Optional</sup> <a name="PythonCodeInput" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.pythonCodeInput"></a>
 
 ```csharp
@@ -4870,6 +4977,16 @@ public string Description { get; }
 
 ```csharp
 public bool|IResolvable Disabled { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterAgentCallbackOutputReference.property.proactiveExecutionEnabled"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabled { get; }
 ```
 
 - *Type:* bool|Io.Cdktn.IResolvable
@@ -4949,6 +5066,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.resetDisabled">ResetDisabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.resetProactiveExecutionEnabled">ResetProactiveExecutionEnabled</a></code> | *No description.* |
 
 ---
 
@@ -5114,6 +5232,12 @@ private void ResetDescription()
 private void ResetDisabled()
 ```
 
+##### `ResetProactiveExecutionEnabled` <a name="ResetProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.resetProactiveExecutionEnabled"></a>
+
+```csharp
+private void ResetProactiveExecutionEnabled()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -5123,9 +5247,11 @@ private void ResetDisabled()
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.disabledInput">DisabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.proactiveExecutionEnabledInput">ProactiveExecutionEnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.pythonCodeInput">PythonCodeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.description">Description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.disabled">Disabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.pythonCode">PythonCode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallback">GoogleCesGuardrailCodeCallbackAfterModelCallback</a></code> | *No description.* |
 
@@ -5175,6 +5301,16 @@ public bool|IResolvable DisabledInput { get; }
 
 ---
 
+##### `ProactiveExecutionEnabledInput`<sup>Optional</sup> <a name="ProactiveExecutionEnabledInput" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.proactiveExecutionEnabledInput"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabledInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
 ##### `PythonCodeInput`<sup>Optional</sup> <a name="PythonCodeInput" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.pythonCodeInput"></a>
 
 ```csharp
@@ -5199,6 +5335,16 @@ public string Description { get; }
 
 ```csharp
 public bool|IResolvable Disabled { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackAfterModelCallbackOutputReference.property.proactiveExecutionEnabled"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabled { get; }
 ```
 
 - *Type:* bool|Io.Cdktn.IResolvable
@@ -5278,6 +5424,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.resetDisabled">ResetDisabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.resetProactiveExecutionEnabled">ResetProactiveExecutionEnabled</a></code> | *No description.* |
 
 ---
 
@@ -5443,6 +5590,12 @@ private void ResetDescription()
 private void ResetDisabled()
 ```
 
+##### `ResetProactiveExecutionEnabled` <a name="ResetProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.resetProactiveExecutionEnabled"></a>
+
+```csharp
+private void ResetProactiveExecutionEnabled()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -5452,9 +5605,11 @@ private void ResetDisabled()
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.disabledInput">DisabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.proactiveExecutionEnabledInput">ProactiveExecutionEnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.pythonCodeInput">PythonCodeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.description">Description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.disabled">Disabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.pythonCode">PythonCode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallback">GoogleCesGuardrailCodeCallbackBeforeAgentCallback</a></code> | *No description.* |
 
@@ -5504,6 +5659,16 @@ public bool|IResolvable DisabledInput { get; }
 
 ---
 
+##### `ProactiveExecutionEnabledInput`<sup>Optional</sup> <a name="ProactiveExecutionEnabledInput" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.proactiveExecutionEnabledInput"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabledInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
 ##### `PythonCodeInput`<sup>Optional</sup> <a name="PythonCodeInput" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.pythonCodeInput"></a>
 
 ```csharp
@@ -5528,6 +5693,16 @@ public string Description { get; }
 
 ```csharp
 public bool|IResolvable Disabled { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference.property.proactiveExecutionEnabled"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabled { get; }
 ```
 
 - *Type:* bool|Io.Cdktn.IResolvable
@@ -5607,6 +5782,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.resetDisabled">ResetDisabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.resetProactiveExecutionEnabled">ResetProactiveExecutionEnabled</a></code> | *No description.* |
 
 ---
 
@@ -5772,6 +5948,12 @@ private void ResetDescription()
 private void ResetDisabled()
 ```
 
+##### `ResetProactiveExecutionEnabled` <a name="ResetProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.resetProactiveExecutionEnabled"></a>
+
+```csharp
+private void ResetProactiveExecutionEnabled()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -5781,9 +5963,11 @@ private void ResetDisabled()
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.disabledInput">DisabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.proactiveExecutionEnabledInput">ProactiveExecutionEnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.pythonCodeInput">PythonCodeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.description">Description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.disabled">Disabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.proactiveExecutionEnabled">ProactiveExecutionEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.pythonCode">PythonCode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallback">GoogleCesGuardrailCodeCallbackBeforeModelCallback</a></code> | *No description.* |
 
@@ -5833,6 +6017,16 @@ public bool|IResolvable DisabledInput { get; }
 
 ---
 
+##### `ProactiveExecutionEnabledInput`<sup>Optional</sup> <a name="ProactiveExecutionEnabledInput" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.proactiveExecutionEnabledInput"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabledInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
 ##### `PythonCodeInput`<sup>Optional</sup> <a name="PythonCodeInput" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.pythonCodeInput"></a>
 
 ```csharp
@@ -5857,6 +6051,16 @@ public string Description { get; }
 
 ```csharp
 public bool|IResolvable Disabled { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `ProactiveExecutionEnabled`<sup>Required</sup> <a name="ProactiveExecutionEnabled" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallbackBeforeModelCallbackOutputReference.property.proactiveExecutionEnabled"></a>
+
+```csharp
+public bool|IResolvable ProactiveExecutionEnabled { get; }
 ```
 
 - *Type:* bool|Io.Cdktn.IResolvable

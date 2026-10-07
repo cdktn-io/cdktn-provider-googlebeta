@@ -4,12 +4,12 @@
 
 ### GoogleComputeInstanceGroup <a name="GoogleComputeInstanceGroup" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group google_compute_instance_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group google_compute_instance_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancegroup"
 
 googlecomputeinstancegroup.NewGoogleComputeInstanceGroup(scope Construct, id *string, config GoogleComputeInstanceGroupConfig) GoogleComputeInstanceGroup
 ```
@@ -489,7 +489,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancegroup"
 
 googlecomputeinstancegroup.GoogleComputeInstanceGroup_IsConstruct(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancegroup"
 
 googlecomputeinstancegroup.GoogleComputeInstanceGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googlecomputeinstancegroup.GoogleComputeInstanceGroup_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancegroup"
 
 googlecomputeinstancegroup.GoogleComputeInstanceGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ googlecomputeinstancegroup.GoogleComputeInstanceGroup_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancegroup"
 
 googlecomputeinstancegroup.GoogleComputeInstanceGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -578,7 +578,7 @@ The construct id used in the generated config for the GoogleComputeInstanceGroup
 
 The id of the existing GoogleComputeInstanceGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1020,7 +1020,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancegroup"
 
 &googlecomputeinstancegroup.GoogleComputeInstanceGroupConfig {
 	Connection: interface{},
@@ -1038,7 +1038,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 	NamedPort: interface{},
 	Network: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeouts,
 	Zone: *string,
 }
 ```
@@ -1057,7 +1057,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupConfig.property.name">Name</a></code> | <code>*string</code> | The name of the instance group. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupConfig.property.description">Description</a></code> | <code>*string</code> | An optional textual description of the instance group. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#id GoogleComputeInstanceGroup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#id GoogleComputeInstanceGroup#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupConfig.property.instances">Instances</a></code> | <code>*[]*string</code> | The list of instances in the group, in self_link format. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupConfig.property.namedPort">NamedPort</a></code> | <code>interface{}</code> | named_port block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupConfig.property.network">Network</a></code> | <code>*string</code> | The URL of the network the instance group is in. |
@@ -1149,7 +1149,7 @@ The name of the instance group.
 
 Must be 1-63 characters long and comply with RFC1035. Supported characters include lowercase letters, numbers, and hyphens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#name GoogleComputeInstanceGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#name GoogleComputeInstanceGroup#name}
 
 ---
 
@@ -1170,7 +1170,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#deletion_policy GoogleComputeInstanceGroup#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#deletion_policy GoogleComputeInstanceGroup#deletion_policy}
 
 ---
 
@@ -1184,7 +1184,7 @@ Description *string
 
 An optional textual description of the instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#description GoogleComputeInstanceGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#description GoogleComputeInstanceGroup#description}
 
 ---
 
@@ -1196,7 +1196,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#id GoogleComputeInstanceGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#id GoogleComputeInstanceGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1215,7 +1215,7 @@ The list of instances in the group, in self_link format.
 
 When adding instances they must all be in the same network and zone as the instance group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#instances GoogleComputeInstanceGroup#instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#instances GoogleComputeInstanceGroup#instances}
 
 ---
 
@@ -1229,7 +1229,7 @@ NamedPort interface{}
 
 named_port block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#named_port GoogleComputeInstanceGroup#named_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#named_port GoogleComputeInstanceGroup#named_port}
 
 ---
 
@@ -1245,7 +1245,7 @@ The URL of the network the instance group is in.
 
 If this is different from the network where the instances are in, the creation fails. Defaults to the network where the instances are in (if neither network nor instances is specified, this field will be blank).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#network GoogleComputeInstanceGroup#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#network GoogleComputeInstanceGroup#network}
 
 ---
 
@@ -1261,7 +1261,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#project GoogleComputeInstanceGroup#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#project GoogleComputeInstanceGroup#project}
 
 ---
 
@@ -1275,7 +1275,7 @@ Timeouts GoogleComputeInstanceGroupTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#timeouts GoogleComputeInstanceGroup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#timeouts GoogleComputeInstanceGroup#timeouts}
 
 ---
 
@@ -1289,7 +1289,7 @@ Zone *string
 
 The zone that this instance group should be created in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#zone GoogleComputeInstanceGroup#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#zone GoogleComputeInstanceGroup#zone}
 
 ---
 
@@ -1298,7 +1298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupNamedPort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancegroup"
 
 &googlecomputeinstancegroup.GoogleComputeInstanceGroupNamedPort {
 	Name: *string,
@@ -1325,7 +1325,7 @@ Name *string
 
 The name which the port will be mapped to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#name GoogleComputeInstanceGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#name GoogleComputeInstanceGroup#name}
 
 ---
 
@@ -1339,7 +1339,7 @@ Port *f64
 
 The port number to map the name to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#port GoogleComputeInstanceGroup#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#port GoogleComputeInstanceGroup#port}
 
 ---
 
@@ -1348,7 +1348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancegroup"
 
 &googlecomputeinstancegroup.GoogleComputeInstanceGroupTimeouts {
 	Create: *string,
@@ -1361,9 +1361,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#create GoogleComputeInstanceGroup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#delete GoogleComputeInstanceGroup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#update GoogleComputeInstanceGroup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#create GoogleComputeInstanceGroup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#delete GoogleComputeInstanceGroup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#update GoogleComputeInstanceGroup#update}. |
 
 ---
 
@@ -1375,7 +1375,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#create GoogleComputeInstanceGroup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#create GoogleComputeInstanceGroup#create}.
 
 ---
 
@@ -1387,7 +1387,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#delete GoogleComputeInstanceGroup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#delete GoogleComputeInstanceGroup#delete}.
 
 ---
 
@@ -1399,7 +1399,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_group#update GoogleComputeInstanceGroup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_instance_group#update GoogleComputeInstanceGroup#update}.
 
 ---
 
@@ -1410,7 +1410,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupNamedPortList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancegroup"
 
 googlecomputeinstancegroup.NewGoogleComputeInstanceGroupNamedPortList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInstanceGroupNamedPortList
 ```
@@ -1570,7 +1570,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupNamedPortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancegroup"
 
 googlecomputeinstancegroup.NewGoogleComputeInstanceGroupNamedPortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInstanceGroupNamedPortOutputReference
 ```
@@ -1881,7 +1881,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancegroup"
 
 googlecomputeinstancegroup.NewGoogleComputeInstanceGroupTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceGroupTimeoutsOutputReference
 ```

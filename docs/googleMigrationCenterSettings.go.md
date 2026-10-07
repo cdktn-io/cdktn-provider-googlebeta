@@ -4,12 +4,12 @@
 
 ### GoogleMigrationCenterSettings <a name="GoogleMigrationCenterSettings" id="@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings google_migration_center_settings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings google_migration_center_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcentersettings"
 
 googlemigrationcentersettings.NewGoogleMigrationCenterSettings(scope Construct, id *string, config GoogleMigrationCenterSettingsConfig) GoogleMigrationCenterSettings
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcentersettings"
 
 googlemigrationcentersettings.GoogleMigrationCenterSettings_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcentersettings"
 
 googlemigrationcentersettings.GoogleMigrationCenterSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlemigrationcentersettings.GoogleMigrationCenterSettings_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcentersettings"
 
 googlemigrationcentersettings.GoogleMigrationCenterSettings_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlemigrationcentersettings.GoogleMigrationCenterSettings_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcentersettings"
 
 googlemigrationcentersettings.GoogleMigrationCenterSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleMigrationCenterSetti
 
 The id of the existing GoogleMigrationCenterSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -909,7 +909,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcentersettings"
 
 &googlemigrationcentersettings.GoogleMigrationCenterSettingsConfig {
 	Connection: interface{},
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 	Id: *string,
 	PreferenceSet: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleMigrationCenterSettings.GoogleMigrationCenterSettingsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleMigrationCenterSettings.GoogleMigrationCenterSettingsTimeouts,
 }
 ```
 
@@ -943,9 +943,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsConfig.property.location">Location</a></code> | <code>*string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsConfig.property.disableCloudLogging">DisableCloudLogging</a></code> | <code>interface{}</code> | Disable Cloud Logging for the Migration Center API. Users are billed for the logs. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#id GoogleMigrationCenterSettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#id GoogleMigrationCenterSettings#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsConfig.property.preferenceSet">PreferenceSet</a></code> | <code>*string</code> | The preference set used by default for a project. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#project GoogleMigrationCenterSettings#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#project GoogleMigrationCenterSettings#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsTimeouts">GoogleMigrationCenterSettingsTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1030,7 +1030,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#location GoogleMigrationCenterSettings#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#location GoogleMigrationCenterSettings#location}
 
 ---
 
@@ -1051,7 +1051,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#deletion_policy GoogleMigrationCenterSettings#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#deletion_policy GoogleMigrationCenterSettings#deletion_policy}
 
 ---
 
@@ -1065,7 +1065,7 @@ DisableCloudLogging interface{}
 
 Disable Cloud Logging for the Migration Center API. Users are billed for the logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#disable_cloud_logging GoogleMigrationCenterSettings#disable_cloud_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#disable_cloud_logging GoogleMigrationCenterSettings#disable_cloud_logging}
 
 ---
 
@@ -1077,7 +1077,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#id GoogleMigrationCenterSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#id GoogleMigrationCenterSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1094,7 +1094,7 @@ PreferenceSet *string
 
 The preference set used by default for a project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#preference_set GoogleMigrationCenterSettings#preference_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#preference_set GoogleMigrationCenterSettings#preference_set}
 
 ---
 
@@ -1106,7 +1106,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#project GoogleMigrationCenterSettings#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#project GoogleMigrationCenterSettings#project}.
 
 ---
 
@@ -1120,7 +1120,7 @@ Timeouts GoogleMigrationCenterSettingsTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#timeouts GoogleMigrationCenterSettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#timeouts GoogleMigrationCenterSettings#timeouts}
 
 ---
 
@@ -1129,7 +1129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcentersettings"
 
 &googlemigrationcentersettings.GoogleMigrationCenterSettingsTimeouts {
 	Create: *string,
@@ -1142,9 +1142,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#create GoogleMigrationCenterSettings#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#delete GoogleMigrationCenterSettings#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#update GoogleMigrationCenterSettings#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#create GoogleMigrationCenterSettings#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#delete GoogleMigrationCenterSettings#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#update GoogleMigrationCenterSettings#update}. |
 
 ---
 
@@ -1156,7 +1156,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#create GoogleMigrationCenterSettings#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#create GoogleMigrationCenterSettings#create}.
 
 ---
 
@@ -1168,7 +1168,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#delete GoogleMigrationCenterSettings#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#delete GoogleMigrationCenterSettings#delete}.
 
 ---
 
@@ -1180,7 +1180,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_settings#update GoogleMigrationCenterSettings#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_settings#update GoogleMigrationCenterSettings#update}.
 
 ---
 
@@ -1191,7 +1191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterSettings.GoogleMigrationCenterSettingsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcentersettings"
 
 googlemigrationcentersettings.NewGoogleMigrationCenterSettingsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMigrationCenterSettingsTimeoutsOutputReference
 ```
