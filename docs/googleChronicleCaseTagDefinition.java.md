@@ -4,7 +4,7 @@
 
 ### GoogleChronicleCaseTagDefinition <a name="GoogleChronicleCaseTagDefinition" id="@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition google_chronicle_case_tag_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition google_chronicle_case_tag_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinition.Initializer"></a>
 
@@ -55,8 +55,8 @@ GoogleChronicleCaseTagDefinition.Builder.create(Construct scope, java.lang.Strin
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinition.Initializer.parameter.priority">priority</a></code> | <code>java.lang.Number</code> | Note that Google Security Operations merges priority with other alerts and entities and events so that the priority here is not absolute. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinition.Initializer.parameter.value">value</a></code> | <code>java.lang.String</code> | Specific value to search in case - in addition to SearchIn property. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinition.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinition.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#id GoogleChronicleCaseTagDefinition#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinition.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#project GoogleChronicleCaseTagDefinition#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinition.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#id GoogleChronicleCaseTagDefinition#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinition.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#project GoogleChronicleCaseTagDefinition#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinition.Initializer.parameter.propertyName">propertyName</a></code> | <code>java.lang.String</code> | Specific Entity property name to search in case. This is relevant only when a SearchIn of type BY_ENTITY_PROPERTY_NAME was chosen. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinition.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionTimeouts">GoogleChronicleCaseTagDefinitionTimeouts</a></code> | timeouts block. |
 
@@ -128,7 +128,7 @@ Must be unique amongst siblings in the same scope
 
 When checked, the tag will be assigned as the title of the case if it meets the conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#can_be_case_title GoogleChronicleCaseTagDefinition#can_be_case_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#can_be_case_title GoogleChronicleCaseTagDefinition#can_be_case_title}
 
 ---
 
@@ -140,7 +140,7 @@ The type of comparison to be used when comparing the value to the case.
 
 Possible values: ["EXACT", "START_WITH", "CONTAIN", "ENDS_WITH"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#comparison_type GoogleChronicleCaseTagDefinition#comparison_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#comparison_type GoogleChronicleCaseTagDefinition#comparison_type}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This is the name of the tag that will be applied to the case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#display_name GoogleChronicleCaseTagDefinition#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#display_name GoogleChronicleCaseTagDefinition#display_name}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#instance GoogleChronicleCaseTagDefinition#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#instance GoogleChronicleCaseTagDefinition#instance}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#location GoogleChronicleCaseTagDefinition#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#location GoogleChronicleCaseTagDefinition#location}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The criteria to match the case against. Possible values: ["BY_VENDOR", "BY_PRODUCT", "BY_RULE_GENERATOR", "BY_ENTITY_PROPERTY_NAME", "DATA_DRIVEN", "SYSTEM"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#match_criteria GoogleChronicleCaseTagDefinition#match_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#match_criteria GoogleChronicleCaseTagDefinition#match_criteria}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Note that Google Security Operations merges priority with other alerts and entities and events so that the priority here is not absolute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#priority GoogleChronicleCaseTagDefinition#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#priority GoogleChronicleCaseTagDefinition#priority}
 
 ---
 
@@ -200,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specific value to search in case - in addition to SearchIn property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#value GoogleChronicleCaseTagDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#value GoogleChronicleCaseTagDefinition#value}
 
 ---
 
@@ -217,7 +217,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#deletion_policy GoogleChronicleCaseTagDefinition#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#deletion_policy GoogleChronicleCaseTagDefinition#deletion_policy}
 
 ---
 
@@ -225,7 +225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#id GoogleChronicleCaseTagDefinition#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#id GoogleChronicleCaseTagDefinition#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -236,7 +236,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#project GoogleChronicleCaseTagDefinition#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#project GoogleChronicleCaseTagDefinition#project}.
 
 ---
 
@@ -246,7 +246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specific Entity property name to search in case. This is relevant only when a SearchIn of type BY_ENTITY_PROPERTY_NAME was chosen.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#property_name GoogleChronicleCaseTagDefinition#property_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#property_name GoogleChronicleCaseTagDefinition#property_name}
 
 ---
 
@@ -256,7 +256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#timeouts GoogleChronicleCaseTagDefinition#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#timeouts GoogleChronicleCaseTagDefinition#timeouts}
 
 ---
 
@@ -753,7 +753,7 @@ The construct id used in the generated config for the GoogleChronicleCaseTagDefi
 
 The id of the existing GoogleChronicleCaseTagDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1307,8 +1307,8 @@ GoogleChronicleCaseTagDefinitionConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionConfig.property.priority">priority</a></code> | <code>java.lang.Number</code> | Note that Google Security Operations merges priority with other alerts and entities and events so that the priority here is not absolute. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionConfig.property.value">value</a></code> | <code>java.lang.String</code> | Specific value to search in case - in addition to SearchIn property. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#id GoogleChronicleCaseTagDefinition#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#project GoogleChronicleCaseTagDefinition#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#id GoogleChronicleCaseTagDefinition#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#project GoogleChronicleCaseTagDefinition#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionConfig.property.propertyName">propertyName</a></code> | <code>java.lang.String</code> | Specific Entity property name to search in case. This is relevant only when a SearchIn of type BY_ENTITY_PROPERTY_NAME was chosen. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionTimeouts">GoogleChronicleCaseTagDefinitionTimeouts</a></code> | timeouts block. |
 
@@ -1394,7 +1394,7 @@ public java.lang.Boolean|IResolvable getCanBeCaseTitle();
 
 When checked, the tag will be assigned as the title of the case if it meets the conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#can_be_case_title GoogleChronicleCaseTagDefinition#can_be_case_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#can_be_case_title GoogleChronicleCaseTagDefinition#can_be_case_title}
 
 ---
 
@@ -1410,7 +1410,7 @@ The type of comparison to be used when comparing the value to the case.
 
 Possible values: ["EXACT", "START_WITH", "CONTAIN", "ENDS_WITH"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#comparison_type GoogleChronicleCaseTagDefinition#comparison_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#comparison_type GoogleChronicleCaseTagDefinition#comparison_type}
 
 ---
 
@@ -1424,7 +1424,7 @@ public java.lang.String getDisplayName();
 
 This is the name of the tag that will be applied to the case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#display_name GoogleChronicleCaseTagDefinition#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#display_name GoogleChronicleCaseTagDefinition#display_name}
 
 ---
 
@@ -1438,7 +1438,7 @@ public java.lang.String getInstance();
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#instance GoogleChronicleCaseTagDefinition#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#instance GoogleChronicleCaseTagDefinition#instance}
 
 ---
 
@@ -1452,7 +1452,7 @@ public java.lang.String getLocation();
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#location GoogleChronicleCaseTagDefinition#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#location GoogleChronicleCaseTagDefinition#location}
 
 ---
 
@@ -1466,7 +1466,7 @@ public java.lang.String getMatchCriteria();
 
 The criteria to match the case against. Possible values: ["BY_VENDOR", "BY_PRODUCT", "BY_RULE_GENERATOR", "BY_ENTITY_PROPERTY_NAME", "DATA_DRIVEN", "SYSTEM"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#match_criteria GoogleChronicleCaseTagDefinition#match_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#match_criteria GoogleChronicleCaseTagDefinition#match_criteria}
 
 ---
 
@@ -1480,7 +1480,7 @@ public java.lang.Number getPriority();
 
 Note that Google Security Operations merges priority with other alerts and entities and events so that the priority here is not absolute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#priority GoogleChronicleCaseTagDefinition#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#priority GoogleChronicleCaseTagDefinition#priority}
 
 ---
 
@@ -1494,7 +1494,7 @@ public java.lang.String getValue();
 
 Specific value to search in case - in addition to SearchIn property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#value GoogleChronicleCaseTagDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#value GoogleChronicleCaseTagDefinition#value}
 
 ---
 
@@ -1515,7 +1515,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#deletion_policy GoogleChronicleCaseTagDefinition#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#deletion_policy GoogleChronicleCaseTagDefinition#deletion_policy}
 
 ---
 
@@ -1527,7 +1527,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#id GoogleChronicleCaseTagDefinition#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#id GoogleChronicleCaseTagDefinition#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1542,7 +1542,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#project GoogleChronicleCaseTagDefinition#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#project GoogleChronicleCaseTagDefinition#project}.
 
 ---
 
@@ -1556,7 +1556,7 @@ public java.lang.String getPropertyName();
 
 Specific Entity property name to search in case. This is relevant only when a SearchIn of type BY_ENTITY_PROPERTY_NAME was chosen.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#property_name GoogleChronicleCaseTagDefinition#property_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#property_name GoogleChronicleCaseTagDefinition#property_name}
 
 ---
 
@@ -1570,7 +1570,7 @@ public GoogleChronicleCaseTagDefinitionTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#timeouts GoogleChronicleCaseTagDefinition#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#timeouts GoogleChronicleCaseTagDefinition#timeouts}
 
 ---
 
@@ -1592,9 +1592,9 @@ GoogleChronicleCaseTagDefinitionTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#create GoogleChronicleCaseTagDefinition#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#delete GoogleChronicleCaseTagDefinition#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#update GoogleChronicleCaseTagDefinition#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#create GoogleChronicleCaseTagDefinition#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#delete GoogleChronicleCaseTagDefinition#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseTagDefinition.GoogleChronicleCaseTagDefinitionTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#update GoogleChronicleCaseTagDefinition#update}. |
 
 ---
 
@@ -1606,7 +1606,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#create GoogleChronicleCaseTagDefinition#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#create GoogleChronicleCaseTagDefinition#create}.
 
 ---
 
@@ -1618,7 +1618,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#delete GoogleChronicleCaseTagDefinition#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#delete GoogleChronicleCaseTagDefinition#delete}.
 
 ---
 
@@ -1630,7 +1630,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#update GoogleChronicleCaseTagDefinition#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#update GoogleChronicleCaseTagDefinition#update}.
 
 ---
 

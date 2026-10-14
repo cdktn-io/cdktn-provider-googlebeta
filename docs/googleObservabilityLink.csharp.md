@@ -4,7 +4,7 @@
 
 ### GoogleObservabilityLink <a name="GoogleObservabilityLink" id="@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLink"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link google_observability_link}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link google_observability_link}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLink.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleObservabilityLink to
 
 The id of the existing GoogleObservabilityLink that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1027,8 +1027,8 @@ new GoogleObservabilityLinkConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkConfig.property.description">Description</a></code> | <code>string</code> | Description of the link. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkConfig.property.displayName">DisplayName</a></code> | <code>string</code> | User friendly display name. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#id GoogleObservabilityLink#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#project GoogleObservabilityLink#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#id GoogleObservabilityLink#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#project GoogleObservabilityLink#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkTimeouts">GoogleObservabilityLinkTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1113,7 +1113,7 @@ public string Bucket { get; set; }
 
 The bucket of the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#bucket GoogleObservabilityLink#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#bucket GoogleObservabilityLink#bucket}
 
 ---
 
@@ -1127,7 +1127,7 @@ public string Dataset { get; set; }
 
 The dataset of the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#dataset GoogleObservabilityLink#dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#dataset GoogleObservabilityLink#dataset}
 
 ---
 
@@ -1141,7 +1141,7 @@ public string LinkId { get; set; }
 
 The client-assigned identifier for the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#link_id GoogleObservabilityLink#link_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#link_id GoogleObservabilityLink#link_id}
 
 ---
 
@@ -1155,7 +1155,7 @@ public string Location { get; set; }
 
 The location of the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#location GoogleObservabilityLink#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#location GoogleObservabilityLink#location}
 
 ---
 
@@ -1176,7 +1176,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#deletion_policy GoogleObservabilityLink#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#deletion_policy GoogleObservabilityLink#deletion_policy}
 
 ---
 
@@ -1190,7 +1190,7 @@ public string Description { get; set; }
 
 Description of the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#description GoogleObservabilityLink#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#description GoogleObservabilityLink#description}
 
 ---
 
@@ -1204,7 +1204,7 @@ public string DisplayName { get; set; }
 
 User friendly display name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#display_name GoogleObservabilityLink#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#display_name GoogleObservabilityLink#display_name}
 
 ---
 
@@ -1216,7 +1216,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#id GoogleObservabilityLink#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#id GoogleObservabilityLink#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1231,7 +1231,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#project GoogleObservabilityLink#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#project GoogleObservabilityLink#project}.
 
 ---
 
@@ -1245,7 +1245,7 @@ public GoogleObservabilityLinkTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#timeouts GoogleObservabilityLink#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#timeouts GoogleObservabilityLink#timeouts}
 
 ---
 
@@ -1267,9 +1267,9 @@ new GoogleObservabilityLinkTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#create GoogleObservabilityLink#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#delete GoogleObservabilityLink#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#update GoogleObservabilityLink#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#create GoogleObservabilityLink#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#delete GoogleObservabilityLink#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityLink.GoogleObservabilityLinkTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#update GoogleObservabilityLink#update}. |
 
 ---
 
@@ -1281,7 +1281,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#create GoogleObservabilityLink#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#create GoogleObservabilityLink#create}.
 
 ---
 
@@ -1293,7 +1293,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#delete GoogleObservabilityLink#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#delete GoogleObservabilityLink#delete}.
 
 ---
 
@@ -1305,7 +1305,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link#update GoogleObservabilityLink#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#update GoogleObservabilityLink#update}.
 
 ---
 

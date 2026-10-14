@@ -4,7 +4,7 @@
 
 ### GoogleObservabilityBucket <a name="GoogleObservabilityBucket" id="@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket google_observability_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket google_observability_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucket.Initializer"></a>
 
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleObservabilityBucket 
 
 The id of the existing GoogleObservabilityBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1013,7 +1013,7 @@ KmsKey *string
 
 The resource name for the configured Cloud KMS key. The format is: projects/[PROJECT_ID]/locations/[LOCATION]/keyRings/[KEYRING]/cryptoKeys/[KEY].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#kms_key GoogleObservabilityBucket#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#kms_key GoogleObservabilityBucket#kms_key}
 
 ---
 
@@ -1059,8 +1059,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleob
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketConfig.property.cmekSettings">CmekSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketCmekSettings">GoogleObservabilityBucketCmekSettings</a></code> | cmek_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketConfig.property.description">Description</a></code> | <code>*string</code> | Description of the bucket. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | User friendly display name. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#id GoogleObservabilityBucket#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#project GoogleObservabilityBucket#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#id GoogleObservabilityBucket#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#project GoogleObservabilityBucket#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketTimeouts">GoogleObservabilityBucketTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1145,7 +1145,7 @@ BucketId *string
 
 A client-assigned identifier for the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#bucket_id GoogleObservabilityBucket#bucket_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#bucket_id GoogleObservabilityBucket#bucket_id}
 
 ---
 
@@ -1159,7 +1159,7 @@ Location *string
 
 The location of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#location GoogleObservabilityBucket#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#location GoogleObservabilityBucket#location}
 
 ---
 
@@ -1173,7 +1173,7 @@ CmekSettings GoogleObservabilityBucketCmekSettings
 
 cmek_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#cmek_settings GoogleObservabilityBucket#cmek_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#cmek_settings GoogleObservabilityBucket#cmek_settings}
 
 ---
 
@@ -1187,7 +1187,7 @@ Description *string
 
 Description of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#description GoogleObservabilityBucket#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#description GoogleObservabilityBucket#description}
 
 ---
 
@@ -1201,7 +1201,7 @@ DisplayName *string
 
 User friendly display name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#display_name GoogleObservabilityBucket#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#display_name GoogleObservabilityBucket#display_name}
 
 ---
 
@@ -1213,7 +1213,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#id GoogleObservabilityBucket#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#id GoogleObservabilityBucket#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1228,7 +1228,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#project GoogleObservabilityBucket#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#project GoogleObservabilityBucket#project}.
 
 ---
 
@@ -1242,7 +1242,7 @@ Timeouts GoogleObservabilityBucketTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#timeouts GoogleObservabilityBucket#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#timeouts GoogleObservabilityBucket#timeouts}
 
 ---
 
@@ -1264,9 +1264,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleob
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#create GoogleObservabilityBucket#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#delete GoogleObservabilityBucket#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#update GoogleObservabilityBucket#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#create GoogleObservabilityBucket#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#delete GoogleObservabilityBucket#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityBucket.GoogleObservabilityBucketTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#update GoogleObservabilityBucket#update}. |
 
 ---
 
@@ -1278,7 +1278,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#create GoogleObservabilityBucket#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#create GoogleObservabilityBucket#create}.
 
 ---
 
@@ -1290,7 +1290,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#delete GoogleObservabilityBucket#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#delete GoogleObservabilityBucket#delete}.
 
 ---
 
@@ -1302,7 +1302,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_bucket#update GoogleObservabilityBucket#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_bucket#update GoogleObservabilityBucket#update}.
 
 ---
 

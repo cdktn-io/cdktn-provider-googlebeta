@@ -4,7 +4,7 @@
 
 ### GoogleParameterManagerTemplate <a name="GoogleParameterManagerTemplate" id="@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template google_parameter_manager_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template google_parameter_manager_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplate.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleParameterManagerTemp
 
 The id of the existing GoogleParameterManagerTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -972,9 +972,9 @@ const googleParameterManagerTemplateConfig: googleParameterManagerTemplate.Googl
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateConfig.property.templateId">templateId</a></code> | <code>string</code> | This must be unique within the project. |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateConfig.property.format">format</a></code> | <code>string</code> | The format type of the template resource. Default value: "TEMPLATE_FORMAT_YAML" Possible values: ["TEMPLATE_FORMAT_YAML", "TEMPLATE_FORMAT_JSON"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#id GoogleParameterManagerTemplate#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#id GoogleParameterManagerTemplate#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | The labels assigned to this Template. |
-| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#project GoogleParameterManagerTemplate#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#project GoogleParameterManagerTemplate#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateTimeouts">GoogleParameterManagerTemplateTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1059,7 +1059,7 @@ public readonly templateId: string;
 
 This must be unique within the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#template_id GoogleParameterManagerTemplate#template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#template_id GoogleParameterManagerTemplate#template_id}
 
 ---
 
@@ -1081,7 +1081,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#deletion_policy GoogleParameterManagerTemplate#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#deletion_policy GoogleParameterManagerTemplate#deletion_policy}
 
 ---
 
@@ -1095,7 +1095,7 @@ public readonly format: string;
 
 The format type of the template resource. Default value: "TEMPLATE_FORMAT_YAML" Possible values: ["TEMPLATE_FORMAT_YAML", "TEMPLATE_FORMAT_JSON"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#format GoogleParameterManagerTemplate#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#format GoogleParameterManagerTemplate#format}
 
 ---
 
@@ -1107,7 +1107,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#id GoogleParameterManagerTemplate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#id GoogleParameterManagerTemplate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ An object containing a list of "key": value pairs. Example:
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#labels GoogleParameterManagerTemplate#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#labels GoogleParameterManagerTemplate#labels}
 
 ---
 
@@ -1151,7 +1151,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#project GoogleParameterManagerTemplate#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#project GoogleParameterManagerTemplate#project}.
 
 ---
 
@@ -1165,7 +1165,7 @@ public readonly timeouts: GoogleParameterManagerTemplateTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#timeouts GoogleParameterManagerTemplate#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#timeouts GoogleParameterManagerTemplate#timeouts}
 
 ---
 
@@ -1183,9 +1183,9 @@ const googleParameterManagerTemplateTimeouts: googleParameterManagerTemplate.Goo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#create GoogleParameterManagerTemplate#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#delete GoogleParameterManagerTemplate#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#update GoogleParameterManagerTemplate#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#create GoogleParameterManagerTemplate#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#delete GoogleParameterManagerTemplate#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParameterManagerTemplate.GoogleParameterManagerTemplateTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#update GoogleParameterManagerTemplate#update}. |
 
 ---
 
@@ -1197,7 +1197,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#create GoogleParameterManagerTemplate#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#create GoogleParameterManagerTemplate#create}.
 
 ---
 
@@ -1209,7 +1209,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#delete GoogleParameterManagerTemplate#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#delete GoogleParameterManagerTemplate#delete}.
 
 ---
 
@@ -1221,7 +1221,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_template#update GoogleParameterManagerTemplate#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#update GoogleParameterManagerTemplate#update}.
 
 ---
 

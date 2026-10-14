@@ -4,7 +4,7 @@
 
 ### GoogleGeminiGibqObservabilitySettingBinding <a name="GoogleGeminiGibqObservabilitySettingBinding" id="@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding google_gemini_gibq_observability_setting_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding google_gemini_gibq_observability_setting_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer"></a>
 
@@ -49,11 +49,11 @@ googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySetting
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer.parameter.settingBindingId">setting_binding_id</a></code> | <code>str</code> | Id of the setting binding. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer.parameter.target">target</a></code> | <code>str</code> | Target of the binding. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#id GoogleGeminiGibqObservabilitySettingBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#id GoogleGeminiGibqObservabilitySettingBinding#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer.parameter.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer.parameter.product">product</a></code> | <code>str</code> | Product type of the setting binding. Values include GEMINI_IN_BIGQUERY, GEMINI_CLOUD_ASSIST, etc. See [product reference](https://cloud.google.com/gemini/docs/api/reference/rest/v1/projects.locations.gibqObservabilitySettings.settingBindings) for a complete list. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#project GoogleGeminiGibqObservabilitySettingBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#project GoogleGeminiGibqObservabilitySettingBinding#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBinding.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingTimeouts">GoogleGeminiGibqObservabilitySettingBindingTimeouts</a></code> | timeouts block. |
 
 ---
@@ -124,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#gibq_observability_setting_id GoogleGeminiGibqObservabilitySettingBinding#gibq_observability_setting_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#gibq_observability_setting_id GoogleGeminiGibqObservabilitySettingBinding#gibq_observability_setting_id}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Id of the setting binding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#setting_binding_id GoogleGeminiGibqObservabilitySettingBinding#setting_binding_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#setting_binding_id GoogleGeminiGibqObservabilitySettingBinding#setting_binding_id}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Target of the binding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#target GoogleGeminiGibqObservabilitySettingBinding#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#target GoogleGeminiGibqObservabilitySettingBinding#target}
 
 ---
 
@@ -161,7 +161,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#deletion_policy GoogleGeminiGibqObservabilitySettingBinding#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#deletion_policy GoogleGeminiGibqObservabilitySettingBinding#deletion_policy}
 
 ---
 
@@ -169,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#id GoogleGeminiGibqObservabilitySettingBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#id GoogleGeminiGibqObservabilitySettingBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -185,7 +185,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#labels GoogleGeminiGibqObservabilitySettingBinding#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#labels GoogleGeminiGibqObservabilitySettingBinding#labels}
 
 ---
 
@@ -195,7 +195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#location GoogleGeminiGibqObservabilitySettingBinding#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#location GoogleGeminiGibqObservabilitySettingBinding#location}
 
 ---
 
@@ -205,7 +205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Product type of the setting binding. Values include GEMINI_IN_BIGQUERY, GEMINI_CLOUD_ASSIST, etc. See [product reference](https://cloud.google.com/gemini/docs/api/reference/rest/v1/projects.locations.gibqObservabilitySettings.settingBindings) for a complete list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#product GoogleGeminiGibqObservabilitySettingBinding#product}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#product GoogleGeminiGibqObservabilitySettingBinding#product}
 
 ---
 
@@ -213,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#project GoogleGeminiGibqObservabilitySettingBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#project GoogleGeminiGibqObservabilitySettingBinding#project}.
 
 ---
 
@@ -223,7 +223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#timeouts GoogleGeminiGibqObservabilitySettingBinding#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#timeouts GoogleGeminiGibqObservabilitySettingBinding#timeouts}
 
 ---
 
@@ -628,7 +628,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#create GoogleGeminiGibqObservabilitySettingBinding#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#create GoogleGeminiGibqObservabilitySettingBinding#create}.
 
 ---
 
@@ -636,7 +636,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#delete GoogleGeminiGibqObservabilitySettingBinding#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#delete GoogleGeminiGibqObservabilitySettingBinding#delete}.
 
 ---
 
@@ -644,7 +644,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#update GoogleGeminiGibqObservabilitySettingBinding#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#update GoogleGeminiGibqObservabilitySettingBinding#update}.
 
 ---
 
@@ -804,7 +804,7 @@ The construct id used in the generated config for the GoogleGeminiGibqObservabil
 
 The id of the existing GoogleGeminiGibqObservabilitySettingBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1317,11 +1317,11 @@ googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySetting
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingConfig.property.settingBindingId">setting_binding_id</a></code> | <code>str</code> | Id of the setting binding. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingConfig.property.target">target</a></code> | <code>str</code> | Target of the binding. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#id GoogleGeminiGibqObservabilitySettingBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#id GoogleGeminiGibqObservabilitySettingBinding#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingConfig.property.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingConfig.property.product">product</a></code> | <code>str</code> | Product type of the setting binding. Values include GEMINI_IN_BIGQUERY, GEMINI_CLOUD_ASSIST, etc. See [product reference](https://cloud.google.com/gemini/docs/api/reference/rest/v1/projects.locations.gibqObservabilitySettings.settingBindings) for a complete list. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#project GoogleGeminiGibqObservabilitySettingBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#project GoogleGeminiGibqObservabilitySettingBinding#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingTimeouts">GoogleGeminiGibqObservabilitySettingBindingTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1406,7 +1406,7 @@ gibq_observability_setting_id: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#gibq_observability_setting_id GoogleGeminiGibqObservabilitySettingBinding#gibq_observability_setting_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#gibq_observability_setting_id GoogleGeminiGibqObservabilitySettingBinding#gibq_observability_setting_id}
 
 ---
 
@@ -1420,7 +1420,7 @@ setting_binding_id: str
 
 Id of the setting binding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#setting_binding_id GoogleGeminiGibqObservabilitySettingBinding#setting_binding_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#setting_binding_id GoogleGeminiGibqObservabilitySettingBinding#setting_binding_id}
 
 ---
 
@@ -1434,7 +1434,7 @@ target: str
 
 Target of the binding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#target GoogleGeminiGibqObservabilitySettingBinding#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#target GoogleGeminiGibqObservabilitySettingBinding#target}
 
 ---
 
@@ -1455,7 +1455,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#deletion_policy GoogleGeminiGibqObservabilitySettingBinding#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#deletion_policy GoogleGeminiGibqObservabilitySettingBinding#deletion_policy}
 
 ---
 
@@ -1467,7 +1467,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#id GoogleGeminiGibqObservabilitySettingBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#id GoogleGeminiGibqObservabilitySettingBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1487,7 +1487,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#labels GoogleGeminiGibqObservabilitySettingBinding#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#labels GoogleGeminiGibqObservabilitySettingBinding#labels}
 
 ---
 
@@ -1501,7 +1501,7 @@ location: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#location GoogleGeminiGibqObservabilitySettingBinding#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#location GoogleGeminiGibqObservabilitySettingBinding#location}
 
 ---
 
@@ -1515,7 +1515,7 @@ product: str
 
 Product type of the setting binding. Values include GEMINI_IN_BIGQUERY, GEMINI_CLOUD_ASSIST, etc. See [product reference](https://cloud.google.com/gemini/docs/api/reference/rest/v1/projects.locations.gibqObservabilitySettings.settingBindings) for a complete list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#product GoogleGeminiGibqObservabilitySettingBinding#product}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#product GoogleGeminiGibqObservabilitySettingBinding#product}
 
 ---
 
@@ -1527,7 +1527,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#project GoogleGeminiGibqObservabilitySettingBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#project GoogleGeminiGibqObservabilitySettingBinding#project}.
 
 ---
 
@@ -1541,7 +1541,7 @@ timeouts: GoogleGeminiGibqObservabilitySettingBindingTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#timeouts GoogleGeminiGibqObservabilitySettingBinding#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#timeouts GoogleGeminiGibqObservabilitySettingBinding#timeouts}
 
 ---
 
@@ -1563,9 +1563,9 @@ googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySetting
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#create GoogleGeminiGibqObservabilitySettingBinding#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#delete GoogleGeminiGibqObservabilitySettingBinding#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#update GoogleGeminiGibqObservabilitySettingBinding#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#create GoogleGeminiGibqObservabilitySettingBinding#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#delete GoogleGeminiGibqObservabilitySettingBinding#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGibqObservabilitySettingBinding.GoogleGeminiGibqObservabilitySettingBindingTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#update GoogleGeminiGibqObservabilitySettingBinding#update}. |
 
 ---
 
@@ -1577,7 +1577,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#create GoogleGeminiGibqObservabilitySettingBinding#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#create GoogleGeminiGibqObservabilitySettingBinding#create}.
 
 ---
 
@@ -1589,7 +1589,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#delete GoogleGeminiGibqObservabilitySettingBinding#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#delete GoogleGeminiGibqObservabilitySettingBinding#delete}.
 
 ---
 
@@ -1601,7 +1601,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting_binding#update GoogleGeminiGibqObservabilitySettingBinding#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting_binding#update GoogleGeminiGibqObservabilitySettingBinding#update}.
 
 ---
 

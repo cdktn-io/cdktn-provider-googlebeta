@@ -4,7 +4,7 @@
 
 ### GoogleEventarcPipelineIamPolicy <a name="GoogleEventarcPipelineIamPolicy" id="@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer"></a>
 
@@ -38,11 +38,11 @@ GoogleEventarcPipelineIamPolicy.Builder.create(Construct scope, java.lang.String
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.pipelineId">pipelineId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#pipeline_id GoogleEventarcPipelineIamPolicy#pipeline_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#policy_data GoogleEventarcPipelineIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#id GoogleEventarcPipelineIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#location GoogleEventarcPipelineIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#project GoogleEventarcPipelineIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.pipelineId">pipelineId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#pipeline_id GoogleEventarcPipelineIamPolicy#pipeline_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#policy_data GoogleEventarcPipelineIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#id GoogleEventarcPipelineIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#location GoogleEventarcPipelineIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicy.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#project GoogleEventarcPipelineIamPolicy#project}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#pipeline_id GoogleEventarcPipelineIamPolicy#pipeline_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#pipeline_id GoogleEventarcPipelineIamPolicy#pipeline_id}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#policy_data GoogleEventarcPipelineIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#policy_data GoogleEventarcPipelineIamPolicy#policy_data}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#id GoogleEventarcPipelineIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#id GoogleEventarcPipelineIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#location GoogleEventarcPipelineIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#location GoogleEventarcPipelineIamPolicy#location}.
 
 ---
 
@@ -145,7 +145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#project GoogleEventarcPipelineIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#project GoogleEventarcPipelineIamPolicy#project}.
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the GoogleEventarcPipelineIamP
 
 The id of the existing GoogleEventarcPipelineIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,11 +965,11 @@ GoogleEventarcPipelineIamPolicyConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.pipelineId">pipelineId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#pipeline_id GoogleEventarcPipelineIamPolicy#pipeline_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#policy_data GoogleEventarcPipelineIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#id GoogleEventarcPipelineIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#location GoogleEventarcPipelineIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#project GoogleEventarcPipelineIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.pipelineId">pipelineId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#pipeline_id GoogleEventarcPipelineIamPolicy#pipeline_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#policy_data GoogleEventarcPipelineIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#id GoogleEventarcPipelineIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#location GoogleEventarcPipelineIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEventarcPipelineIamPolicy.GoogleEventarcPipelineIamPolicyConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#project GoogleEventarcPipelineIamPolicy#project}. |
 
 ---
 
@@ -1051,7 +1051,7 @@ public java.lang.String getPipelineId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#pipeline_id GoogleEventarcPipelineIamPolicy#pipeline_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#pipeline_id GoogleEventarcPipelineIamPolicy#pipeline_id}.
 
 ---
 
@@ -1063,7 +1063,7 @@ public java.lang.String getPolicyData();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#policy_data GoogleEventarcPipelineIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#policy_data GoogleEventarcPipelineIamPolicy#policy_data}.
 
 ---
 
@@ -1075,7 +1075,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#id GoogleEventarcPipelineIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#id GoogleEventarcPipelineIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1090,7 +1090,7 @@ public java.lang.String getLocation();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#location GoogleEventarcPipelineIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#location GoogleEventarcPipelineIamPolicy#location}.
 
 ---
 
@@ -1102,7 +1102,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_eventarc_pipeline_iam_policy#project GoogleEventarcPipelineIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#project GoogleEventarcPipelineIamPolicy#project}.
 
 ---
 
