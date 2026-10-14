@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleChronicleCaseStageDefinitionConfig extends cdktn.Terrafor
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#deletion_policy GoogleChronicleCaseStageDefinition#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#deletion_policy GoogleChronicleCaseStageDefinition#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The display name of the stage. The display name must be unique within the instance. The display name must not contain special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#display_name GoogleChronicleCaseStageDefinition#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#display_name GoogleChronicleCaseStageDefinition#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#id GoogleChronicleCaseStageDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#id GoogleChronicleCaseStageDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,43 +40,43 @@ export interface GoogleChronicleCaseStageDefinitionConfig extends cdktn.Terrafor
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#instance GoogleChronicleCaseStageDefinition#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#instance GoogleChronicleCaseStageDefinition#instance}
   */
   readonly instance: string;
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#location GoogleChronicleCaseStageDefinition#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#location GoogleChronicleCaseStageDefinition#location}
   */
   readonly location: string;
   /**
   * Defines the case stage order in the lifetime of a case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#order GoogleChronicleCaseStageDefinition#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#order GoogleChronicleCaseStageDefinition#order}
   */
   readonly order: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#project GoogleChronicleCaseStageDefinition#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#project GoogleChronicleCaseStageDefinition#project}
   */
   readonly project?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#timeouts GoogleChronicleCaseStageDefinition#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#timeouts GoogleChronicleCaseStageDefinition#timeouts}
   */
   readonly timeouts?: GoogleChronicleCaseStageDefinitionTimeouts;
 }
 export interface GoogleChronicleCaseStageDefinitionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#create GoogleChronicleCaseStageDefinition#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#create GoogleChronicleCaseStageDefinition#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#delete GoogleChronicleCaseStageDefinition#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#delete GoogleChronicleCaseStageDefinition#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#update GoogleChronicleCaseStageDefinition#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#update GoogleChronicleCaseStageDefinition#update}
   */
   readonly update?: string;
 }
@@ -228,7 +228,7 @@ export class GoogleChronicleCaseStageDefinitionTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition}
 */
 export class GoogleChronicleCaseStageDefinition extends cdktn.TerraformResource {
 
@@ -244,7 +244,7 @@ export class GoogleChronicleCaseStageDefinition extends cdktn.TerraformResource 
   * Generates CDKTN code for importing a GoogleChronicleCaseStageDefinition resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleChronicleCaseStageDefinition to import
-  * @param importFromId The id of the existing GoogleChronicleCaseStageDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleChronicleCaseStageDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleChronicleCaseStageDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -256,7 +256,7 @@ export class GoogleChronicleCaseStageDefinition extends cdktn.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,7 +267,7 @@ export class GoogleChronicleCaseStageDefinition extends cdktn.TerraformResource 
       terraformResourceType: 'google_chronicle_case_stage_definition',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.6.0',
+        providerVersion: '8.7.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,

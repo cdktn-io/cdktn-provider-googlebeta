@@ -116,6 +116,7 @@ Object.defineProperty(exports, 'googleArtifactRegistryRepositoryIamPolicy', { ge
 Object.defineProperty(exports, 'googleArtifactRegistryRule', { get: function () { return require('./google-artifact-registry-rule'); } });
 Object.defineProperty(exports, 'googleArtifactRegistryVpcscConfig', { get: function () { return require('./google-artifact-registry-vpcsc-config'); } });
 Object.defineProperty(exports, 'googleAssuredWorkloadsWorkload', { get: function () { return require('./google-assured-workloads-workload'); } });
+Object.defineProperty(exports, 'googleBackupDrAutoProtectionPolicy', { get: function () { return require('./google-backup-dr-auto-protection-policy'); } });
 Object.defineProperty(exports, 'googleBackupDrBackupPlan', { get: function () { return require('./google-backup-dr-backup-plan'); } });
 Object.defineProperty(exports, 'googleBackupDrBackupPlanAssociation', { get: function () { return require('./google-backup-dr-backup-plan-association'); } });
 Object.defineProperty(exports, 'googleBackupDrBackupVault', { get: function () { return require('./google-backup-dr-backup-vault'); } });
@@ -441,6 +442,7 @@ Object.defineProperty(exports, 'googleComputeNodeTemplate', { get: function () {
 Object.defineProperty(exports, 'googleComputeOrganizationSecurityPolicy', { get: function () { return require('./google-compute-organization-security-policy'); } });
 Object.defineProperty(exports, 'googleComputeOrganizationSecurityPolicyAssociation', { get: function () { return require('./google-compute-organization-security-policy-association'); } });
 Object.defineProperty(exports, 'googleComputeOrganizationSecurityPolicyRule', { get: function () { return require('./google-compute-organization-security-policy-rule'); } });
+Object.defineProperty(exports, 'googleComputeOrganizationSnapshotRecycleBinPolicy', { get: function () { return require('./google-compute-organization-snapshot-recycle-bin-policy'); } });
 Object.defineProperty(exports, 'googleComputePacketMirroring', { get: function () { return require('./google-compute-packet-mirroring'); } });
 Object.defineProperty(exports, 'googleComputePerInstanceConfig', { get: function () { return require('./google-compute-per-instance-config'); } });
 Object.defineProperty(exports, 'googleComputePreviewFeature', { get: function () { return require('./google-compute-preview-feature'); } });
@@ -518,6 +520,7 @@ Object.defineProperty(exports, 'googleComputeSnapshot', { get: function () { ret
 Object.defineProperty(exports, 'googleComputeSnapshotIamBinding', { get: function () { return require('./google-compute-snapshot-iam-binding'); } });
 Object.defineProperty(exports, 'googleComputeSnapshotIamMember', { get: function () { return require('./google-compute-snapshot-iam-member'); } });
 Object.defineProperty(exports, 'googleComputeSnapshotIamPolicy', { get: function () { return require('./google-compute-snapshot-iam-policy'); } });
+Object.defineProperty(exports, 'googleComputeSnapshotRecycleBinPolicy', { get: function () { return require('./google-compute-snapshot-recycle-bin-policy'); } });
 Object.defineProperty(exports, 'googleComputeSnapshotSettings', { get: function () { return require('./google-compute-snapshot-settings'); } });
 Object.defineProperty(exports, 'googleComputeSslCertificate', { get: function () { return require('./google-compute-ssl-certificate'); } });
 Object.defineProperty(exports, 'googleComputeSslPolicy', { get: function () { return require('./google-compute-ssl-policy'); } });
@@ -831,6 +834,10 @@ Object.defineProperty(exports, 'googleFolderServiceIdentity', { get: function ()
 Object.defineProperty(exports, 'googleGeminiCodeRepositoryIndex', { get: function () { return require('./google-gemini-code-repository-index'); } });
 Object.defineProperty(exports, 'googleGeminiCodeToolsSetting', { get: function () { return require('./google-gemini-code-tools-setting'); } });
 Object.defineProperty(exports, 'googleGeminiCodeToolsSettingBinding', { get: function () { return require('./google-gemini-code-tools-setting-binding'); } });
+Object.defineProperty(exports, 'googleGeminiDataAnalyticsDataAgent', { get: function () { return require('./google-gemini-data-analytics-data-agent'); } });
+Object.defineProperty(exports, 'googleGeminiDataAnalyticsDataAgentIamBinding', { get: function () { return require('./google-gemini-data-analytics-data-agent-iam-binding'); } });
+Object.defineProperty(exports, 'googleGeminiDataAnalyticsDataAgentIamMember', { get: function () { return require('./google-gemini-data-analytics-data-agent-iam-member'); } });
+Object.defineProperty(exports, 'googleGeminiDataAnalyticsDataAgentIamPolicy', { get: function () { return require('./google-gemini-data-analytics-data-agent-iam-policy'); } });
 Object.defineProperty(exports, 'googleGeminiDataSharingWithGoogleSetting', { get: function () { return require('./google-gemini-data-sharing-with-google-setting'); } });
 Object.defineProperty(exports, 'googleGeminiDataSharingWithGoogleSettingBinding', { get: function () { return require('./google-gemini-data-sharing-with-google-setting-binding'); } });
 Object.defineProperty(exports, 'googleGeminiGdaObservabilitySetting', { get: function () { return require('./google-gemini-gda-observability-setting'); } });
@@ -1452,6 +1459,7 @@ Object.defineProperty(exports, 'googleVertexAiIndexEndpoint', { get: function ()
 Object.defineProperty(exports, 'googleVertexAiIndexEndpointDeployedIndex', { get: function () { return require('./google-vertex-ai-index-endpoint-deployed-index'); } });
 Object.defineProperty(exports, 'googleVertexAiMetadataStore', { get: function () { return require('./google-vertex-ai-metadata-store'); } });
 Object.defineProperty(exports, 'googleVertexAiModelGardenEnableModel', { get: function () { return require('./google-vertex-ai-model-garden-enable-model'); } });
+Object.defineProperty(exports, 'googleVertexAiOnlineEvaluator', { get: function () { return require('./google-vertex-ai-online-evaluator'); } });
 Object.defineProperty(exports, 'googleVertexAiPersistentResource', { get: function () { return require('./google-vertex-ai-persistent-resource'); } });
 Object.defineProperty(exports, 'googleVertexAiRagCorpus', { get: function () { return require('./google-vertex-ai-rag-corpus'); } });
 Object.defineProperty(exports, 'googleVertexAiRagEngineConfig', { get: function () { return require('./google-vertex-ai-rag-engine-config'); } });
@@ -1756,6 +1764,7 @@ Object.defineProperty(exports, 'dataGoogleFolder', { get: function () { return r
 Object.defineProperty(exports, 'dataGoogleFolderIamPolicy', { get: function () { return require('./data-google-folder-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleFolderOrganizationPolicy', { get: function () { return require('./data-google-folder-organization-policy'); } });
 Object.defineProperty(exports, 'dataGoogleFolders', { get: function () { return require('./data-google-folders'); } });
+Object.defineProperty(exports, 'dataGoogleGeminiDataAnalyticsDataAgentIamPolicy', { get: function () { return require('./data-google-gemini-data-analytics-data-agent-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleGeminiRepositoryGroupIamPolicy', { get: function () { return require('./data-google-gemini-repository-group-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleGkeBackupBackupPlanIamPolicy', { get: function () { return require('./data-google-gke-backup-backup-plan-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleGkeBackupRestorePlanIamPolicy', { get: function () { return require('./data-google-gke-backup-restore-plan-iam-policy'); } });

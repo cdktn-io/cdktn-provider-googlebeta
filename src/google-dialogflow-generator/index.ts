@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,23 +21,23 @@ export interface GoogleDialogflowGeneratorConfig extends cdktn.TerraformMetaArgu
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#deletion_policy GoogleDialogflowGenerator#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#deletion_policy GoogleDialogflowGenerator#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Optional. Human readable description of the generator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#description GoogleDialogflowGenerator#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#description GoogleDialogflowGenerator#description}
   */
   readonly description?: string;
   /**
   * Optional. The ID to use for the generator, which will become the final component of the generator's resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#generator_id GoogleDialogflowGenerator#generator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#generator_id GoogleDialogflowGenerator#generator_id}
   */
   readonly generatorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#id GoogleDialogflowGenerator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#id GoogleDialogflowGenerator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,67 +46,655 @@ export interface GoogleDialogflowGeneratorConfig extends cdktn.TerraformMetaArgu
   /**
   * desc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#location GoogleDialogflowGenerator#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#location GoogleDialogflowGenerator#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#project GoogleDialogflowGenerator#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#project GoogleDialogflowGenerator#project}
   */
   readonly project?: string;
   /**
   * Optional. The published Large Language Model name. * To use the latest model version, specify the model name without version number. Example: text-bison * To use a stable model version, specify the version number as well. Example: text-bison@002.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#published_model GoogleDialogflowGenerator#published_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#published_model GoogleDialogflowGenerator#published_model}
   */
   readonly publishedModel?: string;
   /**
+  * Optional. Resource names of the tools that the generator can choose from. Format: 'projects/<Project ID>/locations/<Location ID>/tools/<tool ID>'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#tools GoogleDialogflowGenerator#tools}
+  */
+  readonly tools?: string[];
+  /**
   * Optional. The trigger event of the generator. It defines when the generator is triggered in a conversation. Possible values: ["END_OF_UTTERANCE", "MANUAL_CALL", "CUSTOMER_MESSAGE", "AGENT_MESSAGE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#trigger_event GoogleDialogflowGenerator#trigger_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#trigger_event GoogleDialogflowGenerator#trigger_event}
   */
   readonly triggerEvent?: string;
   /**
+  * agent_coaching_context block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#agent_coaching_context GoogleDialogflowGenerator#agent_coaching_context}
+  */
+  readonly agentCoachingContext?: GoogleDialogflowGeneratorAgentCoachingContext;
+  /**
+  * free_form_context block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#free_form_context GoogleDialogflowGenerator#free_form_context}
+  */
+  readonly freeFormContext?: GoogleDialogflowGeneratorFreeFormContext;
+  /**
   * inference_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#inference_parameter GoogleDialogflowGenerator#inference_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#inference_parameter GoogleDialogflowGenerator#inference_parameter}
   */
   readonly inferenceParameter?: GoogleDialogflowGeneratorInferenceParameter;
   /**
   * summarization_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#summarization_context GoogleDialogflowGenerator#summarization_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#summarization_context GoogleDialogflowGenerator#summarization_context}
   */
-  readonly summarizationContext: GoogleDialogflowGeneratorSummarizationContext;
+  readonly summarizationContext?: GoogleDialogflowGeneratorSummarizationContext;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#timeouts GoogleDialogflowGenerator#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#timeouts GoogleDialogflowGenerator#timeouts}
   */
   readonly timeouts?: GoogleDialogflowGeneratorTimeouts;
+}
+export interface GoogleDialogflowGeneratorAgentCoachingContextInstructions {
+  /**
+  * Optional. The action that human agent should take.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#agent_action GoogleDialogflowGenerator#agent_action}
+  */
+  readonly agentAction?: string;
+  /**
+  * Optional. The condition of the instruction.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#condition GoogleDialogflowGenerator#condition}
+  */
+  readonly condition?: string;
+  /**
+  * Optional. The detailed description of this instruction.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#display_details GoogleDialogflowGenerator#display_details}
+  */
+  readonly displayDetails?: string;
+  /**
+  * Optional. Display name for the instruction.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#display_name GoogleDialogflowGenerator#display_name}
+  */
+  readonly displayName?: string;
+  /**
+  * Optional. The action that system should take.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#system_action GoogleDialogflowGenerator#system_action}
+  */
+  readonly systemAction?: string;
+  /**
+  * Optional. The trigger event of the instruction. Possible values: ["END_OF_UTTERANCE", "MANUAL_CALL", "CUSTOMER_MESSAGE", "AGENT_MESSAGE", "TOOL_CALL_COMPLETION"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#triggering_event GoogleDialogflowGenerator#triggering_event}
+  */
+  readonly triggeringEvent?: string;
+}
+
+export function googleDialogflowGeneratorAgentCoachingContextInstructionsToTerraform(struct?: GoogleDialogflowGeneratorAgentCoachingContextInstructions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    agent_action: cdktn.stringToTerraform(struct!.agentAction),
+    condition: cdktn.stringToTerraform(struct!.condition),
+    display_details: cdktn.stringToTerraform(struct!.displayDetails),
+    display_name: cdktn.stringToTerraform(struct!.displayName),
+    system_action: cdktn.stringToTerraform(struct!.systemAction),
+    triggering_event: cdktn.stringToTerraform(struct!.triggeringEvent),
+  }
+}
+
+
+export function googleDialogflowGeneratorAgentCoachingContextInstructionsToHclTerraform(struct?: GoogleDialogflowGeneratorAgentCoachingContextInstructions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    agent_action: {
+      value: cdktn.stringToHclTerraform(struct!.agentAction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    condition: {
+      value: cdktn.stringToHclTerraform(struct!.condition),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    display_details: {
+      value: cdktn.stringToHclTerraform(struct!.displayDetails),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    display_name: {
+      value: cdktn.stringToHclTerraform(struct!.displayName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    system_action: {
+      value: cdktn.stringToHclTerraform(struct!.systemAction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    triggering_event: {
+      value: cdktn.stringToHclTerraform(struct!.triggeringEvent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDialogflowGeneratorAgentCoachingContextInstructionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleDialogflowGeneratorAgentCoachingContextInstructions | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._agentAction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentAction = this._agentAction;
+    }
+    if (this._condition !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.condition = this._condition;
+    }
+    if (this._displayDetails !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.displayDetails = this._displayDetails;
+    }
+    if (this._displayName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.displayName = this._displayName;
+    }
+    if (this._systemAction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.systemAction = this._systemAction;
+    }
+    if (this._triggeringEvent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.triggeringEvent = this._triggeringEvent;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDialogflowGeneratorAgentCoachingContextInstructions | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._agentAction = undefined;
+      this._condition = undefined;
+      this._displayDetails = undefined;
+      this._displayName = undefined;
+      this._systemAction = undefined;
+      this._triggeringEvent = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._agentAction = value.agentAction;
+      this._condition = value.condition;
+      this._displayDetails = value.displayDetails;
+      this._displayName = value.displayName;
+      this._systemAction = value.systemAction;
+      this._triggeringEvent = value.triggeringEvent;
+    }
+  }
+
+  // agent_action - computed: false, optional: true, required: false
+  private _agentAction?: string; 
+  public get agentAction() {
+    return this.getStringAttribute('agent_action');
+  }
+  public set agentAction(value: string) {
+    this._agentAction = value;
+  }
+  public resetAgentAction() {
+    this._agentAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentActionInput() {
+    return this._agentAction;
+  }
+
+  // condition - computed: false, optional: true, required: false
+  private _condition?: string; 
+  public get condition() {
+    return this.getStringAttribute('condition');
+  }
+  public set condition(value: string) {
+    this._condition = value;
+  }
+  public resetCondition() {
+    this._condition = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get conditionInput() {
+    return this._condition;
+  }
+
+  // display_details - computed: false, optional: true, required: false
+  private _displayDetails?: string; 
+  public get displayDetails() {
+    return this.getStringAttribute('display_details');
+  }
+  public set displayDetails(value: string) {
+    this._displayDetails = value;
+  }
+  public resetDisplayDetails() {
+    this._displayDetails = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get displayDetailsInput() {
+    return this._displayDetails;
+  }
+
+  // display_name - computed: false, optional: true, required: false
+  private _displayName?: string; 
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+  public set displayName(value: string) {
+    this._displayName = value;
+  }
+  public resetDisplayName() {
+    this._displayName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get displayNameInput() {
+    return this._displayName;
+  }
+
+  // system_action - computed: false, optional: true, required: false
+  private _systemAction?: string; 
+  public get systemAction() {
+    return this.getStringAttribute('system_action');
+  }
+  public set systemAction(value: string) {
+    this._systemAction = value;
+  }
+  public resetSystemAction() {
+    this._systemAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get systemActionInput() {
+    return this._systemAction;
+  }
+
+  // triggering_event - computed: false, optional: true, required: false
+  private _triggeringEvent?: string; 
+  public get triggeringEvent() {
+    return this.getStringAttribute('triggering_event');
+  }
+  public set triggeringEvent(value: string) {
+    this._triggeringEvent = value;
+  }
+  public resetTriggeringEvent() {
+    this._triggeringEvent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get triggeringEventInput() {
+    return this._triggeringEvent;
+  }
+}
+
+export class GoogleDialogflowGeneratorAgentCoachingContextInstructionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDialogflowGeneratorAgentCoachingContextInstructions[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleDialogflowGeneratorAgentCoachingContextInstructionsOutputReference {
+    return new GoogleDialogflowGeneratorAgentCoachingContextInstructionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleDialogflowGeneratorAgentCoachingContext {
+  /**
+  * Optional. Output language code.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#output_language_code GoogleDialogflowGenerator#output_language_code}
+  */
+  readonly outputLanguageCode?: string;
+  /**
+  * Optional. The overarching guidance for the agent coaching. This should be set only for v1.5 and later versions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#overarching_guidance GoogleDialogflowGenerator#overarching_guidance}
+  */
+  readonly overarchingGuidance?: string;
+  /**
+  * Optional. Version of the feature. If not set, default to latest version. Current candidates are ["2.5"].
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#version GoogleDialogflowGenerator#version}
+  */
+  readonly version?: string;
+  /**
+  * instructions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#instructions GoogleDialogflowGenerator#instructions}
+  */
+  readonly instructions?: GoogleDialogflowGeneratorAgentCoachingContextInstructions[] | cdktn.IResolvable;
+}
+
+export function googleDialogflowGeneratorAgentCoachingContextToTerraform(struct?: GoogleDialogflowGeneratorAgentCoachingContextOutputReference | GoogleDialogflowGeneratorAgentCoachingContext): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    output_language_code: cdktn.stringToTerraform(struct!.outputLanguageCode),
+    overarching_guidance: cdktn.stringToTerraform(struct!.overarchingGuidance),
+    version: cdktn.stringToTerraform(struct!.version),
+    instructions: cdktn.listMapper(googleDialogflowGeneratorAgentCoachingContextInstructionsToTerraform, true)(struct!.instructions),
+  }
+}
+
+
+export function googleDialogflowGeneratorAgentCoachingContextToHclTerraform(struct?: GoogleDialogflowGeneratorAgentCoachingContextOutputReference | GoogleDialogflowGeneratorAgentCoachingContext): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    output_language_code: {
+      value: cdktn.stringToHclTerraform(struct!.outputLanguageCode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    overarching_guidance: {
+      value: cdktn.stringToHclTerraform(struct!.overarchingGuidance),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktn.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instructions: {
+      value: cdktn.listMapperHcl(googleDialogflowGeneratorAgentCoachingContextInstructionsToHclTerraform, true)(struct!.instructions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDialogflowGeneratorAgentCoachingContextInstructionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDialogflowGeneratorAgentCoachingContextOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDialogflowGeneratorAgentCoachingContext | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._outputLanguageCode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outputLanguageCode = this._outputLanguageCode;
+    }
+    if (this._overarchingGuidance !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.overarchingGuidance = this._overarchingGuidance;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    if (this._instructions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instructions = this._instructions?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDialogflowGeneratorAgentCoachingContext | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._outputLanguageCode = undefined;
+      this._overarchingGuidance = undefined;
+      this._version = undefined;
+      this._instructions.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._outputLanguageCode = value.outputLanguageCode;
+      this._overarchingGuidance = value.overarchingGuidance;
+      this._version = value.version;
+      this._instructions.internalValue = value.instructions;
+    }
+  }
+
+  // output_language_code - computed: false, optional: true, required: false
+  private _outputLanguageCode?: string; 
+  public get outputLanguageCode() {
+    return this.getStringAttribute('output_language_code');
+  }
+  public set outputLanguageCode(value: string) {
+    this._outputLanguageCode = value;
+  }
+  public resetOutputLanguageCode() {
+    this._outputLanguageCode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outputLanguageCodeInput() {
+    return this._outputLanguageCode;
+  }
+
+  // overarching_guidance - computed: false, optional: true, required: false
+  private _overarchingGuidance?: string; 
+  public get overarchingGuidance() {
+    return this.getStringAttribute('overarching_guidance');
+  }
+  public set overarchingGuidance(value: string) {
+    this._overarchingGuidance = value;
+  }
+  public resetOverarchingGuidance() {
+    this._overarchingGuidance = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get overarchingGuidanceInput() {
+    return this._overarchingGuidance;
+  }
+
+  // version - computed: true, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+
+  // instructions - computed: false, optional: true, required: false
+  private _instructions = new GoogleDialogflowGeneratorAgentCoachingContextInstructionsList(this, "instructions", false);
+  public get instructions() {
+    return this._instructions;
+  }
+  public putInstructions(value: GoogleDialogflowGeneratorAgentCoachingContextInstructions[] | cdktn.IResolvable) {
+    this._instructions.internalValue = value;
+  }
+  public resetInstructions() {
+    this._instructions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instructionsInput() {
+    return this._instructions.internalValue;
+  }
+}
+export interface GoogleDialogflowGeneratorFreeFormContext {
+  /**
+  * Optional. Free form text input to LLM.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#text GoogleDialogflowGenerator#text}
+  */
+  readonly text?: string;
+}
+
+export function googleDialogflowGeneratorFreeFormContextToTerraform(struct?: GoogleDialogflowGeneratorFreeFormContextOutputReference | GoogleDialogflowGeneratorFreeFormContext): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    text: cdktn.stringToTerraform(struct!.text),
+  }
+}
+
+
+export function googleDialogflowGeneratorFreeFormContextToHclTerraform(struct?: GoogleDialogflowGeneratorFreeFormContextOutputReference | GoogleDialogflowGeneratorFreeFormContext): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    text: {
+      value: cdktn.stringToHclTerraform(struct!.text),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDialogflowGeneratorFreeFormContextOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDialogflowGeneratorFreeFormContext | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._text !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.text = this._text;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDialogflowGeneratorFreeFormContext | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._text = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._text = value.text;
+    }
+  }
+
+  // text - computed: false, optional: true, required: false
+  private _text?: string; 
+  public get text() {
+    return this.getStringAttribute('text');
+  }
+  public set text(value: string) {
+    this._text = value;
+  }
+  public resetText() {
+    this._text = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textInput() {
+    return this._text;
+  }
 }
 export interface GoogleDialogflowGeneratorInferenceParameter {
   /**
   * Optional. Maximum number of the output tokens for the generator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#max_output_tokens GoogleDialogflowGenerator#max_output_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#max_output_tokens GoogleDialogflowGenerator#max_output_tokens}
   */
   readonly maxOutputTokens?: number;
   /**
   * Optional. Controls the randomness of LLM predictions. Low temperature = less random. High temperature = more random. If unset (or 0), uses a default value of 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#temperature GoogleDialogflowGenerator#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#temperature GoogleDialogflowGenerator#temperature}
   */
   readonly temperature?: number;
   /**
   * Optional. Top-k changes how the model selects tokens for output. A top-k of 1 means the selected token is the most probable among all tokens in the model's vocabulary (also called greedy decoding), while a top-k of 3 means that the next token is selected from among the 3 most probable tokens (using temperature). For each token selection step, the top K tokens with the highest probabilities are sampled. Then tokens are further filtered based on topP with the final token selected using temperature sampling. Specify a lower value for less random responses and a higher value for more random responses. Acceptable value is [1, 40], default to 40.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#top_k GoogleDialogflowGenerator#top_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#top_k GoogleDialogflowGenerator#top_k}
   */
   readonly topK?: number;
   /**
   * Optional. Top-p changes how the model selects tokens for output. Tokens are selected from most K (see topK parameter) probable to least until the sum of their probabilities equals the top-p value. For example, if tokens A, B, and C have a probability of 0.3, 0.2, and 0.1 and the top-p value is 0.5, then the model will select either A or B as the next token (using temperature) and doesn't consider C. The default top-p value is 0.95. Specify a lower value for less random responses and a higher value for more random responses. Acceptable value is [0.0, 1.0], default to 0.95.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#top_p GoogleDialogflowGenerator#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#top_p GoogleDialogflowGenerator#top_p}
   */
   readonly topP?: number;
 }
@@ -279,25 +867,25 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamplesCon
   /**
   * Optional. Create time of the message entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#create_time GoogleDialogflowGenerator#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#create_time GoogleDialogflowGenerator#create_time}
   */
   readonly createTime?: string;
   /**
   * Optional. The language of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#language_code GoogleDialogflowGenerator#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#language_code GoogleDialogflowGenerator#language_code}
   */
   readonly languageCode?: string;
   /**
   * Optional. Participant role of the message. Possible values: ["HUMAN_AGENT", "AUTOMATED_AGENT", "END_USER"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#role GoogleDialogflowGenerator#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#role GoogleDialogflowGenerator#role}
   */
   readonly role?: string;
   /**
   * Optional. Transcript content of the message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#text GoogleDialogflowGenerator#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#text GoogleDialogflowGenerator#text}
   */
   readonly text?: string;
 }
@@ -502,7 +1090,7 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamplesCon
   /**
   * message_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#message_entries GoogleDialogflowGenerator#message_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#message_entries GoogleDialogflowGenerator#message_entries}
   */
   readonly messageEntries?: GoogleDialogflowGeneratorSummarizationContextFewShotExamplesConversationContextMessageEntries[] | cdktn.IResolvable;
 }
@@ -588,13 +1176,13 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOut
   /**
   * Required. Name of the section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#section GoogleDialogflowGenerator#section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#section GoogleDialogflowGenerator#section}
   */
   readonly section: string;
   /**
   * Required. Summary text for the section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#summary GoogleDialogflowGenerator#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#summary GoogleDialogflowGenerator#summary}
   */
   readonly summary: string;
 }
@@ -735,7 +1323,7 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOut
   /**
   * summary_sections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#summary_sections GoogleDialogflowGenerator#summary_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#summary_sections GoogleDialogflowGenerator#summary_sections}
   */
   readonly summarySections: GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputSummarySuggestionSummarySections[] | cdktn.IResolvable;
 }
@@ -818,13 +1406,13 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOut
   /**
   * The name of the tool's action associated with this call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#action GoogleDialogflowGenerator#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#action GoogleDialogflowGenerator#action}
   */
   readonly action?: string;
   /**
   * The tool associated with this call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#tool GoogleDialogflowGenerator#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#tool GoogleDialogflowGenerator#tool}
   */
   readonly tool?: string;
 }
@@ -939,13 +1527,13 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOut
   /**
   * The error message of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#message GoogleDialogflowGenerator#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#message GoogleDialogflowGenerator#message}
   */
   readonly message?: string;
   /**
   * Specifies whether the tool call is retryable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#retryable GoogleDialogflowGenerator#retryable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#retryable GoogleDialogflowGenerator#retryable}
   */
   readonly retryable?: boolean | cdktn.IResolvable;
 }
@@ -1060,13 +1648,13 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOut
   /**
   * The name of the tool's action associated with this call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#action GoogleDialogflowGenerator#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#action GoogleDialogflowGenerator#action}
   */
   readonly action?: string;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#error GoogleDialogflowGenerator#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#error GoogleDialogflowGenerator#error}
   */
   readonly error?: GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoToolCallResultError;
 }
@@ -1181,13 +1769,13 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOut
   /**
   * tool_call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#tool_call GoogleDialogflowGenerator#tool_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#tool_call GoogleDialogflowGenerator#tool_call}
   */
   readonly toolCall: GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoToolCall;
   /**
   * tool_call_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#tool_call_result GoogleDialogflowGenerator#tool_call_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#tool_call_result GoogleDialogflowGenerator#tool_call_result}
   */
   readonly toolCallResult: GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoToolCallResult;
 }
@@ -1328,13 +1916,13 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOut
   /**
   * summary_suggestion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#summary_suggestion GoogleDialogflowGenerator#summary_suggestion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#summary_suggestion GoogleDialogflowGenerator#summary_suggestion}
   */
   readonly summarySuggestion?: GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputSummarySuggestion;
   /**
   * tool_call_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#tool_call_info GoogleDialogflowGenerator#tool_call_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#tool_call_info GoogleDialogflowGenerator#tool_call_info}
   */
   readonly toolCallInfo?: GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfo[] | cdktn.IResolvable;
 }
@@ -1449,19 +2037,19 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamplesSum
   /**
   * Optional. Definition of the section, for example, "what the customer needs help with or has question about."
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#definition GoogleDialogflowGenerator#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#definition GoogleDialogflowGenerator#definition}
   */
   readonly definition?: string;
   /**
   * Optional. Name of the section, for example, "situation".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#key GoogleDialogflowGenerator#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#key GoogleDialogflowGenerator#key}
   */
   readonly key?: string;
   /**
   * Optional. Type of the summarization section. Possible values: ["SITUATION", "ACTION", "RESOLUTION", "REASON_FOR_CANCELLATION", "CUSTOMER_SATISFACTION", "ENTITIES", "CUSTOMER_DEFINED", "SITUATION_CONCISE", "ACTION_CONCISE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#type GoogleDialogflowGenerator#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#type GoogleDialogflowGenerator#type}
   */
   readonly type?: string;
 }
@@ -1637,7 +2225,7 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamplesSum
   /**
   * summarization_sections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#summarization_sections GoogleDialogflowGenerator#summarization_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#summarization_sections GoogleDialogflowGenerator#summarization_sections}
   */
   readonly summarizationSections?: GoogleDialogflowGeneratorSummarizationContextFewShotExamplesSummarizationSectionListSummarizationSections[] | cdktn.IResolvable;
 }
@@ -1723,25 +2311,25 @@ export interface GoogleDialogflowGeneratorSummarizationContextFewShotExamples {
   /**
   * Optional. Key is the placeholder field name in input, value is the value of the placeholder. E.g. instruction contains "@price", and ingested data has <"price", "10">
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#extra_info GoogleDialogflowGenerator#extra_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#extra_info GoogleDialogflowGenerator#extra_info}
   */
   readonly extraInfo?: { [key: string]: string };
   /**
   * conversation_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#conversation_context GoogleDialogflowGenerator#conversation_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#conversation_context GoogleDialogflowGenerator#conversation_context}
   */
   readonly conversationContext?: GoogleDialogflowGeneratorSummarizationContextFewShotExamplesConversationContext;
   /**
   * output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#output GoogleDialogflowGenerator#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#output GoogleDialogflowGenerator#output}
   */
   readonly output: GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutput;
   /**
   * summarization_section_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#summarization_section_list GoogleDialogflowGenerator#summarization_section_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#summarization_section_list GoogleDialogflowGenerator#summarization_section_list}
   */
   readonly summarizationSectionList?: GoogleDialogflowGeneratorSummarizationContextFewShotExamplesSummarizationSectionListStruct;
 }
@@ -1943,19 +2531,19 @@ export interface GoogleDialogflowGeneratorSummarizationContextSummarizationSecti
   /**
   * Optional. Definition of the section, for example, "what the customer needs help with or has question about."
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#definition GoogleDialogflowGenerator#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#definition GoogleDialogflowGenerator#definition}
   */
   readonly definition?: string;
   /**
   * Optional. Name of the section, for example, "situation".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#key GoogleDialogflowGenerator#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#key GoogleDialogflowGenerator#key}
   */
   readonly key?: string;
   /**
   * Optional. Type of the summarization section. Possible values: ["SITUATION", "ACTION", "RESOLUTION", "REASON_FOR_CANCELLATION", "CUSTOMER_SATISFACTION", "ENTITIES", "CUSTOMER_DEFINED", "SITUATION_CONCISE", "ACTION_CONCISE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#type GoogleDialogflowGenerator#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#type GoogleDialogflowGenerator#type}
   */
   readonly type?: string;
 }
@@ -2131,25 +2719,25 @@ export interface GoogleDialogflowGeneratorSummarizationContext {
   /**
   * Optional. The target language of the generated summary. The language code for conversation will be used if this field is empty. Supported 2.0 and later versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#output_language_code GoogleDialogflowGenerator#output_language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#output_language_code GoogleDialogflowGenerator#output_language_code}
   */
   readonly outputLanguageCode?: string;
   /**
-  * Optional. Version of the feature. If not set, default to latest version. Current candidates are ["1.0"].
+  * Optional. Version of the feature. If not set, default to latest version. Current candidates are ["5.0", "6.0"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#version GoogleDialogflowGenerator#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#version GoogleDialogflowGenerator#version}
   */
   readonly version?: string;
   /**
   * few_shot_examples block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#few_shot_examples GoogleDialogflowGenerator#few_shot_examples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#few_shot_examples GoogleDialogflowGenerator#few_shot_examples}
   */
   readonly fewShotExamples?: GoogleDialogflowGeneratorSummarizationContextFewShotExamples[] | cdktn.IResolvable;
   /**
   * summarization_sections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#summarization_sections GoogleDialogflowGenerator#summarization_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#summarization_sections GoogleDialogflowGenerator#summarization_sections}
   */
   readonly summarizationSections?: GoogleDialogflowGeneratorSummarizationContextSummarizationSections[] | cdktn.IResolvable;
 }
@@ -2320,15 +2908,15 @@ export class GoogleDialogflowGeneratorSummarizationContextOutputReference extend
 }
 export interface GoogleDialogflowGeneratorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#create GoogleDialogflowGenerator#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#create GoogleDialogflowGenerator#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#delete GoogleDialogflowGenerator#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#delete GoogleDialogflowGenerator#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#update GoogleDialogflowGenerator#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#update GoogleDialogflowGenerator#update}
   */
   readonly update?: string;
 }
@@ -2480,7 +3068,7 @@ export class GoogleDialogflowGeneratorTimeoutsOutputReference extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator google_dialogflow_generator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator google_dialogflow_generator}
 */
 export class GoogleDialogflowGenerator extends cdktn.TerraformResource {
 
@@ -2496,7 +3084,7 @@ export class GoogleDialogflowGenerator extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDialogflowGenerator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDialogflowGenerator to import
-  * @param importFromId The id of the existing GoogleDialogflowGenerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDialogflowGenerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDialogflowGenerator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2508,7 +3096,7 @@ export class GoogleDialogflowGenerator extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator google_dialogflow_generator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator google_dialogflow_generator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2519,7 +3107,7 @@ export class GoogleDialogflowGenerator extends cdktn.TerraformResource {
       terraformResourceType: 'google_dialogflow_generator',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.6.0',
+        providerVersion: '8.7.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
@@ -2537,7 +3125,10 @@ export class GoogleDialogflowGenerator extends cdktn.TerraformResource {
     this._location = config.location;
     this._project = config.project;
     this._publishedModel = config.publishedModel;
+    this._tools = config.tools;
     this._triggerEvent = config.triggerEvent;
+    this._agentCoachingContext.internalValue = config.agentCoachingContext;
+    this._freeFormContext.internalValue = config.freeFormContext;
     this._inferenceParameter.internalValue = config.inferenceParameter;
     this._summarizationContext.internalValue = config.summarizationContext;
     this._timeouts.internalValue = config.timeouts;
@@ -2661,6 +3252,22 @@ export class GoogleDialogflowGenerator extends cdktn.TerraformResource {
     return this._publishedModel;
   }
 
+  // tools - computed: false, optional: true, required: false
+  private _tools?: string[]; 
+  public get tools() {
+    return this.getListAttribute('tools');
+  }
+  public set tools(value: string[]) {
+    this._tools = value;
+  }
+  public resetTools() {
+    this._tools = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolsInput() {
+    return this._tools;
+  }
+
   // trigger_event - computed: false, optional: true, required: false
   private _triggerEvent?: string; 
   public get triggerEvent() {
@@ -2675,6 +3282,38 @@ export class GoogleDialogflowGenerator extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get triggerEventInput() {
     return this._triggerEvent;
+  }
+
+  // agent_coaching_context - computed: false, optional: true, required: false
+  private _agentCoachingContext = new GoogleDialogflowGeneratorAgentCoachingContextOutputReference(this, "agent_coaching_context");
+  public get agentCoachingContext() {
+    return this._agentCoachingContext;
+  }
+  public putAgentCoachingContext(value: GoogleDialogflowGeneratorAgentCoachingContext) {
+    this._agentCoachingContext.internalValue = value;
+  }
+  public resetAgentCoachingContext() {
+    this._agentCoachingContext.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentCoachingContextInput() {
+    return this._agentCoachingContext.internalValue;
+  }
+
+  // free_form_context - computed: false, optional: true, required: false
+  private _freeFormContext = new GoogleDialogflowGeneratorFreeFormContextOutputReference(this, "free_form_context");
+  public get freeFormContext() {
+    return this._freeFormContext;
+  }
+  public putFreeFormContext(value: GoogleDialogflowGeneratorFreeFormContext) {
+    this._freeFormContext.internalValue = value;
+  }
+  public resetFreeFormContext() {
+    this._freeFormContext.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get freeFormContextInput() {
+    return this._freeFormContext.internalValue;
   }
 
   // inference_parameter - computed: false, optional: true, required: false
@@ -2693,13 +3332,16 @@ export class GoogleDialogflowGenerator extends cdktn.TerraformResource {
     return this._inferenceParameter.internalValue;
   }
 
-  // summarization_context - computed: false, optional: false, required: true
+  // summarization_context - computed: false, optional: true, required: false
   private _summarizationContext = new GoogleDialogflowGeneratorSummarizationContextOutputReference(this, "summarization_context");
   public get summarizationContext() {
     return this._summarizationContext;
   }
   public putSummarizationContext(value: GoogleDialogflowGeneratorSummarizationContext) {
     this._summarizationContext.internalValue = value;
+  }
+  public resetSummarizationContext() {
+    this._summarizationContext.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get summarizationContextInput() {
@@ -2735,7 +3377,10 @@ export class GoogleDialogflowGenerator extends cdktn.TerraformResource {
       location: cdktn.stringToTerraform(this._location),
       project: cdktn.stringToTerraform(this._project),
       published_model: cdktn.stringToTerraform(this._publishedModel),
+      tools: cdktn.listMapper(cdktn.stringToTerraform, false)(this._tools),
       trigger_event: cdktn.stringToTerraform(this._triggerEvent),
+      agent_coaching_context: googleDialogflowGeneratorAgentCoachingContextToTerraform(this._agentCoachingContext.internalValue),
+      free_form_context: googleDialogflowGeneratorFreeFormContextToTerraform(this._freeFormContext.internalValue),
       inference_parameter: googleDialogflowGeneratorInferenceParameterToTerraform(this._inferenceParameter.internalValue),
       summarization_context: googleDialogflowGeneratorSummarizationContextToTerraform(this._summarizationContext.internalValue),
       timeouts: googleDialogflowGeneratorTimeoutsToTerraform(this._timeouts.internalValue),
@@ -2786,11 +3431,29 @@ export class GoogleDialogflowGenerator extends cdktn.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      tools: {
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._tools),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
       trigger_event: {
         value: cdktn.stringToHclTerraform(this._triggerEvent),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      agent_coaching_context: {
+        value: googleDialogflowGeneratorAgentCoachingContextToHclTerraform(this._agentCoachingContext.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleDialogflowGeneratorAgentCoachingContextList",
+      },
+      free_form_context: {
+        value: googleDialogflowGeneratorFreeFormContextToHclTerraform(this._freeFormContext.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleDialogflowGeneratorFreeFormContextList",
       },
       inference_parameter: {
         value: googleDialogflowGeneratorInferenceParameterToHclTerraform(this._inferenceParameter.internalValue),

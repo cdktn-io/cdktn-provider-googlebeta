@@ -4,7 +4,7 @@
 
 ### GoogleComputeUrlMap <a name="GoogleComputeUrlMap" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map google_compute_url_map}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map google_compute_url_map}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMap.Initializer"></a>
 
@@ -684,7 +684,7 @@ The construct id used in the generated config for the GoogleComputeUrlMap to imp
 
 The id of the existing GoogleComputeUrlMap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1261,9 +1261,9 @@ const googleComputeUrlMapConfig: googleComputeUrlMap.GoogleComputeUrlMapConfig =
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.description">description</a></code> | <code>string</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.headerAction">headerAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHeaderAction">GoogleComputeUrlMapHeaderAction</a></code> | header_action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.hostRule">hostRule</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapHostRule">GoogleComputeUrlMapHostRule</a>[]</code> | host_rule block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#id GoogleComputeUrlMap#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#id GoogleComputeUrlMap#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.pathMatcher">pathMatcher</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcher">GoogleComputeUrlMapPathMatcher</a>[]</code> | path_matcher block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#project GoogleComputeUrlMap#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#project GoogleComputeUrlMap#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.test">test</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTest">GoogleComputeUrlMapTest</a>[]</code> | test block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts">GoogleComputeUrlMapTimeouts</a></code> | timeouts block. |
 
@@ -1356,7 +1356,7 @@ name must be 1-63 characters long and match the regular expression
 letter, and all following characters must be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
 
 ---
 
@@ -1370,7 +1370,7 @@ public readonly defaultCustomErrorResponsePolicy: GoogleComputeUrlMapDefaultCust
 
 default_custom_error_response_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_custom_error_response_policy GoogleComputeUrlMap#default_custom_error_response_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_custom_error_response_policy GoogleComputeUrlMap#default_custom_error_response_policy}
 
 ---
 
@@ -1384,7 +1384,7 @@ public readonly defaultRouteAction: GoogleComputeUrlMapDefaultRouteAction;
 
 default_route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_route_action GoogleComputeUrlMap#default_route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_route_action GoogleComputeUrlMap#default_route_action}
 
 ---
 
@@ -1398,7 +1398,7 @@ public readonly defaultService: string;
 
 The backend service or backend bucket to use when none of the given rules match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_service GoogleComputeUrlMap#default_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_service GoogleComputeUrlMap#default_service}
 
 ---
 
@@ -1412,7 +1412,7 @@ public readonly defaultUrlRedirect: GoogleComputeUrlMapDefaultUrlRedirect;
 
 default_url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_url_redirect GoogleComputeUrlMap#default_url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_url_redirect GoogleComputeUrlMap#default_url_redirect}
 
 ---
 
@@ -1434,7 +1434,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#deletion_policy GoogleComputeUrlMap#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#deletion_policy GoogleComputeUrlMap#deletion_policy}
 
 ---
 
@@ -1448,7 +1448,7 @@ public readonly description: string;
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
 
 ---
 
@@ -1462,7 +1462,7 @@ public readonly headerAction: GoogleComputeUrlMapHeaderAction;
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -1476,7 +1476,7 @@ public readonly hostRule: IResolvable | GoogleComputeUrlMapHostRule[];
 
 host_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_rule GoogleComputeUrlMap#host_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#host_rule GoogleComputeUrlMap#host_rule}
 
 ---
 
@@ -1488,7 +1488,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#id GoogleComputeUrlMap#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#id GoogleComputeUrlMap#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1505,7 +1505,7 @@ public readonly pathMatcher: IResolvable | GoogleComputeUrlMapPathMatcher[];
 
 path_matcher block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_matcher GoogleComputeUrlMap#path_matcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_matcher GoogleComputeUrlMap#path_matcher}
 
 ---
 
@@ -1517,7 +1517,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#project GoogleComputeUrlMap#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#project GoogleComputeUrlMap#project}.
 
 ---
 
@@ -1531,7 +1531,7 @@ public readonly test: IResolvable | GoogleComputeUrlMapTest[];
 
 test block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#test GoogleComputeUrlMap#test}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#test GoogleComputeUrlMap#test}
 
 ---
 
@@ -1545,7 +1545,7 @@ public readonly timeouts: GoogleComputeUrlMapTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#timeouts GoogleComputeUrlMap#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#timeouts GoogleComputeUrlMap#timeouts}
 
 ---
 
@@ -1578,7 +1578,7 @@ public readonly errorResponseRule: IResolvable | GoogleComputeUrlMapDefaultCusto
 
 error_response_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
 
 ---
 
@@ -1599,7 +1599,7 @@ global/backendBuckets/myBackendBucket
 If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
 If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
 
 ---
 
@@ -1637,7 +1637,7 @@ Valid values include: - A number between 400 and 599: For example 401 or 503, in
 - 4xx: Load Balancer will apply the policy if the backend service responds with any response code in the range of 400 to 499.
 Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
 
 ---
 
@@ -1653,7 +1653,7 @@ The HTTP status code returned with the response containing the custom error cont
 
 If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
 
 ---
 
@@ -1672,7 +1672,7 @@ path must start with a leading slash. path cannot have trailing slashes.
 If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
 The value must be from 1 to 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
 
 ---
 
@@ -1692,7 +1692,9 @@ const googleComputeUrlMapDefaultRouteAction: googleComputeUrlMap.GoogleComputeUr
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction.property.cachePolicy">cachePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicy">GoogleComputeUrlMapDefaultRouteActionCachePolicy</a></code> | cache_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction.property.corsPolicy">corsPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCorsPolicy">GoogleComputeUrlMapDefaultRouteActionCorsPolicy</a></code> | cors_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction.property.dynamicCompressionPolicy">dynamicCompressionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy</a></code> | dynamic_compression_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction.property.faultInjectionPolicy">faultInjectionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy">GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy</a></code> | fault_injection_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction.property.imageOptimizationPolicy">imageOptimizationPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy</a></code> | image_optimization_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction.property.maxStreamDuration">maxStreamDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration">GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration</a></code> | max_stream_duration block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction.property.requestMirrorPolicy">requestMirrorPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy">GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy</a></code> | request_mirror_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction.property.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRetryPolicy">GoogleComputeUrlMapDefaultRouteActionRetryPolicy</a></code> | retry_policy block. |
@@ -1712,7 +1714,7 @@ public readonly cachePolicy: GoogleComputeUrlMapDefaultRouteActionCachePolicy;
 
 cache_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
 
 ---
 
@@ -1726,7 +1728,21 @@ public readonly corsPolicy: GoogleComputeUrlMapDefaultRouteActionCorsPolicy;
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+
+---
+
+##### `dynamicCompressionPolicy`<sup>Optional</sup> <a name="dynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction.property.dynamicCompressionPolicy"></a>
+
+```typescript
+public readonly dynamicCompressionPolicy: GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy</a>
+
+dynamic_compression_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#dynamic_compression_policy GoogleComputeUrlMap#dynamic_compression_policy}
 
 ---
 
@@ -1740,7 +1756,21 @@ public readonly faultInjectionPolicy: GoogleComputeUrlMapDefaultRouteActionFault
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+
+---
+
+##### `imageOptimizationPolicy`<sup>Optional</sup> <a name="imageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteAction.property.imageOptimizationPolicy"></a>
+
+```typescript
+public readonly imageOptimizationPolicy: GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy</a>
+
+image_optimization_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#image_optimization_policy GoogleComputeUrlMap#image_optimization_policy}
 
 ---
 
@@ -1754,7 +1784,7 @@ public readonly maxStreamDuration: GoogleComputeUrlMapDefaultRouteActionMaxStrea
 
 max_stream_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
 
 ---
 
@@ -1768,7 +1798,7 @@ public readonly requestMirrorPolicy: GoogleComputeUrlMapDefaultRouteActionReques
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
 
 ---
 
@@ -1782,7 +1812,7 @@ public readonly retryPolicy: GoogleComputeUrlMapDefaultRouteActionRetryPolicy;
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
 
 ---
 
@@ -1796,7 +1826,7 @@ public readonly timeout: GoogleComputeUrlMapDefaultRouteActionTimeout;
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
 
 ---
 
@@ -1810,7 +1840,7 @@ public readonly urlRewrite: GoogleComputeUrlMapDefaultRouteActionUrlRewrite;
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
 
 ---
 
@@ -1824,7 +1854,7 @@ public readonly weightedBackendServices: IResolvable | GoogleComputeUrlMapDefaul
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
 
 ---
 
@@ -1865,7 +1895,7 @@ public readonly cacheBypassRequestHeaderNames: string[];
 
 Bypass the cache when the specified request headers are matched by name, e.g. Pragma or Authorization headers. Values are case-insensitive. Up to 5 header names can be specified. The cache is bypassed for all cacheMode values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
 
 ---
 
@@ -1879,7 +1909,7 @@ public readonly cacheKeyPolicy: GoogleComputeUrlMapDefaultRouteActionCachePolicy
 
 cache_key_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
 
 ---
 
@@ -1896,7 +1926,7 @@ Specifies the cache setting for all responses from this route.
 If not
 specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
 
 ---
 
@@ -1910,7 +1940,7 @@ public readonly clientTtl: GoogleComputeUrlMapDefaultRouteActionCachePolicyClien
 
 client_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
 
 ---
 
@@ -1924,7 +1954,7 @@ public readonly defaultTtl: GoogleComputeUrlMapDefaultRouteActionCachePolicyDefa
 
 default_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
 
 ---
 
@@ -1938,7 +1968,7 @@ public readonly maxTtl: GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl;
 
 max_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
 
 ---
 
@@ -1967,7 +1997,7 @@ Cloud CDN applies the following TTLs to these HTTP status codes:
 These defaults can be overridden in negativeCachingPolicy. If not
 specified, Cloud CDN applies negative caching by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
 
 ---
 
@@ -1981,7 +2011,7 @@ public readonly negativeCachingPolicy: IResolvable | GoogleComputeUrlMapDefaultR
 
 negative_caching_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
 
 ---
 
@@ -1998,7 +2028,7 @@ If true then Cloud CDN will combine multiple concurrent cache fill requests into
 If not specified,
 Cloud CDN applies request coalescing by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
 
 ---
 
@@ -2012,7 +2042,7 @@ public readonly serveWhileStale: GoogleComputeUrlMapDefaultRouteActionCachePolic
 
 serve_while_stale block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
 
 ---
 
@@ -2060,7 +2090,7 @@ error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
 
 ---
 
@@ -2082,7 +2112,7 @@ Attempting to set it on a route that points exclusively to Backend
 Buckets will result in a configuration error. Up to 5 cookie names can
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
 
 ---
 
@@ -2096,7 +2126,7 @@ public readonly includedHeaderNames: string[];
 
 Allows HTTP request headers (by name) to be used in the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
 
 ---
 
@@ -2115,7 +2145,7 @@ parameters will be excluded. Either specify includedQueryParameters
 or excludedQueryParameters, not both. '&' and '=' will be percent
 encoded and not treated as delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
 
 ---
 
@@ -2136,7 +2166,7 @@ never included in a Backend Bucket's cache key. Attempting to set it on
 a route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
 
 ---
 
@@ -2157,7 +2187,7 @@ never included in a Backend Bucket's cache key. Attempting to set on a
 route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
 
 ---
 
@@ -2180,7 +2210,7 @@ configuration error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
 
 ---
 
@@ -2213,7 +2243,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2227,7 +2257,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2260,7 +2290,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2274,7 +2304,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2307,7 +2337,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2321,7 +2351,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2359,7 +2389,7 @@ Only HTTP status codes
 specified as values, and you cannot specify a status code more than
 once.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
 
 ---
 
@@ -2373,7 +2403,7 @@ public readonly ttl: GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCac
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
 
 ---
 
@@ -2406,7 +2436,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2420,7 +2450,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2453,7 +2483,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2467,7 +2497,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2508,7 +2538,7 @@ In response to a preflight request, setting this to true indicates that the actu
 
 This translates to the Access-Control-Allow-Credentials header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
 
 ---
 
@@ -2522,7 +2552,7 @@ public readonly allowHeaders: string[];
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
 
 ---
 
@@ -2536,7 +2566,7 @@ public readonly allowMethods: string[];
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
 
 ---
 
@@ -2554,7 +2584,7 @@ For regular expression grammar
 please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
 
 ---
 
@@ -2570,7 +2600,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
 
 ---
 
@@ -2586,7 +2616,7 @@ If true, specifies the CORS policy is disabled.
 
 The default value is false, which indicates that the CORS policy is in effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
 
 ---
 
@@ -2600,7 +2630,7 @@ public readonly exposeHeaders: string[];
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
 
 ---
 
@@ -2614,7 +2644,39 @@ public readonly maxAge: number;
 
 Specifies how long results of a preflight request can be cached in seconds. This translates to the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+
+---
+
+### GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy <a name="GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+const googleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy: googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy.property.compressionMode">compressionMode</a></code> | <code>string</code> | Compress text responses using Brotli or gzip compression, based on the client's Accept-Encoding header. Possible values: ["AUTOMATIC", "DISABLED"]. |
+
+---
+
+##### `compressionMode`<sup>Optional</sup> <a name="compressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy.property.compressionMode"></a>
+
+```typescript
+public readonly compressionMode: string;
+```
+
+- *Type:* string
+
+Compress text responses using Brotli or gzip compression, based on the client's Accept-Encoding header. Possible values: ["AUTOMATIC", "DISABLED"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#compression_mode GoogleComputeUrlMap#compression_mode}
 
 ---
 
@@ -2647,7 +2709,7 @@ public readonly abort: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
 
 ---
 
@@ -2661,7 +2723,7 @@ public readonly delay: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
 
 ---
 
@@ -2694,7 +2756,7 @@ public readonly httpStatus: number;
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
 
 ---
 
@@ -2710,7 +2772,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -2743,7 +2805,7 @@ public readonly fixedDelay: GoogleComputeUrlMapDefaultRouteActionFaultInjectionP
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
 
 ---
 
@@ -2759,7 +2821,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -2795,7 +2857,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2812,7 +2874,42 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+
+---
+
+### GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy <a name="GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+const googleComputeUrlMapDefaultRouteActionImageOptimizationPolicy: googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy.property.queryParameterInterpretation">queryParameterInterpretation</a></code> | <code>string</code> | Controls whether presets or control parameters specified as URL query parameters are used to optimize the image. |
+
+---
+
+##### `queryParameterInterpretation`<sup>Optional</sup> <a name="queryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy.property.queryParameterInterpretation"></a>
+
+```typescript
+public readonly queryParameterInterpretation: string;
+```
+
+- *Type:* string
+
+Controls whether presets or control parameters specified as URL query parameters are used to optimize the image.
+
+If not specified, the default
+value is DISABLED. Possible values: ["DISABLED", "ENABLED"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#query_parameter_interpretation GoogleComputeUrlMap#query_parameter_interpretation}
 
 ---
 
@@ -2848,7 +2945,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -2865,7 +2962,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -2898,7 +2995,7 @@ public readonly backendService: string;
 
 The full or partial URL to the BackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -2912,7 +3009,7 @@ public readonly mirrorPercent: number;
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
 
 ---
 
@@ -2946,7 +3043,7 @@ public readonly numRetries: number;
 
 Specifies the allowed number retries. This number must be > 0. If not specified, defaults to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
 
 ---
 
@@ -2960,7 +3057,7 @@ public readonly perTryTimeout: GoogleComputeUrlMapDefaultRouteActionRetryPolicyP
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
 
 ---
 
@@ -2989,7 +3086,7 @@ Specfies one or more conditions when this retry rule applies. Valid values are:.
 * resource-exhausted: Loadbalancer will retry if the gRPC status code in the response header is set to resource-exhausted
 * unavailable: Loadbalancer will retry if the gRPC status code in the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
 
 ---
 
@@ -3025,7 +3122,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -3042,7 +3139,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -3078,7 +3175,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -3095,7 +3192,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -3130,7 +3227,7 @@ Prior to forwarding the request to the selected service, the request's host head
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
 
 ---
 
@@ -3146,7 +3243,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -3184,7 +3281,7 @@ Before forwarding the
 request to backendService, the loadbalancer applies any relevant headerActions
 specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -3198,7 +3295,7 @@ public readonly headerAction: GoogleComputeUrlMapDefaultRouteActionWeightedBacke
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -3218,7 +3315,7 @@ as determined by the BackendService's session affinity policy.
 
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
 
 ---
 
@@ -3253,7 +3350,7 @@ public readonly requestHeadersToAdd: IResolvable | GoogleComputeUrlMapDefaultRou
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -3267,7 +3364,7 @@ public readonly requestHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -3281,7 +3378,7 @@ public readonly responseHeadersToAdd: IResolvable | GoogleComputeUrlMapDefaultRo
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -3295,7 +3392,7 @@ public readonly responseHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -3329,7 +3426,7 @@ public readonly headerName: string;
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -3343,7 +3440,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -3359,7 +3456,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -3393,7 +3490,7 @@ public readonly headerName: string;
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -3407,7 +3504,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -3423,7 +3520,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -3464,7 +3561,7 @@ If set to false, the query portion of the original URL is
 retained. The default is set to false.
  This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
 
 ---
 
@@ -3480,7 +3577,7 @@ The host that will be used in the redirect response instead of the one that was 
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
 
 ---
 
@@ -3499,7 +3596,7 @@ false, the URL scheme of the redirected request will remain the same as that of 
 request. This must only be set for UrlMaps used in TargetHttpProxys. Setting this
 true for TargetHttpsProxy is not permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
 
 ---
 
@@ -3518,7 +3615,7 @@ prefixRedirect. Supply one alone or neither. If neither is supplied, the path of
 original request will be used for the redirect. The value must be between 1 and 1024
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
 
 ---
 
@@ -3536,7 +3633,7 @@ prefixRedirect cannot be supplied together with pathRedirect. Supply one alone o
 neither. If neither is supplied, the path of the original request will be used for
 the redirect. The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
 
 ---
 
@@ -3562,7 +3659,7 @@ will be retained.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
 the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
 
 ---
 
@@ -3597,7 +3694,7 @@ public readonly requestHeadersToAdd: IResolvable | GoogleComputeUrlMapHeaderActi
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -3611,7 +3708,7 @@ public readonly requestHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -3625,7 +3722,7 @@ public readonly responseHeadersToAdd: IResolvable | GoogleComputeUrlMapHeaderAct
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -3639,7 +3736,7 @@ public readonly responseHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -3673,7 +3770,7 @@ public readonly headerName: string;
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -3687,7 +3784,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -3704,7 +3801,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -3738,7 +3835,7 @@ public readonly headerName: string;
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -3752,7 +3849,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -3769,7 +3866,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -3807,7 +3904,7 @@ They must be valid hostnames, except * will
 match any string of ([a-z0-9-.]*). In that case, * must be the first character
 and must be followed in the pattern by either - or ..
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#hosts GoogleComputeUrlMap#hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#hosts GoogleComputeUrlMap#hosts}
 
 ---
 
@@ -3821,7 +3918,7 @@ public readonly pathMatcher: string;
 
 The name of the PathMatcher to use to match the path portion of the URL if the hostRule matches the URL's host portion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_matcher GoogleComputeUrlMap#path_matcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_matcher GoogleComputeUrlMap#path_matcher}
 
 ---
 
@@ -3835,7 +3932,7 @@ public readonly description: string;
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
 
 ---
 
@@ -3875,7 +3972,7 @@ public readonly name: string;
 
 The name to which this PathMatcher is referred by the HostRule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
 
 ---
 
@@ -3889,7 +3986,7 @@ public readonly defaultCustomErrorResponsePolicy: GoogleComputeUrlMapPathMatcher
 
 default_custom_error_response_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_custom_error_response_policy GoogleComputeUrlMap#default_custom_error_response_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_custom_error_response_policy GoogleComputeUrlMap#default_custom_error_response_policy}
 
 ---
 
@@ -3903,7 +4000,7 @@ public readonly defaultRouteAction: GoogleComputeUrlMapPathMatcherDefaultRouteAc
 
 default_route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_route_action GoogleComputeUrlMap#default_route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_route_action GoogleComputeUrlMap#default_route_action}
 
 ---
 
@@ -3917,7 +4014,7 @@ public readonly defaultService: string;
 
 The backend service or backend bucket to use when none of the given paths match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_service GoogleComputeUrlMap#default_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_service GoogleComputeUrlMap#default_service}
 
 ---
 
@@ -3931,7 +4028,7 @@ public readonly defaultUrlRedirect: GoogleComputeUrlMapPathMatcherDefaultUrlRedi
 
 default_url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_url_redirect GoogleComputeUrlMap#default_url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_url_redirect GoogleComputeUrlMap#default_url_redirect}
 
 ---
 
@@ -3945,7 +4042,7 @@ public readonly description: string;
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
 
 ---
 
@@ -3959,7 +4056,7 @@ public readonly headerAction: GoogleComputeUrlMapPathMatcherHeaderAction;
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -3973,7 +4070,7 @@ public readonly pathRule: IResolvable | GoogleComputeUrlMapPathMatcherPathRule[]
 
 path_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_rule GoogleComputeUrlMap#path_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_rule GoogleComputeUrlMap#path_rule}
 
 ---
 
@@ -3987,7 +4084,7 @@ public readonly routeRules: IResolvable | GoogleComputeUrlMapPathMatcherRouteRul
 
 route_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#route_rules GoogleComputeUrlMap#route_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#route_rules GoogleComputeUrlMap#route_rules}
 
 ---
 
@@ -4020,7 +4117,7 @@ public readonly errorResponseRule: IResolvable | GoogleComputeUrlMapPathMatcherD
 
 error_response_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
 
 ---
 
@@ -4041,7 +4138,7 @@ global/backendBuckets/myBackendBucket
 If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
 If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
 
 ---
 
@@ -4079,7 +4176,7 @@ Valid values include: - A number between 400 and 599: For example 401 or 503, in
 - 4xx: Load Balancer will apply the policy if the backend service responds with any response code in the range of 400 to 499.
 Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
 
 ---
 
@@ -4095,7 +4192,7 @@ The HTTP status code returned with the response containing the custom error cont
 
 If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
 
 ---
 
@@ -4114,7 +4211,7 @@ path must start with a leading slash. path cannot have trailing slashes.
 If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
 The value must be from 1 to 1024 characters
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
 
 ---
 
@@ -4134,7 +4231,9 @@ const googleComputeUrlMapPathMatcherDefaultRouteAction: googleComputeUrlMap.Goog
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction.property.cachePolicy">cachePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy</a></code> | cache_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction.property.corsPolicy">corsPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy</a></code> | cors_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction.property.dynamicCompressionPolicy">dynamicCompressionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy</a></code> | dynamic_compression_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction.property.faultInjectionPolicy">faultInjectionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy</a></code> | fault_injection_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction.property.imageOptimizationPolicy">imageOptimizationPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy</a></code> | image_optimization_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction.property.maxStreamDuration">maxStreamDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration">GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration</a></code> | max_stream_duration block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction.property.requestMirrorPolicy">requestMirrorPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy</a></code> | request_mirror_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction.property.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy</a></code> | retry_policy block. |
@@ -4154,7 +4253,7 @@ public readonly cachePolicy: GoogleComputeUrlMapPathMatcherDefaultRouteActionCac
 
 cache_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
 
 ---
 
@@ -4168,7 +4267,21 @@ public readonly corsPolicy: GoogleComputeUrlMapPathMatcherDefaultRouteActionCors
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+
+---
+
+##### `dynamicCompressionPolicy`<sup>Optional</sup> <a name="dynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction.property.dynamicCompressionPolicy"></a>
+
+```typescript
+public readonly dynamicCompressionPolicy: GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy</a>
+
+dynamic_compression_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#dynamic_compression_policy GoogleComputeUrlMap#dynamic_compression_policy}
 
 ---
 
@@ -4182,7 +4295,21 @@ public readonly faultInjectionPolicy: GoogleComputeUrlMapPathMatcherDefaultRoute
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+
+---
+
+##### `imageOptimizationPolicy`<sup>Optional</sup> <a name="imageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteAction.property.imageOptimizationPolicy"></a>
+
+```typescript
+public readonly imageOptimizationPolicy: GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy</a>
+
+image_optimization_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#image_optimization_policy GoogleComputeUrlMap#image_optimization_policy}
 
 ---
 
@@ -4196,7 +4323,7 @@ public readonly maxStreamDuration: GoogleComputeUrlMapPathMatcherDefaultRouteAct
 
 max_stream_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
 
 ---
 
@@ -4210,7 +4337,7 @@ public readonly requestMirrorPolicy: GoogleComputeUrlMapPathMatcherDefaultRouteA
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
 
 ---
 
@@ -4224,7 +4351,7 @@ public readonly retryPolicy: GoogleComputeUrlMapPathMatcherDefaultRouteActionRet
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
 
 ---
 
@@ -4238,7 +4365,7 @@ public readonly timeout: GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
 
 ---
 
@@ -4252,7 +4379,7 @@ public readonly urlRewrite: GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlR
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
 
 ---
 
@@ -4266,7 +4393,7 @@ public readonly weightedBackendServices: IResolvable | GoogleComputeUrlMapPathMa
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
 
 ---
 
@@ -4307,7 +4434,7 @@ public readonly cacheBypassRequestHeaderNames: string[];
 
 Bypass the cache when the specified request headers are matched by name, e.g. Pragma or Authorization headers. Values are case-insensitive. Up to 5 header names can be specified. The cache is bypassed for all cacheMode values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
 
 ---
 
@@ -4321,7 +4448,7 @@ public readonly cacheKeyPolicy: GoogleComputeUrlMapPathMatcherDefaultRouteAction
 
 cache_key_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
 
 ---
 
@@ -4338,7 +4465,7 @@ Specifies the cache setting for all responses from this route.
 If not
 specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
 
 ---
 
@@ -4352,7 +4479,7 @@ public readonly clientTtl: GoogleComputeUrlMapPathMatcherDefaultRouteActionCache
 
 client_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
 
 ---
 
@@ -4366,7 +4493,7 @@ public readonly defaultTtl: GoogleComputeUrlMapPathMatcherDefaultRouteActionCach
 
 default_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
 
 ---
 
@@ -4380,7 +4507,7 @@ public readonly maxTtl: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePol
 
 max_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
 
 ---
 
@@ -4409,7 +4536,7 @@ Cloud CDN applies the following TTLs to these HTTP status codes:
 These defaults can be overridden in negativeCachingPolicy. If not
 specified, Cloud CDN applies negative caching by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
 
 ---
 
@@ -4423,7 +4550,7 @@ public readonly negativeCachingPolicy: IResolvable | GoogleComputeUrlMapPathMatc
 
 negative_caching_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
 
 ---
 
@@ -4440,7 +4567,7 @@ If true then Cloud CDN will combine multiple concurrent cache fill requests into
 If not specified,
 Cloud CDN applies request coalescing by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
 
 ---
 
@@ -4454,7 +4581,7 @@ public readonly serveWhileStale: GoogleComputeUrlMapPathMatcherDefaultRouteActio
 
 serve_while_stale block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
 
 ---
 
@@ -4502,7 +4629,7 @@ error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
 
 ---
 
@@ -4524,7 +4651,7 @@ Attempting to set it on a route that points exclusively to Backend
 Buckets will result in a configuration error. Up to 5 cookie names can
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
 
 ---
 
@@ -4538,7 +4665,7 @@ public readonly includedHeaderNames: string[];
 
 Allows HTTP request headers (by name) to be used in the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
 
 ---
 
@@ -4557,7 +4684,7 @@ parameters will be excluded. Either specify includedQueryParameters
 or excludedQueryParameters, not both. '&' and '=' will be percent
 encoded and not treated as delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
 
 ---
 
@@ -4578,7 +4705,7 @@ never included in a Backend Bucket's cache key. Attempting to set it on
 a route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
 
 ---
 
@@ -4599,7 +4726,7 @@ never included in a Backend Bucket's cache key. Attempting to set on a
 route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
 
 ---
 
@@ -4622,7 +4749,7 @@ configuration error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
 
 ---
 
@@ -4655,7 +4782,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -4669,7 +4796,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -4702,7 +4829,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -4716,7 +4843,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -4749,7 +4876,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -4763,7 +4890,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -4801,7 +4928,7 @@ Only HTTP status codes
 specified as values, and you cannot specify a status code more than
 once.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
 
 ---
 
@@ -4815,7 +4942,7 @@ public readonly ttl: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
 
 ---
 
@@ -4848,7 +4975,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -4862,7 +4989,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -4895,7 +5022,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -4909,7 +5036,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -4950,7 +5077,7 @@ In response to a preflight request, setting this to true indicates that the actu
 
 This translates to the Access-Control-Allow-Credentials header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
 
 ---
 
@@ -4964,7 +5091,7 @@ public readonly allowHeaders: string[];
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
 
 ---
 
@@ -4978,7 +5105,7 @@ public readonly allowMethods: string[];
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
 
 ---
 
@@ -4996,7 +5123,7 @@ For regular expression grammar
 please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
 
 ---
 
@@ -5012,7 +5139,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
 
 ---
 
@@ -5028,7 +5155,7 @@ If true, specifies the CORS policy is disabled.
 
 The default value is false, which indicates that the CORS policy is in effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
 
 ---
 
@@ -5042,7 +5169,7 @@ public readonly exposeHeaders: string[];
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
 
 ---
 
@@ -5056,7 +5183,39 @@ public readonly maxAge: number;
 
 Specifies how long results of a preflight request can be cached in seconds. This translates to the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+
+---
+
+### GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy <a name="GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+const googleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy: googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy.property.compressionMode">compressionMode</a></code> | <code>string</code> | Compress text responses using Brotli or gzip compression, based on the client's Accept-Encoding header. Possible values: ["AUTOMATIC", "DISABLED"]. |
+
+---
+
+##### `compressionMode`<sup>Optional</sup> <a name="compressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy.property.compressionMode"></a>
+
+```typescript
+public readonly compressionMode: string;
+```
+
+- *Type:* string
+
+Compress text responses using Brotli or gzip compression, based on the client's Accept-Encoding header. Possible values: ["AUTOMATIC", "DISABLED"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#compression_mode GoogleComputeUrlMap#compression_mode}
 
 ---
 
@@ -5089,7 +5248,7 @@ public readonly abort: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInje
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
 
 ---
 
@@ -5103,7 +5262,7 @@ public readonly delay: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInje
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
 
 ---
 
@@ -5136,7 +5295,7 @@ public readonly httpStatus: number;
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
 
 ---
 
@@ -5152,7 +5311,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -5185,7 +5344,7 @@ public readonly fixedDelay: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaul
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
 
 ---
 
@@ -5201,7 +5360,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -5237,7 +5396,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -5254,7 +5413,42 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+
+---
+
+### GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy <a name="GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+const googleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy: googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy.property.queryParameterInterpretation">queryParameterInterpretation</a></code> | <code>string</code> | Controls whether presets or control parameters specified as URL query parameters are used to optimize the image. |
+
+---
+
+##### `queryParameterInterpretation`<sup>Optional</sup> <a name="queryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy.property.queryParameterInterpretation"></a>
+
+```typescript
+public readonly queryParameterInterpretation: string;
+```
+
+- *Type:* string
+
+Controls whether presets or control parameters specified as URL query parameters are used to optimize the image.
+
+If not specified, the default
+value is DISABLED. Possible values: ["DISABLED", "ENABLED"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#query_parameter_interpretation GoogleComputeUrlMap#query_parameter_interpretation}
 
 ---
 
@@ -5290,7 +5484,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -5307,7 +5501,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -5340,7 +5534,7 @@ public readonly backendService: string;
 
 The full or partial URL to the BackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -5354,7 +5548,7 @@ public readonly mirrorPercent: number;
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
 
 ---
 
@@ -5388,7 +5582,7 @@ public readonly numRetries: number;
 
 Specifies the allowed number retries. This number must be > 0. If not specified, defaults to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
 
 ---
 
@@ -5402,7 +5596,7 @@ public readonly perTryTimeout: GoogleComputeUrlMapPathMatcherDefaultRouteActionR
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
 
 ---
 
@@ -5431,7 +5625,7 @@ Specfies one or more conditions when this retry rule applies. Valid values are:.
 * resource-exhausted: Loadbalancer will retry if the gRPC status code in the response header is set to resource-exhausted
 * unavailable: Loadbalancer will retry if the gRPC status code in the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
 
 ---
 
@@ -5467,7 +5661,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -5484,7 +5678,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -5520,7 +5714,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -5537,7 +5731,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -5572,7 +5766,7 @@ Prior to forwarding the request to the selected service, the request's host head
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
 
 ---
 
@@ -5588,7 +5782,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -5626,7 +5820,7 @@ Before forwarding the
 request to backendService, the loadbalancer applies any relevant headerActions
 specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -5640,7 +5834,7 @@ public readonly headerAction: GoogleComputeUrlMapPathMatcherDefaultRouteActionWe
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -5660,7 +5854,7 @@ as determined by the BackendService's session affinity policy.
 
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
 
 ---
 
@@ -5695,7 +5889,7 @@ public readonly requestHeadersToAdd: IResolvable | GoogleComputeUrlMapPathMatche
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -5709,7 +5903,7 @@ public readonly requestHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -5723,7 +5917,7 @@ public readonly responseHeadersToAdd: IResolvable | GoogleComputeUrlMapPathMatch
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -5737,7 +5931,7 @@ public readonly responseHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -5771,7 +5965,7 @@ public readonly headerName: string;
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -5785,7 +5979,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -5801,7 +5995,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -5835,7 +6029,7 @@ public readonly headerName: string;
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -5849,7 +6043,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -5865,7 +6059,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -5906,7 +6100,7 @@ If set to false, the query portion of the original URL is
 retained.
  This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
 
 ---
 
@@ -5922,7 +6116,7 @@ The host that will be used in the redirect response instead of the one that was 
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
 
 ---
 
@@ -5941,7 +6135,7 @@ false, the URL scheme of the redirected request will remain the same as that of 
 request. This must only be set for UrlMaps used in TargetHttpProxys. Setting this
 true for TargetHttpsProxy is not permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
 
 ---
 
@@ -5960,7 +6154,7 @@ prefixRedirect. Supply one alone or neither. If neither is supplied, the path of
 original request will be used for the redirect. The value must be between 1 and 1024
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
 
 ---
 
@@ -5978,7 +6172,7 @@ prefixRedirect cannot be supplied together with pathRedirect. Supply one alone o
 neither. If neither is supplied, the path of the original request will be used for
 the redirect. The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
 
 ---
 
@@ -6004,7 +6198,7 @@ will be retained.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
 the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
 
 ---
 
@@ -6039,7 +6233,7 @@ public readonly requestHeadersToAdd: IResolvable | GoogleComputeUrlMapPathMatche
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -6053,7 +6247,7 @@ public readonly requestHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -6067,7 +6261,7 @@ public readonly responseHeadersToAdd: IResolvable | GoogleComputeUrlMapPathMatch
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -6081,7 +6275,7 @@ public readonly responseHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -6115,7 +6309,7 @@ public readonly headerName: string;
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -6129,7 +6323,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -6146,7 +6340,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -6180,7 +6374,7 @@ public readonly headerName: string;
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -6194,7 +6388,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -6211,7 +6405,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -6252,7 +6446,7 @@ Each must start with / and the only place a
 does not include any text after the first ? or #, and those chars are not
 allowed here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#paths GoogleComputeUrlMap#paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#paths GoogleComputeUrlMap#paths}
 
 ---
 
@@ -6266,7 +6460,7 @@ public readonly customErrorResponsePolicy: GoogleComputeUrlMapPathMatcherPathRul
 
 custom_error_response_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#custom_error_response_policy GoogleComputeUrlMap#custom_error_response_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#custom_error_response_policy GoogleComputeUrlMap#custom_error_response_policy}
 
 ---
 
@@ -6280,7 +6474,7 @@ public readonly routeAction: GoogleComputeUrlMapPathMatcherPathRuleRouteAction;
 
 route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#route_action GoogleComputeUrlMap#route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#route_action GoogleComputeUrlMap#route_action}
 
 ---
 
@@ -6294,7 +6488,7 @@ public readonly service: string;
 
 The backend service or backend bucket to use if any of the given paths match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
 
 ---
 
@@ -6308,7 +6502,7 @@ public readonly urlRedirect: GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect;
 
 url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_redirect GoogleComputeUrlMap#url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#url_redirect GoogleComputeUrlMap#url_redirect}
 
 ---
 
@@ -6341,7 +6535,7 @@ public readonly errorResponseRule: IResolvable | GoogleComputeUrlMapPathMatcherP
 
 error_response_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
 
 ---
 
@@ -6362,7 +6556,7 @@ global/backendBuckets/myBackendBucket
 If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
 If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
 
 ---
 
@@ -6402,7 +6596,7 @@ A number between 400 and 599: For example 401 or 503, in which case the load bal
 
 Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
 
 ---
 
@@ -6418,7 +6612,7 @@ The HTTP status code returned with the response containing the custom error cont
 
 If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
 
 ---
 
@@ -6437,7 +6631,7 @@ path must start with a leading slash. path cannot have trailing slashes.
 If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
 The value must be from 1 to 1024 characters
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
 
 ---
 
@@ -6457,7 +6651,9 @@ const googleComputeUrlMapPathMatcherPathRuleRouteAction: googleComputeUrlMap.Goo
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction.property.cachePolicy">cachePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy</a></code> | cache_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction.property.corsPolicy">corsPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy</a></code> | cors_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction.property.dynamicCompressionPolicy">dynamicCompressionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy</a></code> | dynamic_compression_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction.property.faultInjectionPolicy">faultInjectionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy</a></code> | fault_injection_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction.property.imageOptimizationPolicy">imageOptimizationPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy</a></code> | image_optimization_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction.property.maxStreamDuration">maxStreamDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration">GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration</a></code> | max_stream_duration block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction.property.requestMirrorPolicy">requestMirrorPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy</a></code> | request_mirror_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction.property.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy</a></code> | retry_policy block. |
@@ -6477,7 +6673,7 @@ public readonly cachePolicy: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCa
 
 cache_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
 
 ---
 
@@ -6491,7 +6687,21 @@ public readonly corsPolicy: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCor
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+
+---
+
+##### `dynamicCompressionPolicy`<sup>Optional</sup> <a name="dynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction.property.dynamicCompressionPolicy"></a>
+
+```typescript
+public readonly dynamicCompressionPolicy: GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy</a>
+
+dynamic_compression_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#dynamic_compression_policy GoogleComputeUrlMap#dynamic_compression_policy}
 
 ---
 
@@ -6505,7 +6715,21 @@ public readonly faultInjectionPolicy: GoogleComputeUrlMapPathMatcherPathRuleRout
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+
+---
+
+##### `imageOptimizationPolicy`<sup>Optional</sup> <a name="imageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteAction.property.imageOptimizationPolicy"></a>
+
+```typescript
+public readonly imageOptimizationPolicy: GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy</a>
+
+image_optimization_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#image_optimization_policy GoogleComputeUrlMap#image_optimization_policy}
 
 ---
 
@@ -6519,7 +6743,7 @@ public readonly maxStreamDuration: GoogleComputeUrlMapPathMatcherPathRuleRouteAc
 
 max_stream_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
 
 ---
 
@@ -6533,7 +6757,7 @@ public readonly requestMirrorPolicy: GoogleComputeUrlMapPathMatcherPathRuleRoute
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
 
 ---
 
@@ -6547,7 +6771,7 @@ public readonly retryPolicy: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRe
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
 
 ---
 
@@ -6561,7 +6785,7 @@ public readonly timeout: GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeou
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
 
 ---
 
@@ -6575,7 +6799,7 @@ public readonly urlRewrite: GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrl
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
 
 ---
 
@@ -6589,7 +6813,7 @@ public readonly weightedBackendServices: IResolvable | GoogleComputeUrlMapPathMa
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
 
 ---
 
@@ -6630,7 +6854,7 @@ public readonly cacheBypassRequestHeaderNames: string[];
 
 Bypass the cache when the specified request headers are matched by name, e.g. Pragma or Authorization headers. Values are case-insensitive. Up to 5 header names can be specified. The cache is bypassed for all cacheMode values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
 
 ---
 
@@ -6644,7 +6868,7 @@ public readonly cacheKeyPolicy: GoogleComputeUrlMapPathMatcherPathRuleRouteActio
 
 cache_key_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
 
 ---
 
@@ -6661,7 +6885,7 @@ Specifies the cache setting for all responses from this route.
 If not
 specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
 
 ---
 
@@ -6675,7 +6899,7 @@ public readonly clientTtl: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCach
 
 client_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
 
 ---
 
@@ -6689,7 +6913,7 @@ public readonly defaultTtl: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCac
 
 default_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
 
 ---
 
@@ -6703,7 +6927,7 @@ public readonly maxTtl: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePo
 
 max_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
 
 ---
 
@@ -6732,7 +6956,7 @@ Cloud CDN applies the following TTLs to these HTTP status codes:
 These defaults can be overridden in negativeCachingPolicy. If not
 specified, Cloud CDN applies negative caching by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
 
 ---
 
@@ -6746,7 +6970,7 @@ public readonly negativeCachingPolicy: IResolvable | GoogleComputeUrlMapPathMatc
 
 negative_caching_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
 
 ---
 
@@ -6763,7 +6987,7 @@ If true then Cloud CDN will combine multiple concurrent cache fill requests into
 If not specified,
 Cloud CDN applies request coalescing by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
 
 ---
 
@@ -6777,7 +7001,7 @@ public readonly serveWhileStale: GoogleComputeUrlMapPathMatcherPathRuleRouteActi
 
 serve_while_stale block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
 
 ---
 
@@ -6825,7 +7049,7 @@ error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
 
 ---
 
@@ -6847,7 +7071,7 @@ Attempting to set it on a route that points exclusively to Backend
 Buckets will result in a configuration error. Up to 5 cookie names can
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
 
 ---
 
@@ -6861,7 +7085,7 @@ public readonly includedHeaderNames: string[];
 
 Allows HTTP request headers (by name) to be used in the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
 
 ---
 
@@ -6880,7 +7104,7 @@ parameters will be excluded. Either specify includedQueryParameters
 or excludedQueryParameters, not both. '&' and '=' will be percent
 encoded and not treated as delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
 
 ---
 
@@ -6901,7 +7125,7 @@ never included in a Backend Bucket's cache key. Attempting to set it on
 a route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
 
 ---
 
@@ -6922,7 +7146,7 @@ never included in a Backend Bucket's cache key. Attempting to set on a
 route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
 
 ---
 
@@ -6945,7 +7169,7 @@ configuration error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
 
 ---
 
@@ -6978,7 +7202,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -6992,7 +7216,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7025,7 +7249,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7039,7 +7263,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7072,7 +7296,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7086,7 +7310,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7124,7 +7348,7 @@ Only HTTP status codes
 specified as values, and you cannot specify a status code more than
 once.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
 
 ---
 
@@ -7138,7 +7362,7 @@ public readonly ttl: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolic
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
 
 ---
 
@@ -7171,7 +7395,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7185,7 +7409,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7218,7 +7442,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7232,7 +7456,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7271,7 +7495,7 @@ public readonly disabled: boolean | IResolvable;
 
 If true, specifies the CORS policy is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
 
 ---
 
@@ -7288,7 +7512,7 @@ In response to a preflight request, setting this to true indicates that the actu
 This translates to the Access-
 Control-Allow-Credentials header. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
 
 ---
 
@@ -7302,7 +7526,7 @@ public readonly allowHeaders: string[];
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
 
 ---
 
@@ -7316,7 +7540,7 @@ public readonly allowMethods: string[];
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
 
 ---
 
@@ -7334,7 +7558,7 @@ For
 regular expression grammar please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
 
 ---
 
@@ -7351,7 +7575,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 An
 origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
 
 ---
 
@@ -7365,7 +7589,7 @@ public readonly exposeHeaders: string[];
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
 
 ---
 
@@ -7382,7 +7606,39 @@ Specifies how long the results of a preflight request can be cached.
 This
 translates to the content for the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+
+---
+
+### GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy <a name="GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+const googleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy: googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy.property.compressionMode">compressionMode</a></code> | <code>string</code> | Compress text responses using Brotli or gzip compression, based on the client's Accept-Encoding header. Possible values: ["AUTOMATIC", "DISABLED"]. |
+
+---
+
+##### `compressionMode`<sup>Optional</sup> <a name="compressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy.property.compressionMode"></a>
+
+```typescript
+public readonly compressionMode: string;
+```
+
+- *Type:* string
+
+Compress text responses using Brotli or gzip compression, based on the client's Accept-Encoding header. Possible values: ["AUTOMATIC", "DISABLED"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#compression_mode GoogleComputeUrlMap#compression_mode}
 
 ---
 
@@ -7415,7 +7671,7 @@ public readonly abort: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInj
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
 
 ---
 
@@ -7429,7 +7685,7 @@ public readonly delay: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInj
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
 
 ---
 
@@ -7462,7 +7718,7 @@ public readonly httpStatus: number;
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
 
 ---
 
@@ -7479,7 +7735,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 The value must be between 0.0 and 100.0
 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -7512,7 +7768,7 @@ public readonly fixedDelay: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFau
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
 
 ---
 
@@ -7529,7 +7785,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 The value must be between 0.0 and
 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -7562,7 +7818,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7580,7 +7836,42 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+
+---
+
+### GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy <a name="GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+const googleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy: googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy.property.queryParameterInterpretation">queryParameterInterpretation</a></code> | <code>string</code> | Controls whether presets or control parameters specified as URL query parameters are used to optimize the image. |
+
+---
+
+##### `queryParameterInterpretation`<sup>Optional</sup> <a name="queryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy.property.queryParameterInterpretation"></a>
+
+```typescript
+public readonly queryParameterInterpretation: string;
+```
+
+- *Type:* string
+
+Controls whether presets or control parameters specified as URL query parameters are used to optimize the image.
+
+If not specified, the default
+value is DISABLED. Possible values: ["DISABLED", "ENABLED"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#query_parameter_interpretation GoogleComputeUrlMap#query_parameter_interpretation}
 
 ---
 
@@ -7613,7 +7904,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7631,7 +7922,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7664,7 +7955,7 @@ public readonly backendService: string;
 
 The BackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -7678,7 +7969,7 @@ public readonly mirrorPercent: number;
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
 
 ---
 
@@ -7712,7 +8003,7 @@ public readonly numRetries: number;
 
 Specifies the allowed number retries. This number must be > 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
 
 ---
 
@@ -7726,7 +8017,7 @@ public readonly perTryTimeout: GoogleComputeUrlMapPathMatcherPathRuleRouteAction
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
 
 ---
 
@@ -7761,7 +8052,7 @@ header is set to resource-exhausted
 * unavailable: Loadbalancer will retry if
 the gRPC status code in the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
 
 ---
 
@@ -7794,7 +8085,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7812,7 +8103,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7845,7 +8136,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -7863,7 +8154,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -7899,7 +8190,7 @@ Prior to forwarding the request to the selected service, the request's host head
 The value must be between 1 and
 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
 
 ---
 
@@ -7916,7 +8207,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 The value must
 be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -7954,7 +8245,7 @@ Before
 forwarding the request to backendService, the loadbalancer applies any relevant
 headerActions specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -7974,7 +8265,7 @@ been directed to a backendService, subsequent requests will be sent to the same
 backendService as determined by the BackendService's session affinity policy.
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
 
 ---
 
@@ -7988,7 +8279,7 @@ public readonly headerAction: GoogleComputeUrlMapPathMatcherPathRuleRouteActionW
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -8023,7 +8314,7 @@ public readonly requestHeadersToAdd: IResolvable | GoogleComputeUrlMapPathMatche
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -8037,7 +8328,7 @@ public readonly requestHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -8051,7 +8342,7 @@ public readonly responseHeadersToAdd: IResolvable | GoogleComputeUrlMapPathMatch
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -8065,7 +8356,7 @@ public readonly responseHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -8099,7 +8390,7 @@ public readonly headerName: string;
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -8113,7 +8404,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -8130,7 +8421,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -8164,7 +8455,7 @@ public readonly headerName: string;
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -8178,7 +8469,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -8195,7 +8486,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -8236,7 +8527,7 @@ If set to false, the query
 portion of the original URL is retained.
  This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
 
 ---
 
@@ -8253,7 +8544,7 @@ The host that will be used in the redirect response instead of the one that was 
 The value must be between 1 and 255
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
 
 ---
 
@@ -8272,7 +8563,7 @@ same as that of the request. This must only be set for UrlMaps used in
 TargetHttpProxys. Setting this true for TargetHttpsProxy is not
 permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
 
 ---
 
@@ -8291,7 +8582,7 @@ together with prefixRedirect. Supply one alone or neither. If neither is
 supplied, the path of the original request will be used for the redirect.
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
 
 ---
 
@@ -8310,7 +8601,7 @@ pathRedirect. Supply one alone or neither. If neither is supplied, the
 path of the original request will be used for the redirect. The value
 must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
 
 ---
 
@@ -8336,7 +8627,7 @@ will be retained.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
 the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
 
 ---
 
@@ -8391,7 +8682,7 @@ in the future without affecting the rest of the rules. For example,
 you could add rules numbered from 6 to 8, 10 to 11, and 13 to 15 in the
 future without any impact on existing rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#priority GoogleComputeUrlMap#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#priority GoogleComputeUrlMap#priority}
 
 ---
 
@@ -8405,7 +8696,7 @@ public readonly customErrorResponsePolicy: GoogleComputeUrlMapPathMatcherRouteRu
 
 custom_error_response_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#custom_error_response_policy GoogleComputeUrlMap#custom_error_response_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#custom_error_response_policy GoogleComputeUrlMap#custom_error_response_policy}
 
 ---
 
@@ -8419,7 +8710,7 @@ public readonly headerAction: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActi
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -8433,7 +8724,7 @@ public readonly httpFilterConfigs: IResolvable | GoogleComputeUrlMapPathMatcherR
 
 http_filter_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_filter_configs GoogleComputeUrlMap#http_filter_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#http_filter_configs GoogleComputeUrlMap#http_filter_configs}
 
 ---
 
@@ -8447,7 +8738,7 @@ public readonly httpFilterMetadata: IResolvable | GoogleComputeUrlMapPathMatcher
 
 http_filter_metadata block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_filter_metadata GoogleComputeUrlMap#http_filter_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#http_filter_metadata GoogleComputeUrlMap#http_filter_metadata}
 
 ---
 
@@ -8461,7 +8752,7 @@ public readonly matchRules: IResolvable | GoogleComputeUrlMapPathMatcherRouteRul
 
 match_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#match_rules GoogleComputeUrlMap#match_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#match_rules GoogleComputeUrlMap#match_rules}
 
 ---
 
@@ -8475,7 +8766,7 @@ public readonly routeAction: GoogleComputeUrlMapPathMatcherRouteRulesRouteAction
 
 route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#route_action GoogleComputeUrlMap#route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#route_action GoogleComputeUrlMap#route_action}
 
 ---
 
@@ -8496,7 +8787,7 @@ contain any weightedBackendService s. Conversely, if routeAction specifies any
 weightedBackendServices, service must not be specified. Only one of urlRedirect,
 service or routeAction.weightedBackendService must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
 
 ---
 
@@ -8510,7 +8801,7 @@ public readonly urlRedirect: GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect
 
 url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_redirect GoogleComputeUrlMap#url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#url_redirect GoogleComputeUrlMap#url_redirect}
 
 ---
 
@@ -8543,7 +8834,7 @@ public readonly errorResponseRule: IResolvable | GoogleComputeUrlMapPathMatcherR
 
 error_response_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
 
 ---
 
@@ -8564,7 +8855,7 @@ global/backendBuckets/myBackendBucket
 If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
 If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
 
 ---
 
@@ -8604,7 +8895,7 @@ A number between 400 and 599: For example 401 or 503, in which case the load bal
 
 Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
 
 ---
 
@@ -8620,7 +8911,7 @@ The HTTP status code returned with the response containing the custom error cont
 
 If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
 
 ---
 
@@ -8639,7 +8930,7 @@ path must start with a leading slash. path cannot have trailing slashes.
 If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
 The value must be from 1 to 1024 characters
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
 
 ---
 
@@ -8674,7 +8965,7 @@ public readonly requestHeadersToAdd: IResolvable | GoogleComputeUrlMapPathMatche
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -8688,7 +8979,7 @@ public readonly requestHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -8702,7 +8993,7 @@ public readonly responseHeadersToAdd: IResolvable | GoogleComputeUrlMapPathMatch
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -8716,7 +9007,7 @@ public readonly responseHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -8750,7 +9041,7 @@ public readonly headerName: string;
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -8764,7 +9055,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -8781,7 +9072,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -8815,7 +9106,7 @@ public readonly headerName: string;
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -8829,7 +9120,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -8846,7 +9137,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -8880,7 +9171,7 @@ public readonly config: string;
 
 The configuration needed to enable the networkservices.HttpFilter resource. The configuration must be YAML formatted and only contain fields defined in the protobuf identified in configTypeUrl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
 
 ---
 
@@ -8894,7 +9185,7 @@ public readonly configTypeUrl: string;
 
 The fully qualified versioned proto3 type url of the protobuf that the filter expects for its contextual settings, for example: type.googleapis.com/google.protobuf.Struct.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
 
 ---
 
@@ -8908,7 +9199,7 @@ public readonly filterName: string;
 
 Name of the networkservices.HttpFilter resource this configuration belongs to. This name must be known to the xDS client. Example: envoy.wasm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
 
 ---
 
@@ -8942,7 +9233,7 @@ public readonly config: string;
 
 The configuration needed to enable the networkservices.HttpFilter resource. The configuration must be YAML formatted and only contain fields defined in the protobuf identified in configTypeUrl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
 
 ---
 
@@ -8956,7 +9247,7 @@ public readonly configTypeUrl: string;
 
 The fully qualified versioned proto3 type url of the protobuf that the filter expects for its contextual settings, for example: type.googleapis.com/google.protobuf.Struct.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
 
 ---
 
@@ -8970,7 +9261,7 @@ public readonly filterName: string;
 
 Name of the networkservices.HttpFilter resource this configuration belongs to. This name must be known to the xDS client. Example: envoy.wasm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
 
 ---
 
@@ -9013,7 +9304,7 @@ FullPathMatch must be between 1
 and 1024 characters. Only one of prefixMatch, fullPathMatch or regexMatch must
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#full_path_match GoogleComputeUrlMap#full_path_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#full_path_match GoogleComputeUrlMap#full_path_match}
 
 ---
 
@@ -9027,7 +9318,7 @@ public readonly headerMatches: IResolvable | GoogleComputeUrlMapPathMatcherRoute
 
 header_matches block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_matches GoogleComputeUrlMap#header_matches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_matches GoogleComputeUrlMap#header_matches}
 
 ---
 
@@ -9041,7 +9332,7 @@ public readonly ignoreCase: boolean | IResolvable;
 
 Specifies that prefixMatch and fullPathMatch matches are case sensitive. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#ignore_case GoogleComputeUrlMap#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#ignore_case GoogleComputeUrlMap#ignore_case}
 
 ---
 
@@ -9055,7 +9346,7 @@ public readonly metadataFilters: IResolvable | GoogleComputeUrlMapPathMatcherRou
 
 metadata_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#metadata_filters GoogleComputeUrlMap#metadata_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#metadata_filters GoogleComputeUrlMap#metadata_filters}
 
 ---
 
@@ -9074,7 +9365,7 @@ pathTemplateMatch must be between 1 and 255 characters
 have at most 5 wildcard operators and at most 5 variable
 captures in total.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_template_match GoogleComputeUrlMap#path_template_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_template_match GoogleComputeUrlMap#path_template_match}
 
 ---
 
@@ -9092,7 +9383,7 @@ prefixMatch must begin with a /. The value must be
 between 1 and 1024 characters. Only one of prefixMatch, fullPathMatch or
 regexMatch must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
 
 ---
 
@@ -9106,7 +9397,7 @@ public readonly queryParameterMatches: IResolvable | GoogleComputeUrlMapPathMatc
 
 query_parameter_matches block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#query_parameter_matches GoogleComputeUrlMap#query_parameter_matches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#query_parameter_matches GoogleComputeUrlMap#query_parameter_matches}
 
 ---
 
@@ -9124,7 +9415,7 @@ For regular expression grammar please
 see en.cppreference.com/w/cpp/regex/ecmascript  Only one of prefixMatch,
 fullPathMatch or regexMatch must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
 
 ---
 
@@ -9167,7 +9458,7 @@ For matching against the HTTP request's
 authority, use a headerMatch with the header name ":authority". For matching a
 request's method, use the headerName ":method".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -9184,7 +9475,7 @@ The value should exactly match contents of exactMatch.
 Only one of exactMatch,
 prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
 
 ---
 
@@ -9201,7 +9492,7 @@ If set to false, the headerMatch is considered a match if the match criteria abo
 If set to true, the headerMatch is considered a match if the
 match criteria above are NOT met. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#invert_match GoogleComputeUrlMap#invert_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#invert_match GoogleComputeUrlMap#invert_match}
 
 ---
 
@@ -9219,7 +9510,7 @@ Only one of
 exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
 
 ---
 
@@ -9237,7 +9528,7 @@ The match takes place
 whether or not the request's header has a value or not. Only one of exactMatch,
 prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
 
 ---
 
@@ -9251,7 +9542,7 @@ public readonly rangeMatch: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHe
 
 range_match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#range_match GoogleComputeUrlMap#range_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#range_match GoogleComputeUrlMap#range_match}
 
 ---
 
@@ -9272,7 +9563,7 @@ a regular expression that satisfies the RFC2616 Host header's port specifier.
 Only one of exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or
 rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
 
 ---
 
@@ -9290,7 +9581,7 @@ Only one of
 exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#suffix_match GoogleComputeUrlMap#suffix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#suffix_match GoogleComputeUrlMap#suffix_match}
 
 ---
 
@@ -9323,7 +9614,7 @@ public readonly rangeEnd: number;
 
 The end of the range (exclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#range_end GoogleComputeUrlMap#range_end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#range_end GoogleComputeUrlMap#range_end}
 
 ---
 
@@ -9337,7 +9628,7 @@ public readonly rangeStart: number;
 
 The start of the range (inclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#range_start GoogleComputeUrlMap#range_start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#range_start GoogleComputeUrlMap#range_start}
 
 ---
 
@@ -9370,7 +9661,7 @@ public readonly filterLabels: IResolvable | GoogleComputeUrlMapPathMatcherRouteR
 
 filter_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#filter_labels GoogleComputeUrlMap#filter_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#filter_labels GoogleComputeUrlMap#filter_labels}
 
 ---
 
@@ -9390,7 +9681,7 @@ provided metadata.
   - MATCH_ALL: All filterLabels must have matching labels in
 the provided metadata. Possible values: ["MATCH_ALL", "MATCH_ANY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#filter_match_criteria GoogleComputeUrlMap#filter_match_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#filter_match_criteria GoogleComputeUrlMap#filter_match_criteria}
 
 ---
 
@@ -9426,7 +9717,7 @@ Name of metadata label.
 The name can have a maximum length of 1024 characters
 and must be at least 1 character long.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
 
 ---
 
@@ -9440,7 +9731,7 @@ public readonly value: string;
 
 The value of the label must match the specified value. value can have a maximum length of 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#value GoogleComputeUrlMap#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#value GoogleComputeUrlMap#value}
 
 ---
 
@@ -9478,7 +9769,7 @@ The name of the query parameter to match.
 The query parameter must exist in the
 request, in the absence of which the request match fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
 
 ---
 
@@ -9495,7 +9786,7 @@ The queryParameterMatch matches if the value of the parameter exactly matches th
 Only one of presentMatch, exactMatch and regexMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
 
 ---
 
@@ -9512,7 +9803,7 @@ Specifies that the queryParameterMatch matches if the request contains the query
 Only one of
 presentMatch, exactMatch and regexMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
 
 ---
 
@@ -9530,7 +9821,7 @@ For the regular expression grammar,
 please see en.cppreference.com/w/cpp/regex/ecmascript  Only one of presentMatch,
 exactMatch and regexMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
 
 ---
 
@@ -9550,7 +9841,9 @@ const googleComputeUrlMapPathMatcherRouteRulesRouteAction: googleComputeUrlMap.G
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction.property.cachePolicy">cachePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy</a></code> | cache_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction.property.corsPolicy">corsPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy</a></code> | cors_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction.property.dynamicCompressionPolicy">dynamicCompressionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy</a></code> | dynamic_compression_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction.property.faultInjectionPolicy">faultInjectionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy</a></code> | fault_injection_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction.property.imageOptimizationPolicy">imageOptimizationPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy</a></code> | image_optimization_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction.property.maxStreamDuration">maxStreamDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration</a></code> | max_stream_duration block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction.property.requestMirrorPolicy">requestMirrorPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy</a></code> | request_mirror_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction.property.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy</a></code> | retry_policy block. |
@@ -9570,7 +9863,7 @@ public readonly cachePolicy: GoogleComputeUrlMapPathMatcherRouteRulesRouteAction
 
 cache_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
 
 ---
 
@@ -9584,7 +9877,21 @@ public readonly corsPolicy: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionC
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+
+---
+
+##### `dynamicCompressionPolicy`<sup>Optional</sup> <a name="dynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction.property.dynamicCompressionPolicy"></a>
+
+```typescript
+public readonly dynamicCompressionPolicy: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy</a>
+
+dynamic_compression_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#dynamic_compression_policy GoogleComputeUrlMap#dynamic_compression_policy}
 
 ---
 
@@ -9598,7 +9905,21 @@ public readonly faultInjectionPolicy: GoogleComputeUrlMapPathMatcherRouteRulesRo
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+
+---
+
+##### `imageOptimizationPolicy`<sup>Optional</sup> <a name="imageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteAction.property.imageOptimizationPolicy"></a>
+
+```typescript
+public readonly imageOptimizationPolicy: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy</a>
+
+image_optimization_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#image_optimization_policy GoogleComputeUrlMap#image_optimization_policy}
 
 ---
 
@@ -9612,7 +9933,7 @@ public readonly maxStreamDuration: GoogleComputeUrlMapPathMatcherRouteRulesRoute
 
 max_stream_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
 
 ---
 
@@ -9626,7 +9947,7 @@ public readonly requestMirrorPolicy: GoogleComputeUrlMapPathMatcherRouteRulesRou
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
 
 ---
 
@@ -9640,7 +9961,7 @@ public readonly retryPolicy: GoogleComputeUrlMapPathMatcherRouteRulesRouteAction
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
 
 ---
 
@@ -9654,7 +9975,7 @@ public readonly timeout: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTime
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
 
 ---
 
@@ -9668,7 +9989,7 @@ public readonly urlRewrite: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionU
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
 
 ---
 
@@ -9682,7 +10003,7 @@ public readonly weightedBackendServices: IResolvable | GoogleComputeUrlMapPathMa
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
 
 ---
 
@@ -9723,7 +10044,7 @@ public readonly cacheBypassRequestHeaderNames: string[];
 
 Bypass the cache when the specified request headers are matched by name, e.g. Pragma or Authorization headers. Values are case-insensitive. Up to 5 header names can be specified. The cache is bypassed for all cacheMode values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
 
 ---
 
@@ -9737,7 +10058,7 @@ public readonly cacheKeyPolicy: GoogleComputeUrlMapPathMatcherRouteRulesRouteAct
 
 cache_key_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
 
 ---
 
@@ -9754,7 +10075,7 @@ Specifies the cache setting for all responses from this route.
 If not
 specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
 
 ---
 
@@ -9768,7 +10089,7 @@ public readonly clientTtl: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCa
 
 client_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
 
 ---
 
@@ -9782,7 +10103,7 @@ public readonly defaultTtl: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionC
 
 default_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
 
 ---
 
@@ -9796,7 +10117,7 @@ public readonly maxTtl: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCache
 
 max_ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
 
 ---
 
@@ -9825,7 +10146,7 @@ Cloud CDN applies the following TTLs to these HTTP status codes:
 These defaults can be overridden in negativeCachingPolicy. If not
 specified, Cloud CDN applies negative caching by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
 
 ---
 
@@ -9839,7 +10160,7 @@ public readonly negativeCachingPolicy: IResolvable | GoogleComputeUrlMapPathMatc
 
 negative_caching_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
 
 ---
 
@@ -9856,7 +10177,7 @@ If true then Cloud CDN will combine multiple concurrent cache fill requests into
 If not specified,
 Cloud CDN applies request coalescing by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
 
 ---
 
@@ -9870,7 +10191,7 @@ public readonly serveWhileStale: GoogleComputeUrlMapPathMatcherRouteRulesRouteAc
 
 serve_while_stale block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
 
 ---
 
@@ -9918,7 +10239,7 @@ error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
 
 ---
 
@@ -9940,7 +10261,7 @@ Attempting to set it on a route that points exclusively to Backend
 Buckets will result in a configuration error. Up to 5 cookie names can
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
 
 ---
 
@@ -9954,7 +10275,7 @@ public readonly includedHeaderNames: string[];
 
 Allows HTTP request headers (by name) to be used in the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
 
 ---
 
@@ -9973,7 +10294,7 @@ parameters will be excluded. Either specify includedQueryParameters
 or excludedQueryParameters, not both. '&' and '=' will be percent
 encoded and not treated as delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
 
 ---
 
@@ -9994,7 +10315,7 @@ never included in a Backend Bucket's cache key. Attempting to set it on
 a route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
 
 ---
 
@@ -10015,7 +10336,7 @@ never included in a Backend Bucket's cache key. Attempting to set on a
 route that points exclusively to Backend Buckets will result in a
 configuration error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
 
 ---
 
@@ -10038,7 +10359,7 @@ configuration error. For routes that point to a Backend Bucket, use
 includedQueryParameters to define which parameters should be part of
 the cache key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
 
 ---
 
@@ -10071,7 +10392,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10085,7 +10406,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10118,7 +10439,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10132,7 +10453,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10165,7 +10486,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10179,7 +10500,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10217,7 +10538,7 @@ Only HTTP status codes
 specified as values, and you cannot specify a status code more than
 once.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
 
 ---
 
@@ -10231,7 +10552,7 @@ public readonly ttl: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePol
 
 ttl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
 
 ---
 
@@ -10264,7 +10585,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10278,7 +10599,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10311,7 +10632,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10325,7 +10646,7 @@ public readonly nanos: number;
 
 Span of time that's a fraction of a second at nanosecond resolution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10367,7 +10688,7 @@ In response to a preflight request, setting this to true indicates that the actu
 This translates to the Access-
 Control-Allow-Credentials header. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
 
 ---
 
@@ -10381,7 +10702,7 @@ public readonly allowHeaders: string[];
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
 
 ---
 
@@ -10395,7 +10716,7 @@ public readonly allowMethods: string[];
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
 
 ---
 
@@ -10413,7 +10734,7 @@ For
 regular expression grammar please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
 
 ---
 
@@ -10430,7 +10751,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 An
 origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
 
 ---
 
@@ -10444,7 +10765,7 @@ public readonly disabled: boolean | IResolvable;
 
 If true, specifies the CORS policy is disabled. which indicates that the CORS policy is in effect. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
 
 ---
 
@@ -10458,7 +10779,7 @@ public readonly exposeHeaders: string[];
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
 
 ---
 
@@ -10475,7 +10796,39 @@ Specifies how long the results of a preflight request can be cached.
 This
 translates to the content for the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+
+---
+
+### GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy <a name="GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+const googleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy: googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy.property.compressionMode">compressionMode</a></code> | <code>string</code> | Compress text responses using Brotli or gzip compression, based on the client's Accept-Encoding header. Possible values: ["AUTOMATIC", "DISABLED"]. |
+
+---
+
+##### `compressionMode`<sup>Optional</sup> <a name="compressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy.property.compressionMode"></a>
+
+```typescript
+public readonly compressionMode: string;
+```
+
+- *Type:* string
+
+Compress text responses using Brotli or gzip compression, based on the client's Accept-Encoding header. Possible values: ["AUTOMATIC", "DISABLED"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#compression_mode GoogleComputeUrlMap#compression_mode}
 
 ---
 
@@ -10508,7 +10861,7 @@ public readonly abort: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultI
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
 
 ---
 
@@ -10522,7 +10875,7 @@ public readonly delay: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultI
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
 
 ---
 
@@ -10555,7 +10908,7 @@ public readonly httpStatus: number;
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
 
 ---
 
@@ -10572,7 +10925,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 The value must be between 0.0 and 100.0
 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -10605,7 +10958,7 @@ public readonly fixedDelay: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionF
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
 
 ---
 
@@ -10622,7 +10975,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 The value must be between 0.0 and
 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
 
 ---
 
@@ -10655,7 +11008,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10673,7 +11026,42 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+
+---
+
+### GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy <a name="GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+const googleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy: googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy.property.queryParameterInterpretation">queryParameterInterpretation</a></code> | <code>string</code> | Controls whether presets or control parameters specified as URL query parameters are used to optimize the image. |
+
+---
+
+##### `queryParameterInterpretation`<sup>Optional</sup> <a name="queryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy.property.queryParameterInterpretation"></a>
+
+```typescript
+public readonly queryParameterInterpretation: string;
+```
+
+- *Type:* string
+
+Controls whether presets or control parameters specified as URL query parameters are used to optimize the image.
+
+If not specified, the default
+value is DISABLED. Possible values: ["DISABLED", "ENABLED"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#query_parameter_interpretation GoogleComputeUrlMap#query_parameter_interpretation}
 
 ---
 
@@ -10706,7 +11094,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10724,7 +11112,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10757,7 +11145,7 @@ public readonly backendService: string;
 
 The BackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -10771,7 +11159,7 @@ public readonly mirrorPercent: number;
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
 
 ---
 
@@ -10805,7 +11193,7 @@ public readonly numRetries: number;
 
 Specifies the allowed number retries. This number must be > 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
 
 ---
 
@@ -10819,7 +11207,7 @@ public readonly perTryTimeout: GoogleComputeUrlMapPathMatcherRouteRulesRouteActi
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
 
 ---
 
@@ -10854,7 +11242,7 @@ Specfies one or more conditions when this retry rule applies. Valid values are:.
 * unavailable: Loadbalancer will retry if the gRPC status code in
   the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
 
 ---
 
@@ -10887,7 +11275,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10905,7 +11293,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10938,7 +11326,7 @@ public readonly seconds: string;
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
 
 ---
 
@@ -10956,7 +11344,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
 
 ---
 
@@ -10994,7 +11382,7 @@ Prior to forwarding the request to the selected service, the request's host head
 The value must be between 1 and
 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
 
 ---
 
@@ -11014,7 +11402,7 @@ be between 1 and 1024 characters.
 Only one of pathPrefixRewrite, pathTemplateRewrite, or regexRewrite may be
 specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -11038,7 +11426,7 @@ MatchRules specify pathTemplate.
 Only one of pathPrefixRewrite, pathTemplateRewrite, or regexRewrite may be
 specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_template_rewrite GoogleComputeUrlMap#path_template_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_template_rewrite GoogleComputeUrlMap#path_template_rewrite}
 
 ---
 
@@ -11052,7 +11440,7 @@ public readonly regexRewrite: GoogleComputeUrlMapPathMatcherRouteRulesRouteActio
 
 regex_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#regex_rewrite GoogleComputeUrlMap#regex_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#regex_rewrite GoogleComputeUrlMap#regex_rewrite}
 
 ---
 
@@ -11094,7 +11482,7 @@ The regular expression used to match against the URL path. It uses RE2 syntax wi
 * Ranges may only contain character ranges, digit ranges, and
   symbols allowed for ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_pattern GoogleComputeUrlMap#path_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_pattern GoogleComputeUrlMap#path_pattern}
 
 ---
 
@@ -11108,7 +11496,7 @@ public readonly pathSubstitution: string;
 
 The substitution used to rewrite the parts of the URL path matched by pathPattern. May reference capture groups from pathPattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_substitution GoogleComputeUrlMap#path_substitution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_substitution GoogleComputeUrlMap#path_substitution}
 
 ---
 
@@ -11146,7 +11534,7 @@ Before
 forwarding the request to backendService, the loadbalancer applies any relevant
 headerActions specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
 
 ---
 
@@ -11166,7 +11554,7 @@ been directed to a backendService, subsequent requests will be sent to the same
 backendService as determined by the BackendService's session affinity policy.
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
 
 ---
 
@@ -11180,7 +11568,7 @@ public readonly headerAction: GoogleComputeUrlMapPathMatcherRouteRulesRouteActio
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
 
 ---
 
@@ -11215,7 +11603,7 @@ public readonly requestHeadersToAdd: IResolvable | GoogleComputeUrlMapPathMatche
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
 
 ---
 
@@ -11229,7 +11617,7 @@ public readonly requestHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
 
 ---
 
@@ -11243,7 +11631,7 @@ public readonly responseHeadersToAdd: IResolvable | GoogleComputeUrlMapPathMatch
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
 
 ---
 
@@ -11257,7 +11645,7 @@ public readonly responseHeadersToRemove: string[];
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
 
 ---
 
@@ -11291,7 +11679,7 @@ public readonly headerName: string;
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -11305,7 +11693,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -11322,7 +11710,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -11356,7 +11744,7 @@ public readonly headerName: string;
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
 
 ---
 
@@ -11370,7 +11758,7 @@ public readonly headerValue: string;
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
 
 ---
 
@@ -11387,7 +11775,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
 
 ---
 
@@ -11426,7 +11814,7 @@ The host that will be used in the redirect response instead of the one that was 
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
 
 ---
 
@@ -11445,7 +11833,7 @@ to false, the URL scheme of the redirected request will remain the same as that
 of the request. This must only be set for UrlMaps used in TargetHttpProxys.
 Setting this true for TargetHttpsProxy is not permitted. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
 
 ---
 
@@ -11462,7 +11850,7 @@ The path that will be used in the redirect response instead of the one that was 
 Only one of pathRedirect or prefixRedirect must be
 specified. The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
 
 ---
 
@@ -11476,7 +11864,7 @@ public readonly prefixRedirect: string;
 
 The prefix that replaces the prefixMatch specified in the HttpRouteRuleMatch, retaining the remaining portion of the URL before redirecting the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
 
 ---
 
@@ -11500,7 +11888,7 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 
 * PERMANENT_REDIRECT, which corresponds to 308. In this case, the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
 
 ---
 
@@ -11517,7 +11905,7 @@ If set to true, any accompanying query portion of the original URL is removed pr
 If set to false, the query portion of the
 original URL is retained. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
 
 ---
 
@@ -11555,7 +11943,7 @@ public readonly host: string;
 
 Host portion of the URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host GoogleComputeUrlMap#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#host GoogleComputeUrlMap#host}
 
 ---
 
@@ -11569,7 +11957,7 @@ public readonly path: string;
 
 Path portion of the URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
 
 ---
 
@@ -11583,7 +11971,7 @@ public readonly description: string;
 
 Description of this test case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
 
 ---
 
@@ -11603,7 +11991,7 @@ For rules with urlRedirect, the test passes only if expectedOutputUrl matches th
 
 expectedOutputUrl is optional when service is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expected_output_url GoogleComputeUrlMap#expected_output_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#expected_output_url GoogleComputeUrlMap#expected_output_url}
 
 ---
 
@@ -11619,7 +12007,7 @@ For rules with urlRedirect, the test passes only if expectedRedirectResponseCode
 
 expectedRedirectResponseCode cannot be set when service is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#expected_redirect_response_code GoogleComputeUrlMap#expected_redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#expected_redirect_response_code GoogleComputeUrlMap#expected_redirect_response_code}
 
 ---
 
@@ -11633,7 +12021,7 @@ public readonly headers: IResolvable | GoogleComputeUrlMapTestHeaders[];
 
 headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#headers GoogleComputeUrlMap#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#headers GoogleComputeUrlMap#headers}
 
 ---
 
@@ -11647,7 +12035,7 @@ public readonly service: string;
 
 The backend service or backend bucket link that should be matched by this test.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
 
 ---
 
@@ -11680,7 +12068,7 @@ public readonly name: string;
 
 Header name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
 
 ---
 
@@ -11694,7 +12082,7 @@ public readonly value: string;
 
 Header value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#value GoogleComputeUrlMap#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#value GoogleComputeUrlMap#value}
 
 ---
 
@@ -11712,9 +12100,9 @@ const googleComputeUrlMapTimeouts: googleComputeUrlMap.GoogleComputeUrlMapTimeou
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#create GoogleComputeUrlMap#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delete GoogleComputeUrlMap#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#update GoogleComputeUrlMap#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#create GoogleComputeUrlMap#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#delete GoogleComputeUrlMap#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#update GoogleComputeUrlMap#update}. |
 
 ---
 
@@ -11726,7 +12114,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#create GoogleComputeUrlMap#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#create GoogleComputeUrlMap#create}.
 
 ---
 
@@ -11738,7 +12126,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#delete GoogleComputeUrlMap#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#delete GoogleComputeUrlMap#delete}.
 
 ---
 
@@ -11750,7 +12138,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#update GoogleComputeUrlMap#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#update GoogleComputeUrlMap#update}.
 
 ---
 
@@ -16138,6 +16526,284 @@ public readonly internalValue: GoogleComputeUrlMapDefaultRouteActionCorsPolicy;
 ---
 
 
+### GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference <a name="GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+new googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.resetCompressionMode">resetCompressionMode</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetCompressionMode` <a name="resetCompressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.resetCompressionMode"></a>
+
+```typescript
+public resetCompressionMode(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.property.compressionModeInput">compressionModeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.property.compressionMode">compressionMode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `compressionModeInput`<sup>Optional</sup> <a name="compressionModeInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.property.compressionModeInput"></a>
+
+```typescript
+public readonly compressionModeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `compressionMode`<sup>Required</sup> <a name="compressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.property.compressionMode"></a>
+
+```typescript
+public readonly compressionMode: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy</a>
+
+---
+
+
 ### GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference <a name="GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference.Initializer"></a>
@@ -17405,6 +18071,284 @@ public readonly internalValue: GoogleComputeUrlMapDefaultRouteActionFaultInjecti
 ---
 
 
+### GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference <a name="GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+new googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.resetQueryParameterInterpretation">resetQueryParameterInterpretation</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetQueryParameterInterpretation` <a name="resetQueryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.resetQueryParameterInterpretation"></a>
+
+```typescript
+public resetQueryParameterInterpretation(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretationInput">queryParameterInterpretationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretation">queryParameterInterpretation</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `queryParameterInterpretationInput`<sup>Optional</sup> <a name="queryParameterInterpretationInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretationInput"></a>
+
+```typescript
+public readonly queryParameterInterpretationInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `queryParameterInterpretation`<sup>Required</sup> <a name="queryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretation"></a>
+
+```typescript
+public readonly queryParameterInterpretation: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy</a>
+
+---
+
+
 ### GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference <a name="GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference.Initializer"></a>
@@ -17757,7 +18701,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putCachePolicy">putCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putCorsPolicy">putCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putDynamicCompressionPolicy">putDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putFaultInjectionPolicy">putFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putImageOptimizationPolicy">putImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putMaxStreamDuration">putMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putRequestMirrorPolicy">putRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putRetryPolicy">putRetryPolicy</a></code> | *No description.* |
@@ -17766,7 +18712,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putWeightedBackendServices">putWeightedBackendServices</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetCachePolicy">resetCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetCorsPolicy">resetCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetDynamicCompressionPolicy">resetDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetFaultInjectionPolicy">resetFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetImageOptimizationPolicy">resetImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetMaxStreamDuration">resetMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetRequestMirrorPolicy">resetRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetRetryPolicy">resetRetryPolicy</a></code> | *No description.* |
@@ -17950,6 +18898,18 @@ public putCorsPolicy(value: GoogleComputeUrlMapDefaultRouteActionCorsPolicy): vo
 
 ---
 
+##### `putDynamicCompressionPolicy` <a name="putDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putDynamicCompressionPolicy"></a>
+
+```typescript
+public putDynamicCompressionPolicy(value: GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putDynamicCompressionPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy</a>
+
+---
+
 ##### `putFaultInjectionPolicy` <a name="putFaultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putFaultInjectionPolicy"></a>
 
 ```typescript
@@ -17959,6 +18919,18 @@ public putFaultInjectionPolicy(value: GoogleComputeUrlMapDefaultRouteActionFault
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putFaultInjectionPolicy.parameter.value"></a>
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy">GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy</a>
+
+---
+
+##### `putImageOptimizationPolicy` <a name="putImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putImageOptimizationPolicy"></a>
+
+```typescript
+public putImageOptimizationPolicy(value: GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.putImageOptimizationPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy</a>
 
 ---
 
@@ -18046,10 +19018,22 @@ public resetCachePolicy(): void
 public resetCorsPolicy(): void
 ```
 
+##### `resetDynamicCompressionPolicy` <a name="resetDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetDynamicCompressionPolicy"></a>
+
+```typescript
+public resetDynamicCompressionPolicy(): void
+```
+
 ##### `resetFaultInjectionPolicy` <a name="resetFaultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetFaultInjectionPolicy"></a>
 
 ```typescript
 public resetFaultInjectionPolicy(): void
+```
+
+##### `resetImageOptimizationPolicy` <a name="resetImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetImageOptimizationPolicy"></a>
+
+```typescript
+public resetImageOptimizationPolicy(): void
 ```
 
 ##### `resetMaxStreamDuration` <a name="resetMaxStreamDuration" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.resetMaxStreamDuration"></a>
@@ -18097,7 +19081,9 @@ public resetWeightedBackendServices(): void
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.cachePolicy">cachePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicyOutputReference">GoogleComputeUrlMapDefaultRouteActionCachePolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.corsPolicy">corsPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference">GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.dynamicCompressionPolicy">dynamicCompressionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference">GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.faultInjectionPolicy">faultInjectionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference">GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.imageOptimizationPolicy">imageOptimizationPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference">GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.maxStreamDuration">maxStreamDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference">GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.requestMirrorPolicy">requestMirrorPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference">GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRetryPolicyOutputReference">GoogleComputeUrlMapDefaultRouteActionRetryPolicyOutputReference</a></code> | *No description.* |
@@ -18106,7 +19092,9 @@ public resetWeightedBackendServices(): void
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.weightedBackendServices">weightedBackendServices</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesList">GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.cachePolicyInput">cachePolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCachePolicy">GoogleComputeUrlMapDefaultRouteActionCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.corsPolicyInput">corsPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionCorsPolicy">GoogleComputeUrlMapDefaultRouteActionCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.dynamicCompressionPolicyInput">dynamicCompressionPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.faultInjectionPolicyInput">faultInjectionPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy">GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.imageOptimizationPolicyInput">imageOptimizationPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.maxStreamDurationInput">maxStreamDurationInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration">GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.requestMirrorPolicyInput">requestMirrorPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy">GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.retryPolicyInput">retryPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionRetryPolicy">GoogleComputeUrlMapDefaultRouteActionRetryPolicy</a></code> | *No description.* |
@@ -18161,6 +19149,16 @@ public readonly corsPolicy: GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutpu
 
 ---
 
+##### `dynamicCompressionPolicy`<sup>Required</sup> <a name="dynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.dynamicCompressionPolicy"></a>
+
+```typescript
+public readonly dynamicCompressionPolicy: GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference">GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicyOutputReference</a>
+
+---
+
 ##### `faultInjectionPolicy`<sup>Required</sup> <a name="faultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.faultInjectionPolicy"></a>
 
 ```typescript
@@ -18168,6 +19166,16 @@ public readonly faultInjectionPolicy: GoogleComputeUrlMapDefaultRouteActionFault
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference">GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference</a>
+
+---
+
+##### `imageOptimizationPolicy`<sup>Required</sup> <a name="imageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.imageOptimizationPolicy"></a>
+
+```typescript
+public readonly imageOptimizationPolicy: GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference">GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicyOutputReference</a>
 
 ---
 
@@ -18251,6 +19259,16 @@ public readonly corsPolicyInput: GoogleComputeUrlMapDefaultRouteActionCorsPolicy
 
 ---
 
+##### `dynamicCompressionPolicyInput`<sup>Optional</sup> <a name="dynamicCompressionPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.dynamicCompressionPolicyInput"></a>
+
+```typescript
+public readonly dynamicCompressionPolicyInput: GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapDefaultRouteActionDynamicCompressionPolicy</a>
+
+---
+
 ##### `faultInjectionPolicyInput`<sup>Optional</sup> <a name="faultInjectionPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.faultInjectionPolicyInput"></a>
 
 ```typescript
@@ -18258,6 +19276,16 @@ public readonly faultInjectionPolicyInput: GoogleComputeUrlMapDefaultRouteAction
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy">GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy</a>
+
+---
+
+##### `imageOptimizationPolicyInput`<sup>Optional</sup> <a name="imageOptimizationPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionOutputReference.property.imageOptimizationPolicyInput"></a>
+
+```typescript
+public readonly imageOptimizationPolicyInput: GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapDefaultRouteActionImageOptimizationPolicy</a>
 
 ---
 
@@ -28523,6 +29551,284 @@ public readonly internalValue: GoogleComputeUrlMapPathMatcherDefaultRouteActionC
 ---
 
 
+### GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference <a name="GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+new googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.resetCompressionMode">resetCompressionMode</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetCompressionMode` <a name="resetCompressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.resetCompressionMode"></a>
+
+```typescript
+public resetCompressionMode(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.property.compressionModeInput">compressionModeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.property.compressionMode">compressionMode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `compressionModeInput`<sup>Optional</sup> <a name="compressionModeInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.property.compressionModeInput"></a>
+
+```typescript
+public readonly compressionModeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `compressionMode`<sup>Required</sup> <a name="compressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.property.compressionMode"></a>
+
+```typescript
+public readonly compressionMode: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy</a>
+
+---
+
+
 ### GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference <a name="GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference.Initializer"></a>
@@ -29790,6 +31096,284 @@ public readonly internalValue: GoogleComputeUrlMapPathMatcherDefaultRouteActionF
 ---
 
 
+### GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference <a name="GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+new googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.resetQueryParameterInterpretation">resetQueryParameterInterpretation</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetQueryParameterInterpretation` <a name="resetQueryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.resetQueryParameterInterpretation"></a>
+
+```typescript
+public resetQueryParameterInterpretation(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretationInput">queryParameterInterpretationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretation">queryParameterInterpretation</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `queryParameterInterpretationInput`<sup>Optional</sup> <a name="queryParameterInterpretationInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretationInput"></a>
+
+```typescript
+public readonly queryParameterInterpretationInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `queryParameterInterpretation`<sup>Required</sup> <a name="queryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretation"></a>
+
+```typescript
+public readonly queryParameterInterpretation: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy</a>
+
+---
+
+
 ### GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference <a name="GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference.Initializer"></a>
@@ -30142,7 +31726,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putCachePolicy">putCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putCorsPolicy">putCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putDynamicCompressionPolicy">putDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putFaultInjectionPolicy">putFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putImageOptimizationPolicy">putImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putMaxStreamDuration">putMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putRequestMirrorPolicy">putRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putRetryPolicy">putRetryPolicy</a></code> | *No description.* |
@@ -30151,7 +31737,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putWeightedBackendServices">putWeightedBackendServices</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetCachePolicy">resetCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetCorsPolicy">resetCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetDynamicCompressionPolicy">resetDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetFaultInjectionPolicy">resetFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetImageOptimizationPolicy">resetImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetMaxStreamDuration">resetMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetRequestMirrorPolicy">resetRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetRetryPolicy">resetRetryPolicy</a></code> | *No description.* |
@@ -30335,6 +31923,18 @@ public putCorsPolicy(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionCors
 
 ---
 
+##### `putDynamicCompressionPolicy` <a name="putDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putDynamicCompressionPolicy"></a>
+
+```typescript
+public putDynamicCompressionPolicy(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putDynamicCompressionPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy</a>
+
+---
+
 ##### `putFaultInjectionPolicy` <a name="putFaultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putFaultInjectionPolicy"></a>
 
 ```typescript
@@ -30344,6 +31944,18 @@ public putFaultInjectionPolicy(value: GoogleComputeUrlMapPathMatcherDefaultRoute
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putFaultInjectionPolicy.parameter.value"></a>
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy</a>
+
+---
+
+##### `putImageOptimizationPolicy` <a name="putImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putImageOptimizationPolicy"></a>
+
+```typescript
+public putImageOptimizationPolicy(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.putImageOptimizationPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy</a>
 
 ---
 
@@ -30431,10 +32043,22 @@ public resetCachePolicy(): void
 public resetCorsPolicy(): void
 ```
 
+##### `resetDynamicCompressionPolicy` <a name="resetDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetDynamicCompressionPolicy"></a>
+
+```typescript
+public resetDynamicCompressionPolicy(): void
+```
+
 ##### `resetFaultInjectionPolicy` <a name="resetFaultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetFaultInjectionPolicy"></a>
 
 ```typescript
 public resetFaultInjectionPolicy(): void
+```
+
+##### `resetImageOptimizationPolicy` <a name="resetImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetImageOptimizationPolicy"></a>
+
+```typescript
+public resetImageOptimizationPolicy(): void
 ```
 
 ##### `resetMaxStreamDuration` <a name="resetMaxStreamDuration" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.resetMaxStreamDuration"></a>
@@ -30482,7 +32106,9 @@ public resetWeightedBackendServices(): void
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.cachePolicy">cachePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyOutputReference">GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.corsPolicy">corsPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference">GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.dynamicCompressionPolicy">dynamicCompressionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference">GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.faultInjectionPolicy">faultInjectionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference">GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.imageOptimizationPolicy">imageOptimizationPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference">GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.maxStreamDuration">maxStreamDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference">GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.requestMirrorPolicy">requestMirrorPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference">GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference">GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference</a></code> | *No description.* |
@@ -30491,7 +32117,9 @@ public resetWeightedBackendServices(): void
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.weightedBackendServices">weightedBackendServices</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesList">GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.cachePolicyInput">cachePolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.corsPolicyInput">corsPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.dynamicCompressionPolicyInput">dynamicCompressionPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.faultInjectionPolicyInput">faultInjectionPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.imageOptimizationPolicyInput">imageOptimizationPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.maxStreamDurationInput">maxStreamDurationInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration">GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.requestMirrorPolicyInput">requestMirrorPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.retryPolicyInput">retryPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy</a></code> | *No description.* |
@@ -30546,6 +32174,16 @@ public readonly corsPolicy: GoogleComputeUrlMapPathMatcherDefaultRouteActionCors
 
 ---
 
+##### `dynamicCompressionPolicy`<sup>Required</sup> <a name="dynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.dynamicCompressionPolicy"></a>
+
+```typescript
+public readonly dynamicCompressionPolicy: GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference">GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference</a>
+
+---
+
 ##### `faultInjectionPolicy`<sup>Required</sup> <a name="faultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.faultInjectionPolicy"></a>
 
 ```typescript
@@ -30553,6 +32191,16 @@ public readonly faultInjectionPolicy: GoogleComputeUrlMapPathMatcherDefaultRoute
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference">GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference</a>
+
+---
+
+##### `imageOptimizationPolicy`<sup>Required</sup> <a name="imageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.imageOptimizationPolicy"></a>
+
+```typescript
+public readonly imageOptimizationPolicy: GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference">GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference</a>
 
 ---
 
@@ -30636,6 +32284,16 @@ public readonly corsPolicyInput: GoogleComputeUrlMapPathMatcherDefaultRouteActio
 
 ---
 
+##### `dynamicCompressionPolicyInput`<sup>Optional</sup> <a name="dynamicCompressionPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.dynamicCompressionPolicyInput"></a>
+
+```typescript
+public readonly dynamicCompressionPolicyInput: GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy</a>
+
+---
+
 ##### `faultInjectionPolicyInput`<sup>Optional</sup> <a name="faultInjectionPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.faultInjectionPolicyInput"></a>
 
 ```typescript
@@ -30643,6 +32301,16 @@ public readonly faultInjectionPolicyInput: GoogleComputeUrlMapPathMatcherDefault
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy</a>
+
+---
+
+##### `imageOptimizationPolicyInput`<sup>Optional</sup> <a name="imageOptimizationPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference.property.imageOptimizationPolicyInput"></a>
+
+```typescript
+public readonly imageOptimizationPolicyInput: GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy</a>
 
 ---
 
@@ -41764,6 +43432,284 @@ public readonly internalValue: GoogleComputeUrlMapPathMatcherPathRuleRouteAction
 ---
 
 
+### GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference <a name="GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+new googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.resetCompressionMode">resetCompressionMode</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetCompressionMode` <a name="resetCompressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.resetCompressionMode"></a>
+
+```typescript
+public resetCompressionMode(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.property.compressionModeInput">compressionModeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.property.compressionMode">compressionMode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `compressionModeInput`<sup>Optional</sup> <a name="compressionModeInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.property.compressionModeInput"></a>
+
+```typescript
+public readonly compressionModeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `compressionMode`<sup>Required</sup> <a name="compressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.property.compressionMode"></a>
+
+```typescript
+public readonly compressionMode: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy</a>
+
+---
+
+
 ### GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference <a name="GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference.Initializer"></a>
@@ -42996,6 +44942,284 @@ public readonly internalValue: GoogleComputeUrlMapPathMatcherPathRuleRouteAction
 ---
 
 
+### GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference <a name="GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+new googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.resetQueryParameterInterpretation">resetQueryParameterInterpretation</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetQueryParameterInterpretation` <a name="resetQueryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.resetQueryParameterInterpretation"></a>
+
+```typescript
+public resetQueryParameterInterpretation(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretationInput">queryParameterInterpretationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretation">queryParameterInterpretation</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `queryParameterInterpretationInput`<sup>Optional</sup> <a name="queryParameterInterpretationInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretationInput"></a>
+
+```typescript
+public readonly queryParameterInterpretationInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `queryParameterInterpretation`<sup>Required</sup> <a name="queryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretation"></a>
+
+```typescript
+public readonly queryParameterInterpretation: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy</a>
+
+---
+
+
 ### GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference <a name="GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference.Initializer"></a>
@@ -43348,7 +45572,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putCachePolicy">putCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putCorsPolicy">putCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putDynamicCompressionPolicy">putDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putFaultInjectionPolicy">putFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putImageOptimizationPolicy">putImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putMaxStreamDuration">putMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putRequestMirrorPolicy">putRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putRetryPolicy">putRetryPolicy</a></code> | *No description.* |
@@ -43357,7 +45583,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putWeightedBackendServices">putWeightedBackendServices</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetCachePolicy">resetCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetCorsPolicy">resetCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetDynamicCompressionPolicy">resetDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetFaultInjectionPolicy">resetFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetImageOptimizationPolicy">resetImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetMaxStreamDuration">resetMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetRequestMirrorPolicy">resetRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetRetryPolicy">resetRetryPolicy</a></code> | *No description.* |
@@ -43541,6 +45769,18 @@ public putCorsPolicy(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCor
 
 ---
 
+##### `putDynamicCompressionPolicy` <a name="putDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putDynamicCompressionPolicy"></a>
+
+```typescript
+public putDynamicCompressionPolicy(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putDynamicCompressionPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy</a>
+
+---
+
 ##### `putFaultInjectionPolicy` <a name="putFaultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putFaultInjectionPolicy"></a>
 
 ```typescript
@@ -43550,6 +45790,18 @@ public putFaultInjectionPolicy(value: GoogleComputeUrlMapPathMatcherPathRuleRout
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putFaultInjectionPolicy.parameter.value"></a>
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy</a>
+
+---
+
+##### `putImageOptimizationPolicy` <a name="putImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putImageOptimizationPolicy"></a>
+
+```typescript
+public putImageOptimizationPolicy(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.putImageOptimizationPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy</a>
 
 ---
 
@@ -43637,10 +45889,22 @@ public resetCachePolicy(): void
 public resetCorsPolicy(): void
 ```
 
+##### `resetDynamicCompressionPolicy` <a name="resetDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetDynamicCompressionPolicy"></a>
+
+```typescript
+public resetDynamicCompressionPolicy(): void
+```
+
 ##### `resetFaultInjectionPolicy` <a name="resetFaultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetFaultInjectionPolicy"></a>
 
 ```typescript
 public resetFaultInjectionPolicy(): void
+```
+
+##### `resetImageOptimizationPolicy` <a name="resetImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetImageOptimizationPolicy"></a>
+
+```typescript
+public resetImageOptimizationPolicy(): void
 ```
 
 ##### `resetMaxStreamDuration` <a name="resetMaxStreamDuration" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.resetMaxStreamDuration"></a>
@@ -43688,7 +45952,9 @@ public resetWeightedBackendServices(): void
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.cachePolicy">cachePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyOutputReference">GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.corsPolicy">corsPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference">GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.dynamicCompressionPolicy">dynamicCompressionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference">GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.faultInjectionPolicy">faultInjectionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference">GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.imageOptimizationPolicy">imageOptimizationPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference">GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.maxStreamDuration">maxStreamDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference">GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.requestMirrorPolicy">requestMirrorPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference">GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference">GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference</a></code> | *No description.* |
@@ -43697,7 +45963,9 @@ public resetWeightedBackendServices(): void
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.weightedBackendServices">weightedBackendServices</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesList">GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.cachePolicyInput">cachePolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.corsPolicyInput">corsPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.dynamicCompressionPolicyInput">dynamicCompressionPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.faultInjectionPolicyInput">faultInjectionPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.imageOptimizationPolicyInput">imageOptimizationPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.maxStreamDurationInput">maxStreamDurationInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration">GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.requestMirrorPolicyInput">requestMirrorPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.retryPolicyInput">retryPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy</a></code> | *No description.* |
@@ -43752,6 +46020,16 @@ public readonly corsPolicy: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCor
 
 ---
 
+##### `dynamicCompressionPolicy`<sup>Required</sup> <a name="dynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.dynamicCompressionPolicy"></a>
+
+```typescript
+public readonly dynamicCompressionPolicy: GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference">GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicyOutputReference</a>
+
+---
+
 ##### `faultInjectionPolicy`<sup>Required</sup> <a name="faultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.faultInjectionPolicy"></a>
 
 ```typescript
@@ -43759,6 +46037,16 @@ public readonly faultInjectionPolicy: GoogleComputeUrlMapPathMatcherPathRuleRout
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference">GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference</a>
+
+---
+
+##### `imageOptimizationPolicy`<sup>Required</sup> <a name="imageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.imageOptimizationPolicy"></a>
+
+```typescript
+public readonly imageOptimizationPolicy: GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference">GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicyOutputReference</a>
 
 ---
 
@@ -43842,6 +46130,16 @@ public readonly corsPolicyInput: GoogleComputeUrlMapPathMatcherPathRuleRouteActi
 
 ---
 
+##### `dynamicCompressionPolicyInput`<sup>Optional</sup> <a name="dynamicCompressionPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.dynamicCompressionPolicyInput"></a>
+
+```typescript
+public readonly dynamicCompressionPolicyInput: GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionDynamicCompressionPolicy</a>
+
+---
+
 ##### `faultInjectionPolicyInput`<sup>Optional</sup> <a name="faultInjectionPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.faultInjectionPolicyInput"></a>
 
 ```typescript
@@ -43849,6 +46147,16 @@ public readonly faultInjectionPolicyInput: GoogleComputeUrlMapPathMatcherPathRul
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy</a>
+
+---
+
+##### `imageOptimizationPolicyInput`<sup>Optional</sup> <a name="imageOptimizationPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference.property.imageOptimizationPolicyInput"></a>
+
+```typescript
+public readonly imageOptimizationPolicyInput: GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy</a>
 
 ---
 
@@ -58491,6 +60799,284 @@ public readonly internalValue: GoogleComputeUrlMapPathMatcherRouteRulesRouteActi
 ---
 
 
+### GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference <a name="GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+new googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.resetCompressionMode">resetCompressionMode</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetCompressionMode` <a name="resetCompressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.resetCompressionMode"></a>
+
+```typescript
+public resetCompressionMode(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.property.compressionModeInput">compressionModeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.property.compressionMode">compressionMode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `compressionModeInput`<sup>Optional</sup> <a name="compressionModeInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.property.compressionModeInput"></a>
+
+```typescript
+public readonly compressionModeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `compressionMode`<sup>Required</sup> <a name="compressionMode" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.property.compressionMode"></a>
+
+```typescript
+public readonly compressionMode: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy</a>
+
+---
+
+
 ### GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference <a name="GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference.Initializer"></a>
@@ -59751,6 +62337,284 @@ public readonly internalValue: GoogleComputeUrlMapPathMatcherRouteRulesRouteActi
 ---
 
 
+### GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference <a name="GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleComputeUrlMap } from '@cdktn/provider-google-beta'
+
+new googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.resetQueryParameterInterpretation">resetQueryParameterInterpretation</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetQueryParameterInterpretation` <a name="resetQueryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.resetQueryParameterInterpretation"></a>
+
+```typescript
+public resetQueryParameterInterpretation(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretationInput">queryParameterInterpretationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretation">queryParameterInterpretation</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `queryParameterInterpretationInput`<sup>Optional</sup> <a name="queryParameterInterpretationInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretationInput"></a>
+
+```typescript
+public readonly queryParameterInterpretationInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `queryParameterInterpretation`<sup>Required</sup> <a name="queryParameterInterpretation" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.property.queryParameterInterpretation"></a>
+
+```typescript
+public readonly queryParameterInterpretation: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy</a>
+
+---
+
+
 ### GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference <a name="GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference.Initializer"></a>
@@ -60103,7 +62967,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putCachePolicy">putCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putCorsPolicy">putCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putDynamicCompressionPolicy">putDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putFaultInjectionPolicy">putFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putImageOptimizationPolicy">putImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putMaxStreamDuration">putMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putRequestMirrorPolicy">putRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putRetryPolicy">putRetryPolicy</a></code> | *No description.* |
@@ -60112,7 +62978,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putWeightedBackendServices">putWeightedBackendServices</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetCachePolicy">resetCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetCorsPolicy">resetCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetDynamicCompressionPolicy">resetDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetFaultInjectionPolicy">resetFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetImageOptimizationPolicy">resetImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetMaxStreamDuration">resetMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetRequestMirrorPolicy">resetRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetRetryPolicy">resetRetryPolicy</a></code> | *No description.* |
@@ -60296,6 +63164,18 @@ public putCorsPolicy(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionC
 
 ---
 
+##### `putDynamicCompressionPolicy` <a name="putDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putDynamicCompressionPolicy"></a>
+
+```typescript
+public putDynamicCompressionPolicy(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putDynamicCompressionPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy</a>
+
+---
+
 ##### `putFaultInjectionPolicy` <a name="putFaultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putFaultInjectionPolicy"></a>
 
 ```typescript
@@ -60305,6 +63185,18 @@ public putFaultInjectionPolicy(value: GoogleComputeUrlMapPathMatcherRouteRulesRo
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putFaultInjectionPolicy.parameter.value"></a>
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy</a>
+
+---
+
+##### `putImageOptimizationPolicy` <a name="putImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putImageOptimizationPolicy"></a>
+
+```typescript
+public putImageOptimizationPolicy(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.putImageOptimizationPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy</a>
 
 ---
 
@@ -60392,10 +63284,22 @@ public resetCachePolicy(): void
 public resetCorsPolicy(): void
 ```
 
+##### `resetDynamicCompressionPolicy` <a name="resetDynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetDynamicCompressionPolicy"></a>
+
+```typescript
+public resetDynamicCompressionPolicy(): void
+```
+
 ##### `resetFaultInjectionPolicy` <a name="resetFaultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetFaultInjectionPolicy"></a>
 
 ```typescript
 public resetFaultInjectionPolicy(): void
+```
+
+##### `resetImageOptimizationPolicy` <a name="resetImageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetImageOptimizationPolicy"></a>
+
+```typescript
+public resetImageOptimizationPolicy(): void
 ```
 
 ##### `resetMaxStreamDuration` <a name="resetMaxStreamDuration" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.resetMaxStreamDuration"></a>
@@ -60443,7 +63347,9 @@ public resetWeightedBackendServices(): void
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.cachePolicy">cachePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.corsPolicy">corsPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.dynamicCompressionPolicy">dynamicCompressionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.faultInjectionPolicy">faultInjectionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.imageOptimizationPolicy">imageOptimizationPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.maxStreamDuration">maxStreamDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.requestMirrorPolicy">requestMirrorPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference</a></code> | *No description.* |
@@ -60452,7 +63358,9 @@ public resetWeightedBackendServices(): void
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.weightedBackendServices">weightedBackendServices</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesList">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.cachePolicyInput">cachePolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.corsPolicyInput">corsPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.dynamicCompressionPolicyInput">dynamicCompressionPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.faultInjectionPolicyInput">faultInjectionPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.imageOptimizationPolicyInput">imageOptimizationPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.maxStreamDurationInput">maxStreamDurationInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.requestMirrorPolicyInput">requestMirrorPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.retryPolicyInput">retryPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy</a></code> | *No description.* |
@@ -60507,6 +63415,16 @@ public readonly corsPolicy: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionC
 
 ---
 
+##### `dynamicCompressionPolicy`<sup>Required</sup> <a name="dynamicCompressionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.dynamicCompressionPolicy"></a>
+
+```typescript
+public readonly dynamicCompressionPolicy: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicyOutputReference</a>
+
+---
+
 ##### `faultInjectionPolicy`<sup>Required</sup> <a name="faultInjectionPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.faultInjectionPolicy"></a>
 
 ```typescript
@@ -60514,6 +63432,16 @@ public readonly faultInjectionPolicy: GoogleComputeUrlMapPathMatcherRouteRulesRo
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference</a>
+
+---
+
+##### `imageOptimizationPolicy`<sup>Required</sup> <a name="imageOptimizationPolicy" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.imageOptimizationPolicy"></a>
+
+```typescript
+public readonly imageOptimizationPolicy: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference</a>
 
 ---
 
@@ -60597,6 +63525,16 @@ public readonly corsPolicyInput: GoogleComputeUrlMapPathMatcherRouteRulesRouteAc
 
 ---
 
+##### `dynamicCompressionPolicyInput`<sup>Optional</sup> <a name="dynamicCompressionPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.dynamicCompressionPolicyInput"></a>
+
+```typescript
+public readonly dynamicCompressionPolicyInput: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy</a>
+
+---
+
 ##### `faultInjectionPolicyInput`<sup>Optional</sup> <a name="faultInjectionPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.faultInjectionPolicyInput"></a>
 
 ```typescript
@@ -60604,6 +63542,16 @@ public readonly faultInjectionPolicyInput: GoogleComputeUrlMapPathMatcherRouteRu
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy</a>
+
+---
+
+##### `imageOptimizationPolicyInput`<sup>Optional</sup> <a name="imageOptimizationPolicyInput" id="@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference.property.imageOptimizationPolicyInput"></a>
+
+```typescript
+public readonly imageOptimizationPolicyInput: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeUrlMap.GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy">GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy</a>
 
 ---
 

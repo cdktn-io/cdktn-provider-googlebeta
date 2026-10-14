@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,23 +21,23 @@ export interface GoogleNetworkConnectivityHubConfig extends cdktn.TerraformMetaA
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#deletion_policy GoogleNetworkConnectivityHub#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#deletion_policy GoogleNetworkConnectivityHub#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An optional description of the hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#description GoogleNetworkConnectivityHub#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#description GoogleNetworkConnectivityHub#description}
   */
   readonly description?: string;
   /**
   * Whether Private Service Connect transitivity is enabled for the hub. If true, Private Service Connect endpoints in VPC spokes attached to the hub are made accessible to other VPC spokes attached to the hub. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#export_psc GoogleNetworkConnectivityHub#export_psc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#export_psc GoogleNetworkConnectivityHub#export_psc}
   */
   readonly exportPsc?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#id GoogleNetworkConnectivityHub#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#id GoogleNetworkConnectivityHub#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,35 +49,41 @@ export interface GoogleNetworkConnectivityHubConfig extends cdktn.TerraformMetaA
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#labels GoogleNetworkConnectivityHub#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#labels GoogleNetworkConnectivityHub#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Immutable. The name of the hub. Hub names must be unique. They use the following form: 'projects/{project_number}/locations/global/hubs/{hub_id}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#name GoogleNetworkConnectivityHub#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#name GoogleNetworkConnectivityHub#name}
   */
   readonly name?: string;
   /**
   * Optional. The policy mode of this hub. This field can be either PRESET or CUSTOM. If unspecified, the policyMode defaults to PRESET. Possible values: ["CUSTOM", "PRESET"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#policy_mode GoogleNetworkConnectivityHub#policy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#policy_mode GoogleNetworkConnectivityHub#policy_mode}
   */
   readonly policyMode?: string;
   /**
   * Optional. The topology implemented in this hub. Currently, this field is only used when policyMode = PRESET. The available preset topologies are MESH and STAR. If presetTopology is unspecified and policyMode = PRESET, the presetTopology defaults to MESH. When policyMode = CUSTOM, the presetTopology is set to PRESET_TOPOLOGY_UNSPECIFIED. Possible values: ["MESH", "STAR", "HYBRID_INSPECTION"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#preset_topology GoogleNetworkConnectivityHub#preset_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#preset_topology GoogleNetworkConnectivityHub#preset_topology}
   */
   readonly presetTopology?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#project GoogleNetworkConnectivityHub#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#project GoogleNetworkConnectivityHub#project}
   */
   readonly project?: string;
   /**
+  * export_psc_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#export_psc_config GoogleNetworkConnectivityHub#export_psc_config}
+  */
+  readonly exportPscConfig?: GoogleNetworkConnectivityHubExportPscConfig;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#timeouts GoogleNetworkConnectivityHub#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#timeouts GoogleNetworkConnectivityHub#timeouts}
   */
   readonly timeouts?: GoogleNetworkConnectivityHubTimeouts;
 }
@@ -156,17 +162,138 @@ export class GoogleNetworkConnectivityHubRoutingVpcsList extends cdktn.ComplexLi
     return new GoogleNetworkConnectivityHubRoutingVpcsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleNetworkConnectivityHubExportPscConfig {
+  /**
+  * Whether Private Service Connect endpoints for global Google APIs are propagated. The default value is false.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#global_google_apis GoogleNetworkConnectivityHub#global_google_apis}
+  */
+  readonly globalGoogleApis?: boolean | cdktn.IResolvable;
+  /**
+  * Whether Private Service Connect endpoints for published services (regional ILBs) and regional Google APIs are propagated.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#published_services_and_regional_google_apis GoogleNetworkConnectivityHub#published_services_and_regional_google_apis}
+  */
+  readonly publishedServicesAndRegionalGoogleApis?: boolean | cdktn.IResolvable;
+}
+
+export function googleNetworkConnectivityHubExportPscConfigToTerraform(struct?: GoogleNetworkConnectivityHubExportPscConfigOutputReference | GoogleNetworkConnectivityHubExportPscConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    global_google_apis: cdktn.booleanToTerraform(struct!.globalGoogleApis),
+    published_services_and_regional_google_apis: cdktn.booleanToTerraform(struct!.publishedServicesAndRegionalGoogleApis),
+  }
+}
+
+
+export function googleNetworkConnectivityHubExportPscConfigToHclTerraform(struct?: GoogleNetworkConnectivityHubExportPscConfigOutputReference | GoogleNetworkConnectivityHubExportPscConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    global_google_apis: {
+      value: cdktn.booleanToHclTerraform(struct!.globalGoogleApis),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    published_services_and_regional_google_apis: {
+      value: cdktn.booleanToHclTerraform(struct!.publishedServicesAndRegionalGoogleApis),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleNetworkConnectivityHubExportPscConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleNetworkConnectivityHubExportPscConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._globalGoogleApis !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.globalGoogleApis = this._globalGoogleApis;
+    }
+    if (this._publishedServicesAndRegionalGoogleApis !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publishedServicesAndRegionalGoogleApis = this._publishedServicesAndRegionalGoogleApis;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleNetworkConnectivityHubExportPscConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._globalGoogleApis = undefined;
+      this._publishedServicesAndRegionalGoogleApis = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._globalGoogleApis = value.globalGoogleApis;
+      this._publishedServicesAndRegionalGoogleApis = value.publishedServicesAndRegionalGoogleApis;
+    }
+  }
+
+  // global_google_apis - computed: false, optional: true, required: false
+  private _globalGoogleApis?: boolean | cdktn.IResolvable; 
+  public get globalGoogleApis() {
+    return this.getBooleanAttribute('global_google_apis');
+  }
+  public set globalGoogleApis(value: boolean | cdktn.IResolvable) {
+    this._globalGoogleApis = value;
+  }
+  public resetGlobalGoogleApis() {
+    this._globalGoogleApis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get globalGoogleApisInput() {
+    return this._globalGoogleApis;
+  }
+
+  // published_services_and_regional_google_apis - computed: false, optional: true, required: false
+  private _publishedServicesAndRegionalGoogleApis?: boolean | cdktn.IResolvable; 
+  public get publishedServicesAndRegionalGoogleApis() {
+    return this.getBooleanAttribute('published_services_and_regional_google_apis');
+  }
+  public set publishedServicesAndRegionalGoogleApis(value: boolean | cdktn.IResolvable) {
+    this._publishedServicesAndRegionalGoogleApis = value;
+  }
+  public resetPublishedServicesAndRegionalGoogleApis() {
+    this._publishedServicesAndRegionalGoogleApis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publishedServicesAndRegionalGoogleApisInput() {
+    return this._publishedServicesAndRegionalGoogleApis;
+  }
+}
 export interface GoogleNetworkConnectivityHubTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#create GoogleNetworkConnectivityHub#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#create GoogleNetworkConnectivityHub#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#delete GoogleNetworkConnectivityHub#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#delete GoogleNetworkConnectivityHub#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#update GoogleNetworkConnectivityHub#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#update GoogleNetworkConnectivityHub#update}
   */
   readonly update?: string;
 }
@@ -318,7 +445,7 @@ export class GoogleNetworkConnectivityHubTimeoutsOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub}
 */
 export class GoogleNetworkConnectivityHub extends cdktn.TerraformResource {
 
@@ -334,7 +461,7 @@ export class GoogleNetworkConnectivityHub extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleNetworkConnectivityHub resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkConnectivityHub to import
-  * @param importFromId The id of the existing GoogleNetworkConnectivityHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetworkConnectivityHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkConnectivityHub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -346,7 +473,7 @@ export class GoogleNetworkConnectivityHub extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,7 +484,7 @@ export class GoogleNetworkConnectivityHub extends cdktn.TerraformResource {
       terraformResourceType: 'google_network_connectivity_hub',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.6.0',
+        providerVersion: '8.7.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
@@ -377,6 +504,7 @@ export class GoogleNetworkConnectivityHub extends cdktn.TerraformResource {
     this._policyMode = config.policyMode;
     this._presetTopology = config.presetTopology;
     this._project = config.project;
+    this._exportPscConfig.internalValue = config.exportPscConfig;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -566,6 +694,22 @@ export class GoogleNetworkConnectivityHub extends cdktn.TerraformResource {
     return this.getStringAttribute('update_time');
   }
 
+  // export_psc_config - computed: false, optional: true, required: false
+  private _exportPscConfig = new GoogleNetworkConnectivityHubExportPscConfigOutputReference(this, "export_psc_config");
+  public get exportPscConfig() {
+    return this._exportPscConfig;
+  }
+  public putExportPscConfig(value: GoogleNetworkConnectivityHubExportPscConfig) {
+    this._exportPscConfig.internalValue = value;
+  }
+  public resetExportPscConfig() {
+    this._exportPscConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exportPscConfigInput() {
+    return this._exportPscConfig.internalValue;
+  }
+
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new GoogleNetworkConnectivityHubTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -597,6 +741,7 @@ export class GoogleNetworkConnectivityHub extends cdktn.TerraformResource {
       policy_mode: cdktn.stringToTerraform(this._policyMode),
       preset_topology: cdktn.stringToTerraform(this._presetTopology),
       project: cdktn.stringToTerraform(this._project),
+      export_psc_config: googleNetworkConnectivityHubExportPscConfigToTerraform(this._exportPscConfig.internalValue),
       timeouts: googleNetworkConnectivityHubTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -656,6 +801,12 @@ export class GoogleNetworkConnectivityHub extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      export_psc_config: {
+        value: googleNetworkConnectivityHubExportPscConfigToHclTerraform(this._exportPscConfig.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleNetworkConnectivityHubExportPscConfigList",
       },
       timeouts: {
         value: googleNetworkConnectivityHubTimeoutsToHclTerraform(this._timeouts.internalValue),

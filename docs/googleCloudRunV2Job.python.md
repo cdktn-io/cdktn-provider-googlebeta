@@ -4,7 +4,7 @@
 
 ### GoogleCloudRunV2Job <a name="GoogleCloudRunV2Job" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job google_cloud_run_v2_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job google_cloud_run_v2_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer"></a>
 
@@ -30,6 +30,7 @@ googleCloudRunV2Job.GoogleCloudRunV2Job(
   client_version: str = None,
   deletion_policy: str = None,
   deletion_protection: bool | IResolvable = None,
+  functional_type: str = None,
   id: str = None,
   labels: typing.Mapping[str] = None,
   launch_stage: str = None,
@@ -61,10 +62,11 @@ googleCloudRunV2Job.GoogleCloudRunV2Job(
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.clientVersion">client_version</a></code> | <code>str</code> | Arbitrary version identifier for the API client. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the job. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#id GoogleCloudRunV2Job#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.functionalType">functional_type</a></code> | <code>str</code> | The functional type of the Job. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#id GoogleCloudRunV2Job#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Unstructured key value map that can be used to organize and categorize objects. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.launchStage">launch_stage</a></code> | <code>str</code> | The launch stage as defined by [Google Cloud Platform Launch Stages](https://cloud.google.com/products#product-launch-stages). Cloud Run supports ALPHA, BETA, and GA. If no value is specified, GA is assumed. Set the launch stage to a preview stage on input to allow use of preview features in that stage. On read (or output), describes whether the resource uses preview features. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#project GoogleCloudRunV2Job#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#project GoogleCloudRunV2Job#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.runExecutionToken">run_execution_token</a></code> | <code>str</code> | A unique string used as a suffix creating a new execution upon job create or update. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.startExecutionToken">start_execution_token</a></code> | <code>str</code> | A unique string used as a suffix creating a new execution upon job create or update. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A map of resource manager tags. |
@@ -138,7 +140,7 @@ Must be unique amongst siblings in the same scope
 
 The location of the cloud run job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#location GoogleCloudRunV2Job#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#location GoogleCloudRunV2Job#location}
 
 ---
 
@@ -148,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the Job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
 
 ---
 
@@ -158,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#template GoogleCloudRunV2Job#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#template GoogleCloudRunV2Job#template}
 
 ---
 
@@ -178,7 +180,7 @@ This field follows Kubernetes annotations' namespacing, limits, and rules.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#annotations GoogleCloudRunV2Job#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#annotations GoogleCloudRunV2Job#annotations}
 
 ---
 
@@ -188,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 binary_authorization block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#binary_authorization GoogleCloudRunV2Job#binary_authorization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#binary_authorization GoogleCloudRunV2Job#binary_authorization}
 
 ---
 
@@ -198,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Arbitrary identifier for the API client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#client GoogleCloudRunV2Job#client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#client GoogleCloudRunV2Job#client}
 
 ---
 
@@ -208,7 +210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Arbitrary version identifier for the API client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#client_version GoogleCloudRunV2Job#client_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#client_version GoogleCloudRunV2Job#client_version}
 
 ---
 
@@ -225,7 +227,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#deletion_policy GoogleCloudRunV2Job#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#deletion_policy GoogleCloudRunV2Job#deletion_policy}
 
 ---
 
@@ -242,7 +244,25 @@ When the field is set to true or unset in Terraform state, a 'terraform apply'
 or 'terraform destroy' that would delete the job will fail.
 When the field is set to false, deleting the job is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#deletion_protection GoogleCloudRunV2Job#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#deletion_protection GoogleCloudRunV2Job#deletion_protection}
+
+---
+
+##### `functional_type`<sup>Optional</sup> <a name="functional_type" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.Initializer.parameter.functionalType"></a>
+
+- *Type:* str
+
+The functional type of the Job.
+
+Declares the primary purpose of the workload so that it can be
+registered with [Agent Platform](https://cloud.google.com/run/docs/ai/agent-platform-features).
+Once set, this field cannot be changed or unset.
+
+Jobs only support 'FUNCTIONAL_TYPE_AGENT'; only Cloud Run services can be exposed as MCP servers.
+A Job with 'FUNCTIONAL_TYPE_AGENT' must also set
+'template.template.workload_identity_config.identity_type' to 'IDENTITY_TYPE_AGENT_IDENTITY'. Possible values: ["FUNCTIONAL_TYPE_AGENT"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#functional_type GoogleCloudRunV2Job#functional_type}
 
 ---
 
@@ -250,7 +270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#id GoogleCloudRunV2Job#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#id GoogleCloudRunV2Job#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -272,7 +292,7 @@ All system labels in v1 now have a corresponding field in v2 Job.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#labels GoogleCloudRunV2Job#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#labels GoogleCloudRunV2Job#labels}
 
 ---
 
@@ -284,7 +304,7 @@ The launch stage as defined by [Google Cloud Platform Launch Stages](https://clo
 
 For example, if ALPHA is provided as input, but only BETA and GA-level features are used, this field will be BETA on output. Possible values: ["UNIMPLEMENTED", "PRELAUNCH", "EARLY_ACCESS", "ALPHA", "BETA", "GA", "DEPRECATED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#launch_stage GoogleCloudRunV2Job#launch_stage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#launch_stage GoogleCloudRunV2Job#launch_stage}
 
 ---
 
@@ -292,7 +312,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#project GoogleCloudRunV2Job#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#project GoogleCloudRunV2Job#project}.
 
 ---
 
@@ -305,7 +325,7 @@ A unique string used as a suffix creating a new execution upon job create or upd
 The Job will become ready when the execution is successfully completed.
 The sum of job name and token length must be fewer than 63 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#run_execution_token GoogleCloudRunV2Job#run_execution_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#run_execution_token GoogleCloudRunV2Job#run_execution_token}
 
 ---
 
@@ -318,7 +338,7 @@ A unique string used as a suffix creating a new execution upon job create or upd
 The Job will become ready when the execution is successfully started.
 The sum of job name and token length must be fewer than 63 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#start_execution_token GoogleCloudRunV2Job#start_execution_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#start_execution_token GoogleCloudRunV2Job#start_execution_token}
 
 ---
 
@@ -331,7 +351,7 @@ A map of resource manager tags.
 Resource manager tag keys and values have the same definition as resource manager tags.
 Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/{tag_value_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#tags GoogleCloudRunV2Job#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#tags GoogleCloudRunV2Job#tags}
 
 ---
 
@@ -341,7 +361,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#timeouts GoogleCloudRunV2Job#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#timeouts GoogleCloudRunV2Job#timeouts}
 
 ---
 
@@ -382,6 +402,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.resetClientVersion">reset_client_version</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.resetDeletionProtection">reset_deletion_protection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.resetFunctionalType">reset_functional_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.resetLabels">reset_labels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.resetLaunchStage">reset_launch_stage</a></code> | *No description.* |
@@ -759,7 +780,7 @@ If present, indicates to use Breakglass using this justification.
 
 If useDefault is False, then it must be empty. For more information on breakglass, see https://cloud.google.com/binary-authorization/docs/using-breakglass
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#breakglass_justification GoogleCloudRunV2Job#breakglass_justification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#breakglass_justification GoogleCloudRunV2Job#breakglass_justification}
 
 ---
 
@@ -769,7 +790,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The path to a binary authorization policy. Format: projects/{project}/platforms/cloudRun/{policy-name}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#policy GoogleCloudRunV2Job#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#policy GoogleCloudRunV2Job#policy}
 
 ---
 
@@ -779,7 +800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If True, indicates to use the default project's binary authorization policy. If False, binary authorization will be disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#use_default GoogleCloudRunV2Job#use_default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#use_default GoogleCloudRunV2Job#use_default}
 
 ---
 
@@ -802,7 +823,7 @@ def put_template(
 
 template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#template GoogleCloudRunV2Job#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#template GoogleCloudRunV2Job#template}
 
 ---
 
@@ -819,7 +840,7 @@ All system annotations in v1 now have a corresponding field in v2 ExecutionTempl
 
 This field follows Kubernetes annotations' namespacing, limits, and rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#annotations GoogleCloudRunV2Job#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#annotations GoogleCloudRunV2Job#annotations}
 
 ---
 
@@ -829,7 +850,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If true, the system will start the execution within the next 12 hours depending on available capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#delay_execution GoogleCloudRunV2Job#delay_execution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#delay_execution GoogleCloudRunV2Job#delay_execution}
 
 ---
 
@@ -846,7 +867,7 @@ https://cloud.google.com/run/docs/configuring/labels.
 Cloud Run API v2 does not support labels with 'run.googleapis.com', 'cloud.googleapis.com', 'serving.knative.dev', or 'autoscaling.knative.dev' namespaces, and they will be rejected.
 All system labels in v1 now have a corresponding field in v2 ExecutionTemplate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#labels GoogleCloudRunV2Job#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#labels GoogleCloudRunV2Job#labels}
 
 ---
 
@@ -858,7 +879,7 @@ Specifies the maximum desired number of tasks the execution should run at given 
 
 Must be <= taskCount. When the job is run, if this field is 0 or unset, the maximum possible value will be used for that execution. The actual number of tasks running in steady state will be less than this number when there are fewer tasks waiting to be completed remaining, i.e. when the work left to do is less than max parallelism.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#parallelism GoogleCloudRunV2Job#parallelism}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#parallelism GoogleCloudRunV2Job#parallelism}
 
 ---
 
@@ -870,7 +891,7 @@ Specifies the desired number of tasks the execution should run.
 
 Setting to 1 means that parallelism is limited to 1 and the success of that task signals the success of the execution. More info: https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#task_count GoogleCloudRunV2Job#task_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#task_count GoogleCloudRunV2Job#task_count}
 
 ---
 
@@ -888,7 +909,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#create GoogleCloudRunV2Job#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#create GoogleCloudRunV2Job#create}.
 
 ---
 
@@ -896,7 +917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#delete GoogleCloudRunV2Job#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#delete GoogleCloudRunV2Job#delete}.
 
 ---
 
@@ -904,7 +925,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#update GoogleCloudRunV2Job#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#update GoogleCloudRunV2Job#update}.
 
 ---
 
@@ -942,6 +963,12 @@ def reset_deletion_policy() -> None
 
 ```python
 def reset_deletion_protection() -> None
+```
+
+##### `reset_functional_type` <a name="reset_functional_type" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.resetFunctionalType"></a>
+
+```python
+def reset_functional_type() -> None
 ```
 
 ##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.resetId"></a>
@@ -1106,7 +1133,7 @@ The construct id used in the generated config for the GoogleCloudRunV2Job to imp
 
 The id of the existing GoogleCloudRunV2Job that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1163,6 +1190,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.clientVersionInput">client_version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.deletionProtectionInput">deletion_protection_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.functionalTypeInput">functional_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.labelsInput">labels_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.launchStageInput">launch_stage_input</a></code> | <code>str</code> | *No description.* |
@@ -1179,6 +1207,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.clientVersion">client_version</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.functionalType">functional_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.launchStage">launch_stage</a></code> | <code>str</code> | *No description.* |
@@ -1603,6 +1632,16 @@ deletion_protection_input: bool | IResolvable
 
 ---
 
+##### `functional_type_input`<sup>Optional</sup> <a name="functional_type_input" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.functionalTypeInput"></a>
+
+```python
+functional_type_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.idInput"></a>
 
 ```python
@@ -1763,6 +1802,16 @@ deletion_protection: bool | IResolvable
 
 ---
 
+##### `functional_type`<sup>Required</sup> <a name="functional_type" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.functionalType"></a>
+
+```python
+functional_type: str
+```
+
+- *Type:* str
+
+---
+
 ##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job.property.id"></a>
 
 ```python
@@ -1909,7 +1958,7 @@ If present, indicates to use Breakglass using this justification.
 
 If useDefault is False, then it must be empty. For more information on breakglass, see https://cloud.google.com/binary-authorization/docs/using-breakglass
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#breakglass_justification GoogleCloudRunV2Job#breakglass_justification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#breakglass_justification GoogleCloudRunV2Job#breakglass_justification}
 
 ---
 
@@ -1923,7 +1972,7 @@ policy: str
 
 The path to a binary authorization policy. Format: projects/{project}/platforms/cloudRun/{policy-name}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#policy GoogleCloudRunV2Job#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#policy GoogleCloudRunV2Job#policy}
 
 ---
 
@@ -1937,7 +1986,7 @@ use_default: bool | IResolvable
 
 If True, indicates to use the default project's binary authorization policy. If False, binary authorization will be disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#use_default GoogleCloudRunV2Job#use_default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#use_default GoogleCloudRunV2Job#use_default}
 
 ---
 
@@ -1976,6 +2025,7 @@ googleCloudRunV2Job.GoogleCloudRunV2JobConfig(
   client_version: str = None,
   deletion_policy: str = None,
   deletion_protection: bool | IResolvable = None,
+  functional_type: str = None,
   id: str = None,
   labels: typing.Mapping[str] = None,
   launch_stage: str = None,
@@ -2007,10 +2057,11 @@ googleCloudRunV2Job.GoogleCloudRunV2JobConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.clientVersion">client_version</a></code> | <code>str</code> | Arbitrary version identifier for the API client. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the job. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#id GoogleCloudRunV2Job#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.functionalType">functional_type</a></code> | <code>str</code> | The functional type of the Job. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#id GoogleCloudRunV2Job#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Unstructured key value map that can be used to organize and categorize objects. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.launchStage">launch_stage</a></code> | <code>str</code> | The launch stage as defined by [Google Cloud Platform Launch Stages](https://cloud.google.com/products#product-launch-stages). Cloud Run supports ALPHA, BETA, and GA. If no value is specified, GA is assumed. Set the launch stage to a preview stage on input to allow use of preview features in that stage. On read (or output), describes whether the resource uses preview features. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#project GoogleCloudRunV2Job#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#project GoogleCloudRunV2Job#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.runExecutionToken">run_execution_token</a></code> | <code>str</code> | A unique string used as a suffix creating a new execution upon job create or update. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.startExecutionToken">start_execution_token</a></code> | <code>str</code> | A unique string used as a suffix creating a new execution upon job create or update. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A map of resource manager tags. |
@@ -2098,7 +2149,7 @@ location: str
 
 The location of the cloud run job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#location GoogleCloudRunV2Job#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#location GoogleCloudRunV2Job#location}
 
 ---
 
@@ -2112,7 +2163,7 @@ name: str
 
 Name of the Job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
 
 ---
 
@@ -2126,7 +2177,7 @@ template: GoogleCloudRunV2JobTemplate
 
 template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#template GoogleCloudRunV2Job#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#template GoogleCloudRunV2Job#template}
 
 ---
 
@@ -2150,7 +2201,7 @@ This field follows Kubernetes annotations' namespacing, limits, and rules.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#annotations GoogleCloudRunV2Job#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#annotations GoogleCloudRunV2Job#annotations}
 
 ---
 
@@ -2164,7 +2215,7 @@ binary_authorization: GoogleCloudRunV2JobBinaryAuthorization
 
 binary_authorization block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#binary_authorization GoogleCloudRunV2Job#binary_authorization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#binary_authorization GoogleCloudRunV2Job#binary_authorization}
 
 ---
 
@@ -2178,7 +2229,7 @@ client: str
 
 Arbitrary identifier for the API client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#client GoogleCloudRunV2Job#client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#client GoogleCloudRunV2Job#client}
 
 ---
 
@@ -2192,7 +2243,7 @@ client_version: str
 
 Arbitrary version identifier for the API client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#client_version GoogleCloudRunV2Job#client_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#client_version GoogleCloudRunV2Job#client_version}
 
 ---
 
@@ -2213,7 +2264,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#deletion_policy GoogleCloudRunV2Job#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#deletion_policy GoogleCloudRunV2Job#deletion_policy}
 
 ---
 
@@ -2234,7 +2285,29 @@ When the field is set to true or unset in Terraform state, a 'terraform apply'
 or 'terraform destroy' that would delete the job will fail.
 When the field is set to false, deleting the job is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#deletion_protection GoogleCloudRunV2Job#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#deletion_protection GoogleCloudRunV2Job#deletion_protection}
+
+---
+
+##### `functional_type`<sup>Optional</sup> <a name="functional_type" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobConfig.property.functionalType"></a>
+
+```python
+functional_type: str
+```
+
+- *Type:* str
+
+The functional type of the Job.
+
+Declares the primary purpose of the workload so that it can be
+registered with [Agent Platform](https://cloud.google.com/run/docs/ai/agent-platform-features).
+Once set, this field cannot be changed or unset.
+
+Jobs only support 'FUNCTIONAL_TYPE_AGENT'; only Cloud Run services can be exposed as MCP servers.
+A Job with 'FUNCTIONAL_TYPE_AGENT' must also set
+'template.template.workload_identity_config.identity_type' to 'IDENTITY_TYPE_AGENT_IDENTITY'. Possible values: ["FUNCTIONAL_TYPE_AGENT"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#functional_type GoogleCloudRunV2Job#functional_type}
 
 ---
 
@@ -2246,7 +2319,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#id GoogleCloudRunV2Job#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#id GoogleCloudRunV2Job#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2272,7 +2345,7 @@ All system labels in v1 now have a corresponding field in v2 Job.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#labels GoogleCloudRunV2Job#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#labels GoogleCloudRunV2Job#labels}
 
 ---
 
@@ -2288,7 +2361,7 @@ The launch stage as defined by [Google Cloud Platform Launch Stages](https://clo
 
 For example, if ALPHA is provided as input, but only BETA and GA-level features are used, this field will be BETA on output. Possible values: ["UNIMPLEMENTED", "PRELAUNCH", "EARLY_ACCESS", "ALPHA", "BETA", "GA", "DEPRECATED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#launch_stage GoogleCloudRunV2Job#launch_stage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#launch_stage GoogleCloudRunV2Job#launch_stage}
 
 ---
 
@@ -2300,7 +2373,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#project GoogleCloudRunV2Job#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#project GoogleCloudRunV2Job#project}.
 
 ---
 
@@ -2317,7 +2390,7 @@ A unique string used as a suffix creating a new execution upon job create or upd
 The Job will become ready when the execution is successfully completed.
 The sum of job name and token length must be fewer than 63 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#run_execution_token GoogleCloudRunV2Job#run_execution_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#run_execution_token GoogleCloudRunV2Job#run_execution_token}
 
 ---
 
@@ -2334,7 +2407,7 @@ A unique string used as a suffix creating a new execution upon job create or upd
 The Job will become ready when the execution is successfully started.
 The sum of job name and token length must be fewer than 63 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#start_execution_token GoogleCloudRunV2Job#start_execution_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#start_execution_token GoogleCloudRunV2Job#start_execution_token}
 
 ---
 
@@ -2351,7 +2424,7 @@ A map of resource manager tags.
 Resource manager tag keys and values have the same definition as resource manager tags.
 Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/{tag_value_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#tags GoogleCloudRunV2Job#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#tags GoogleCloudRunV2Job#tags}
 
 ---
 
@@ -2365,7 +2438,7 @@ timeouts: GoogleCloudRunV2JobTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#timeouts GoogleCloudRunV2Job#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#timeouts GoogleCloudRunV2Job#timeouts}
 
 ---
 
@@ -2420,7 +2493,7 @@ template: GoogleCloudRunV2JobTemplateTemplate
 
 template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#template GoogleCloudRunV2Job#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#template GoogleCloudRunV2Job#template}
 
 ---
 
@@ -2441,7 +2514,7 @@ All system annotations in v1 now have a corresponding field in v2 ExecutionTempl
 
 This field follows Kubernetes annotations' namespacing, limits, and rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#annotations GoogleCloudRunV2Job#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#annotations GoogleCloudRunV2Job#annotations}
 
 ---
 
@@ -2455,7 +2528,7 @@ delay_execution: bool | IResolvable
 
 If true, the system will start the execution within the next 12 hours depending on available capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#delay_execution GoogleCloudRunV2Job#delay_execution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#delay_execution GoogleCloudRunV2Job#delay_execution}
 
 ---
 
@@ -2476,7 +2549,7 @@ https://cloud.google.com/run/docs/configuring/labels.
 Cloud Run API v2 does not support labels with 'run.googleapis.com', 'cloud.googleapis.com', 'serving.knative.dev', or 'autoscaling.knative.dev' namespaces, and they will be rejected.
 All system labels in v1 now have a corresponding field in v2 ExecutionTemplate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#labels GoogleCloudRunV2Job#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#labels GoogleCloudRunV2Job#labels}
 
 ---
 
@@ -2492,7 +2565,7 @@ Specifies the maximum desired number of tasks the execution should run at given 
 
 Must be <= taskCount. When the job is run, if this field is 0 or unset, the maximum possible value will be used for that execution. The actual number of tasks running in steady state will be less than this number when there are fewer tasks waiting to be completed remaining, i.e. when the work left to do is less than max parallelism.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#parallelism GoogleCloudRunV2Job#parallelism}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#parallelism GoogleCloudRunV2Job#parallelism}
 
 ---
 
@@ -2508,7 +2581,7 @@ Specifies the desired number of tasks the execution should run.
 
 Setting to 1 means that parallelism is limited to 1 and the success of that task signals the success of the execution. More info: https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#task_count GoogleCloudRunV2Job#task_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#task_count GoogleCloudRunV2Job#task_count}
 
 ---
 
@@ -2529,7 +2602,8 @@ googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplate(
   service_account: str = None,
   timeout: str = None,
   volumes: IResolvable | typing.List[GoogleCloudRunV2JobTemplateTemplateVolumes] = None,
-  vpc_access: GoogleCloudRunV2JobTemplateTemplateVpcAccess = None
+  vpc_access: GoogleCloudRunV2JobTemplateTemplateVpcAccess = None,
+  workload_identity_config: GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig = None
 )
 ```
 
@@ -2547,6 +2621,7 @@ googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplate(
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplate.property.timeout">timeout</a></code> | <code>str</code> | Max allowed time duration the Task may be active before the system will actively try to mark it failed and kill associated containers. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplate.property.volumes">volumes</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateVolumes">GoogleCloudRunV2JobTemplateTemplateVolumes</a>]</code> | volumes block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplate.property.vpcAccess">vpc_access</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateVpcAccess">GoogleCloudRunV2JobTemplateTemplateVpcAccess</a></code> | vpc_access block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplate.property.workloadIdentityConfig">workload_identity_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig">GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig</a></code> | workload_identity_config block. |
 
 ---
 
@@ -2560,7 +2635,7 @@ containers: IResolvable | typing.List[GoogleCloudRunV2JobTemplateTemplateContain
 
 containers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#containers GoogleCloudRunV2Job#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#containers GoogleCloudRunV2Job#containers}
 
 ---
 
@@ -2576,7 +2651,7 @@ A reference to a customer managed encryption key (CMEK) to use to encrypt this c
 
 For more information, go to https://cloud.google.com/run/docs/securing/using-cmek
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#encryption_key GoogleCloudRunV2Job#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#encryption_key GoogleCloudRunV2Job#encryption_key}
 
 ---
 
@@ -2590,7 +2665,7 @@ execution_environment: str
 
 The execution environment being used to host this Task. Possible values: ["EXECUTION_ENVIRONMENT_GEN1", "EXECUTION_ENVIRONMENT_GEN2"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#execution_environment GoogleCloudRunV2Job#execution_environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#execution_environment GoogleCloudRunV2Job#execution_environment}
 
 ---
 
@@ -2604,7 +2679,7 @@ gpu_zonal_redundancy_disabled: bool | IResolvable
 
 True if GPU zonal redundancy is disabled on this execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#gpu_zonal_redundancy_disabled GoogleCloudRunV2Job#gpu_zonal_redundancy_disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#gpu_zonal_redundancy_disabled GoogleCloudRunV2Job#gpu_zonal_redundancy_disabled}
 
 ---
 
@@ -2618,7 +2693,7 @@ max_retries: typing.Union[int, float]
 
 Number of retries allowed per Task, before marking this Task failed. Defaults to 3. Minimum value is 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#max_retries GoogleCloudRunV2Job#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#max_retries GoogleCloudRunV2Job#max_retries}
 
 ---
 
@@ -2632,7 +2707,7 @@ node_selector: GoogleCloudRunV2JobTemplateTemplateNodeSelector
 
 node_selector block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#node_selector GoogleCloudRunV2Job#node_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#node_selector GoogleCloudRunV2Job#node_selector}
 
 ---
 
@@ -2648,7 +2723,7 @@ Email address of the IAM service account associated with the Task of a Job.
 
 The service account represents the identity of the running task, and determines what permissions the task has. If not provided, the task will use the project's default service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#service_account GoogleCloudRunV2Job#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#service_account GoogleCloudRunV2Job#service_account}
 
 ---
 
@@ -2666,7 +2741,7 @@ This applies per attempt of a task, meaning each retry can run for the full time
 
 A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#timeout GoogleCloudRunV2Job#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#timeout GoogleCloudRunV2Job#timeout}
 
 ---
 
@@ -2680,7 +2755,7 @@ volumes: IResolvable | typing.List[GoogleCloudRunV2JobTemplateTemplateVolumes]
 
 volumes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#volumes GoogleCloudRunV2Job#volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#volumes GoogleCloudRunV2Job#volumes}
 
 ---
 
@@ -2694,7 +2769,21 @@ vpc_access: GoogleCloudRunV2JobTemplateTemplateVpcAccess
 
 vpc_access block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#vpc_access GoogleCloudRunV2Job#vpc_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#vpc_access GoogleCloudRunV2Job#vpc_access}
+
+---
+
+##### `workload_identity_config`<sup>Optional</sup> <a name="workload_identity_config" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplate.property.workloadIdentityConfig"></a>
+
+```python
+workload_identity_config: GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig">GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig</a>
+
+workload_identity_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#workload_identity_config GoogleCloudRunV2Job#workload_identity_config}
 
 ---
 
@@ -2750,7 +2839,7 @@ image: str
 
 URL of the Container image in Google Container Registry or Google Artifact Registry. More info: https://kubernetes.io/docs/concepts/containers/images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#image GoogleCloudRunV2Job#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#image GoogleCloudRunV2Job#image}
 
 ---
 
@@ -2766,7 +2855,7 @@ Arguments to the entrypoint.
 
 The docker image's CMD is used if this is not provided. Variable references are not supported in Cloud Run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#args GoogleCloudRunV2Job#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#args GoogleCloudRunV2Job#args}
 
 ---
 
@@ -2782,7 +2871,7 @@ Entrypoint array.
 
 Not executed within a shell. The docker image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#command GoogleCloudRunV2Job#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#command GoogleCloudRunV2Job#command}
 
 ---
 
@@ -2796,7 +2885,7 @@ depends_on: typing.List[str]
 
 Names of the containers that must start before this container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#depends_on GoogleCloudRunV2Job#depends_on}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#depends_on GoogleCloudRunV2Job#depends_on}
 
 ---
 
@@ -2810,7 +2899,7 @@ env: IResolvable | typing.List[GoogleCloudRunV2JobTemplateTemplateContainersEnv]
 
 env block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#env GoogleCloudRunV2Job#env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#env GoogleCloudRunV2Job#env}
 
 ---
 
@@ -2824,7 +2913,7 @@ name: str
 
 Name of the container specified as a DNS_LABEL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
 
 ---
 
@@ -2838,7 +2927,7 @@ ports: IResolvable | typing.List[GoogleCloudRunV2JobTemplateTemplateContainersPo
 
 ports block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#ports GoogleCloudRunV2Job#ports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#ports GoogleCloudRunV2Job#ports}
 
 ---
 
@@ -2852,7 +2941,7 @@ resources: GoogleCloudRunV2JobTemplateTemplateContainersResources
 
 resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#resources GoogleCloudRunV2Job#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#resources GoogleCloudRunV2Job#resources}
 
 ---
 
@@ -2866,7 +2955,7 @@ sandbox_launcher: bool | IResolvable
 
 Indicates that this container can act as a sandbox supervisor and launch sandboxes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#sandbox_launcher GoogleCloudRunV2Job#sandbox_launcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#sandbox_launcher GoogleCloudRunV2Job#sandbox_launcher}
 
 ---
 
@@ -2880,7 +2969,7 @@ startup_probe: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbe
 
 startup_probe block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#startup_probe GoogleCloudRunV2Job#startup_probe}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#startup_probe GoogleCloudRunV2Job#startup_probe}
 
 ---
 
@@ -2894,7 +2983,7 @@ volume_mounts: IResolvable | typing.List[GoogleCloudRunV2JobTemplateTemplateCont
 
 volume_mounts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#volume_mounts GoogleCloudRunV2Job#volume_mounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#volume_mounts GoogleCloudRunV2Job#volume_mounts}
 
 ---
 
@@ -2910,7 +2999,7 @@ Container's working directory.
 
 If not specified, the container runtime's default will be used, which might be configured in the container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#working_dir GoogleCloudRunV2Job#working_dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#working_dir GoogleCloudRunV2Job#working_dir}
 
 ---
 
@@ -2948,7 +3037,7 @@ name: str
 
 Name of the environment variable. Must be a C_IDENTIFIER, and mnay not exceed 32768 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
 
 ---
 
@@ -2964,7 +3053,7 @@ Literal value of the environment variable.
 
 Defaults to "" and the maximum allowed length is 32768 characters. Variable references are not supported in Cloud Run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#value GoogleCloudRunV2Job#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#value GoogleCloudRunV2Job#value}
 
 ---
 
@@ -2978,7 +3067,7 @@ value_source: GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSource
 
 value_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#value_source GoogleCloudRunV2Job#value_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#value_source GoogleCloudRunV2Job#value_source}
 
 ---
 
@@ -3012,7 +3101,7 @@ secret_key_ref: GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceSecre
 
 secret_key_ref block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#secret_key_ref GoogleCloudRunV2Job#secret_key_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#secret_key_ref GoogleCloudRunV2Job#secret_key_ref}
 
 ---
 
@@ -3050,7 +3139,7 @@ The name of the secret in Cloud Secret Manager.
 
 Format: {secretName} if the secret is in the same project. projects/{project}/secrets/{secretName} if the secret is in a different project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#secret GoogleCloudRunV2Job#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#secret GoogleCloudRunV2Job#secret}
 
 ---
 
@@ -3066,7 +3155,7 @@ The Cloud Secret Manager secret version.
 
 Can be 'latest' for the latest value or an integer for a specific version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#version GoogleCloudRunV2Job#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#version GoogleCloudRunV2Job#version}
 
 ---
 
@@ -3102,7 +3191,7 @@ container_port: typing.Union[int, float]
 
 Port number the container listens on. This must be a valid TCP port number, 0 < containerPort < 65536.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#container_port GoogleCloudRunV2Job#container_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#container_port GoogleCloudRunV2Job#container_port}
 
 ---
 
@@ -3116,7 +3205,7 @@ name: str
 
 If specified, used to specify which protocol to use. Allowed values are "http1" and "h2c".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
 
 ---
 
@@ -3150,7 +3239,7 @@ limits: typing.Mapping[str]
 
 Only memory, CPU, and nvidia.com/gpu are supported. Use key 'cpu' for CPU limit, 'memory' for memory limit, 'nvidia.com/gpu' for gpu limit. Note: The only supported values for CPU are '1', '2', '4', '6', and '8'. Setting 4 CPU requires at least 2Gi of memory, setting 6 or more CPU requires at least 4Gi of memory. The values of the map is string form of the 'quantity' k8s type: https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apimachinery/pkg/api/resource/quantity.go.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#limits GoogleCloudRunV2Job#limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#limits GoogleCloudRunV2Job#limits}
 
 ---
 
@@ -3196,7 +3285,7 @@ failure_threshold: typing.Union[int, float]
 
 Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#failure_threshold GoogleCloudRunV2Job#failure_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#failure_threshold GoogleCloudRunV2Job#failure_threshold}
 
 ---
 
@@ -3210,7 +3299,7 @@ grpc: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpc
 
 grpc block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#grpc GoogleCloudRunV2Job#grpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#grpc GoogleCloudRunV2Job#grpc}
 
 ---
 
@@ -3224,7 +3313,7 @@ http_get: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGet
 
 http_get block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#http_get GoogleCloudRunV2Job#http_get}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#http_get GoogleCloudRunV2Job#http_get}
 
 ---
 
@@ -3240,7 +3329,7 @@ Number of seconds after the container has started before the probe is initiated.
 
 Defaults to 0 seconds. Minimum value is 0. Maximum value is 240.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#initial_delay_seconds GoogleCloudRunV2Job#initial_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#initial_delay_seconds GoogleCloudRunV2Job#initial_delay_seconds}
 
 ---
 
@@ -3254,7 +3343,7 @@ period_seconds: typing.Union[int, float]
 
 How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1. Maximum value is 240.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#period_seconds GoogleCloudRunV2Job#period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#period_seconds GoogleCloudRunV2Job#period_seconds}
 
 ---
 
@@ -3268,7 +3357,7 @@ tcp_socket: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSocket
 
 tcp_socket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#tcp_socket GoogleCloudRunV2Job#tcp_socket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#tcp_socket GoogleCloudRunV2Job#tcp_socket}
 
 ---
 
@@ -3285,7 +3374,7 @@ Number of seconds after which the probe times out.
 Defaults to 1 second. Minimum value is 1. Maximum value is 3600.
 Must be smaller than periodSeconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#timeout_seconds GoogleCloudRunV2Job#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#timeout_seconds GoogleCloudRunV2Job#timeout_seconds}
 
 ---
 
@@ -3324,7 +3413,7 @@ Port number to access on the container.
 Number must be in the range 1 to 65535.
 If not specified, defaults to the same value as container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
 
 ---
 
@@ -3338,7 +3427,7 @@ service: str
 
 The name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#service GoogleCloudRunV2Job#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#service GoogleCloudRunV2Job#service}
 
 ---
 
@@ -3376,7 +3465,7 @@ http_headers: IResolvable | typing.List[GoogleCloudRunV2JobTemplateTemplateConta
 
 http_headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#http_headers GoogleCloudRunV2Job#http_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#http_headers GoogleCloudRunV2Job#http_headers}
 
 ---
 
@@ -3390,7 +3479,7 @@ path: str
 
 Path to access on the HTTP server. If set, it should not be empty string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#path GoogleCloudRunV2Job#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#path GoogleCloudRunV2Job#path}
 
 ---
 
@@ -3407,7 +3496,7 @@ Port number to access on the container.
 Number must be in the range 1 to 65535.
 If not specified, defaults to the same value as container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
 
 ---
 
@@ -3443,7 +3532,7 @@ name: str
 
 The header field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
 
 ---
 
@@ -3457,7 +3546,7 @@ value: str
 
 The header field value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#value GoogleCloudRunV2Job#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#value GoogleCloudRunV2Job#value}
 
 ---
 
@@ -3494,7 +3583,7 @@ Port number to access on the container.
 Number must be in the range 1 to 65535.
 If not specified, defaults to the same value as container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
 
 ---
 
@@ -3534,7 +3623,7 @@ Path within the container at which the volume should be mounted.
 
 Must not contain ':'. For Cloud SQL volumes, it can be left empty, or must otherwise be /cloudsql. All instances defined in the Volume will be available as /cloudsql/[instance]. For more information on Cloud SQL volumes, visit https://cloud.google.com/sql/docs/mysql/connect-run
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#mount_path GoogleCloudRunV2Job#mount_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#mount_path GoogleCloudRunV2Job#mount_path}
 
 ---
 
@@ -3548,7 +3637,7 @@ name: str
 
 This must match the Name of a Volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
 
 ---
 
@@ -3562,7 +3651,7 @@ sub_path: str
 
 Path within the volume from which the container's volume should be mounted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#sub_path GoogleCloudRunV2Job#sub_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#sub_path GoogleCloudRunV2Job#sub_path}
 
 ---
 
@@ -3596,7 +3685,7 @@ accelerator: str
 
 The GPU to attach to an instance. See https://cloud.google.com/run/docs/configuring/jobs/gpu for configuring GPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#accelerator GoogleCloudRunV2Job#accelerator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#accelerator GoogleCloudRunV2Job#accelerator}
 
 ---
 
@@ -3640,7 +3729,7 @@ name: str
 
 Volume's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#name GoogleCloudRunV2Job#name}
 
 ---
 
@@ -3654,7 +3743,7 @@ cloud_sql_instance: GoogleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstance
 
 cloud_sql_instance block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#cloud_sql_instance GoogleCloudRunV2Job#cloud_sql_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#cloud_sql_instance GoogleCloudRunV2Job#cloud_sql_instance}
 
 ---
 
@@ -3668,7 +3757,7 @@ empty_dir: GoogleCloudRunV2JobTemplateTemplateVolumesEmptyDir
 
 empty_dir block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#empty_dir GoogleCloudRunV2Job#empty_dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#empty_dir GoogleCloudRunV2Job#empty_dir}
 
 ---
 
@@ -3682,7 +3771,7 @@ gcs: GoogleCloudRunV2JobTemplateTemplateVolumesGcs
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#gcs GoogleCloudRunV2Job#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#gcs GoogleCloudRunV2Job#gcs}
 
 ---
 
@@ -3696,7 +3785,7 @@ nfs: GoogleCloudRunV2JobTemplateTemplateVolumesNfs
 
 nfs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#nfs GoogleCloudRunV2Job#nfs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#nfs GoogleCloudRunV2Job#nfs}
 
 ---
 
@@ -3710,7 +3799,7 @@ secret: GoogleCloudRunV2JobTemplateTemplateVolumesSecret
 
 secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#secret GoogleCloudRunV2Job#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#secret GoogleCloudRunV2Job#secret}
 
 ---
 
@@ -3744,7 +3833,7 @@ instances: typing.List[str]
 
 The Cloud SQL instance connection names, as can be found in https://console.cloud.google.com/sql/instances. Visit https://cloud.google.com/sql/docs/mysql/connect-run for more information on how to connect Cloud SQL and Cloud Run. Format: {project}:{location}:{instance}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#instances GoogleCloudRunV2Job#instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#instances GoogleCloudRunV2Job#instances}
 
 ---
 
@@ -3780,7 +3869,7 @@ medium: str
 
 The different types of medium supported for EmptyDir. Default value: "MEMORY" Possible values: ["MEMORY", "DISK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#medium GoogleCloudRunV2Job#medium}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#medium GoogleCloudRunV2Job#medium}
 
 ---
 
@@ -3796,7 +3885,7 @@ Limit on the storage usable by this EmptyDir volume.
 
 The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. This field's values are of the 'Quantity' k8s type: https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes/#emptydir.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#size_limit GoogleCloudRunV2Job#size_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#size_limit GoogleCloudRunV2Job#size_limit}
 
 ---
 
@@ -3836,7 +3925,7 @@ Name of the cloud storage bucket to back the volume.
 
 The resource service account must have permission to access the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#bucket GoogleCloudRunV2Job#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#bucket GoogleCloudRunV2Job#bucket}
 
 ---
 
@@ -3852,7 +3941,7 @@ A list of flags to pass to the gcsfuse command for configuring this volume.
 
 Flags should be passed without leading dashes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#mount_options GoogleCloudRunV2Job#mount_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#mount_options GoogleCloudRunV2Job#mount_options}
 
 ---
 
@@ -3866,7 +3955,7 @@ read_only: bool | IResolvable
 
 If true, mount this volume as read-only in all mounts. If false, mount this volume as read-write.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#read_only GoogleCloudRunV2Job#read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#read_only GoogleCloudRunV2Job#read_only}
 
 ---
 
@@ -3904,7 +3993,7 @@ server: str
 
 Hostname or IP address of the NFS server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#server GoogleCloudRunV2Job#server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#server GoogleCloudRunV2Job#server}
 
 ---
 
@@ -3918,7 +4007,7 @@ path: str
 
 Path that is exported by the NFS server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#path GoogleCloudRunV2Job#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#path GoogleCloudRunV2Job#path}
 
 ---
 
@@ -3932,7 +4021,7 @@ read_only: bool | IResolvable
 
 If true, mount this volume as read-only in all mounts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#read_only GoogleCloudRunV2Job#read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#read_only GoogleCloudRunV2Job#read_only}
 
 ---
 
@@ -3972,7 +4061,7 @@ The name of the secret in Cloud Secret Manager.
 
 Format: {secret} if the secret is in the same project. projects/{project}/secrets/{secret} if the secret is in a different project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#secret GoogleCloudRunV2Job#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#secret GoogleCloudRunV2Job#secret}
 
 ---
 
@@ -3988,7 +4077,7 @@ Integer representation of mode bits to use on created files by default.
 
 Must be a value between 0000 and 0777 (octal), defaulting to 0444. Directories within the path are not affected by this setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#default_mode GoogleCloudRunV2Job#default_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#default_mode GoogleCloudRunV2Job#default_mode}
 
 ---
 
@@ -4002,7 +4091,7 @@ items: IResolvable | typing.List[GoogleCloudRunV2JobTemplateTemplateVolumesSecre
 
 items block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#items GoogleCloudRunV2Job#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#items GoogleCloudRunV2Job#items}
 
 ---
 
@@ -4040,7 +4129,7 @@ path: str
 
 The relative path of the secret in the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#path GoogleCloudRunV2Job#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#path GoogleCloudRunV2Job#path}
 
 ---
 
@@ -4056,7 +4145,7 @@ The Cloud Secret Manager secret version.
 
 Can be 'latest' for the latest value or an integer for a specific version
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#version GoogleCloudRunV2Job#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#version GoogleCloudRunV2Job#version}
 
 ---
 
@@ -4072,7 +4161,7 @@ Integer octal mode bits to use on this file, must be a value between 01 and 0777
 
 If 0 or not set, the Volume's default mode will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#mode GoogleCloudRunV2Job#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#mode GoogleCloudRunV2Job#mode}
 
 ---
 
@@ -4110,7 +4199,7 @@ connector: str
 
 VPC Access connector name. Format: projects/{project}/locations/{location}/connectors/{connector}, where {project} can be project id or number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#connector GoogleCloudRunV2Job#connector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#connector GoogleCloudRunV2Job#connector}
 
 ---
 
@@ -4124,7 +4213,7 @@ egress: str
 
 Traffic VPC egress settings. Possible values: ["ALL_TRAFFIC", "PRIVATE_RANGES_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#egress GoogleCloudRunV2Job#egress}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#egress GoogleCloudRunV2Job#egress}
 
 ---
 
@@ -4138,7 +4227,7 @@ network_interfaces: IResolvable | typing.List[GoogleCloudRunV2JobTemplateTemplat
 
 network_interfaces block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#network_interfaces GoogleCloudRunV2Job#network_interfaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#network_interfaces GoogleCloudRunV2Job#network_interfaces}
 
 ---
 
@@ -4180,7 +4269,7 @@ At least one of network or subnetwork must be specified. If both
 network and subnetwork are specified, the given VPC subnetwork must belong to the given VPC network. If network is not specified, it will be
 looked up from the subnetwork.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#network GoogleCloudRunV2Job#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#network GoogleCloudRunV2Job#network}
 
 ---
 
@@ -4198,7 +4287,7 @@ At least one of network or subnetwork must be specified. If both
 network and subnetwork are specified, the given VPC subnetwork must belong to the given VPC network. If subnetwork is not specified, the
 subnetwork with the same name with the network will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#subnetwork GoogleCloudRunV2Job#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#subnetwork GoogleCloudRunV2Job#subnetwork}
 
 ---
 
@@ -4212,7 +4301,77 @@ tags: typing.List[str]
 
 Network tags applied to this Cloud Run job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#tags GoogleCloudRunV2Job#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#tags GoogleCloudRunV2Job#tags}
+
+---
+
+### GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig <a name="GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_cloud_run_v2_job
+
+googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig(
+  identity: str = None,
+  identity_certificate_enabled: bool | IResolvable = None,
+  identity_type: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig.property.identity">identity</a></code> | <code>str</code> | The Task's SPIFFE workload identity. Enables provisioning of SPIFFE workload certificates. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig.property.identityCertificateEnabled">identity_certificate_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Controls whether an instance receives a managed workload identity (MWLID) certificate. Defaults to true when 'identity_type' is 'IDENTITY_TYPE_AGENT_IDENTITY'. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig.property.identityType">identity_type</a></code> | <code>str</code> | The type of identity to use. |
+
+---
+
+##### `identity`<sup>Optional</sup> <a name="identity" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig.property.identity"></a>
+
+```python
+identity: str
+```
+
+- *Type:* str
+
+The Task's SPIFFE workload identity. Enables provisioning of SPIFFE workload certificates.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#identity GoogleCloudRunV2Job#identity}
+
+---
+
+##### `identity_certificate_enabled`<sup>Optional</sup> <a name="identity_certificate_enabled" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig.property.identityCertificateEnabled"></a>
+
+```python
+identity_certificate_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Controls whether an instance receives a managed workload identity (MWLID) certificate. Defaults to true when 'identity_type' is 'IDENTITY_TYPE_AGENT_IDENTITY'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#identity_certificate_enabled GoogleCloudRunV2Job#identity_certificate_enabled}
+
+---
+
+##### `identity_type`<sup>Optional</sup> <a name="identity_type" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig.property.identityType"></a>
+
+```python
+identity_type: str
+```
+
+- *Type:* str
+
+The type of identity to use.
+
+'IDENTITY_TYPE_AGENT_IDENTITY' assigns a system-managed agent identity
+and is required when the Job's 'functional_type' is 'FUNCTIONAL_TYPE_AGENT'. Once set, this field
+cannot be changed or unset. Possible values: ["IDENTITY_TYPE_SERVICE_ACCOUNT", "IDENTITY_TYPE_AGENT_IDENTITY"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#identity_type GoogleCloudRunV2Job#identity_type}
 
 ---
 
@@ -4245,9 +4404,9 @@ googleCloudRunV2Job.GoogleCloudRunV2JobTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#create GoogleCloudRunV2Job#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#delete GoogleCloudRunV2Job#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#update GoogleCloudRunV2Job#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#create GoogleCloudRunV2Job#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#delete GoogleCloudRunV2Job#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#update GoogleCloudRunV2Job#update}. |
 
 ---
 
@@ -4259,7 +4418,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#create GoogleCloudRunV2Job#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#create GoogleCloudRunV2Job#create}.
 
 ---
 
@@ -4271,7 +4430,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#delete GoogleCloudRunV2Job#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#delete GoogleCloudRunV2Job#delete}.
 
 ---
 
@@ -4283,7 +4442,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#update GoogleCloudRunV2Job#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#update GoogleCloudRunV2Job#update}.
 
 ---
 
@@ -5924,7 +6083,8 @@ def put_template(
   service_account: str = None,
   timeout: str = None,
   volumes: IResolvable | typing.List[GoogleCloudRunV2JobTemplateTemplateVolumes] = None,
-  vpc_access: GoogleCloudRunV2JobTemplateTemplateVpcAccess = None
+  vpc_access: GoogleCloudRunV2JobTemplateTemplateVpcAccess = None,
+  workload_identity_config: GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig = None
 ) -> None
 ```
 
@@ -5934,7 +6094,7 @@ def put_template(
 
 containers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#containers GoogleCloudRunV2Job#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#containers GoogleCloudRunV2Job#containers}
 
 ---
 
@@ -5946,7 +6106,7 @@ A reference to a customer managed encryption key (CMEK) to use to encrypt this c
 
 For more information, go to https://cloud.google.com/run/docs/securing/using-cmek
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#encryption_key GoogleCloudRunV2Job#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#encryption_key GoogleCloudRunV2Job#encryption_key}
 
 ---
 
@@ -5956,7 +6116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The execution environment being used to host this Task. Possible values: ["EXECUTION_ENVIRONMENT_GEN1", "EXECUTION_ENVIRONMENT_GEN2"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#execution_environment GoogleCloudRunV2Job#execution_environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#execution_environment GoogleCloudRunV2Job#execution_environment}
 
 ---
 
@@ -5966,7 +6126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 True if GPU zonal redundancy is disabled on this execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#gpu_zonal_redundancy_disabled GoogleCloudRunV2Job#gpu_zonal_redundancy_disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#gpu_zonal_redundancy_disabled GoogleCloudRunV2Job#gpu_zonal_redundancy_disabled}
 
 ---
 
@@ -5976,7 +6136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Number of retries allowed per Task, before marking this Task failed. Defaults to 3. Minimum value is 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#max_retries GoogleCloudRunV2Job#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#max_retries GoogleCloudRunV2Job#max_retries}
 
 ---
 
@@ -5986,7 +6146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 node_selector block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#node_selector GoogleCloudRunV2Job#node_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#node_selector GoogleCloudRunV2Job#node_selector}
 
 ---
 
@@ -5998,7 +6158,7 @@ Email address of the IAM service account associated with the Task of a Job.
 
 The service account represents the identity of the running task, and determines what permissions the task has. If not provided, the task will use the project's default service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#service_account GoogleCloudRunV2Job#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#service_account GoogleCloudRunV2Job#service_account}
 
 ---
 
@@ -6012,7 +6172,7 @@ This applies per attempt of a task, meaning each retry can run for the full time
 
 A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#timeout GoogleCloudRunV2Job#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#timeout GoogleCloudRunV2Job#timeout}
 
 ---
 
@@ -6022,7 +6182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 volumes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#volumes GoogleCloudRunV2Job#volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#volumes GoogleCloudRunV2Job#volumes}
 
 ---
 
@@ -6032,7 +6192,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 vpc_access block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#vpc_access GoogleCloudRunV2Job#vpc_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#vpc_access GoogleCloudRunV2Job#vpc_access}
+
+---
+
+###### `workload_identity_config`<sup>Optional</sup> <a name="workload_identity_config" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateOutputReference.putTemplate.parameter.workloadIdentityConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig">GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig</a>
+
+workload_identity_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#workload_identity_config GoogleCloudRunV2Job#workload_identity_config}
 
 ---
 
@@ -6679,7 +6849,7 @@ def put_value_source(
 
 secret_key_ref block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#secret_key_ref GoogleCloudRunV2Job#secret_key_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#secret_key_ref GoogleCloudRunV2Job#secret_key_ref}
 
 ---
 
@@ -7054,7 +7224,7 @@ The name of the secret in Cloud Secret Manager.
 
 Format: {secretName} if the secret is in the same project. projects/{project}/secrets/{secretName} if the secret is in a different project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#secret GoogleCloudRunV2Job#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#secret GoogleCloudRunV2Job#secret}
 
 ---
 
@@ -7066,7 +7236,7 @@ The Cloud Secret Manager secret version.
 
 Can be 'latest' for the latest value or an integer for a specific version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#version GoogleCloudRunV2Job#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#version GoogleCloudRunV2Job#version}
 
 ---
 
@@ -7938,7 +8108,7 @@ def put_resources(
 
 Only memory, CPU, and nvidia.com/gpu are supported. Use key 'cpu' for CPU limit, 'memory' for memory limit, 'nvidia.com/gpu' for gpu limit. Note: The only supported values for CPU are '1', '2', '4', '6', and '8'. Setting 4 CPU requires at least 2Gi of memory, setting 6 or more CPU requires at least 4Gi of memory. The values of the map is string form of the 'quantity' k8s type: https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apimachinery/pkg/api/resource/quantity.go.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#limits GoogleCloudRunV2Job#limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#limits GoogleCloudRunV2Job#limits}
 
 ---
 
@@ -7962,7 +8132,7 @@ def put_startup_probe(
 
 Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#failure_threshold GoogleCloudRunV2Job#failure_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#failure_threshold GoogleCloudRunV2Job#failure_threshold}
 
 ---
 
@@ -7972,7 +8142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 grpc block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#grpc GoogleCloudRunV2Job#grpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#grpc GoogleCloudRunV2Job#grpc}
 
 ---
 
@@ -7982,7 +8152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 http_get block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#http_get GoogleCloudRunV2Job#http_get}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#http_get GoogleCloudRunV2Job#http_get}
 
 ---
 
@@ -7994,7 +8164,7 @@ Number of seconds after the container has started before the probe is initiated.
 
 Defaults to 0 seconds. Minimum value is 0. Maximum value is 240.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#initial_delay_seconds GoogleCloudRunV2Job#initial_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#initial_delay_seconds GoogleCloudRunV2Job#initial_delay_seconds}
 
 ---
 
@@ -8004,7 +8174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1. Maximum value is 240.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#period_seconds GoogleCloudRunV2Job#period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#period_seconds GoogleCloudRunV2Job#period_seconds}
 
 ---
 
@@ -8014,7 +8184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 tcp_socket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#tcp_socket GoogleCloudRunV2Job#tcp_socket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#tcp_socket GoogleCloudRunV2Job#tcp_socket}
 
 ---
 
@@ -8027,7 +8197,7 @@ Number of seconds after which the probe times out.
 Defaults to 1 second. Minimum value is 1. Maximum value is 3600.
 Must be smaller than periodSeconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#timeout_seconds GoogleCloudRunV2Job#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#timeout_seconds GoogleCloudRunV2Job#timeout_seconds}
 
 ---
 
@@ -10725,7 +10895,7 @@ Port number to access on the container.
 Number must be in the range 1 to 65535.
 If not specified, defaults to the same value as container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
 
 ---
 
@@ -10735,7 +10905,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#service GoogleCloudRunV2Job#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#service GoogleCloudRunV2Job#service}
 
 ---
 
@@ -10755,7 +10925,7 @@ def put_http_get(
 
 http_headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#http_headers GoogleCloudRunV2Job#http_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#http_headers GoogleCloudRunV2Job#http_headers}
 
 ---
 
@@ -10765,7 +10935,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Path to access on the HTTP server. If set, it should not be empty string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#path GoogleCloudRunV2Job#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#path GoogleCloudRunV2Job#path}
 
 ---
 
@@ -10778,7 +10948,7 @@ Port number to access on the container.
 Number must be in the range 1 to 65535.
 If not specified, defaults to the same value as container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
 
 ---
 
@@ -10799,7 +10969,7 @@ Port number to access on the container.
 Number must be in the range 1 to 65535.
 If not specified, defaults to the same value as container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#port GoogleCloudRunV2Job#port}
 
 ---
 
@@ -12238,6 +12408,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.putNodeSelector">put_node_selector</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.putVolumes">put_volumes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.putVpcAccess">put_vpc_access</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.putWorkloadIdentityConfig">put_workload_identity_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.resetContainers">reset_containers</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.resetEncryptionKey">reset_encryption_key</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.resetExecutionEnvironment">reset_execution_environment</a></code> | *No description.* |
@@ -12248,6 +12419,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.resetTimeout">reset_timeout</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.resetVolumes">reset_volumes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.resetVpcAccess">reset_vpc_access</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.resetWorkloadIdentityConfig">reset_workload_identity_config</a></code> | *No description.* |
 
 ---
 
@@ -12451,7 +12623,7 @@ def put_node_selector(
 
 The GPU to attach to an instance. See https://cloud.google.com/run/docs/configuring/jobs/gpu for configuring GPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#accelerator GoogleCloudRunV2Job#accelerator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#accelerator GoogleCloudRunV2Job#accelerator}
 
 ---
 
@@ -12485,7 +12657,7 @@ def put_vpc_access(
 
 VPC Access connector name. Format: projects/{project}/locations/{location}/connectors/{connector}, where {project} can be project id or number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#connector GoogleCloudRunV2Job#connector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#connector GoogleCloudRunV2Job#connector}
 
 ---
 
@@ -12495,7 +12667,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Traffic VPC egress settings. Possible values: ["ALL_TRAFFIC", "PRIVATE_RANGES_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#egress GoogleCloudRunV2Job#egress}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#egress GoogleCloudRunV2Job#egress}
 
 ---
 
@@ -12505,7 +12677,51 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 network_interfaces block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#network_interfaces GoogleCloudRunV2Job#network_interfaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#network_interfaces GoogleCloudRunV2Job#network_interfaces}
+
+---
+
+##### `put_workload_identity_config` <a name="put_workload_identity_config" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.putWorkloadIdentityConfig"></a>
+
+```python
+def put_workload_identity_config(
+  identity: str = None,
+  identity_certificate_enabled: bool | IResolvable = None,
+  identity_type: str = None
+) -> None
+```
+
+###### `identity`<sup>Optional</sup> <a name="identity" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.putWorkloadIdentityConfig.parameter.identity"></a>
+
+- *Type:* str
+
+The Task's SPIFFE workload identity. Enables provisioning of SPIFFE workload certificates.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#identity GoogleCloudRunV2Job#identity}
+
+---
+
+###### `identity_certificate_enabled`<sup>Optional</sup> <a name="identity_certificate_enabled" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.putWorkloadIdentityConfig.parameter.identityCertificateEnabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Controls whether an instance receives a managed workload identity (MWLID) certificate. Defaults to true when 'identity_type' is 'IDENTITY_TYPE_AGENT_IDENTITY'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#identity_certificate_enabled GoogleCloudRunV2Job#identity_certificate_enabled}
+
+---
+
+###### `identity_type`<sup>Optional</sup> <a name="identity_type" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.putWorkloadIdentityConfig.parameter.identityType"></a>
+
+- *Type:* str
+
+The type of identity to use.
+
+'IDENTITY_TYPE_AGENT_IDENTITY' assigns a system-managed agent identity
+and is required when the Job's 'functional_type' is 'FUNCTIONAL_TYPE_AGENT'. Once set, this field
+cannot be changed or unset. Possible values: ["IDENTITY_TYPE_SERVICE_ACCOUNT", "IDENTITY_TYPE_AGENT_IDENTITY"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#identity_type GoogleCloudRunV2Job#identity_type}
 
 ---
 
@@ -12569,6 +12785,12 @@ def reset_volumes() -> None
 def reset_vpc_access() -> None
 ```
 
+##### `reset_workload_identity_config` <a name="reset_workload_identity_config" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.resetWorkloadIdentityConfig"></a>
+
+```python
+def reset_workload_identity_config() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -12580,6 +12802,7 @@ def reset_vpc_access() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.nodeSelector">node_selector</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateNodeSelectorOutputReference">GoogleCloudRunV2JobTemplateTemplateNodeSelectorOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.volumes">volumes</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateVolumesList">GoogleCloudRunV2JobTemplateTemplateVolumesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.vpcAccess">vpc_access</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateVpcAccessOutputReference">GoogleCloudRunV2JobTemplateTemplateVpcAccessOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.workloadIdentityConfig">workload_identity_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference">GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.containersInput">containers_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateContainers">GoogleCloudRunV2JobTemplateTemplateContainers</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.encryptionKeyInput">encryption_key_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.executionEnvironmentInput">execution_environment_input</a></code> | <code>str</code> | *No description.* |
@@ -12590,6 +12813,7 @@ def reset_vpc_access() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.timeoutInput">timeout_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.volumesInput">volumes_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateVolumes">GoogleCloudRunV2JobTemplateTemplateVolumes</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.vpcAccessInput">vpc_access_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateVpcAccess">GoogleCloudRunV2JobTemplateTemplateVpcAccess</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.workloadIdentityConfigInput">workload_identity_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig">GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.encryptionKey">encryption_key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.executionEnvironment">execution_environment</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.gpuZonalRedundancyDisabled">gpu_zonal_redundancy_disabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -12661,6 +12885,16 @@ vpc_access: GoogleCloudRunV2JobTemplateTemplateVpcAccessOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateVpcAccessOutputReference">GoogleCloudRunV2JobTemplateTemplateVpcAccessOutputReference</a>
+
+---
+
+##### `workload_identity_config`<sup>Required</sup> <a name="workload_identity_config" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.workloadIdentityConfig"></a>
+
+```python
+workload_identity_config: GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference">GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference</a>
 
 ---
 
@@ -12761,6 +12995,16 @@ vpc_access_input: GoogleCloudRunV2JobTemplateTemplateVpcAccess
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateVpcAccess">GoogleCloudRunV2JobTemplateTemplateVpcAccess</a>
+
+---
+
+##### `workload_identity_config_input`<sup>Optional</sup> <a name="workload_identity_config_input" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateOutputReference.property.workloadIdentityConfigInput"></a>
+
+```python
+workload_identity_config_input: GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig">GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig</a>
 
 ---
 
@@ -14620,7 +14864,7 @@ def put_cloud_sql_instance(
 
 The Cloud SQL instance connection names, as can be found in https://console.cloud.google.com/sql/instances. Visit https://cloud.google.com/sql/docs/mysql/connect-run for more information on how to connect Cloud SQL and Cloud Run. Format: {project}:{location}:{instance}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#instances GoogleCloudRunV2Job#instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#instances GoogleCloudRunV2Job#instances}
 
 ---
 
@@ -14639,7 +14883,7 @@ def put_empty_dir(
 
 The different types of medium supported for EmptyDir. Default value: "MEMORY" Possible values: ["MEMORY", "DISK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#medium GoogleCloudRunV2Job#medium}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#medium GoogleCloudRunV2Job#medium}
 
 ---
 
@@ -14651,7 +14895,7 @@ Limit on the storage usable by this EmptyDir volume.
 
 The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. This field's values are of the 'Quantity' k8s type: https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes/#emptydir.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#size_limit GoogleCloudRunV2Job#size_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#size_limit GoogleCloudRunV2Job#size_limit}
 
 ---
 
@@ -14673,7 +14917,7 @@ Name of the cloud storage bucket to back the volume.
 
 The resource service account must have permission to access the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#bucket GoogleCloudRunV2Job#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#bucket GoogleCloudRunV2Job#bucket}
 
 ---
 
@@ -14685,7 +14929,7 @@ A list of flags to pass to the gcsfuse command for configuring this volume.
 
 Flags should be passed without leading dashes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#mount_options GoogleCloudRunV2Job#mount_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#mount_options GoogleCloudRunV2Job#mount_options}
 
 ---
 
@@ -14695,7 +14939,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If true, mount this volume as read-only in all mounts. If false, mount this volume as read-write.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#read_only GoogleCloudRunV2Job#read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#read_only GoogleCloudRunV2Job#read_only}
 
 ---
 
@@ -14715,7 +14959,7 @@ def put_nfs(
 
 Hostname or IP address of the NFS server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#server GoogleCloudRunV2Job#server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#server GoogleCloudRunV2Job#server}
 
 ---
 
@@ -14725,7 +14969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Path that is exported by the NFS server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#path GoogleCloudRunV2Job#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#path GoogleCloudRunV2Job#path}
 
 ---
 
@@ -14735,7 +14979,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If true, mount this volume as read-only in all mounts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#read_only GoogleCloudRunV2Job#read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#read_only GoogleCloudRunV2Job#read_only}
 
 ---
 
@@ -14757,7 +15001,7 @@ The name of the secret in Cloud Secret Manager.
 
 Format: {secret} if the secret is in the same project. projects/{project}/secrets/{secret} if the secret is in a different project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#secret GoogleCloudRunV2Job#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#secret GoogleCloudRunV2Job#secret}
 
 ---
 
@@ -14769,7 +15013,7 @@ Integer representation of mode bits to use on created files by default.
 
 Must be a value between 0000 and 0777 (octal), defaulting to 0444. Directories within the path are not affected by this setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#default_mode GoogleCloudRunV2Job#default_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#default_mode GoogleCloudRunV2Job#default_mode}
 
 ---
 
@@ -14779,7 +15023,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 items block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_job#items GoogleCloudRunV2Job#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_job#items GoogleCloudRunV2Job#items}
 
 ---
 
@@ -16820,6 +17064,367 @@ internal_value: GoogleCloudRunV2JobTemplateTemplateVpcAccess
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateVpcAccess">GoogleCloudRunV2JobTemplateTemplateVpcAccess</a>
+
+---
+
+
+### GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference <a name="GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_cloud_run_v2_job
+
+googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.resetIdentity">reset_identity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.resetIdentityCertificateEnabled">reset_identity_certificate_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.resetIdentityType">reset_identity_type</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_identity` <a name="reset_identity" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.resetIdentity"></a>
+
+```python
+def reset_identity() -> None
+```
+
+##### `reset_identity_certificate_enabled` <a name="reset_identity_certificate_enabled" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.resetIdentityCertificateEnabled"></a>
+
+```python
+def reset_identity_certificate_enabled() -> None
+```
+
+##### `reset_identity_type` <a name="reset_identity_type" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.resetIdentityType"></a>
+
+```python
+def reset_identity_type() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identityCertificateEnabledInput">identity_certificate_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identityInput">identity_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identityTypeInput">identity_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identity">identity</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identityCertificateEnabled">identity_certificate_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identityType">identity_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig">GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `identity_certificate_enabled_input`<sup>Optional</sup> <a name="identity_certificate_enabled_input" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identityCertificateEnabledInput"></a>
+
+```python
+identity_certificate_enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `identity_input`<sup>Optional</sup> <a name="identity_input" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identityInput"></a>
+
+```python
+identity_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `identity_type_input`<sup>Optional</sup> <a name="identity_type_input" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identityTypeInput"></a>
+
+```python
+identity_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `identity`<sup>Required</sup> <a name="identity" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identity"></a>
+
+```python
+identity: str
+```
+
+- *Type:* str
+
+---
+
+##### `identity_certificate_enabled`<sup>Required</sup> <a name="identity_certificate_enabled" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identityCertificateEnabled"></a>
+
+```python
+identity_certificate_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `identity_type`<sup>Required</sup> <a name="identity_type" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.identityType"></a>
+
+```python
+identity_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig">GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig</a>
 
 ---
 
