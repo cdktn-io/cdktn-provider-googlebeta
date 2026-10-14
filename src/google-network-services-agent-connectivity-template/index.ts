@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,20 +16,28 @@ export interface GoogleNetworkServicesAgentConnectivityTemplateConfig extends cd
   * The path of the access.
   * The path is immutable once set. Exactly one path can be set. Possible values: ["CLIENT_TO_AGENT", "AGENT_TO_ANYWHERE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#access_path GoogleNetworkServicesAgentConnectivityTemplate#access_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#access_path GoogleNetworkServicesAgentConnectivityTemplate#access_path}
   */
   readonly accessPath: string;
   /**
   * The types of network access provided to the gateway.
   * Both PUBLIC and PRIVATE can be configured. Possible values: ["PUBLIC", "PRIVATE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#access_types GoogleNetworkServicesAgentConnectivityTemplate#access_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#access_types GoogleNetworkServicesAgentConnectivityTemplate#access_types}
   */
   readonly accessTypes?: string[];
   /**
+  * The compute environment where the agent is hosted.
+  * Exactly one type of compute must be chosen.
+  * Possible values are: 'GKE', 'CLOUD_RUN'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#agent_compute GoogleNetworkServicesAgentConnectivityTemplate#agent_compute}
+  */
+  readonly agentCompute?: string;
+  /**
   * Short name of the AgentConnectivityTemplate resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#agent_connectivity_template_id GoogleNetworkServicesAgentConnectivityTemplate#agent_connectivity_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#agent_connectivity_template_id GoogleNetworkServicesAgentConnectivityTemplate#agent_connectivity_template_id}
   */
   readonly agentConnectivityTemplateId: string;
   /**
@@ -41,17 +49,24 @@ export interface GoogleNetworkServicesAgentConnectivityTemplateConfig extends cd
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#deletion_policy GoogleNetworkServicesAgentConnectivityTemplate#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#deletion_policy GoogleNetworkServicesAgentConnectivityTemplate#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
+  * The deployment model for the gateway.
+  * Possible values are: 'CENTRALIZED', 'AMBIENT'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#deployment_model GoogleNetworkServicesAgentConnectivityTemplate#deployment_model}
+  */
+  readonly deploymentModel?: string;
+  /**
   * A free-text description of the resource. Max length 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#description GoogleNetworkServicesAgentConnectivityTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#description GoogleNetworkServicesAgentConnectivityTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#id GoogleNetworkServicesAgentConnectivityTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#id GoogleNetworkServicesAgentConnectivityTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,29 +79,29 @@ export interface GoogleNetworkServicesAgentConnectivityTemplateConfig extends cd
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#labels GoogleNetworkServicesAgentConnectivityTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#labels GoogleNetworkServicesAgentConnectivityTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location of the AgentConnectivityTemplate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#location GoogleNetworkServicesAgentConnectivityTemplate#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#location GoogleNetworkServicesAgentConnectivityTemplate#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#project GoogleNetworkServicesAgentConnectivityTemplate#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#project GoogleNetworkServicesAgentConnectivityTemplate#project}
   */
   readonly project?: string;
   /**
   * egress_network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#egress_network_config GoogleNetworkServicesAgentConnectivityTemplate#egress_network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#egress_network_config GoogleNetworkServicesAgentConnectivityTemplate#egress_network_config}
   */
   readonly egressNetworkConfig?: GoogleNetworkServicesAgentConnectivityTemplateEgressNetworkConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#timeouts GoogleNetworkServicesAgentConnectivityTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#timeouts GoogleNetworkServicesAgentConnectivityTemplate#timeouts}
   */
   readonly timeouts?: GoogleNetworkServicesAgentConnectivityTemplateTimeouts;
 }
@@ -95,7 +110,7 @@ export interface GoogleNetworkServicesAgentConnectivityTemplateEgressNetworkConf
   * The domain name to peer for DNS resolution. Must be a fully
   * qualified domain name ending with a dot (for example, 'example.com.').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#domain GoogleNetworkServicesAgentConnectivityTemplate#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#domain GoogleNetworkServicesAgentConnectivityTemplate#domain}
   */
   readonly domain?: string;
   /**
@@ -104,14 +119,14 @@ export interface GoogleNetworkServicesAgentConnectivityTemplateEgressNetworkConf
   * (for example, 'example.com.'). At least one domain must be
   * specified between 'domain' and 'domains'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#domains GoogleNetworkServicesAgentConnectivityTemplate#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#domains GoogleNetworkServicesAgentConnectivityTemplate#domains}
   */
   readonly domains?: string[];
   /**
   * The URI of the target VPC network for DNS peering. Must be of the
   * form 'projects/{project}/global/networks/{network}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#target_network GoogleNetworkServicesAgentConnectivityTemplate#target_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#target_network GoogleNetworkServicesAgentConnectivityTemplate#target_network}
   */
   readonly targetNetwork: string;
 }
@@ -252,14 +267,14 @@ export interface GoogleNetworkServicesAgentConnectivityTemplateEgressNetworkConf
   /**
   * Defines whether additional roots should be trusted. Possible values: ["NO_ADDITIONAL_ROOTS", "PUBLICLY_TRUSTED_ROOTS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#additional_roots GoogleNetworkServicesAgentConnectivityTemplate#additional_roots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#additional_roots GoogleNetworkServicesAgentConnectivityTemplate#additional_roots}
   */
   readonly additionalRoots: string;
   /**
   * The trust config resource name.
   * Format: projects/{project}/locations/{location}/trustConfigs/{trust_config}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#trust_config GoogleNetworkServicesAgentConnectivityTemplate#trust_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#trust_config GoogleNetworkServicesAgentConnectivityTemplate#trust_config}
   */
   readonly trustConfig?: string;
 }
@@ -372,25 +387,25 @@ export interface GoogleNetworkServicesAgentConnectivityTemplateEgressNetworkConf
   * The network attachment resource name.
   * Format: projects/{project}/regions/{region}/networkAttachments/{network_attachment_id}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#network_attachment GoogleNetworkServicesAgentConnectivityTemplate#network_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#network_attachment GoogleNetworkServicesAgentConnectivityTemplate#network_attachment}
   */
   readonly networkAttachment?: string;
   /**
   * The VPC egress setting. Possible values: ["ALL_TRAFFIC", "PRIVATE_RANGES_ONLY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#vpc_egress GoogleNetworkServicesAgentConnectivityTemplate#vpc_egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#vpc_egress GoogleNetworkServicesAgentConnectivityTemplate#vpc_egress}
   */
   readonly vpcEgress?: string;
   /**
   * dns_peering_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#dns_peering_config GoogleNetworkServicesAgentConnectivityTemplate#dns_peering_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#dns_peering_config GoogleNetworkServicesAgentConnectivityTemplate#dns_peering_config}
   */
   readonly dnsPeeringConfig?: GoogleNetworkServicesAgentConnectivityTemplateEgressNetworkConfigDnsPeeringConfig;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#tls_config GoogleNetworkServicesAgentConnectivityTemplate#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#tls_config GoogleNetworkServicesAgentConnectivityTemplate#tls_config}
   */
   readonly tlsConfig?: GoogleNetworkServicesAgentConnectivityTemplateEgressNetworkConfigTlsConfig;
 }
@@ -561,15 +576,15 @@ export class GoogleNetworkServicesAgentConnectivityTemplateEgressNetworkConfigOu
 }
 export interface GoogleNetworkServicesAgentConnectivityTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#create GoogleNetworkServicesAgentConnectivityTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#create GoogleNetworkServicesAgentConnectivityTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#delete GoogleNetworkServicesAgentConnectivityTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#delete GoogleNetworkServicesAgentConnectivityTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#update GoogleNetworkServicesAgentConnectivityTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#update GoogleNetworkServicesAgentConnectivityTemplate#update}
   */
   readonly update?: string;
 }
@@ -721,7 +736,7 @@ export class GoogleNetworkServicesAgentConnectivityTemplateTimeoutsOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template}
 */
 export class GoogleNetworkServicesAgentConnectivityTemplate extends cdktn.TerraformResource {
 
@@ -737,7 +752,7 @@ export class GoogleNetworkServicesAgentConnectivityTemplate extends cdktn.Terraf
   * Generates CDKTN code for importing a GoogleNetworkServicesAgentConnectivityTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkServicesAgentConnectivityTemplate to import
-  * @param importFromId The id of the existing GoogleNetworkServicesAgentConnectivityTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetworkServicesAgentConnectivityTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkServicesAgentConnectivityTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -749,7 +764,7 @@ export class GoogleNetworkServicesAgentConnectivityTemplate extends cdktn.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -760,7 +775,7 @@ export class GoogleNetworkServicesAgentConnectivityTemplate extends cdktn.Terraf
       terraformResourceType: 'google_network_services_agent_connectivity_template',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.6.0',
+        providerVersion: '8.7.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
@@ -773,8 +788,10 @@ export class GoogleNetworkServicesAgentConnectivityTemplate extends cdktn.Terraf
     });
     this._accessPath = config.accessPath;
     this._accessTypes = config.accessTypes;
+    this._agentCompute = config.agentCompute;
     this._agentConnectivityTemplateId = config.agentConnectivityTemplateId;
     this._deletionPolicy = config.deletionPolicy;
+    this._deploymentModel = config.deploymentModel;
     this._description = config.description;
     this._id = config.id;
     this._labels = config.labels;
@@ -817,6 +834,22 @@ export class GoogleNetworkServicesAgentConnectivityTemplate extends cdktn.Terraf
     return this._accessTypes;
   }
 
+  // agent_compute - computed: false, optional: true, required: false
+  private _agentCompute?: string; 
+  public get agentCompute() {
+    return this.getStringAttribute('agent_compute');
+  }
+  public set agentCompute(value: string) {
+    this._agentCompute = value;
+  }
+  public resetAgentCompute() {
+    this._agentCompute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentComputeInput() {
+    return this._agentCompute;
+  }
+
   // agent_connectivity_template_id - computed: false, optional: false, required: true
   private _agentConnectivityTemplateId?: string; 
   public get agentConnectivityTemplateId() {
@@ -849,6 +882,22 @@ export class GoogleNetworkServicesAgentConnectivityTemplate extends cdktn.Terraf
   // Temporarily expose input value. Use with caution.
   public get deletionPolicyInput() {
     return this._deletionPolicy;
+  }
+
+  // deployment_model - computed: false, optional: true, required: false
+  private _deploymentModel?: string; 
+  public get deploymentModel() {
+    return this.getStringAttribute('deployment_model');
+  }
+  public set deploymentModel(value: string) {
+    this._deploymentModel = value;
+  }
+  public resetDeploymentModel() {
+    this._deploymentModel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deploymentModelInput() {
+    return this._deploymentModel;
   }
 
   // description - computed: false, optional: true, required: false
@@ -995,8 +1044,10 @@ export class GoogleNetworkServicesAgentConnectivityTemplate extends cdktn.Terraf
     return {
       access_path: cdktn.stringToTerraform(this._accessPath),
       access_types: cdktn.listMapper(cdktn.stringToTerraform, false)(this._accessTypes),
+      agent_compute: cdktn.stringToTerraform(this._agentCompute),
       agent_connectivity_template_id: cdktn.stringToTerraform(this._agentConnectivityTemplateId),
       deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
+      deployment_model: cdktn.stringToTerraform(this._deploymentModel),
       description: cdktn.stringToTerraform(this._description),
       id: cdktn.stringToTerraform(this._id),
       labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
@@ -1021,6 +1072,12 @@ export class GoogleNetworkServicesAgentConnectivityTemplate extends cdktn.Terraf
         type: "list",
         storageClassType: "stringList",
       },
+      agent_compute: {
+        value: cdktn.stringToHclTerraform(this._agentCompute),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       agent_connectivity_template_id: {
         value: cdktn.stringToHclTerraform(this._agentConnectivityTemplateId),
         isBlock: false,
@@ -1029,6 +1086,12 @@ export class GoogleNetworkServicesAgentConnectivityTemplate extends cdktn.Terraf
       },
       deletion_policy: {
         value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deployment_model: {
+        value: cdktn.stringToHclTerraform(this._deploymentModel),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

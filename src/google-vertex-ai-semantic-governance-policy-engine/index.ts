@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,36 +21,36 @@ export interface GoogleVertexAiSemanticGovernancePolicyEngineConfig extends cdkt
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#deletion_policy GoogleVertexAiSemanticGovernancePolicyEngine#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#deletion_policy GoogleVertexAiSemanticGovernancePolicyEngine#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#id GoogleVertexAiSemanticGovernancePolicyEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#id GoogleVertexAiSemanticGovernancePolicyEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#project GoogleVertexAiSemanticGovernancePolicyEngine#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#project GoogleVertexAiSemanticGovernancePolicyEngine#project}
   */
   readonly project?: string;
   /**
   * The region of the SemanticGovernancePolicyEngine, e.g. 'us-central1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#region GoogleVertexAiSemanticGovernancePolicyEngine#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#region GoogleVertexAiSemanticGovernancePolicyEngine#region}
   */
   readonly region?: string;
   /**
   * gateway_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#gateway_configs GoogleVertexAiSemanticGovernancePolicyEngine#gateway_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#gateway_configs GoogleVertexAiSemanticGovernancePolicyEngine#gateway_configs}
   */
   readonly gatewayConfigs?: GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#timeouts GoogleVertexAiSemanticGovernancePolicyEngine#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#timeouts GoogleVertexAiSemanticGovernancePolicyEngine#timeouts}
   */
   readonly timeouts?: GoogleVertexAiSemanticGovernancePolicyEngineTimeouts;
 }
@@ -64,7 +64,7 @@ export interface GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs {
   * SemanticGovernancePolicyEngine's own project is always permitted
   * implicitly and need not be listed. Format: projects/{project} (ID or number).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#allowed_projects GoogleVertexAiSemanticGovernancePolicyEngine#allowed_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#allowed_projects GoogleVertexAiSemanticGovernancePolicyEngine#allowed_projects}
   */
   readonly allowedProjects?: string[];
   /**
@@ -75,11 +75,11 @@ export interface GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs {
   * time. The name must match '^[a-z0-9.-]{1,63}$'. Must be set together
   * with 'network' and 'subnetwork' (all three or none).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#dns_zone_name GoogleVertexAiSemanticGovernancePolicyEngine#dns_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#dns_zone_name GoogleVertexAiSemanticGovernancePolicyEngine#dns_zone_name}
   */
   readonly dnsZoneName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#name GoogleVertexAiSemanticGovernancePolicyEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#name GoogleVertexAiSemanticGovernancePolicyEngine#name}
   */
   readonly name: string;
   /**
@@ -88,7 +88,7 @@ export interface GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs {
   * 'network', 'subnetwork', and 'dns_zone_name' must all be set together
   * or all omitted; setting only some is rejected by the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#network GoogleVertexAiSemanticGovernancePolicyEngine#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#network GoogleVertexAiSemanticGovernancePolicyEngine#network}
   */
   readonly network?: string;
   /**
@@ -97,7 +97,7 @@ export interface GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigs {
   * projects/{project}/regions/{region}/subnetworks/{subnetwork}. Must be
   * set together with 'network' and 'dns_zone_name' (all three or none).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#subnetwork GoogleVertexAiSemanticGovernancePolicyEngine#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#subnetwork GoogleVertexAiSemanticGovernancePolicyEngine#subnetwork}
   */
   readonly subnetwork?: string;
 }
@@ -346,15 +346,15 @@ export class GoogleVertexAiSemanticGovernancePolicyEngineGatewayConfigsList exte
 }
 export interface GoogleVertexAiSemanticGovernancePolicyEngineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#create GoogleVertexAiSemanticGovernancePolicyEngine#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#create GoogleVertexAiSemanticGovernancePolicyEngine#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#delete GoogleVertexAiSemanticGovernancePolicyEngine#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#delete GoogleVertexAiSemanticGovernancePolicyEngine#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#update GoogleVertexAiSemanticGovernancePolicyEngine#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#update GoogleVertexAiSemanticGovernancePolicyEngine#update}
   */
   readonly update?: string;
 }
@@ -506,7 +506,7 @@ export class GoogleVertexAiSemanticGovernancePolicyEngineTimeoutsOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine}
 */
 export class GoogleVertexAiSemanticGovernancePolicyEngine extends cdktn.TerraformResource {
 
@@ -522,7 +522,7 @@ export class GoogleVertexAiSemanticGovernancePolicyEngine extends cdktn.Terrafor
   * Generates CDKTN code for importing a GoogleVertexAiSemanticGovernancePolicyEngine resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiSemanticGovernancePolicyEngine to import
-  * @param importFromId The id of the existing GoogleVertexAiSemanticGovernancePolicyEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVertexAiSemanticGovernancePolicyEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiSemanticGovernancePolicyEngine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -534,7 +534,7 @@ export class GoogleVertexAiSemanticGovernancePolicyEngine extends cdktn.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -545,7 +545,7 @@ export class GoogleVertexAiSemanticGovernancePolicyEngine extends cdktn.Terrafor
       terraformResourceType: 'google_vertex_ai_semantic_governance_policy_engine',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.6.0',
+        providerVersion: '8.7.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
