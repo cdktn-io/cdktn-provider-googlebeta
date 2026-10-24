@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,11 +17,11 @@ export interface GoogleNetworkManagementNetworkMonitoringProviderConfig extends 
   * Setting 'deletion_policy = "FORCE"' forces the deletion of all nested resources
   * (MonitoringPoints, NetworkPaths, WebPaths) belonging to this provider on deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider#deletion_policy GoogleNetworkManagementNetworkMonitoringProvider#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider#deletion_policy GoogleNetworkManagementNetworkMonitoringProvider#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider#id GoogleNetworkManagementNetworkMonitoringProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider#id GoogleNetworkManagementNetworkMonitoringProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,45 +30,45 @@ export interface GoogleNetworkManagementNetworkMonitoringProviderConfig extends 
   /**
   * The location of the Network Monitoring Provider. Currently only 'global' is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider#location GoogleNetworkManagementNetworkMonitoringProvider#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider#location GoogleNetworkManagementNetworkMonitoringProvider#location}
   */
   readonly location: string;
   /**
   * The ID to use for the Network Monitoring Provider. This will become the last
   * component of the provider's resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider#network_monitoring_provider_id GoogleNetworkManagementNetworkMonitoringProvider#network_monitoring_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider#network_monitoring_provider_id GoogleNetworkManagementNetworkMonitoringProvider#network_monitoring_provider_id}
   */
   readonly networkMonitoringProviderId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider#project GoogleNetworkManagementNetworkMonitoringProvider#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider#project GoogleNetworkManagementNetworkMonitoringProvider#project}
   */
   readonly project?: string;
   /**
   * The type of the Network Monitoring Provider.
   * Currently only 'EXTERNAL' is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider#provider_type GoogleNetworkManagementNetworkMonitoringProvider#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider#provider_type GoogleNetworkManagementNetworkMonitoringProvider#provider_type}
   */
   readonly providerType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider#timeouts GoogleNetworkManagementNetworkMonitoringProvider#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider#timeouts GoogleNetworkManagementNetworkMonitoringProvider#timeouts}
   */
   readonly timeouts?: GoogleNetworkManagementNetworkMonitoringProviderTimeouts;
 }
 export interface GoogleNetworkManagementNetworkMonitoringProviderTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider#create GoogleNetworkManagementNetworkMonitoringProvider#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider#create GoogleNetworkManagementNetworkMonitoringProvider#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider#delete GoogleNetworkManagementNetworkMonitoringProvider#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider#delete GoogleNetworkManagementNetworkMonitoringProvider#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider#update GoogleNetworkManagementNetworkMonitoringProvider#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider#update GoogleNetworkManagementNetworkMonitoringProvider#update}
   */
   readonly update?: string;
 }
@@ -220,7 +220,7 @@ export class GoogleNetworkManagementNetworkMonitoringProviderTimeoutsOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider google_network_management_network_monitoring_provider}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider google_network_management_network_monitoring_provider}
 */
 export class GoogleNetworkManagementNetworkMonitoringProvider extends cdktn.TerraformResource {
 
@@ -236,7 +236,7 @@ export class GoogleNetworkManagementNetworkMonitoringProvider extends cdktn.Terr
   * Generates CDKTN code for importing a GoogleNetworkManagementNetworkMonitoringProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkManagementNetworkMonitoringProvider to import
-  * @param importFromId The id of the existing GoogleNetworkManagementNetworkMonitoringProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetworkManagementNetworkMonitoringProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkManagementNetworkMonitoringProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -248,7 +248,7 @@ export class GoogleNetworkManagementNetworkMonitoringProvider extends cdktn.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider google_network_management_network_monitoring_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_network_management_network_monitoring_provider google_network_management_network_monitoring_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,7 +259,7 @@ export class GoogleNetworkManagementNetworkMonitoringProvider extends cdktn.Terr
       terraformResourceType: 'google_network_management_network_monitoring_provider',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.7.0',
+        providerVersion: '8.8.1',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,

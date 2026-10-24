@@ -286,6 +286,10 @@ Object.defineProperty(exports, 'googleCloudRunService', { get: function () { ret
 Object.defineProperty(exports, 'googleCloudRunServiceIamBinding', { get: function () { return require('./google-cloud-run-service-iam-binding'); } });
 Object.defineProperty(exports, 'googleCloudRunServiceIamMember', { get: function () { return require('./google-cloud-run-service-iam-member'); } });
 Object.defineProperty(exports, 'googleCloudRunServiceIamPolicy', { get: function () { return require('./google-cloud-run-service-iam-policy'); } });
+Object.defineProperty(exports, 'googleCloudRunV2Instance', { get: function () { return require('./google-cloud-run-v2-instance'); } });
+Object.defineProperty(exports, 'googleCloudRunV2InstanceIamBinding', { get: function () { return require('./google-cloud-run-v2-instance-iam-binding'); } });
+Object.defineProperty(exports, 'googleCloudRunV2InstanceIamMember', { get: function () { return require('./google-cloud-run-v2-instance-iam-member'); } });
+Object.defineProperty(exports, 'googleCloudRunV2InstanceIamPolicy', { get: function () { return require('./google-cloud-run-v2-instance-iam-policy'); } });
 Object.defineProperty(exports, 'googleCloudRunV2Job', { get: function () { return require('./google-cloud-run-v2-job'); } });
 Object.defineProperty(exports, 'googleCloudRunV2JobIamBinding', { get: function () { return require('./google-cloud-run-v2-job-iam-binding'); } });
 Object.defineProperty(exports, 'googleCloudRunV2JobIamMember', { get: function () { return require('./google-cloud-run-v2-job-iam-member'); } });
@@ -747,6 +751,7 @@ Object.defineProperty(exports, 'googleDnsManagedZone', { get: function () { retu
 Object.defineProperty(exports, 'googleDnsManagedZoneIamBinding', { get: function () { return require('./google-dns-managed-zone-iam-binding'); } });
 Object.defineProperty(exports, 'googleDnsManagedZoneIamMember', { get: function () { return require('./google-dns-managed-zone-iam-member'); } });
 Object.defineProperty(exports, 'googleDnsManagedZoneIamPolicy', { get: function () { return require('./google-dns-managed-zone-iam-policy'); } });
+Object.defineProperty(exports, 'googleDnsOutboundEndpoint', { get: function () { return require('./google-dns-outbound-endpoint'); } });
 Object.defineProperty(exports, 'googleDnsPolicy', { get: function () { return require('./google-dns-policy'); } });
 Object.defineProperty(exports, 'googleDnsRecordSet', { get: function () { return require('./google-dns-record-set'); } });
 Object.defineProperty(exports, 'googleDnsResponsePolicy', { get: function () { return require('./google-dns-response-policy'); } });
@@ -754,6 +759,7 @@ Object.defineProperty(exports, 'googleDnsResponsePolicyRule', { get: function ()
 Object.defineProperty(exports, 'googleDocumentAiProcessor', { get: function () { return require('./google-document-ai-processor'); } });
 Object.defineProperty(exports, 'googleDocumentAiProcessorDefaultVersion', { get: function () { return require('./google-document-ai-processor-default-version'); } });
 Object.defineProperty(exports, 'googleDocumentAiSchema', { get: function () { return require('./google-document-ai-schema'); } });
+Object.defineProperty(exports, 'googleDocumentAiSchemaVersion', { get: function () { return require('./google-document-ai-schema-version'); } });
 Object.defineProperty(exports, 'googleDocumentAiWarehouseDocumentSchema', { get: function () { return require('./google-document-ai-warehouse-document-schema'); } });
 Object.defineProperty(exports, 'googleDocumentAiWarehouseLocation', { get: function () { return require('./google-document-ai-warehouse-location'); } });
 Object.defineProperty(exports, 'googleEdgecontainerCluster', { get: function () { return require('./google-edgecontainer-cluster'); } });
@@ -1386,6 +1392,7 @@ Object.defineProperty(exports, 'googleStorageBucketIamPolicy', { get: function (
 Object.defineProperty(exports, 'googleStorageBucketObject', { get: function () { return require('./google-storage-bucket-object'); } });
 Object.defineProperty(exports, 'googleStorageControlFolderIntelligenceConfig', { get: function () { return require('./google-storage-control-folder-intelligence-config'); } });
 Object.defineProperty(exports, 'googleStorageControlOrganizationIntelligenceConfig', { get: function () { return require('./google-storage-control-organization-intelligence-config'); } });
+Object.defineProperty(exports, 'googleStorageControlProjectFeatureConfig', { get: function () { return require('./google-storage-control-project-feature-config'); } });
 Object.defineProperty(exports, 'googleStorageControlProjectIntelligenceConfig', { get: function () { return require('./google-storage-control-project-intelligence-config'); } });
 Object.defineProperty(exports, 'googleStorageDefaultObjectAccessControl', { get: function () { return require('./google-storage-default-object-access-control'); } });
 Object.defineProperty(exports, 'googleStorageDefaultObjectAcl', { get: function () { return require('./google-storage-default-object-acl'); } });
@@ -1458,6 +1465,7 @@ Object.defineProperty(exports, 'googleVertexAiIndex', { get: function () { retur
 Object.defineProperty(exports, 'googleVertexAiIndexEndpoint', { get: function () { return require('./google-vertex-ai-index-endpoint'); } });
 Object.defineProperty(exports, 'googleVertexAiIndexEndpointDeployedIndex', { get: function () { return require('./google-vertex-ai-index-endpoint-deployed-index'); } });
 Object.defineProperty(exports, 'googleVertexAiMetadataStore', { get: function () { return require('./google-vertex-ai-metadata-store'); } });
+Object.defineProperty(exports, 'googleVertexAiModelDevelopmentCluster', { get: function () { return require('./google-vertex-ai-model-development-cluster'); } });
 Object.defineProperty(exports, 'googleVertexAiModelGardenEnableModel', { get: function () { return require('./google-vertex-ai-model-garden-enable-model'); } });
 Object.defineProperty(exports, 'googleVertexAiOnlineEvaluator', { get: function () { return require('./google-vertex-ai-online-evaluator'); } });
 Object.defineProperty(exports, 'googleVertexAiPersistentResource', { get: function () { return require('./google-vertex-ai-persistent-resource'); } });
@@ -1595,6 +1603,7 @@ Object.defineProperty(exports, 'dataGoogleCloudQuotasQuotaInfos', { get: functio
 Object.defineProperty(exports, 'dataGoogleCloudRunLocations', { get: function () { return require('./data-google-cloud-run-locations'); } });
 Object.defineProperty(exports, 'dataGoogleCloudRunService', { get: function () { return require('./data-google-cloud-run-service'); } });
 Object.defineProperty(exports, 'dataGoogleCloudRunServiceIamPolicy', { get: function () { return require('./data-google-cloud-run-service-iam-policy'); } });
+Object.defineProperty(exports, 'dataGoogleCloudRunV2InstanceIamPolicy', { get: function () { return require('./data-google-cloud-run-v2-instance-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleCloudRunV2Job', { get: function () { return require('./data-google-cloud-run-v2-job'); } });
 Object.defineProperty(exports, 'dataGoogleCloudRunV2JobIamPolicy', { get: function () { return require('./data-google-cloud-run-v2-job-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleCloudRunV2Service', { get: function () { return require('./data-google-cloud-run-v2-service'); } });
@@ -1951,6 +1960,7 @@ Object.defineProperty(exports, 'dataGoogleStorageControlFolderIntelligenceConfig
 Object.defineProperty(exports, 'dataGoogleStorageControlFolderIntelligenceFindingsSummary', { get: function () { return require('./data-google-storage-control-folder-intelligence-findings-summary'); } });
 Object.defineProperty(exports, 'dataGoogleStorageControlOrganizationIntelligenceConfig', { get: function () { return require('./data-google-storage-control-organization-intelligence-config'); } });
 Object.defineProperty(exports, 'dataGoogleStorageControlOrganizationIntelligenceFindingsSummary', { get: function () { return require('./data-google-storage-control-organization-intelligence-findings-summary'); } });
+Object.defineProperty(exports, 'dataGoogleStorageControlProjectFeatureConfig', { get: function () { return require('./data-google-storage-control-project-feature-config'); } });
 Object.defineProperty(exports, 'dataGoogleStorageControlProjectIntelligenceConfig', { get: function () { return require('./data-google-storage-control-project-intelligence-config'); } });
 Object.defineProperty(exports, 'dataGoogleStorageControlProjectIntelligenceFinding', { get: function () { return require('./data-google-storage-control-project-intelligence-finding'); } });
 Object.defineProperty(exports, 'dataGoogleStorageControlProjectIntelligenceFindingRevision', { get: function () { return require('./data-google-storage-control-project-intelligence-finding-revision'); } });

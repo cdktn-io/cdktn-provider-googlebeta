@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,9 +13,9 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleServiceUsageV2ConsumerPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * (Optional) Default value is false. If true, the usage of the service to be removed will be checked. If the service has been used within the past 30 days or was enabled in the last 3 days, an error will be thrown.
+  * (Optional) Default value is false. This field is deprecated and has no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#check_usage_on_remove GoogleServiceUsageV2ConsumerPolicy#check_usage_on_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#check_usage_on_remove GoogleServiceUsageV2ConsumerPolicy#check_usage_on_remove}
   */
   readonly checkUsageOnRemove?: boolean | cdktn.IResolvable;
   /**
@@ -27,11 +27,11 @@ export interface GoogleServiceUsageV2ConsumerPolicyConfig extends cdktn.Terrafor
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#deletion_policy GoogleServiceUsageV2ConsumerPolicy#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#deletion_policy GoogleServiceUsageV2ConsumerPolicy#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#id GoogleServiceUsageV2ConsumerPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#id GoogleServiceUsageV2ConsumerPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,39 +40,45 @@ export interface GoogleServiceUsageV2ConsumerPolicyConfig extends cdktn.Terrafor
   /**
   * The name of the policy. Currently only the “default” policy name is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#name GoogleServiceUsageV2ConsumerPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#name GoogleServiceUsageV2ConsumerPolicy#name}
   */
   readonly name: string;
   /**
   * The name of the parent. It can be a project, folder or organization in the format of  projects/<project_id or project_number>, folders/<folder_number> or organizations/<org_number> .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#parent GoogleServiceUsageV2ConsumerPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#parent GoogleServiceUsageV2ConsumerPolicy#parent}
   */
   readonly parent: string;
   /**
   * (Optional) Default value is true. If true, this flag enforces dependency management within the consumer policy. When adding a new service, it verifies that all its dependencies are already present/added in the policy. Conversely, when removing a service, it ensures that no other services within the policy depend on the service to be removed. If the validation fails, a comprehensive message will be presented, outlining the missing dependencies and providing instructions on how to address the issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#validate_dependencies GoogleServiceUsageV2ConsumerPolicy#validate_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#validate_dependencies GoogleServiceUsageV2ConsumerPolicy#validate_dependencies}
   */
   readonly validateDependencies?: boolean | cdktn.IResolvable;
   /**
   * enable_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#enable_rules GoogleServiceUsageV2ConsumerPolicy#enable_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#enable_rules GoogleServiceUsageV2ConsumerPolicy#enable_rules}
   */
   readonly enableRules: GoogleServiceUsageV2ConsumerPolicyEnableRules[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#timeouts GoogleServiceUsageV2ConsumerPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#timeouts GoogleServiceUsageV2ConsumerPolicy#timeouts}
   */
   readonly timeouts?: GoogleServiceUsageV2ConsumerPolicyTimeouts;
 }
 export interface GoogleServiceUsageV2ConsumerPolicyEnableRules {
   /**
+  * List of service catalog names to be enabled in the format of catalogs/<catalog_name>, for example catalogs/default-cloud-services.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#catalogs GoogleServiceUsageV2ConsumerPolicy#catalogs}
+  */
+  readonly catalogs?: string[];
+  /**
   * (Optional): List of service names to be enabled in the format of services/<service_name>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#services GoogleServiceUsageV2ConsumerPolicy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#services GoogleServiceUsageV2ConsumerPolicy#services}
   */
   readonly services?: string[];
 }
@@ -83,6 +89,7 @@ export function googleServiceUsageV2ConsumerPolicyEnableRulesToTerraform(struct?
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    catalogs: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.catalogs),
     services: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.services),
   }
 }
@@ -94,6 +101,12 @@ export function googleServiceUsageV2ConsumerPolicyEnableRulesToHclTerraform(stru
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    catalogs: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.catalogs),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
     services: {
       value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.services),
       isBlock: false,
@@ -126,6 +139,10 @@ export class GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference extend
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._catalogs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.catalogs = this._catalogs;
+    }
     if (this._services !== undefined) {
       hasAnyValues = true;
       internalValueResult.services = this._services;
@@ -137,6 +154,7 @@ export class GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference extend
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._catalogs = undefined;
       this._services = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -146,8 +164,25 @@ export class GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference extend
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._catalogs = value.catalogs;
       this._services = value.services;
     }
+  }
+
+  // catalogs - computed: false, optional: true, required: false
+  private _catalogs?: string[]; 
+  public get catalogs() {
+    return cdktn.Fn.tolist(this.getListAttribute('catalogs'));
+  }
+  public set catalogs(value: string[]) {
+    this._catalogs = value;
+  }
+  public resetCatalogs() {
+    this._catalogs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get catalogsInput() {
+    return this._catalogs;
   }
 
   // services - computed: false, optional: true, required: false
@@ -188,15 +223,15 @@ export class GoogleServiceUsageV2ConsumerPolicyEnableRulesList extends cdktn.Com
 }
 export interface GoogleServiceUsageV2ConsumerPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#create GoogleServiceUsageV2ConsumerPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#create GoogleServiceUsageV2ConsumerPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#delete GoogleServiceUsageV2ConsumerPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#delete GoogleServiceUsageV2ConsumerPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#update GoogleServiceUsageV2ConsumerPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#update GoogleServiceUsageV2ConsumerPolicy#update}
   */
   readonly update?: string;
 }
@@ -348,7 +383,7 @@ export class GoogleServiceUsageV2ConsumerPolicyTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy}
 */
 export class GoogleServiceUsageV2ConsumerPolicy extends cdktn.TerraformResource {
 
@@ -364,7 +399,7 @@ export class GoogleServiceUsageV2ConsumerPolicy extends cdktn.TerraformResource 
   * Generates CDKTN code for importing a GoogleServiceUsageV2ConsumerPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleServiceUsageV2ConsumerPolicy to import
-  * @param importFromId The id of the existing GoogleServiceUsageV2ConsumerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleServiceUsageV2ConsumerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleServiceUsageV2ConsumerPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -376,7 +411,7 @@ export class GoogleServiceUsageV2ConsumerPolicy extends cdktn.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -387,7 +422,7 @@ export class GoogleServiceUsageV2ConsumerPolicy extends cdktn.TerraformResource 
       terraformResourceType: 'google_service_usage_v2_consumer_policy',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.7.0',
+        providerVersion: '8.8.1',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
