@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,20 +17,20 @@ export interface GoogleCesAgentConfig extends cdktn.TerraformMetaArguments {
   * the agent's resource name. If not provided, a unique ID will be
   * automatically assigned for the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#agent_id GoogleCesAgent#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#agent_id GoogleCesAgent#agent_id}
   */
   readonly agentId?: string;
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#app GoogleCesAgent#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#app GoogleCesAgent#app}
   */
   readonly app: string;
   /**
   * List of child agents in the agent tree.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#child_agents GoogleCesAgent#child_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#child_agents GoogleCesAgent#child_agents}
   */
   readonly childAgents?: string[];
   /**
@@ -42,19 +42,19 @@ export interface GoogleCesAgentConfig extends cdktn.TerraformMetaArguments {
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#deletion_policy GoogleCesAgent#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#deletion_policy GoogleCesAgent#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Human-readable description of the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Display name of the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#display_name GoogleCesAgent#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#display_name GoogleCesAgent#display_name}
   */
   readonly displayName: string;
   /**
@@ -62,11 +62,11 @@ export interface GoogleCesAgentConfig extends cdktn.TerraformMetaArguments {
   * Format:
   * 'projects/{project}/locations/{location}/apps/{app}/guardrails/{guardrail}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#guardrails GoogleCesAgent#guardrails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#guardrails GoogleCesAgent#guardrails}
   */
   readonly guardrails?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#id GoogleCesAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#id GoogleCesAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,102 +75,102 @@ export interface GoogleCesAgentConfig extends cdktn.TerraformMetaArguments {
   /**
   * Instructions for the LLM model to guide the agent's behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#instruction GoogleCesAgent#instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#instruction GoogleCesAgent#instruction}
   */
   readonly instruction?: string;
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#location GoogleCesAgent#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#location GoogleCesAgent#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#project GoogleCesAgent#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#project GoogleCesAgent#project}
   */
   readonly project?: string;
   /**
   * List of available tools for the agent.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/tools/{tool}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#tools GoogleCesAgent#tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#tools GoogleCesAgent#tools}
   */
   readonly tools?: string[];
   /**
   * after_agent_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#after_agent_callbacks GoogleCesAgent#after_agent_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#after_agent_callbacks GoogleCesAgent#after_agent_callbacks}
   */
   readonly afterAgentCallbacks?: GoogleCesAgentAfterAgentCallbacks[] | cdktn.IResolvable;
   /**
   * after_model_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#after_model_callbacks GoogleCesAgent#after_model_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#after_model_callbacks GoogleCesAgent#after_model_callbacks}
   */
   readonly afterModelCallbacks?: GoogleCesAgentAfterModelCallbacks[] | cdktn.IResolvable;
   /**
   * after_tool_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#after_tool_callbacks GoogleCesAgent#after_tool_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#after_tool_callbacks GoogleCesAgent#after_tool_callbacks}
   */
   readonly afterToolCallbacks?: GoogleCesAgentAfterToolCallbacks[] | cdktn.IResolvable;
   /**
   * before_agent_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#before_agent_callbacks GoogleCesAgent#before_agent_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#before_agent_callbacks GoogleCesAgent#before_agent_callbacks}
   */
   readonly beforeAgentCallbacks?: GoogleCesAgentBeforeAgentCallbacks[] | cdktn.IResolvable;
   /**
   * before_model_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#before_model_callbacks GoogleCesAgent#before_model_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#before_model_callbacks GoogleCesAgent#before_model_callbacks}
   */
   readonly beforeModelCallbacks?: GoogleCesAgentBeforeModelCallbacks[] | cdktn.IResolvable;
   /**
   * before_tool_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#before_tool_callbacks GoogleCesAgent#before_tool_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#before_tool_callbacks GoogleCesAgent#before_tool_callbacks}
   */
   readonly beforeToolCallbacks?: GoogleCesAgentBeforeToolCallbacks[] | cdktn.IResolvable;
   /**
   * llm_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#llm_agent GoogleCesAgent#llm_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#llm_agent GoogleCesAgent#llm_agent}
   */
   readonly llmAgent?: GoogleCesAgentLlmAgent;
   /**
   * model_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#model_settings GoogleCesAgent#model_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#model_settings GoogleCesAgent#model_settings}
   */
   readonly modelSettings?: GoogleCesAgentModelSettings;
   /**
   * remote_a2a_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#remote_a2a_agent GoogleCesAgent#remote_a2a_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#remote_a2a_agent GoogleCesAgent#remote_a2a_agent}
   */
   readonly remoteA2AAgent?: GoogleCesAgentRemoteA2AAgent;
   /**
   * remote_dialogflow_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#remote_dialogflow_agent GoogleCesAgent#remote_dialogflow_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#remote_dialogflow_agent GoogleCesAgent#remote_dialogflow_agent}
   */
   readonly remoteDialogflowAgent?: GoogleCesAgentRemoteDialogflowAgent;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#timeouts GoogleCesAgent#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#timeouts GoogleCesAgent#timeouts}
   */
   readonly timeouts?: GoogleCesAgentTimeouts;
   /**
   * toolsets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#toolsets GoogleCesAgent#toolsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#toolsets GoogleCesAgent#toolsets}
   */
   readonly toolsets?: GoogleCesAgentToolsets[] | cdktn.IResolvable;
   /**
   * transfer_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#transfer_rules GoogleCesAgent#transfer_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#transfer_rules GoogleCesAgent#transfer_rules}
   */
   readonly transferRules?: GoogleCesAgentTransferRules[] | cdktn.IResolvable;
 }
@@ -178,14 +178,14 @@ export interface GoogleCesAgentAfterAgentCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
@@ -196,13 +196,13 @@ export interface GoogleCesAgentAfterAgentCallbacks {
   * may have negative implication on the execution cost and latency, and
   * should only be enabled in rare situations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
   */
   readonly proactiveExecutionEnabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -404,14 +404,14 @@ export interface GoogleCesAgentAfterModelCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
@@ -422,13 +422,13 @@ export interface GoogleCesAgentAfterModelCallbacks {
   * may have negative implication on the execution cost and latency, and
   * should only be enabled in rare situations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
   */
   readonly proactiveExecutionEnabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -630,14 +630,14 @@ export interface GoogleCesAgentAfterToolCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
@@ -648,13 +648,13 @@ export interface GoogleCesAgentAfterToolCallbacks {
   * may have negative implication on the execution cost and latency, and
   * should only be enabled in rare situations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
   */
   readonly proactiveExecutionEnabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -856,14 +856,14 @@ export interface GoogleCesAgentBeforeAgentCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
@@ -874,13 +874,13 @@ export interface GoogleCesAgentBeforeAgentCallbacks {
   * may have negative implication on the execution cost and latency, and
   * should only be enabled in rare situations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
   */
   readonly proactiveExecutionEnabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -1082,14 +1082,14 @@ export interface GoogleCesAgentBeforeModelCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
@@ -1100,13 +1100,13 @@ export interface GoogleCesAgentBeforeModelCallbacks {
   * may have negative implication on the execution cost and latency, and
   * should only be enabled in rare situations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
   */
   readonly proactiveExecutionEnabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -1308,14 +1308,14 @@ export interface GoogleCesAgentBeforeToolCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
@@ -1326,13 +1326,13 @@ export interface GoogleCesAgentBeforeToolCallbacks {
   * may have negative implication on the execution cost and latency, and
   * should only be enabled in rare situations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#proactive_execution_enabled GoogleCesAgent#proactive_execution_enabled}
   */
   readonly proactiveExecutionEnabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -1584,7 +1584,7 @@ export interface GoogleCesAgentModelSettings {
   * The LLM model that the agent should use.
   * If not set, the agent will inherit the model from its parent agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#model GoogleCesAgent#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#model GoogleCesAgent#model}
   */
   readonly model?: string;
   /**
@@ -1593,13 +1593,13 @@ export interface GoogleCesAgentModelSettings {
   * produce responses that are more predictable. Higher temperatures produce
   * responses that are more creative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#temperature GoogleCesAgent#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#temperature GoogleCesAgent#temperature}
   */
   readonly temperature?: number;
   /**
   * The thinking level of the model. Possible values: ["DEFAULT", "LOW", "MEDIUM", "HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#thinking_level GoogleCesAgent#thinking_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#thinking_level GoogleCesAgent#thinking_level}
   */
   readonly thinkingLevel?: string;
 }
@@ -1743,19 +1743,19 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigAgentCardSkills {
   /**
   * A detailed description of the skill.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description: string;
   /**
   * Example prompts or scenarios that this skill can handle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#examples GoogleCesAgent#examples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#examples GoogleCesAgent#examples}
   */
   readonly examples?: string[];
   /**
   * A unique identifier for the agent's skill.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#id GoogleCesAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#id GoogleCesAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1765,26 +1765,26 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigAgentCardSkills {
   * The set of supported input media types for this skill, overriding the
   * agent's defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#input_modes GoogleCesAgent#input_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#input_modes GoogleCesAgent#input_modes}
   */
   readonly inputModes?: string[];
   /**
   * A human-readable name for the skill.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#name GoogleCesAgent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#name GoogleCesAgent#name}
   */
   readonly name: string;
   /**
   * The set of supported output media types for this skill, overriding the
   * agent's defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#output_modes GoogleCesAgent#output_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#output_modes GoogleCesAgent#output_modes}
   */
   readonly outputModes?: string[];
   /**
   * A set of keywords describing the skill's capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#tags GoogleCesAgent#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#tags GoogleCesAgent#tags}
   */
   readonly tags: string[];
 }
@@ -2065,27 +2065,27 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigAgentCardSupportedInterfac
   * The protocol binding supported at this URL. The core ones officially
   * supported are JSONRPC, GRPC and HTTP+JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#protocol_binding GoogleCesAgent#protocol_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#protocol_binding GoogleCesAgent#protocol_binding}
   */
   readonly protocolBinding: string;
   /**
   * The version of the A2A protocol this interface exposes.
   * Examples: "0.3", "1.0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#protocol_version GoogleCesAgent#protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#protocol_version GoogleCesAgent#protocol_version}
   */
   readonly protocolVersion: string;
   /**
   * Tenant ID to be used in the request when calling the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#tenant GoogleCesAgent#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#tenant GoogleCesAgent#tenant}
   */
   readonly tenant?: string;
   /**
   * The URL where this interface is available. Must be a valid absolute HTTPS
   * URL in production.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#url GoogleCesAgent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#url GoogleCesAgent#url}
   */
   readonly url: string;
 }
@@ -2281,31 +2281,31 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigAgentCard {
   /**
   * A description of the agent's domain of action/solution space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description: string;
   /**
   * A human-readable name for the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#name GoogleCesAgent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#name GoogleCesAgent#name}
   */
   readonly name: string;
   /**
   * The version of the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#version GoogleCesAgent#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#version GoogleCesAgent#version}
   */
   readonly version: string;
   /**
   * skills block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#skills GoogleCesAgent#skills}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#skills GoogleCesAgent#skills}
   */
   readonly skills: GoogleCesAgentRemoteA2AAgentA2AConfigAgentCardSkills[] | cdktn.IResolvable;
   /**
   * supported_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#supported_interfaces GoogleCesAgent#supported_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#supported_interfaces GoogleCesAgent#supported_interfaces}
   */
   readonly supportedInterfaces: GoogleCesAgentRemoteA2AAgentA2AConfigAgentCardSupportedInterfaces[] | cdktn.IResolvable;
 }
@@ -2496,14 +2496,14 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationApiKeyCon
   * service agent
   * 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#api_key_secret_version GoogleCesAgent#api_key_secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#api_key_secret_version GoogleCesAgent#api_key_secret_version}
   */
   readonly apiKeySecretVersion: string;
   /**
   * The parameter name or the header name of the API key.
   * E.g., If the API request is "https://example.com/act?X-Api-Key=", "X-Api-Key" would be the parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#key_name GoogleCesAgent#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#key_name GoogleCesAgent#key_name}
   */
   readonly keyName: string;
   /**
@@ -2512,7 +2512,7 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationApiKeyCon
   * HEADER
   * QUERY_STRING
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#request_location GoogleCesAgent#request_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#request_location GoogleCesAgent#request_location}
   */
   readonly requestLocation: string;
 }
@@ -2648,7 +2648,7 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationBearerTok
   * The bearer token.
   * Must be in the format '$context.variables.<name_of_variable>'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#token GoogleCesAgent#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#token GoogleCesAgent#token}
   */
   readonly token: string;
 }
@@ -2731,7 +2731,7 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationOauthConf
   /**
   * The client ID from the OAuth provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#client_id GoogleCesAgent#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#client_id GoogleCesAgent#client_id}
   */
   readonly clientId: string;
   /**
@@ -2743,7 +2743,7 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationOauthConf
   * service agent
   * 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#client_secret_version GoogleCesAgent#client_secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#client_secret_version GoogleCesAgent#client_secret_version}
   */
   readonly clientSecretVersion: string;
   /**
@@ -2751,19 +2751,19 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationOauthConf
   * Possible values:
   * CLIENT_CREDENTIAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#oauth_grant_type GoogleCesAgent#oauth_grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#oauth_grant_type GoogleCesAgent#oauth_grant_type}
   */
   readonly oauthGrantType: string;
   /**
   * The OAuth scopes to grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#scopes GoogleCesAgent#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#scopes GoogleCesAgent#scopes}
   */
   readonly scopes?: string[];
   /**
   * The token endpoint in the OAuth provider to exchange for an access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#token_endpoint GoogleCesAgent#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#token_endpoint GoogleCesAgent#token_endpoint}
   */
   readonly tokenEndpoint: string;
 }
@@ -2954,7 +2954,7 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationServiceAc
   * The OAuth scopes to grant. If not specified, the default scope
   * 'https://www.googleapis.com/auth/cloud-platform' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#scopes GoogleCesAgent#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#scopes GoogleCesAgent#scopes}
   */
   readonly scopes?: string[];
   /**
@@ -2967,7 +2967,7 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationServiceAc
   * CES service agent
   * 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#service_account GoogleCesAgent#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#service_account GoogleCesAgent#service_account}
   */
   readonly serviceAccount: string;
 }
@@ -3079,25 +3079,25 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthentication {
   /**
   * api_key_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#api_key_config GoogleCesAgent#api_key_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#api_key_config GoogleCesAgent#api_key_config}
   */
   readonly apiKeyConfig?: GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationApiKeyConfig;
   /**
   * bearer_token_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#bearer_token_config GoogleCesAgent#bearer_token_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#bearer_token_config GoogleCesAgent#bearer_token_config}
   */
   readonly bearerTokenConfig?: GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationBearerTokenConfig;
   /**
   * oauth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#oauth_config GoogleCesAgent#oauth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#oauth_config GoogleCesAgent#oauth_config}
   */
   readonly oauthConfig?: GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationOauthConfig;
   /**
   * service_account_auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#service_account_auth_config GoogleCesAgent#service_account_auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#service_account_auth_config GoogleCesAgent#service_account_auth_config}
   */
   readonly serviceAccountAuthConfig?: GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationServiceAccountAuthConfig;
 }
@@ -3271,7 +3271,7 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfig {
   * Reference to the agent in the Agent Registry.
   * Format: 'projects/{project}/locations/{location}/agents/{agent}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#agent_registry GoogleCesAgent#agent_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#agent_registry GoogleCesAgent#agent_registry}
   */
   readonly agentRegistry?: string;
   /**
@@ -3279,37 +3279,37 @@ export interface GoogleCesAgentRemoteA2AAgentA2AConfig {
   * ID. This context_id field can refer to a session variable like
   * '$context.variables.order_agent_session_id'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#context_id GoogleCesAgent#context_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#context_id GoogleCesAgent#context_id}
   */
   readonly contextId?: string;
   /**
   * Mapping of input variable names of remote agent to GECX variable names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#input_variable_mapping GoogleCesAgent#input_variable_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#input_variable_mapping GoogleCesAgent#input_variable_mapping}
   */
   readonly inputVariableMapping?: { [key: string]: string };
   /**
   * Mapping of output variable names of remote agent to GECX variable names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#output_variable_mapping GoogleCesAgent#output_variable_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#output_variable_mapping GoogleCesAgent#output_variable_mapping}
   */
   readonly outputVariableMapping?: { [key: string]: string };
   /**
   * Whether streaming is enabled for the remote agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#streaming_enabled GoogleCesAgent#streaming_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#streaming_enabled GoogleCesAgent#streaming_enabled}
   */
   readonly streamingEnabled?: boolean | cdktn.IResolvable;
   /**
   * agent_card block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#agent_card GoogleCesAgent#agent_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#agent_card GoogleCesAgent#agent_card}
   */
   readonly agentCard?: GoogleCesAgentRemoteA2AAgentA2AConfigAgentCard;
   /**
   * api_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#api_authentication GoogleCesAgent#api_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#api_authentication GoogleCesAgent#api_authentication}
   */
   readonly apiAuthentication?: GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthentication;
 }
@@ -3569,7 +3569,7 @@ export interface GoogleCesAgentRemoteA2AAgent {
   /**
   * a2a_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#a2a_config GoogleCesAgent#a2a_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#a2a_config GoogleCesAgent#a2a_config}
   */
   readonly a2AConfig: GoogleCesAgentRemoteA2AAgentA2AConfig;
 }
@@ -3655,27 +3655,27 @@ export interface GoogleCesAgentRemoteDialogflowAgent {
   * agent resource name.
   * Format: 'projects/{project}/locations/{location}/agents/{agent}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#agent GoogleCesAgent#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#agent GoogleCesAgent#agent}
   */
   readonly agent: string;
   /**
   * The environment ID of the Dialogflow agent be used for the agent
   * execution. If not specified, the draft environment will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#environment_id GoogleCesAgent#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#environment_id GoogleCesAgent#environment_id}
   */
   readonly environmentId?: string;
   /**
   * The flow ID of the flow in the Dialogflow agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#flow_id GoogleCesAgent#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#flow_id GoogleCesAgent#flow_id}
   */
   readonly flowId: string;
   /**
   * The mapping of the app variables names to the Dialogflow session
   * parameters names to be sent to the Dialogflow agent as input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#input_variable_mapping GoogleCesAgent#input_variable_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#input_variable_mapping GoogleCesAgent#input_variable_mapping}
   */
   readonly inputVariableMapping?: { [key: string]: string };
   /**
@@ -3683,7 +3683,7 @@ export interface GoogleCesAgentRemoteDialogflowAgent {
   * the Dialogflow session. If unspecified, the default language code of the
   * Dialogflow agent will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#language_code_variable GoogleCesAgent#language_code_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#language_code_variable GoogleCesAgent#language_code_variable}
   */
   readonly languageCodeVariable?: string;
   /**
@@ -3691,13 +3691,13 @@ export interface GoogleCesAgentRemoteDialogflowAgent {
   * variables names to be sent back to the CES agent after the Dialogflow
   * agent execution ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#output_variable_mapping GoogleCesAgent#output_variable_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#output_variable_mapping GoogleCesAgent#output_variable_mapping}
   */
   readonly outputVariableMapping?: { [key: string]: string };
   /**
   * Indicates whether to respect the message-level interruption settings configured in the Dialogflow agent. * If false: all response messages from the Dialogflow agent follow the app-level barge-in settings. * If true: only response messages with ['allow_playback_interruption'](https://docs.cloud.google.com/dialogflow/cx/docs/reference/rpc/google.cloud.dialogflow.cx.v3#text) set to true will be interruptable, all other messages follow the app-level barge-in settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#respect_response_interruption_settings GoogleCesAgent#respect_response_interruption_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#respect_response_interruption_settings GoogleCesAgent#respect_response_interruption_settings}
   */
   readonly respectResponseInterruptionSettings?: boolean | cdktn.IResolvable;
 }
@@ -3949,15 +3949,15 @@ export class GoogleCesAgentRemoteDialogflowAgentOutputReference extends cdktn.Co
 }
 export interface GoogleCesAgentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#create GoogleCesAgent#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#create GoogleCesAgent#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#delete GoogleCesAgent#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#delete GoogleCesAgent#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#update GoogleCesAgent#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#update GoogleCesAgent#update}
   */
   readonly update?: string;
 }
@@ -4111,7 +4111,7 @@ export interface GoogleCesAgentToolsets {
   /**
   * The tools IDs to filter the toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#tool_ids GoogleCesAgent#tool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#tool_ids GoogleCesAgent#tool_ids}
   */
   readonly toolIds?: string[];
   /**
@@ -4119,7 +4119,7 @@ export interface GoogleCesAgentToolsets {
   * Format:
   * 'projects/{project}/locations/{location}/apps/{app}/toolsets/{toolset}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#toolset GoogleCesAgent#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#toolset GoogleCesAgent#toolset}
   */
   readonly toolset: string;
 }
@@ -4263,7 +4263,7 @@ export interface GoogleCesAgentTransferRulesDeterministicTransferExpressionCondi
   /**
   * The string representation of cloud.api.Expression condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#expression GoogleCesAgent#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#expression GoogleCesAgent#expression}
   */
   readonly expression: string;
 }
@@ -4347,7 +4347,7 @@ export interface GoogleCesAgentTransferRulesDeterministicTransferPythonCodeCondi
   * The python code to execute. The function must be named
   * 'should_trigger_transfer_callback'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -4430,13 +4430,13 @@ export interface GoogleCesAgentTransferRulesDeterministicTransfer {
   /**
   * expression_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#expression_condition GoogleCesAgent#expression_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#expression_condition GoogleCesAgent#expression_condition}
   */
   readonly expressionCondition?: GoogleCesAgentTransferRulesDeterministicTransferExpressionCondition;
   /**
   * python_code_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#python_code_condition GoogleCesAgent#python_code_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#python_code_condition GoogleCesAgent#python_code_condition}
   */
   readonly pythonCodeCondition?: GoogleCesAgentTransferRulesDeterministicTransferPythonCodeCondition;
 }
@@ -4551,7 +4551,7 @@ export interface GoogleCesAgentTransferRulesDisablePlannerTransferExpressionCond
   /**
   * The string representation of cloud.api.Expression condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#expression GoogleCesAgent#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#expression GoogleCesAgent#expression}
   */
   readonly expression: string;
 }
@@ -4634,7 +4634,7 @@ export interface GoogleCesAgentTransferRulesDisablePlannerTransfer {
   /**
   * expression_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#expression_condition GoogleCesAgent#expression_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#expression_condition GoogleCesAgent#expression_condition}
   */
   readonly expressionCondition: GoogleCesAgentTransferRulesDisablePlannerTransferExpressionCondition;
 }
@@ -4718,25 +4718,25 @@ export interface GoogleCesAgentTransferRules {
   * The resource name of the child agent the rule applies to.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#child_agent GoogleCesAgent#child_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#child_agent GoogleCesAgent#child_agent}
   */
   readonly childAgent: string;
   /**
   * The direction of the transfer. Possible values: ["PARENT_TO_CHILD", "CHILD_TO_PARENT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#direction GoogleCesAgent#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#direction GoogleCesAgent#direction}
   */
   readonly direction: string;
   /**
   * deterministic_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#deterministic_transfer GoogleCesAgent#deterministic_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#deterministic_transfer GoogleCesAgent#deterministic_transfer}
   */
   readonly deterministicTransfer?: GoogleCesAgentTransferRulesDeterministicTransfer;
   /**
   * disable_planner_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#disable_planner_transfer GoogleCesAgent#disable_planner_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#disable_planner_transfer GoogleCesAgent#disable_planner_transfer}
   */
   readonly disablePlannerTransfer?: GoogleCesAgentTransferRulesDisablePlannerTransfer;
 }
@@ -4933,7 +4933,7 @@ export class GoogleCesAgentTransferRulesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent google_ces_agent}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent google_ces_agent}
 */
 export class GoogleCesAgent extends cdktn.TerraformResource {
 
@@ -4949,7 +4949,7 @@ export class GoogleCesAgent extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCesAgent resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCesAgent to import
-  * @param importFromId The id of the existing GoogleCesAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCesAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCesAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4961,7 +4961,7 @@ export class GoogleCesAgent extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent google_ces_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_ces_agent google_ces_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4972,7 +4972,7 @@ export class GoogleCesAgent extends cdktn.TerraformResource {
       terraformResourceType: 'google_ces_agent',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.7.0',
+        providerVersion: '8.8.1',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,36 +15,36 @@ export interface GoogleMonitoringSnoozeConfig extends cdktn.TerraformMetaArgumen
   /**
   * A display name for the Snooze. This can be, at most, 512 unicode characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#display_name GoogleMonitoringSnooze#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#display_name GoogleMonitoringSnooze#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#id GoogleMonitoringSnooze#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#id GoogleMonitoringSnooze#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#project GoogleMonitoringSnooze#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#project GoogleMonitoringSnooze#project}
   */
   readonly project?: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#criteria GoogleMonitoringSnooze#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#criteria GoogleMonitoringSnooze#criteria}
   */
   readonly criteria: GoogleMonitoringSnoozeCriteria;
   /**
   * interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#interval GoogleMonitoringSnooze#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#interval GoogleMonitoringSnooze#interval}
   */
   readonly interval: GoogleMonitoringSnoozeInterval;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#timeouts GoogleMonitoringSnooze#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#timeouts GoogleMonitoringSnooze#timeouts}
   */
   readonly timeouts?: GoogleMonitoringSnoozeTimeouts;
 }
@@ -68,7 +68,7 @@ export interface GoogleMonitoringSnoozeCriteria {
   * 
   * "filter": "resource.labels.instance_id=\"1234567890\" AND metric.labels.instance_name=\"test_group\" AND metadata.user_labels.foo=\"bar\" AND metadata.system_labels.region=\"us-central1\""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#filter GoogleMonitoringSnooze#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#filter GoogleMonitoringSnooze#filter}
   */
   readonly filter?: string;
   /**
@@ -78,7 +78,7 @@ export interface GoogleMonitoringSnoozeCriteria {
   * snooze creation. Exactly 1 alert policy is required if filter is specified
   * at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#policies GoogleMonitoringSnooze#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#policies GoogleMonitoringSnooze#policies}
   */
   readonly policies?: string[];
 }
@@ -196,7 +196,7 @@ export interface GoogleMonitoringSnoozeInterval {
   * up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and
   * "2014-10-02T15:01:23.045123456Z".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#end_time GoogleMonitoringSnooze#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#end_time GoogleMonitoringSnooze#end_time}
   */
   readonly endTime: string;
   /**
@@ -206,7 +206,7 @@ export interface GoogleMonitoringSnoozeInterval {
   * up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and
   * "2014-10-02T15:01:23.045123456Z".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#start_time GoogleMonitoringSnooze#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#start_time GoogleMonitoringSnooze#start_time}
   */
   readonly startTime?: string;
 }
@@ -316,15 +316,15 @@ export class GoogleMonitoringSnoozeIntervalOutputReference extends cdktn.Complex
 }
 export interface GoogleMonitoringSnoozeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#create GoogleMonitoringSnooze#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#create GoogleMonitoringSnooze#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#delete GoogleMonitoringSnooze#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#delete GoogleMonitoringSnooze#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#update GoogleMonitoringSnooze#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#update GoogleMonitoringSnooze#update}
   */
   readonly update?: string;
 }
@@ -476,7 +476,7 @@ export class GoogleMonitoringSnoozeTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze google_monitoring_snooze}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze google_monitoring_snooze}
 */
 export class GoogleMonitoringSnooze extends cdktn.TerraformResource {
 
@@ -492,7 +492,7 @@ export class GoogleMonitoringSnooze extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleMonitoringSnooze resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleMonitoringSnooze to import
-  * @param importFromId The id of the existing GoogleMonitoringSnooze that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleMonitoringSnooze that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleMonitoringSnooze to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -504,7 +504,7 @@ export class GoogleMonitoringSnooze extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze google_monitoring_snooze} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_monitoring_snooze google_monitoring_snooze} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -515,7 +515,7 @@ export class GoogleMonitoringSnooze extends cdktn.TerraformResource {
       terraformResourceType: 'google_monitoring_snooze',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.7.0',
+        providerVersion: '8.8.1',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -22,7 +22,7 @@ export interface GoogleSaasRuntimeUnitKindConfig extends cdktn.TerraformMetaArgu
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#annotations GoogleSaasRuntimeUnitKind#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#annotations GoogleSaasRuntimeUnitKind#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
@@ -31,7 +31,7 @@ export interface GoogleSaasRuntimeUnitKindConfig extends cdktn.TerraformMetaArgu
   * If not specified, a new unit must explicitly reference which release to use
   * for its creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#default_release GoogleSaasRuntimeUnitKind#default_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#default_release GoogleSaasRuntimeUnitKind#default_release}
   */
   readonly defaultRelease?: string;
   /**
@@ -43,11 +43,11 @@ export interface GoogleSaasRuntimeUnitKindConfig extends cdktn.TerraformMetaArgu
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#deletion_policy GoogleSaasRuntimeUnitKind#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#deletion_policy GoogleSaasRuntimeUnitKind#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#id GoogleSaasRuntimeUnitKind#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#id GoogleSaasRuntimeUnitKind#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,17 +60,17 @@ export interface GoogleSaasRuntimeUnitKindConfig extends cdktn.TerraformMetaArgu
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#labels GoogleSaasRuntimeUnitKind#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#labels GoogleSaasRuntimeUnitKind#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#location GoogleSaasRuntimeUnitKind#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#location GoogleSaasRuntimeUnitKind#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#project GoogleSaasRuntimeUnitKind#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#project GoogleSaasRuntimeUnitKind#project}
   */
   readonly project?: string;
   /**
@@ -78,51 +78,557 @@ export interface GoogleSaasRuntimeUnitKindConfig extends cdktn.TerraformMetaArgu
   * the producer wants to manage with App Lifecycle Manager. Part of the App Lifecycle Manager
   * common data model. Immutable once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#saas GoogleSaasRuntimeUnitKind#saas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#saas GoogleSaasRuntimeUnitKind#saas}
   */
   readonly saas: string;
   /**
   * The ID value for the new unit kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#unit_kind_id GoogleSaasRuntimeUnitKind#unit_kind_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#unit_kind_id GoogleSaasRuntimeUnitKind#unit_kind_id}
   */
   readonly unitKindId: string;
   /**
+  * app_params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#app_params GoogleSaasRuntimeUnitKind#app_params}
+  */
+  readonly appParams?: GoogleSaasRuntimeUnitKindAppParams;
+  /**
+  * application_template_component block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#application_template_component GoogleSaasRuntimeUnitKind#application_template_component}
+  */
+  readonly applicationTemplateComponent?: GoogleSaasRuntimeUnitKindApplicationTemplateComponent;
+  /**
   * dependencies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#dependencies GoogleSaasRuntimeUnitKind#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#dependencies GoogleSaasRuntimeUnitKind#dependencies}
   */
   readonly dependencies?: GoogleSaasRuntimeUnitKindDependencies[] | cdktn.IResolvable;
   /**
   * input_variable_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#input_variable_mappings GoogleSaasRuntimeUnitKind#input_variable_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#input_variable_mappings GoogleSaasRuntimeUnitKind#input_variable_mappings}
   */
   readonly inputVariableMappings?: GoogleSaasRuntimeUnitKindInputVariableMappings[] | cdktn.IResolvable;
   /**
   * output_variable_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#output_variable_mappings GoogleSaasRuntimeUnitKind#output_variable_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#output_variable_mappings GoogleSaasRuntimeUnitKind#output_variable_mappings}
   */
   readonly outputVariableMappings?: GoogleSaasRuntimeUnitKindOutputVariableMappings[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#timeouts GoogleSaasRuntimeUnitKind#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#timeouts GoogleSaasRuntimeUnitKind#timeouts}
   */
   readonly timeouts?: GoogleSaasRuntimeUnitKindTimeouts;
+}
+export interface GoogleSaasRuntimeUnitKindAppParamsScope {
+  /**
+  * Scope type.
+  * Possible values:
+  * TYPE_REGIONAL
+  * TYPE_GLOBAL
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#type GoogleSaasRuntimeUnitKind#type}
+  */
+  readonly type: string;
+}
+
+export function googleSaasRuntimeUnitKindAppParamsScopeToTerraform(struct?: GoogleSaasRuntimeUnitKindAppParamsScopeOutputReference | GoogleSaasRuntimeUnitKindAppParamsScope): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    type: cdktn.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function googleSaasRuntimeUnitKindAppParamsScopeToHclTerraform(struct?: GoogleSaasRuntimeUnitKindAppParamsScopeOutputReference | GoogleSaasRuntimeUnitKindAppParamsScope): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleSaasRuntimeUnitKindAppParamsScopeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleSaasRuntimeUnitKindAppParamsScope | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleSaasRuntimeUnitKindAppParamsScope | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+    }
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+export interface GoogleSaasRuntimeUnitKindAppParams {
+  /**
+  * Grouping used to construct the name of the App Hub Application.
+  * Multiple UnitKinds can specify the same group to use the same
+  * Application across their respective Units. Corresponds to the
+  * app_boundary_id in the ADC composite ApplicationTemplate. If empty,
+  * the service creates no App Hub application.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#group GoogleSaasRuntimeUnitKind#group}
+  */
+  readonly group?: string;
+  /**
+  * scope block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#scope GoogleSaasRuntimeUnitKind#scope}
+  */
+  readonly scope?: GoogleSaasRuntimeUnitKindAppParamsScope;
+}
+
+export function googleSaasRuntimeUnitKindAppParamsToTerraform(struct?: GoogleSaasRuntimeUnitKindAppParamsOutputReference | GoogleSaasRuntimeUnitKindAppParams): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    group: cdktn.stringToTerraform(struct!.group),
+    scope: googleSaasRuntimeUnitKindAppParamsScopeToTerraform(struct!.scope),
+  }
+}
+
+
+export function googleSaasRuntimeUnitKindAppParamsToHclTerraform(struct?: GoogleSaasRuntimeUnitKindAppParamsOutputReference | GoogleSaasRuntimeUnitKindAppParams): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    group: {
+      value: cdktn.stringToHclTerraform(struct!.group),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scope: {
+      value: googleSaasRuntimeUnitKindAppParamsScopeToHclTerraform(struct!.scope),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleSaasRuntimeUnitKindAppParamsScopeList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleSaasRuntimeUnitKindAppParamsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleSaasRuntimeUnitKindAppParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._group !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.group = this._group;
+    }
+    if (this._scope?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scope = this._scope?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleSaasRuntimeUnitKindAppParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._group = undefined;
+      this._scope.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._group = value.group;
+      this._scope.internalValue = value.scope;
+    }
+  }
+
+  // group - computed: false, optional: true, required: false
+  private _group?: string; 
+  public get group() {
+    return this.getStringAttribute('group');
+  }
+  public set group(value: string) {
+    this._group = value;
+  }
+  public resetGroup() {
+    this._group = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupInput() {
+    return this._group;
+  }
+
+  // scope - computed: false, optional: true, required: false
+  private _scope = new GoogleSaasRuntimeUnitKindAppParamsScopeOutputReference(this, "scope");
+  public get scope() {
+    return this._scope;
+  }
+  public putScope(value: GoogleSaasRuntimeUnitKindAppParamsScope) {
+    this._scope.internalValue = value;
+  }
+  public resetScope() {
+    this._scope.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeInput() {
+    return this._scope.internalValue;
+  }
+}
+export interface GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRef {
+  /**
+  * Reference to the ApplicationTemplate resource, in the format
+  * 'projects/{project}/locations/{location}/spaces/{space}/applicationTemplates/{applicationTemplate}'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#application_template GoogleSaasRuntimeUnitKind#application_template}
+  */
+  readonly applicationTemplate: string;
+  /**
+  * Revision of the ApplicationTemplate, as a full resource name
+  * prefixed by 'application_template'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#revision GoogleSaasRuntimeUnitKind#revision}
+  */
+  readonly revision?: string;
+}
+
+export function googleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRefToTerraform(struct?: GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRefOutputReference | GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRef): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    application_template: cdktn.stringToTerraform(struct!.applicationTemplate),
+    revision: cdktn.stringToTerraform(struct!.revision),
+  }
+}
+
+
+export function googleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRefToHclTerraform(struct?: GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRefOutputReference | GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRef): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    application_template: {
+      value: cdktn.stringToHclTerraform(struct!.applicationTemplate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    revision: {
+      value: cdktn.stringToHclTerraform(struct!.revision),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRefOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRef | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._applicationTemplate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationTemplate = this._applicationTemplate;
+    }
+    if (this._revision !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.revision = this._revision;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRef | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._applicationTemplate = undefined;
+      this._revision = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._applicationTemplate = value.applicationTemplate;
+      this._revision = value.revision;
+    }
+  }
+
+  // application_template - computed: false, optional: false, required: true
+  private _applicationTemplate?: string; 
+  public get applicationTemplate() {
+    return this.getStringAttribute('application_template');
+  }
+  public set applicationTemplate(value: string) {
+    this._applicationTemplate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationTemplateInput() {
+    return this._applicationTemplate;
+  }
+
+  // revision - computed: false, optional: true, required: false
+  private _revision?: string; 
+  public get revision() {
+    return this.getStringAttribute('revision');
+  }
+  public set revision(value: string) {
+    this._revision = value;
+  }
+  public resetRevision() {
+    this._revision = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get revisionInput() {
+    return this._revision;
+  }
+
+  // sync_operation - computed: true, optional: false, required: false
+  public get syncOperation() {
+    return this.getStringAttribute('sync_operation');
+  }
+}
+export interface GoogleSaasRuntimeUnitKindApplicationTemplateComponent {
+  /**
+  * Name of the component in the composite ApplicationTemplate (the root
+  * module ID, e.g. a composite component ID or 'native-components').
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#component GoogleSaasRuntimeUnitKind#component}
+  */
+  readonly component?: string;
+  /**
+  * Revision of the component. If the component does not have a revision,
+  * this is the revision of the composite ApplicationTemplate.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#revision GoogleSaasRuntimeUnitKind#revision}
+  */
+  readonly revision?: string;
+  /**
+  * composite_ref block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#composite_ref GoogleSaasRuntimeUnitKind#composite_ref}
+  */
+  readonly compositeRef?: GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRef;
+}
+
+export function googleSaasRuntimeUnitKindApplicationTemplateComponentToTerraform(struct?: GoogleSaasRuntimeUnitKindApplicationTemplateComponentOutputReference | GoogleSaasRuntimeUnitKindApplicationTemplateComponent): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    component: cdktn.stringToTerraform(struct!.component),
+    revision: cdktn.stringToTerraform(struct!.revision),
+    composite_ref: googleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRefToTerraform(struct!.compositeRef),
+  }
+}
+
+
+export function googleSaasRuntimeUnitKindApplicationTemplateComponentToHclTerraform(struct?: GoogleSaasRuntimeUnitKindApplicationTemplateComponentOutputReference | GoogleSaasRuntimeUnitKindApplicationTemplateComponent): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    component: {
+      value: cdktn.stringToHclTerraform(struct!.component),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    revision: {
+      value: cdktn.stringToHclTerraform(struct!.revision),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    composite_ref: {
+      value: googleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRefToHclTerraform(struct!.compositeRef),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRefList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleSaasRuntimeUnitKindApplicationTemplateComponentOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleSaasRuntimeUnitKindApplicationTemplateComponent | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._component !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.component = this._component;
+    }
+    if (this._revision !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.revision = this._revision;
+    }
+    if (this._compositeRef?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.compositeRef = this._compositeRef?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleSaasRuntimeUnitKindApplicationTemplateComponent | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._component = undefined;
+      this._revision = undefined;
+      this._compositeRef.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._component = value.component;
+      this._revision = value.revision;
+      this._compositeRef.internalValue = value.compositeRef;
+    }
+  }
+
+  // component - computed: false, optional: true, required: false
+  private _component?: string; 
+  public get component() {
+    return this.getStringAttribute('component');
+  }
+  public set component(value: string) {
+    this._component = value;
+  }
+  public resetComponent() {
+    this._component = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get componentInput() {
+    return this._component;
+  }
+
+  // revision - computed: false, optional: true, required: false
+  private _revision?: string; 
+  public get revision() {
+    return this.getStringAttribute('revision');
+  }
+  public set revision(value: string) {
+    this._revision = value;
+  }
+  public resetRevision() {
+    this._revision = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get revisionInput() {
+    return this._revision;
+  }
+
+  // composite_ref - computed: false, optional: true, required: false
+  private _compositeRef = new GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRefOutputReference(this, "composite_ref");
+  public get compositeRef() {
+    return this._compositeRef;
+  }
+  public putCompositeRef(value: GoogleSaasRuntimeUnitKindApplicationTemplateComponentCompositeRef) {
+    this._compositeRef.internalValue = value;
+  }
+  public resetCompositeRef() {
+    this._compositeRef.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get compositeRefInput() {
+    return this._compositeRef.internalValue;
+  }
 }
 export interface GoogleSaasRuntimeUnitKindDependencies {
   /**
   * An alias for the dependency. Used for input variable mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#alias GoogleSaasRuntimeUnitKind#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#alias GoogleSaasRuntimeUnitKind#alias}
   */
   readonly alias: string;
   /**
   * The unit kind of the dependency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#unit_kind GoogleSaasRuntimeUnitKind#unit_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#unit_kind GoogleSaasRuntimeUnitKind#unit_kind}
   */
   readonly unitKind: string;
 }
@@ -263,13 +769,13 @@ export interface GoogleSaasRuntimeUnitKindInputVariableMappingsFrom {
   /**
   * Alias of the dependency that the outputVariable will pass its value to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#dependency GoogleSaasRuntimeUnitKind#dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#dependency GoogleSaasRuntimeUnitKind#dependency}
   */
   readonly dependency: string;
   /**
   * Name of the outputVariable on the dependency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#output_variable GoogleSaasRuntimeUnitKind#output_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#output_variable GoogleSaasRuntimeUnitKind#output_variable}
   */
   readonly outputVariable: string;
 }
@@ -378,19 +884,19 @@ export interface GoogleSaasRuntimeUnitKindInputVariableMappingsTo {
   /**
   * Alias of the dependency that the inputVariable will pass its value to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#dependency GoogleSaasRuntimeUnitKind#dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#dependency GoogleSaasRuntimeUnitKind#dependency}
   */
   readonly dependency: string;
   /**
   * Tells App Lifecycle Manager if this mapping should be used during lookup or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#ignore_for_lookup GoogleSaasRuntimeUnitKind#ignore_for_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#ignore_for_lookup GoogleSaasRuntimeUnitKind#ignore_for_lookup}
   */
   readonly ignoreForLookup?: boolean | cdktn.IResolvable;
   /**
   * Name of the inputVariable on the dependency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#input_variable GoogleSaasRuntimeUnitKind#input_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#input_variable GoogleSaasRuntimeUnitKind#input_variable}
   */
   readonly inputVariable: string;
 }
@@ -528,19 +1034,19 @@ export interface GoogleSaasRuntimeUnitKindInputVariableMappings {
   /**
   * name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#variable GoogleSaasRuntimeUnitKind#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#variable GoogleSaasRuntimeUnitKind#variable}
   */
   readonly variable: string;
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#from GoogleSaasRuntimeUnitKind#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#from GoogleSaasRuntimeUnitKind#from}
   */
   readonly from?: GoogleSaasRuntimeUnitKindInputVariableMappingsFrom;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#to GoogleSaasRuntimeUnitKind#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#to GoogleSaasRuntimeUnitKind#to}
   */
   readonly to?: GoogleSaasRuntimeUnitKindInputVariableMappingsTo;
 }
@@ -713,13 +1219,13 @@ export interface GoogleSaasRuntimeUnitKindOutputVariableMappingsFrom {
   /**
   * Alias of the dependency that the outputVariable will pass its value to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#dependency GoogleSaasRuntimeUnitKind#dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#dependency GoogleSaasRuntimeUnitKind#dependency}
   */
   readonly dependency: string;
   /**
   * Name of the outputVariable on the dependency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#output_variable GoogleSaasRuntimeUnitKind#output_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#output_variable GoogleSaasRuntimeUnitKind#output_variable}
   */
   readonly outputVariable: string;
 }
@@ -828,19 +1334,19 @@ export interface GoogleSaasRuntimeUnitKindOutputVariableMappingsTo {
   /**
   * Alias of the dependency that the inputVariable will pass its value to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#dependency GoogleSaasRuntimeUnitKind#dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#dependency GoogleSaasRuntimeUnitKind#dependency}
   */
   readonly dependency: string;
   /**
   * Tells App Lifecycle Manager if this mapping should be used during lookup or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#ignore_for_lookup GoogleSaasRuntimeUnitKind#ignore_for_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#ignore_for_lookup GoogleSaasRuntimeUnitKind#ignore_for_lookup}
   */
   readonly ignoreForLookup?: boolean | cdktn.IResolvable;
   /**
   * Name of the inputVariable on the dependency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#input_variable GoogleSaasRuntimeUnitKind#input_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#input_variable GoogleSaasRuntimeUnitKind#input_variable}
   */
   readonly inputVariable: string;
 }
@@ -978,19 +1484,19 @@ export interface GoogleSaasRuntimeUnitKindOutputVariableMappings {
   /**
   * name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#variable GoogleSaasRuntimeUnitKind#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#variable GoogleSaasRuntimeUnitKind#variable}
   */
   readonly variable: string;
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#from GoogleSaasRuntimeUnitKind#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#from GoogleSaasRuntimeUnitKind#from}
   */
   readonly from?: GoogleSaasRuntimeUnitKindOutputVariableMappingsFrom;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#to GoogleSaasRuntimeUnitKind#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#to GoogleSaasRuntimeUnitKind#to}
   */
   readonly to?: GoogleSaasRuntimeUnitKindOutputVariableMappingsTo;
 }
@@ -1161,15 +1667,15 @@ export class GoogleSaasRuntimeUnitKindOutputVariableMappingsList extends cdktn.C
 }
 export interface GoogleSaasRuntimeUnitKindTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#create GoogleSaasRuntimeUnitKind#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#create GoogleSaasRuntimeUnitKind#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#delete GoogleSaasRuntimeUnitKind#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#delete GoogleSaasRuntimeUnitKind#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#update GoogleSaasRuntimeUnitKind#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#update GoogleSaasRuntimeUnitKind#update}
   */
   readonly update?: string;
 }
@@ -1321,7 +1827,7 @@ export class GoogleSaasRuntimeUnitKindTimeoutsOutputReference extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind}
 */
 export class GoogleSaasRuntimeUnitKind extends cdktn.TerraformResource {
 
@@ -1337,7 +1843,7 @@ export class GoogleSaasRuntimeUnitKind extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleSaasRuntimeUnitKind resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSaasRuntimeUnitKind to import
-  * @param importFromId The id of the existing GoogleSaasRuntimeUnitKind that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleSaasRuntimeUnitKind that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSaasRuntimeUnitKind to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1349,7 +1855,7 @@ export class GoogleSaasRuntimeUnitKind extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1360,7 +1866,7 @@ export class GoogleSaasRuntimeUnitKind extends cdktn.TerraformResource {
       terraformResourceType: 'google_saas_runtime_unit_kind',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.7.0',
+        providerVersion: '8.8.1',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
@@ -1380,6 +1886,8 @@ export class GoogleSaasRuntimeUnitKind extends cdktn.TerraformResource {
     this._project = config.project;
     this._saas = config.saas;
     this._unitKindId = config.unitKindId;
+    this._appParams.internalValue = config.appParams;
+    this._applicationTemplateComponent.internalValue = config.applicationTemplateComponent;
     this._dependencies.internalValue = config.dependencies;
     this._inputVariableMappings.internalValue = config.inputVariableMappings;
     this._outputVariableMappings.internalValue = config.outputVariableMappings;
@@ -1568,6 +2076,38 @@ export class GoogleSaasRuntimeUnitKind extends cdktn.TerraformResource {
     return this.getStringAttribute('update_time');
   }
 
+  // app_params - computed: false, optional: true, required: false
+  private _appParams = new GoogleSaasRuntimeUnitKindAppParamsOutputReference(this, "app_params");
+  public get appParams() {
+    return this._appParams;
+  }
+  public putAppParams(value: GoogleSaasRuntimeUnitKindAppParams) {
+    this._appParams.internalValue = value;
+  }
+  public resetAppParams() {
+    this._appParams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get appParamsInput() {
+    return this._appParams.internalValue;
+  }
+
+  // application_template_component - computed: false, optional: true, required: false
+  private _applicationTemplateComponent = new GoogleSaasRuntimeUnitKindApplicationTemplateComponentOutputReference(this, "application_template_component");
+  public get applicationTemplateComponent() {
+    return this._applicationTemplateComponent;
+  }
+  public putApplicationTemplateComponent(value: GoogleSaasRuntimeUnitKindApplicationTemplateComponent) {
+    this._applicationTemplateComponent.internalValue = value;
+  }
+  public resetApplicationTemplateComponent() {
+    this._applicationTemplateComponent.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationTemplateComponentInput() {
+    return this._applicationTemplateComponent.internalValue;
+  }
+
   // dependencies - computed: false, optional: true, required: false
   private _dependencies = new GoogleSaasRuntimeUnitKindDependenciesList(this, "dependencies", false);
   public get dependencies() {
@@ -1647,6 +2187,8 @@ export class GoogleSaasRuntimeUnitKind extends cdktn.TerraformResource {
       project: cdktn.stringToTerraform(this._project),
       saas: cdktn.stringToTerraform(this._saas),
       unit_kind_id: cdktn.stringToTerraform(this._unitKindId),
+      app_params: googleSaasRuntimeUnitKindAppParamsToTerraform(this._appParams.internalValue),
+      application_template_component: googleSaasRuntimeUnitKindApplicationTemplateComponentToTerraform(this._applicationTemplateComponent.internalValue),
       dependencies: cdktn.listMapper(googleSaasRuntimeUnitKindDependenciesToTerraform, true)(this._dependencies.internalValue),
       input_variable_mappings: cdktn.listMapper(googleSaasRuntimeUnitKindInputVariableMappingsToTerraform, true)(this._inputVariableMappings.internalValue),
       output_variable_mappings: cdktn.listMapper(googleSaasRuntimeUnitKindOutputVariableMappingsToTerraform, true)(this._outputVariableMappings.internalValue),
@@ -1709,6 +2251,18 @@ export class GoogleSaasRuntimeUnitKind extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      app_params: {
+        value: googleSaasRuntimeUnitKindAppParamsToHclTerraform(this._appParams.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleSaasRuntimeUnitKindAppParamsList",
+      },
+      application_template_component: {
+        value: googleSaasRuntimeUnitKindApplicationTemplateComponentToHclTerraform(this._applicationTemplateComponent.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleSaasRuntimeUnitKindApplicationTemplateComponentList",
       },
       dependencies: {
         value: cdktn.listMapperHcl(googleSaasRuntimeUnitKindDependenciesToHclTerraform, true)(this._dependencies.internalValue),

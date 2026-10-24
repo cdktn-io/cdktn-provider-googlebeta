@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleDiscoveryEngineSchemaConfig extends cdktn.TerraformMetaAr
   /**
   * The unique id of the data store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#data_store_id GoogleDiscoveryEngineSchema#data_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#data_store_id GoogleDiscoveryEngineSchema#data_store_id}
   */
   readonly dataStoreId: string;
   /**
@@ -27,11 +27,11 @@ export interface GoogleDiscoveryEngineSchemaConfig extends cdktn.TerraformMetaAr
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#deletion_policy GoogleDiscoveryEngineSchema#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#deletion_policy GoogleDiscoveryEngineSchema#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#id GoogleDiscoveryEngineSchema#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#id GoogleDiscoveryEngineSchema#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,43 +39,53 @@ export interface GoogleDiscoveryEngineSchemaConfig extends cdktn.TerraformMetaAr
   readonly id?: string;
   /**
   * The JSON representation of the schema.
+  * Changes are applied in place and must be backward compatible: existing fields
+  * can't be removed or have their type changed. Updating the schema triggers
+  * reindexing of all documents in the data store, which can take hours for large
+  * data stores and may incur costs. See
+  * [Update a schema for structured data](https://cloud.google.com/generative-ai-app-builder/docs/update-schemas)
+  * for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#json_schema GoogleDiscoveryEngineSchema#json_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#json_schema GoogleDiscoveryEngineSchema#json_schema}
   */
   readonly jsonSchema?: string;
   /**
   * The geographic location where the data store should reside. The value can
   * only be one of "global", "us" and "eu".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#location GoogleDiscoveryEngineSchema#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#location GoogleDiscoveryEngineSchema#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#project GoogleDiscoveryEngineSchema#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#project GoogleDiscoveryEngineSchema#project}
   */
   readonly project?: string;
   /**
   * The unique id of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#schema_id GoogleDiscoveryEngineSchema#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#schema_id GoogleDiscoveryEngineSchema#schema_id}
   */
   readonly schemaId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#timeouts GoogleDiscoveryEngineSchema#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#timeouts GoogleDiscoveryEngineSchema#timeouts}
   */
   readonly timeouts?: GoogleDiscoveryEngineSchemaTimeouts;
 }
 export interface GoogleDiscoveryEngineSchemaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#create GoogleDiscoveryEngineSchema#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#create GoogleDiscoveryEngineSchema#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#delete GoogleDiscoveryEngineSchema#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#delete GoogleDiscoveryEngineSchema#delete}
   */
   readonly delete?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#update GoogleDiscoveryEngineSchema#update}
+  */
+  readonly update?: string;
 }
 
 export function googleDiscoveryEngineSchemaTimeoutsToTerraform(struct?: GoogleDiscoveryEngineSchemaTimeouts | cdktn.IResolvable): any {
@@ -86,6 +96,7 @@ export function googleDiscoveryEngineSchemaTimeoutsToTerraform(struct?: GoogleDi
   return {
     create: cdktn.stringToTerraform(struct!.create),
     delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
@@ -104,6 +115,12 @@ export function googleDiscoveryEngineSchemaTimeoutsToHclTerraform(struct?: Googl
     },
     delete: {
       value: cdktn.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    update: {
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -140,6 +157,10 @@ export class GoogleDiscoveryEngineSchemaTimeoutsOutputReference extends cdktn.Co
       hasAnyValues = true;
       internalValueResult.delete = this._delete;
     }
+    if (this._update !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.update = this._update;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -149,6 +170,7 @@ export class GoogleDiscoveryEngineSchemaTimeoutsOutputReference extends cdktn.Co
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
+      this._update = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -159,6 +181,7 @@ export class GoogleDiscoveryEngineSchemaTimeoutsOutputReference extends cdktn.Co
       this.resolvableValue = undefined;
       this._create = value.create;
       this._delete = value.delete;
+      this._update = value.update;
     }
   }
 
@@ -193,10 +216,26 @@ export class GoogleDiscoveryEngineSchemaTimeoutsOutputReference extends cdktn.Co
   public get deleteInput() {
     return this._delete;
   }
+
+  // update - computed: false, optional: true, required: false
+  private _update?: string; 
+  public get update() {
+    return this.getStringAttribute('update');
+  }
+  public set update(value: string) {
+    this._update = value;
+  }
+  public resetUpdate() {
+    this._update = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateInput() {
+    return this._update;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema google_discovery_engine_schema}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema google_discovery_engine_schema}
 */
 export class GoogleDiscoveryEngineSchema extends cdktn.TerraformResource {
 
@@ -212,7 +251,7 @@ export class GoogleDiscoveryEngineSchema extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDiscoveryEngineSchema resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDiscoveryEngineSchema to import
-  * @param importFromId The id of the existing GoogleDiscoveryEngineSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDiscoveryEngineSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDiscoveryEngineSchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -224,7 +263,7 @@ export class GoogleDiscoveryEngineSchema extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema google_discovery_engine_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_discovery_engine_schema google_discovery_engine_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,7 +274,7 @@ export class GoogleDiscoveryEngineSchema extends cdktn.TerraformResource {
       terraformResourceType: 'google_discovery_engine_schema',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.7.0',
+        providerVersion: '8.8.1',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,

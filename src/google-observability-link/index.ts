@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface GoogleObservabilityLinkConfig extends cdktn.TerraformMetaArgume
   /**
   * The bucket of the link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#bucket GoogleObservabilityLink#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#bucket GoogleObservabilityLink#bucket}
   */
   readonly bucket: string;
   /**
   * The dataset of the link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#dataset GoogleObservabilityLink#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#dataset GoogleObservabilityLink#dataset}
   */
   readonly dataset: string;
   /**
@@ -33,23 +33,23 @@ export interface GoogleObservabilityLinkConfig extends cdktn.TerraformMetaArgume
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#deletion_policy GoogleObservabilityLink#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#deletion_policy GoogleObservabilityLink#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Description of the link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#description GoogleObservabilityLink#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#description GoogleObservabilityLink#description}
   */
   readonly description?: string;
   /**
   * User friendly display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#display_name GoogleObservabilityLink#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#display_name GoogleObservabilityLink#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#id GoogleObservabilityLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#id GoogleObservabilityLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,37 +58,37 @@ export interface GoogleObservabilityLinkConfig extends cdktn.TerraformMetaArgume
   /**
   * The client-assigned identifier for the link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#link_id GoogleObservabilityLink#link_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#link_id GoogleObservabilityLink#link_id}
   */
   readonly linkId: string;
   /**
   * The location of the link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#location GoogleObservabilityLink#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#location GoogleObservabilityLink#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#project GoogleObservabilityLink#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#project GoogleObservabilityLink#project}
   */
   readonly project?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#timeouts GoogleObservabilityLink#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#timeouts GoogleObservabilityLink#timeouts}
   */
   readonly timeouts?: GoogleObservabilityLinkTimeouts;
 }
 export interface GoogleObservabilityLinkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#create GoogleObservabilityLink#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#create GoogleObservabilityLink#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#delete GoogleObservabilityLink#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#delete GoogleObservabilityLink#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#update GoogleObservabilityLink#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#update GoogleObservabilityLink#update}
   */
   readonly update?: string;
 }
@@ -240,7 +240,7 @@ export class GoogleObservabilityLinkTimeoutsOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link google_observability_link}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link google_observability_link}
 */
 export class GoogleObservabilityLink extends cdktn.TerraformResource {
 
@@ -256,7 +256,7 @@ export class GoogleObservabilityLink extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleObservabilityLink resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleObservabilityLink to import
-  * @param importFromId The id of the existing GoogleObservabilityLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleObservabilityLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleObservabilityLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -268,7 +268,7 @@ export class GoogleObservabilityLink extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link google_observability_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.8.1/docs/resources/google_observability_link google_observability_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,7 +279,7 @@ export class GoogleObservabilityLink extends cdktn.TerraformResource {
       terraformResourceType: 'google_observability_link',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.7.0',
+        providerVersion: '8.8.1',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
